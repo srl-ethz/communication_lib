@@ -6,7 +6,7 @@ fastdds_lib
 )
 
 target_include_directories(comm_lib INTERFACE
-msgs
+common/msgs
 )
 
 add_subdirectory(fastdds)
