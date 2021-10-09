@@ -1,0 +1,9 @@
+[submodule "fastdds/fastdds_actuator_controls"]
+	path = fastdds/fastdds_actuator_controls
+	url = https://github.com/sarath-menon/fastdds_actuator_controls.git
+[submodule "fastdds/fastdds_mocap"]
+	path = fastdds/fastdds_mocap
+	url = https://github.com/sarath-menon/fastdds_mocap.git
+[submodule "common/msgs"]
+	path = common/msgs
+	url = https://github.com/sarath-menon/msgs.git
