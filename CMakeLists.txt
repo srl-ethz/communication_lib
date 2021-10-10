@@ -4,7 +4,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_library(comm_lib INTERFACE)
 
-include_directories(common/msgs)
+# include_directories(common/msgs)
 
 target_link_libraries(comm_lib INTERFACE
 communication_common_lib
@@ -17,3 +17,5 @@ fastdds_lib
 
 add_subdirectory(msgs_lib)
 add_subdirectory(fastdds)
+
+add_subdirectory(tests)
