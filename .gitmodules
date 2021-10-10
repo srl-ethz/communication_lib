@@ -4,6 +4,6 @@
 [submodule "fastdds/fastdds_mocap"]
 	path = fastdds/fastdds_mocap
 	url = https://github.com/sarath-menon/fastdds_mocap.git
-[submodule "common/msgs"]
-	path = common/msgs
-	url = https://github.com/sarath-menon/msgs.git
+[submodule "msgs_lib"]
+	path = msgs_lib
+	url = https://github.com/sarath-menon/msgs_lib.git
