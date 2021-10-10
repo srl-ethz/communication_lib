@@ -15,5 +15,5 @@ fastdds_lib
 # common/msgs
 # )
 
-add_subdirectory(common)
+add_subdirectory(msgs_lib)
 add_subdirectory(fastdds)
