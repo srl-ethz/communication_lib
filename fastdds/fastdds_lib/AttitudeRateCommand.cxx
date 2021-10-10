@@ -36,13 +36,13 @@ using namespace eprosima::fastcdr::exception;
 
 AttitudeRateCommand::AttitudeRateCommand()
 {
-    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@2bea5ab4
+    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@2df32bf7
 
-    // m_roll_rate com.eprosima.idl.parser.typecode.PrimitiveTypeCode@3d8314f0
+    // m_roll_rate com.eprosima.idl.parser.typecode.PrimitiveTypeCode@530612ba
     m_roll_rate = 0.0;
-    // m_pitch_rate com.eprosima.idl.parser.typecode.PrimitiveTypeCode@2df32bf7
+    // m_pitch_rate com.eprosima.idl.parser.typecode.PrimitiveTypeCode@2a40cd94
     m_pitch_rate = 0.0;
-    // m_yaw_rate com.eprosima.idl.parser.typecode.PrimitiveTypeCode@530612ba
+    // m_yaw_rate com.eprosima.idl.parser.typecode.PrimitiveTypeCode@f4168b8
     m_yaw_rate = 0.0;
 
 }

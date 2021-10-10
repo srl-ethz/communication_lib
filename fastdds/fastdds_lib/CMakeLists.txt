@@ -11,24 +11,13 @@ find_package(fastcdr REQUIRED)
 find_package(fastrtps REQUIRED)
 
 
-message(STATUS "Configuring Header...")
-add_library(Header_lib Header.cxx)
-target_link_libraries(Header_lib fastcdr fastrtps)
+message(STATUS "Configuring EulerAngleZYX...")
+add_library(EulerAngleZYX_lib EulerAngleZYX.cxx)
+target_link_libraries(EulerAngleZYX_lib fastcdr fastrtps)
 
-add_executable(Header HeaderPubSubTypes.cxx HeaderPublisher.cxx HeaderSubscriber.cxx HeaderPubSubMain.cxx)
-target_link_libraries(Header fastcdr fastrtps
-        Header_lib )
-
-
-
-
-message(STATUS "Configuring MotorSpeed...")
-add_library(MotorSpeed_lib MotorSpeed.cxx)
-target_link_libraries(MotorSpeed_lib fastcdr fastrtps)
-
-add_executable(MotorSpeed MotorSpeedPubSubTypes.cxx MotorSpeedPublisher.cxx MotorSpeedSubscriber.cxx MotorSpeedPubSubMain.cxx)
-target_link_libraries(MotorSpeed fastcdr fastrtps
-        MotorSpeed_lib )
+add_executable(EulerAngleZYX EulerAngleZYXPubSubTypes.cxx EulerAngleZYXPublisher.cxx EulerAngleZYXSubscriber.cxx EulerAngleZYXPubSubMain.cxx)
+target_link_libraries(EulerAngleZYX fastcdr fastrtps
+        EulerAngleZYX_lib )
 
 
 
@@ -44,46 +33,35 @@ target_link_libraries(Position fastcdr fastrtps
 
 
 
-message(STATUS "Configuring AttitudeCommand...")
-add_library(AttitudeCommand_lib AttitudeCommand.cxx)
-target_link_libraries(AttitudeCommand_lib fastcdr fastrtps)
+message(STATUS "Configuring Quaternion...")
+add_library(Quaternion_lib Quaternion.cxx)
+target_link_libraries(Quaternion_lib fastcdr fastrtps)
 
-add_executable(AttitudeCommand AttitudeCommandPubSubTypes.cxx AttitudeCommandPublisher.cxx AttitudeCommandSubscriber.cxx AttitudeCommandPubSubMain.cxx)
-target_link_libraries(AttitudeCommand fastcdr fastrtps
-        AttitudeCommand_lib Header_lib)
-
-
-
-
-message(STATUS "Configuring AttitudeRateCommand...")
-add_library(AttitudeRateCommand_lib AttitudeRateCommand.cxx)
-target_link_libraries(AttitudeRateCommand_lib fastcdr fastrtps)
-
-add_executable(AttitudeRateCommand AttitudeRateCommandPubSubTypes.cxx AttitudeRateCommandPublisher.cxx AttitudeRateCommandSubscriber.cxx AttitudeRateCommandPubSubMain.cxx)
-target_link_libraries(AttitudeRateCommand fastcdr fastrtps
-        AttitudeRateCommand_lib Header_lib)
+add_executable(Quaternion QuaternionPubSubTypes.cxx QuaternionPublisher.cxx QuaternionSubscriber.cxx QuaternionPubSubMain.cxx)
+target_link_libraries(Quaternion fastcdr fastrtps
+        Quaternion_lib )
 
 
 
 
-message(STATUS "Configuring MotorCommand...")
-add_library(MotorCommand_lib MotorCommand.cxx)
-target_link_libraries(MotorCommand_lib fastcdr fastrtps)
+message(STATUS "Configuring Header...")
+add_library(Header_lib Header.cxx)
+target_link_libraries(Header_lib fastcdr fastrtps)
 
-add_executable(MotorCommand MotorCommandPubSubTypes.cxx MotorCommandPublisher.cxx MotorCommandSubscriber.cxx MotorCommandPubSubMain.cxx)
-target_link_libraries(MotorCommand fastcdr fastrtps
-        MotorCommand_lib Header_lib MotorSpeed_lib)
-
-
+add_executable(Header HeaderPubSubTypes.cxx HeaderPublisher.cxx HeaderSubscriber.cxx HeaderPubSubMain.cxx)
+target_link_libraries(Header fastcdr fastrtps
+        Header_lib )
 
 
-message(STATUS "Configuring PositionCommand...")
-add_library(PositionCommand_lib PositionCommand.cxx)
-target_link_libraries(PositionCommand_lib fastcdr fastrtps)
 
-add_executable(PositionCommand PositionCommandPubSubTypes.cxx PositionCommandPublisher.cxx PositionCommandSubscriber.cxx PositionCommandPubSubMain.cxx)
-target_link_libraries(PositionCommand fastcdr fastrtps
-        PositionCommand_lib Header_lib Position_lib)
+
+message(STATUS "Configuring Pose...")
+add_library(Pose_lib Pose.cxx)
+target_link_libraries(Pose_lib fastcdr fastrtps)
+
+add_executable(Pose PosePubSubTypes.cxx PosePublisher.cxx PoseSubscriber.cxx PosePubSubMain.cxx)
+target_link_libraries(Pose fastcdr fastrtps
+        Pose_lib Header_lib Quaternion_lib Position_lib EulerAngleZYX_lib)
 
 
 
