@@ -2,7 +2,7 @@
 
 Position st;
 
-void DDSSubscriber::SubListener::on_data_available(DataReader *reader) {
+inline void DDSSubscriber::SubListener::on_data_available(DataReader *reader) {
   SampleInfo info;
 
   if (reader->take_next_sample(&st, &info) == ReturnCode_t::RETCODE_OK) {
