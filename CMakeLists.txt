@@ -9,7 +9,7 @@ find_package(fastrtps REQUIRED)
 add_library(comm_lib INTERFACE)
 
 target_link_libraries(comm_lib INTERFACE
-communication_common_lib
+msgs_lib
 fastdds_lib
 fastdds_new_lib
 )
