@@ -36,13 +36,13 @@ using namespace eprosima::fastcdr::exception;
 
 Pose::Pose()
 {
-    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@16aa0a0a
+    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@59d016c9
 
-    // m_position com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@780cb77
+    // m_position com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@3cc2931c
 
-    // m_orientation_euler com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@691a7f8f
+    // m_orientation_euler com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@60d8c9b7
 
-    // m_orientation_quat com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@50a7bc6e
+    // m_orientation_quat com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@48aaecc3
 
 
 }

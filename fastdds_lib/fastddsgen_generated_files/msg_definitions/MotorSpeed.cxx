@@ -36,7 +36,7 @@ using namespace eprosima::fastcdr::exception;
 
 MotorSpeed::MotorSpeed()
 {
-    // m_motor_speed com.eprosima.idl.parser.typecode.PrimitiveTypeCode@55a1c291
+    // m_motor_speed com.eprosima.idl.parser.typecode.PrimitiveTypeCode@4206a205
     m_motor_speed = 0.0;
 
 }
