@@ -2,4 +2,5 @@
 add_subdirectory(publisher_test)
 add_subdirectory(subscriber_test)
 add_subdirectory(subscriber_test_new)
-
+add_subdirectory(publisher_test_new)
+add_subdirectory(subscriber_test_mocap)

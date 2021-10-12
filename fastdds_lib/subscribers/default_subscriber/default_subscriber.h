@@ -58,7 +58,6 @@ public:
 
   public:
     //  Protection against race condition using mutex
-    bool new_data{false};
     std::mutex m;
 
     // Condition variable to indicate msg received
