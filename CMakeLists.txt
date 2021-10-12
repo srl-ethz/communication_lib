@@ -11,12 +11,10 @@ add_library(comm_lib INTERFACE)
 target_link_libraries(comm_lib INTERFACE
 msgs_lib
 fastdds_lib
-fastdds_new_lib
 )
 
 add_subdirectory(msgs_lib)
 add_subdirectory(fastdds_lib)
-add_subdirectory(fastdds)
 
 
 # add_subdirectory(tests)

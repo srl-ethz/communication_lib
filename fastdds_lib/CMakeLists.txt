@@ -4,9 +4,9 @@
 # ###############################################################################
 
 
-add_library(fastdds_new_lib INTERFACE)
+add_library(fastdds_lib INTERFACE)
 
-target_link_libraries(fastdds_new_lib INTERFACE
+target_link_libraries(fastdds_lib INTERFACE
 fastddsgen_generated_lib
 publishers_lib
 subscribers_lib
