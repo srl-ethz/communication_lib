@@ -36,9 +36,9 @@ using namespace eprosima::fastcdr::exception;
 
 ImageHD::ImageHD()
 {
-    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@345965f2
+    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@226a82c4
 
-    // m_frame com.eprosima.idl.parser.typecode.ArrayTypeCode@429bd883
+    // m_frame com.eprosima.idl.parser.typecode.ArrayTypeCode@731f8236
     memset(&m_frame, 0, (2039040) * 1);
 
 }

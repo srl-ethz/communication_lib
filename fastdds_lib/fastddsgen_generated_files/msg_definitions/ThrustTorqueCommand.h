@@ -63,50 +63,50 @@ class Cdr;
 
 
 /*!
- * @brief This class represents the structure MotorSpeed defined by the user in the IDL file.
+ * @brief This class represents the structure ThrustTorqueCommand defined by the user in the IDL file.
  * @ingroup THRUSTTORQUECOMMAND
  */
-class MotorSpeed
+class ThrustTorqueCommand
 {
 public:
 
     /*!
      * @brief Default constructor.
      */
-    eProsima_user_DllExport MotorSpeed();
+    eProsima_user_DllExport ThrustTorqueCommand();
 
     /*!
      * @brief Default destructor.
      */
-    eProsima_user_DllExport ~MotorSpeed();
+    eProsima_user_DllExport ~ThrustTorqueCommand();
 
     /*!
      * @brief Copy constructor.
-     * @param x Reference to the object MotorSpeed that will be copied.
+     * @param x Reference to the object ThrustTorqueCommand that will be copied.
      */
-    eProsima_user_DllExport MotorSpeed(
-            const MotorSpeed& x);
+    eProsima_user_DllExport ThrustTorqueCommand(
+            const ThrustTorqueCommand& x);
 
     /*!
      * @brief Move constructor.
-     * @param x Reference to the object MotorSpeed that will be copied.
+     * @param x Reference to the object ThrustTorqueCommand that will be copied.
      */
-    eProsima_user_DllExport MotorSpeed(
-            MotorSpeed&& x);
+    eProsima_user_DllExport ThrustTorqueCommand(
+            ThrustTorqueCommand&& x);
 
     /*!
      * @brief Copy assignment.
-     * @param x Reference to the object MotorSpeed that will be copied.
+     * @param x Reference to the object ThrustTorqueCommand that will be copied.
      */
-    eProsima_user_DllExport MotorSpeed& operator =(
-            const MotorSpeed& x);
+    eProsima_user_DllExport ThrustTorqueCommand& operator =(
+            const ThrustTorqueCommand& x);
 
     /*!
      * @brief Move assignment.
-     * @param x Reference to the object MotorSpeed that will be copied.
+     * @param x Reference to the object ThrustTorqueCommand that will be copied.
      */
-    eProsima_user_DllExport MotorSpeed& operator =(
-            MotorSpeed&& x);
+    eProsima_user_DllExport ThrustTorqueCommand& operator =(
+            ThrustTorqueCommand&& x);
 
     /*!
      * @brief This function copies the value in member header
@@ -226,7 +226,7 @@ public:
      * @return Serialized size.
      */
     eProsima_user_DllExport static size_t getCdrSerializedSize(
-            const MotorSpeed& data,
+            const ThrustTorqueCommand& data,
             size_t current_alignment = 0);
 
 

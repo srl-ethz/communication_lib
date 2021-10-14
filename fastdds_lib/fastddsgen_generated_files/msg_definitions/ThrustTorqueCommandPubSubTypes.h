@@ -33,18 +33,18 @@
 #endif  // GEN_API_VER
 
 /*!
- * @brief This class represents the TopicDataType of the type MotorSpeed defined by the user in the IDL file.
+ * @brief This class represents the TopicDataType of the type ThrustTorqueCommand defined by the user in the IDL file.
  * @ingroup THRUSTTORQUECOMMAND
  */
-class MotorSpeedPubSubType : public eprosima::fastdds::dds::TopicDataType
+class ThrustTorqueCommandPubSubType : public eprosima::fastdds::dds::TopicDataType
 {
 public:
 
-    typedef MotorSpeed type;
+    typedef ThrustTorqueCommand type;
 
-    eProsima_user_DllExport MotorSpeedPubSubType();
+    eProsima_user_DllExport ThrustTorqueCommandPubSubType();
 
-    eProsima_user_DllExport virtual ~MotorSpeedPubSubType();
+    eProsima_user_DllExport virtual ~ThrustTorqueCommandPubSubType();
 
     eProsima_user_DllExport virtual bool serialize(
             void* data,

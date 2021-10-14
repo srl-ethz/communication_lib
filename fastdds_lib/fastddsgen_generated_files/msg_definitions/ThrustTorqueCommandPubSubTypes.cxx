@@ -28,20 +28,20 @@
 using SerializedPayload_t = eprosima::fastrtps::rtps::SerializedPayload_t;
 using InstanceHandle_t = eprosima::fastrtps::rtps::InstanceHandle_t;
 
-MotorSpeedPubSubType::MotorSpeedPubSubType()
+ThrustTorqueCommandPubSubType::ThrustTorqueCommandPubSubType()
 {
-    setName("MotorSpeed");
-    auto type_size = MotorSpeed::getMaxCdrSerializedSize();
+    setName("ThrustTorqueCommand");
+    auto type_size = ThrustTorqueCommand::getMaxCdrSerializedSize();
     type_size += eprosima::fastcdr::Cdr::alignment(type_size, 4); /* possible submessage alignment */
     m_typeSize = static_cast<uint32_t>(type_size) + 4; /*encapsulation*/
-    m_isGetKeyDefined = MotorSpeed::isKeyDefined();
-    size_t keyLength = MotorSpeed::getKeyMaxCdrSerializedSize() > 16 ?
-            MotorSpeed::getKeyMaxCdrSerializedSize() : 16;
+    m_isGetKeyDefined = ThrustTorqueCommand::isKeyDefined();
+    size_t keyLength = ThrustTorqueCommand::getKeyMaxCdrSerializedSize() > 16 ?
+            ThrustTorqueCommand::getKeyMaxCdrSerializedSize() : 16;
     m_keyBuffer = reinterpret_cast<unsigned char*>(malloc(keyLength));
     memset(m_keyBuffer, 0, keyLength);
 }
 
-MotorSpeedPubSubType::~MotorSpeedPubSubType()
+ThrustTorqueCommandPubSubType::~ThrustTorqueCommandPubSubType()
 {
     if (m_keyBuffer != nullptr)
     {
@@ -49,11 +49,11 @@ MotorSpeedPubSubType::~MotorSpeedPubSubType()
     }
 }
 
-bool MotorSpeedPubSubType::serialize(
+bool ThrustTorqueCommandPubSubType::serialize(
         void* data,
         SerializedPayload_t* payload)
 {
-    MotorSpeed* p_type = static_cast<MotorSpeed*>(data);
+    ThrustTorqueCommand* p_type = static_cast<ThrustTorqueCommand*>(data);
 
     // Object that manages the raw buffer.
     eprosima::fastcdr::FastBuffer fastbuffer(reinterpret_cast<char*>(payload->data), payload->max_size);
@@ -78,12 +78,12 @@ bool MotorSpeedPubSubType::serialize(
     return true;
 }
 
-bool MotorSpeedPubSubType::deserialize(
+bool ThrustTorqueCommandPubSubType::deserialize(
         SerializedPayload_t* payload,
         void* data)
 {
     //Convert DATA to pointer of your type
-    MotorSpeed* p_type = static_cast<MotorSpeed*>(data);
+    ThrustTorqueCommand* p_type = static_cast<ThrustTorqueCommand*>(data);
 
     // Object that manages the raw buffer.
     eprosima::fastcdr::FastBuffer fastbuffer(reinterpret_cast<char*>(payload->data), payload->length);
@@ -108,28 +108,28 @@ bool MotorSpeedPubSubType::deserialize(
     return true;
 }
 
-std::function<uint32_t()> MotorSpeedPubSubType::getSerializedSizeProvider(
+std::function<uint32_t()> ThrustTorqueCommandPubSubType::getSerializedSizeProvider(
         void* data)
 {
     return [data]() -> uint32_t
            {
-               return static_cast<uint32_t>(type::getCdrSerializedSize(*static_cast<MotorSpeed*>(data))) +
+               return static_cast<uint32_t>(type::getCdrSerializedSize(*static_cast<ThrustTorqueCommand*>(data))) +
                       4u /*encapsulation*/;
            };
 }
 
-void* MotorSpeedPubSubType::createData()
+void* ThrustTorqueCommandPubSubType::createData()
 {
-    return reinterpret_cast<void*>(new MotorSpeed());
+    return reinterpret_cast<void*>(new ThrustTorqueCommand());
 }
 
-void MotorSpeedPubSubType::deleteData(
+void ThrustTorqueCommandPubSubType::deleteData(
         void* data)
 {
-    delete(reinterpret_cast<MotorSpeed*>(data));
+    delete(reinterpret_cast<ThrustTorqueCommand*>(data));
 }
 
-bool MotorSpeedPubSubType::getKey(
+bool ThrustTorqueCommandPubSubType::getKey(
         void* data,
         InstanceHandle_t* handle,
         bool force_md5)
@@ -139,16 +139,16 @@ bool MotorSpeedPubSubType::getKey(
         return false;
     }
 
-    MotorSpeed* p_type = static_cast<MotorSpeed*>(data);
+    ThrustTorqueCommand* p_type = static_cast<ThrustTorqueCommand*>(data);
 
     // Object that manages the raw buffer.
     eprosima::fastcdr::FastBuffer fastbuffer(reinterpret_cast<char*>(m_keyBuffer),
-            MotorSpeed::getKeyMaxCdrSerializedSize());
+            ThrustTorqueCommand::getKeyMaxCdrSerializedSize());
 
     // Object that serializes the data.
     eprosima::fastcdr::Cdr ser(fastbuffer, eprosima::fastcdr::Cdr::BIG_ENDIANNESS);
     p_type->serializeKey(ser);
-    if (force_md5 || MotorSpeed::getKeyMaxCdrSerializedSize() > 16)
+    if (force_md5 || ThrustTorqueCommand::getKeyMaxCdrSerializedSize() > 16)
     {
         m_md5.init();
         m_md5.update(m_keyBuffer, static_cast<unsigned int>(ser.getSerializedDataLength()));

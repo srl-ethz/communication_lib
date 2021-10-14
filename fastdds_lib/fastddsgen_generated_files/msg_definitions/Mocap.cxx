@@ -36,11 +36,11 @@ using namespace eprosima::fastcdr::exception;
 
 Mocap::Mocap()
 {
-    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@b7f23d9
+    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@15bb6bea
 
-    // m_pose com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@61d47554
+    // m_pose com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@8b96fde
 
-    // m_latency com.eprosima.idl.parser.typecode.PrimitiveTypeCode@4d339552
+    // m_latency com.eprosima.idl.parser.typecode.PrimitiveTypeCode@2d2e5f00
     m_latency = 0.0;
 
 }
