@@ -16,7 +16,7 @@ int main() {
     std::unique_lock<std::mutex> lk(img_sub.listener.m);
     img_sub.listener.cv.wait(lk, [] { return new_data; });
 
-    std::cout << "Image data:" << st.frame().at(0) << '\n';
+    std::cout << "Image data:" << unsigned(st.frame().at(0)) << '\n';
 
     new_data = false;
 
