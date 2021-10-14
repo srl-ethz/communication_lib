@@ -138,26 +138,26 @@ public:
      * @param _frame New value to be copied in member frame
      */
     eProsima_user_DllExport void frame(
-            const std::array<uint8_t, 3000>& _frame);
+            const std::array<uint8_t, 300000>& _frame);
 
     /*!
      * @brief This function moves the value in member frame
      * @param _frame New value to be moved in member frame
      */
     eProsima_user_DllExport void frame(
-            std::array<uint8_t, 3000>&& _frame);
+            std::array<uint8_t, 300000>&& _frame);
 
     /*!
      * @brief This function returns a constant reference to member frame
      * @return Constant reference to member frame
      */
-    eProsima_user_DllExport const std::array<uint8_t, 3000>& frame() const;
+    eProsima_user_DllExport const std::array<uint8_t, 300000>& frame() const;
 
     /*!
      * @brief This function returns a reference to member frame
      * @return Reference to member frame
      */
-    eProsima_user_DllExport std::array<uint8_t, 3000>& frame();
+    eProsima_user_DllExport std::array<uint8_t, 300000>& frame();
 
     /*!
      * @brief This function returns the maximum serialized size of an object
@@ -219,7 +219,7 @@ public:
 private:
 
     Header m_header;
-    std::array<uint8_t, 3000> m_frame;
+    std::array<uint8_t, 300000> m_frame;
 };
 
 #endif // _IMAGEHD_H_
