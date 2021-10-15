@@ -17,4 +17,4 @@ add_subdirectory(msgs_lib)
 add_subdirectory(fastdds_lib)
 
 
-add_subdirectory(tests)
+# add_subdirectory(tests)
