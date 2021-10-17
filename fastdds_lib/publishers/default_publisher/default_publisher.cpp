@@ -61,6 +61,11 @@ bool DDSPublisher::init() {
 
   std::cout << "Position DataWriter created." << std::endl;
   return true;
+
+  // Set QOS
+  best_effort_.kind = BEST_EFFORT_RELIABILITY_QOS;
+  writer_qos_.reliability(best_effort_);
+  writer_->set_qos(writer_qos_);
 }
 
 void DDSPublisher::PubListener::on_publication_matched(

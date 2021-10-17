@@ -84,6 +84,17 @@
         "valarray": "cpp",
         "variant": "cpp",
         "vector": "cpp",
-        "*.ipp": "cpp"
-    }
+        "*.ipp": "cpp",
+        "clocale": "cpp",
+        "compare": "cpp",
+        "*.tcc": "cpp",
+        "concepts": "cpp",
+        "memory_resource": "cpp",
+        "numbers": "cpp",
+        "semaphore": "cpp",
+        "stop_token": "cpp",
+        "cinttypes": "cpp"
+    },
+    "cortex-debug.armToolchainPath": "/usr/local/bin",
+    "cortex-debug.openocdPath": "/usr/local/bin/openocd"
 }

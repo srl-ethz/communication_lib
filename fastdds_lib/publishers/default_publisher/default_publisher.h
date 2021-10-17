@@ -39,6 +39,9 @@ private:
   eprosima::fastdds::dds::DataWriter *writer_;
   eprosima::fastdds::dds::TypeSupport type_;
 
+  eprosima::fastdds::dds::ReliabilityQosPolicy best_effort_;
+  eprosima::fastdds::dds::DataWriterQos writer_qos_;
+
 public:
   class PubListener : public eprosima::fastdds::dds::DataWriterListener {
 
