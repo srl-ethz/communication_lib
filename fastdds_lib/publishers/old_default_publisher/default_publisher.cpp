@@ -21,7 +21,6 @@ DDSPublisher::~DDSPublisher() {
   if (topic_ != nullptr) {
     participant_->delete_topic(topic_);
   }
-  DomainParticipantFactory::get_instance()->delete_participant(participant_);
 }
 
 bool DDSPublisher::init() {

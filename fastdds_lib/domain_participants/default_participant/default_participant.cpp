@@ -29,7 +29,6 @@ DefaultParticipant::DefaultParticipant(int domain_id, std::string qos_name) {
 }
 
 DefaultParticipant::~DefaultParticipant() {
-
   eprosima::fastdds::dds::DomainParticipantFactory::get_instance()
       ->delete_participant(participant_);
 };
