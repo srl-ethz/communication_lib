@@ -10,19 +10,16 @@
 #include <mutex>
 #include <shared_mutex>
 
+using namespace eprosima::fastdds::dds;
+
 class DDSSubscriber {
 public:
   // msg_type = class type of msg
   template <class msg_type>
-  DDSSubscriber(msg_type, std::string topic_name,
-                eprosima::fastdds::dds::DomainParticipant *participant)
-      : subscriber_(nullptr), topic_(nullptr), reader_(nullptr),
-        type_(new msg_type) {
-    // Set topic name
+  DDSSubscriber(msg_type, std::string topic_name)
+      : participant_(nullptr), subscriber_(nullptr), topic_(nullptr),
+        reader_(nullptr), type_(new msg_type) {
     topic_name_ = topic_name;
-
-    // Set pointer to domain participant
-    participant_ = participant;
   }
 
   // Custom Variables

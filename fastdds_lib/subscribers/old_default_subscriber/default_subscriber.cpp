@@ -1,6 +1,5 @@
 
 #include "default_subscriber.h"
-using namespace eprosima::fastdds::dds;
 
 DDSSubscriber::~DDSSubscriber() {
   if (reader_ != nullptr) {
@@ -16,6 +15,15 @@ DDSSubscriber::~DDSSubscriber() {
 }
 
 bool DDSSubscriber::init() {
+  // CREATE THE PARTICIPANT
+  DomainParticipantQos pqos;
+  pqos.name("Participant_sub");
+  participant_ =
+      DomainParticipantFactory::get_instance()->create_participant(0, pqos);
+  if (participant_ == nullptr) {
+    return false;
+  }
+
   // REGISTER THE TYPE
   type_.register_type(participant_);
 
