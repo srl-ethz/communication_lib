@@ -1,5 +1,6 @@
 #pragma once
 
+bool new_data{false};
 Position st;
 
 inline void DDSSubscriber::SubListener::on_data_available(DataReader *reader) {

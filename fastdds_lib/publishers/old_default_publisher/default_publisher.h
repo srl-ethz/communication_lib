@@ -8,21 +8,14 @@
 
 class DDSPublisher {
 public:
-  // Constrcutor declared in header file since it is a temlate func
+  // msg_type = class type of msg
   template <class msg_type>
-  DDSPublisher(msg_type, std::string topic_name,
-               eprosima::fastdds::dds::DomainParticipant *participant)
-      : publisher_(nullptr), topic_(nullptr), writer_(nullptr),
-        type_(new msg_type) {
-
-    // Set topic name
+  DDSPublisher(msg_type, std::string topic_name)
+      : participant_(nullptr), publisher_(nullptr), topic_(nullptr),
+        writer_(nullptr), type_(new msg_type) {
     topic_name_ = topic_name;
-
-    // Set pointer to domain participant
-    participant_ = participant;
   }
 
-  // Topic Name
   std::string topic_name_{};
 
   virtual ~DDSPublisher();

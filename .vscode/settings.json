@@ -93,7 +93,10 @@
         "numbers": "cpp",
         "semaphore": "cpp",
         "stop_token": "cpp",
-        "cinttypes": "cpp"
+        "cinttypes": "cpp",
+        "future": "cpp",
+        "codecvt": "cpp",
+        "cfenv": "cpp"
     },
     "cortex-debug.armToolchainPath": "/usr/local/bin",
     "cortex-debug.openocdPath": "/usr/local/bin/openocd"

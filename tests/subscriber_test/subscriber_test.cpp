@@ -11,7 +11,10 @@ int main() {
 
   // Initialize subscriber with topic name
   if (position_sub.init()) {
-
     position_sub.run();
   }
+
+  // // wait for the subscriber
+  // std::unique_lock<std::mutex> lk(position_sub.listener.m);
+  // position_sub.listener.cv.wait(lk, [] { return new_data; });
 }

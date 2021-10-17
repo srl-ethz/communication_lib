@@ -25,6 +25,16 @@ DDSPublisher::~DDSPublisher() {
 }
 
 bool DDSPublisher::init() {
+  /* Initialize data_ here */
+
+  // CREATE THE PARTICIPANT
+  DomainParticipantQos pqos;
+  pqos.name("Participant_pub");
+  participant_ =
+      DomainParticipantFactory::get_instance()->create_participant(0, pqos);
+  if (participant_ == nullptr) {
+    return false;
+  }
 
   // REGISTER THE TYPE
   type_.register_type(participant_);
@@ -56,6 +66,18 @@ bool DDSPublisher::init() {
   best_effort_.kind = BEST_EFFORT_RELIABILITY_QOS;
   writer_qos_.reliability(best_effort_);
   writer_->set_qos(writer_qos_);
+
+  // Create dmainparticipant qos
+  DomainParticipantQos participant_qos;
+
+  // Increase the sending buffer size
+  participant_qos.transport().send_socket_buffer_size = 12582912;
+
+  // Increase the receiving buffer size
+  participant_qos.transport().listen_socket_buffer_size = 12582912;
+
+  // Set properties
+  participant_->set_qos(participant_qos);
 }
 
 void DDSPublisher::PubListener::on_publication_matched(
