@@ -11,7 +11,7 @@ int main() {
   // Message
   msgs::Pose position;
 
-  // Create participant. Argument-> Domain id, QOS name
+  // Create participant. Arguments-> Domain id, QOS name
   DefaultParticipant dp(0, "selva");
 
   // Create publisher with msg type
