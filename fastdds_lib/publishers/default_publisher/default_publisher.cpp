@@ -71,10 +71,10 @@ bool DDSPublisher::init() {
   DomainParticipantQos participant_qos;
 
   // Increase the sending buffer size
-  participant_qos.transport().send_socket_buffer_size = 1048576;
+  participant_qos.transport().send_socket_buffer_size = 12582912;
 
   // Increase the receiving buffer size
-  participant_qos.transport().listen_socket_buffer_size = 4194304;
+  participant_qos.transport().listen_socket_buffer_size = 12582912;
 
   // Set properties
   participant_->set_qos(participant_qos);
