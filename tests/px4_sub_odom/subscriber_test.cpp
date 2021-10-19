@@ -1,11 +1,15 @@
+#include "default_participant.h"
 #include "default_subscriber.h"
 #include "motorcommand_sub_callback.h"
 
 int main() {
 
+  // Create participant. Arguments-> Domain id, QOS name
+  DefaultParticipant dp(0, "selva");
+
   // Create subscriber with msg type
   DDSSubscriber px4_imu_sub(sensor_combinedPubSubType(),
-                            "fmu/sensor_combined/out");
+                            "fmu/sensor_combined/out", dp.participant());
 
   px4_imu_sub.init();
 
