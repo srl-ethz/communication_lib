@@ -6,19 +6,26 @@
 #include <fastdds/dds/publisher/Publisher.hpp>
 #include <fastdds/dds/topic/TypeSupport.hpp>
 
-class DDSPublisher {
+class VideoPublisher {
 public:
-  // msg_type = class type of msg
+  // Constrcutor declared in header file since it is a temlate func
   template <class msg_type>
-  DDSPublisher(msg_type, std::string topic_name)
-      : participant_(nullptr), publisher_(nullptr), topic_(nullptr),
-        writer_(nullptr), type_(new msg_type) {
+  VideoPublisher(msg_type, std::string topic_name,
+                 eprosima::fastdds::dds::DomainParticipant *participant)
+      : publisher_(nullptr), topic_(nullptr), writer_(nullptr),
+        type_(new msg_type) {
+
+    // Set topic name
     topic_name_ = topic_name;
+
+    // Set pointer to domain participant
+    participant_ = participant;
   }
 
+  // Topic Name
   std::string topic_name_{};
 
-  virtual ~DDSPublisher();
+  virtual ~VideoPublisher();
 
   bool init();
 
@@ -40,7 +47,10 @@ private:
   eprosima::fastdds::dds::TypeSupport type_;
 
   eprosima::fastdds::dds::ReliabilityQosPolicy best_effort_;
+
   eprosima::fastdds::dds::DataWriterQos writer_qos_;
+  eprosima::fastdds::dds::PublishModeQosPolicy publish_mode_;
+  eprosima::fastdds::dds::PublisherQos publisher_qos_;
 
 public:
   class PubListener : public eprosima::fastdds::dds::DataWriterListener {

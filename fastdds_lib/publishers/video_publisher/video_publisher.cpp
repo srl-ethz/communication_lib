@@ -1,4 +1,4 @@
-#include "default_publisher.h"
+#include "video_publisher.h"
 
 #include <fastdds/dds/domain/DomainParticipantFactory.hpp>
 #include <fastdds/dds/publisher/DataWriter.hpp>
@@ -11,7 +11,7 @@
 
 using namespace eprosima::fastdds::dds;
 
-DDSPublisher::~DDSPublisher() {
+VideoPublisher ::~VideoPublisher() {
   if (writer_ != nullptr) {
     publisher_->delete_datawriter(writer_);
   }
@@ -23,17 +23,7 @@ DDSPublisher::~DDSPublisher() {
   }
 }
 
-bool DDSPublisher::init() {
-  /* Initialize data_ here */
-
-  // CREATE THE PARTICIPANT
-  DomainParticipantQos pqos;
-  pqos.name("Participant_pub");
-  participant_ =
-      DomainParticipantFactory::get_instance()->create_participant(0, pqos);
-  if (participant_ == nullptr) {
-    return false;
-  }
+bool VideoPublisher ::init() {
 
   // REGISTER THE TYPE
   type_.register_type(participant_);
@@ -64,22 +54,16 @@ bool DDSPublisher::init() {
   // Set Best effort QOS for datawriter
   best_effort_.kind = BEST_EFFORT_RELIABILITY_QOS;
   writer_qos_.reliability(best_effort_);
+
+  // The PublishModeQosPolicy is default constructed with kind = SYNCHRONOUS
+  // Change the kind to ASYNCHRONOUS
+  publish_mode_.kind = ASYNCHRONOUS_PUBLISH_MODE;
+  writer_qos_.publish_mode(publish_mode_);
+
   writer_->set_qos(writer_qos_);
-
-  // Create dmainparticipant qos
-  DomainParticipantQos participant_qos;
-
-  // Increase the sending buffer size
-  participant_qos.transport().send_socket_buffer_size = 12582912;
-
-  // Increase the receiving buffer size
-  participant_qos.transport().listen_socket_buffer_size = 12582912;
-
-  // Set properties
-  participant_->set_qos(participant_qos);
 }
 
-void DDSPublisher::PubListener::on_publication_matched(
+void VideoPublisher ::PubListener::on_publication_matched(
     eprosima::fastdds::dds::DataWriter *,
     const eprosima::fastdds::dds::PublicationMatchedStatus &info) {
   if (info.current_count_change == 1) {
