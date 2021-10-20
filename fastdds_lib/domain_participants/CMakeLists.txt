@@ -8,7 +8,7 @@ large_data_participant/large_data_participant.cpp
 
 target_include_directories(domain_participants_lib  PUBLIC 
 default_participant
-large_data
+large_data_participant
 )
 
 target_link_libraries(domain_participants_lib  PRIVATE
