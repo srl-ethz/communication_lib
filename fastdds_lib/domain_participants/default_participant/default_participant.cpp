@@ -6,11 +6,11 @@ DefaultParticipant::DefaultParticipant(int domain_id, std::string qos_name) {
   qos_name_ = qos_name;
   p_qos.name(qos_name_);
 
-  // Increase the sending buffer size
-  p_qos.transport().send_socket_buffer_size = 12582912;
+  // // Increase the sending buffer size
+  // p_qos.transport().send_socket_buffer_size = 12582912;
 
-  // Increase the receiving buffer size
-  p_qos.transport().listen_socket_buffer_size = 12582912;
+  // // Increase the receiving buffer size
+  // p_qos.transport().listen_socket_buffer_size = 12582912;
 
   // Create participant
   domain_id_ = domain_id;
