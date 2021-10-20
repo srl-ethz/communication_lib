@@ -1,4 +1,4 @@
-#include "default_participant.h"
+#include "large_data_participant.h"
 
 LargeDataParticipant::LargeDataParticipant(int domain_id,
                                            std::string qos_name) {
