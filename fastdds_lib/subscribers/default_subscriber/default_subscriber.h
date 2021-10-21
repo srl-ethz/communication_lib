@@ -57,17 +57,21 @@ public:
         const eprosima::fastdds::dds::SubscriptionMatchedStatus &info) override;
 
   private:
+    // Number of latched publishers
     int matched_ = 0;
 
-  public:
     //  Protection against race condition using mutex
     std::mutex m;
 
     // Condition variable to indicate msg received
     std::condition_variable cv;
 
-    // Number of data samples received
-    uint32_t samples = 0;
+    // Flag to idicate reception of new data
+    bool new_data{false};
+
+  public:
+    // Blocks till new data has been received
+    void wait_for_data();
 
   public:
     /// Getter function

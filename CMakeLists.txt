@@ -32,11 +32,11 @@ add_subdirectory(fastdds_lib)
 
 # 1- local build #
 
-# Register the local build in case one doesn't use "make install"
-export(PACKAGE comm_lib)
+# # Register the local build in case one doesn't use "make install"
+# export(PACKAGE comm_lib)
 
-# Create variable for the local build tree
-get_property(kindr_include_dirs DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY INCLUDE_DIRECTORIES)
+# # Create variable for the local build tree
+# get_property(kindr_include_dirs DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY INCLUDE_DIRECTORIES)
 
 # # Configure config file for local build tree
 # configure_file(kindrConfig.cmake.in
@@ -48,9 +48,9 @@ get_property(kindr_include_dirs DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY I
 ## For include type external dependencies
 # set(kindr_include_dirs ${CMAKE_INSTALL_PREFIX}/include ${EIGEN3_INCLUDE_DIR})
 
-install(TARGETS comm_lib
-        EXPORT MyLibTargets
-        LIBRARY DESTINATION lib
-        ARCHIVE DESTINATION lib
-        RUNTIME DESTINATION bin
-        )
+# install(TARGETS comm_lib
+#         EXPORT MyLibTargets
+#         LIBRARY DESTINATION lib
+#         ARCHIVE DESTINATION lib
+#         RUNTIME DESTINATION bin
+#         )

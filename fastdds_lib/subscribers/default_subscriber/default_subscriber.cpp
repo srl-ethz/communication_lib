@@ -66,3 +66,12 @@ void DDSSubscriber::run() {
   std::cin.ignore();
   std::cout << "Shutting down the Subscriber." << std::endl;
 }
+
+// wait for the arrival of new data
+void DDSSubscriber::SubListener::wait_for_data() {
+  std::unique_lock<std::mutex> lk(m);
+  cv.wait(lk, [this] { return new_data; });
+
+  // Set flag when data received
+  new_data = false;
+}

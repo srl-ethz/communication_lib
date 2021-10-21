@@ -36,11 +36,11 @@ using namespace eprosima::fastcdr::exception;
 
 EulerAngleZYZ::EulerAngleZYZ()
 {
-    // m_roll com.eprosima.idl.parser.typecode.PrimitiveTypeCode@6b2ea799
+    // m_roll com.eprosima.idl.parser.typecode.PrimitiveTypeCode@3bf7ca37
     m_roll = 0.0;
-    // m_pitch com.eprosima.idl.parser.typecode.PrimitiveTypeCode@411f53a0
+    // m_pitch com.eprosima.idl.parser.typecode.PrimitiveTypeCode@79079097
     m_pitch = 0.0;
-    // m_yaw com.eprosima.idl.parser.typecode.PrimitiveTypeCode@2b71e916
+    // m_yaw com.eprosima.idl.parser.typecode.PrimitiveTypeCode@4d1c00d0
     m_yaw = 0.0;
 
 }

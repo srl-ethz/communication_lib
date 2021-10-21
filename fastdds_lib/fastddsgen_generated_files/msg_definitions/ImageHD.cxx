@@ -34,12 +34,13 @@ using namespace eprosima::fastcdr::exception;
 
 #include <utility>
 
+
 ImageHD::ImageHD()
 {
-    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@226a82c4
+    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@589b3632
 
-    // m_frame com.eprosima.idl.parser.typecode.ArrayTypeCode@731f8236
-    memset(&m_frame, 0, (1080*720*3) * 1);
+    // m_frame com.eprosima.idl.parser.typecode.ArrayTypeCode@45f45fa1
+    memset(&m_frame, 0, (hd_img_size) * 1);
 
 }
 
@@ -90,7 +91,7 @@ size_t ImageHD::getMaxCdrSerializedSize(
 
 
     current_alignment += Header::getMaxCdrSerializedSize(current_alignment);
-    current_alignment += ((1080*720*3) * 1) + eprosima::fastcdr::Cdr::alignment(current_alignment, 1);
+    current_alignment += ((hd_img_size) * 1) + eprosima::fastcdr::Cdr::alignment(current_alignment, 1);
 
 
 
@@ -106,9 +107,9 @@ size_t ImageHD::getCdrSerializedSize(
 
 
     current_alignment += Header::getCdrSerializedSize(data.header(), current_alignment);
-    if ((1080*720*3) > 0)
+    if ((hd_img_size) > 0)
     {
-        current_alignment += ((1080*720*3) * 1) + eprosima::fastcdr::Cdr::alignment(current_alignment, 1);
+        current_alignment += ((hd_img_size) * 1) + eprosima::fastcdr::Cdr::alignment(current_alignment, 1);
     }
 
 
@@ -176,7 +177,7 @@ Header& ImageHD::header()
  * @param _frame New value to be copied in member frame
  */
 void ImageHD::frame(
-        const std::array<uint8_t, 1080*720*3>& _frame)
+        const std::array<uint8_t, hd_img_size>& _frame)
 {
     m_frame = _frame;
 }
@@ -186,7 +187,7 @@ void ImageHD::frame(
  * @param _frame New value to be moved in member frame
  */
 void ImageHD::frame(
-        std::array<uint8_t, 1080*720*3>&& _frame)
+        std::array<uint8_t, hd_img_size>&& _frame)
 {
     m_frame = std::move(_frame);
 }
@@ -195,7 +196,7 @@ void ImageHD::frame(
  * @brief This function returns a constant reference to member frame
  * @return Constant reference to member frame
  */
-const std::array<uint8_t, 1080*720*3>& ImageHD::frame() const
+const std::array<uint8_t, hd_img_size>& ImageHD::frame() const
 {
     return m_frame;
 }
@@ -204,7 +205,7 @@ const std::array<uint8_t, 1080*720*3>& ImageHD::frame() const
  * @brief This function returns a reference to member frame
  * @return Reference to member frame
  */
-std::array<uint8_t, 1080*720*3>& ImageHD::frame()
+std::array<uint8_t, hd_img_size>& ImageHD::frame()
 {
     return m_frame;
 }

@@ -36,9 +36,9 @@ using namespace eprosima::fastcdr::exception;
 
 PositionCommand::PositionCommand()
 {
-    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@10db82ae
+    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@4278a03f
 
-    // m_position com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@501edcf1
+    // m_position com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@147ed70f
 
 
 }
