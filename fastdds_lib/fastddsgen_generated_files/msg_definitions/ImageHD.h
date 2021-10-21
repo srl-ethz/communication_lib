@@ -62,7 +62,7 @@ class Cdr;
 } // namespace eprosima
 
 
-const int32_t hd_img_size = 1080*720*3;
+const int32_t hd_img_size = 1280*720*3;
 /*!
  * @brief This class represents the structure ImageHD defined by the user in the IDL file.
  * @ingroup IMAGEHD
