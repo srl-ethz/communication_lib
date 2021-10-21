@@ -1,5 +1,6 @@
 #pragma once
 
+#include <chrono>
 #include <fastdds/dds/domain/DomainParticipant.hpp>
 #include <fastdds/dds/domain/DomainParticipantFactory.hpp>
 #include <fastdds/dds/subscriber/DataReader.hpp>
@@ -72,6 +73,9 @@ public:
   public:
     // Blocks till new data has been received
     void wait_for_data();
+
+    // Blocks for specific milliseconds till new data has been received
+    void wait_for_data(const int t);
 
   public:
     /// Getter function
