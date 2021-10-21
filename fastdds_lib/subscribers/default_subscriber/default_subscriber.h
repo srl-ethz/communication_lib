@@ -75,7 +75,7 @@ public:
     void wait_for_data();
 
     // Blocks for specific milliseconds till new data has been received
-    void wait_for_data(const int t);
+    void wait_for_data_for_ms(const int t);
 
   public:
     /// Getter function
