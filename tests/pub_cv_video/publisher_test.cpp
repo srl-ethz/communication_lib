@@ -1,6 +1,7 @@
 #include "Image720pPubSubTypes.h"
 #include "default_participant.h"
 #include "default_publisher.h"
+#include "sensor_msgs/msgs/Image720p.h"
 #include <chrono>
 #include <cstdlib>
 #include <future>
