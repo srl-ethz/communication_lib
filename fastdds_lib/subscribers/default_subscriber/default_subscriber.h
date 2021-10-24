@@ -57,7 +57,7 @@ public:
         eprosima::fastdds::dds::DataReader *reader,
         const eprosima::fastdds::dds::SubscriptionMatchedStatus &info) override;
 
-  private:
+  public:
     // Number of latched publishers
     int matched_ = 0;
 
