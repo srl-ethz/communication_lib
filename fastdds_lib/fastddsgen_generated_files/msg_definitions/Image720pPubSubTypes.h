@@ -35,18 +35,18 @@
 namespace idl_msg
 {
     /*!
-     * @brief This class represents the TopicDataType of the type ImageHD defined by the user in the IDL file.
+     * @brief This class represents the TopicDataType of the type Image720p defined by the user in the IDL file.
      * @ingroup IMAGE720P
      */
-    class ImageHDPubSubType : public eprosima::fastdds::dds::TopicDataType
+    class Image720pPubSubType : public eprosima::fastdds::dds::TopicDataType
     {
     public:
 
-        typedef ImageHD type;
+        typedef Image720p type;
 
-        eProsima_user_DllExport ImageHDPubSubType();
+        eProsima_user_DllExport Image720pPubSubType();
 
-        eProsima_user_DllExport virtual ~ImageHDPubSubType();
+        eProsima_user_DllExport virtual ~Image720pPubSubType();
 
         eProsima_user_DllExport virtual bool serialize(
                 void* data,

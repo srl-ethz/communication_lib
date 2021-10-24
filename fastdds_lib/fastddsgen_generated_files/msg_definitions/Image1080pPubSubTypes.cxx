@@ -29,20 +29,20 @@ using SerializedPayload_t = eprosima::fastrtps::rtps::SerializedPayload_t;
 using InstanceHandle_t = eprosima::fastrtps::rtps::InstanceHandle_t;
 
 namespace idl_msg {
-    ImageFullHDPubSubType::ImageFullHDPubSubType()
+    Image1080pPubSubType::Image1080pPubSubType()
     {
-        setName("idl_msg::ImageFullHD");
-        auto type_size = ImageFullHD::getMaxCdrSerializedSize();
+        setName("idl_msg::Image1080p");
+        auto type_size = Image1080p::getMaxCdrSerializedSize();
         type_size += eprosima::fastcdr::Cdr::alignment(type_size, 4); /* possible submessage alignment */
         m_typeSize = static_cast<uint32_t>(type_size) + 4; /*encapsulation*/
-        m_isGetKeyDefined = ImageFullHD::isKeyDefined();
-        size_t keyLength = ImageFullHD::getKeyMaxCdrSerializedSize() > 16 ?
-                ImageFullHD::getKeyMaxCdrSerializedSize() : 16;
+        m_isGetKeyDefined = Image1080p::isKeyDefined();
+        size_t keyLength = Image1080p::getKeyMaxCdrSerializedSize() > 16 ?
+                Image1080p::getKeyMaxCdrSerializedSize() : 16;
         m_keyBuffer = reinterpret_cast<unsigned char*>(malloc(keyLength));
         memset(m_keyBuffer, 0, keyLength);
     }
 
-    ImageFullHDPubSubType::~ImageFullHDPubSubType()
+    Image1080pPubSubType::~Image1080pPubSubType()
     {
         if (m_keyBuffer != nullptr)
         {
@@ -50,11 +50,11 @@ namespace idl_msg {
         }
     }
 
-    bool ImageFullHDPubSubType::serialize(
+    bool Image1080pPubSubType::serialize(
             void* data,
             SerializedPayload_t* payload)
     {
-        ImageFullHD* p_type = static_cast<ImageFullHD*>(data);
+        Image1080p* p_type = static_cast<Image1080p*>(data);
 
         // Object that manages the raw buffer.
         eprosima::fastcdr::FastBuffer fastbuffer(reinterpret_cast<char*>(payload->data), payload->max_size);
@@ -79,12 +79,12 @@ namespace idl_msg {
         return true;
     }
 
-    bool ImageFullHDPubSubType::deserialize(
+    bool Image1080pPubSubType::deserialize(
             SerializedPayload_t* payload,
             void* data)
     {
         //Convert DATA to pointer of your type
-        ImageFullHD* p_type = static_cast<ImageFullHD*>(data);
+        Image1080p* p_type = static_cast<Image1080p*>(data);
 
         // Object that manages the raw buffer.
         eprosima::fastcdr::FastBuffer fastbuffer(reinterpret_cast<char*>(payload->data), payload->length);
@@ -109,28 +109,28 @@ namespace idl_msg {
         return true;
     }
 
-    std::function<uint32_t()> ImageFullHDPubSubType::getSerializedSizeProvider(
+    std::function<uint32_t()> Image1080pPubSubType::getSerializedSizeProvider(
             void* data)
     {
         return [data]() -> uint32_t
                {
-                   return static_cast<uint32_t>(type::getCdrSerializedSize(*static_cast<ImageFullHD*>(data))) +
+                   return static_cast<uint32_t>(type::getCdrSerializedSize(*static_cast<Image1080p*>(data))) +
                           4u /*encapsulation*/;
                };
     }
 
-    void* ImageFullHDPubSubType::createData()
+    void* Image1080pPubSubType::createData()
     {
-        return reinterpret_cast<void*>(new ImageFullHD());
+        return reinterpret_cast<void*>(new Image1080p());
     }
 
-    void ImageFullHDPubSubType::deleteData(
+    void Image1080pPubSubType::deleteData(
             void* data)
     {
-        delete(reinterpret_cast<ImageFullHD*>(data));
+        delete(reinterpret_cast<Image1080p*>(data));
     }
 
-    bool ImageFullHDPubSubType::getKey(
+    bool Image1080pPubSubType::getKey(
             void* data,
             InstanceHandle_t* handle,
             bool force_md5)
@@ -140,16 +140,16 @@ namespace idl_msg {
             return false;
         }
 
-        ImageFullHD* p_type = static_cast<ImageFullHD*>(data);
+        Image1080p* p_type = static_cast<Image1080p*>(data);
 
         // Object that manages the raw buffer.
         eprosima::fastcdr::FastBuffer fastbuffer(reinterpret_cast<char*>(m_keyBuffer),
-                ImageFullHD::getKeyMaxCdrSerializedSize());
+                Image1080p::getKeyMaxCdrSerializedSize());
 
         // Object that serializes the data.
         eprosima::fastcdr::Cdr ser(fastbuffer, eprosima::fastcdr::Cdr::BIG_ENDIANNESS);
         p_type->serializeKey(ser);
-        if (force_md5 || ImageFullHD::getKeyMaxCdrSerializedSize() > 16)
+        if (force_md5 || Image1080p::getKeyMaxCdrSerializedSize() > 16)
         {
             m_md5.init();
             m_md5.update(m_keyBuffer, static_cast<unsigned int>(ser.getSerializedDataLength()));

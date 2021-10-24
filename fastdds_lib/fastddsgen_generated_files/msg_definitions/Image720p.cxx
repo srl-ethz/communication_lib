@@ -34,7 +34,7 @@ using namespace eprosima::fastcdr::exception;
 
 #include <utility>
 
-idl_msg::ImageHD::ImageHD()
+idl_msg::Image720p::Image720p()
 {
     // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@36f0f1be
 
@@ -43,28 +43,28 @@ idl_msg::ImageHD::ImageHD()
 
 }
 
-idl_msg::ImageHD::~ImageHD()
+idl_msg::Image720p::~Image720p()
 {
 
 
 }
 
-idl_msg::ImageHD::ImageHD(
-        const ImageHD& x)
+idl_msg::Image720p::Image720p(
+        const Image720p& x)
 {
     m_header = x.m_header;
     m_frame = x.m_frame;
 }
 
-idl_msg::ImageHD::ImageHD(
-        ImageHD&& x)
+idl_msg::Image720p::Image720p(
+        Image720p&& x)
 {
     m_header = std::move(x.m_header);
     m_frame = std::move(x.m_frame);
 }
 
-idl_msg::ImageHD& idl_msg::ImageHD::operator =(
-        const ImageHD& x)
+idl_msg::Image720p& idl_msg::Image720p::operator =(
+        const Image720p& x)
 {
 
     m_header = x.m_header;
@@ -73,8 +73,8 @@ idl_msg::ImageHD& idl_msg::ImageHD::operator =(
     return *this;
 }
 
-idl_msg::ImageHD& idl_msg::ImageHD::operator =(
-        ImageHD&& x)
+idl_msg::Image720p& idl_msg::Image720p::operator =(
+        Image720p&& x)
 {
 
     m_header = std::move(x.m_header);
@@ -83,7 +83,7 @@ idl_msg::ImageHD& idl_msg::ImageHD::operator =(
     return *this;
 }
 
-size_t idl_msg::ImageHD::getMaxCdrSerializedSize(
+size_t idl_msg::Image720p::getMaxCdrSerializedSize(
         size_t current_alignment)
 {
     size_t initial_alignment = current_alignment;
@@ -97,8 +97,8 @@ size_t idl_msg::ImageHD::getMaxCdrSerializedSize(
     return current_alignment - initial_alignment;
 }
 
-size_t idl_msg::ImageHD::getCdrSerializedSize(
-        const idl_msg::ImageHD& data,
+size_t idl_msg::Image720p::getCdrSerializedSize(
+        const idl_msg::Image720p& data,
         size_t current_alignment)
 {
     (void)data;
@@ -115,7 +115,7 @@ size_t idl_msg::ImageHD::getCdrSerializedSize(
     return current_alignment - initial_alignment;
 }
 
-void idl_msg::ImageHD::serialize(
+void idl_msg::Image720p::serialize(
         eprosima::fastcdr::Cdr& scdr) const
 {
 
@@ -125,7 +125,7 @@ void idl_msg::ImageHD::serialize(
 
 }
 
-void idl_msg::ImageHD::deserialize(
+void idl_msg::Image720p::deserialize(
         eprosima::fastcdr::Cdr& dcdr)
 {
 
@@ -138,7 +138,7 @@ void idl_msg::ImageHD::deserialize(
  * @brief This function copies the value in member header
  * @param _header New value to be copied in member header
  */
-void idl_msg::ImageHD::header(
+void idl_msg::Image720p::header(
         const idl_msg::Header& _header)
 {
     m_header = _header;
@@ -148,7 +148,7 @@ void idl_msg::ImageHD::header(
  * @brief This function moves the value in member header
  * @param _header New value to be moved in member header
  */
-void idl_msg::ImageHD::header(
+void idl_msg::Image720p::header(
         idl_msg::Header&& _header)
 {
     m_header = std::move(_header);
@@ -158,7 +158,7 @@ void idl_msg::ImageHD::header(
  * @brief This function returns a constant reference to member header
  * @return Constant reference to member header
  */
-const idl_msg::Header& idl_msg::ImageHD::header() const
+const idl_msg::Header& idl_msg::Image720p::header() const
 {
     return m_header;
 }
@@ -167,7 +167,7 @@ const idl_msg::Header& idl_msg::ImageHD::header() const
  * @brief This function returns a reference to member header
  * @return Reference to member header
  */
-idl_msg::Header& idl_msg::ImageHD::header()
+idl_msg::Header& idl_msg::Image720p::header()
 {
     return m_header;
 }
@@ -175,7 +175,7 @@ idl_msg::Header& idl_msg::ImageHD::header()
  * @brief This function copies the value in member frame
  * @param _frame New value to be copied in member frame
  */
-void idl_msg::ImageHD::frame(
+void idl_msg::Image720p::frame(
         const std::array<uint8_t, 1280*720*3>& _frame)
 {
     m_frame = _frame;
@@ -185,7 +185,7 @@ void idl_msg::ImageHD::frame(
  * @brief This function moves the value in member frame
  * @param _frame New value to be moved in member frame
  */
-void idl_msg::ImageHD::frame(
+void idl_msg::Image720p::frame(
         std::array<uint8_t, 1280*720*3>&& _frame)
 {
     m_frame = std::move(_frame);
@@ -195,7 +195,7 @@ void idl_msg::ImageHD::frame(
  * @brief This function returns a constant reference to member frame
  * @return Constant reference to member frame
  */
-const std::array<uint8_t, 1280*720*3>& idl_msg::ImageHD::frame() const
+const std::array<uint8_t, 1280*720*3>& idl_msg::Image720p::frame() const
 {
     return m_frame;
 }
@@ -204,12 +204,12 @@ const std::array<uint8_t, 1280*720*3>& idl_msg::ImageHD::frame() const
  * @brief This function returns a reference to member frame
  * @return Reference to member frame
  */
-std::array<uint8_t, 1280*720*3>& idl_msg::ImageHD::frame()
+std::array<uint8_t, 1280*720*3>& idl_msg::Image720p::frame()
 {
     return m_frame;
 }
 
-size_t idl_msg::ImageHD::getKeyMaxCdrSerializedSize(
+size_t idl_msg::Image720p::getKeyMaxCdrSerializedSize(
         size_t current_alignment)
 {
     size_t current_align = current_alignment;
@@ -221,12 +221,12 @@ size_t idl_msg::ImageHD::getKeyMaxCdrSerializedSize(
     return current_align;
 }
 
-bool idl_msg::ImageHD::isKeyDefined()
+bool idl_msg::Image720p::isKeyDefined()
 {
     return false;
 }
 
-void idl_msg::ImageHD::serializeKey(
+void idl_msg::Image720p::serializeKey(
         eprosima::fastcdr::Cdr& scdr) const
 {
     (void) scdr;

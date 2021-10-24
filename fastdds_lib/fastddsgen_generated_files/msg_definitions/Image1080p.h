@@ -64,50 +64,50 @@ class Cdr;
 
 namespace idl_msg {
     /*!
-     * @brief This class represents the structure ImageFullHD defined by the user in the IDL file.
+     * @brief This class represents the structure Image1080p defined by the user in the IDL file.
      * @ingroup IMAGE1080P
      */
-    class ImageFullHD
+    class Image1080p
     {
     public:
 
         /*!
          * @brief Default constructor.
          */
-        eProsima_user_DllExport ImageFullHD();
+        eProsima_user_DllExport Image1080p();
 
         /*!
          * @brief Default destructor.
          */
-        eProsima_user_DllExport ~ImageFullHD();
+        eProsima_user_DllExport ~Image1080p();
 
         /*!
          * @brief Copy constructor.
-         * @param x Reference to the object idl_msg::ImageFullHD that will be copied.
+         * @param x Reference to the object idl_msg::Image1080p that will be copied.
          */
-        eProsima_user_DllExport ImageFullHD(
-                const ImageFullHD& x);
+        eProsima_user_DllExport Image1080p(
+                const Image1080p& x);
 
         /*!
          * @brief Move constructor.
-         * @param x Reference to the object idl_msg::ImageFullHD that will be copied.
+         * @param x Reference to the object idl_msg::Image1080p that will be copied.
          */
-        eProsima_user_DllExport ImageFullHD(
-                ImageFullHD&& x);
+        eProsima_user_DllExport Image1080p(
+                Image1080p&& x);
 
         /*!
          * @brief Copy assignment.
-         * @param x Reference to the object idl_msg::ImageFullHD that will be copied.
+         * @param x Reference to the object idl_msg::Image1080p that will be copied.
          */
-        eProsima_user_DllExport ImageFullHD& operator =(
-                const ImageFullHD& x);
+        eProsima_user_DllExport Image1080p& operator =(
+                const Image1080p& x);
 
         /*!
          * @brief Move assignment.
-         * @param x Reference to the object idl_msg::ImageFullHD that will be copied.
+         * @param x Reference to the object idl_msg::Image1080p that will be copied.
          */
-        eProsima_user_DllExport ImageFullHD& operator =(
-                ImageFullHD&& x);
+        eProsima_user_DllExport Image1080p& operator =(
+                Image1080p&& x);
 
         /*!
          * @brief This function copies the value in member header
@@ -176,7 +176,7 @@ namespace idl_msg {
          * @return Serialized size.
          */
         eProsima_user_DllExport static size_t getCdrSerializedSize(
-                const idl_msg::ImageFullHD& data,
+                const idl_msg::Image1080p& data,
                 size_t current_alignment = 0);
 
 

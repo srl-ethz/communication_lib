@@ -9,7 +9,7 @@ int main() {
   DefaultParticipant dp(0, "selva");
 
   // Create subscriber with msg type
-  DDSSubscriber img_sub(idl_msg::ImageHDPubSubType(), "img_topic",
+  DDSSubscriber img_sub(idl_msg::Image720pPubSubType(), "img_topic",
                         dp.participant());
 
   img_sub.init();

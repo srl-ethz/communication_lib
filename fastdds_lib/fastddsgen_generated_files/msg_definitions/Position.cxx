@@ -36,11 +36,11 @@ using namespace eprosima::fastcdr::exception;
 
 idl_msg::Position::Position()
 {
-    // m_x com.eprosima.idl.parser.typecode.PrimitiveTypeCode@131ef10
+    // m_x com.eprosima.idl.parser.typecode.PrimitiveTypeCode@38afe297
     m_x = 0.0;
-    // m_y com.eprosima.idl.parser.typecode.PrimitiveTypeCode@55b0dcab
+    // m_y com.eprosima.idl.parser.typecode.PrimitiveTypeCode@2df3b89c
     m_y = 0.0;
-    // m_z com.eprosima.idl.parser.typecode.PrimitiveTypeCode@38afe297
+    // m_z com.eprosima.idl.parser.typecode.PrimitiveTypeCode@23348b5d
     m_z = 0.0;
 
 }

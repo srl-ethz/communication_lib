@@ -1,6 +1,6 @@
 #pragma once
 
-idl_msg::ImageHD st;
+idl_msg::Image720p st;
 
 inline void DDSSubscriber::SubListener::on_data_available(
     eprosima::fastdds::dds::DataReader *reader) {

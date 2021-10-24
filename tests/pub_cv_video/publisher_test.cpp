@@ -7,13 +7,13 @@
 
 int main() {
   // Message
-  idl_msg::ImageHD img;
+  idl_msg::Image720p img;
 
   // Create participant. Arguments-> Domain id, QOS name
   DefaultParticipant dp(0, "opencv_demo");
 
   // Create publisher with msg type
-  DDSPublisher img_pub(idl_msg::ImageHDPubSubType(), "img_topic",
+  DDSPublisher img_pub(idl_msg::Image720pPubSubType(), "img_topic",
                        dp.participant());
 
   // Initialize publisher with topic name

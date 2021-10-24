@@ -64,50 +64,50 @@ class Cdr;
 
 namespace idl_msg {
     /*!
-     * @brief This class represents the structure ImageHD defined by the user in the IDL file.
+     * @brief This class represents the structure Image720p defined by the user in the IDL file.
      * @ingroup IMAGE720P
      */
-    class ImageHD
+    class Image720p
     {
     public:
 
         /*!
          * @brief Default constructor.
          */
-        eProsima_user_DllExport ImageHD();
+        eProsima_user_DllExport Image720p();
 
         /*!
          * @brief Default destructor.
          */
-        eProsima_user_DllExport ~ImageHD();
+        eProsima_user_DllExport ~Image720p();
 
         /*!
          * @brief Copy constructor.
-         * @param x Reference to the object idl_msg::ImageHD that will be copied.
+         * @param x Reference to the object idl_msg::Image720p that will be copied.
          */
-        eProsima_user_DllExport ImageHD(
-                const ImageHD& x);
+        eProsima_user_DllExport Image720p(
+                const Image720p& x);
 
         /*!
          * @brief Move constructor.
-         * @param x Reference to the object idl_msg::ImageHD that will be copied.
+         * @param x Reference to the object idl_msg::Image720p that will be copied.
          */
-        eProsima_user_DllExport ImageHD(
-                ImageHD&& x);
+        eProsima_user_DllExport Image720p(
+                Image720p&& x);
 
         /*!
          * @brief Copy assignment.
-         * @param x Reference to the object idl_msg::ImageHD that will be copied.
+         * @param x Reference to the object idl_msg::Image720p that will be copied.
          */
-        eProsima_user_DllExport ImageHD& operator =(
-                const ImageHD& x);
+        eProsima_user_DllExport Image720p& operator =(
+                const Image720p& x);
 
         /*!
          * @brief Move assignment.
-         * @param x Reference to the object idl_msg::ImageHD that will be copied.
+         * @param x Reference to the object idl_msg::Image720p that will be copied.
          */
-        eProsima_user_DllExport ImageHD& operator =(
-                ImageHD&& x);
+        eProsima_user_DllExport Image720p& operator =(
+                Image720p&& x);
 
         /*!
          * @brief This function copies the value in member header
@@ -176,7 +176,7 @@ namespace idl_msg {
          * @return Serialized size.
          */
         eProsima_user_DllExport static size_t getCdrSerializedSize(
-                const idl_msg::ImageHD& data,
+                const idl_msg::Image720p& data,
                 size_t current_alignment = 0);
 
 
