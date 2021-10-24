@@ -16,7 +16,7 @@ fastdds_lib
 add_subdirectory(msgs_lib)
 add_subdirectory(fastdds_lib)
 
-# add_subdirectory(tests)
+add_subdirectory(tests)
 
 #=============================================
 # to allow find_package() on comm_lib
