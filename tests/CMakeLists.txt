@@ -1,17 +1,5 @@
 
-
-# add_subdirectory(subscriber_test)
-# add_subdirectory(subscriber_test_new)
-# add_subdirectory(publisher_test_new)
-# add_subdirectory(subscriber_test_mocap)
-# add_subdirectory(subscriber_test_imghd)
-# add_subdirectory(publisher_test_img)
 add_subdirectory(sub_position)
-# add_subdirectory(px4_sub_odom)
-# add_subdirectory(px4_vision_pub)
 add_subdirectory(pub_position)
 add_subdirectory(pub_cv_video)
 add_subdirectory(sub_cv_video)
-# add_subdirectory(px4_sub_local_position)
-# add_subdirectory(px4_sub_vehicle_status)
-# add_subdirectory(publisher_test_normal)
