@@ -34,20 +34,20 @@ using namespace eprosima::fastcdr::exception;
 
 #include <utility>
 
-Pose::Pose()
+idl_msg::Pose::Pose()
 {
-    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@47af7f3d
+    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@42e99e4a
 
-    // m_position com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@7c729a55
+    // m_position com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@14dd9eb7
 
-    // m_orientation_euler com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@3bb9a3ff
+    // m_orientation_euler com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@52e6fdee
 
-    // m_orientation_quat com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@661972b0
+    // m_orientation_quat com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@6c80d78a
 
 
 }
 
-Pose::~Pose()
+idl_msg::Pose::~Pose()
 {
 
 
@@ -55,7 +55,7 @@ Pose::~Pose()
 
 }
 
-Pose::Pose(
+idl_msg::Pose::Pose(
         const Pose& x)
 {
     m_header = x.m_header;
@@ -64,7 +64,7 @@ Pose::Pose(
     m_orientation_quat = x.m_orientation_quat;
 }
 
-Pose::Pose(
+idl_msg::Pose::Pose(
         Pose&& x)
 {
     m_header = std::move(x.m_header);
@@ -73,7 +73,7 @@ Pose::Pose(
     m_orientation_quat = std::move(x.m_orientation_quat);
 }
 
-Pose& Pose::operator =(
+idl_msg::Pose& idl_msg::Pose::operator =(
         const Pose& x)
 {
 
@@ -85,7 +85,7 @@ Pose& Pose::operator =(
     return *this;
 }
 
-Pose& Pose::operator =(
+idl_msg::Pose& idl_msg::Pose::operator =(
         Pose&& x)
 {
 
@@ -97,37 +97,37 @@ Pose& Pose::operator =(
     return *this;
 }
 
-size_t Pose::getMaxCdrSerializedSize(
+size_t idl_msg::Pose::getMaxCdrSerializedSize(
         size_t current_alignment)
 {
     size_t initial_alignment = current_alignment;
 
 
-    current_alignment += Header::getMaxCdrSerializedSize(current_alignment);
-    current_alignment += Position::getMaxCdrSerializedSize(current_alignment);
-    current_alignment += EulerAngleZYZ::getMaxCdrSerializedSize(current_alignment);
-    current_alignment += Quaternion::getMaxCdrSerializedSize(current_alignment);
+    current_alignment += idl_msg::Header::getMaxCdrSerializedSize(current_alignment);
+    current_alignment += idl_msg::Position::getMaxCdrSerializedSize(current_alignment);
+    current_alignment += idl_msg::EulerAngleZYZ::getMaxCdrSerializedSize(current_alignment);
+    current_alignment += idl_msg::Quaternion::getMaxCdrSerializedSize(current_alignment);
 
     return current_alignment - initial_alignment;
 }
 
-size_t Pose::getCdrSerializedSize(
-        const Pose& data,
+size_t idl_msg::Pose::getCdrSerializedSize(
+        const idl_msg::Pose& data,
         size_t current_alignment)
 {
     (void)data;
     size_t initial_alignment = current_alignment;
 
 
-    current_alignment += Header::getCdrSerializedSize(data.header(), current_alignment);
-    current_alignment += Position::getCdrSerializedSize(data.position(), current_alignment);
-    current_alignment += EulerAngleZYZ::getCdrSerializedSize(data.orientation_euler(), current_alignment);
-    current_alignment += Quaternion::getCdrSerializedSize(data.orientation_quat(), current_alignment);
+    current_alignment += idl_msg::Header::getCdrSerializedSize(data.header(), current_alignment);
+    current_alignment += idl_msg::Position::getCdrSerializedSize(data.position(), current_alignment);
+    current_alignment += idl_msg::EulerAngleZYZ::getCdrSerializedSize(data.orientation_euler(), current_alignment);
+    current_alignment += idl_msg::Quaternion::getCdrSerializedSize(data.orientation_quat(), current_alignment);
 
     return current_alignment - initial_alignment;
 }
 
-void Pose::serialize(
+void idl_msg::Pose::serialize(
         eprosima::fastcdr::Cdr& scdr) const
 {
 
@@ -138,7 +138,7 @@ void Pose::serialize(
 
 }
 
-void Pose::deserialize(
+void idl_msg::Pose::deserialize(
         eprosima::fastcdr::Cdr& dcdr)
 {
 
@@ -152,8 +152,8 @@ void Pose::deserialize(
  * @brief This function copies the value in member header
  * @param _header New value to be copied in member header
  */
-void Pose::header(
-        const Header& _header)
+void idl_msg::Pose::header(
+        const idl_msg::Header& _header)
 {
     m_header = _header;
 }
@@ -162,8 +162,8 @@ void Pose::header(
  * @brief This function moves the value in member header
  * @param _header New value to be moved in member header
  */
-void Pose::header(
-        Header&& _header)
+void idl_msg::Pose::header(
+        idl_msg::Header&& _header)
 {
     m_header = std::move(_header);
 }
@@ -172,7 +172,7 @@ void Pose::header(
  * @brief This function returns a constant reference to member header
  * @return Constant reference to member header
  */
-const Header& Pose::header() const
+const idl_msg::Header& idl_msg::Pose::header() const
 {
     return m_header;
 }
@@ -181,7 +181,7 @@ const Header& Pose::header() const
  * @brief This function returns a reference to member header
  * @return Reference to member header
  */
-Header& Pose::header()
+idl_msg::Header& idl_msg::Pose::header()
 {
     return m_header;
 }
@@ -189,8 +189,8 @@ Header& Pose::header()
  * @brief This function copies the value in member position
  * @param _position New value to be copied in member position
  */
-void Pose::position(
-        const Position& _position)
+void idl_msg::Pose::position(
+        const idl_msg::Position& _position)
 {
     m_position = _position;
 }
@@ -199,8 +199,8 @@ void Pose::position(
  * @brief This function moves the value in member position
  * @param _position New value to be moved in member position
  */
-void Pose::position(
-        Position&& _position)
+void idl_msg::Pose::position(
+        idl_msg::Position&& _position)
 {
     m_position = std::move(_position);
 }
@@ -209,7 +209,7 @@ void Pose::position(
  * @brief This function returns a constant reference to member position
  * @return Constant reference to member position
  */
-const Position& Pose::position() const
+const idl_msg::Position& idl_msg::Pose::position() const
 {
     return m_position;
 }
@@ -218,7 +218,7 @@ const Position& Pose::position() const
  * @brief This function returns a reference to member position
  * @return Reference to member position
  */
-Position& Pose::position()
+idl_msg::Position& idl_msg::Pose::position()
 {
     return m_position;
 }
@@ -226,8 +226,8 @@ Position& Pose::position()
  * @brief This function copies the value in member orientation_euler
  * @param _orientation_euler New value to be copied in member orientation_euler
  */
-void Pose::orientation_euler(
-        const EulerAngleZYZ& _orientation_euler)
+void idl_msg::Pose::orientation_euler(
+        const idl_msg::EulerAngleZYZ& _orientation_euler)
 {
     m_orientation_euler = _orientation_euler;
 }
@@ -236,8 +236,8 @@ void Pose::orientation_euler(
  * @brief This function moves the value in member orientation_euler
  * @param _orientation_euler New value to be moved in member orientation_euler
  */
-void Pose::orientation_euler(
-        EulerAngleZYZ&& _orientation_euler)
+void idl_msg::Pose::orientation_euler(
+        idl_msg::EulerAngleZYZ&& _orientation_euler)
 {
     m_orientation_euler = std::move(_orientation_euler);
 }
@@ -246,7 +246,7 @@ void Pose::orientation_euler(
  * @brief This function returns a constant reference to member orientation_euler
  * @return Constant reference to member orientation_euler
  */
-const EulerAngleZYZ& Pose::orientation_euler() const
+const idl_msg::EulerAngleZYZ& idl_msg::Pose::orientation_euler() const
 {
     return m_orientation_euler;
 }
@@ -255,7 +255,7 @@ const EulerAngleZYZ& Pose::orientation_euler() const
  * @brief This function returns a reference to member orientation_euler
  * @return Reference to member orientation_euler
  */
-EulerAngleZYZ& Pose::orientation_euler()
+idl_msg::EulerAngleZYZ& idl_msg::Pose::orientation_euler()
 {
     return m_orientation_euler;
 }
@@ -263,8 +263,8 @@ EulerAngleZYZ& Pose::orientation_euler()
  * @brief This function copies the value in member orientation_quat
  * @param _orientation_quat New value to be copied in member orientation_quat
  */
-void Pose::orientation_quat(
-        const Quaternion& _orientation_quat)
+void idl_msg::Pose::orientation_quat(
+        const idl_msg::Quaternion& _orientation_quat)
 {
     m_orientation_quat = _orientation_quat;
 }
@@ -273,8 +273,8 @@ void Pose::orientation_quat(
  * @brief This function moves the value in member orientation_quat
  * @param _orientation_quat New value to be moved in member orientation_quat
  */
-void Pose::orientation_quat(
-        Quaternion&& _orientation_quat)
+void idl_msg::Pose::orientation_quat(
+        idl_msg::Quaternion&& _orientation_quat)
 {
     m_orientation_quat = std::move(_orientation_quat);
 }
@@ -283,7 +283,7 @@ void Pose::orientation_quat(
  * @brief This function returns a constant reference to member orientation_quat
  * @return Constant reference to member orientation_quat
  */
-const Quaternion& Pose::orientation_quat() const
+const idl_msg::Quaternion& idl_msg::Pose::orientation_quat() const
 {
     return m_orientation_quat;
 }
@@ -292,12 +292,12 @@ const Quaternion& Pose::orientation_quat() const
  * @brief This function returns a reference to member orientation_quat
  * @return Reference to member orientation_quat
  */
-Quaternion& Pose::orientation_quat()
+idl_msg::Quaternion& idl_msg::Pose::orientation_quat()
 {
     return m_orientation_quat;
 }
 
-size_t Pose::getKeyMaxCdrSerializedSize(
+size_t idl_msg::Pose::getKeyMaxCdrSerializedSize(
         size_t current_alignment)
 {
     size_t current_align = current_alignment;
@@ -311,14 +311,15 @@ size_t Pose::getKeyMaxCdrSerializedSize(
     return current_align;
 }
 
-bool Pose::isKeyDefined()
+bool idl_msg::Pose::isKeyDefined()
 {
     return false;
 }
 
-void Pose::serializeKey(
+void idl_msg::Pose::serializeKey(
         eprosima::fastcdr::Cdr& scdr) const
 {
     (void) scdr;
         
 }
+

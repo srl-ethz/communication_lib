@@ -34,36 +34,36 @@ using namespace eprosima::fastcdr::exception;
 
 #include <utility>
 
-QuadMotorCommand::QuadMotorCommand()
+idl_msg::QuadMotorCommand::QuadMotorCommand()
 {
-    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@56de5251
+    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@56a6d5a6
 
-    // m_motorspeed com.eprosima.idl.parser.typecode.ArrayTypeCode@419c5f1a
+    // m_motorspeed com.eprosima.idl.parser.typecode.ArrayTypeCode@18ce0030
     memset(&m_motorspeed, 0, (4) * 4);
 
 }
 
-QuadMotorCommand::~QuadMotorCommand()
+idl_msg::QuadMotorCommand::~QuadMotorCommand()
 {
 
 
 }
 
-QuadMotorCommand::QuadMotorCommand(
+idl_msg::QuadMotorCommand::QuadMotorCommand(
         const QuadMotorCommand& x)
 {
     m_header = x.m_header;
     m_motorspeed = x.m_motorspeed;
 }
 
-QuadMotorCommand::QuadMotorCommand(
+idl_msg::QuadMotorCommand::QuadMotorCommand(
         QuadMotorCommand&& x)
 {
     m_header = std::move(x.m_header);
     m_motorspeed = std::move(x.m_motorspeed);
 }
 
-QuadMotorCommand& QuadMotorCommand::operator =(
+idl_msg::QuadMotorCommand& idl_msg::QuadMotorCommand::operator =(
         const QuadMotorCommand& x)
 {
 
@@ -73,7 +73,7 @@ QuadMotorCommand& QuadMotorCommand::operator =(
     return *this;
 }
 
-QuadMotorCommand& QuadMotorCommand::operator =(
+idl_msg::QuadMotorCommand& idl_msg::QuadMotorCommand::operator =(
         QuadMotorCommand&& x)
 {
 
@@ -83,13 +83,13 @@ QuadMotorCommand& QuadMotorCommand::operator =(
     return *this;
 }
 
-size_t QuadMotorCommand::getMaxCdrSerializedSize(
+size_t idl_msg::QuadMotorCommand::getMaxCdrSerializedSize(
         size_t current_alignment)
 {
     size_t initial_alignment = current_alignment;
 
 
-    current_alignment += Header::getMaxCdrSerializedSize(current_alignment);
+    current_alignment += idl_msg::Header::getMaxCdrSerializedSize(current_alignment);
     current_alignment += ((4) * 4) + eprosima::fastcdr::Cdr::alignment(current_alignment, 4);
 
 
@@ -97,15 +97,15 @@ size_t QuadMotorCommand::getMaxCdrSerializedSize(
     return current_alignment - initial_alignment;
 }
 
-size_t QuadMotorCommand::getCdrSerializedSize(
-        const QuadMotorCommand& data,
+size_t idl_msg::QuadMotorCommand::getCdrSerializedSize(
+        const idl_msg::QuadMotorCommand& data,
         size_t current_alignment)
 {
     (void)data;
     size_t initial_alignment = current_alignment;
 
 
-    current_alignment += Header::getCdrSerializedSize(data.header(), current_alignment);
+    current_alignment += idl_msg::Header::getCdrSerializedSize(data.header(), current_alignment);
     if ((4) > 0)
     {
         current_alignment += ((4) * 4) + eprosima::fastcdr::Cdr::alignment(current_alignment, 4);
@@ -115,7 +115,7 @@ size_t QuadMotorCommand::getCdrSerializedSize(
     return current_alignment - initial_alignment;
 }
 
-void QuadMotorCommand::serialize(
+void idl_msg::QuadMotorCommand::serialize(
         eprosima::fastcdr::Cdr& scdr) const
 {
 
@@ -125,7 +125,7 @@ void QuadMotorCommand::serialize(
 
 }
 
-void QuadMotorCommand::deserialize(
+void idl_msg::QuadMotorCommand::deserialize(
         eprosima::fastcdr::Cdr& dcdr)
 {
 
@@ -138,8 +138,8 @@ void QuadMotorCommand::deserialize(
  * @brief This function copies the value in member header
  * @param _header New value to be copied in member header
  */
-void QuadMotorCommand::header(
-        const Header& _header)
+void idl_msg::QuadMotorCommand::header(
+        const idl_msg::Header& _header)
 {
     m_header = _header;
 }
@@ -148,8 +148,8 @@ void QuadMotorCommand::header(
  * @brief This function moves the value in member header
  * @param _header New value to be moved in member header
  */
-void QuadMotorCommand::header(
-        Header&& _header)
+void idl_msg::QuadMotorCommand::header(
+        idl_msg::Header&& _header)
 {
     m_header = std::move(_header);
 }
@@ -158,7 +158,7 @@ void QuadMotorCommand::header(
  * @brief This function returns a constant reference to member header
  * @return Constant reference to member header
  */
-const Header& QuadMotorCommand::header() const
+const idl_msg::Header& idl_msg::QuadMotorCommand::header() const
 {
     return m_header;
 }
@@ -167,7 +167,7 @@ const Header& QuadMotorCommand::header() const
  * @brief This function returns a reference to member header
  * @return Reference to member header
  */
-Header& QuadMotorCommand::header()
+idl_msg::Header& idl_msg::QuadMotorCommand::header()
 {
     return m_header;
 }
@@ -175,7 +175,7 @@ Header& QuadMotorCommand::header()
  * @brief This function copies the value in member motorspeed
  * @param _motorspeed New value to be copied in member motorspeed
  */
-void QuadMotorCommand::motorspeed(
+void idl_msg::QuadMotorCommand::motorspeed(
         const std::array<float, 4>& _motorspeed)
 {
     m_motorspeed = _motorspeed;
@@ -185,7 +185,7 @@ void QuadMotorCommand::motorspeed(
  * @brief This function moves the value in member motorspeed
  * @param _motorspeed New value to be moved in member motorspeed
  */
-void QuadMotorCommand::motorspeed(
+void idl_msg::QuadMotorCommand::motorspeed(
         std::array<float, 4>&& _motorspeed)
 {
     m_motorspeed = std::move(_motorspeed);
@@ -195,7 +195,7 @@ void QuadMotorCommand::motorspeed(
  * @brief This function returns a constant reference to member motorspeed
  * @return Constant reference to member motorspeed
  */
-const std::array<float, 4>& QuadMotorCommand::motorspeed() const
+const std::array<float, 4>& idl_msg::QuadMotorCommand::motorspeed() const
 {
     return m_motorspeed;
 }
@@ -204,12 +204,12 @@ const std::array<float, 4>& QuadMotorCommand::motorspeed() const
  * @brief This function returns a reference to member motorspeed
  * @return Reference to member motorspeed
  */
-std::array<float, 4>& QuadMotorCommand::motorspeed()
+std::array<float, 4>& idl_msg::QuadMotorCommand::motorspeed()
 {
     return m_motorspeed;
 }
 
-size_t QuadMotorCommand::getKeyMaxCdrSerializedSize(
+size_t idl_msg::QuadMotorCommand::getKeyMaxCdrSerializedSize(
         size_t current_alignment)
 {
     size_t current_align = current_alignment;
@@ -221,14 +221,15 @@ size_t QuadMotorCommand::getKeyMaxCdrSerializedSize(
     return current_align;
 }
 
-bool QuadMotorCommand::isKeyDefined()
+bool idl_msg::QuadMotorCommand::isKeyDefined()
 {
     return false;
 }
 
-void QuadMotorCommand::serializeKey(
+void idl_msg::QuadMotorCommand::serializeKey(
         eprosima::fastcdr::Cdr& scdr) const
 {
     (void) scdr;
       
 }
+

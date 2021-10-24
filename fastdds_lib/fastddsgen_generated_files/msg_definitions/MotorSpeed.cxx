@@ -34,30 +34,30 @@ using namespace eprosima::fastcdr::exception;
 
 #include <utility>
 
-MotorSpeed::MotorSpeed()
+idl_msg::MotorSpeed::MotorSpeed()
 {
-    // m_motor_speed com.eprosima.idl.parser.typecode.PrimitiveTypeCode@6156496
+    // m_motor_speed com.eprosima.idl.parser.typecode.PrimitiveTypeCode@258e2e41
     m_motor_speed = 0.0;
 
 }
 
-MotorSpeed::~MotorSpeed()
+idl_msg::MotorSpeed::~MotorSpeed()
 {
 }
 
-MotorSpeed::MotorSpeed(
+idl_msg::MotorSpeed::MotorSpeed(
         const MotorSpeed& x)
 {
     m_motor_speed = x.m_motor_speed;
 }
 
-MotorSpeed::MotorSpeed(
+idl_msg::MotorSpeed::MotorSpeed(
         MotorSpeed&& x)
 {
     m_motor_speed = x.m_motor_speed;
 }
 
-MotorSpeed& MotorSpeed::operator =(
+idl_msg::MotorSpeed& idl_msg::MotorSpeed::operator =(
         const MotorSpeed& x)
 {
 
@@ -66,7 +66,7 @@ MotorSpeed& MotorSpeed::operator =(
     return *this;
 }
 
-MotorSpeed& MotorSpeed::operator =(
+idl_msg::MotorSpeed& idl_msg::MotorSpeed::operator =(
         MotorSpeed&& x)
 {
 
@@ -75,7 +75,7 @@ MotorSpeed& MotorSpeed::operator =(
     return *this;
 }
 
-size_t MotorSpeed::getMaxCdrSerializedSize(
+size_t idl_msg::MotorSpeed::getMaxCdrSerializedSize(
         size_t current_alignment)
 {
     size_t initial_alignment = current_alignment;
@@ -87,8 +87,8 @@ size_t MotorSpeed::getMaxCdrSerializedSize(
     return current_alignment - initial_alignment;
 }
 
-size_t MotorSpeed::getCdrSerializedSize(
-        const MotorSpeed& data,
+size_t idl_msg::MotorSpeed::getCdrSerializedSize(
+        const idl_msg::MotorSpeed& data,
         size_t current_alignment)
 {
     (void)data;
@@ -101,7 +101,7 @@ size_t MotorSpeed::getCdrSerializedSize(
     return current_alignment - initial_alignment;
 }
 
-void MotorSpeed::serialize(
+void idl_msg::MotorSpeed::serialize(
         eprosima::fastcdr::Cdr& scdr) const
 {
 
@@ -109,7 +109,7 @@ void MotorSpeed::serialize(
 
 }
 
-void MotorSpeed::deserialize(
+void idl_msg::MotorSpeed::deserialize(
         eprosima::fastcdr::Cdr& dcdr)
 {
 
@@ -120,7 +120,7 @@ void MotorSpeed::deserialize(
  * @brief This function sets a value in member motor_speed
  * @param _motor_speed New value for member motor_speed
  */
-void MotorSpeed::motor_speed(
+void idl_msg::MotorSpeed::motor_speed(
         float _motor_speed)
 {
     m_motor_speed = _motor_speed;
@@ -130,7 +130,7 @@ void MotorSpeed::motor_speed(
  * @brief This function returns the value of member motor_speed
  * @return Value of member motor_speed
  */
-float MotorSpeed::motor_speed() const
+float idl_msg::MotorSpeed::motor_speed() const
 {
     return m_motor_speed;
 }
@@ -139,13 +139,13 @@ float MotorSpeed::motor_speed() const
  * @brief This function returns a reference to member motor_speed
  * @return Reference to member motor_speed
  */
-float& MotorSpeed::motor_speed()
+float& idl_msg::MotorSpeed::motor_speed()
 {
     return m_motor_speed;
 }
 
 
-size_t MotorSpeed::getKeyMaxCdrSerializedSize(
+size_t idl_msg::MotorSpeed::getKeyMaxCdrSerializedSize(
         size_t current_alignment)
 {
     size_t current_align = current_alignment;
@@ -155,14 +155,15 @@ size_t MotorSpeed::getKeyMaxCdrSerializedSize(
     return current_align;
 }
 
-bool MotorSpeed::isKeyDefined()
+bool idl_msg::MotorSpeed::isKeyDefined()
 {
     return false;
 }
 
-void MotorSpeed::serializeKey(
+void idl_msg::MotorSpeed::serializeKey(
         eprosima::fastcdr::Cdr& scdr) const
 {
     (void) scdr;
      
 }
+

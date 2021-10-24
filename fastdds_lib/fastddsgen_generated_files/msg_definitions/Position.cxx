@@ -34,25 +34,25 @@ using namespace eprosima::fastcdr::exception;
 
 #include <utility>
 
-Position::Position()
+idl_msg::Position::Position()
 {
-    // m_x com.eprosima.idl.parser.typecode.PrimitiveTypeCode@22fcf7ab
+    // m_x com.eprosima.idl.parser.typecode.PrimitiveTypeCode@131ef10
     m_x = 0.0;
-    // m_y com.eprosima.idl.parser.typecode.PrimitiveTypeCode@2de23121
+    // m_y com.eprosima.idl.parser.typecode.PrimitiveTypeCode@55b0dcab
     m_y = 0.0;
-    // m_z com.eprosima.idl.parser.typecode.PrimitiveTypeCode@63475ace
+    // m_z com.eprosima.idl.parser.typecode.PrimitiveTypeCode@38afe297
     m_z = 0.0;
 
 }
 
-Position::~Position()
+idl_msg::Position::~Position()
 {
 
 
 
 }
 
-Position::Position(
+idl_msg::Position::Position(
         const Position& x)
 {
     m_x = x.m_x;
@@ -60,7 +60,7 @@ Position::Position(
     m_z = x.m_z;
 }
 
-Position::Position(
+idl_msg::Position::Position(
         Position&& x)
 {
     m_x = x.m_x;
@@ -68,7 +68,7 @@ Position::Position(
     m_z = x.m_z;
 }
 
-Position& Position::operator =(
+idl_msg::Position& idl_msg::Position::operator =(
         const Position& x)
 {
 
@@ -79,7 +79,7 @@ Position& Position::operator =(
     return *this;
 }
 
-Position& Position::operator =(
+idl_msg::Position& idl_msg::Position::operator =(
         Position&& x)
 {
 
@@ -90,7 +90,7 @@ Position& Position::operator =(
     return *this;
 }
 
-size_t Position::getMaxCdrSerializedSize(
+size_t idl_msg::Position::getMaxCdrSerializedSize(
         size_t current_alignment)
 {
     size_t initial_alignment = current_alignment;
@@ -109,8 +109,8 @@ size_t Position::getMaxCdrSerializedSize(
     return current_alignment - initial_alignment;
 }
 
-size_t Position::getCdrSerializedSize(
-        const Position& data,
+size_t idl_msg::Position::getCdrSerializedSize(
+        const idl_msg::Position& data,
         size_t current_alignment)
 {
     (void)data;
@@ -130,7 +130,7 @@ size_t Position::getCdrSerializedSize(
     return current_alignment - initial_alignment;
 }
 
-void Position::serialize(
+void idl_msg::Position::serialize(
         eprosima::fastcdr::Cdr& scdr) const
 {
 
@@ -140,7 +140,7 @@ void Position::serialize(
 
 }
 
-void Position::deserialize(
+void idl_msg::Position::deserialize(
         eprosima::fastcdr::Cdr& dcdr)
 {
 
@@ -153,7 +153,7 @@ void Position::deserialize(
  * @brief This function sets a value in member x
  * @param _x New value for member x
  */
-void Position::x(
+void idl_msg::Position::x(
         float _x)
 {
     m_x = _x;
@@ -163,7 +163,7 @@ void Position::x(
  * @brief This function returns the value of member x
  * @return Value of member x
  */
-float Position::x() const
+float idl_msg::Position::x() const
 {
     return m_x;
 }
@@ -172,7 +172,7 @@ float Position::x() const
  * @brief This function returns a reference to member x
  * @return Reference to member x
  */
-float& Position::x()
+float& idl_msg::Position::x()
 {
     return m_x;
 }
@@ -181,7 +181,7 @@ float& Position::x()
  * @brief This function sets a value in member y
  * @param _y New value for member y
  */
-void Position::y(
+void idl_msg::Position::y(
         float _y)
 {
     m_y = _y;
@@ -191,7 +191,7 @@ void Position::y(
  * @brief This function returns the value of member y
  * @return Value of member y
  */
-float Position::y() const
+float idl_msg::Position::y() const
 {
     return m_y;
 }
@@ -200,7 +200,7 @@ float Position::y() const
  * @brief This function returns a reference to member y
  * @return Reference to member y
  */
-float& Position::y()
+float& idl_msg::Position::y()
 {
     return m_y;
 }
@@ -209,7 +209,7 @@ float& Position::y()
  * @brief This function sets a value in member z
  * @param _z New value for member z
  */
-void Position::z(
+void idl_msg::Position::z(
         float _z)
 {
     m_z = _z;
@@ -219,7 +219,7 @@ void Position::z(
  * @brief This function returns the value of member z
  * @return Value of member z
  */
-float Position::z() const
+float idl_msg::Position::z() const
 {
     return m_z;
 }
@@ -228,13 +228,13 @@ float Position::z() const
  * @brief This function returns a reference to member z
  * @return Reference to member z
  */
-float& Position::z()
+float& idl_msg::Position::z()
 {
     return m_z;
 }
 
 
-size_t Position::getKeyMaxCdrSerializedSize(
+size_t idl_msg::Position::getKeyMaxCdrSerializedSize(
         size_t current_alignment)
 {
     size_t current_align = current_alignment;
@@ -247,14 +247,15 @@ size_t Position::getKeyMaxCdrSerializedSize(
     return current_align;
 }
 
-bool Position::isKeyDefined()
+bool idl_msg::Position::isKeyDefined()
 {
     return false;
 }
 
-void Position::serializeKey(
+void idl_msg::Position::serializeKey(
         eprosima::fastcdr::Cdr& scdr) const
 {
     (void) scdr;
        
 }
+

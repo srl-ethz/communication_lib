@@ -34,36 +34,36 @@ using namespace eprosima::fastcdr::exception;
 
 #include <utility>
 
-Header::Header()
+idl_msg::Header::Header()
 {
-    // m_timestamp com.eprosima.idl.parser.typecode.PrimitiveTypeCode@63070bab
+    // m_timestamp com.eprosima.idl.parser.typecode.PrimitiveTypeCode@687e99d8
     m_timestamp = 0;
-    // m_id com.eprosima.idl.parser.typecode.StringTypeCode@68e5eea7
+    // m_id com.eprosima.idl.parser.typecode.StringTypeCode@e4487af
     m_id ="";
 
 }
 
-Header::~Header()
+idl_msg::Header::~Header()
 {
 
 
 }
 
-Header::Header(
+idl_msg::Header::Header(
         const Header& x)
 {
     m_timestamp = x.m_timestamp;
     m_id = x.m_id;
 }
 
-Header::Header(
+idl_msg::Header::Header(
         Header&& x)
 {
     m_timestamp = x.m_timestamp;
     m_id = std::move(x.m_id);
 }
 
-Header& Header::operator =(
+idl_msg::Header& idl_msg::Header::operator =(
         const Header& x)
 {
 
@@ -73,7 +73,7 @@ Header& Header::operator =(
     return *this;
 }
 
-Header& Header::operator =(
+idl_msg::Header& idl_msg::Header::operator =(
         Header&& x)
 {
 
@@ -83,7 +83,7 @@ Header& Header::operator =(
     return *this;
 }
 
-size_t Header::getMaxCdrSerializedSize(
+size_t idl_msg::Header::getMaxCdrSerializedSize(
         size_t current_alignment)
 {
     size_t initial_alignment = current_alignment;
@@ -98,8 +98,8 @@ size_t Header::getMaxCdrSerializedSize(
     return current_alignment - initial_alignment;
 }
 
-size_t Header::getCdrSerializedSize(
-        const Header& data,
+size_t idl_msg::Header::getCdrSerializedSize(
+        const idl_msg::Header& data,
         size_t current_alignment)
 {
     (void)data;
@@ -115,7 +115,7 @@ size_t Header::getCdrSerializedSize(
     return current_alignment - initial_alignment;
 }
 
-void Header::serialize(
+void idl_msg::Header::serialize(
         eprosima::fastcdr::Cdr& scdr) const
 {
 
@@ -124,7 +124,7 @@ void Header::serialize(
 
 }
 
-void Header::deserialize(
+void idl_msg::Header::deserialize(
         eprosima::fastcdr::Cdr& dcdr)
 {
 
@@ -136,7 +136,7 @@ void Header::deserialize(
  * @brief This function sets a value in member timestamp
  * @param _timestamp New value for member timestamp
  */
-void Header::timestamp(
+void idl_msg::Header::timestamp(
         int32_t _timestamp)
 {
     m_timestamp = _timestamp;
@@ -146,7 +146,7 @@ void Header::timestamp(
  * @brief This function returns the value of member timestamp
  * @return Value of member timestamp
  */
-int32_t Header::timestamp() const
+int32_t idl_msg::Header::timestamp() const
 {
     return m_timestamp;
 }
@@ -155,7 +155,7 @@ int32_t Header::timestamp() const
  * @brief This function returns a reference to member timestamp
  * @return Reference to member timestamp
  */
-int32_t& Header::timestamp()
+int32_t& idl_msg::Header::timestamp()
 {
     return m_timestamp;
 }
@@ -164,7 +164,7 @@ int32_t& Header::timestamp()
  * @brief This function copies the value in member id
  * @param _id New value to be copied in member id
  */
-void Header::id(
+void idl_msg::Header::id(
         const std::string& _id)
 {
     m_id = _id;
@@ -174,7 +174,7 @@ void Header::id(
  * @brief This function moves the value in member id
  * @param _id New value to be moved in member id
  */
-void Header::id(
+void idl_msg::Header::id(
         std::string&& _id)
 {
     m_id = std::move(_id);
@@ -184,7 +184,7 @@ void Header::id(
  * @brief This function returns a constant reference to member id
  * @return Constant reference to member id
  */
-const std::string& Header::id() const
+const std::string& idl_msg::Header::id() const
 {
     return m_id;
 }
@@ -193,12 +193,12 @@ const std::string& Header::id() const
  * @brief This function returns a reference to member id
  * @return Reference to member id
  */
-std::string& Header::id()
+std::string& idl_msg::Header::id()
 {
     return m_id;
 }
 
-size_t Header::getKeyMaxCdrSerializedSize(
+size_t idl_msg::Header::getKeyMaxCdrSerializedSize(
         size_t current_alignment)
 {
     size_t current_align = current_alignment;
@@ -210,14 +210,15 @@ size_t Header::getKeyMaxCdrSerializedSize(
     return current_align;
 }
 
-bool Header::isKeyDefined()
+bool idl_msg::Header::isKeyDefined()
 {
     return false;
 }
 
-void Header::serializeKey(
+void idl_msg::Header::serializeKey(
         eprosima::fastcdr::Cdr& scdr) const
 {
     (void) scdr;
       
 }
+

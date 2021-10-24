@@ -34,20 +34,20 @@ using namespace eprosima::fastcdr::exception;
 
 #include <utility>
 
-AttitudeCommand::AttitudeCommand()
+idl_msg::AttitudeCommand::AttitudeCommand()
 {
-    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@4ae82894
+    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@44a3ec6b
 
-    // m_roll com.eprosima.idl.parser.typecode.PrimitiveTypeCode@543788f3
+    // m_roll com.eprosima.idl.parser.typecode.PrimitiveTypeCode@71623278
     m_roll = 0.0;
-    // m_pitch com.eprosima.idl.parser.typecode.PrimitiveTypeCode@6d3af739
+    // m_pitch com.eprosima.idl.parser.typecode.PrimitiveTypeCode@768b970c
     m_pitch = 0.0;
-    // m_yaw com.eprosima.idl.parser.typecode.PrimitiveTypeCode@1da51a35
+    // m_yaw com.eprosima.idl.parser.typecode.PrimitiveTypeCode@5a4041cc
     m_yaw = 0.0;
 
 }
 
-AttitudeCommand::~AttitudeCommand()
+idl_msg::AttitudeCommand::~AttitudeCommand()
 {
 
 
@@ -55,7 +55,7 @@ AttitudeCommand::~AttitudeCommand()
 
 }
 
-AttitudeCommand::AttitudeCommand(
+idl_msg::AttitudeCommand::AttitudeCommand(
         const AttitudeCommand& x)
 {
     m_header = x.m_header;
@@ -64,7 +64,7 @@ AttitudeCommand::AttitudeCommand(
     m_yaw = x.m_yaw;
 }
 
-AttitudeCommand::AttitudeCommand(
+idl_msg::AttitudeCommand::AttitudeCommand(
         AttitudeCommand&& x)
 {
     m_header = std::move(x.m_header);
@@ -73,7 +73,7 @@ AttitudeCommand::AttitudeCommand(
     m_yaw = x.m_yaw;
 }
 
-AttitudeCommand& AttitudeCommand::operator =(
+idl_msg::AttitudeCommand& idl_msg::AttitudeCommand::operator =(
         const AttitudeCommand& x)
 {
 
@@ -85,7 +85,7 @@ AttitudeCommand& AttitudeCommand::operator =(
     return *this;
 }
 
-AttitudeCommand& AttitudeCommand::operator =(
+idl_msg::AttitudeCommand& idl_msg::AttitudeCommand::operator =(
         AttitudeCommand&& x)
 {
 
@@ -97,13 +97,13 @@ AttitudeCommand& AttitudeCommand::operator =(
     return *this;
 }
 
-size_t AttitudeCommand::getMaxCdrSerializedSize(
+size_t idl_msg::AttitudeCommand::getMaxCdrSerializedSize(
         size_t current_alignment)
 {
     size_t initial_alignment = current_alignment;
 
 
-    current_alignment += Header::getMaxCdrSerializedSize(current_alignment);
+    current_alignment += idl_msg::Header::getMaxCdrSerializedSize(current_alignment);
     current_alignment += 4 + eprosima::fastcdr::Cdr::alignment(current_alignment, 4);
 
 
@@ -117,15 +117,15 @@ size_t AttitudeCommand::getMaxCdrSerializedSize(
     return current_alignment - initial_alignment;
 }
 
-size_t AttitudeCommand::getCdrSerializedSize(
-        const AttitudeCommand& data,
+size_t idl_msg::AttitudeCommand::getCdrSerializedSize(
+        const idl_msg::AttitudeCommand& data,
         size_t current_alignment)
 {
     (void)data;
     size_t initial_alignment = current_alignment;
 
 
-    current_alignment += Header::getCdrSerializedSize(data.header(), current_alignment);
+    current_alignment += idl_msg::Header::getCdrSerializedSize(data.header(), current_alignment);
     current_alignment += 4 + eprosima::fastcdr::Cdr::alignment(current_alignment, 4);
 
 
@@ -139,7 +139,7 @@ size_t AttitudeCommand::getCdrSerializedSize(
     return current_alignment - initial_alignment;
 }
 
-void AttitudeCommand::serialize(
+void idl_msg::AttitudeCommand::serialize(
         eprosima::fastcdr::Cdr& scdr) const
 {
 
@@ -150,7 +150,7 @@ void AttitudeCommand::serialize(
 
 }
 
-void AttitudeCommand::deserialize(
+void idl_msg::AttitudeCommand::deserialize(
         eprosima::fastcdr::Cdr& dcdr)
 {
 
@@ -164,8 +164,8 @@ void AttitudeCommand::deserialize(
  * @brief This function copies the value in member header
  * @param _header New value to be copied in member header
  */
-void AttitudeCommand::header(
-        const Header& _header)
+void idl_msg::AttitudeCommand::header(
+        const idl_msg::Header& _header)
 {
     m_header = _header;
 }
@@ -174,8 +174,8 @@ void AttitudeCommand::header(
  * @brief This function moves the value in member header
  * @param _header New value to be moved in member header
  */
-void AttitudeCommand::header(
-        Header&& _header)
+void idl_msg::AttitudeCommand::header(
+        idl_msg::Header&& _header)
 {
     m_header = std::move(_header);
 }
@@ -184,7 +184,7 @@ void AttitudeCommand::header(
  * @brief This function returns a constant reference to member header
  * @return Constant reference to member header
  */
-const Header& AttitudeCommand::header() const
+const idl_msg::Header& idl_msg::AttitudeCommand::header() const
 {
     return m_header;
 }
@@ -193,7 +193,7 @@ const Header& AttitudeCommand::header() const
  * @brief This function returns a reference to member header
  * @return Reference to member header
  */
-Header& AttitudeCommand::header()
+idl_msg::Header& idl_msg::AttitudeCommand::header()
 {
     return m_header;
 }
@@ -201,7 +201,7 @@ Header& AttitudeCommand::header()
  * @brief This function sets a value in member roll
  * @param _roll New value for member roll
  */
-void AttitudeCommand::roll(
+void idl_msg::AttitudeCommand::roll(
         float _roll)
 {
     m_roll = _roll;
@@ -211,7 +211,7 @@ void AttitudeCommand::roll(
  * @brief This function returns the value of member roll
  * @return Value of member roll
  */
-float AttitudeCommand::roll() const
+float idl_msg::AttitudeCommand::roll() const
 {
     return m_roll;
 }
@@ -220,7 +220,7 @@ float AttitudeCommand::roll() const
  * @brief This function returns a reference to member roll
  * @return Reference to member roll
  */
-float& AttitudeCommand::roll()
+float& idl_msg::AttitudeCommand::roll()
 {
     return m_roll;
 }
@@ -229,7 +229,7 @@ float& AttitudeCommand::roll()
  * @brief This function sets a value in member pitch
  * @param _pitch New value for member pitch
  */
-void AttitudeCommand::pitch(
+void idl_msg::AttitudeCommand::pitch(
         float _pitch)
 {
     m_pitch = _pitch;
@@ -239,7 +239,7 @@ void AttitudeCommand::pitch(
  * @brief This function returns the value of member pitch
  * @return Value of member pitch
  */
-float AttitudeCommand::pitch() const
+float idl_msg::AttitudeCommand::pitch() const
 {
     return m_pitch;
 }
@@ -248,7 +248,7 @@ float AttitudeCommand::pitch() const
  * @brief This function returns a reference to member pitch
  * @return Reference to member pitch
  */
-float& AttitudeCommand::pitch()
+float& idl_msg::AttitudeCommand::pitch()
 {
     return m_pitch;
 }
@@ -257,7 +257,7 @@ float& AttitudeCommand::pitch()
  * @brief This function sets a value in member yaw
  * @param _yaw New value for member yaw
  */
-void AttitudeCommand::yaw(
+void idl_msg::AttitudeCommand::yaw(
         float _yaw)
 {
     m_yaw = _yaw;
@@ -267,7 +267,7 @@ void AttitudeCommand::yaw(
  * @brief This function returns the value of member yaw
  * @return Value of member yaw
  */
-float AttitudeCommand::yaw() const
+float idl_msg::AttitudeCommand::yaw() const
 {
     return m_yaw;
 }
@@ -276,13 +276,13 @@ float AttitudeCommand::yaw() const
  * @brief This function returns a reference to member yaw
  * @return Reference to member yaw
  */
-float& AttitudeCommand::yaw()
+float& idl_msg::AttitudeCommand::yaw()
 {
     return m_yaw;
 }
 
 
-size_t AttitudeCommand::getKeyMaxCdrSerializedSize(
+size_t idl_msg::AttitudeCommand::getKeyMaxCdrSerializedSize(
         size_t current_alignment)
 {
     size_t current_align = current_alignment;
@@ -296,14 +296,15 @@ size_t AttitudeCommand::getKeyMaxCdrSerializedSize(
     return current_align;
 }
 
-bool AttitudeCommand::isKeyDefined()
+bool idl_msg::AttitudeCommand::isKeyDefined()
 {
     return false;
 }
 
-void AttitudeCommand::serializeKey(
+void idl_msg::AttitudeCommand::serializeKey(
         eprosima::fastcdr::Cdr& scdr) const
 {
     (void) scdr;
         
 }
+

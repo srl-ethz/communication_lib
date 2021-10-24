@@ -34,36 +34,36 @@ using namespace eprosima::fastcdr::exception;
 
 #include <utility>
 
-PositionCommand::PositionCommand()
+idl_msg::PositionCommand::PositionCommand()
 {
-    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@4278a03f
+    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@16e7dcfd
 
-    // m_position com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@147ed70f
+    // m_position com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@3d121db3
 
 
 }
 
-PositionCommand::~PositionCommand()
+idl_msg::PositionCommand::~PositionCommand()
 {
 
 
 }
 
-PositionCommand::PositionCommand(
+idl_msg::PositionCommand::PositionCommand(
         const PositionCommand& x)
 {
     m_header = x.m_header;
     m_position = x.m_position;
 }
 
-PositionCommand::PositionCommand(
+idl_msg::PositionCommand::PositionCommand(
         PositionCommand&& x)
 {
     m_header = std::move(x.m_header);
     m_position = std::move(x.m_position);
 }
 
-PositionCommand& PositionCommand::operator =(
+idl_msg::PositionCommand& idl_msg::PositionCommand::operator =(
         const PositionCommand& x)
 {
 
@@ -73,7 +73,7 @@ PositionCommand& PositionCommand::operator =(
     return *this;
 }
 
-PositionCommand& PositionCommand::operator =(
+idl_msg::PositionCommand& idl_msg::PositionCommand::operator =(
         PositionCommand&& x)
 {
 
@@ -83,33 +83,33 @@ PositionCommand& PositionCommand::operator =(
     return *this;
 }
 
-size_t PositionCommand::getMaxCdrSerializedSize(
+size_t idl_msg::PositionCommand::getMaxCdrSerializedSize(
         size_t current_alignment)
 {
     size_t initial_alignment = current_alignment;
 
 
-    current_alignment += Header::getMaxCdrSerializedSize(current_alignment);
-    current_alignment += Position::getMaxCdrSerializedSize(current_alignment);
+    current_alignment += idl_msg::Header::getMaxCdrSerializedSize(current_alignment);
+    current_alignment += idl_msg::Position::getMaxCdrSerializedSize(current_alignment);
 
     return current_alignment - initial_alignment;
 }
 
-size_t PositionCommand::getCdrSerializedSize(
-        const PositionCommand& data,
+size_t idl_msg::PositionCommand::getCdrSerializedSize(
+        const idl_msg::PositionCommand& data,
         size_t current_alignment)
 {
     (void)data;
     size_t initial_alignment = current_alignment;
 
 
-    current_alignment += Header::getCdrSerializedSize(data.header(), current_alignment);
-    current_alignment += Position::getCdrSerializedSize(data.position(), current_alignment);
+    current_alignment += idl_msg::Header::getCdrSerializedSize(data.header(), current_alignment);
+    current_alignment += idl_msg::Position::getCdrSerializedSize(data.position(), current_alignment);
 
     return current_alignment - initial_alignment;
 }
 
-void PositionCommand::serialize(
+void idl_msg::PositionCommand::serialize(
         eprosima::fastcdr::Cdr& scdr) const
 {
 
@@ -118,7 +118,7 @@ void PositionCommand::serialize(
 
 }
 
-void PositionCommand::deserialize(
+void idl_msg::PositionCommand::deserialize(
         eprosima::fastcdr::Cdr& dcdr)
 {
 
@@ -130,8 +130,8 @@ void PositionCommand::deserialize(
  * @brief This function copies the value in member header
  * @param _header New value to be copied in member header
  */
-void PositionCommand::header(
-        const Header& _header)
+void idl_msg::PositionCommand::header(
+        const idl_msg::Header& _header)
 {
     m_header = _header;
 }
@@ -140,8 +140,8 @@ void PositionCommand::header(
  * @brief This function moves the value in member header
  * @param _header New value to be moved in member header
  */
-void PositionCommand::header(
-        Header&& _header)
+void idl_msg::PositionCommand::header(
+        idl_msg::Header&& _header)
 {
     m_header = std::move(_header);
 }
@@ -150,7 +150,7 @@ void PositionCommand::header(
  * @brief This function returns a constant reference to member header
  * @return Constant reference to member header
  */
-const Header& PositionCommand::header() const
+const idl_msg::Header& idl_msg::PositionCommand::header() const
 {
     return m_header;
 }
@@ -159,7 +159,7 @@ const Header& PositionCommand::header() const
  * @brief This function returns a reference to member header
  * @return Reference to member header
  */
-Header& PositionCommand::header()
+idl_msg::Header& idl_msg::PositionCommand::header()
 {
     return m_header;
 }
@@ -167,8 +167,8 @@ Header& PositionCommand::header()
  * @brief This function copies the value in member position
  * @param _position New value to be copied in member position
  */
-void PositionCommand::position(
-        const Position& _position)
+void idl_msg::PositionCommand::position(
+        const idl_msg::Position& _position)
 {
     m_position = _position;
 }
@@ -177,8 +177,8 @@ void PositionCommand::position(
  * @brief This function moves the value in member position
  * @param _position New value to be moved in member position
  */
-void PositionCommand::position(
-        Position&& _position)
+void idl_msg::PositionCommand::position(
+        idl_msg::Position&& _position)
 {
     m_position = std::move(_position);
 }
@@ -187,7 +187,7 @@ void PositionCommand::position(
  * @brief This function returns a constant reference to member position
  * @return Constant reference to member position
  */
-const Position& PositionCommand::position() const
+const idl_msg::Position& idl_msg::PositionCommand::position() const
 {
     return m_position;
 }
@@ -196,12 +196,12 @@ const Position& PositionCommand::position() const
  * @brief This function returns a reference to member position
  * @return Reference to member position
  */
-Position& PositionCommand::position()
+idl_msg::Position& idl_msg::PositionCommand::position()
 {
     return m_position;
 }
 
-size_t PositionCommand::getKeyMaxCdrSerializedSize(
+size_t idl_msg::PositionCommand::getKeyMaxCdrSerializedSize(
         size_t current_alignment)
 {
     size_t current_align = current_alignment;
@@ -213,14 +213,15 @@ size_t PositionCommand::getKeyMaxCdrSerializedSize(
     return current_align;
 }
 
-bool PositionCommand::isKeyDefined()
+bool idl_msg::PositionCommand::isKeyDefined()
 {
     return false;
 }
 
-void PositionCommand::serializeKey(
+void idl_msg::PositionCommand::serializeKey(
         eprosima::fastcdr::Cdr& scdr) const
 {
     (void) scdr;
       
 }
+

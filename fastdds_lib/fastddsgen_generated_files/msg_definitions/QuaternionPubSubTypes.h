@@ -20,8 +20,8 @@
  */
 
 
-#ifndef _QUATERNION_PUBSUBTYPES_H_
-#define _QUATERNION_PUBSUBTYPES_H_
+#ifndef _IDL_MSG_QUATERNION_PUBSUBTYPES_H_
+#define _IDL_MSG_QUATERNION_PUBSUBTYPES_H_
 
 #include <fastdds/dds/topic/TopicDataType.hpp>
 #include <fastrtps/utils/md5.h>
@@ -32,69 +32,72 @@
 #error Generated Quaternion is not compatible with current installed Fast DDS. Please, regenerate it with fastddsgen.
 #endif  // GEN_API_VER
 
-/*!
- * @brief This class represents the TopicDataType of the type Quaternion defined by the user in the IDL file.
- * @ingroup QUATERNION
- */
-class QuaternionPubSubType : public eprosima::fastdds::dds::TopicDataType
+namespace idl_msg
 {
-public:
-
-    typedef Quaternion type;
-
-    eProsima_user_DllExport QuaternionPubSubType();
-
-    eProsima_user_DllExport virtual ~QuaternionPubSubType();
-
-    eProsima_user_DllExport virtual bool serialize(
-            void* data,
-            eprosima::fastrtps::rtps::SerializedPayload_t* payload) override;
-
-    eProsima_user_DllExport virtual bool deserialize(
-            eprosima::fastrtps::rtps::SerializedPayload_t* payload,
-            void* data) override;
-
-    eProsima_user_DllExport virtual std::function<uint32_t()> getSerializedSizeProvider(
-            void* data) override;
-
-    eProsima_user_DllExport virtual bool getKey(
-            void* data,
-            eprosima::fastrtps::rtps::InstanceHandle_t* ihandle,
-            bool force_md5 = false) override;
-
-    eProsima_user_DllExport virtual void* createData() override;
-
-    eProsima_user_DllExport virtual void deleteData(
-            void* data) override;
-
-#ifdef TOPIC_DATA_TYPE_API_HAS_IS_BOUNDED
-    eProsima_user_DllExport inline bool is_bounded() const override
+    /*!
+     * @brief This class represents the TopicDataType of the type Quaternion defined by the user in the IDL file.
+     * @ingroup QUATERNION
+     */
+    class QuaternionPubSubType : public eprosima::fastdds::dds::TopicDataType
     {
-        return true;
-    }
+    public:
 
-#endif  // TOPIC_DATA_TYPE_API_HAS_IS_BOUNDED
+        typedef Quaternion type;
 
-#ifdef TOPIC_DATA_TYPE_API_HAS_IS_PLAIN
-    eProsima_user_DllExport inline bool is_plain() const override
-    {
-        return true;
-    }
+        eProsima_user_DllExport QuaternionPubSubType();
 
-#endif  // TOPIC_DATA_TYPE_API_HAS_IS_PLAIN
+        eProsima_user_DllExport virtual ~QuaternionPubSubType();
 
-#ifdef TOPIC_DATA_TYPE_API_HAS_CONSTRUCT_SAMPLE
-    eProsima_user_DllExport inline bool construct_sample(
-            void* memory) const override
-    {
-        new (memory) Quaternion();
-        return true;
-    }
+        eProsima_user_DllExport virtual bool serialize(
+                void* data,
+                eprosima::fastrtps::rtps::SerializedPayload_t* payload) override;
 
-#endif  // TOPIC_DATA_TYPE_API_HAS_CONSTRUCT_SAMPLE
+        eProsima_user_DllExport virtual bool deserialize(
+                eprosima::fastrtps::rtps::SerializedPayload_t* payload,
+                void* data) override;
 
-    MD5 m_md5;
-    unsigned char* m_keyBuffer;
-};
+        eProsima_user_DllExport virtual std::function<uint32_t()> getSerializedSizeProvider(
+                void* data) override;
 
-#endif // _QUATERNION_PUBSUBTYPES_H_
+        eProsima_user_DllExport virtual bool getKey(
+                void* data,
+                eprosima::fastrtps::rtps::InstanceHandle_t* ihandle,
+                bool force_md5 = false) override;
+
+        eProsima_user_DllExport virtual void* createData() override;
+
+        eProsima_user_DllExport virtual void deleteData(
+                void* data) override;
+
+    #ifdef TOPIC_DATA_TYPE_API_HAS_IS_BOUNDED
+        eProsima_user_DllExport inline bool is_bounded() const override
+        {
+            return true;
+        }
+
+    #endif  // TOPIC_DATA_TYPE_API_HAS_IS_BOUNDED
+
+    #ifdef TOPIC_DATA_TYPE_API_HAS_IS_PLAIN
+        eProsima_user_DllExport inline bool is_plain() const override
+        {
+            return true;
+        }
+
+    #endif  // TOPIC_DATA_TYPE_API_HAS_IS_PLAIN
+
+    #ifdef TOPIC_DATA_TYPE_API_HAS_CONSTRUCT_SAMPLE
+        eProsima_user_DllExport inline bool construct_sample(
+                void* memory) const override
+        {
+            new (memory) Quaternion();
+            return true;
+        }
+
+    #endif  // TOPIC_DATA_TYPE_API_HAS_CONSTRUCT_SAMPLE
+
+        MD5 m_md5;
+        unsigned char* m_keyBuffer;
+    };
+}
+
+#endif // _IDL_MSG_QUATERNION_PUBSUBTYPES_H_

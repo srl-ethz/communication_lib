@@ -34,20 +34,20 @@ using namespace eprosima::fastcdr::exception;
 
 #include <utility>
 
-Quaternion::Quaternion()
+idl_msg::Quaternion::Quaternion()
 {
-    // m_x com.eprosima.idl.parser.typecode.PrimitiveTypeCode@639c2c1d
+    // m_x com.eprosima.idl.parser.typecode.PrimitiveTypeCode@4218d6a3
     m_x = 0.0;
-    // m_y com.eprosima.idl.parser.typecode.PrimitiveTypeCode@5fe94a96
+    // m_y com.eprosima.idl.parser.typecode.PrimitiveTypeCode@76505305
     m_y = 0.0;
-    // m_z com.eprosima.idl.parser.typecode.PrimitiveTypeCode@443118b0
+    // m_z com.eprosima.idl.parser.typecode.PrimitiveTypeCode@14cd1699
     m_z = 0.0;
-    // m_w com.eprosima.idl.parser.typecode.PrimitiveTypeCode@765d7657
+    // m_w com.eprosima.idl.parser.typecode.PrimitiveTypeCode@77888435
     m_w = 0.0;
 
 }
 
-Quaternion::~Quaternion()
+idl_msg::Quaternion::~Quaternion()
 {
 
 
@@ -55,7 +55,7 @@ Quaternion::~Quaternion()
 
 }
 
-Quaternion::Quaternion(
+idl_msg::Quaternion::Quaternion(
         const Quaternion& x)
 {
     m_x = x.m_x;
@@ -64,7 +64,7 @@ Quaternion::Quaternion(
     m_w = x.m_w;
 }
 
-Quaternion::Quaternion(
+idl_msg::Quaternion::Quaternion(
         Quaternion&& x)
 {
     m_x = x.m_x;
@@ -73,7 +73,7 @@ Quaternion::Quaternion(
     m_w = x.m_w;
 }
 
-Quaternion& Quaternion::operator =(
+idl_msg::Quaternion& idl_msg::Quaternion::operator =(
         const Quaternion& x)
 {
 
@@ -85,7 +85,7 @@ Quaternion& Quaternion::operator =(
     return *this;
 }
 
-Quaternion& Quaternion::operator =(
+idl_msg::Quaternion& idl_msg::Quaternion::operator =(
         Quaternion&& x)
 {
 
@@ -97,7 +97,7 @@ Quaternion& Quaternion::operator =(
     return *this;
 }
 
-size_t Quaternion::getMaxCdrSerializedSize(
+size_t idl_msg::Quaternion::getMaxCdrSerializedSize(
         size_t current_alignment)
 {
     size_t initial_alignment = current_alignment;
@@ -119,8 +119,8 @@ size_t Quaternion::getMaxCdrSerializedSize(
     return current_alignment - initial_alignment;
 }
 
-size_t Quaternion::getCdrSerializedSize(
-        const Quaternion& data,
+size_t idl_msg::Quaternion::getCdrSerializedSize(
+        const idl_msg::Quaternion& data,
         size_t current_alignment)
 {
     (void)data;
@@ -143,7 +143,7 @@ size_t Quaternion::getCdrSerializedSize(
     return current_alignment - initial_alignment;
 }
 
-void Quaternion::serialize(
+void idl_msg::Quaternion::serialize(
         eprosima::fastcdr::Cdr& scdr) const
 {
 
@@ -154,7 +154,7 @@ void Quaternion::serialize(
 
 }
 
-void Quaternion::deserialize(
+void idl_msg::Quaternion::deserialize(
         eprosima::fastcdr::Cdr& dcdr)
 {
 
@@ -168,7 +168,7 @@ void Quaternion::deserialize(
  * @brief This function sets a value in member x
  * @param _x New value for member x
  */
-void Quaternion::x(
+void idl_msg::Quaternion::x(
         float _x)
 {
     m_x = _x;
@@ -178,7 +178,7 @@ void Quaternion::x(
  * @brief This function returns the value of member x
  * @return Value of member x
  */
-float Quaternion::x() const
+float idl_msg::Quaternion::x() const
 {
     return m_x;
 }
@@ -187,7 +187,7 @@ float Quaternion::x() const
  * @brief This function returns a reference to member x
  * @return Reference to member x
  */
-float& Quaternion::x()
+float& idl_msg::Quaternion::x()
 {
     return m_x;
 }
@@ -196,7 +196,7 @@ float& Quaternion::x()
  * @brief This function sets a value in member y
  * @param _y New value for member y
  */
-void Quaternion::y(
+void idl_msg::Quaternion::y(
         float _y)
 {
     m_y = _y;
@@ -206,7 +206,7 @@ void Quaternion::y(
  * @brief This function returns the value of member y
  * @return Value of member y
  */
-float Quaternion::y() const
+float idl_msg::Quaternion::y() const
 {
     return m_y;
 }
@@ -215,7 +215,7 @@ float Quaternion::y() const
  * @brief This function returns a reference to member y
  * @return Reference to member y
  */
-float& Quaternion::y()
+float& idl_msg::Quaternion::y()
 {
     return m_y;
 }
@@ -224,7 +224,7 @@ float& Quaternion::y()
  * @brief This function sets a value in member z
  * @param _z New value for member z
  */
-void Quaternion::z(
+void idl_msg::Quaternion::z(
         float _z)
 {
     m_z = _z;
@@ -234,7 +234,7 @@ void Quaternion::z(
  * @brief This function returns the value of member z
  * @return Value of member z
  */
-float Quaternion::z() const
+float idl_msg::Quaternion::z() const
 {
     return m_z;
 }
@@ -243,7 +243,7 @@ float Quaternion::z() const
  * @brief This function returns a reference to member z
  * @return Reference to member z
  */
-float& Quaternion::z()
+float& idl_msg::Quaternion::z()
 {
     return m_z;
 }
@@ -252,7 +252,7 @@ float& Quaternion::z()
  * @brief This function sets a value in member w
  * @param _w New value for member w
  */
-void Quaternion::w(
+void idl_msg::Quaternion::w(
         float _w)
 {
     m_w = _w;
@@ -262,7 +262,7 @@ void Quaternion::w(
  * @brief This function returns the value of member w
  * @return Value of member w
  */
-float Quaternion::w() const
+float idl_msg::Quaternion::w() const
 {
     return m_w;
 }
@@ -271,13 +271,13 @@ float Quaternion::w() const
  * @brief This function returns a reference to member w
  * @return Reference to member w
  */
-float& Quaternion::w()
+float& idl_msg::Quaternion::w()
 {
     return m_w;
 }
 
 
-size_t Quaternion::getKeyMaxCdrSerializedSize(
+size_t idl_msg::Quaternion::getKeyMaxCdrSerializedSize(
         size_t current_alignment)
 {
     size_t current_align = current_alignment;
@@ -291,14 +291,15 @@ size_t Quaternion::getKeyMaxCdrSerializedSize(
     return current_align;
 }
 
-bool Quaternion::isKeyDefined()
+bool idl_msg::Quaternion::isKeyDefined()
 {
     return false;
 }
 
-void Quaternion::serializeKey(
+void idl_msg::Quaternion::serializeKey(
         eprosima::fastcdr::Cdr& scdr) const
 {
     (void) scdr;
         
 }
+

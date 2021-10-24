@@ -34,25 +34,25 @@ using namespace eprosima::fastcdr::exception;
 
 #include <utility>
 
-EulerAngleZYZ::EulerAngleZYZ()
+idl_msg::EulerAngleZYZ::EulerAngleZYZ()
 {
-    // m_roll com.eprosima.idl.parser.typecode.PrimitiveTypeCode@3bf7ca37
+    // m_roll com.eprosima.idl.parser.typecode.PrimitiveTypeCode@185a6e9
     m_roll = 0.0;
-    // m_pitch com.eprosima.idl.parser.typecode.PrimitiveTypeCode@79079097
+    // m_pitch com.eprosima.idl.parser.typecode.PrimitiveTypeCode@6f03482
     m_pitch = 0.0;
-    // m_yaw com.eprosima.idl.parser.typecode.PrimitiveTypeCode@4d1c00d0
+    // m_yaw com.eprosima.idl.parser.typecode.PrimitiveTypeCode@9d5509a
     m_yaw = 0.0;
 
 }
 
-EulerAngleZYZ::~EulerAngleZYZ()
+idl_msg::EulerAngleZYZ::~EulerAngleZYZ()
 {
 
 
 
 }
 
-EulerAngleZYZ::EulerAngleZYZ(
+idl_msg::EulerAngleZYZ::EulerAngleZYZ(
         const EulerAngleZYZ& x)
 {
     m_roll = x.m_roll;
@@ -60,7 +60,7 @@ EulerAngleZYZ::EulerAngleZYZ(
     m_yaw = x.m_yaw;
 }
 
-EulerAngleZYZ::EulerAngleZYZ(
+idl_msg::EulerAngleZYZ::EulerAngleZYZ(
         EulerAngleZYZ&& x)
 {
     m_roll = x.m_roll;
@@ -68,7 +68,7 @@ EulerAngleZYZ::EulerAngleZYZ(
     m_yaw = x.m_yaw;
 }
 
-EulerAngleZYZ& EulerAngleZYZ::operator =(
+idl_msg::EulerAngleZYZ& idl_msg::EulerAngleZYZ::operator =(
         const EulerAngleZYZ& x)
 {
 
@@ -79,7 +79,7 @@ EulerAngleZYZ& EulerAngleZYZ::operator =(
     return *this;
 }
 
-EulerAngleZYZ& EulerAngleZYZ::operator =(
+idl_msg::EulerAngleZYZ& idl_msg::EulerAngleZYZ::operator =(
         EulerAngleZYZ&& x)
 {
 
@@ -90,7 +90,7 @@ EulerAngleZYZ& EulerAngleZYZ::operator =(
     return *this;
 }
 
-size_t EulerAngleZYZ::getMaxCdrSerializedSize(
+size_t idl_msg::EulerAngleZYZ::getMaxCdrSerializedSize(
         size_t current_alignment)
 {
     size_t initial_alignment = current_alignment;
@@ -109,8 +109,8 @@ size_t EulerAngleZYZ::getMaxCdrSerializedSize(
     return current_alignment - initial_alignment;
 }
 
-size_t EulerAngleZYZ::getCdrSerializedSize(
-        const EulerAngleZYZ& data,
+size_t idl_msg::EulerAngleZYZ::getCdrSerializedSize(
+        const idl_msg::EulerAngleZYZ& data,
         size_t current_alignment)
 {
     (void)data;
@@ -130,7 +130,7 @@ size_t EulerAngleZYZ::getCdrSerializedSize(
     return current_alignment - initial_alignment;
 }
 
-void EulerAngleZYZ::serialize(
+void idl_msg::EulerAngleZYZ::serialize(
         eprosima::fastcdr::Cdr& scdr) const
 {
 
@@ -140,7 +140,7 @@ void EulerAngleZYZ::serialize(
 
 }
 
-void EulerAngleZYZ::deserialize(
+void idl_msg::EulerAngleZYZ::deserialize(
         eprosima::fastcdr::Cdr& dcdr)
 {
 
@@ -153,7 +153,7 @@ void EulerAngleZYZ::deserialize(
  * @brief This function sets a value in member roll
  * @param _roll New value for member roll
  */
-void EulerAngleZYZ::roll(
+void idl_msg::EulerAngleZYZ::roll(
         float _roll)
 {
     m_roll = _roll;
@@ -163,7 +163,7 @@ void EulerAngleZYZ::roll(
  * @brief This function returns the value of member roll
  * @return Value of member roll
  */
-float EulerAngleZYZ::roll() const
+float idl_msg::EulerAngleZYZ::roll() const
 {
     return m_roll;
 }
@@ -172,7 +172,7 @@ float EulerAngleZYZ::roll() const
  * @brief This function returns a reference to member roll
  * @return Reference to member roll
  */
-float& EulerAngleZYZ::roll()
+float& idl_msg::EulerAngleZYZ::roll()
 {
     return m_roll;
 }
@@ -181,7 +181,7 @@ float& EulerAngleZYZ::roll()
  * @brief This function sets a value in member pitch
  * @param _pitch New value for member pitch
  */
-void EulerAngleZYZ::pitch(
+void idl_msg::EulerAngleZYZ::pitch(
         float _pitch)
 {
     m_pitch = _pitch;
@@ -191,7 +191,7 @@ void EulerAngleZYZ::pitch(
  * @brief This function returns the value of member pitch
  * @return Value of member pitch
  */
-float EulerAngleZYZ::pitch() const
+float idl_msg::EulerAngleZYZ::pitch() const
 {
     return m_pitch;
 }
@@ -200,7 +200,7 @@ float EulerAngleZYZ::pitch() const
  * @brief This function returns a reference to member pitch
  * @return Reference to member pitch
  */
-float& EulerAngleZYZ::pitch()
+float& idl_msg::EulerAngleZYZ::pitch()
 {
     return m_pitch;
 }
@@ -209,7 +209,7 @@ float& EulerAngleZYZ::pitch()
  * @brief This function sets a value in member yaw
  * @param _yaw New value for member yaw
  */
-void EulerAngleZYZ::yaw(
+void idl_msg::EulerAngleZYZ::yaw(
         float _yaw)
 {
     m_yaw = _yaw;
@@ -219,7 +219,7 @@ void EulerAngleZYZ::yaw(
  * @brief This function returns the value of member yaw
  * @return Value of member yaw
  */
-float EulerAngleZYZ::yaw() const
+float idl_msg::EulerAngleZYZ::yaw() const
 {
     return m_yaw;
 }
@@ -228,13 +228,13 @@ float EulerAngleZYZ::yaw() const
  * @brief This function returns a reference to member yaw
  * @return Reference to member yaw
  */
-float& EulerAngleZYZ::yaw()
+float& idl_msg::EulerAngleZYZ::yaw()
 {
     return m_yaw;
 }
 
 
-size_t EulerAngleZYZ::getKeyMaxCdrSerializedSize(
+size_t idl_msg::EulerAngleZYZ::getKeyMaxCdrSerializedSize(
         size_t current_alignment)
 {
     size_t current_align = current_alignment;
@@ -247,14 +247,15 @@ size_t EulerAngleZYZ::getKeyMaxCdrSerializedSize(
     return current_align;
 }
 
-bool EulerAngleZYZ::isKeyDefined()
+bool idl_msg::EulerAngleZYZ::isKeyDefined()
 {
     return false;
 }
 
-void EulerAngleZYZ::serializeKey(
+void idl_msg::EulerAngleZYZ::serializeKey(
         eprosima::fastcdr::Cdr& scdr) const
 {
     (void) scdr;
        
 }
+

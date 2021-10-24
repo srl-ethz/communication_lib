@@ -34,25 +34,25 @@ using namespace eprosima::fastcdr::exception;
 
 #include <utility>
 
-Mocap::Mocap()
+idl_msg::Mocap::Mocap()
 {
-    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@5762806e
+    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@75c072cb
 
-    // m_pose com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@17c386de
+    // m_pose com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@1f1c7bf6
 
-    // m_latency com.eprosima.idl.parser.typecode.PrimitiveTypeCode@5af97850
+    // m_latency com.eprosima.idl.parser.typecode.PrimitiveTypeCode@25b485ba
     m_latency = 0.0;
 
 }
 
-Mocap::~Mocap()
+idl_msg::Mocap::~Mocap()
 {
 
 
 
 }
 
-Mocap::Mocap(
+idl_msg::Mocap::Mocap(
         const Mocap& x)
 {
     m_header = x.m_header;
@@ -60,7 +60,7 @@ Mocap::Mocap(
     m_latency = x.m_latency;
 }
 
-Mocap::Mocap(
+idl_msg::Mocap::Mocap(
         Mocap&& x)
 {
     m_header = std::move(x.m_header);
@@ -68,7 +68,7 @@ Mocap::Mocap(
     m_latency = x.m_latency;
 }
 
-Mocap& Mocap::operator =(
+idl_msg::Mocap& idl_msg::Mocap::operator =(
         const Mocap& x)
 {
 
@@ -79,7 +79,7 @@ Mocap& Mocap::operator =(
     return *this;
 }
 
-Mocap& Mocap::operator =(
+idl_msg::Mocap& idl_msg::Mocap::operator =(
         Mocap&& x)
 {
 
@@ -90,14 +90,14 @@ Mocap& Mocap::operator =(
     return *this;
 }
 
-size_t Mocap::getMaxCdrSerializedSize(
+size_t idl_msg::Mocap::getMaxCdrSerializedSize(
         size_t current_alignment)
 {
     size_t initial_alignment = current_alignment;
 
 
-    current_alignment += Header::getMaxCdrSerializedSize(current_alignment);
-    current_alignment += Pose::getMaxCdrSerializedSize(current_alignment);
+    current_alignment += idl_msg::Header::getMaxCdrSerializedSize(current_alignment);
+    current_alignment += idl_msg::Pose::getMaxCdrSerializedSize(current_alignment);
     current_alignment += 4 + eprosima::fastcdr::Cdr::alignment(current_alignment, 4);
 
 
@@ -105,16 +105,16 @@ size_t Mocap::getMaxCdrSerializedSize(
     return current_alignment - initial_alignment;
 }
 
-size_t Mocap::getCdrSerializedSize(
-        const Mocap& data,
+size_t idl_msg::Mocap::getCdrSerializedSize(
+        const idl_msg::Mocap& data,
         size_t current_alignment)
 {
     (void)data;
     size_t initial_alignment = current_alignment;
 
 
-    current_alignment += Header::getCdrSerializedSize(data.header(), current_alignment);
-    current_alignment += Pose::getCdrSerializedSize(data.pose(), current_alignment);
+    current_alignment += idl_msg::Header::getCdrSerializedSize(data.header(), current_alignment);
+    current_alignment += idl_msg::Pose::getCdrSerializedSize(data.pose(), current_alignment);
     current_alignment += 4 + eprosima::fastcdr::Cdr::alignment(current_alignment, 4);
 
 
@@ -122,7 +122,7 @@ size_t Mocap::getCdrSerializedSize(
     return current_alignment - initial_alignment;
 }
 
-void Mocap::serialize(
+void idl_msg::Mocap::serialize(
         eprosima::fastcdr::Cdr& scdr) const
 {
 
@@ -132,7 +132,7 @@ void Mocap::serialize(
 
 }
 
-void Mocap::deserialize(
+void idl_msg::Mocap::deserialize(
         eprosima::fastcdr::Cdr& dcdr)
 {
 
@@ -145,8 +145,8 @@ void Mocap::deserialize(
  * @brief This function copies the value in member header
  * @param _header New value to be copied in member header
  */
-void Mocap::header(
-        const Header& _header)
+void idl_msg::Mocap::header(
+        const idl_msg::Header& _header)
 {
     m_header = _header;
 }
@@ -155,8 +155,8 @@ void Mocap::header(
  * @brief This function moves the value in member header
  * @param _header New value to be moved in member header
  */
-void Mocap::header(
-        Header&& _header)
+void idl_msg::Mocap::header(
+        idl_msg::Header&& _header)
 {
     m_header = std::move(_header);
 }
@@ -165,7 +165,7 @@ void Mocap::header(
  * @brief This function returns a constant reference to member header
  * @return Constant reference to member header
  */
-const Header& Mocap::header() const
+const idl_msg::Header& idl_msg::Mocap::header() const
 {
     return m_header;
 }
@@ -174,7 +174,7 @@ const Header& Mocap::header() const
  * @brief This function returns a reference to member header
  * @return Reference to member header
  */
-Header& Mocap::header()
+idl_msg::Header& idl_msg::Mocap::header()
 {
     return m_header;
 }
@@ -182,8 +182,8 @@ Header& Mocap::header()
  * @brief This function copies the value in member pose
  * @param _pose New value to be copied in member pose
  */
-void Mocap::pose(
-        const Pose& _pose)
+void idl_msg::Mocap::pose(
+        const idl_msg::Pose& _pose)
 {
     m_pose = _pose;
 }
@@ -192,8 +192,8 @@ void Mocap::pose(
  * @brief This function moves the value in member pose
  * @param _pose New value to be moved in member pose
  */
-void Mocap::pose(
-        Pose&& _pose)
+void idl_msg::Mocap::pose(
+        idl_msg::Pose&& _pose)
 {
     m_pose = std::move(_pose);
 }
@@ -202,7 +202,7 @@ void Mocap::pose(
  * @brief This function returns a constant reference to member pose
  * @return Constant reference to member pose
  */
-const Pose& Mocap::pose() const
+const idl_msg::Pose& idl_msg::Mocap::pose() const
 {
     return m_pose;
 }
@@ -211,7 +211,7 @@ const Pose& Mocap::pose() const
  * @brief This function returns a reference to member pose
  * @return Reference to member pose
  */
-Pose& Mocap::pose()
+idl_msg::Pose& idl_msg::Mocap::pose()
 {
     return m_pose;
 }
@@ -219,7 +219,7 @@ Pose& Mocap::pose()
  * @brief This function sets a value in member latency
  * @param _latency New value for member latency
  */
-void Mocap::latency(
+void idl_msg::Mocap::latency(
         float _latency)
 {
     m_latency = _latency;
@@ -229,7 +229,7 @@ void Mocap::latency(
  * @brief This function returns the value of member latency
  * @return Value of member latency
  */
-float Mocap::latency() const
+float idl_msg::Mocap::latency() const
 {
     return m_latency;
 }
@@ -238,13 +238,13 @@ float Mocap::latency() const
  * @brief This function returns a reference to member latency
  * @return Reference to member latency
  */
-float& Mocap::latency()
+float& idl_msg::Mocap::latency()
 {
     return m_latency;
 }
 
 
-size_t Mocap::getKeyMaxCdrSerializedSize(
+size_t idl_msg::Mocap::getKeyMaxCdrSerializedSize(
         size_t current_alignment)
 {
     size_t current_align = current_alignment;
@@ -257,14 +257,15 @@ size_t Mocap::getKeyMaxCdrSerializedSize(
     return current_align;
 }
 
-bool Mocap::isKeyDefined()
+bool idl_msg::Mocap::isKeyDefined()
 {
     return false;
 }
 
-void Mocap::serializeKey(
+void idl_msg::Mocap::serializeKey(
         eprosima::fastcdr::Cdr& scdr) const
 {
     (void) scdr;
        
 }
+

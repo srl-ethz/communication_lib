@@ -34,22 +34,22 @@ using namespace eprosima::fastcdr::exception;
 
 #include <utility>
 
-ThrustTorqueCommand::ThrustTorqueCommand()
+idl_msg::ThrustTorqueCommand::ThrustTorqueCommand()
 {
-    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@36c88a32
+    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@1534f01b
 
-    // m_thrust com.eprosima.idl.parser.typecode.PrimitiveTypeCode@7880cdf3
+    // m_thrust com.eprosima.idl.parser.typecode.PrimitiveTypeCode@78e117e3
     m_thrust = 0.0;
-    // m_roll_torque com.eprosima.idl.parser.typecode.PrimitiveTypeCode@5be6e01c
+    // m_roll_torque com.eprosima.idl.parser.typecode.PrimitiveTypeCode@2ea227af
     m_roll_torque = 0.0;
-    // m_pitch_torque com.eprosima.idl.parser.typecode.PrimitiveTypeCode@1c93084c
+    // m_pitch_torque com.eprosima.idl.parser.typecode.PrimitiveTypeCode@4386f16
     m_pitch_torque = 0.0;
-    // m_yaw_torque com.eprosima.idl.parser.typecode.PrimitiveTypeCode@6ef888f6
+    // m_yaw_torque com.eprosima.idl.parser.typecode.PrimitiveTypeCode@363ee3a2
     m_yaw_torque = 0.0;
 
 }
 
-ThrustTorqueCommand::~ThrustTorqueCommand()
+idl_msg::ThrustTorqueCommand::~ThrustTorqueCommand()
 {
 
 
@@ -58,7 +58,7 @@ ThrustTorqueCommand::~ThrustTorqueCommand()
 
 }
 
-ThrustTorqueCommand::ThrustTorqueCommand(
+idl_msg::ThrustTorqueCommand::ThrustTorqueCommand(
         const ThrustTorqueCommand& x)
 {
     m_header = x.m_header;
@@ -68,7 +68,7 @@ ThrustTorqueCommand::ThrustTorqueCommand(
     m_yaw_torque = x.m_yaw_torque;
 }
 
-ThrustTorqueCommand::ThrustTorqueCommand(
+idl_msg::ThrustTorqueCommand::ThrustTorqueCommand(
         ThrustTorqueCommand&& x)
 {
     m_header = std::move(x.m_header);
@@ -78,7 +78,7 @@ ThrustTorqueCommand::ThrustTorqueCommand(
     m_yaw_torque = x.m_yaw_torque;
 }
 
-ThrustTorqueCommand& ThrustTorqueCommand::operator =(
+idl_msg::ThrustTorqueCommand& idl_msg::ThrustTorqueCommand::operator =(
         const ThrustTorqueCommand& x)
 {
 
@@ -91,7 +91,7 @@ ThrustTorqueCommand& ThrustTorqueCommand::operator =(
     return *this;
 }
 
-ThrustTorqueCommand& ThrustTorqueCommand::operator =(
+idl_msg::ThrustTorqueCommand& idl_msg::ThrustTorqueCommand::operator =(
         ThrustTorqueCommand&& x)
 {
 
@@ -104,13 +104,13 @@ ThrustTorqueCommand& ThrustTorqueCommand::operator =(
     return *this;
 }
 
-size_t ThrustTorqueCommand::getMaxCdrSerializedSize(
+size_t idl_msg::ThrustTorqueCommand::getMaxCdrSerializedSize(
         size_t current_alignment)
 {
     size_t initial_alignment = current_alignment;
 
 
-    current_alignment += Header::getMaxCdrSerializedSize(current_alignment);
+    current_alignment += idl_msg::Header::getMaxCdrSerializedSize(current_alignment);
     current_alignment += 4 + eprosima::fastcdr::Cdr::alignment(current_alignment, 4);
 
 
@@ -127,15 +127,15 @@ size_t ThrustTorqueCommand::getMaxCdrSerializedSize(
     return current_alignment - initial_alignment;
 }
 
-size_t ThrustTorqueCommand::getCdrSerializedSize(
-        const ThrustTorqueCommand& data,
+size_t idl_msg::ThrustTorqueCommand::getCdrSerializedSize(
+        const idl_msg::ThrustTorqueCommand& data,
         size_t current_alignment)
 {
     (void)data;
     size_t initial_alignment = current_alignment;
 
 
-    current_alignment += Header::getCdrSerializedSize(data.header(), current_alignment);
+    current_alignment += idl_msg::Header::getCdrSerializedSize(data.header(), current_alignment);
     current_alignment += 4 + eprosima::fastcdr::Cdr::alignment(current_alignment, 4);
 
 
@@ -152,7 +152,7 @@ size_t ThrustTorqueCommand::getCdrSerializedSize(
     return current_alignment - initial_alignment;
 }
 
-void ThrustTorqueCommand::serialize(
+void idl_msg::ThrustTorqueCommand::serialize(
         eprosima::fastcdr::Cdr& scdr) const
 {
 
@@ -164,7 +164,7 @@ void ThrustTorqueCommand::serialize(
 
 }
 
-void ThrustTorqueCommand::deserialize(
+void idl_msg::ThrustTorqueCommand::deserialize(
         eprosima::fastcdr::Cdr& dcdr)
 {
 
@@ -179,8 +179,8 @@ void ThrustTorqueCommand::deserialize(
  * @brief This function copies the value in member header
  * @param _header New value to be copied in member header
  */
-void ThrustTorqueCommand::header(
-        const Header& _header)
+void idl_msg::ThrustTorqueCommand::header(
+        const idl_msg::Header& _header)
 {
     m_header = _header;
 }
@@ -189,8 +189,8 @@ void ThrustTorqueCommand::header(
  * @brief This function moves the value in member header
  * @param _header New value to be moved in member header
  */
-void ThrustTorqueCommand::header(
-        Header&& _header)
+void idl_msg::ThrustTorqueCommand::header(
+        idl_msg::Header&& _header)
 {
     m_header = std::move(_header);
 }
@@ -199,7 +199,7 @@ void ThrustTorqueCommand::header(
  * @brief This function returns a constant reference to member header
  * @return Constant reference to member header
  */
-const Header& ThrustTorqueCommand::header() const
+const idl_msg::Header& idl_msg::ThrustTorqueCommand::header() const
 {
     return m_header;
 }
@@ -208,7 +208,7 @@ const Header& ThrustTorqueCommand::header() const
  * @brief This function returns a reference to member header
  * @return Reference to member header
  */
-Header& ThrustTorqueCommand::header()
+idl_msg::Header& idl_msg::ThrustTorqueCommand::header()
 {
     return m_header;
 }
@@ -216,7 +216,7 @@ Header& ThrustTorqueCommand::header()
  * @brief This function sets a value in member thrust
  * @param _thrust New value for member thrust
  */
-void ThrustTorqueCommand::thrust(
+void idl_msg::ThrustTorqueCommand::thrust(
         float _thrust)
 {
     m_thrust = _thrust;
@@ -226,7 +226,7 @@ void ThrustTorqueCommand::thrust(
  * @brief This function returns the value of member thrust
  * @return Value of member thrust
  */
-float ThrustTorqueCommand::thrust() const
+float idl_msg::ThrustTorqueCommand::thrust() const
 {
     return m_thrust;
 }
@@ -235,7 +235,7 @@ float ThrustTorqueCommand::thrust() const
  * @brief This function returns a reference to member thrust
  * @return Reference to member thrust
  */
-float& ThrustTorqueCommand::thrust()
+float& idl_msg::ThrustTorqueCommand::thrust()
 {
     return m_thrust;
 }
@@ -244,7 +244,7 @@ float& ThrustTorqueCommand::thrust()
  * @brief This function sets a value in member roll_torque
  * @param _roll_torque New value for member roll_torque
  */
-void ThrustTorqueCommand::roll_torque(
+void idl_msg::ThrustTorqueCommand::roll_torque(
         float _roll_torque)
 {
     m_roll_torque = _roll_torque;
@@ -254,7 +254,7 @@ void ThrustTorqueCommand::roll_torque(
  * @brief This function returns the value of member roll_torque
  * @return Value of member roll_torque
  */
-float ThrustTorqueCommand::roll_torque() const
+float idl_msg::ThrustTorqueCommand::roll_torque() const
 {
     return m_roll_torque;
 }
@@ -263,7 +263,7 @@ float ThrustTorqueCommand::roll_torque() const
  * @brief This function returns a reference to member roll_torque
  * @return Reference to member roll_torque
  */
-float& ThrustTorqueCommand::roll_torque()
+float& idl_msg::ThrustTorqueCommand::roll_torque()
 {
     return m_roll_torque;
 }
@@ -272,7 +272,7 @@ float& ThrustTorqueCommand::roll_torque()
  * @brief This function sets a value in member pitch_torque
  * @param _pitch_torque New value for member pitch_torque
  */
-void ThrustTorqueCommand::pitch_torque(
+void idl_msg::ThrustTorqueCommand::pitch_torque(
         float _pitch_torque)
 {
     m_pitch_torque = _pitch_torque;
@@ -282,7 +282,7 @@ void ThrustTorqueCommand::pitch_torque(
  * @brief This function returns the value of member pitch_torque
  * @return Value of member pitch_torque
  */
-float ThrustTorqueCommand::pitch_torque() const
+float idl_msg::ThrustTorqueCommand::pitch_torque() const
 {
     return m_pitch_torque;
 }
@@ -291,7 +291,7 @@ float ThrustTorqueCommand::pitch_torque() const
  * @brief This function returns a reference to member pitch_torque
  * @return Reference to member pitch_torque
  */
-float& ThrustTorqueCommand::pitch_torque()
+float& idl_msg::ThrustTorqueCommand::pitch_torque()
 {
     return m_pitch_torque;
 }
@@ -300,7 +300,7 @@ float& ThrustTorqueCommand::pitch_torque()
  * @brief This function sets a value in member yaw_torque
  * @param _yaw_torque New value for member yaw_torque
  */
-void ThrustTorqueCommand::yaw_torque(
+void idl_msg::ThrustTorqueCommand::yaw_torque(
         float _yaw_torque)
 {
     m_yaw_torque = _yaw_torque;
@@ -310,7 +310,7 @@ void ThrustTorqueCommand::yaw_torque(
  * @brief This function returns the value of member yaw_torque
  * @return Value of member yaw_torque
  */
-float ThrustTorqueCommand::yaw_torque() const
+float idl_msg::ThrustTorqueCommand::yaw_torque() const
 {
     return m_yaw_torque;
 }
@@ -319,13 +319,13 @@ float ThrustTorqueCommand::yaw_torque() const
  * @brief This function returns a reference to member yaw_torque
  * @return Reference to member yaw_torque
  */
-float& ThrustTorqueCommand::yaw_torque()
+float& idl_msg::ThrustTorqueCommand::yaw_torque()
 {
     return m_yaw_torque;
 }
 
 
-size_t ThrustTorqueCommand::getKeyMaxCdrSerializedSize(
+size_t idl_msg::ThrustTorqueCommand::getKeyMaxCdrSerializedSize(
         size_t current_alignment)
 {
     size_t current_align = current_alignment;
@@ -340,14 +340,15 @@ size_t ThrustTorqueCommand::getKeyMaxCdrSerializedSize(
     return current_align;
 }
 
-bool ThrustTorqueCommand::isKeyDefined()
+bool idl_msg::ThrustTorqueCommand::isKeyDefined()
 {
     return false;
 }
 
-void ThrustTorqueCommand::serializeKey(
+void idl_msg::ThrustTorqueCommand::serializeKey(
         eprosima::fastcdr::Cdr& scdr) const
 {
     (void) scdr;
          
 }
+
