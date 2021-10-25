@@ -36,12 +36,12 @@ using namespace eprosima::fastcdr::exception;
 
 idl_msg::QuadPositionCmd::QuadPositionCmd()
 {
-    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@15b204a1
+    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@56a6d5a6
 
-    // m_position com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@77167fb7
+    // m_position com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@18ce0030
 
-    // m_yaw com.eprosima.idl.parser.typecode.PrimitiveTypeCode@1fe20588
-    m_yaw = 0.0;
+    // m_yaw_angle com.eprosima.idl.parser.typecode.PrimitiveTypeCode@4445629
+    m_yaw_angle = 0.0;
 
 }
 
@@ -57,7 +57,7 @@ idl_msg::QuadPositionCmd::QuadPositionCmd(
 {
     m_header = x.m_header;
     m_position = x.m_position;
-    m_yaw = x.m_yaw;
+    m_yaw_angle = x.m_yaw_angle;
 }
 
 idl_msg::QuadPositionCmd::QuadPositionCmd(
@@ -65,7 +65,7 @@ idl_msg::QuadPositionCmd::QuadPositionCmd(
 {
     m_header = std::move(x.m_header);
     m_position = std::move(x.m_position);
-    m_yaw = x.m_yaw;
+    m_yaw_angle = x.m_yaw_angle;
 }
 
 idl_msg::QuadPositionCmd& idl_msg::QuadPositionCmd::operator =(
@@ -74,7 +74,7 @@ idl_msg::QuadPositionCmd& idl_msg::QuadPositionCmd::operator =(
 
     m_header = x.m_header;
     m_position = x.m_position;
-    m_yaw = x.m_yaw;
+    m_yaw_angle = x.m_yaw_angle;
 
     return *this;
 }
@@ -85,7 +85,7 @@ idl_msg::QuadPositionCmd& idl_msg::QuadPositionCmd::operator =(
 
     m_header = std::move(x.m_header);
     m_position = std::move(x.m_position);
-    m_yaw = x.m_yaw;
+    m_yaw_angle = x.m_yaw_angle;
 
     return *this;
 }
@@ -128,7 +128,7 @@ void idl_msg::QuadPositionCmd::serialize(
 
     scdr << m_header;
     scdr << m_position;
-    scdr << m_yaw;
+    scdr << m_yaw_angle;
 
 }
 
@@ -138,7 +138,7 @@ void idl_msg::QuadPositionCmd::deserialize(
 
     dcdr >> m_header;
     dcdr >> m_position;
-    dcdr >> m_yaw;
+    dcdr >> m_yaw_angle;
 }
 
 /*!
@@ -216,31 +216,31 @@ idl_msg::Position& idl_msg::QuadPositionCmd::position()
     return m_position;
 }
 /*!
- * @brief This function sets a value in member yaw
- * @param _yaw New value for member yaw
+ * @brief This function sets a value in member yaw_angle
+ * @param _yaw_angle New value for member yaw_angle
  */
-void idl_msg::QuadPositionCmd::yaw(
-        float _yaw)
+void idl_msg::QuadPositionCmd::yaw_angle(
+        float _yaw_angle)
 {
-    m_yaw = _yaw;
+    m_yaw_angle = _yaw_angle;
 }
 
 /*!
- * @brief This function returns the value of member yaw
- * @return Value of member yaw
+ * @brief This function returns the value of member yaw_angle
+ * @return Value of member yaw_angle
  */
-float idl_msg::QuadPositionCmd::yaw() const
+float idl_msg::QuadPositionCmd::yaw_angle() const
 {
-    return m_yaw;
+    return m_yaw_angle;
 }
 
 /*!
- * @brief This function returns a reference to member yaw
- * @return Reference to member yaw
+ * @brief This function returns a reference to member yaw_angle
+ * @return Reference to member yaw_angle
  */
-float& idl_msg::QuadPositionCmd::yaw()
+float& idl_msg::QuadPositionCmd::yaw_angle()
 {
-    return m_yaw;
+    return m_yaw_angle;
 }
 
 

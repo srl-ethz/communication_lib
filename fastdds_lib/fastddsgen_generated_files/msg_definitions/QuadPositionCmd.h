@@ -161,23 +161,23 @@ namespace idl_msg {
          */
         eProsima_user_DllExport idl_msg::Position& position();
         /*!
-         * @brief This function sets a value in member yaw
-         * @param _yaw New value for member yaw
+         * @brief This function sets a value in member yaw_angle
+         * @param _yaw_angle New value for member yaw_angle
          */
-        eProsima_user_DllExport void yaw(
-                float _yaw);
+        eProsima_user_DllExport void yaw_angle(
+                float _yaw_angle);
 
         /*!
-         * @brief This function returns the value of member yaw
-         * @return Value of member yaw
+         * @brief This function returns the value of member yaw_angle
+         * @return Value of member yaw_angle
          */
-        eProsima_user_DllExport float yaw() const;
+        eProsima_user_DllExport float yaw_angle() const;
 
         /*!
-         * @brief This function returns a reference to member yaw
-         * @return Reference to member yaw
+         * @brief This function returns a reference to member yaw_angle
+         * @return Reference to member yaw_angle
          */
-        eProsima_user_DllExport float& yaw();
+        eProsima_user_DllExport float& yaw_angle();
 
 
         /*!
@@ -241,7 +241,7 @@ namespace idl_msg {
 
         idl_msg::Header m_header;
         idl_msg::Position m_position;
-        float m_yaw;
+        float m_yaw_angle;
     };
 } // namespace idl_msg
 
