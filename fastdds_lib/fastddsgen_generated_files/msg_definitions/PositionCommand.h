@@ -160,6 +160,25 @@ namespace idl_msg {
          * @return Reference to member position
          */
         eProsima_user_DllExport idl_msg::Position& position();
+        /*!
+         * @brief This function sets a value in member yaw
+         * @param _yaw New value for member yaw
+         */
+        eProsima_user_DllExport void yaw(
+                float _yaw);
+
+        /*!
+         * @brief This function returns the value of member yaw
+         * @return Value of member yaw
+         */
+        eProsima_user_DllExport float yaw() const;
+
+        /*!
+         * @brief This function returns a reference to member yaw
+         * @return Reference to member yaw
+         */
+        eProsima_user_DllExport float& yaw();
+
 
         /*!
          * @brief This function returns the maximum serialized size of an object
@@ -222,6 +241,7 @@ namespace idl_msg {
 
         idl_msg::Header m_header;
         idl_msg::Position m_position;
+        float m_yaw;
     };
 } // namespace idl_msg
 

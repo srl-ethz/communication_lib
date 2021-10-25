@@ -36,15 +36,18 @@ using namespace eprosima::fastcdr::exception;
 
 idl_msg::PositionCommand::PositionCommand()
 {
-    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@16e7dcfd
+    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@44a3ec6b
 
-    // m_position com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@3d121db3
+    // m_position com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@71623278
 
+    // m_yaw com.eprosima.idl.parser.typecode.PrimitiveTypeCode@768b970c
+    m_yaw = 0.0;
 
 }
 
 idl_msg::PositionCommand::~PositionCommand()
 {
+
 
 
 }
@@ -54,6 +57,7 @@ idl_msg::PositionCommand::PositionCommand(
 {
     m_header = x.m_header;
     m_position = x.m_position;
+    m_yaw = x.m_yaw;
 }
 
 idl_msg::PositionCommand::PositionCommand(
@@ -61,6 +65,7 @@ idl_msg::PositionCommand::PositionCommand(
 {
     m_header = std::move(x.m_header);
     m_position = std::move(x.m_position);
+    m_yaw = x.m_yaw;
 }
 
 idl_msg::PositionCommand& idl_msg::PositionCommand::operator =(
@@ -69,6 +74,7 @@ idl_msg::PositionCommand& idl_msg::PositionCommand::operator =(
 
     m_header = x.m_header;
     m_position = x.m_position;
+    m_yaw = x.m_yaw;
 
     return *this;
 }
@@ -79,6 +85,7 @@ idl_msg::PositionCommand& idl_msg::PositionCommand::operator =(
 
     m_header = std::move(x.m_header);
     m_position = std::move(x.m_position);
+    m_yaw = x.m_yaw;
 
     return *this;
 }
@@ -91,6 +98,9 @@ size_t idl_msg::PositionCommand::getMaxCdrSerializedSize(
 
     current_alignment += idl_msg::Header::getMaxCdrSerializedSize(current_alignment);
     current_alignment += idl_msg::Position::getMaxCdrSerializedSize(current_alignment);
+    current_alignment += 4 + eprosima::fastcdr::Cdr::alignment(current_alignment, 4);
+
+
 
     return current_alignment - initial_alignment;
 }
@@ -105,6 +115,9 @@ size_t idl_msg::PositionCommand::getCdrSerializedSize(
 
     current_alignment += idl_msg::Header::getCdrSerializedSize(data.header(), current_alignment);
     current_alignment += idl_msg::Position::getCdrSerializedSize(data.position(), current_alignment);
+    current_alignment += 4 + eprosima::fastcdr::Cdr::alignment(current_alignment, 4);
+
+
 
     return current_alignment - initial_alignment;
 }
@@ -115,6 +128,7 @@ void idl_msg::PositionCommand::serialize(
 
     scdr << m_header;
     scdr << m_position;
+    scdr << m_yaw;
 
 }
 
@@ -124,6 +138,7 @@ void idl_msg::PositionCommand::deserialize(
 
     dcdr >> m_header;
     dcdr >> m_position;
+    dcdr >> m_yaw;
 }
 
 /*!
@@ -200,11 +215,40 @@ idl_msg::Position& idl_msg::PositionCommand::position()
 {
     return m_position;
 }
+/*!
+ * @brief This function sets a value in member yaw
+ * @param _yaw New value for member yaw
+ */
+void idl_msg::PositionCommand::yaw(
+        float _yaw)
+{
+    m_yaw = _yaw;
+}
+
+/*!
+ * @brief This function returns the value of member yaw
+ * @return Value of member yaw
+ */
+float idl_msg::PositionCommand::yaw() const
+{
+    return m_yaw;
+}
+
+/*!
+ * @brief This function returns a reference to member yaw
+ * @return Reference to member yaw
+ */
+float& idl_msg::PositionCommand::yaw()
+{
+    return m_yaw;
+}
+
 
 size_t idl_msg::PositionCommand::getKeyMaxCdrSerializedSize(
         size_t current_alignment)
 {
     size_t current_align = current_alignment;
+
 
 
 
@@ -222,6 +266,6 @@ void idl_msg::PositionCommand::serializeKey(
         eprosima::fastcdr::Cdr& scdr) const
 {
     (void) scdr;
-      
+       
 }
 
