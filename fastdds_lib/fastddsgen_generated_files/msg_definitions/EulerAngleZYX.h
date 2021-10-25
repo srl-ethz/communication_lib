@@ -63,50 +63,50 @@ class Cdr;
 
 namespace idl_msg {
     /*!
-     * @brief This class represents the structure EulerAngleZYZ defined by the user in the IDL file.
+     * @brief This class represents the structure EulerAngleZYX defined by the user in the IDL file.
      * @ingroup EULERANGLEZYX
      */
-    class EulerAngleZYZ
+    class EulerAngleZYX
     {
     public:
 
         /*!
          * @brief Default constructor.
          */
-        eProsima_user_DllExport EulerAngleZYZ();
+        eProsima_user_DllExport EulerAngleZYX();
 
         /*!
          * @brief Default destructor.
          */
-        eProsima_user_DllExport ~EulerAngleZYZ();
+        eProsima_user_DllExport ~EulerAngleZYX();
 
         /*!
          * @brief Copy constructor.
-         * @param x Reference to the object idl_msg::EulerAngleZYZ that will be copied.
+         * @param x Reference to the object idl_msg::EulerAngleZYX that will be copied.
          */
-        eProsima_user_DllExport EulerAngleZYZ(
-                const EulerAngleZYZ& x);
+        eProsima_user_DllExport EulerAngleZYX(
+                const EulerAngleZYX& x);
 
         /*!
          * @brief Move constructor.
-         * @param x Reference to the object idl_msg::EulerAngleZYZ that will be copied.
+         * @param x Reference to the object idl_msg::EulerAngleZYX that will be copied.
          */
-        eProsima_user_DllExport EulerAngleZYZ(
-                EulerAngleZYZ&& x);
+        eProsima_user_DllExport EulerAngleZYX(
+                EulerAngleZYX&& x);
 
         /*!
          * @brief Copy assignment.
-         * @param x Reference to the object idl_msg::EulerAngleZYZ that will be copied.
+         * @param x Reference to the object idl_msg::EulerAngleZYX that will be copied.
          */
-        eProsima_user_DllExport EulerAngleZYZ& operator =(
-                const EulerAngleZYZ& x);
+        eProsima_user_DllExport EulerAngleZYX& operator =(
+                const EulerAngleZYX& x);
 
         /*!
          * @brief Move assignment.
-         * @param x Reference to the object idl_msg::EulerAngleZYZ that will be copied.
+         * @param x Reference to the object idl_msg::EulerAngleZYX that will be copied.
          */
-        eProsima_user_DllExport EulerAngleZYZ& operator =(
-                EulerAngleZYZ&& x);
+        eProsima_user_DllExport EulerAngleZYX& operator =(
+                EulerAngleZYX&& x);
 
         /*!
          * @brief This function sets a value in member roll
@@ -182,7 +182,7 @@ namespace idl_msg {
          * @return Serialized size.
          */
         eProsima_user_DllExport static size_t getCdrSerializedSize(
-                const idl_msg::EulerAngleZYZ& data,
+                const idl_msg::EulerAngleZYX& data,
                 size_t current_alignment = 0);
 
 

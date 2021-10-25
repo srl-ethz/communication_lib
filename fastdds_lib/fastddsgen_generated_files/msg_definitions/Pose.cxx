@@ -105,7 +105,7 @@ size_t idl_msg::Pose::getMaxCdrSerializedSize(
 
     current_alignment += idl_msg::Header::getMaxCdrSerializedSize(current_alignment);
     current_alignment += idl_msg::Position::getMaxCdrSerializedSize(current_alignment);
-    current_alignment += idl_msg::EulerAngleZYZ::getMaxCdrSerializedSize(current_alignment);
+    current_alignment += idl_msg::EulerAngleZYX::getMaxCdrSerializedSize(current_alignment);
     current_alignment += idl_msg::Quaternion::getMaxCdrSerializedSize(current_alignment);
 
     return current_alignment - initial_alignment;
@@ -121,7 +121,7 @@ size_t idl_msg::Pose::getCdrSerializedSize(
 
     current_alignment += idl_msg::Header::getCdrSerializedSize(data.header(), current_alignment);
     current_alignment += idl_msg::Position::getCdrSerializedSize(data.position(), current_alignment);
-    current_alignment += idl_msg::EulerAngleZYZ::getCdrSerializedSize(data.orientation_euler(), current_alignment);
+    current_alignment += idl_msg::EulerAngleZYX::getCdrSerializedSize(data.orientation_euler(), current_alignment);
     current_alignment += idl_msg::Quaternion::getCdrSerializedSize(data.orientation_quat(), current_alignment);
 
     return current_alignment - initial_alignment;
@@ -227,7 +227,7 @@ idl_msg::Position& idl_msg::Pose::position()
  * @param _orientation_euler New value to be copied in member orientation_euler
  */
 void idl_msg::Pose::orientation_euler(
-        const idl_msg::EulerAngleZYZ& _orientation_euler)
+        const idl_msg::EulerAngleZYX& _orientation_euler)
 {
     m_orientation_euler = _orientation_euler;
 }
@@ -237,7 +237,7 @@ void idl_msg::Pose::orientation_euler(
  * @param _orientation_euler New value to be moved in member orientation_euler
  */
 void idl_msg::Pose::orientation_euler(
-        idl_msg::EulerAngleZYZ&& _orientation_euler)
+        idl_msg::EulerAngleZYX&& _orientation_euler)
 {
     m_orientation_euler = std::move(_orientation_euler);
 }
@@ -246,7 +246,7 @@ void idl_msg::Pose::orientation_euler(
  * @brief This function returns a constant reference to member orientation_euler
  * @return Constant reference to member orientation_euler
  */
-const idl_msg::EulerAngleZYZ& idl_msg::Pose::orientation_euler() const
+const idl_msg::EulerAngleZYX& idl_msg::Pose::orientation_euler() const
 {
     return m_orientation_euler;
 }
@@ -255,7 +255,7 @@ const idl_msg::EulerAngleZYZ& idl_msg::Pose::orientation_euler() const
  * @brief This function returns a reference to member orientation_euler
  * @return Reference to member orientation_euler
  */
-idl_msg::EulerAngleZYZ& idl_msg::Pose::orientation_euler()
+idl_msg::EulerAngleZYX& idl_msg::Pose::orientation_euler()
 {
     return m_orientation_euler;
 }

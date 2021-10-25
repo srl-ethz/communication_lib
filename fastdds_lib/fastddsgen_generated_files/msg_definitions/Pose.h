@@ -167,26 +167,26 @@ namespace idl_msg {
          * @param _orientation_euler New value to be copied in member orientation_euler
          */
         eProsima_user_DllExport void orientation_euler(
-                const idl_msg::EulerAngleZYZ& _orientation_euler);
+                const idl_msg::EulerAngleZYX& _orientation_euler);
 
         /*!
          * @brief This function moves the value in member orientation_euler
          * @param _orientation_euler New value to be moved in member orientation_euler
          */
         eProsima_user_DllExport void orientation_euler(
-                idl_msg::EulerAngleZYZ&& _orientation_euler);
+                idl_msg::EulerAngleZYX&& _orientation_euler);
 
         /*!
          * @brief This function returns a constant reference to member orientation_euler
          * @return Constant reference to member orientation_euler
          */
-        eProsima_user_DllExport const idl_msg::EulerAngleZYZ& orientation_euler() const;
+        eProsima_user_DllExport const idl_msg::EulerAngleZYX& orientation_euler() const;
 
         /*!
          * @brief This function returns a reference to member orientation_euler
          * @return Reference to member orientation_euler
          */
-        eProsima_user_DllExport idl_msg::EulerAngleZYZ& orientation_euler();
+        eProsima_user_DllExport idl_msg::EulerAngleZYX& orientation_euler();
         /*!
          * @brief This function copies the value in member orientation_quat
          * @param _orientation_quat New value to be copied in member orientation_quat
@@ -274,7 +274,7 @@ namespace idl_msg {
 
         idl_msg::Header m_header;
         idl_msg::Position m_position;
-        idl_msg::EulerAngleZYZ m_orientation_euler;
+        idl_msg::EulerAngleZYX m_orientation_euler;
         idl_msg::Quaternion m_orientation_quat;
     };
 } // namespace idl_msg
