@@ -27,14 +27,12 @@ public:
   // Custom Variables
   std::string topic_name_{};
 
-  msg_type msg;
+  // Buffer to hold incoming data
+  msg_type msg{};
 
 public:
-  // SubListener<msg_type> *listener;
-
+  // Pointer to listerner object (contains callbacks)
   std::unique_ptr<SubListener<msg_type>> listener;
-
-  std::unique_ptr<SubListener<msg_type>> *listener1;
 
 private:
   eprosima::fastdds::dds::DomainParticipant *participant_;
