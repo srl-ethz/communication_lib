@@ -20,6 +20,6 @@ int main() {
     // Blocks until new data is available
     mocap_sub.listener->wait_for_data();
 
-    std::cout << mocap_sub.listener->st.x();
+    std::cout << mocap_sub.msg.x();
   }
 }

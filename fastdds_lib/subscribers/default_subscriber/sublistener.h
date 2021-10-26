@@ -15,7 +15,7 @@ template <typename msg_type>
 class SubListener : public eprosima::fastdds::dds::DataReaderListener {
 
 public:
-  SubListener(msg_type){};
+  SubListener(msg_type *msg) { st = msg; }
 
   ~SubListener() override = default;
 
@@ -39,7 +39,8 @@ public:
   // Flag to idicate reception of new data
   bool new_data{false};
 
-  msg_type st;
+  // Pointer to msg from base class
+  msg_type *st;
 
 public:
   // Blocks till new data has been received

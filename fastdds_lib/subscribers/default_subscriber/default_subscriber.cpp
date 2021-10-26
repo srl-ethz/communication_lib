@@ -2,8 +2,8 @@
 #include "default_subscriber.h"
 using namespace eprosima::fastdds::dds;
 
-template <typename msg_type, typename msg_type1>
-DDSSubscriber<msg_type, msg_type1>::~DDSSubscriber() {
+template <typename msg_init_type, typename msg_type>
+DDSSubscriber<msg_init_type, msg_type>::~DDSSubscriber() {
   if (reader_ != nullptr) {
     subscriber_->delete_datareader(reader_);
   }
@@ -14,14 +14,11 @@ DDSSubscriber<msg_type, msg_type1>::~DDSSubscriber() {
     participant_->delete_subscriber(subscriber_);
   }
 
-  // // Added now
-  // delete listener;
-
   DomainParticipantFactory::get_instance()->delete_participant(participant_);
 }
 
-template <typename msg_type, typename msg_type1>
-bool DDSSubscriber<msg_type, msg_type1>::init() {
+template <typename msg_init_type, typename msg_type>
+bool DDSSubscriber<msg_init_type, msg_type>::init() {
   // REGISTER THE TYPE
   type_.register_type(participant_);
 
@@ -50,8 +47,8 @@ bool DDSSubscriber<msg_type, msg_type1>::init() {
   return true;
 }
 
-template <typename msg_type, typename msg_type1>
-void DDSSubscriber<msg_type, msg_type1>::run() {
+template <typename msg_init_type, typename msg_type>
+void DDSSubscriber<msg_init_type, msg_type>::run() {
   std::cout << "Waiting for Data, press Enter to stop the DataReader. "
             << std::endl;
   std::cin.ignore();

@@ -43,7 +43,7 @@ void SubListener<msg_type>::on_data_available(
     eprosima::fastdds::dds::DataReader *reader) {
   eprosima::fastdds::dds::SampleInfo info;
 
-  if (reader->take_next_sample(&st, &info) == ReturnCode_t::RETCODE_OK) {
+  if (reader->take_next_sample(st, &info) == ReturnCode_t::RETCODE_OK) {
     if (info.valid_data) {
 
       { // Protection against race condition using mutex
