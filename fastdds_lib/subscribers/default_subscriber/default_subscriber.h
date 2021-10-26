@@ -5,7 +5,7 @@ template <typename msg_init_type, typename msg_type> class DDSSubscriber {
 public:
   // msg_type = class type of msg
 
-  DDSSubscriber(msg_init_type, msg_type, std::string topic_name,
+  DDSSubscriber(msg_init_type, msg_type *msg, std::string topic_name,
                 eprosima::fastdds::dds::DomainParticipant *participant)
       : subscriber_(nullptr), topic_(nullptr), reader_(nullptr),
         type_(new msg_init_type) {
@@ -16,7 +16,7 @@ public:
     participant_ = participant;
 
     // Create sublistener object
-    listener = std::make_unique<SubListener<msg_type>>(&msg);
+    listener = std::make_unique<SubListener<msg_type>>(msg);
   }
 
   virtual ~DDSSubscriber();
@@ -28,8 +28,8 @@ public:
   // Custom Variables
   std::string topic_name_{};
 
-  // Buffer to hold incoming data
-  msg_type msg{};
+  // // Buffer to hold incoming data
+  // msg_type msg{};
 
 public:
   // Pointer to listerner object (contains callbacks)
