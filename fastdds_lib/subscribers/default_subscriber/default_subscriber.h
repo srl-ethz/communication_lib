@@ -15,6 +15,7 @@ public:
     // Set pointer to domain participant
     participant_ = participant;
 
+    // Create sublistener object
     listener = std::make_unique<SubListener<msg_type>>(&msg);
   }
 
