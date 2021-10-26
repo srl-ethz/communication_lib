@@ -11,10 +11,11 @@
 #include <mutex>
 #include <shared_mutex>
 
+template <typename msg_type>
 class SubListener : public eprosima::fastdds::dds::DataReaderListener {
 
 public:
-  SubListener() = default;
+  SubListener(msg_type){};
 
   ~SubListener() override = default;
 
@@ -38,6 +39,8 @@ public:
   // Flag to idicate reception of new data
   bool new_data{false};
 
+  msg_type st;
+
 public:
   // Blocks till new data has been received
   void wait_for_data();
@@ -49,3 +52,5 @@ public:
   /// Getter function
   const float matched() const { return matched_; }
 };
+
+#include "sublistener.cpp"

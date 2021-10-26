@@ -1,11 +1,11 @@
-#include "msg_type.h"
+#pragma once
 #include "sublistener.h"
 
-class DDSSubscriber {
+template <typename msg_type, typename msg_type1> class DDSSubscriber {
 public:
   // msg_type = class type of msg
-  template <class msg_type>
-  DDSSubscriber(msg_type, std::string topic_name,
+
+  DDSSubscriber(msg_type, msg_type1, std::string topic_name,
                 eprosima::fastdds::dds::DomainParticipant *participant)
       : subscriber_(nullptr), topic_(nullptr), reader_(nullptr),
         type_(new msg_type) {
@@ -14,10 +14,9 @@ public:
 
     // Set pointer to domain participant
     participant_ = participant;
-  }
 
-  // Custom Variables
-  std::string topic_name_{};
+    listener = std::make_unique<SubListener<msg_type1>>(msg);
+  }
 
   virtual ~DDSSubscriber();
 
@@ -25,8 +24,15 @@ public:
 
   void run();
 
+  // Custom Variables
+  std::string topic_name_{};
+
+  msg_type1 msg;
+
 public:
-  SubListener listener;
+  // SubListener<msg_type1> *listener;
+
+  std::unique_ptr<SubListener<msg_type1>> listener;
 
 private:
   eprosima::fastdds::dds::DomainParticipant *participant_;
@@ -35,3 +41,5 @@ private:
   eprosima::fastdds::dds::DataReader *reader_;
   eprosima::fastdds::dds::TypeSupport type_;
 };
+
+#include "default_subscriber.cpp"
