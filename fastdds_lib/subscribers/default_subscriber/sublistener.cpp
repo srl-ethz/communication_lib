@@ -49,8 +49,8 @@ void SubListener<msg_type>::on_data_available(
       { // Protection against race condition using mutex
         std::unique_lock<std::mutex> lock(m);
 
-        // Print your structure data here.
-        std::cout << "Sample received" << std::endl;
+        // // Print your structure data here.
+        // std::cout << "Sample received" << std::endl;
 
         // Set flag when data received
         new_data = true;
