@@ -36,9 +36,9 @@ using namespace eprosima::fastcdr::exception;
 
 idl_msg::Image720p::Image720p()
 {
-    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@36f0f1be
+    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@6ee12bac
 
-    // m_frame com.eprosima.idl.parser.typecode.ArrayTypeCode@157632c9
+    // m_frame com.eprosima.idl.parser.typecode.ArrayTypeCode@55040f2f
     memset(&m_frame, 0, (1280*720*3) * 1);
 
 }

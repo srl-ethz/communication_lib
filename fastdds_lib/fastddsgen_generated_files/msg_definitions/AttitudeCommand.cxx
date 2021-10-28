@@ -36,13 +36,15 @@ using namespace eprosima::fastcdr::exception;
 
 idl_msg::AttitudeCommand::AttitudeCommand()
 {
-    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@44a3ec6b
+    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@768b970c
 
-    // m_roll com.eprosima.idl.parser.typecode.PrimitiveTypeCode@71623278
+    // m_thrust com.eprosima.idl.parser.typecode.PrimitiveTypeCode@5a4041cc
+    m_thrust = 0.0;
+    // m_roll com.eprosima.idl.parser.typecode.PrimitiveTypeCode@15b3e5b
     m_roll = 0.0;
-    // m_pitch com.eprosima.idl.parser.typecode.PrimitiveTypeCode@768b970c
+    // m_pitch com.eprosima.idl.parser.typecode.PrimitiveTypeCode@61ca2dfa
     m_pitch = 0.0;
-    // m_yaw com.eprosima.idl.parser.typecode.PrimitiveTypeCode@5a4041cc
+    // m_yaw com.eprosima.idl.parser.typecode.PrimitiveTypeCode@4b53f538
     m_yaw = 0.0;
 
 }
@@ -53,12 +55,14 @@ idl_msg::AttitudeCommand::~AttitudeCommand()
 
 
 
+
 }
 
 idl_msg::AttitudeCommand::AttitudeCommand(
         const AttitudeCommand& x)
 {
     m_header = x.m_header;
+    m_thrust = x.m_thrust;
     m_roll = x.m_roll;
     m_pitch = x.m_pitch;
     m_yaw = x.m_yaw;
@@ -68,6 +72,7 @@ idl_msg::AttitudeCommand::AttitudeCommand(
         AttitudeCommand&& x)
 {
     m_header = std::move(x.m_header);
+    m_thrust = x.m_thrust;
     m_roll = x.m_roll;
     m_pitch = x.m_pitch;
     m_yaw = x.m_yaw;
@@ -78,6 +83,7 @@ idl_msg::AttitudeCommand& idl_msg::AttitudeCommand::operator =(
 {
 
     m_header = x.m_header;
+    m_thrust = x.m_thrust;
     m_roll = x.m_roll;
     m_pitch = x.m_pitch;
     m_yaw = x.m_yaw;
@@ -90,6 +96,7 @@ idl_msg::AttitudeCommand& idl_msg::AttitudeCommand::operator =(
 {
 
     m_header = std::move(x.m_header);
+    m_thrust = x.m_thrust;
     m_roll = x.m_roll;
     m_pitch = x.m_pitch;
     m_yaw = x.m_yaw;
@@ -104,6 +111,9 @@ size_t idl_msg::AttitudeCommand::getMaxCdrSerializedSize(
 
 
     current_alignment += idl_msg::Header::getMaxCdrSerializedSize(current_alignment);
+    current_alignment += 4 + eprosima::fastcdr::Cdr::alignment(current_alignment, 4);
+
+
     current_alignment += 4 + eprosima::fastcdr::Cdr::alignment(current_alignment, 4);
 
 
@@ -135,6 +145,9 @@ size_t idl_msg::AttitudeCommand::getCdrSerializedSize(
     current_alignment += 4 + eprosima::fastcdr::Cdr::alignment(current_alignment, 4);
 
 
+    current_alignment += 4 + eprosima::fastcdr::Cdr::alignment(current_alignment, 4);
+
+
 
     return current_alignment - initial_alignment;
 }
@@ -144,6 +157,7 @@ void idl_msg::AttitudeCommand::serialize(
 {
 
     scdr << m_header;
+    scdr << m_thrust;
     scdr << m_roll;
     scdr << m_pitch;
     scdr << m_yaw;
@@ -155,6 +169,7 @@ void idl_msg::AttitudeCommand::deserialize(
 {
 
     dcdr >> m_header;
+    dcdr >> m_thrust;
     dcdr >> m_roll;
     dcdr >> m_pitch;
     dcdr >> m_yaw;
@@ -197,6 +212,34 @@ idl_msg::Header& idl_msg::AttitudeCommand::header()
 {
     return m_header;
 }
+/*!
+ * @brief This function sets a value in member thrust
+ * @param _thrust New value for member thrust
+ */
+void idl_msg::AttitudeCommand::thrust(
+        float _thrust)
+{
+    m_thrust = _thrust;
+}
+
+/*!
+ * @brief This function returns the value of member thrust
+ * @return Value of member thrust
+ */
+float idl_msg::AttitudeCommand::thrust() const
+{
+    return m_thrust;
+}
+
+/*!
+ * @brief This function returns a reference to member thrust
+ * @return Reference to member thrust
+ */
+float& idl_msg::AttitudeCommand::thrust()
+{
+    return m_thrust;
+}
+
 /*!
  * @brief This function sets a value in member roll
  * @param _roll New value for member roll
@@ -293,6 +336,7 @@ size_t idl_msg::AttitudeCommand::getKeyMaxCdrSerializedSize(
 
 
 
+
     return current_align;
 }
 
@@ -305,6 +349,6 @@ void idl_msg::AttitudeCommand::serializeKey(
         eprosima::fastcdr::Cdr& scdr) const
 {
     (void) scdr;
-        
+         
 }
 

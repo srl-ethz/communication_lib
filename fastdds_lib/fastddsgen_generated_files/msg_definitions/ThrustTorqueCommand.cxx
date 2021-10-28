@@ -36,15 +36,15 @@ using namespace eprosima::fastcdr::exception;
 
 idl_msg::ThrustTorqueCommand::ThrustTorqueCommand()
 {
-    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@78e117e3
+    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@769f71a9
 
-    // m_thrust com.eprosima.idl.parser.typecode.PrimitiveTypeCode@2ea227af
+    // m_thrust com.eprosima.idl.parser.typecode.PrimitiveTypeCode@4c9f8c13
     m_thrust = 0.0;
-    // m_roll_torque com.eprosima.idl.parser.typecode.PrimitiveTypeCode@4386f16
+    // m_roll_torque com.eprosima.idl.parser.typecode.PrimitiveTypeCode@5ae50ce6
     m_roll_torque = 0.0;
-    // m_pitch_torque com.eprosima.idl.parser.typecode.PrimitiveTypeCode@363ee3a2
+    // m_pitch_torque com.eprosima.idl.parser.typecode.PrimitiveTypeCode@6f96c77
     m_pitch_torque = 0.0;
-    // m_yaw_torque com.eprosima.idl.parser.typecode.PrimitiveTypeCode@4690b489
+    // m_yaw_torque com.eprosima.idl.parser.typecode.PrimitiveTypeCode@be64738
     m_yaw_torque = 0.0;
 
 }

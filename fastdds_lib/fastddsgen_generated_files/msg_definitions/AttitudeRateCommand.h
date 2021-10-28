@@ -135,6 +135,25 @@ namespace idl_msg {
          */
         eProsima_user_DllExport idl_msg::Header& header();
         /*!
+         * @brief This function sets a value in member thrust
+         * @param _thrust New value for member thrust
+         */
+        eProsima_user_DllExport void thrust(
+                float _thrust);
+
+        /*!
+         * @brief This function returns the value of member thrust
+         * @return Value of member thrust
+         */
+        eProsima_user_DllExport float thrust() const;
+
+        /*!
+         * @brief This function returns a reference to member thrust
+         * @return Reference to member thrust
+         */
+        eProsima_user_DllExport float& thrust();
+
+        /*!
          * @brief This function sets a value in member roll_rate
          * @param _roll_rate New value for member roll_rate
          */
@@ -252,6 +271,7 @@ namespace idl_msg {
     private:
 
         idl_msg::Header m_header;
+        float m_thrust;
         float m_roll_rate;
         float m_pitch_rate;
         float m_yaw_rate;

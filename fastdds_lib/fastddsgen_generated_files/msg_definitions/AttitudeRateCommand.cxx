@@ -36,13 +36,15 @@ using namespace eprosima::fastcdr::exception;
 
 idl_msg::AttitudeRateCommand::AttitudeRateCommand()
 {
-    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@58a90037
+    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@130f889
 
-    // m_roll_rate com.eprosima.idl.parser.typecode.PrimitiveTypeCode@74294adb
+    // m_thrust com.eprosima.idl.parser.typecode.PrimitiveTypeCode@1188e820
+    m_thrust = 0.0;
+    // m_roll_rate com.eprosima.idl.parser.typecode.PrimitiveTypeCode@2f490758
     m_roll_rate = 0.0;
-    // m_pitch_rate com.eprosima.idl.parser.typecode.PrimitiveTypeCode@70a9f84e
+    // m_pitch_rate com.eprosima.idl.parser.typecode.PrimitiveTypeCode@40f08448
     m_pitch_rate = 0.0;
-    // m_yaw_rate com.eprosima.idl.parser.typecode.PrimitiveTypeCode@130f889
+    // m_yaw_rate com.eprosima.idl.parser.typecode.PrimitiveTypeCode@276438c9
     m_yaw_rate = 0.0;
 
 }
@@ -53,12 +55,14 @@ idl_msg::AttitudeRateCommand::~AttitudeRateCommand()
 
 
 
+
 }
 
 idl_msg::AttitudeRateCommand::AttitudeRateCommand(
         const AttitudeRateCommand& x)
 {
     m_header = x.m_header;
+    m_thrust = x.m_thrust;
     m_roll_rate = x.m_roll_rate;
     m_pitch_rate = x.m_pitch_rate;
     m_yaw_rate = x.m_yaw_rate;
@@ -68,6 +72,7 @@ idl_msg::AttitudeRateCommand::AttitudeRateCommand(
         AttitudeRateCommand&& x)
 {
     m_header = std::move(x.m_header);
+    m_thrust = x.m_thrust;
     m_roll_rate = x.m_roll_rate;
     m_pitch_rate = x.m_pitch_rate;
     m_yaw_rate = x.m_yaw_rate;
@@ -78,6 +83,7 @@ idl_msg::AttitudeRateCommand& idl_msg::AttitudeRateCommand::operator =(
 {
 
     m_header = x.m_header;
+    m_thrust = x.m_thrust;
     m_roll_rate = x.m_roll_rate;
     m_pitch_rate = x.m_pitch_rate;
     m_yaw_rate = x.m_yaw_rate;
@@ -90,6 +96,7 @@ idl_msg::AttitudeRateCommand& idl_msg::AttitudeRateCommand::operator =(
 {
 
     m_header = std::move(x.m_header);
+    m_thrust = x.m_thrust;
     m_roll_rate = x.m_roll_rate;
     m_pitch_rate = x.m_pitch_rate;
     m_yaw_rate = x.m_yaw_rate;
@@ -104,6 +111,9 @@ size_t idl_msg::AttitudeRateCommand::getMaxCdrSerializedSize(
 
 
     current_alignment += idl_msg::Header::getMaxCdrSerializedSize(current_alignment);
+    current_alignment += 4 + eprosima::fastcdr::Cdr::alignment(current_alignment, 4);
+
+
     current_alignment += 4 + eprosima::fastcdr::Cdr::alignment(current_alignment, 4);
 
 
@@ -135,6 +145,9 @@ size_t idl_msg::AttitudeRateCommand::getCdrSerializedSize(
     current_alignment += 4 + eprosima::fastcdr::Cdr::alignment(current_alignment, 4);
 
 
+    current_alignment += 4 + eprosima::fastcdr::Cdr::alignment(current_alignment, 4);
+
+
 
     return current_alignment - initial_alignment;
 }
@@ -144,6 +157,7 @@ void idl_msg::AttitudeRateCommand::serialize(
 {
 
     scdr << m_header;
+    scdr << m_thrust;
     scdr << m_roll_rate;
     scdr << m_pitch_rate;
     scdr << m_yaw_rate;
@@ -155,6 +169,7 @@ void idl_msg::AttitudeRateCommand::deserialize(
 {
 
     dcdr >> m_header;
+    dcdr >> m_thrust;
     dcdr >> m_roll_rate;
     dcdr >> m_pitch_rate;
     dcdr >> m_yaw_rate;
@@ -197,6 +212,34 @@ idl_msg::Header& idl_msg::AttitudeRateCommand::header()
 {
     return m_header;
 }
+/*!
+ * @brief This function sets a value in member thrust
+ * @param _thrust New value for member thrust
+ */
+void idl_msg::AttitudeRateCommand::thrust(
+        float _thrust)
+{
+    m_thrust = _thrust;
+}
+
+/*!
+ * @brief This function returns the value of member thrust
+ * @return Value of member thrust
+ */
+float idl_msg::AttitudeRateCommand::thrust() const
+{
+    return m_thrust;
+}
+
+/*!
+ * @brief This function returns a reference to member thrust
+ * @return Reference to member thrust
+ */
+float& idl_msg::AttitudeRateCommand::thrust()
+{
+    return m_thrust;
+}
+
 /*!
  * @brief This function sets a value in member roll_rate
  * @param _roll_rate New value for member roll_rate
@@ -293,6 +336,7 @@ size_t idl_msg::AttitudeRateCommand::getKeyMaxCdrSerializedSize(
 
 
 
+
     return current_align;
 }
 
@@ -305,6 +349,6 @@ void idl_msg::AttitudeRateCommand::serializeKey(
         eprosima::fastcdr::Cdr& scdr) const
 {
     (void) scdr;
-        
+         
 }
 

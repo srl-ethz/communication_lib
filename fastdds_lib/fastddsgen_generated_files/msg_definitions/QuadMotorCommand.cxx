@@ -36,9 +36,9 @@ using namespace eprosima::fastcdr::exception;
 
 idl_msg::QuadMotorCommand::QuadMotorCommand()
 {
-    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@16e7dcfd
+    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@3901d134
 
-    // m_motorspeed com.eprosima.idl.parser.typecode.ArrayTypeCode@3d121db3
+    // m_motorspeed com.eprosima.idl.parser.typecode.ArrayTypeCode@14d3bc22
     memset(&m_motorspeed, 0, (4) * 4);
 
 }

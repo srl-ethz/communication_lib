@@ -36,9 +36,9 @@ using namespace eprosima::fastcdr::exception;
 
 idl_msg::Image1080p::Image1080p()
 {
-    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@491666ad
+    // m_header com.eprosima.fastdds.idl.parser.typecode.StructTypeCode@2b4a2ec7
 
-    // m_frame com.eprosima.idl.parser.typecode.ArrayTypeCode@176d53b2
+    // m_frame com.eprosima.idl.parser.typecode.ArrayTypeCode@564718df
     memset(&m_frame, 0, (1920*1080*3) * 1);
 
 }
