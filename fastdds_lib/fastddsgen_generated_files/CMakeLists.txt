@@ -10,12 +10,12 @@ px4_msg_definitions/*.cxx
 
 add_library(fastddsgen_generated_lib STATIC
 ${FASTDDSGEN_GENERATED_FILES}
-${PX4_RTPS_GENERATED_FILES}
+# ${PX4_RTPS_GENERATED_FILES}
 )
 
 target_include_directories(fastddsgen_generated_lib PUBLIC
 msg_definitions
-px4_msg_definitions
+# px4_msg_definitions
 )
 
 
