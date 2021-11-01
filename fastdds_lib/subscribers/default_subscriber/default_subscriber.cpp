@@ -13,8 +13,6 @@ DDSSubscriber<msg_init_type, msg_type>::~DDSSubscriber() {
   if (subscriber_ != nullptr) {
     participant_->delete_subscriber(subscriber_);
   }
-
-  DomainParticipantFactory::get_instance()->delete_participant(participant_);
 }
 
 template <typename msg_init_type, typename msg_type>
