@@ -2,7 +2,14 @@
 #include "default_participant.h"
 #include "default_subscriber.h"
 #include "geometry_msgs/msgs/Position.h"
-// #include "position_sub_callback.h"
+#include <mutex>
+
+std::mutex printMutex;
+
+void safe_print(int i) {
+  std::lock_guard lock(printMutex); // lock is acquired
+  std::cout << i << std::endl;
+} // lock is released
 
 int main() {
 
@@ -24,6 +31,6 @@ int main() {
     // Blocks until new data is available
     mocap_sub.listener->wait_for_data();
 
-    std::cout << pos_msg.x;
+    safe_print(pos_msg.x);
   }
 }
