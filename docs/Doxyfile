@@ -1,4 +1,4 @@
-PROJECT_NAME           = "Selva"
+PROJECT_NAME           = "Communication lib Docs"
 
 OUTPUT_DIRECTORY       = /Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/_build
 
