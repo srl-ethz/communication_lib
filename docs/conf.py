@@ -13,15 +13,11 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-from sphinx.builders.html import StandaloneHTMLBuilder
-import subprocess, os
 
-# Doxygen
-subprocess.call('doxygen Doxyfile.in', shell=True)
 
 # -- Project information -----------------------------------------------------
 
-project = 'doc_demo'
+project = 'comm_lib'
 copyright = '2021, sarath_suresh'
 author = 'sarath_suresh'
 
@@ -63,11 +59,11 @@ highlight_language = 'c++'
 html_theme = 'sphinx_rtd_theme'
 html_theme_options = {
     'canonical_url': '',
-    'analytics_id': '',  #  Provided by Google in your dashboard
+    'analytics_id': '',  # Provided by Google in your dashboard
     'display_version': True,
     'prev_next_buttons_location': 'bottom',
     'style_external_links': False,
-    
+
     'logo_only': False,
 
     # Toc options
@@ -89,7 +85,7 @@ html_static_path = ['_static']
 # -- Breathe configuration -------------------------------------------------
 
 breathe_projects = {
-	"C++ Sphinx Doxygen Breathe": "_build/xml/"
+    "C++ Sphinx Doxygen Breathe": "generated_docs/xml/"
 }
 breathe_default_project = "C++ Sphinx Doxygen Breathe"
 breathe_default_members = ('members', 'undoc-members')

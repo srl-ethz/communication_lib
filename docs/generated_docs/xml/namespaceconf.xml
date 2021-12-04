@@ -3,11 +3,12 @@
   <compounddef id="namespaceconf" kind="namespace" language="Python">
     <compoundname>conf</compoundname>
       <sectiondef kind="var">
-      <memberdef kind="variable" id="conf_8py_1a332f430461432dc465213f884a1e4967" prot="public" static="no" mutable="no">
-        <type></type>
-        <definition>conf.shell</definition>
+      <memberdef kind="variable" id="conf_8py_1a45653c983098153b78e33600e39230eb" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string conf.project</definition>
         <argsstring></argsstring>
-        <name>shell</name>
+        <name>project</name>
+        <initializer>=  &apos;comm_lib&apos;</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
@@ -15,20 +16,6 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" line="20" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" bodystart="20" bodyend="-1"/>
-      </memberdef>
-      <memberdef kind="variable" id="conf_8py_1a45653c983098153b78e33600e39230eb" prot="public" static="no" mutable="no">
-        <type>string</type>
-        <definition>string conf.project</definition>
-        <argsstring></argsstring>
-        <name>project</name>
-        <initializer>=  &apos;doc_demo&apos;</initializer>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" line="24" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" bodystart="24" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="conf_8py_1a33fa97cf51dcb25970fbf53f10159589" prot="public" static="no" mutable="no">
         <type>string</type>
@@ -42,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" line="25" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" bodystart="25" bodyend="-1"/>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" line="21" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" bodystart="21" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="conf_8py_1a637c239d256432248aa8d9f3ab0b8c52" prot="public" static="no" mutable="no">
         <type>string</type>
@@ -56,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" line="26" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" bodystart="26" bodyend="-1"/>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" line="22" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" bodystart="22" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="conf_8py_1ae475e080536acb271a0a0efe56c3ba42" prot="public" static="no" mutable="no">
         <type>list</type>
@@ -82,7 +69,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" line="34" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" bodystart="34" bodyend="-1"/>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" line="30" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" bodystart="30" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="conf_8py_1ae850ae634911b713e036b43894fdd525" prot="public" static="no" mutable="no">
         <type>list</type>
@@ -96,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" line="49" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" bodystart="49" bodyend="-1"/>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" line="45" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" bodystart="45" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="conf_8py_1a7ad48fb6f3e9b129c02346ea0d3527c1" prot="public" static="no" mutable="no">
         <type>list</type>
@@ -110,7 +97,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" line="54" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" bodystart="54" bodyend="-1"/>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" line="50" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" bodystart="50" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="conf_8py_1a3117edf4443d9b8c70a9f0f44294ba79" prot="public" static="no" mutable="no">
         <type>string</type>
@@ -124,7 +111,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" line="56" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" bodystart="56" bodyend="-1"/>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" line="52" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" bodystart="52" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="conf_8py_1a6c3bfcc1a44546c1c75ce20f55bd0fd6" prot="public" static="no" mutable="no">
         <type>string</type>
@@ -138,7 +125,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" line="63" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" bodystart="63" bodyend="-1"/>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" line="59" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" bodystart="59" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="conf_8py_1aeaafa42217d24810edc9b116b88a4585" prot="public" static="no" mutable="no">
         <type>dictionary</type>
@@ -147,11 +134,11 @@
         <name>html_theme_options</name>
         <initializer>=  {
     &apos;canonical_url&apos;: &apos;&apos;,
-    &apos;analytics_id&apos;: &apos;&apos;,  #  Provided by Google in your dashboard
+    &apos;analytics_id&apos;: &apos;&apos;,  # Provided by Google in your dashboard
     &apos;display_version&apos;: True,
     &apos;prev_next_buttons_location&apos;: &apos;bottom&apos;,
     &apos;style_external_links&apos;: False,
-    
+
     &apos;logo_only&apos;: False,
 
     # Toc options
@@ -167,7 +154,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" line="64" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" bodystart="64" bodyend="-1"/>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" line="60" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" bodystart="60" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="conf_8py_1af4fb5d8851ccaade135c2668dd3ced41" prot="public" static="no" mutable="no">
         <type>list</type>
@@ -181,7 +168,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" line="87" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" bodystart="87" bodyend="-1"/>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" line="83" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" bodystart="83" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="conf_8py_1acb47d2c0c2904fa7d36b63142533f383" prot="public" static="no" mutable="no">
         <type>dictionary</type>
@@ -189,7 +176,7 @@
         <argsstring></argsstring>
         <name>breathe_projects</name>
         <initializer>=  {
-	&quot;C++ Sphinx Doxygen Breathe&quot;: &quot;_build/xml/&quot;
+    &quot;C++ Sphinx Doxygen Breathe&quot;: &quot;generated_docs/xml/&quot;
 }</initializer>
         <briefdescription>
         </briefdescription>
@@ -197,7 +184,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" line="91" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" bodystart="91" bodyend="-1"/>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" line="87" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" bodystart="87" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="conf_8py_1a6eba2d2c7ae923054b1c49e686ec89b9" prot="public" static="no" mutable="no">
         <type>string</type>
@@ -211,7 +198,21 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" line="94" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" bodystart="94" bodyend="-1"/>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" line="90" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="conf_8py_1a54585428ce84441199d9dfd7087e2243" prot="public" static="no" mutable="no">
+        <type>tuple</type>
+        <definition>tuple conf.breathe_default_members</definition>
+        <argsstring></argsstring>
+        <name>breathe_default_members</name>
+        <initializer>=  (&apos;members&apos;, &apos;undoc-members&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" line="91" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/conf.py" bodystart="91" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
