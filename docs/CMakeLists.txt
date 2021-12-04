@@ -1,7 +1,8 @@
 
 # Doxygen settings
 
-
+# first we can indicate the documentation build as an option and set it to ON by default
+option(BUILD_DOC "Build documentation" ON)
 
 # check if Doxygen is installed
 find_package(Doxygen)
@@ -29,7 +30,7 @@ endif (DOXYGEN_FOUND)
 find_package(Sphinx REQUIRED)
 
 set(SPHINX_SOURCE ${CMAKE_CURRENT_SOURCE_DIR})
-set(SPHINX_BUILD ${CMAKE_CURRENT_BINARY_DIR})
+set(SPHINX_BUILD ${CMAKE_CURRENT_SOURCE_DIR}/generated_docs/html)
 
 add_custom_target(Sphinx ALL
                   COMMAND
@@ -38,7 +39,6 @@ add_custom_target(Sphinx ALL
                   ${SPHINX_SOURCE} ${SPHINX_BUILD}
                   WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
                   COMMENT "Generating documentation with Sphinx")
-
 
 
 
