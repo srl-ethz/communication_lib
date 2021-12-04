@@ -1,0 +1,9 @@
+PROJECT_NAME           = "Selva"
+
+OUTPUT_DIRECTORY       = /Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/_build
+
+INPUT                  = /Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/domain_participants/default_participant /Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs 
+
+GENERATE_XML = YES
+
+RECURSIVE = YES

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_73e7077b5ba8162cfefc768d7c82def6" kind="dir">
+    <compoundname>/Users/sarathmenon/Documents/c++_projects_2/doc_demo/docs/build/CMakeFiles/3.21.4</compoundname>
+    <innerdir refid="dir_69d1855ca8725f2ad52a9627b85114bc">/Users/sarathmenon/Documents/c++_projects_2/doc_demo/docs/build/CMakeFiles/3.21.4/CompilerIdC</innerdir>
+    <innerdir refid="dir_95bf6e812ecbda5a0b8e2e772a5ce781">/Users/sarathmenon/Documents/c++_projects_2/doc_demo/docs/build/CMakeFiles/3.21.4/CompilerIdCXX</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/sarathmenon/Documents/c++_projects_2/doc_demo/docs/build/CMakeFiles/3.21.4/"/>
+  </compounddef>
+</doxygen>

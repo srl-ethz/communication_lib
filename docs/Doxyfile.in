@@ -1,0 +1,9 @@
+PROJECT_NAME           = "Selva"
+
+OUTPUT_DIRECTORY       = @CMAKE_CURRENT_SOURCE_DIR@/_build
+
+INPUT                  = @CMAKE_SOURCE_DIR@/fastdds_lib/domain_participants/default_participant @CMAKE_SOURCE_DIR@/docs 
+
+GENERATE_XML = YES
+
+RECURSIVE = YES

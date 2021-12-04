@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_default_participant" kind="class" language="C++" prot="public">
+    <compoundname>DefaultParticipant</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_default_participant_1ac96b02e00f763eab48fe79d4f590caf4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DefaultParticipant::domain_id_</definition>
+        <argsstring></argsstring>
+        <name>domain_id_</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/domain_participants/default_participant/default_participant.h" line="14" column="7" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/domain_participants/default_participant/default_participant.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_default_participant_1a4f550152be61838990c87b283a73a354" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string DefaultParticipant::qos_name_</definition>
+        <argsstring></argsstring>
+        <name>qos_name_</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/domain_participants/default_participant/default_participant.h" line="17" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/domain_participants/default_participant/default_participant.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_default_participant_1a34517eebf876bb76cdb61edbaca2329e" prot="private" static="no" mutable="no">
+        <type>eprosima::fastdds::dds::DomainParticipant *</type>
+        <definition>eprosima::fastdds::dds::DomainParticipant* DefaultParticipant::participant_</definition>
+        <argsstring></argsstring>
+        <name>participant_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/domain_participants/default_participant/default_participant.h" line="20" column="45" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/domain_participants/default_participant/default_participant.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_default_participant_1ace1e15a7892a9302df97163b4c1b5f36" prot="private" static="no" mutable="no">
+        <type>eprosima::fastdds::dds::DomainParticipantQos</type>
+        <definition>eprosima::fastdds::dds::DomainParticipantQos DefaultParticipant::p_qos</definition>
+        <argsstring></argsstring>
+        <name>p_qos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/domain_participants/default_participant/default_participant.h" line="23" column="48" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/domain_participants/default_participant/default_participant.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_default_participant_1a1be3c96525674420083df0f77792289a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DefaultParticipant::DefaultParticipant</definition>
+        <argsstring>(int domain_id, std::string qos_name)</argsstring>
+        <name>DefaultParticipant</name>
+        <param>
+          <type>int</type>
+          <declname>domain_id</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>qos_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/domain_participants/default_participant/default_participant.h" line="9" column="3" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/domain_participants/default_participant/default_participant.cpp" bodystart="3" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_default_participant_1a9229f8a9e0ce6bba480908dd140ce7ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>DefaultParticipant::~DefaultParticipant</definition>
+        <argsstring>()</argsstring>
+        <name>~DefaultParticipant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/domain_participants/default_participant/default_participant.h" line="10" column="3" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/domain_participants/default_participant/default_participant.cpp" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_default_participant_1af366d662fa43261ca19476690d6e8a27" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::string</type>
+        <definition>const std::string DefaultParticipant::participant_name</definition>
+        <argsstring>() const</argsstring>
+        <name>participant_name</name>
+        <briefdescription>
+<para>Getter function. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/domain_participants/default_participant/default_participant.h" line="27" column="21" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/domain_participants/default_participant/default_participant.h" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_default_participant_1a2b05270345c68420ecd520a11e9c25c1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>eprosima::fastdds::dds::DomainParticipant *</type>
+        <definition>eprosima::fastdds::dds::DomainParticipant * DefaultParticipant::participant</definition>
+        <argsstring>() const</argsstring>
+        <name>participant</name>
+        <briefdescription>
+<para>Getter function. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/domain_participants/default_participant/default_participant.h" line="30" column="45" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/domain_participants/default_participant/default_participant.h" bodystart="30" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/domain_participants/default_participant/default_participant.h" line="7" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/domain_participants/default_participant/default_participant.h" bodystart="7" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_default_participant_1a1be3c96525674420083df0f77792289a" prot="public" virt="non-virtual"><scope>DefaultParticipant</scope><name>DefaultParticipant</name></member>
+      <member refid="class_default_participant_1ac96b02e00f763eab48fe79d4f590caf4" prot="private" virt="non-virtual"><scope>DefaultParticipant</scope><name>domain_id_</name></member>
+      <member refid="class_default_participant_1ace1e15a7892a9302df97163b4c1b5f36" prot="private" virt="non-virtual"><scope>DefaultParticipant</scope><name>p_qos</name></member>
+      <member refid="class_default_participant_1a2b05270345c68420ecd520a11e9c25c1" prot="public" virt="non-virtual"><scope>DefaultParticipant</scope><name>participant</name></member>
+      <member refid="class_default_participant_1a34517eebf876bb76cdb61edbaca2329e" prot="private" virt="non-virtual"><scope>DefaultParticipant</scope><name>participant_</name></member>
+      <member refid="class_default_participant_1af366d662fa43261ca19476690d6e8a27" prot="public" virt="non-virtual"><scope>DefaultParticipant</scope><name>participant_name</name></member>
+      <member refid="class_default_participant_1a4f550152be61838990c87b283a73a354" prot="private" virt="non-virtual"><scope>DefaultParticipant</scope><name>qos_name_</name></member>
+      <member refid="class_default_participant_1a9229f8a9e0ce6bba480908dd140ce7ce" prot="public" virt="non-virtual"><scope>DefaultParticipant</scope><name>~DefaultParticipant</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
