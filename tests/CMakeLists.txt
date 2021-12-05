@@ -1,3 +1,4 @@
 
-add_subdirectory(sub_position)
-add_subdirectory(pub_position)
+add_subdirectory(subscriber_demo)
+add_subdirectory(publisher_demo)
+add_subdirectory(publisher_async_demo)
