@@ -1,0 +1,1096 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classtrajectory__waypoint" kind="class" language="C++" prot="public">
+    <compoundname>trajectory_waypoint</compoundname>
+    <includes refid="trajectory__waypoint_8h" local="no">trajectory_waypoint.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtrajectory__waypoint_1ab1601a5e6305c49a4f7d81fceade60d9" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t trajectory_waypoint::m_timestamp_</definition>
+        <argsstring></argsstring>
+        <name>m_timestamp_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="341" column="14" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" bodystart="341" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtrajectory__waypoint_1ae66f7ff7a18c997539f854639c28d814" prot="private" static="no" mutable="no">
+        <type>trajectory_waypoint__float_array_3</type>
+        <definition>trajectory_waypoint__float_array_3 trajectory_waypoint::m_position</definition>
+        <argsstring></argsstring>
+        <name>m_position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="342" column="40" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" bodystart="342" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtrajectory__waypoint_1afff310b0a947b753f06153a32d618ed2" prot="private" static="no" mutable="no">
+        <type>trajectory_waypoint__float_array_3</type>
+        <definition>trajectory_waypoint__float_array_3 trajectory_waypoint::m_velocity</definition>
+        <argsstring></argsstring>
+        <name>m_velocity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="343" column="40" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" bodystart="343" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtrajectory__waypoint_1a1bfd8c5540ebbc77de5782bc61c3bd07" prot="private" static="no" mutable="no">
+        <type>trajectory_waypoint__float_array_3</type>
+        <definition>trajectory_waypoint__float_array_3 trajectory_waypoint::m_acceleration</definition>
+        <argsstring></argsstring>
+        <name>m_acceleration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="344" column="40" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" bodystart="344" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtrajectory__waypoint_1a4bf703724e8796423679df577ac1e839" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float trajectory_waypoint::m_yaw_</definition>
+        <argsstring></argsstring>
+        <name>m_yaw_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="345" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" bodystart="345" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtrajectory__waypoint_1a7aa935d95e47b0beee88ff12cf116804" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float trajectory_waypoint::m_yaw_speed_</definition>
+        <argsstring></argsstring>
+        <name>m_yaw_speed_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="346" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" bodystart="346" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtrajectory__waypoint_1afb06df159fca82e7fc4c81265b881a6d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool trajectory_waypoint::m_point_valid_</definition>
+        <argsstring></argsstring>
+        <name>m_point_valid_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="347" column="10" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" bodystart="347" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtrajectory__waypoint_1a75aa8396d24243c494cb5e872a9357bc" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t trajectory_waypoint::m_type_</definition>
+        <argsstring></argsstring>
+        <name>m_type_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="348" column="13" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" bodystart="348" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtrajectory__waypoint_1ac8e9803bddf2db3b2a83864643bba54e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>trajectory_waypoint::trajectory_waypoint</definition>
+        <argsstring>()</argsstring>
+        <name>trajectory_waypoint</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="76" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="38" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1ae02c278020df119486a0ed5b64e8c185" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>trajectory_waypoint::~trajectory_waypoint</definition>
+        <argsstring>()</argsstring>
+        <name>~trajectory_waypoint</name>
+        <briefdescription>
+<para>Default destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="81" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="59" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1a8a42d6342d935e02fb1e56a174762d1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>trajectory_waypoint::trajectory_waypoint</definition>
+        <argsstring>(const trajectory_waypoint &amp;x)</argsstring>
+        <name>trajectory_waypoint</name>
+        <param>
+          <type>const <ref refid="classtrajectory__waypoint" kindref="compound">trajectory_waypoint</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classtrajectory__waypoint" kindref="compound">trajectory_waypoint</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="87" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="71" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1aacc234d7f60693b15ce3697a8cb19f8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>trajectory_waypoint::trajectory_waypoint</definition>
+        <argsstring>(trajectory_waypoint &amp;&amp;x)</argsstring>
+        <name>trajectory_waypoint</name>
+        <param>
+          <type><ref refid="classtrajectory__waypoint" kindref="compound">trajectory_waypoint</ref> &amp;&amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Move constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classtrajectory__waypoint" kindref="compound">trajectory_waypoint</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="94" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="84" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1adb372ead31ce13f17550758df4c52aca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport <ref refid="classtrajectory__waypoint" kindref="compound">trajectory_waypoint</ref> &amp;</type>
+        <definition>trajectory_waypoint &amp; trajectory_waypoint::operator=</definition>
+        <argsstring>(const trajectory_waypoint &amp;x)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classtrajectory__waypoint" kindref="compound">trajectory_waypoint</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Copy assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classtrajectory__waypoint" kindref="compound">trajectory_waypoint</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="101" column="49" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="97" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1a9dd1fa6ccf02e5c82e04d97c24c5d54b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport <ref refid="classtrajectory__waypoint" kindref="compound">trajectory_waypoint</ref> &amp;</type>
+        <definition>trajectory_waypoint &amp; trajectory_waypoint::operator=</definition>
+        <argsstring>(trajectory_waypoint &amp;&amp;x)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classtrajectory__waypoint" kindref="compound">trajectory_waypoint</ref> &amp;&amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Move assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classtrajectory__waypoint" kindref="compound">trajectory_waypoint</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="108" column="49" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="113" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1ac86ac19d0a46f10cbd66c343ba960f82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void trajectory_waypoint::timestamp_</definition>
+        <argsstring>(uint64_t _timestamp_)</argsstring>
+        <name>timestamp_</name>
+        <param>
+          <type>uint64_t</type>
+          <declname>_timestamp_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;timestamp&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member timestamp_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="115" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="244" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1a8f5c31752742ef7100c825d6f49e2083" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint64_t</type>
+        <definition>uint64_t trajectory_waypoint::timestamp_</definition>
+        <argsstring>() const</argsstring>
+        <name>timestamp_</name>
+        <briefdescription>
+<para>This function returns the value of member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member timestamp_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="122" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="254" bodyend="257"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1aceb3e25d5e6e5465777bcca0d02f8f04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint64_t &amp;</type>
+        <definition>uint64_t &amp; trajectory_waypoint::timestamp_</definition>
+        <argsstring>()</argsstring>
+        <name>timestamp_</name>
+        <briefdescription>
+<para>This function returns a reference to member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member timestamp_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="128" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="263" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1a2acb118e1c1293a5c74c6d924f7b8b1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void trajectory_waypoint::position</definition>
+        <argsstring>(const trajectory_waypoint__float_array_3 &amp;_position)</argsstring>
+        <name>position</name>
+        <param>
+          <type>const trajectory_waypoint__float_array_3 &amp;</type>
+          <declname>_position</declname>
+        </param>
+        <briefdescription>
+<para>This function copies the value in member position. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_position</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member position </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="134" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="272" bodyend="276"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1a81c66905bff12a009880758ee29afe64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void trajectory_waypoint::position</definition>
+        <argsstring>(trajectory_waypoint__float_array_3 &amp;&amp;_position)</argsstring>
+        <name>position</name>
+        <param>
+          <type>trajectory_waypoint__float_array_3 &amp;&amp;</type>
+          <declname>_position</declname>
+        </param>
+        <briefdescription>
+<para>This function moves the value in member position. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_position</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member position </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="141" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="282" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1adf9e2263b52942236f6e55e8e17f9d51" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport const trajectory_waypoint__float_array_3 &amp;</type>
+        <definition>const trajectory_waypoint__float_array_3 &amp; trajectory_waypoint::position</definition>
+        <argsstring>() const</argsstring>
+        <name>position</name>
+        <briefdescription>
+<para>This function returns a constant reference to member position. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Constant reference to member position </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="148" column="70" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="292" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1afb07d67cf1ea1b676c706a96d3cbdeeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport trajectory_waypoint__float_array_3 &amp;</type>
+        <definition>trajectory_waypoint__float_array_3 &amp; trajectory_waypoint::position</definition>
+        <argsstring>()</argsstring>
+        <name>position</name>
+        <briefdescription>
+<para>This function returns a reference to member position. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member position </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="154" column="64" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="301" bodyend="304"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1a7aaf55d90f4769e87c74f6d58bc907f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void trajectory_waypoint::velocity</definition>
+        <argsstring>(const trajectory_waypoint__float_array_3 &amp;_velocity)</argsstring>
+        <name>velocity</name>
+        <param>
+          <type>const trajectory_waypoint__float_array_3 &amp;</type>
+          <declname>_velocity</declname>
+        </param>
+        <briefdescription>
+<para>This function copies the value in member velocity. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_velocity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member velocity </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="159" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="309" bodyend="313"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1a95f290accacb226de19fd895d7e45532" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void trajectory_waypoint::velocity</definition>
+        <argsstring>(trajectory_waypoint__float_array_3 &amp;&amp;_velocity)</argsstring>
+        <name>velocity</name>
+        <param>
+          <type>trajectory_waypoint__float_array_3 &amp;&amp;</type>
+          <declname>_velocity</declname>
+        </param>
+        <briefdescription>
+<para>This function moves the value in member velocity. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_velocity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member velocity </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="166" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="319" bodyend="323"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1a4edd8a4f8f4518e5c814eb11552c3cd8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport const trajectory_waypoint__float_array_3 &amp;</type>
+        <definition>const trajectory_waypoint__float_array_3 &amp; trajectory_waypoint::velocity</definition>
+        <argsstring>() const</argsstring>
+        <name>velocity</name>
+        <briefdescription>
+<para>This function returns a constant reference to member velocity. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Constant reference to member velocity </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="173" column="70" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="329" bodyend="332"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1ae9217b5ccb86bf38bb4c1fa6ae9f6b79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport trajectory_waypoint__float_array_3 &amp;</type>
+        <definition>trajectory_waypoint__float_array_3 &amp; trajectory_waypoint::velocity</definition>
+        <argsstring>()</argsstring>
+        <name>velocity</name>
+        <briefdescription>
+<para>This function returns a reference to member velocity. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member velocity </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="179" column="64" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="338" bodyend="341"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1a66a4e36697db6442178a3240efaf46ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void trajectory_waypoint::acceleration</definition>
+        <argsstring>(const trajectory_waypoint__float_array_3 &amp;_acceleration)</argsstring>
+        <name>acceleration</name>
+        <param>
+          <type>const trajectory_waypoint__float_array_3 &amp;</type>
+          <declname>_acceleration</declname>
+        </param>
+        <briefdescription>
+<para>This function copies the value in member acceleration. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_acceleration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member acceleration </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="184" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="346" bodyend="350"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1a4009958118b5586fc947f55a556ad8de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void trajectory_waypoint::acceleration</definition>
+        <argsstring>(trajectory_waypoint__float_array_3 &amp;&amp;_acceleration)</argsstring>
+        <name>acceleration</name>
+        <param>
+          <type>trajectory_waypoint__float_array_3 &amp;&amp;</type>
+          <declname>_acceleration</declname>
+        </param>
+        <briefdescription>
+<para>This function moves the value in member acceleration. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_acceleration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member acceleration </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="191" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="356" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1ad86cfeb9f4cf182dda40f2ce2e25ee13" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport const trajectory_waypoint__float_array_3 &amp;</type>
+        <definition>const trajectory_waypoint__float_array_3 &amp; trajectory_waypoint::acceleration</definition>
+        <argsstring>() const</argsstring>
+        <name>acceleration</name>
+        <briefdescription>
+<para>This function returns a constant reference to member acceleration. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Constant reference to member acceleration </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="198" column="70" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="366" bodyend="369"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1a182e3fab89a28d686d60772768a4f999" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport trajectory_waypoint__float_array_3 &amp;</type>
+        <definition>trajectory_waypoint__float_array_3 &amp; trajectory_waypoint::acceleration</definition>
+        <argsstring>()</argsstring>
+        <name>acceleration</name>
+        <briefdescription>
+<para>This function returns a reference to member acceleration. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member acceleration </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="204" column="64" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="375" bodyend="378"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1a2aadd52b411859da8cc7ba5c897f37ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void trajectory_waypoint::yaw_</definition>
+        <argsstring>(float _yaw_)</argsstring>
+        <name>yaw_</name>
+        <param>
+          <type>float</type>
+          <declname>_yaw_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member yaw_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;yaw&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member yaw_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="209" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="383" bodyend="387"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1ae657ed93b97fc5cb9abb57c380ced5c1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float trajectory_waypoint::yaw_</definition>
+        <argsstring>() const</argsstring>
+        <name>yaw_</name>
+        <briefdescription>
+<para>This function returns the value of member yaw_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member yaw_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="216" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="393" bodyend="396"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1a388f37c7bbf5d84bb5b00f710abdd5c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; trajectory_waypoint::yaw_</definition>
+        <argsstring>()</argsstring>
+        <name>yaw_</name>
+        <briefdescription>
+<para>This function returns a reference to member yaw_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member yaw_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="222" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="402" bodyend="405"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1af453f9f7dce4242c1b3ca10b2be530a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void trajectory_waypoint::yaw_speed_</definition>
+        <argsstring>(float _yaw_speed_)</argsstring>
+        <name>yaw_speed_</name>
+        <param>
+          <type>float</type>
+          <declname>_yaw_speed_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member yaw_speed_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;yaw_speed&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member yaw_speed_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="228" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="411" bodyend="415"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1aaafeb64488ad42907e67cbacb57d2d6e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float trajectory_waypoint::yaw_speed_</definition>
+        <argsstring>() const</argsstring>
+        <name>yaw_speed_</name>
+        <briefdescription>
+<para>This function returns the value of member yaw_speed_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member yaw_speed_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="235" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="421" bodyend="424"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1a4a704c981c1c04d0f95dd784ca373703" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; trajectory_waypoint::yaw_speed_</definition>
+        <argsstring>()</argsstring>
+        <name>yaw_speed_</name>
+        <briefdescription>
+<para>This function returns a reference to member yaw_speed_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member yaw_speed_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="241" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="430" bodyend="433"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1ae5cbad90adaec561f4b3b0e704a4f47e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void trajectory_waypoint::point_valid_</definition>
+        <argsstring>(bool _point_valid_)</argsstring>
+        <name>point_valid_</name>
+        <param>
+          <type>bool</type>
+          <declname>_point_valid_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member point_valid_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;point_valid&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member point_valid_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="247" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="439" bodyend="443"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1afa9a3a71a66b3c60021638bb3ecf067c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool trajectory_waypoint::point_valid_</definition>
+        <argsstring>() const</argsstring>
+        <name>point_valid_</name>
+        <briefdescription>
+<para>This function returns the value of member point_valid_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member point_valid_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="254" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="449" bodyend="452"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1ac36e5bdf11bbac6d309f36865cc9f197" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool &amp;</type>
+        <definition>bool &amp; trajectory_waypoint::point_valid_</definition>
+        <argsstring>()</argsstring>
+        <name>point_valid_</name>
+        <briefdescription>
+<para>This function returns a reference to member point_valid_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member point_valid_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="260" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="458" bodyend="461"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1ae3433eaef8459b0633fb3ce9453e64b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void trajectory_waypoint::type_</definition>
+        <argsstring>(uint8_t _type_)</argsstring>
+        <name>type_</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>_type_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member type_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;type&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member type_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="266" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="467" bodyend="471"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1a5ba3bdbd84504aab5d1b48366d554584" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint8_t</type>
+        <definition>uint8_t trajectory_waypoint::type_</definition>
+        <argsstring>() const</argsstring>
+        <name>type_</name>
+        <briefdescription>
+<para>This function returns the value of member type_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member type_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="273" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="477" bodyend="480"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1a3f10cdbe9d1f2e96c9f00dcc1f78d561" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint8_t &amp;</type>
+        <definition>uint8_t &amp; trajectory_waypoint::type_</definition>
+        <argsstring>()</argsstring>
+        <name>type_</name>
+        <briefdescription>
+<para>This function returns a reference to member type_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member type_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="279" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="486" bodyend="489"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1ac4d6bb765265b54282ca12129dfbff83" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void trajectory_waypoint::serialize</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr) const</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function serializes an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="306" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="205" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1adc0719a15a0c80893b1cb9affa99c743" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void trajectory_waypoint::deserialize</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr)</argsstring>
+        <name>deserialize</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function deserializes an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="313" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="223" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1afbe6b3b65726b7b7679276a869e10277" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void trajectory_waypoint::serializeKey</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr) const</argsstring>
+        <name>serializeKey</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function serializes the key members of an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="336" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="515" bodyend="520"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classtrajectory__waypoint_1a0f3edc91a9f8338e123b11361d2cb162" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t trajectory_waypoint::getMaxCdrSerializedSize</definition>
+        <argsstring>(size_t current_alignment=0)</argsstring>
+        <name>getMaxCdrSerializedSize</name>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the maximum serialized size of an object depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Maximum serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="288" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="129" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1a4ee5c33c4cc8ced747bb5e06eb888c35" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t trajectory_waypoint::getCdrSerializedSize</definition>
+        <argsstring>(const trajectory_waypoint &amp;data, size_t current_alignment=0)</argsstring>
+        <name>getCdrSerializedSize</name>
+        <param>
+          <type>const <ref refid="classtrajectory__waypoint" kindref="compound">trajectory_waypoint</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the serialized size of a data depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data which is calculated its serialized size. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="297" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="163" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1aab8599af5529edde2682209b65910ac5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t trajectory_waypoint::getKeyMaxCdrSerializedSize</definition>
+        <argsstring>(size_t current_alignment=0)</argsstring>
+        <name>getKeyMaxCdrSerializedSize</name>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the maximum serialized size of the Key of an object depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Maximum serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="324" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="492" bodyend="508"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__waypoint_1ae8c775c536787f2691f0aaf9cd912765" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool trajectory_waypoint::isKeyDefined</definition>
+        <argsstring>()</argsstring>
+        <name>isKeyDefined</name>
+        <briefdescription>
+<para>This function tells you if the Key has been defined for this type. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="330" column="41" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.cxx" bodystart="510" bodyend="513"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents the structure <ref refid="classtrajectory__waypoint" kindref="compound">trajectory_waypoint</ref> defined by the user in the IDL file. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" line="69" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_waypoint.h" bodystart="70" bodyend="349"/>
+    <listofallmembers>
+      <member refid="classtrajectory__waypoint_1a66a4e36697db6442178a3240efaf46ec" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>acceleration</name></member>
+      <member refid="classtrajectory__waypoint_1a4009958118b5586fc947f55a556ad8de" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>acceleration</name></member>
+      <member refid="classtrajectory__waypoint_1ad86cfeb9f4cf182dda40f2ce2e25ee13" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>acceleration</name></member>
+      <member refid="classtrajectory__waypoint_1a182e3fab89a28d686d60772768a4f999" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>acceleration</name></member>
+      <member refid="classtrajectory__waypoint_1adc0719a15a0c80893b1cb9affa99c743" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>deserialize</name></member>
+      <member refid="classtrajectory__waypoint_1a4ee5c33c4cc8ced747bb5e06eb888c35" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>getCdrSerializedSize</name></member>
+      <member refid="classtrajectory__waypoint_1aab8599af5529edde2682209b65910ac5" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>getKeyMaxCdrSerializedSize</name></member>
+      <member refid="classtrajectory__waypoint_1a0f3edc91a9f8338e123b11361d2cb162" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>getMaxCdrSerializedSize</name></member>
+      <member refid="classtrajectory__waypoint_1ae8c775c536787f2691f0aaf9cd912765" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>isKeyDefined</name></member>
+      <member refid="classtrajectory__waypoint_1a1bfd8c5540ebbc77de5782bc61c3bd07" prot="private" virt="non-virtual"><scope>trajectory_waypoint</scope><name>m_acceleration</name></member>
+      <member refid="classtrajectory__waypoint_1afb06df159fca82e7fc4c81265b881a6d" prot="private" virt="non-virtual"><scope>trajectory_waypoint</scope><name>m_point_valid_</name></member>
+      <member refid="classtrajectory__waypoint_1ae66f7ff7a18c997539f854639c28d814" prot="private" virt="non-virtual"><scope>trajectory_waypoint</scope><name>m_position</name></member>
+      <member refid="classtrajectory__waypoint_1ab1601a5e6305c49a4f7d81fceade60d9" prot="private" virt="non-virtual"><scope>trajectory_waypoint</scope><name>m_timestamp_</name></member>
+      <member refid="classtrajectory__waypoint_1a75aa8396d24243c494cb5e872a9357bc" prot="private" virt="non-virtual"><scope>trajectory_waypoint</scope><name>m_type_</name></member>
+      <member refid="classtrajectory__waypoint_1afff310b0a947b753f06153a32d618ed2" prot="private" virt="non-virtual"><scope>trajectory_waypoint</scope><name>m_velocity</name></member>
+      <member refid="classtrajectory__waypoint_1a4bf703724e8796423679df577ac1e839" prot="private" virt="non-virtual"><scope>trajectory_waypoint</scope><name>m_yaw_</name></member>
+      <member refid="classtrajectory__waypoint_1a7aa935d95e47b0beee88ff12cf116804" prot="private" virt="non-virtual"><scope>trajectory_waypoint</scope><name>m_yaw_speed_</name></member>
+      <member refid="classtrajectory__waypoint_1adb372ead31ce13f17550758df4c52aca" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>operator=</name></member>
+      <member refid="classtrajectory__waypoint_1a9dd1fa6ccf02e5c82e04d97c24c5d54b" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>operator=</name></member>
+      <member refid="classtrajectory__waypoint_1ae5cbad90adaec561f4b3b0e704a4f47e" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>point_valid_</name></member>
+      <member refid="classtrajectory__waypoint_1afa9a3a71a66b3c60021638bb3ecf067c" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>point_valid_</name></member>
+      <member refid="classtrajectory__waypoint_1ac36e5bdf11bbac6d309f36865cc9f197" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>point_valid_</name></member>
+      <member refid="classtrajectory__waypoint_1a2acb118e1c1293a5c74c6d924f7b8b1d" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>position</name></member>
+      <member refid="classtrajectory__waypoint_1a81c66905bff12a009880758ee29afe64" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>position</name></member>
+      <member refid="classtrajectory__waypoint_1adf9e2263b52942236f6e55e8e17f9d51" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>position</name></member>
+      <member refid="classtrajectory__waypoint_1afb07d67cf1ea1b676c706a96d3cbdeeb" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>position</name></member>
+      <member refid="classtrajectory__waypoint_1ac4d6bb765265b54282ca12129dfbff83" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>serialize</name></member>
+      <member refid="classtrajectory__waypoint_1afbe6b3b65726b7b7679276a869e10277" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>serializeKey</name></member>
+      <member refid="classtrajectory__waypoint_1ac86ac19d0a46f10cbd66c343ba960f82" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>timestamp_</name></member>
+      <member refid="classtrajectory__waypoint_1a8f5c31752742ef7100c825d6f49e2083" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>timestamp_</name></member>
+      <member refid="classtrajectory__waypoint_1aceb3e25d5e6e5465777bcca0d02f8f04" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>timestamp_</name></member>
+      <member refid="classtrajectory__waypoint_1ac8e9803bddf2db3b2a83864643bba54e" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>trajectory_waypoint</name></member>
+      <member refid="classtrajectory__waypoint_1a8a42d6342d935e02fb1e56a174762d1d" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>trajectory_waypoint</name></member>
+      <member refid="classtrajectory__waypoint_1aacc234d7f60693b15ce3697a8cb19f8d" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>trajectory_waypoint</name></member>
+      <member refid="classtrajectory__waypoint_1ae3433eaef8459b0633fb3ce9453e64b3" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>type_</name></member>
+      <member refid="classtrajectory__waypoint_1a5ba3bdbd84504aab5d1b48366d554584" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>type_</name></member>
+      <member refid="classtrajectory__waypoint_1a3f10cdbe9d1f2e96c9f00dcc1f78d561" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>type_</name></member>
+      <member refid="classtrajectory__waypoint_1a7aaf55d90f4769e87c74f6d58bc907f3" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>velocity</name></member>
+      <member refid="classtrajectory__waypoint_1a95f290accacb226de19fd895d7e45532" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>velocity</name></member>
+      <member refid="classtrajectory__waypoint_1a4edd8a4f8f4518e5c814eb11552c3cd8" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>velocity</name></member>
+      <member refid="classtrajectory__waypoint_1ae9217b5ccb86bf38bb4c1fa6ae9f6b79" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>velocity</name></member>
+      <member refid="classtrajectory__waypoint_1a2aadd52b411859da8cc7ba5c897f37ea" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>yaw_</name></member>
+      <member refid="classtrajectory__waypoint_1ae657ed93b97fc5cb9abb57c380ced5c1" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>yaw_</name></member>
+      <member refid="classtrajectory__waypoint_1a388f37c7bbf5d84bb5b00f710abdd5c8" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>yaw_</name></member>
+      <member refid="classtrajectory__waypoint_1af453f9f7dce4242c1b3ca10b2be530a2" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>yaw_speed_</name></member>
+      <member refid="classtrajectory__waypoint_1aaafeb64488ad42907e67cbacb57d2d6e" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>yaw_speed_</name></member>
+      <member refid="classtrajectory__waypoint_1a4a704c981c1c04d0f95dd784ca373703" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>yaw_speed_</name></member>
+      <member refid="classtrajectory__waypoint_1ae02c278020df119486a0ed5b64e8c185" prot="public" virt="non-virtual"><scope>trajectory_waypoint</scope><name>~trajectory_waypoint</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

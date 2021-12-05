@@ -1,0 +1,722 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classtrajectory__bezier" kind="class" language="C++" prot="public">
+    <compoundname>trajectory_bezier</compoundname>
+    <includes refid="trajectory__bezier_8h" local="no">trajectory_bezier.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtrajectory__bezier_1ac5acfbba289da39f99e69dcb0e83dd54" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t trajectory_bezier::m_timestamp_</definition>
+        <argsstring></argsstring>
+        <name>m_timestamp_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" line="253" column="14" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtrajectory__bezier_1abc6373b935b279b46d21c2fbe560d6e4" prot="private" static="no" mutable="no">
+        <type>trajectory_bezier__float_array_3</type>
+        <definition>trajectory_bezier__float_array_3 trajectory_bezier::m_position</definition>
+        <argsstring></argsstring>
+        <name>m_position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" line="254" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" bodystart="254" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtrajectory__bezier_1ab1839b0a51d6c034bbbefac5a641f6f7" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float trajectory_bezier::m_yaw_</definition>
+        <argsstring></argsstring>
+        <name>m_yaw_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" line="255" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" bodystart="255" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtrajectory__bezier_1a549a5a10d3d971085692bc6b204e6e49" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float trajectory_bezier::m_delta_</definition>
+        <argsstring></argsstring>
+        <name>m_delta_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" line="256" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" bodystart="256" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtrajectory__bezier_1a7e503799b93ed16d175a0ada88f143fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>trajectory_bezier::trajectory_bezier</definition>
+        <argsstring>()</argsstring>
+        <name>trajectory_bezier</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" line="76" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.cxx" bodystart="38" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__bezier_1afb7e5ce2fdc0ffe4d0ef86c3032a06d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>trajectory_bezier::~trajectory_bezier</definition>
+        <argsstring>()</argsstring>
+        <name>~trajectory_bezier</name>
+        <briefdescription>
+<para>Default destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" line="81" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.cxx" bodystart="51" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__bezier_1af5f847f8312b2b165a07213f5303a282" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>trajectory_bezier::trajectory_bezier</definition>
+        <argsstring>(const trajectory_bezier &amp;x)</argsstring>
+        <name>trajectory_bezier</name>
+        <param>
+          <type>const <ref refid="classtrajectory__bezier" kindref="compound">trajectory_bezier</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classtrajectory__bezier" kindref="compound">trajectory_bezier</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" line="87" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.cxx" bodystart="59" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__bezier_1a2e63d403ba8abc334e2c225614bd0d63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>trajectory_bezier::trajectory_bezier</definition>
+        <argsstring>(trajectory_bezier &amp;&amp;x)</argsstring>
+        <name>trajectory_bezier</name>
+        <param>
+          <type><ref refid="classtrajectory__bezier" kindref="compound">trajectory_bezier</ref> &amp;&amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Move constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classtrajectory__bezier" kindref="compound">trajectory_bezier</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" line="94" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.cxx" bodystart="68" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__bezier_1a7770a727f2c933d608c0846e642dc71f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport <ref refid="classtrajectory__bezier" kindref="compound">trajectory_bezier</ref> &amp;</type>
+        <definition>trajectory_bezier &amp; trajectory_bezier::operator=</definition>
+        <argsstring>(const trajectory_bezier &amp;x)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classtrajectory__bezier" kindref="compound">trajectory_bezier</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Copy assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classtrajectory__bezier" kindref="compound">trajectory_bezier</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" line="101" column="47" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.cxx" bodystart="77" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__bezier_1aeebf24b7157b4ff403a346f0cb6dda4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport <ref refid="classtrajectory__bezier" kindref="compound">trajectory_bezier</ref> &amp;</type>
+        <definition>trajectory_bezier &amp; trajectory_bezier::operator=</definition>
+        <argsstring>(trajectory_bezier &amp;&amp;x)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classtrajectory__bezier" kindref="compound">trajectory_bezier</ref> &amp;&amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Move assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classtrajectory__bezier" kindref="compound">trajectory_bezier</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" line="108" column="47" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.cxx" bodystart="89" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__bezier_1a0f60fe03e2b89c9d5ea01dda0eee3740" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void trajectory_bezier::timestamp_</definition>
+        <argsstring>(uint64_t _timestamp_)</argsstring>
+        <name>timestamp_</name>
+        <param>
+          <type>uint64_t</type>
+          <declname>_timestamp_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;timestamp&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member timestamp_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" line="115" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.cxx" bodystart="176" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__bezier_1aea8702ce082e413a44346ca5453ac99c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint64_t</type>
+        <definition>uint64_t trajectory_bezier::timestamp_</definition>
+        <argsstring>() const</argsstring>
+        <name>timestamp_</name>
+        <briefdescription>
+<para>This function returns the value of member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member timestamp_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" line="122" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.cxx" bodystart="186" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__bezier_1a2ce89901aa4ce7e99973c70f07991d2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint64_t &amp;</type>
+        <definition>uint64_t &amp; trajectory_bezier::timestamp_</definition>
+        <argsstring>()</argsstring>
+        <name>timestamp_</name>
+        <briefdescription>
+<para>This function returns a reference to member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member timestamp_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" line="128" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.cxx" bodystart="195" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__bezier_1a522eb166aa87b7bebb62cda4cbb1c0f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void trajectory_bezier::position</definition>
+        <argsstring>(const trajectory_bezier__float_array_3 &amp;_position)</argsstring>
+        <name>position</name>
+        <param>
+          <type>const trajectory_bezier__float_array_3 &amp;</type>
+          <declname>_position</declname>
+        </param>
+        <briefdescription>
+<para>This function copies the value in member position. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_position</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member position </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" line="134" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.cxx" bodystart="204" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__bezier_1a5eebbd1949d59db0d13e293e99ef25c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void trajectory_bezier::position</definition>
+        <argsstring>(trajectory_bezier__float_array_3 &amp;&amp;_position)</argsstring>
+        <name>position</name>
+        <param>
+          <type>trajectory_bezier__float_array_3 &amp;&amp;</type>
+          <declname>_position</declname>
+        </param>
+        <briefdescription>
+<para>This function moves the value in member position. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_position</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member position </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" line="141" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.cxx" bodystart="214" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__bezier_1adeb0032608160d779342e36ef8e06d64" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport const trajectory_bezier__float_array_3 &amp;</type>
+        <definition>const trajectory_bezier__float_array_3 &amp; trajectory_bezier::position</definition>
+        <argsstring>() const</argsstring>
+        <name>position</name>
+        <briefdescription>
+<para>This function returns a constant reference to member position. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Constant reference to member position </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" line="148" column="68" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.cxx" bodystart="224" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__bezier_1a31f46e87aeed4943010782192b295e3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport trajectory_bezier__float_array_3 &amp;</type>
+        <definition>trajectory_bezier__float_array_3 &amp; trajectory_bezier::position</definition>
+        <argsstring>()</argsstring>
+        <name>position</name>
+        <briefdescription>
+<para>This function returns a reference to member position. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member position </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" line="154" column="62" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.cxx" bodystart="233" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__bezier_1ae050fbb8fec5d62b93fb7bff3078bd8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void trajectory_bezier::yaw_</definition>
+        <argsstring>(float _yaw_)</argsstring>
+        <name>yaw_</name>
+        <param>
+          <type>float</type>
+          <declname>_yaw_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member yaw_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;yaw&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member yaw_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" line="159" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.cxx" bodystart="241" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__bezier_1a5c76584e8e0c9e9f78aa3637cd651bf8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float trajectory_bezier::yaw_</definition>
+        <argsstring>() const</argsstring>
+        <name>yaw_</name>
+        <briefdescription>
+<para>This function returns the value of member yaw_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member yaw_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" line="166" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.cxx" bodystart="251" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__bezier_1a4a9cce2c66bd84d6cd039f3b568eb1cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; trajectory_bezier::yaw_</definition>
+        <argsstring>()</argsstring>
+        <name>yaw_</name>
+        <briefdescription>
+<para>This function returns a reference to member yaw_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member yaw_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" line="172" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.cxx" bodystart="260" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__bezier_1a5cdc03d61656e69da2a39406f8e1652e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void trajectory_bezier::delta_</definition>
+        <argsstring>(float _delta_)</argsstring>
+        <name>delta_</name>
+        <param>
+          <type>float</type>
+          <declname>_delta_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member delta_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;delta&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member delta_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" line="178" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.cxx" bodystart="269" bodyend="273"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__bezier_1a4ce7f92ba0f9b8a4d7edff5104374b10" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float trajectory_bezier::delta_</definition>
+        <argsstring>() const</argsstring>
+        <name>delta_</name>
+        <briefdescription>
+<para>This function returns the value of member delta_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member delta_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" line="185" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.cxx" bodystart="279" bodyend="282"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__bezier_1a7497207aecba302812d03cf787e8b0e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; trajectory_bezier::delta_</definition>
+        <argsstring>()</argsstring>
+        <name>delta_</name>
+        <briefdescription>
+<para>This function returns a reference to member delta_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member delta_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" line="191" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.cxx" bodystart="288" bodyend="291"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__bezier_1a9376604e498ff34c242409a03c230ed1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void trajectory_bezier::serialize</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr) const</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function serializes an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" line="218" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.cxx" bodystart="149" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__bezier_1a68a2280041010fea9ced2fb6e75e3c6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void trajectory_bezier::deserialize</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr)</argsstring>
+        <name>deserialize</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function deserializes an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" line="225" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.cxx" bodystart="161" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__bezier_1a93f8772108ef30d40ed24796805b4e87" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void trajectory_bezier::serializeKey</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr) const</argsstring>
+        <name>serializeKey</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function serializes the key members of an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" line="248" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.cxx" bodystart="313" bodyend="318"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classtrajectory__bezier_1a092fd97acc42278eab176c4d7e527af2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t trajectory_bezier::getMaxCdrSerializedSize</definition>
+        <argsstring>(size_t current_alignment=0)</argsstring>
+        <name>getMaxCdrSerializedSize</name>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the maximum serialized size of an object depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Maximum serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" line="200" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.cxx" bodystart="101" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__bezier_1ad23e96cfd58cac6964ceea245d772078" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t trajectory_bezier::getCdrSerializedSize</definition>
+        <argsstring>(const trajectory_bezier &amp;data, size_t current_alignment=0)</argsstring>
+        <name>getCdrSerializedSize</name>
+        <param>
+          <type>const <ref refid="classtrajectory__bezier" kindref="compound">trajectory_bezier</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the serialized size of a data depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data which is calculated its serialized size. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" line="209" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.cxx" bodystart="123" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__bezier_1a4b38ee4eda6c670501be89c3bf5b7422" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t trajectory_bezier::getKeyMaxCdrSerializedSize</definition>
+        <argsstring>(size_t current_alignment=0)</argsstring>
+        <name>getKeyMaxCdrSerializedSize</name>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the maximum serialized size of the Key of an object depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Maximum serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" line="236" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.cxx" bodystart="294" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="classtrajectory__bezier_1ad92aab0a5be504f59933e87709400809" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool trajectory_bezier::isKeyDefined</definition>
+        <argsstring>()</argsstring>
+        <name>isKeyDefined</name>
+        <briefdescription>
+<para>This function tells you if the Key has been defined for this type. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" line="242" column="41" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.cxx" bodystart="308" bodyend="311"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents the structure <ref refid="classtrajectory__bezier" kindref="compound">trajectory_bezier</ref> defined by the user in the IDL file. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" line="69" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/trajectory_bezier.h" bodystart="70" bodyend="257"/>
+    <listofallmembers>
+      <member refid="classtrajectory__bezier_1a5cdc03d61656e69da2a39406f8e1652e" prot="public" virt="non-virtual"><scope>trajectory_bezier</scope><name>delta_</name></member>
+      <member refid="classtrajectory__bezier_1a4ce7f92ba0f9b8a4d7edff5104374b10" prot="public" virt="non-virtual"><scope>trajectory_bezier</scope><name>delta_</name></member>
+      <member refid="classtrajectory__bezier_1a7497207aecba302812d03cf787e8b0e9" prot="public" virt="non-virtual"><scope>trajectory_bezier</scope><name>delta_</name></member>
+      <member refid="classtrajectory__bezier_1a68a2280041010fea9ced2fb6e75e3c6b" prot="public" virt="non-virtual"><scope>trajectory_bezier</scope><name>deserialize</name></member>
+      <member refid="classtrajectory__bezier_1ad23e96cfd58cac6964ceea245d772078" prot="public" virt="non-virtual"><scope>trajectory_bezier</scope><name>getCdrSerializedSize</name></member>
+      <member refid="classtrajectory__bezier_1a4b38ee4eda6c670501be89c3bf5b7422" prot="public" virt="non-virtual"><scope>trajectory_bezier</scope><name>getKeyMaxCdrSerializedSize</name></member>
+      <member refid="classtrajectory__bezier_1a092fd97acc42278eab176c4d7e527af2" prot="public" virt="non-virtual"><scope>trajectory_bezier</scope><name>getMaxCdrSerializedSize</name></member>
+      <member refid="classtrajectory__bezier_1ad92aab0a5be504f59933e87709400809" prot="public" virt="non-virtual"><scope>trajectory_bezier</scope><name>isKeyDefined</name></member>
+      <member refid="classtrajectory__bezier_1a549a5a10d3d971085692bc6b204e6e49" prot="private" virt="non-virtual"><scope>trajectory_bezier</scope><name>m_delta_</name></member>
+      <member refid="classtrajectory__bezier_1abc6373b935b279b46d21c2fbe560d6e4" prot="private" virt="non-virtual"><scope>trajectory_bezier</scope><name>m_position</name></member>
+      <member refid="classtrajectory__bezier_1ac5acfbba289da39f99e69dcb0e83dd54" prot="private" virt="non-virtual"><scope>trajectory_bezier</scope><name>m_timestamp_</name></member>
+      <member refid="classtrajectory__bezier_1ab1839b0a51d6c034bbbefac5a641f6f7" prot="private" virt="non-virtual"><scope>trajectory_bezier</scope><name>m_yaw_</name></member>
+      <member refid="classtrajectory__bezier_1a7770a727f2c933d608c0846e642dc71f" prot="public" virt="non-virtual"><scope>trajectory_bezier</scope><name>operator=</name></member>
+      <member refid="classtrajectory__bezier_1aeebf24b7157b4ff403a346f0cb6dda4b" prot="public" virt="non-virtual"><scope>trajectory_bezier</scope><name>operator=</name></member>
+      <member refid="classtrajectory__bezier_1a522eb166aa87b7bebb62cda4cbb1c0f9" prot="public" virt="non-virtual"><scope>trajectory_bezier</scope><name>position</name></member>
+      <member refid="classtrajectory__bezier_1a5eebbd1949d59db0d13e293e99ef25c3" prot="public" virt="non-virtual"><scope>trajectory_bezier</scope><name>position</name></member>
+      <member refid="classtrajectory__bezier_1adeb0032608160d779342e36ef8e06d64" prot="public" virt="non-virtual"><scope>trajectory_bezier</scope><name>position</name></member>
+      <member refid="classtrajectory__bezier_1a31f46e87aeed4943010782192b295e3f" prot="public" virt="non-virtual"><scope>trajectory_bezier</scope><name>position</name></member>
+      <member refid="classtrajectory__bezier_1a9376604e498ff34c242409a03c230ed1" prot="public" virt="non-virtual"><scope>trajectory_bezier</scope><name>serialize</name></member>
+      <member refid="classtrajectory__bezier_1a93f8772108ef30d40ed24796805b4e87" prot="public" virt="non-virtual"><scope>trajectory_bezier</scope><name>serializeKey</name></member>
+      <member refid="classtrajectory__bezier_1a0f60fe03e2b89c9d5ea01dda0eee3740" prot="public" virt="non-virtual"><scope>trajectory_bezier</scope><name>timestamp_</name></member>
+      <member refid="classtrajectory__bezier_1aea8702ce082e413a44346ca5453ac99c" prot="public" virt="non-virtual"><scope>trajectory_bezier</scope><name>timestamp_</name></member>
+      <member refid="classtrajectory__bezier_1a2ce89901aa4ce7e99973c70f07991d2e" prot="public" virt="non-virtual"><scope>trajectory_bezier</scope><name>timestamp_</name></member>
+      <member refid="classtrajectory__bezier_1a7e503799b93ed16d175a0ada88f143fb" prot="public" virt="non-virtual"><scope>trajectory_bezier</scope><name>trajectory_bezier</name></member>
+      <member refid="classtrajectory__bezier_1af5f847f8312b2b165a07213f5303a282" prot="public" virt="non-virtual"><scope>trajectory_bezier</scope><name>trajectory_bezier</name></member>
+      <member refid="classtrajectory__bezier_1a2e63d403ba8abc334e2c225614bd0d63" prot="public" virt="non-virtual"><scope>trajectory_bezier</scope><name>trajectory_bezier</name></member>
+      <member refid="classtrajectory__bezier_1ae050fbb8fec5d62b93fb7bff3078bd8a" prot="public" virt="non-virtual"><scope>trajectory_bezier</scope><name>yaw_</name></member>
+      <member refid="classtrajectory__bezier_1a5c76584e8e0c9e9f78aa3637cd651bf8" prot="public" virt="non-virtual"><scope>trajectory_bezier</scope><name>yaw_</name></member>
+      <member refid="classtrajectory__bezier_1a4a9cce2c66bd84d6cd039f3b568eb1cf" prot="public" virt="non-virtual"><scope>trajectory_bezier</scope><name>yaw_</name></member>
+      <member refid="classtrajectory__bezier_1afb7e5ce2fdc0ffe4d0ef86c3032a06d8" prot="public" virt="non-virtual"><scope>trajectory_bezier</scope><name>~trajectory_bezier</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

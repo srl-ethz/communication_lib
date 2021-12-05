@@ -1,0 +1,1562 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classvehicle__command" kind="class" language="C++" prot="public">
+    <compoundname>vehicle_command</compoundname>
+    <includes refid="vehicle__command_8h" local="no">vehicle_command.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classvehicle__command_1a1837e591240af8039e415fbbea20660b" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t vehicle_command::m_timestamp_</definition>
+        <argsstring></argsstring>
+        <name>m_timestamp_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="592" column="14" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" bodystart="592" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__command_1a44128db1b77849154d6d3a70e8805231" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vehicle_command::m_param1_</definition>
+        <argsstring></argsstring>
+        <name>m_param1_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="593" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" bodystart="593" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__command_1a50774c10ccdb249c33e0497c514ca4dd" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vehicle_command::m_param2_</definition>
+        <argsstring></argsstring>
+        <name>m_param2_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="594" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" bodystart="594" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__command_1a6651527b030b75b430dcafae396ad3ed" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vehicle_command::m_param3_</definition>
+        <argsstring></argsstring>
+        <name>m_param3_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="595" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" bodystart="595" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__command_1aa57030dedb6b1cce476d891bc57e12d2" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vehicle_command::m_param4_</definition>
+        <argsstring></argsstring>
+        <name>m_param4_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="596" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" bodystart="596" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__command_1a02b486319c2e251e6b7e7f5cd660a8d7" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double vehicle_command::m_param5_</definition>
+        <argsstring></argsstring>
+        <name>m_param5_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="597" column="12" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" bodystart="597" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__command_1a839368e77aae2b3d371bc869c35db475" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double vehicle_command::m_param6_</definition>
+        <argsstring></argsstring>
+        <name>m_param6_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="598" column="12" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" bodystart="598" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__command_1a59f5ae340058d7aa41f680c6773bd01c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vehicle_command::m_param7_</definition>
+        <argsstring></argsstring>
+        <name>m_param7_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="599" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" bodystart="599" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__command_1aa8e45099da58b4596e0e054dcf34bbc0" prot="private" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t vehicle_command::m_command_</definition>
+        <argsstring></argsstring>
+        <name>m_command_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="600" column="14" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" bodystart="600" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__command_1abf71596ff046755a0cd9008451563e9d" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t vehicle_command::m_target_system_</definition>
+        <argsstring></argsstring>
+        <name>m_target_system_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="601" column="13" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" bodystart="601" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__command_1a3298df905518ccc02864aa336237c8b2" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t vehicle_command::m_target_component_</definition>
+        <argsstring></argsstring>
+        <name>m_target_component_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="602" column="13" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" bodystart="602" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__command_1a5ace4093a6184e26c383a3dd824e2757" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t vehicle_command::m_source_system_</definition>
+        <argsstring></argsstring>
+        <name>m_source_system_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="603" column="13" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" bodystart="603" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__command_1ab993d4263a1692e050d8d982755d4efc" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t vehicle_command::m_source_component_</definition>
+        <argsstring></argsstring>
+        <name>m_source_component_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="604" column="13" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" bodystart="604" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__command_1a3f217e29d2e532f434cbee9852afc63b" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t vehicle_command::m_confirmation_</definition>
+        <argsstring></argsstring>
+        <name>m_confirmation_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="605" column="13" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" bodystart="605" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__command_1aa8d387993fdf8fcd5d1b69d076dcf856" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool vehicle_command::m_from_external_</definition>
+        <argsstring></argsstring>
+        <name>m_from_external_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="606" column="10" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" bodystart="606" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classvehicle__command_1a51957aba9706c71568af43ea0b8685b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>vehicle_command::vehicle_command</definition>
+        <argsstring>()</argsstring>
+        <name>vehicle_command</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="212" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="174" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1ad8babba5dbb3feff52684342a153dc26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>vehicle_command::~vehicle_command</definition>
+        <argsstring>()</argsstring>
+        <name>~vehicle_command</name>
+        <briefdescription>
+<para>Default destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="217" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="209" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1ad31866c4362317fa1d4e2ba582865ece" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>vehicle_command::vehicle_command</definition>
+        <argsstring>(const vehicle_command &amp;x)</argsstring>
+        <name>vehicle_command</name>
+        <param>
+          <type>const <ref refid="classvehicle__command" kindref="compound">vehicle_command</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classvehicle__command" kindref="compound">vehicle_command</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="223" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="228" bodyend="246"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1a0b8d1d66ce3cdf9f7ea5474cbcfa4a70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>vehicle_command::vehicle_command</definition>
+        <argsstring>(vehicle_command &amp;&amp;x)</argsstring>
+        <name>vehicle_command</name>
+        <param>
+          <type><ref refid="classvehicle__command" kindref="compound">vehicle_command</ref> &amp;&amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Move constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classvehicle__command" kindref="compound">vehicle_command</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="230" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="248" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1a2081ba170849229f7910f44c0e574db8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport <ref refid="classvehicle__command" kindref="compound">vehicle_command</ref> &amp;</type>
+        <definition>vehicle_command &amp; vehicle_command::operator=</definition>
+        <argsstring>(const vehicle_command &amp;x)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classvehicle__command" kindref="compound">vehicle_command</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Copy assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classvehicle__command" kindref="compound">vehicle_command</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="237" column="45" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="268" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1adbaa8dd58ed1aa6bda88a109cfd11322" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport <ref refid="classvehicle__command" kindref="compound">vehicle_command</ref> &amp;</type>
+        <definition>vehicle_command &amp; vehicle_command::operator=</definition>
+        <argsstring>(vehicle_command &amp;&amp;x)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classvehicle__command" kindref="compound">vehicle_command</ref> &amp;&amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Move assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classvehicle__command" kindref="compound">vehicle_command</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="244" column="45" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="291" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1a20c0de4f833df8bd6837b57cca2a9039" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_command::timestamp_</definition>
+        <argsstring>(uint64_t _timestamp_)</argsstring>
+        <name>timestamp_</name>
+        <param>
+          <type>uint64_t</type>
+          <declname>_timestamp_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;timestamp&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member timestamp_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="251" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="473" bodyend="477"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1aad50fe2adbb231f2f6a5f845b8d2c757" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint64_t</type>
+        <definition>uint64_t vehicle_command::timestamp_</definition>
+        <argsstring>() const</argsstring>
+        <name>timestamp_</name>
+        <briefdescription>
+<para>This function returns the value of member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member timestamp_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="258" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="483" bodyend="486"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1aee72da7b41fa16312b65d06e2008c83b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint64_t &amp;</type>
+        <definition>uint64_t &amp; vehicle_command::timestamp_</definition>
+        <argsstring>()</argsstring>
+        <name>timestamp_</name>
+        <briefdescription>
+<para>This function returns a reference to member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member timestamp_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="264" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="492" bodyend="495"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1a8d67a16b6c4c9e57867ad72d7e009062" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_command::param1_</definition>
+        <argsstring>(float _param1_)</argsstring>
+        <name>param1_</name>
+        <param>
+          <type>float</type>
+          <declname>_param1_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member param1_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;param1&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member param1_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="270" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="501" bodyend="505"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1a2f04d86ad422a75d19a55f45dc92938c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float vehicle_command::param1_</definition>
+        <argsstring>() const</argsstring>
+        <name>param1_</name>
+        <briefdescription>
+<para>This function returns the value of member param1_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member param1_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="277" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="511" bodyend="514"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1a08c51e68d8c79dafb711cde7ae78d5f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; vehicle_command::param1_</definition>
+        <argsstring>()</argsstring>
+        <name>param1_</name>
+        <briefdescription>
+<para>This function returns a reference to member param1_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member param1_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="283" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="520" bodyend="523"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1a106cfae72bb5397675a41a35dedca56f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_command::param2_</definition>
+        <argsstring>(float _param2_)</argsstring>
+        <name>param2_</name>
+        <param>
+          <type>float</type>
+          <declname>_param2_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member param2_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;param2&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member param2_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="289" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="529" bodyend="533"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1a64a7ec8859b55ed2a2c44fb84eb1b97a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float vehicle_command::param2_</definition>
+        <argsstring>() const</argsstring>
+        <name>param2_</name>
+        <briefdescription>
+<para>This function returns the value of member param2_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member param2_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="296" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="539" bodyend="542"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1a72dd15b7e48091ddca4132b097b5a486" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; vehicle_command::param2_</definition>
+        <argsstring>()</argsstring>
+        <name>param2_</name>
+        <briefdescription>
+<para>This function returns a reference to member param2_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member param2_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="302" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="548" bodyend="551"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1ab9d4b6387e4b81aa949cd04cbed21d49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_command::param3_</definition>
+        <argsstring>(float _param3_)</argsstring>
+        <name>param3_</name>
+        <param>
+          <type>float</type>
+          <declname>_param3_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member param3_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;param3&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member param3_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="308" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="557" bodyend="561"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1acd2163590fc48f30797e75e43bdf48a2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float vehicle_command::param3_</definition>
+        <argsstring>() const</argsstring>
+        <name>param3_</name>
+        <briefdescription>
+<para>This function returns the value of member param3_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member param3_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="315" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="567" bodyend="570"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1a9ed2f8107aa14738e84c879319b7afaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; vehicle_command::param3_</definition>
+        <argsstring>()</argsstring>
+        <name>param3_</name>
+        <briefdescription>
+<para>This function returns a reference to member param3_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member param3_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="321" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="576" bodyend="579"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1a37847410f97c380cf36ab230acca1356" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_command::param4_</definition>
+        <argsstring>(float _param4_)</argsstring>
+        <name>param4_</name>
+        <param>
+          <type>float</type>
+          <declname>_param4_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member param4_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;param4&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member param4_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="327" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="585" bodyend="589"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1a3110c167447cb1b47e4ee30cbc475a52" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float vehicle_command::param4_</definition>
+        <argsstring>() const</argsstring>
+        <name>param4_</name>
+        <briefdescription>
+<para>This function returns the value of member param4_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member param4_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="334" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="595" bodyend="598"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1abee73080991220eb68f72a762b2968c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; vehicle_command::param4_</definition>
+        <argsstring>()</argsstring>
+        <name>param4_</name>
+        <briefdescription>
+<para>This function returns a reference to member param4_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member param4_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="340" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="604" bodyend="607"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1a62489784367a18a7796840c430d75792" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_command::param5_</definition>
+        <argsstring>(double _param5_)</argsstring>
+        <name>param5_</name>
+        <param>
+          <type>double</type>
+          <declname>_param5_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member param5_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;param5&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member param5_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="346" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="613" bodyend="617"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1a18325c9338f73b3c8a5872bc330cb241" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport double</type>
+        <definition>double vehicle_command::param5_</definition>
+        <argsstring>() const</argsstring>
+        <name>param5_</name>
+        <briefdescription>
+<para>This function returns the value of member param5_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member param5_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="353" column="36" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="623" bodyend="626"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1add9f1491b73c7d172950e163f2d8868b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport double &amp;</type>
+        <definition>double &amp; vehicle_command::param5_</definition>
+        <argsstring>()</argsstring>
+        <name>param5_</name>
+        <briefdescription>
+<para>This function returns a reference to member param5_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member param5_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="359" column="36" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="632" bodyend="635"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1a98e4337cc64f6a74276b3dfb04eb33a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_command::param6_</definition>
+        <argsstring>(double _param6_)</argsstring>
+        <name>param6_</name>
+        <param>
+          <type>double</type>
+          <declname>_param6_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member param6_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;param6&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member param6_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="365" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="641" bodyend="645"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1abad5e69dec63af8cbdf0f60c55268f28" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport double</type>
+        <definition>double vehicle_command::param6_</definition>
+        <argsstring>() const</argsstring>
+        <name>param6_</name>
+        <briefdescription>
+<para>This function returns the value of member param6_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member param6_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="372" column="36" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="651" bodyend="654"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1af73e01cf2ae588e17509c2ee8c71706b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport double &amp;</type>
+        <definition>double &amp; vehicle_command::param6_</definition>
+        <argsstring>()</argsstring>
+        <name>param6_</name>
+        <briefdescription>
+<para>This function returns a reference to member param6_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member param6_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="378" column="36" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="660" bodyend="663"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1ae3c915e1e31ba1cbb6e8c424b58dfd8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_command::param7_</definition>
+        <argsstring>(float _param7_)</argsstring>
+        <name>param7_</name>
+        <param>
+          <type>float</type>
+          <declname>_param7_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member param7_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;param7&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member param7_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="384" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="669" bodyend="673"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1a124e516cb09233b1bd76c4793cd1b413" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float vehicle_command::param7_</definition>
+        <argsstring>() const</argsstring>
+        <name>param7_</name>
+        <briefdescription>
+<para>This function returns the value of member param7_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member param7_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="391" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="679" bodyend="682"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1afce421b49b7fee685f9324651281b89d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; vehicle_command::param7_</definition>
+        <argsstring>()</argsstring>
+        <name>param7_</name>
+        <briefdescription>
+<para>This function returns a reference to member param7_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member param7_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="397" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="688" bodyend="691"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1ae70fbc2276d59e1d53e6ad659edd6dba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_command::command_</definition>
+        <argsstring>(uint32_t _command_)</argsstring>
+        <name>command_</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>_command_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member command_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;command&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member command_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="403" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="697" bodyend="701"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1a97ff0776908f205c31e036ba655efe5a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint32_t</type>
+        <definition>uint32_t vehicle_command::command_</definition>
+        <argsstring>() const</argsstring>
+        <name>command_</name>
+        <briefdescription>
+<para>This function returns the value of member command_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member command_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="410" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="707" bodyend="710"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1a9bbdb894c5d62f310e6a9f71ebe1a0b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint32_t &amp;</type>
+        <definition>uint32_t &amp; vehicle_command::command_</definition>
+        <argsstring>()</argsstring>
+        <name>command_</name>
+        <briefdescription>
+<para>This function returns a reference to member command_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member command_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="416" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="716" bodyend="719"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1a8185bff011cd1785f539a69bee055f5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_command::target_system_</definition>
+        <argsstring>(uint8_t _target_system_)</argsstring>
+        <name>target_system_</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>_target_system_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member target_system_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;target_system&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member target_system_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="422" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="725" bodyend="729"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1aeda35dff5833f7573340f5a8af5e5ee6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint8_t</type>
+        <definition>uint8_t vehicle_command::target_system_</definition>
+        <argsstring>() const</argsstring>
+        <name>target_system_</name>
+        <briefdescription>
+<para>This function returns the value of member target_system_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member target_system_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="429" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="735" bodyend="738"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1a485e5e6620af904abece6f24f35809d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint8_t &amp;</type>
+        <definition>uint8_t &amp; vehicle_command::target_system_</definition>
+        <argsstring>()</argsstring>
+        <name>target_system_</name>
+        <briefdescription>
+<para>This function returns a reference to member target_system_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member target_system_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="435" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="744" bodyend="747"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1aa046ef05458bd63494bdff910222b3db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_command::target_component_</definition>
+        <argsstring>(uint8_t _target_component_)</argsstring>
+        <name>target_component_</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>_target_component_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member target_component_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;target_component&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member target_component_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="441" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="753" bodyend="757"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1a7cdbb1164f9ac6052ca17d8f3fe3e48e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint8_t</type>
+        <definition>uint8_t vehicle_command::target_component_</definition>
+        <argsstring>() const</argsstring>
+        <name>target_component_</name>
+        <briefdescription>
+<para>This function returns the value of member target_component_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member target_component_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="448" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="763" bodyend="766"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1a275f9a187f104b0b7e519a2203bb3e7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint8_t &amp;</type>
+        <definition>uint8_t &amp; vehicle_command::target_component_</definition>
+        <argsstring>()</argsstring>
+        <name>target_component_</name>
+        <briefdescription>
+<para>This function returns a reference to member target_component_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member target_component_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="454" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="772" bodyend="775"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1a2f0ec1d46de060947a7e44b7d27743dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_command::source_system_</definition>
+        <argsstring>(uint8_t _source_system_)</argsstring>
+        <name>source_system_</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>_source_system_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member source_system_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;source_system&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member source_system_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="460" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="781" bodyend="785"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1affe3db29463ba597de487e0f5e01398e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint8_t</type>
+        <definition>uint8_t vehicle_command::source_system_</definition>
+        <argsstring>() const</argsstring>
+        <name>source_system_</name>
+        <briefdescription>
+<para>This function returns the value of member source_system_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member source_system_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="467" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="791" bodyend="794"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1ae54e3ceae659711422fabf3547dd028f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint8_t &amp;</type>
+        <definition>uint8_t &amp; vehicle_command::source_system_</definition>
+        <argsstring>()</argsstring>
+        <name>source_system_</name>
+        <briefdescription>
+<para>This function returns a reference to member source_system_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member source_system_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="473" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="800" bodyend="803"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1a31b745363e13c6372a7ece0159d99594" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_command::source_component_</definition>
+        <argsstring>(uint8_t _source_component_)</argsstring>
+        <name>source_component_</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>_source_component_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member source_component_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;source_component&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member source_component_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="479" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="809" bodyend="813"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1a125a0a3274d3e4f0808406eca342b200" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint8_t</type>
+        <definition>uint8_t vehicle_command::source_component_</definition>
+        <argsstring>() const</argsstring>
+        <name>source_component_</name>
+        <briefdescription>
+<para>This function returns the value of member source_component_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member source_component_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="486" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="819" bodyend="822"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1aa84967af6f5ff83f2047903f85d1d58e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint8_t &amp;</type>
+        <definition>uint8_t &amp; vehicle_command::source_component_</definition>
+        <argsstring>()</argsstring>
+        <name>source_component_</name>
+        <briefdescription>
+<para>This function returns a reference to member source_component_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member source_component_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="492" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="828" bodyend="831"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1a1b33a1539511e32b41de094c03566fde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_command::confirmation_</definition>
+        <argsstring>(uint8_t _confirmation_)</argsstring>
+        <name>confirmation_</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>_confirmation_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member confirmation_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;confirmation&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member confirmation_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="498" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="837" bodyend="841"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1a4e75db84f5c4c86549a0cbd7c6505010" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint8_t</type>
+        <definition>uint8_t vehicle_command::confirmation_</definition>
+        <argsstring>() const</argsstring>
+        <name>confirmation_</name>
+        <briefdescription>
+<para>This function returns the value of member confirmation_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member confirmation_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="505" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="847" bodyend="850"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1aec54ed260452c4b7c0285100ef1cac7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint8_t &amp;</type>
+        <definition>uint8_t &amp; vehicle_command::confirmation_</definition>
+        <argsstring>()</argsstring>
+        <name>confirmation_</name>
+        <briefdescription>
+<para>This function returns a reference to member confirmation_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member confirmation_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="511" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="856" bodyend="859"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1a4932d4406e2980e9c603622705894aff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_command::from_external_</definition>
+        <argsstring>(bool _from_external_)</argsstring>
+        <name>from_external_</name>
+        <param>
+          <type>bool</type>
+          <declname>_from_external_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member from_external_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;from_external&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member from_external_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="517" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="865" bodyend="869"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1a8ca0326a4c1abb4f6b8dcdedc7099b29" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool vehicle_command::from_external_</definition>
+        <argsstring>() const</argsstring>
+        <name>from_external_</name>
+        <briefdescription>
+<para>This function returns the value of member from_external_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member from_external_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="524" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="875" bodyend="878"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1a55badf9ef12038c4c8c12bcfc3c2ee05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool &amp;</type>
+        <definition>bool &amp; vehicle_command::from_external_</definition>
+        <argsstring>()</argsstring>
+        <name>from_external_</name>
+        <briefdescription>
+<para>This function returns a reference to member from_external_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member from_external_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="530" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="884" bodyend="887"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1ad199e22304e8421a7d000c391a5bfa5c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_command::serialize</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr) const</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function serializes an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="557" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="426" bodyend="446"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1a5f8ce077d418eb28d3063acf42ef926a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_command::deserialize</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr)</argsstring>
+        <name>deserialize</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function deserializes an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="564" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="448" bodyend="467"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1a8d1ec3a8d511443ddbbad93f55fab569" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_command::serializeKey</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr) const</argsstring>
+        <name>serializeKey</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function serializes the key members of an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="587" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="920" bodyend="925"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classvehicle__command_1abbe5666274d91d642eb7d37392c6468b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t vehicle_command::getMaxCdrSerializedSize</definition>
+        <argsstring>(size_t current_alignment=0)</argsstring>
+        <name>getMaxCdrSerializedSize</name>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the maximum serialized size of an object depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Maximum serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="539" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="314" bodyend="367"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1a71fd10d819de12f9acbaa39a16925a91" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t vehicle_command::getCdrSerializedSize</definition>
+        <argsstring>(const vehicle_command &amp;data, size_t current_alignment=0)</argsstring>
+        <name>getCdrSerializedSize</name>
+        <param>
+          <type>const <ref refid="classvehicle__command" kindref="compound">vehicle_command</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the serialized size of a data depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data which is calculated its serialized size. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="548" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="369" bodyend="424"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1a911157bd8426865093797ac3761fb5c2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t vehicle_command::getKeyMaxCdrSerializedSize</definition>
+        <argsstring>(size_t current_alignment=0)</argsstring>
+        <name>getKeyMaxCdrSerializedSize</name>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the maximum serialized size of the Key of an object depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Maximum serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="575" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="890" bodyend="913"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__command_1afc6db1ab00186c8a7df91296304a8ac9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool vehicle_command::isKeyDefined</definition>
+        <argsstring>()</argsstring>
+        <name>isKeyDefined</name>
+        <briefdescription>
+<para>This function tells you if the Key has been defined for this type. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="581" column="41" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.cxx" bodystart="915" bodyend="918"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents the structure <ref refid="classvehicle__command" kindref="compound">vehicle_command</ref> defined by the user in the IDL file. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" line="205" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_command.h" bodystart="206" bodyend="607"/>
+    <listofallmembers>
+      <member refid="classvehicle__command_1ae70fbc2276d59e1d53e6ad659edd6dba" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>command_</name></member>
+      <member refid="classvehicle__command_1a97ff0776908f205c31e036ba655efe5a" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>command_</name></member>
+      <member refid="classvehicle__command_1a9bbdb894c5d62f310e6a9f71ebe1a0b8" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>command_</name></member>
+      <member refid="classvehicle__command_1a1b33a1539511e32b41de094c03566fde" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>confirmation_</name></member>
+      <member refid="classvehicle__command_1a4e75db84f5c4c86549a0cbd7c6505010" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>confirmation_</name></member>
+      <member refid="classvehicle__command_1aec54ed260452c4b7c0285100ef1cac7d" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>confirmation_</name></member>
+      <member refid="classvehicle__command_1a5f8ce077d418eb28d3063acf42ef926a" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>deserialize</name></member>
+      <member refid="classvehicle__command_1a4932d4406e2980e9c603622705894aff" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>from_external_</name></member>
+      <member refid="classvehicle__command_1a8ca0326a4c1abb4f6b8dcdedc7099b29" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>from_external_</name></member>
+      <member refid="classvehicle__command_1a55badf9ef12038c4c8c12bcfc3c2ee05" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>from_external_</name></member>
+      <member refid="classvehicle__command_1a71fd10d819de12f9acbaa39a16925a91" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>getCdrSerializedSize</name></member>
+      <member refid="classvehicle__command_1a911157bd8426865093797ac3761fb5c2" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>getKeyMaxCdrSerializedSize</name></member>
+      <member refid="classvehicle__command_1abbe5666274d91d642eb7d37392c6468b" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>getMaxCdrSerializedSize</name></member>
+      <member refid="classvehicle__command_1afc6db1ab00186c8a7df91296304a8ac9" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>isKeyDefined</name></member>
+      <member refid="classvehicle__command_1aa8e45099da58b4596e0e054dcf34bbc0" prot="private" virt="non-virtual"><scope>vehicle_command</scope><name>m_command_</name></member>
+      <member refid="classvehicle__command_1a3f217e29d2e532f434cbee9852afc63b" prot="private" virt="non-virtual"><scope>vehicle_command</scope><name>m_confirmation_</name></member>
+      <member refid="classvehicle__command_1aa8d387993fdf8fcd5d1b69d076dcf856" prot="private" virt="non-virtual"><scope>vehicle_command</scope><name>m_from_external_</name></member>
+      <member refid="classvehicle__command_1a44128db1b77849154d6d3a70e8805231" prot="private" virt="non-virtual"><scope>vehicle_command</scope><name>m_param1_</name></member>
+      <member refid="classvehicle__command_1a50774c10ccdb249c33e0497c514ca4dd" prot="private" virt="non-virtual"><scope>vehicle_command</scope><name>m_param2_</name></member>
+      <member refid="classvehicle__command_1a6651527b030b75b430dcafae396ad3ed" prot="private" virt="non-virtual"><scope>vehicle_command</scope><name>m_param3_</name></member>
+      <member refid="classvehicle__command_1aa57030dedb6b1cce476d891bc57e12d2" prot="private" virt="non-virtual"><scope>vehicle_command</scope><name>m_param4_</name></member>
+      <member refid="classvehicle__command_1a02b486319c2e251e6b7e7f5cd660a8d7" prot="private" virt="non-virtual"><scope>vehicle_command</scope><name>m_param5_</name></member>
+      <member refid="classvehicle__command_1a839368e77aae2b3d371bc869c35db475" prot="private" virt="non-virtual"><scope>vehicle_command</scope><name>m_param6_</name></member>
+      <member refid="classvehicle__command_1a59f5ae340058d7aa41f680c6773bd01c" prot="private" virt="non-virtual"><scope>vehicle_command</scope><name>m_param7_</name></member>
+      <member refid="classvehicle__command_1ab993d4263a1692e050d8d982755d4efc" prot="private" virt="non-virtual"><scope>vehicle_command</scope><name>m_source_component_</name></member>
+      <member refid="classvehicle__command_1a5ace4093a6184e26c383a3dd824e2757" prot="private" virt="non-virtual"><scope>vehicle_command</scope><name>m_source_system_</name></member>
+      <member refid="classvehicle__command_1a3298df905518ccc02864aa336237c8b2" prot="private" virt="non-virtual"><scope>vehicle_command</scope><name>m_target_component_</name></member>
+      <member refid="classvehicle__command_1abf71596ff046755a0cd9008451563e9d" prot="private" virt="non-virtual"><scope>vehicle_command</scope><name>m_target_system_</name></member>
+      <member refid="classvehicle__command_1a1837e591240af8039e415fbbea20660b" prot="private" virt="non-virtual"><scope>vehicle_command</scope><name>m_timestamp_</name></member>
+      <member refid="classvehicle__command_1a2081ba170849229f7910f44c0e574db8" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>operator=</name></member>
+      <member refid="classvehicle__command_1adbaa8dd58ed1aa6bda88a109cfd11322" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>operator=</name></member>
+      <member refid="classvehicle__command_1a8d67a16b6c4c9e57867ad72d7e009062" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>param1_</name></member>
+      <member refid="classvehicle__command_1a2f04d86ad422a75d19a55f45dc92938c" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>param1_</name></member>
+      <member refid="classvehicle__command_1a08c51e68d8c79dafb711cde7ae78d5f5" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>param1_</name></member>
+      <member refid="classvehicle__command_1a106cfae72bb5397675a41a35dedca56f" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>param2_</name></member>
+      <member refid="classvehicle__command_1a64a7ec8859b55ed2a2c44fb84eb1b97a" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>param2_</name></member>
+      <member refid="classvehicle__command_1a72dd15b7e48091ddca4132b097b5a486" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>param2_</name></member>
+      <member refid="classvehicle__command_1ab9d4b6387e4b81aa949cd04cbed21d49" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>param3_</name></member>
+      <member refid="classvehicle__command_1acd2163590fc48f30797e75e43bdf48a2" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>param3_</name></member>
+      <member refid="classvehicle__command_1a9ed2f8107aa14738e84c879319b7afaa" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>param3_</name></member>
+      <member refid="classvehicle__command_1a37847410f97c380cf36ab230acca1356" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>param4_</name></member>
+      <member refid="classvehicle__command_1a3110c167447cb1b47e4ee30cbc475a52" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>param4_</name></member>
+      <member refid="classvehicle__command_1abee73080991220eb68f72a762b2968c5" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>param4_</name></member>
+      <member refid="classvehicle__command_1a62489784367a18a7796840c430d75792" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>param5_</name></member>
+      <member refid="classvehicle__command_1a18325c9338f73b3c8a5872bc330cb241" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>param5_</name></member>
+      <member refid="classvehicle__command_1add9f1491b73c7d172950e163f2d8868b" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>param5_</name></member>
+      <member refid="classvehicle__command_1a98e4337cc64f6a74276b3dfb04eb33a0" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>param6_</name></member>
+      <member refid="classvehicle__command_1abad5e69dec63af8cbdf0f60c55268f28" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>param6_</name></member>
+      <member refid="classvehicle__command_1af73e01cf2ae588e17509c2ee8c71706b" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>param6_</name></member>
+      <member refid="classvehicle__command_1ae3c915e1e31ba1cbb6e8c424b58dfd8e" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>param7_</name></member>
+      <member refid="classvehicle__command_1a124e516cb09233b1bd76c4793cd1b413" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>param7_</name></member>
+      <member refid="classvehicle__command_1afce421b49b7fee685f9324651281b89d" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>param7_</name></member>
+      <member refid="classvehicle__command_1ad199e22304e8421a7d000c391a5bfa5c" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>serialize</name></member>
+      <member refid="classvehicle__command_1a8d1ec3a8d511443ddbbad93f55fab569" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>serializeKey</name></member>
+      <member refid="classvehicle__command_1a31b745363e13c6372a7ece0159d99594" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>source_component_</name></member>
+      <member refid="classvehicle__command_1a125a0a3274d3e4f0808406eca342b200" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>source_component_</name></member>
+      <member refid="classvehicle__command_1aa84967af6f5ff83f2047903f85d1d58e" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>source_component_</name></member>
+      <member refid="classvehicle__command_1a2f0ec1d46de060947a7e44b7d27743dd" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>source_system_</name></member>
+      <member refid="classvehicle__command_1affe3db29463ba597de487e0f5e01398e" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>source_system_</name></member>
+      <member refid="classvehicle__command_1ae54e3ceae659711422fabf3547dd028f" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>source_system_</name></member>
+      <member refid="classvehicle__command_1aa046ef05458bd63494bdff910222b3db" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>target_component_</name></member>
+      <member refid="classvehicle__command_1a7cdbb1164f9ac6052ca17d8f3fe3e48e" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>target_component_</name></member>
+      <member refid="classvehicle__command_1a275f9a187f104b0b7e519a2203bb3e7c" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>target_component_</name></member>
+      <member refid="classvehicle__command_1a8185bff011cd1785f539a69bee055f5b" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>target_system_</name></member>
+      <member refid="classvehicle__command_1aeda35dff5833f7573340f5a8af5e5ee6" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>target_system_</name></member>
+      <member refid="classvehicle__command_1a485e5e6620af904abece6f24f35809d9" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>target_system_</name></member>
+      <member refid="classvehicle__command_1a20c0de4f833df8bd6837b57cca2a9039" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>timestamp_</name></member>
+      <member refid="classvehicle__command_1aad50fe2adbb231f2f6a5f845b8d2c757" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>timestamp_</name></member>
+      <member refid="classvehicle__command_1aee72da7b41fa16312b65d06e2008c83b" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>timestamp_</name></member>
+      <member refid="classvehicle__command_1a51957aba9706c71568af43ea0b8685b8" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>vehicle_command</name></member>
+      <member refid="classvehicle__command_1ad31866c4362317fa1d4e2ba582865ece" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>vehicle_command</name></member>
+      <member refid="classvehicle__command_1a0b8d1d66ce3cdf9f7ea5474cbcfa4a70" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>vehicle_command</name></member>
+      <member refid="classvehicle__command_1ad8babba5dbb3feff52684342a153dc26" prot="public" virt="non-virtual"><scope>vehicle_command</scope><name>~vehicle_command</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

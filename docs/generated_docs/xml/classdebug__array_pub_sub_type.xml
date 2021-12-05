@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classdebug__array_pub_sub_type" kind="class" language="C++" prot="public">
+    <compoundname>debug_arrayPubSubType</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">eprosima::fastdds::dds::TopicDataType</basecompoundref>
+    <includes refid="debug__array_pub_sub_types_8h" local="no">debug_arrayPubSubTypes.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classdebug__array_pub_sub_type_1ae3c64f362d66112d870f8e2ac981086e" prot="public" static="no">
+        <type><ref refid="classdebug__array" kindref="compound">debug_array</ref></type>
+        <definition>typedef debug_array debug_arrayPubSubType::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_arrayPubSubTypes.h" line="46" column="25" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_arrayPubSubTypes.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classdebug__array_pub_sub_type_1a90252dd64dcd16426512cee322a9a500" prot="public" static="no" mutable="no">
+        <type>MD5</type>
+        <definition>MD5 debug_arrayPubSubType::m_md5</definition>
+        <argsstring></argsstring>
+        <name>m_md5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_arrayPubSubTypes.h" line="99" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_arrayPubSubTypes.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdebug__array_pub_sub_type_1a15f6623d80fa54d90a4f358dc12a7013" prot="public" static="no" mutable="no">
+        <type>unsigned char *</type>
+        <definition>unsigned char* debug_arrayPubSubType::m_keyBuffer</definition>
+        <argsstring></argsstring>
+        <name>m_keyBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_arrayPubSubTypes.h" line="100" column="19" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_arrayPubSubTypes.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdebug__array_pub_sub_type_1afc05de4234b9b296a7bf2a617833b580" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>debug_arrayPubSubType::debug_arrayPubSubType</definition>
+        <argsstring>()</argsstring>
+        <name>debug_arrayPubSubType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_arrayPubSubTypes.h" line="48" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_arrayPubSubTypes.cxx" bodystart="34" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classdebug__array_pub_sub_type_1a186d9dd45e1b8c9a4f08254a476058a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>debug_arrayPubSubType::~debug_arrayPubSubType</definition>
+        <argsstring>()</argsstring>
+        <name>~debug_arrayPubSubType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_arrayPubSubTypes.h" line="50" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_arrayPubSubTypes.cxx" bodystart="47" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classdebug__array_pub_sub_type_1ae513fbe631611170a694ceb6fe12100f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool debug_arrayPubSubType::serialize</definition>
+        <argsstring>(void *data, eprosima::fastrtps::rtps::SerializedPayload_t *payload) override</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>eprosima::fastrtps::rtps::SerializedPayload_t *</type>
+          <declname>payload</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_arrayPubSubTypes.h" line="52" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_arrayPubSubTypes.cxx" bodystart="55" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classdebug__array_pub_sub_type_1acb82f4e21bb7b9227851cc31fd9f6b06" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool debug_arrayPubSubType::deserialize</definition>
+        <argsstring>(eprosima::fastrtps::rtps::SerializedPayload_t *payload, void *data) override</argsstring>
+        <name>deserialize</name>
+        <param>
+          <type>eprosima::fastrtps::rtps::SerializedPayload_t *</type>
+          <declname>payload</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_arrayPubSubTypes.h" line="56" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_arrayPubSubTypes.cxx" bodystart="84" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="classdebug__array_pub_sub_type_1a2d15a817a7921e6889ad802e14cf14ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport std::function&lt; uint32_t()&gt;</type>
+        <definition>std::function&lt; uint32_t()&gt; debug_arrayPubSubType::getSerializedSizeProvider</definition>
+        <argsstring>(void *data) override</argsstring>
+        <name>getSerializedSizeProvider</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_arrayPubSubTypes.h" line="60" column="51" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_arrayPubSubTypes.cxx" bodystart="114" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classdebug__array_pub_sub_type_1ae5cc99b3e8570658a153f3e3d379d287" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool debug_arrayPubSubType::getKey</definition>
+        <argsstring>(void *data, eprosima::fastrtps::rtps::InstanceHandle_t *ihandle, bool force_md5=false) override</argsstring>
+        <name>getKey</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>eprosima::fastrtps::rtps::InstanceHandle_t *</type>
+          <declname>ihandle</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>force_md5</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_arrayPubSubTypes.h" line="63" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_arrayPubSubTypes.cxx" bodystart="135" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="classdebug__array_pub_sub_type_1a5cc1d81ecfa96bddb3b02cb25444027b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport void *</type>
+        <definition>void * debug_arrayPubSubType::createData</definition>
+        <argsstring>() override</argsstring>
+        <name>createData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_arrayPubSubTypes.h" line="68" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_arrayPubSubTypes.cxx" bodystart="124" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="classdebug__array_pub_sub_type_1af441586c2b5e6a020933280cf4e41d0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void debug_arrayPubSubType::deleteData</definition>
+        <argsstring>(void *data) override</argsstring>
+        <name>deleteData</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_arrayPubSubTypes.h" line="70" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_arrayPubSubTypes.cxx" bodystart="129" bodyend="133"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents the TopicDataType of the type <ref refid="classdebug__array" kindref="compound">debug_array</ref> defined by the user in the IDL file. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>debug_arrayPubSubType</label>
+        <link refid="classdebug__array_pub_sub_type"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>eprosima::fastdds::dds::TopicDataType</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>debug_arrayPubSubType</label>
+        <link refid="classdebug__array_pub_sub_type"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>eprosima::fastdds::dds::TopicDataType</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_arrayPubSubTypes.h" line="42" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_arrayPubSubTypes.h" bodystart="43" bodyend="101"/>
+    <listofallmembers>
+      <member refid="classdebug__array_pub_sub_type_1a5cc1d81ecfa96bddb3b02cb25444027b" prot="public" virt="virtual"><scope>debug_arrayPubSubType</scope><name>createData</name></member>
+      <member refid="classdebug__array_pub_sub_type_1afc05de4234b9b296a7bf2a617833b580" prot="public" virt="non-virtual"><scope>debug_arrayPubSubType</scope><name>debug_arrayPubSubType</name></member>
+      <member refid="classdebug__array_pub_sub_type_1af441586c2b5e6a020933280cf4e41d0b" prot="public" virt="virtual"><scope>debug_arrayPubSubType</scope><name>deleteData</name></member>
+      <member refid="classdebug__array_pub_sub_type_1acb82f4e21bb7b9227851cc31fd9f6b06" prot="public" virt="virtual"><scope>debug_arrayPubSubType</scope><name>deserialize</name></member>
+      <member refid="classdebug__array_pub_sub_type_1ae5cc99b3e8570658a153f3e3d379d287" prot="public" virt="virtual"><scope>debug_arrayPubSubType</scope><name>getKey</name></member>
+      <member refid="classdebug__array_pub_sub_type_1a2d15a817a7921e6889ad802e14cf14ad" prot="public" virt="virtual"><scope>debug_arrayPubSubType</scope><name>getSerializedSizeProvider</name></member>
+      <member refid="classdebug__array_pub_sub_type_1a15f6623d80fa54d90a4f358dc12a7013" prot="public" virt="non-virtual"><scope>debug_arrayPubSubType</scope><name>m_keyBuffer</name></member>
+      <member refid="classdebug__array_pub_sub_type_1a90252dd64dcd16426512cee322a9a500" prot="public" virt="non-virtual"><scope>debug_arrayPubSubType</scope><name>m_md5</name></member>
+      <member refid="classdebug__array_pub_sub_type_1ae513fbe631611170a694ceb6fe12100f" prot="public" virt="virtual"><scope>debug_arrayPubSubType</scope><name>serialize</name></member>
+      <member refid="classdebug__array_pub_sub_type_1ae3c64f362d66112d870f8e2ac981086e" prot="public" virt="non-virtual"><scope>debug_arrayPubSubType</scope><name>type</name></member>
+      <member refid="classdebug__array_pub_sub_type_1a186d9dd45e1b8c9a4f08254a476058a9" prot="public" virt="virtual"><scope>debug_arrayPubSubType</scope><name>~debug_arrayPubSubType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

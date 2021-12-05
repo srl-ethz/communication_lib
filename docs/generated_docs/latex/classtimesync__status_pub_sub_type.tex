@@ -1,0 +1,62 @@
+\hypertarget{classtimesync__status_pub_sub_type}{}\doxysection{timesync\+\_\+status\+Pub\+Sub\+Type Class Reference}
+\label{classtimesync__status_pub_sub_type}\index{timesync\_statusPubSubType@{timesync\_statusPubSubType}}
+
+
+This class represents the Topic\+Data\+Type of the type \mbox{\hyperlink{classtimesync__status}{timesync\+\_\+status}} defined by the user in the IDL file.  
+
+
+
+
+{\ttfamily \#include $<$timesync\+\_\+status\+Pub\+Sub\+Types.\+h$>$}
+
+Inheritance diagram for timesync\+\_\+status\+Pub\+Sub\+Type\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classtimesync__status_pub_sub_type}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtimesync__status_pub_sub_type_a2f2d6e53bb20fa849a0ca5ad37072100}\label{classtimesync__status_pub_sub_type_a2f2d6e53bb20fa849a0ca5ad37072100}} 
+typedef \mbox{\hyperlink{classtimesync__status}{timesync\+\_\+status}} {\bfseries type}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtimesync__status_pub_sub_type_a657729ec30d351350e18b9d476035a03}\label{classtimesync__status_pub_sub_type_a657729ec30d351350e18b9d476035a03}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export bool {\bfseries serialize} (void $\ast$data, eprosima\+::fastrtps\+::rtps\+::\+Serialized\+Payload\+\_\+t $\ast$payload) override
+\item 
+\mbox{\Hypertarget{classtimesync__status_pub_sub_type_af4a4395c2c20988cc78931160fdbd6b6}\label{classtimesync__status_pub_sub_type_af4a4395c2c20988cc78931160fdbd6b6}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export bool {\bfseries deserialize} (eprosima\+::fastrtps\+::rtps\+::\+Serialized\+Payload\+\_\+t $\ast$payload, void $\ast$data) override
+\item 
+\mbox{\Hypertarget{classtimesync__status_pub_sub_type_a7516118cd3ae2396dc563b17d0625edc}\label{classtimesync__status_pub_sub_type_a7516118cd3ae2396dc563b17d0625edc}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export std\+::function$<$ uint32\+\_\+t()$>$ {\bfseries get\+Serialized\+Size\+Provider} (void $\ast$data) override
+\item 
+\mbox{\Hypertarget{classtimesync__status_pub_sub_type_a856c679b33fc59e54a6c9cc7d11adaf5}\label{classtimesync__status_pub_sub_type_a856c679b33fc59e54a6c9cc7d11adaf5}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export bool {\bfseries get\+Key} (void $\ast$data, eprosima\+::fastrtps\+::rtps\+::\+Instance\+Handle\+\_\+t $\ast$ihandle, bool force\+\_\+md5=false) override
+\item 
+\mbox{\Hypertarget{classtimesync__status_pub_sub_type_ada68beefc9af6c15852dbef5ba1c9563}\label{classtimesync__status_pub_sub_type_ada68beefc9af6c15852dbef5ba1c9563}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export void $\ast$ {\bfseries create\+Data} () override
+\item 
+\mbox{\Hypertarget{classtimesync__status_pub_sub_type_a34d4d013bc0c6ea58788e817fbec6e23}\label{classtimesync__status_pub_sub_type_a34d4d013bc0c6ea58788e817fbec6e23}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export void {\bfseries delete\+Data} (void $\ast$data) override
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classtimesync__status_pub_sub_type_a725243e73d8d592c5f769568c04d826c}\label{classtimesync__status_pub_sub_type_a725243e73d8d592c5f769568c04d826c}} 
+MD5 {\bfseries m\+\_\+md5}
+\item 
+\mbox{\Hypertarget{classtimesync__status_pub_sub_type_a66d9ea10924c1aaca6601ca1e5dce8dd}\label{classtimesync__status_pub_sub_type_a66d9ea10924c1aaca6601ca1e5dce8dd}} 
+unsigned char $\ast$ {\bfseries m\+\_\+key\+Buffer}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class represents the Topic\+Data\+Type of the type \mbox{\hyperlink{classtimesync__status}{timesync\+\_\+status}} defined by the user in the IDL file. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/sarathmenon/\+Desktop/eth\+\_\+soft/code/\+Communication/libraries/communication\+\_\+lib/fastdds\+\_\+lib/fastddsgen\+\_\+generated\+\_\+files/px4\+\_\+msg\+\_\+definitions/\mbox{\hyperlink{timesync__status_pub_sub_types_8h}{timesync\+\_\+status\+Pub\+Sub\+Types.\+h}}\item 
+/\+Users/sarathmenon/\+Desktop/eth\+\_\+soft/code/\+Communication/libraries/communication\+\_\+lib/fastdds\+\_\+lib/fastddsgen\+\_\+generated\+\_\+files/px4\+\_\+msg\+\_\+definitions/timesync\+\_\+status\+Pub\+Sub\+Types.\+cxx\end{DoxyCompactItemize}

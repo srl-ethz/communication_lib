@@ -1,0 +1,1330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="vehicle__status_8h" kind="file" language="C++">
+    <compoundname>vehicle_status.h</compoundname>
+    <includes local="no">stdint.h</includes>
+    <includes local="no">array</includes>
+    <includes local="no">string</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">map</includes>
+    <includes local="no">bitset</includes>
+    <includedby refid="vehicle__status_8cxx" local="yes">/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.cxx</includedby>
+    <includedby refid="vehicle__status_pub_sub_types_8h" local="yes">/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_statusPubSubTypes.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h</label>
+        <link refid="vehicle__status_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>array</label>
+      </node>
+      <node id="7">
+        <label>bitset</label>
+      </node>
+      <node id="6">
+        <label>map</label>
+      </node>
+      <node id="2">
+        <label>stdint.h</label>
+      </node>
+      <node id="4">
+        <label>string</label>
+      </node>
+      <node id="5">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h</label>
+        <link refid="vehicle__status_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_statusPubSubTypes.h</label>
+        <link refid="vehicle__status_pub_sub_types_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classvehicle__status" prot="public">vehicle_status</innerclass>
+    <innernamespace refid="namespaceeprosima">eprosima</innernamespace>
+    <innernamespace refid="namespaceeprosima_1_1fastcdr">eprosima::fastcdr</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="vehicle__status_8h_1abd19d82e50737e50241fe1723b1c6066" prot="public" static="no">
+        <name>eProsima_user_DllExport</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="40" column="10" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="vehicle__status_8h_1a4823cec24cf1df61773a5534013b2b79" prot="public" static="no">
+        <name>vehicle_status_DllAPI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="54" column="10" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="vehicle__status_8h_1a8bb9ed415134e928604f4827b8cf175d" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__ARMING_STATE_INIT</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__ARMING_STATE_INIT</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="64" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1af4b74a8a0bd1120e14d4fa177a0cde24" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__ARMING_STATE_STANDBY</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__ARMING_STATE_STANDBY</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="65" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1aca052929b069cc9d99101f6298838db5" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__ARMING_STATE_ARMED</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__ARMING_STATE_ARMED</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="66" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1aa94f164dd2ceea4ece883745b48e193b" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__ARMING_STATE_STANDBY_ERROR</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__ARMING_STATE_STANDBY_ERROR</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="67" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a6c647367911d34c0a0bc6eefca001c50" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__ARMING_STATE_SHUTDOWN</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__ARMING_STATE_SHUTDOWN</name>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="68" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1aa025d7a845268fd52085476eb323d689" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__ARMING_STATE_IN_AIR_RESTORE</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__ARMING_STATE_IN_AIR_RESTORE</name>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="69" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a5d110c9132924c95fbb51e36540309fa" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__ARMING_STATE_MAX</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__ARMING_STATE_MAX</name>
+        <initializer>= 6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="70" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a6da77500111a0f63076f788a040a0ce0" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__FAILURE_NONE</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__FAILURE_NONE</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="71" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1af558186146f3fc66468aa5ac634fe10b" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__FAILURE_ROLL</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__FAILURE_ROLL</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="72" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1ae9c184abc73faf16e8b2da9170da9a44" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__FAILURE_PITCH</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__FAILURE_PITCH</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="73" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a79387961122616b1f4ad7587cc272f1d" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__FAILURE_ALT</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__FAILURE_ALT</name>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="74" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1ae0484d5af5ce76b1af05fd47437846dd" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__FAILURE_EXT</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__FAILURE_EXT</name>
+        <initializer>= 8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="75" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1addd344680d83c5e26f6b15e74d2954a2" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__FAILURE_ARM_ESC</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__FAILURE_ARM_ESC</name>
+        <initializer>= 16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="76" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1af79bdd6b24fb7321bce6b14df5fa634f" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__HIL_STATE_OFF</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__HIL_STATE_OFF</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="77" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a3813608c2a2e66e388f201bf46e6c2c9" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__HIL_STATE_ON</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__HIL_STATE_ON</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="78" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a8d312b63ffb2bfdf51d0e8ca031fbb20" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__NAVIGATION_STATE_MANUAL</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__NAVIGATION_STATE_MANUAL</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="79" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a0e3b0dd5967c76470c1978e1c7b2b608" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__NAVIGATION_STATE_ALTCTL</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__NAVIGATION_STATE_ALTCTL</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="80" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a7b8b16cde4b54921a5cddaa220e31d7f" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__NAVIGATION_STATE_POSCTL</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__NAVIGATION_STATE_POSCTL</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="81" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a649c8117f156463d9021cc80ea334a79" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__NAVIGATION_STATE_AUTO_MISSION</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__NAVIGATION_STATE_AUTO_MISSION</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="82" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a10b0f3a8a0ef6dbf1fd9613833b6c50c" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__NAVIGATION_STATE_AUTO_LOITER</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__NAVIGATION_STATE_AUTO_LOITER</name>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="83" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a2b0e794ecf75b42d6c7a167afb719ba7" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__NAVIGATION_STATE_AUTO_RTL</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__NAVIGATION_STATE_AUTO_RTL</name>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="84" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1afa23990e8ac0a12949d161d652a0d278" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__NAVIGATION_STATE_AUTO_LANDENGFAIL</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__NAVIGATION_STATE_AUTO_LANDENGFAIL</name>
+        <initializer>= 8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="85" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a088bb827633002b9692bb1946707006a" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__NAVIGATION_STATE_AUTO_LANDGPSFAIL</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__NAVIGATION_STATE_AUTO_LANDGPSFAIL</name>
+        <initializer>= 9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="86" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a9e14123480ca9317b67b60ea19717a3a" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__NAVIGATION_STATE_ACRO</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__NAVIGATION_STATE_ACRO</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="87" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a786912de861558320cda7c40bc0342a9" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__NAVIGATION_STATE_UNUSED</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__NAVIGATION_STATE_UNUSED</name>
+        <initializer>= 11</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="88" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a2e5941d702097cc16460f01de8f2f9ae" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__NAVIGATION_STATE_DESCEND</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__NAVIGATION_STATE_DESCEND</name>
+        <initializer>= 12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="89" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a5aa76e4b5acc01537e84ea613cb14b6b" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__NAVIGATION_STATE_TERMINATION</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__NAVIGATION_STATE_TERMINATION</name>
+        <initializer>= 13</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="90" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a9099dd9e44b395e3d90439f192dd5f78" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__NAVIGATION_STATE_OFFBOARD</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__NAVIGATION_STATE_OFFBOARD</name>
+        <initializer>= 14</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="91" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a27cd472f7c5544e2076b3747756476b5" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__NAVIGATION_STATE_STAB</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__NAVIGATION_STATE_STAB</name>
+        <initializer>= 15</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="92" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a695891c7f6e12f364f198458e82e5b47" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__NAVIGATION_STATE_UNUSED2</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__NAVIGATION_STATE_UNUSED2</name>
+        <initializer>= 16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="93" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a07fac5d703eb0cb629abce81694da9f7" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__NAVIGATION_STATE_AUTO_TAKEOFF</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__NAVIGATION_STATE_AUTO_TAKEOFF</name>
+        <initializer>= 17</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="94" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1ad3e875040b34ca68085fffbd8d50fe32" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__NAVIGATION_STATE_AUTO_LAND</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__NAVIGATION_STATE_AUTO_LAND</name>
+        <initializer>= 18</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="95" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a69cfb26db7bf5d1984b3f8023e3b83ad" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__NAVIGATION_STATE_AUTO_FOLLOW_TARGET</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__NAVIGATION_STATE_AUTO_FOLLOW_TARGET</name>
+        <initializer>= 19</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="96" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1adfabe0060290b7d64aa8b3d831e08c34" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__NAVIGATION_STATE_AUTO_PRECLAND</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__NAVIGATION_STATE_AUTO_PRECLAND</name>
+        <initializer>= 20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="97" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a44f347461ca59f55d2055279cd3595f5" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__NAVIGATION_STATE_ORBIT</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__NAVIGATION_STATE_ORBIT</name>
+        <initializer>= 21</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="98" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a99be37bbcf1e43fae1ffb4345d7792ef" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__NAVIGATION_STATE_MAX</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__NAVIGATION_STATE_MAX</name>
+        <initializer>= 22</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="99" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a94de23faf7128efb21d2ab3a3c89766e" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__RC_IN_MODE_DEFAULT</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__RC_IN_MODE_DEFAULT</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="100" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a6e282173fef35d8678a8678eec491701" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__RC_IN_MODE_OFF</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__RC_IN_MODE_OFF</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="101" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1aacef437b5fbc9f213a4e9d137c55b7e6" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__RC_IN_MODE_GENERATED</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__RC_IN_MODE_GENERATED</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="102" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1aa6c3b7a0922e1f2912c65c318902a1c4" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__VEHICLE_TYPE_UNKNOWN</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__VEHICLE_TYPE_UNKNOWN</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="103" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a00759ae8ebe39120c704bc8749df0f6c" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__VEHICLE_TYPE_ROTARY_WING</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__VEHICLE_TYPE_ROTARY_WING</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="104" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a876bf6e1f0e9e8a355c9cf2d08e83776" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__VEHICLE_TYPE_FIXED_WING</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__VEHICLE_TYPE_FIXED_WING</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="105" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1ac0f8328b9060aac69ee80d5807b9347a" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__VEHICLE_TYPE_ROVER</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__VEHICLE_TYPE_ROVER</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="106" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a68c0dbd4c46251496fa9400673a7164b" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__VEHICLE_TYPE_AIRSHIP</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__VEHICLE_TYPE_AIRSHIP</name>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="107" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a84ba73694228f002a012aab9d8687252" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__ARM_DISARM_REASON_TRANSITION_TO_STANDBY</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__ARM_DISARM_REASON_TRANSITION_TO_STANDBY</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="108" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1af13a130586e56de720fa824b1fb668d5" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__ARM_DISARM_REASON_RC_STICK</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__ARM_DISARM_REASON_RC_STICK</name>
+        <initializer>= 1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="109" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a4446c638aa4ac31cc3326904a3a6436d" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__ARM_DISARM_REASON_RC_SWITCH</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__ARM_DISARM_REASON_RC_SWITCH</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="110" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a7218228d1266ddcd8a0dbae0691882d5" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__ARM_DISARM_REASON_COMMAND_INTERNAL</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__ARM_DISARM_REASON_COMMAND_INTERNAL</name>
+        <initializer>= 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="111" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1aa7ad6642f235e8cae5fd2a09ed0c0456" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__ARM_DISARM_REASON_COMMAND_EXTERNAL</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__ARM_DISARM_REASON_COMMAND_EXTERNAL</name>
+        <initializer>= 4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="112" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a7fad7a0b39fe8f7c118ed7370b865ea4" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__ARM_DISARM_REASON_MISSION_START</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__ARM_DISARM_REASON_MISSION_START</name>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="113" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a509f45f3165c1000886239196e7e43e6" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__ARM_DISARM_REASON_SAFETY_BUTTON</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__ARM_DISARM_REASON_SAFETY_BUTTON</name>
+        <initializer>= 6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="114" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a29e68aacaa5f5a56bbd7cb7ce3b2b618" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__ARM_DISARM_REASON_AUTO_DISARM_LAND</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__ARM_DISARM_REASON_AUTO_DISARM_LAND</name>
+        <initializer>= 7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="115" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a394dd41f74e74c6bc3f142631dab4d55" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__ARM_DISARM_REASON_AUTO_DISARM_PREFLIGHT</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__ARM_DISARM_REASON_AUTO_DISARM_PREFLIGHT</name>
+        <initializer>= 8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="116" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1af83a80d8bd298abd053d9e951f159ff5" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__ARM_DISARM_REASON_KILL_SWITCH</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__ARM_DISARM_REASON_KILL_SWITCH</name>
+        <initializer>= 9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="117" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a97d946fda1c8f6bea4a941d60bd9694e" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__ARM_DISARM_REASON_LOCKDOWN</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__ARM_DISARM_REASON_LOCKDOWN</name>
+        <initializer>= 10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="118" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a36b04ac4ff68150410ebd25ce9c94727" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__ARM_DISARM_REASON_FAILURE_DETECTOR</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__ARM_DISARM_REASON_FAILURE_DETECTOR</name>
+        <initializer>= 11</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="119" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a4a7b3999d5698e077e0d01ea4fdf08a1" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__ARM_DISARM_REASON_SHUTDOWN</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__ARM_DISARM_REASON_SHUTDOWN</name>
+        <initializer>= 12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="120" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="vehicle__status_8h_1a4782be09a0fcac9ee033fec8ad8a6d24" prot="public" static="no" mutable="no">
+        <type>const uint8_t</type>
+        <definition>const uint8_t vehicle_status__ARM_DISARM_REASON_UNIT_TEST</definition>
+        <argsstring></argsstring>
+        <name>vehicle_status__ARM_DISARM_REASON_UNIT_TEST</name>
+        <initializer>= 13</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" line="121" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This header file contains the declaration of the described types in the IDL file.</para>
+<para>This file was generated by the tool gen. </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>2016<sp/>Proyectos<sp/>y<sp/>Sistemas<sp/>de<sp/>Mantenimiento<sp/>SL<sp/>(eProsima).</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Licensed<sp/>under<sp/>the<sp/>Apache<sp/>License,<sp/>Version<sp/>2.0<sp/>(the<sp/>&quot;License&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>you<sp/>may<sp/>not<sp/>use<sp/>this<sp/>file<sp/>except<sp/>in<sp/>compliance<sp/>with<sp/>the<sp/>License.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>You<sp/>may<sp/>obtain<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>License<sp/>at</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>http://www.apache.org/licenses/LICENSE-2.0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Unless<sp/>required<sp/>by<sp/>applicable<sp/>law<sp/>or<sp/>agreed<sp/>to<sp/>in<sp/>writing,<sp/>software</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>distributed<sp/>under<sp/>the<sp/>License<sp/>is<sp/>distributed<sp/>on<sp/>an<sp/>&quot;AS<sp/>IS&quot;<sp/>BASIS,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>WITHOUT<sp/>WARRANTIES<sp/>OR<sp/>CONDITIONS<sp/>OF<sp/>ANY<sp/>KIND,<sp/>either<sp/>express<sp/>or<sp/>implied.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>See<sp/>the<sp/>License<sp/>for<sp/>the<sp/>specific<sp/>language<sp/>governing<sp/>permissions<sp/>and</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>limitations<sp/>under<sp/>the<sp/>License.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_VEHICLE_STATUS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_VEHICLE_STATUS_H_</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;array&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;bitset&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(_WIN32)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(EPROSIMA_USER_DLL_EXPORT)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>eProsima_user_DllExport<sp/>__declspec(<sp/>dllexport<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>eProsima_user_DllExport</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>EPROSIMA_USER_DLL_EXPORT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>eProsima_user_DllExport</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>_WIN32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(_WIN32)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(EPROSIMA_USER_DLL_EXPORT)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(vehicle_status_SOURCE)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>vehicle_status_DllAPI<sp/>__declspec(<sp/>dllexport<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>vehicle_status_DllAPI<sp/>__declspec(<sp/>dllimport<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>vehicle_status_SOURCE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>vehicle_status_DllAPI</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>EPROSIMA_USER_DLL_EXPORT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>vehicle_status_DllAPI</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>_WIN32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">eprosima<sp/>{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">fastcdr<sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">Cdr;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>fastcdr</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>eprosima</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__ARMING_STATE_INIT<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__ARMING_STATE_STANDBY<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__ARMING_STATE_ARMED<sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__ARMING_STATE_STANDBY_ERROR<sp/>=<sp/>3;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__ARMING_STATE_SHUTDOWN<sp/>=<sp/>4;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__ARMING_STATE_IN_AIR_RESTORE<sp/>=<sp/>5;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__ARMING_STATE_MAX<sp/>=<sp/>6;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__FAILURE_NONE<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__FAILURE_ROLL<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__FAILURE_PITCH<sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__FAILURE_ALT<sp/>=<sp/>4;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__FAILURE_EXT<sp/>=<sp/>8;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__FAILURE_ARM_ESC<sp/>=<sp/>16;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__HIL_STATE_OFF<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__HIL_STATE_ON<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__NAVIGATION_STATE_MANUAL<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__NAVIGATION_STATE_ALTCTL<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__NAVIGATION_STATE_POSCTL<sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__NAVIGATION_STATE_AUTO_MISSION<sp/>=<sp/>3;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__NAVIGATION_STATE_AUTO_LOITER<sp/>=<sp/>4;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__NAVIGATION_STATE_AUTO_RTL<sp/>=<sp/>5;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__NAVIGATION_STATE_AUTO_LANDENGFAIL<sp/>=<sp/>8;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__NAVIGATION_STATE_AUTO_LANDGPSFAIL<sp/>=<sp/>9;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__NAVIGATION_STATE_ACRO<sp/>=<sp/>10;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__NAVIGATION_STATE_UNUSED<sp/>=<sp/>11;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__NAVIGATION_STATE_DESCEND<sp/>=<sp/>12;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__NAVIGATION_STATE_TERMINATION<sp/>=<sp/>13;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__NAVIGATION_STATE_OFFBOARD<sp/>=<sp/>14;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__NAVIGATION_STATE_STAB<sp/>=<sp/>15;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__NAVIGATION_STATE_UNUSED2<sp/>=<sp/>16;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__NAVIGATION_STATE_AUTO_TAKEOFF<sp/>=<sp/>17;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__NAVIGATION_STATE_AUTO_LAND<sp/>=<sp/>18;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__NAVIGATION_STATE_AUTO_FOLLOW_TARGET<sp/>=<sp/>19;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__NAVIGATION_STATE_AUTO_PRECLAND<sp/>=<sp/>20;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__NAVIGATION_STATE_ORBIT<sp/>=<sp/>21;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__NAVIGATION_STATE_MAX<sp/>=<sp/>22;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__RC_IN_MODE_DEFAULT<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__RC_IN_MODE_OFF<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__RC_IN_MODE_GENERATED<sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__VEHICLE_TYPE_UNKNOWN<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__VEHICLE_TYPE_ROTARY_WING<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__VEHICLE_TYPE_FIXED_WING<sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__VEHICLE_TYPE_ROVER<sp/>=<sp/>3;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__VEHICLE_TYPE_AIRSHIP<sp/>=<sp/>4;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__ARM_DISARM_REASON_TRANSITION_TO_STANDBY<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__ARM_DISARM_REASON_RC_STICK<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__ARM_DISARM_REASON_RC_SWITCH<sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__ARM_DISARM_REASON_COMMAND_INTERNAL<sp/>=<sp/>3;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__ARM_DISARM_REASON_COMMAND_EXTERNAL<sp/>=<sp/>4;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__ARM_DISARM_REASON_MISSION_START<sp/>=<sp/>5;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__ARM_DISARM_REASON_SAFETY_BUTTON<sp/>=<sp/>6;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__ARM_DISARM_REASON_AUTO_DISARM_LAND<sp/>=<sp/>7;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__ARM_DISARM_REASON_AUTO_DISARM_PREFLIGHT<sp/>=<sp/>8;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__ARM_DISARM_REASON_KILL_SWITCH<sp/>=<sp/>9;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__ARM_DISARM_REASON_LOCKDOWN<sp/>=<sp/>10;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__ARM_DISARM_REASON_FAILURE_DETECTOR<sp/>=<sp/>11;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__ARM_DISARM_REASON_SHUTDOWN<sp/>=<sp/>12;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint8_t<sp/>vehicle_status__ARM_DISARM_REASON_UNIT_TEST<sp/>=<sp/>13;</highlight></codeline>
+<codeline lineno="126" refid="classvehicle__status" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classvehicle__status" kindref="compound">vehicle_status</ref></highlight></codeline>
+<codeline lineno="127"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/><ref refid="classvehicle__status_1a55dda286e11a4bf8003fd54ca92d5865" kindref="member">vehicle_status</ref>();</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/><ref refid="classvehicle__status_1aae9fe1792a38d603a5d74f93e417913d" kindref="member">~vehicle_status</ref>();</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/><ref refid="classvehicle__status_1a55dda286e11a4bf8003fd54ca92d5865" kindref="member">vehicle_status</ref>(</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status" kindref="compound">vehicle_status</ref>&amp;<sp/>x);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/><ref refid="classvehicle__status_1a55dda286e11a4bf8003fd54ca92d5865" kindref="member">vehicle_status</ref>(</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classvehicle__status" kindref="compound">vehicle_status</ref>&amp;&amp;<sp/>x);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/><ref refid="classvehicle__status" kindref="compound">vehicle_status</ref>&amp;<sp/><ref refid="classvehicle__status_1a7314c82870f06cf58ae3941e3f44e238" kindref="member">operator =</ref>(</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status" kindref="compound">vehicle_status</ref>&amp;<sp/>x);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/><ref refid="classvehicle__status" kindref="compound">vehicle_status</ref>&amp;<sp/><ref refid="classvehicle__status_1a7314c82870f06cf58ae3941e3f44e238" kindref="member">operator =</ref>(</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classvehicle__status" kindref="compound">vehicle_status</ref>&amp;&amp;<sp/>x);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a689318df0ad67b12811c738b5f0b523f" kindref="member">timestamp_</ref>(</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/>_timestamp_);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint64_t<sp/><ref refid="classvehicle__status_1a689318df0ad67b12811c738b5f0b523f" kindref="member">timestamp_</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint64_t&amp;<sp/><ref refid="classvehicle__status_1a689318df0ad67b12811c738b5f0b523f" kindref="member">timestamp_</ref>();</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a6f9a8eed635d52afef79ccfe95867d01" kindref="member">nav_state_</ref>(</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>_nav_state_);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint8_t<sp/><ref refid="classvehicle__status_1a6f9a8eed635d52afef79ccfe95867d01" kindref="member">nav_state_</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint8_t&amp;<sp/><ref refid="classvehicle__status_1a6f9a8eed635d52afef79ccfe95867d01" kindref="member">nav_state_</ref>();</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a1d31cce426f9fa424868c1dae8a7861d" kindref="member">nav_state_timestamp_</ref>(</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/>_nav_state_timestamp_);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint64_t<sp/><ref refid="classvehicle__status_1a1d31cce426f9fa424868c1dae8a7861d" kindref="member">nav_state_timestamp_</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint64_t&amp;<sp/><ref refid="classvehicle__status_1a1d31cce426f9fa424868c1dae8a7861d" kindref="member">nav_state_timestamp_</ref>();</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a57bf4648ccc5ad87620db5020e12aeec" kindref="member">arming_state_</ref>(</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>_arming_state_);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint8_t<sp/><ref refid="classvehicle__status_1a57bf4648ccc5ad87620db5020e12aeec" kindref="member">arming_state_</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint8_t&amp;<sp/><ref refid="classvehicle__status_1a57bf4648ccc5ad87620db5020e12aeec" kindref="member">arming_state_</ref>();</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1abe53f8baad1dce9b1f1bdf3f04951e3e" kindref="member">hil_state_</ref>(</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>_hil_state_);</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint8_t<sp/><ref refid="classvehicle__status_1abe53f8baad1dce9b1f1bdf3f04951e3e" kindref="member">hil_state_</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint8_t&amp;<sp/><ref refid="classvehicle__status_1abe53f8baad1dce9b1f1bdf3f04951e3e" kindref="member">hil_state_</ref>();</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a41ba80b83b6726e973551c80cb4fc548" kindref="member">failsafe_</ref>(</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_failsafe_);</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a41ba80b83b6726e973551c80cb4fc548" kindref="member">failsafe_</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&amp;<sp/><ref refid="classvehicle__status_1a41ba80b83b6726e973551c80cb4fc548" kindref="member">failsafe_</ref>();</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"></highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a5eedf360c1077d8bd629d1a0739d5d88" kindref="member">failsafe_timestamp_</ref>(</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/>_failsafe_timestamp_);</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint64_t<sp/><ref refid="classvehicle__status_1a5eedf360c1077d8bd629d1a0739d5d88" kindref="member">failsafe_timestamp_</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint64_t&amp;<sp/><ref refid="classvehicle__status_1a5eedf360c1077d8bd629d1a0739d5d88" kindref="member">failsafe_timestamp_</ref>();</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1af9c25db3399cdc68b4cb9e28422b4ac0" kindref="member">system_type_</ref>(</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>_system_type_);</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint8_t<sp/><ref refid="classvehicle__status_1af9c25db3399cdc68b4cb9e28422b4ac0" kindref="member">system_type_</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint8_t&amp;<sp/><ref refid="classvehicle__status_1af9c25db3399cdc68b4cb9e28422b4ac0" kindref="member">system_type_</ref>();</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a16edc16a038670c0aac7a5d6078f0ccf" kindref="member">system_id_</ref>(</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>_system_id_);</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"></highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint8_t<sp/><ref refid="classvehicle__status_1a16edc16a038670c0aac7a5d6078f0ccf" kindref="member">system_id_</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"></highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint8_t&amp;<sp/><ref refid="classvehicle__status_1a16edc16a038670c0aac7a5d6078f0ccf" kindref="member">system_id_</ref>();</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"></highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a8178dfa52c1ecda46cfd5e013ac8c59c" kindref="member">component_id_</ref>(</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>_component_id_);</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"></highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint8_t<sp/><ref refid="classvehicle__status_1a8178dfa52c1ecda46cfd5e013ac8c59c" kindref="member">component_id_</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight></codeline>
+<codeline lineno="356"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint8_t&amp;<sp/><ref refid="classvehicle__status_1a8178dfa52c1ecda46cfd5e013ac8c59c" kindref="member">component_id_</ref>();</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"></highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a1b51e5790d6f0f7385c6f2b11efc9cda" kindref="member">vehicle_type_</ref>(</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>_vehicle_type_);</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight></codeline>
+<codeline lineno="369"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint8_t<sp/><ref refid="classvehicle__status_1a1b51e5790d6f0f7385c6f2b11efc9cda" kindref="member">vehicle_type_</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"></highlight></codeline>
+<codeline lineno="375"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint8_t&amp;<sp/><ref refid="classvehicle__status_1a1b51e5790d6f0f7385c6f2b11efc9cda" kindref="member">vehicle_type_</ref>();</highlight></codeline>
+<codeline lineno="376"><highlight class="normal"></highlight></codeline>
+<codeline lineno="381"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a701148d750436ab3a7ab1c181f7c90dc" kindref="member">is_vtol_</ref>(</highlight></codeline>
+<codeline lineno="382"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_is_vtol_);</highlight></codeline>
+<codeline lineno="383"><highlight class="normal"></highlight></codeline>
+<codeline lineno="388"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a701148d750436ab3a7ab1c181f7c90dc" kindref="member">is_vtol_</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="389"><highlight class="normal"></highlight></codeline>
+<codeline lineno="394"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&amp;<sp/><ref refid="classvehicle__status_1a701148d750436ab3a7ab1c181f7c90dc" kindref="member">is_vtol_</ref>();</highlight></codeline>
+<codeline lineno="395"><highlight class="normal"></highlight></codeline>
+<codeline lineno="400"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1ad6c26f5f7c86160fa0baf8622c7199a5" kindref="member">is_vtol_tailsitter_</ref>(</highlight></codeline>
+<codeline lineno="401"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_is_vtol_tailsitter_);</highlight></codeline>
+<codeline lineno="402"><highlight class="normal"></highlight></codeline>
+<codeline lineno="407"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1ad6c26f5f7c86160fa0baf8622c7199a5" kindref="member">is_vtol_tailsitter_</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="408"><highlight class="normal"></highlight></codeline>
+<codeline lineno="413"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&amp;<sp/><ref refid="classvehicle__status_1ad6c26f5f7c86160fa0baf8622c7199a5" kindref="member">is_vtol_tailsitter_</ref>();</highlight></codeline>
+<codeline lineno="414"><highlight class="normal"></highlight></codeline>
+<codeline lineno="419"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1ae18ca7a9791ee203f13cb414bb872cb4" kindref="member">vtol_fw_permanent_stab_</ref>(</highlight></codeline>
+<codeline lineno="420"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_vtol_fw_permanent_stab_);</highlight></codeline>
+<codeline lineno="421"><highlight class="normal"></highlight></codeline>
+<codeline lineno="426"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1ae18ca7a9791ee203f13cb414bb872cb4" kindref="member">vtol_fw_permanent_stab_</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="427"><highlight class="normal"></highlight></codeline>
+<codeline lineno="432"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&amp;<sp/><ref refid="classvehicle__status_1ae18ca7a9791ee203f13cb414bb872cb4" kindref="member">vtol_fw_permanent_stab_</ref>();</highlight></codeline>
+<codeline lineno="433"><highlight class="normal"></highlight></codeline>
+<codeline lineno="438"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a73f4321747000a6953835492003491e8" kindref="member">in_transition_mode_</ref>(</highlight></codeline>
+<codeline lineno="439"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_in_transition_mode_);</highlight></codeline>
+<codeline lineno="440"><highlight class="normal"></highlight></codeline>
+<codeline lineno="445"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a73f4321747000a6953835492003491e8" kindref="member">in_transition_mode_</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="446"><highlight class="normal"></highlight></codeline>
+<codeline lineno="451"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&amp;<sp/><ref refid="classvehicle__status_1a73f4321747000a6953835492003491e8" kindref="member">in_transition_mode_</ref>();</highlight></codeline>
+<codeline lineno="452"><highlight class="normal"></highlight></codeline>
+<codeline lineno="457"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a52afb9d46141df4474b29fba57203ed5" kindref="member">in_transition_to_fw_</ref>(</highlight></codeline>
+<codeline lineno="458"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_in_transition_to_fw_);</highlight></codeline>
+<codeline lineno="459"><highlight class="normal"></highlight></codeline>
+<codeline lineno="464"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a52afb9d46141df4474b29fba57203ed5" kindref="member">in_transition_to_fw_</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="465"><highlight class="normal"></highlight></codeline>
+<codeline lineno="470"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&amp;<sp/><ref refid="classvehicle__status_1a52afb9d46141df4474b29fba57203ed5" kindref="member">in_transition_to_fw_</ref>();</highlight></codeline>
+<codeline lineno="471"><highlight class="normal"></highlight></codeline>
+<codeline lineno="476"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a27c6543e02512daf2362da365b07458a" kindref="member">rc_signal_lost_</ref>(</highlight></codeline>
+<codeline lineno="477"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_rc_signal_lost_);</highlight></codeline>
+<codeline lineno="478"><highlight class="normal"></highlight></codeline>
+<codeline lineno="483"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a27c6543e02512daf2362da365b07458a" kindref="member">rc_signal_lost_</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="484"><highlight class="normal"></highlight></codeline>
+<codeline lineno="489"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&amp;<sp/><ref refid="classvehicle__status_1a27c6543e02512daf2362da365b07458a" kindref="member">rc_signal_lost_</ref>();</highlight></codeline>
+<codeline lineno="490"><highlight class="normal"></highlight></codeline>
+<codeline lineno="495"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1ad234e2114c520419787b14c3b398499a" kindref="member">rc_input_mode_</ref>(</highlight></codeline>
+<codeline lineno="496"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>_rc_input_mode_);</highlight></codeline>
+<codeline lineno="497"><highlight class="normal"></highlight></codeline>
+<codeline lineno="502"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint8_t<sp/><ref refid="classvehicle__status_1ad234e2114c520419787b14c3b398499a" kindref="member">rc_input_mode_</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="503"><highlight class="normal"></highlight></codeline>
+<codeline lineno="508"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint8_t&amp;<sp/><ref refid="classvehicle__status_1ad234e2114c520419787b14c3b398499a" kindref="member">rc_input_mode_</ref>();</highlight></codeline>
+<codeline lineno="509"><highlight class="normal"></highlight></codeline>
+<codeline lineno="514"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1add556355255c5a8f4ff4e0de2c6b7eef" kindref="member">data_link_lost_</ref>(</highlight></codeline>
+<codeline lineno="515"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_data_link_lost_);</highlight></codeline>
+<codeline lineno="516"><highlight class="normal"></highlight></codeline>
+<codeline lineno="521"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1add556355255c5a8f4ff4e0de2c6b7eef" kindref="member">data_link_lost_</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="522"><highlight class="normal"></highlight></codeline>
+<codeline lineno="527"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&amp;<sp/><ref refid="classvehicle__status_1add556355255c5a8f4ff4e0de2c6b7eef" kindref="member">data_link_lost_</ref>();</highlight></codeline>
+<codeline lineno="528"><highlight class="normal"></highlight></codeline>
+<codeline lineno="533"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a5428484f2ae9a5d49c902a1979995f95" kindref="member">data_link_lost_counter_</ref>(</highlight></codeline>
+<codeline lineno="534"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>_data_link_lost_counter_);</highlight></codeline>
+<codeline lineno="535"><highlight class="normal"></highlight></codeline>
+<codeline lineno="540"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint8_t<sp/><ref refid="classvehicle__status_1a5428484f2ae9a5d49c902a1979995f95" kindref="member">data_link_lost_counter_</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="541"><highlight class="normal"></highlight></codeline>
+<codeline lineno="546"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint8_t&amp;<sp/><ref refid="classvehicle__status_1a5428484f2ae9a5d49c902a1979995f95" kindref="member">data_link_lost_counter_</ref>();</highlight></codeline>
+<codeline lineno="547"><highlight class="normal"></highlight></codeline>
+<codeline lineno="552"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a74dc02d8ff4c39a058d6d4b979d90141" kindref="member">high_latency_data_link_lost_</ref>(</highlight></codeline>
+<codeline lineno="553"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_high_latency_data_link_lost_);</highlight></codeline>
+<codeline lineno="554"><highlight class="normal"></highlight></codeline>
+<codeline lineno="559"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a74dc02d8ff4c39a058d6d4b979d90141" kindref="member">high_latency_data_link_lost_</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="560"><highlight class="normal"></highlight></codeline>
+<codeline lineno="565"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&amp;<sp/><ref refid="classvehicle__status_1a74dc02d8ff4c39a058d6d4b979d90141" kindref="member">high_latency_data_link_lost_</ref>();</highlight></codeline>
+<codeline lineno="566"><highlight class="normal"></highlight></codeline>
+<codeline lineno="571"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1aebfa44b89468dea5326ecbafe6eef181" kindref="member">engine_failure_</ref>(</highlight></codeline>
+<codeline lineno="572"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_engine_failure_);</highlight></codeline>
+<codeline lineno="573"><highlight class="normal"></highlight></codeline>
+<codeline lineno="578"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1aebfa44b89468dea5326ecbafe6eef181" kindref="member">engine_failure_</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="579"><highlight class="normal"></highlight></codeline>
+<codeline lineno="584"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&amp;<sp/><ref refid="classvehicle__status_1aebfa44b89468dea5326ecbafe6eef181" kindref="member">engine_failure_</ref>();</highlight></codeline>
+<codeline lineno="585"><highlight class="normal"></highlight></codeline>
+<codeline lineno="590"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a972823ab8edd186a5a3b2247db1b66e1" kindref="member">mission_failure_</ref>(</highlight></codeline>
+<codeline lineno="591"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_mission_failure_);</highlight></codeline>
+<codeline lineno="592"><highlight class="normal"></highlight></codeline>
+<codeline lineno="597"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a972823ab8edd186a5a3b2247db1b66e1" kindref="member">mission_failure_</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="598"><highlight class="normal"></highlight></codeline>
+<codeline lineno="603"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&amp;<sp/><ref refid="classvehicle__status_1a972823ab8edd186a5a3b2247db1b66e1" kindref="member">mission_failure_</ref>();</highlight></codeline>
+<codeline lineno="604"><highlight class="normal"></highlight></codeline>
+<codeline lineno="609"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a29f97e6db7805938cd56e9362ff1a360" kindref="member">geofence_violated_</ref>(</highlight></codeline>
+<codeline lineno="610"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_geofence_violated_);</highlight></codeline>
+<codeline lineno="611"><highlight class="normal"></highlight></codeline>
+<codeline lineno="616"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a29f97e6db7805938cd56e9362ff1a360" kindref="member">geofence_violated_</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="617"><highlight class="normal"></highlight></codeline>
+<codeline lineno="622"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">&amp;<sp/><ref refid="classvehicle__status_1a29f97e6db7805938cd56e9362ff1a360" kindref="member">geofence_violated_</ref>();</highlight></codeline>
+<codeline lineno="623"><highlight class="normal"></highlight></codeline>
+<codeline lineno="628"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1afe8c1b2bcd533f3d0052e439cce04e69" kindref="member">failure_detector_status_</ref>(</highlight></codeline>
+<codeline lineno="629"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>_failure_detector_status_);</highlight></codeline>
+<codeline lineno="630"><highlight class="normal"></highlight></codeline>
+<codeline lineno="635"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint8_t<sp/><ref refid="classvehicle__status_1afe8c1b2bcd533f3d0052e439cce04e69" kindref="member">failure_detector_status_</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="636"><highlight class="normal"></highlight></codeline>
+<codeline lineno="641"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint8_t&amp;<sp/><ref refid="classvehicle__status_1afe8c1b2bcd533f3d0052e439cce04e69" kindref="member">failure_detector_status_</ref>();</highlight></codeline>
+<codeline lineno="642"><highlight class="normal"></highlight></codeline>
+<codeline lineno="647"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a4d6862c8f48e236bf3bb7fb68db187d8" kindref="member">onboard_control_sensors_present_</ref>(</highlight></codeline>
+<codeline lineno="648"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>_onboard_control_sensors_present_);</highlight></codeline>
+<codeline lineno="649"><highlight class="normal"></highlight></codeline>
+<codeline lineno="654"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint32_t<sp/><ref refid="classvehicle__status_1a4d6862c8f48e236bf3bb7fb68db187d8" kindref="member">onboard_control_sensors_present_</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="655"><highlight class="normal"></highlight></codeline>
+<codeline lineno="660"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint32_t&amp;<sp/><ref refid="classvehicle__status_1a4d6862c8f48e236bf3bb7fb68db187d8" kindref="member">onboard_control_sensors_present_</ref>();</highlight></codeline>
+<codeline lineno="661"><highlight class="normal"></highlight></codeline>
+<codeline lineno="666"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a8a649f4ae336bfadd5b9522f3f851403" kindref="member">onboard_control_sensors_enabled_</ref>(</highlight></codeline>
+<codeline lineno="667"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>_onboard_control_sensors_enabled_);</highlight></codeline>
+<codeline lineno="668"><highlight class="normal"></highlight></codeline>
+<codeline lineno="673"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint32_t<sp/><ref refid="classvehicle__status_1a8a649f4ae336bfadd5b9522f3f851403" kindref="member">onboard_control_sensors_enabled_</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="674"><highlight class="normal"></highlight></codeline>
+<codeline lineno="679"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint32_t&amp;<sp/><ref refid="classvehicle__status_1a8a649f4ae336bfadd5b9522f3f851403" kindref="member">onboard_control_sensors_enabled_</ref>();</highlight></codeline>
+<codeline lineno="680"><highlight class="normal"></highlight></codeline>
+<codeline lineno="685"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a1bb443ac456c59055f12dc1e9b185b2b" kindref="member">onboard_control_sensors_health_</ref>(</highlight></codeline>
+<codeline lineno="686"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint32_t<sp/>_onboard_control_sensors_health_);</highlight></codeline>
+<codeline lineno="687"><highlight class="normal"></highlight></codeline>
+<codeline lineno="692"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint32_t<sp/><ref refid="classvehicle__status_1a1bb443ac456c59055f12dc1e9b185b2b" kindref="member">onboard_control_sensors_health_</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="693"><highlight class="normal"></highlight></codeline>
+<codeline lineno="698"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint32_t&amp;<sp/><ref refid="classvehicle__status_1a1bb443ac456c59055f12dc1e9b185b2b" kindref="member">onboard_control_sensors_health_</ref>();</highlight></codeline>
+<codeline lineno="699"><highlight class="normal"></highlight></codeline>
+<codeline lineno="704"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a23029f48963e1a90f0acde98cf979d31" kindref="member">latest_arming_reason_</ref>(</highlight></codeline>
+<codeline lineno="705"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>_latest_arming_reason_);</highlight></codeline>
+<codeline lineno="706"><highlight class="normal"></highlight></codeline>
+<codeline lineno="711"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint8_t<sp/><ref refid="classvehicle__status_1a23029f48963e1a90f0acde98cf979d31" kindref="member">latest_arming_reason_</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="712"><highlight class="normal"></highlight></codeline>
+<codeline lineno="717"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint8_t&amp;<sp/><ref refid="classvehicle__status_1a23029f48963e1a90f0acde98cf979d31" kindref="member">latest_arming_reason_</ref>();</highlight></codeline>
+<codeline lineno="718"><highlight class="normal"></highlight></codeline>
+<codeline lineno="723"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a51142a67d334e621cf73c18d6d7b915c" kindref="member">latest_disarming_reason_</ref>(</highlight></codeline>
+<codeline lineno="724"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>_latest_disarming_reason_);</highlight></codeline>
+<codeline lineno="725"><highlight class="normal"></highlight></codeline>
+<codeline lineno="730"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint8_t<sp/><ref refid="classvehicle__status_1a51142a67d334e621cf73c18d6d7b915c" kindref="member">latest_disarming_reason_</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="731"><highlight class="normal"></highlight></codeline>
+<codeline lineno="736"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint8_t&amp;<sp/><ref refid="classvehicle__status_1a51142a67d334e621cf73c18d6d7b915c" kindref="member">latest_disarming_reason_</ref>();</highlight></codeline>
+<codeline lineno="737"><highlight class="normal"></highlight></codeline>
+<codeline lineno="742"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1ad1506cdb3448080bc9e5ac7a8d277aff" kindref="member">armed_time_</ref>(</highlight></codeline>
+<codeline lineno="743"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/>_armed_time_);</highlight></codeline>
+<codeline lineno="744"><highlight class="normal"></highlight></codeline>
+<codeline lineno="749"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint64_t<sp/><ref refid="classvehicle__status_1ad1506cdb3448080bc9e5ac7a8d277aff" kindref="member">armed_time_</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="750"><highlight class="normal"></highlight></codeline>
+<codeline lineno="755"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint64_t&amp;<sp/><ref refid="classvehicle__status_1ad1506cdb3448080bc9e5ac7a8d277aff" kindref="member">armed_time_</ref>();</highlight></codeline>
+<codeline lineno="756"><highlight class="normal"></highlight></codeline>
+<codeline lineno="761"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a3229f38e24db4dfbf68e63c19b5fd321" kindref="member">takeoff_time_</ref>(</highlight></codeline>
+<codeline lineno="762"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/>_takeoff_time_);</highlight></codeline>
+<codeline lineno="763"><highlight class="normal"></highlight></codeline>
+<codeline lineno="768"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint64_t<sp/><ref refid="classvehicle__status_1a3229f38e24db4dfbf68e63c19b5fd321" kindref="member">takeoff_time_</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="769"><highlight class="normal"></highlight></codeline>
+<codeline lineno="774"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/>uint64_t&amp;<sp/><ref refid="classvehicle__status_1a3229f38e24db4dfbf68e63c19b5fd321" kindref="member">takeoff_time_</ref>();</highlight></codeline>
+<codeline lineno="775"><highlight class="normal"></highlight></codeline>
+<codeline lineno="776"><highlight class="normal"></highlight></codeline>
+<codeline lineno="783"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a8399352d0133a2399d7067cb3a890b19" kindref="member">getMaxCdrSerializedSize</ref>(</highlight></codeline>
+<codeline lineno="784"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>current_alignment<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="785"><highlight class="normal"></highlight></codeline>
+<codeline lineno="792"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1af7d342afe75acd5aa496946c2e053f04" kindref="member">getCdrSerializedSize</ref>(</highlight></codeline>
+<codeline lineno="793"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status" kindref="compound">vehicle_status</ref>&amp;<sp/>data,</highlight></codeline>
+<codeline lineno="794"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>current_alignment<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="795"><highlight class="normal"></highlight></codeline>
+<codeline lineno="796"><highlight class="normal"></highlight></codeline>
+<codeline lineno="801"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1af1291792787556369fc84840ad6e9b43" kindref="member">serialize</ref>(</highlight></codeline>
+<codeline lineno="802"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>eprosima::fastcdr::Cdr&amp;<sp/>cdr)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="803"><highlight class="normal"></highlight></codeline>
+<codeline lineno="808"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a4758216607a0c14ce6c87824754486aa" kindref="member">deserialize</ref>(</highlight></codeline>
+<codeline lineno="809"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>eprosima::fastcdr::Cdr&amp;<sp/>cdr);</highlight></codeline>
+<codeline lineno="810"><highlight class="normal"></highlight></codeline>
+<codeline lineno="811"><highlight class="normal"></highlight></codeline>
+<codeline lineno="812"><highlight class="normal"></highlight></codeline>
+<codeline lineno="819"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a3da5882731ea0695889c292de4aaff90" kindref="member">getKeyMaxCdrSerializedSize</ref>(</highlight></codeline>
+<codeline lineno="820"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>current_alignment<sp/>=<sp/>0);</highlight></codeline>
+<codeline lineno="821"><highlight class="normal"></highlight></codeline>
+<codeline lineno="825"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a82febcb6e0ceeb2a0cc20734766ce88b" kindref="member">isKeyDefined</ref>();</highlight></codeline>
+<codeline lineno="826"><highlight class="normal"></highlight></codeline>
+<codeline lineno="831"><highlight class="normal"><sp/><sp/><sp/><sp/>eProsima_user_DllExport<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classvehicle__status_1a08a17342b69964c4a13886ab3b156531" kindref="member">serializeKey</ref>(</highlight></codeline>
+<codeline lineno="832"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>eprosima::fastcdr::Cdr&amp;<sp/>cdr)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="833"><highlight class="normal"></highlight></codeline>
+<codeline lineno="834"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="835"><highlight class="normal"></highlight></codeline>
+<codeline lineno="836"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>m_timestamp_;</highlight></codeline>
+<codeline lineno="837"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>m_nav_state_;</highlight></codeline>
+<codeline lineno="838"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>m_nav_state_timestamp_;</highlight></codeline>
+<codeline lineno="839"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>m_arming_state_;</highlight></codeline>
+<codeline lineno="840"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>m_hil_state_;</highlight></codeline>
+<codeline lineno="841"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>m_failsafe_;</highlight></codeline>
+<codeline lineno="842"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>m_failsafe_timestamp_;</highlight></codeline>
+<codeline lineno="843"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>m_system_type_;</highlight></codeline>
+<codeline lineno="844"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>m_system_id_;</highlight></codeline>
+<codeline lineno="845"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>m_component_id_;</highlight></codeline>
+<codeline lineno="846"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>m_vehicle_type_;</highlight></codeline>
+<codeline lineno="847"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>m_is_vtol_;</highlight></codeline>
+<codeline lineno="848"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>m_is_vtol_tailsitter_;</highlight></codeline>
+<codeline lineno="849"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>m_vtol_fw_permanent_stab_;</highlight></codeline>
+<codeline lineno="850"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>m_in_transition_mode_;</highlight></codeline>
+<codeline lineno="851"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>m_in_transition_to_fw_;</highlight></codeline>
+<codeline lineno="852"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>m_rc_signal_lost_;</highlight></codeline>
+<codeline lineno="853"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>m_rc_input_mode_;</highlight></codeline>
+<codeline lineno="854"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>m_data_link_lost_;</highlight></codeline>
+<codeline lineno="855"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>m_data_link_lost_counter_;</highlight></codeline>
+<codeline lineno="856"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>m_high_latency_data_link_lost_;</highlight></codeline>
+<codeline lineno="857"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>m_engine_failure_;</highlight></codeline>
+<codeline lineno="858"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>m_mission_failure_;</highlight></codeline>
+<codeline lineno="859"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>m_geofence_violated_;</highlight></codeline>
+<codeline lineno="860"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>m_failure_detector_status_;</highlight></codeline>
+<codeline lineno="861"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>m_onboard_control_sensors_present_;</highlight></codeline>
+<codeline lineno="862"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>m_onboard_control_sensors_enabled_;</highlight></codeline>
+<codeline lineno="863"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>m_onboard_control_sensors_health_;</highlight></codeline>
+<codeline lineno="864"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>m_latest_arming_reason_;</highlight></codeline>
+<codeline lineno="865"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>m_latest_disarming_reason_;</highlight></codeline>
+<codeline lineno="866"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>m_armed_time_;</highlight></codeline>
+<codeline lineno="867"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>m_takeoff_time_;</highlight></codeline>
+<codeline lineno="868"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="869"><highlight class="normal"></highlight></codeline>
+<codeline lineno="870"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">//<sp/>_VEHICLE_STATUS_H_</highlight></codeline>
+    </programlisting>
+    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_status.h"/>
+  </compounddef>
+</doxygen>

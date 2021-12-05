@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classvehicle__status_pub_sub_type" kind="class" language="C++" prot="public">
+    <compoundname>vehicle_statusPubSubType</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">eprosima::fastdds::dds::TopicDataType</basecompoundref>
+    <includes refid="vehicle__status_pub_sub_types_8h" local="no">vehicle_statusPubSubTypes.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classvehicle__status_pub_sub_type_1a2be00bf96a4cef8cb68f6e3b7f2d33a1" prot="public" static="no">
+        <type><ref refid="classvehicle__status" kindref="compound">vehicle_status</ref></type>
+        <definition>typedef vehicle_status vehicle_statusPubSubType::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_statusPubSubTypes.h" line="101" column="28" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_statusPubSubTypes.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classvehicle__status_pub_sub_type_1a058439e8d6b81e47f83f0c1ed8f94cdb" prot="public" static="no" mutable="no">
+        <type>MD5</type>
+        <definition>MD5 vehicle_statusPubSubType::m_md5</definition>
+        <argsstring></argsstring>
+        <name>m_md5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_statusPubSubTypes.h" line="154" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_statusPubSubTypes.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__status_pub_sub_type_1a9014adfa066c0274c329e7a339ff7b0b" prot="public" static="no" mutable="no">
+        <type>unsigned char *</type>
+        <definition>unsigned char* vehicle_statusPubSubType::m_keyBuffer</definition>
+        <argsstring></argsstring>
+        <name>m_keyBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_statusPubSubTypes.h" line="155" column="19" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_statusPubSubTypes.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classvehicle__status_pub_sub_type_1aea941a73c61b3b1be103fe0806ff9f7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>vehicle_statusPubSubType::vehicle_statusPubSubType</definition>
+        <argsstring>()</argsstring>
+        <name>vehicle_statusPubSubType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_statusPubSubTypes.h" line="103" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_statusPubSubTypes.cxx" bodystart="89" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__status_pub_sub_type_1a98633390983ac922a9400c5d533738d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>vehicle_statusPubSubType::~vehicle_statusPubSubType</definition>
+        <argsstring>()</argsstring>
+        <name>~vehicle_statusPubSubType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_statusPubSubTypes.h" line="105" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_statusPubSubTypes.cxx" bodystart="102" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__status_pub_sub_type_1a92f1b8451d3df63dd542900a1d4bb1b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool vehicle_statusPubSubType::serialize</definition>
+        <argsstring>(void *data, eprosima::fastrtps::rtps::SerializedPayload_t *payload) override</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>eprosima::fastrtps::rtps::SerializedPayload_t *</type>
+          <declname>payload</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_statusPubSubTypes.h" line="107" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_statusPubSubTypes.cxx" bodystart="110" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__status_pub_sub_type_1a9dfaf46bfd49d07b1f846f70f38b0709" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool vehicle_statusPubSubType::deserialize</definition>
+        <argsstring>(eprosima::fastrtps::rtps::SerializedPayload_t *payload, void *data) override</argsstring>
+        <name>deserialize</name>
+        <param>
+          <type>eprosima::fastrtps::rtps::SerializedPayload_t *</type>
+          <declname>payload</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_statusPubSubTypes.h" line="111" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_statusPubSubTypes.cxx" bodystart="139" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__status_pub_sub_type_1a499c62d332d75f1b76e40f0660f9fd5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport std::function&lt; uint32_t()&gt;</type>
+        <definition>std::function&lt; uint32_t()&gt; vehicle_statusPubSubType::getSerializedSizeProvider</definition>
+        <argsstring>(void *data) override</argsstring>
+        <name>getSerializedSizeProvider</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_statusPubSubTypes.h" line="115" column="51" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_statusPubSubTypes.cxx" bodystart="169" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__status_pub_sub_type_1a4e575f1e228dd91d14a08d81fba10ace" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool vehicle_statusPubSubType::getKey</definition>
+        <argsstring>(void *data, eprosima::fastrtps::rtps::InstanceHandle_t *ihandle, bool force_md5=false) override</argsstring>
+        <name>getKey</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>eprosima::fastrtps::rtps::InstanceHandle_t *</type>
+          <declname>ihandle</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>force_md5</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_statusPubSubTypes.h" line="118" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_statusPubSubTypes.cxx" bodystart="190" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__status_pub_sub_type_1a4e10cc9c859feda4bd1f89747f35cf02" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport void *</type>
+        <definition>void * vehicle_statusPubSubType::createData</definition>
+        <argsstring>() override</argsstring>
+        <name>createData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_statusPubSubTypes.h" line="123" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_statusPubSubTypes.cxx" bodystart="179" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__status_pub_sub_type_1a67eb9d91265d3dd12d2334e257b5591d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_statusPubSubType::deleteData</definition>
+        <argsstring>(void *data) override</argsstring>
+        <name>deleteData</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_statusPubSubTypes.h" line="125" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_statusPubSubTypes.cxx" bodystart="184" bodyend="188"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents the TopicDataType of the type <ref refid="classvehicle__status" kindref="compound">vehicle_status</ref> defined by the user in the IDL file. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>eprosima::fastdds::dds::TopicDataType</label>
+      </node>
+      <node id="1">
+        <label>vehicle_statusPubSubType</label>
+        <link refid="classvehicle__status_pub_sub_type"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>eprosima::fastdds::dds::TopicDataType</label>
+      </node>
+      <node id="1">
+        <label>vehicle_statusPubSubType</label>
+        <link refid="classvehicle__status_pub_sub_type"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_statusPubSubTypes.h" line="97" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_statusPubSubTypes.h" bodystart="98" bodyend="156"/>
+    <listofallmembers>
+      <member refid="classvehicle__status_pub_sub_type_1a4e10cc9c859feda4bd1f89747f35cf02" prot="public" virt="virtual"><scope>vehicle_statusPubSubType</scope><name>createData</name></member>
+      <member refid="classvehicle__status_pub_sub_type_1a67eb9d91265d3dd12d2334e257b5591d" prot="public" virt="virtual"><scope>vehicle_statusPubSubType</scope><name>deleteData</name></member>
+      <member refid="classvehicle__status_pub_sub_type_1a9dfaf46bfd49d07b1f846f70f38b0709" prot="public" virt="virtual"><scope>vehicle_statusPubSubType</scope><name>deserialize</name></member>
+      <member refid="classvehicle__status_pub_sub_type_1a4e575f1e228dd91d14a08d81fba10ace" prot="public" virt="virtual"><scope>vehicle_statusPubSubType</scope><name>getKey</name></member>
+      <member refid="classvehicle__status_pub_sub_type_1a499c62d332d75f1b76e40f0660f9fd5a" prot="public" virt="virtual"><scope>vehicle_statusPubSubType</scope><name>getSerializedSizeProvider</name></member>
+      <member refid="classvehicle__status_pub_sub_type_1a9014adfa066c0274c329e7a339ff7b0b" prot="public" virt="non-virtual"><scope>vehicle_statusPubSubType</scope><name>m_keyBuffer</name></member>
+      <member refid="classvehicle__status_pub_sub_type_1a058439e8d6b81e47f83f0c1ed8f94cdb" prot="public" virt="non-virtual"><scope>vehicle_statusPubSubType</scope><name>m_md5</name></member>
+      <member refid="classvehicle__status_pub_sub_type_1a92f1b8451d3df63dd542900a1d4bb1b5" prot="public" virt="virtual"><scope>vehicle_statusPubSubType</scope><name>serialize</name></member>
+      <member refid="classvehicle__status_pub_sub_type_1a2be00bf96a4cef8cb68f6e3b7f2d33a1" prot="public" virt="non-virtual"><scope>vehicle_statusPubSubType</scope><name>type</name></member>
+      <member refid="classvehicle__status_pub_sub_type_1aea941a73c61b3b1be103fe0806ff9f7a" prot="public" virt="non-virtual"><scope>vehicle_statusPubSubType</scope><name>vehicle_statusPubSubType</name></member>
+      <member refid="classvehicle__status_pub_sub_type_1a98633390983ac922a9400c5d533738d2" prot="public" virt="virtual"><scope>vehicle_statusPubSubType</scope><name>~vehicle_statusPubSubType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

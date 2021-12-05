@@ -1,5 +1,5 @@
-Docs
-====
+Domain Participant
+====================
 
 .. doxygenclass:: DefaultParticipant
    :members:

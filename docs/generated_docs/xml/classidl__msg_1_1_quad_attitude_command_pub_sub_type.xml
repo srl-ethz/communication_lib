@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classidl__msg_1_1_quad_attitude_command_pub_sub_type" kind="class" language="C++" prot="public">
+    <compoundname>idl_msg::QuadAttitudeCommandPubSubType</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">eprosima::fastdds::dds::TopicDataType</basecompoundref>
+    <includes refid="_quad_attitude_command_pub_sub_types_8h" local="no">QuadAttitudeCommandPubSubTypes.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classidl__msg_1_1_quad_attitude_command_pub_sub_type_1af642fdb929e830f8e2c1ce7b7bd43f1f" prot="public" static="no">
+        <type><ref refid="classidl__msg_1_1_quad_attitude_command" kindref="compound">QuadAttitudeCommand</ref></type>
+        <definition>typedef QuadAttitudeCommand idl_msg::QuadAttitudeCommandPubSubType::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeCommandPubSubTypes.h" line="45" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeCommandPubSubTypes.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classidl__msg_1_1_quad_attitude_command_pub_sub_type_1afc343ad25d65091bd30cc566077226e5" prot="public" static="no" mutable="no">
+        <type>MD5</type>
+        <definition>MD5 idl_msg::QuadAttitudeCommandPubSubType::m_md5</definition>
+        <argsstring></argsstring>
+        <name>m_md5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeCommandPubSubTypes.h" line="98" column="13" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeCommandPubSubTypes.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classidl__msg_1_1_quad_attitude_command_pub_sub_type_1a9a14aa2e4ee08b9574e9519445add667" prot="public" static="no" mutable="no">
+        <type>unsigned char *</type>
+        <definition>unsigned char* idl_msg::QuadAttitudeCommandPubSubType::m_keyBuffer</definition>
+        <argsstring></argsstring>
+        <name>m_keyBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeCommandPubSubTypes.h" line="99" column="23" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeCommandPubSubTypes.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classidl__msg_1_1_quad_attitude_command_pub_sub_type_1ac9c83b46b95ad86f43bc075b93d52baf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>idl_msg::QuadAttitudeCommandPubSubType::QuadAttitudeCommandPubSubType</definition>
+        <argsstring>()</argsstring>
+        <name>QuadAttitudeCommandPubSubType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeCommandPubSubTypes.h" line="47" column="33" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeCommandPubSubTypes.cxx" bodystart="32" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_quad_attitude_command_pub_sub_type_1a8cf468170b0cf1fb18bed01734a180f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>idl_msg::QuadAttitudeCommandPubSubType::~QuadAttitudeCommandPubSubType</definition>
+        <argsstring>()</argsstring>
+        <name>~QuadAttitudeCommandPubSubType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeCommandPubSubTypes.h" line="49" column="41" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeCommandPubSubTypes.cxx" bodystart="45" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_quad_attitude_command_pub_sub_type_1a7aa67e5569a48a495f831c740fe68af3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool idl_msg::QuadAttitudeCommandPubSubType::serialize</definition>
+        <argsstring>(void *data, eprosima::fastrtps::rtps::SerializedPayload_t *payload) override</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>eprosima::fastrtps::rtps::SerializedPayload_t *</type>
+          <declname>payload</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeCommandPubSubTypes.h" line="51" column="46" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeCommandPubSubTypes.cxx" bodystart="53" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_quad_attitude_command_pub_sub_type_1aca4bb5bec33aa93f21de31d75818791b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool idl_msg::QuadAttitudeCommandPubSubType::deserialize</definition>
+        <argsstring>(eprosima::fastrtps::rtps::SerializedPayload_t *payload, void *data) override</argsstring>
+        <name>deserialize</name>
+        <param>
+          <type>eprosima::fastrtps::rtps::SerializedPayload_t *</type>
+          <declname>payload</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeCommandPubSubTypes.h" line="55" column="46" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeCommandPubSubTypes.cxx" bodystart="82" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_quad_attitude_command_pub_sub_type_1acbc540cb2f479e6d2f1f8f7af6c26a1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport std::function&lt; uint32_t()&gt;</type>
+        <definition>std::function&lt; uint32_t()&gt; idl_msg::QuadAttitudeCommandPubSubType::getSerializedSizeProvider</definition>
+        <argsstring>(void *data) override</argsstring>
+        <name>getSerializedSizeProvider</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeCommandPubSubTypes.h" line="59" column="55" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeCommandPubSubTypes.cxx" bodystart="112" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_quad_attitude_command_pub_sub_type_1a651dbdbde7eab94071af4bf820db8366" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool idl_msg::QuadAttitudeCommandPubSubType::getKey</definition>
+        <argsstring>(void *data, eprosima::fastrtps::rtps::InstanceHandle_t *ihandle, bool force_md5=false) override</argsstring>
+        <name>getKey</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>eprosima::fastrtps::rtps::InstanceHandle_t *</type>
+          <declname>ihandle</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>force_md5</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeCommandPubSubTypes.h" line="62" column="46" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeCommandPubSubTypes.cxx" bodystart="133" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_quad_attitude_command_pub_sub_type_1ab45d944d10d3b63a0de0810346b1137f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport void *</type>
+        <definition>void * idl_msg::QuadAttitudeCommandPubSubType::createData</definition>
+        <argsstring>() override</argsstring>
+        <name>createData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeCommandPubSubTypes.h" line="67" column="46" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeCommandPubSubTypes.cxx" bodystart="122" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_quad_attitude_command_pub_sub_type_1a4d7bff71c036037b1b35f2280b191104" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void idl_msg::QuadAttitudeCommandPubSubType::deleteData</definition>
+        <argsstring>(void *data) override</argsstring>
+        <name>deleteData</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeCommandPubSubTypes.h" line="69" column="46" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeCommandPubSubTypes.cxx" bodystart="127" bodyend="131"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents the TopicDataType of the type <ref refid="classidl__msg_1_1_quad_attitude_command" kindref="compound">QuadAttitudeCommand</ref> defined by the user in the IDL file. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>eprosima::fastdds::dds::TopicDataType</label>
+      </node>
+      <node id="1">
+        <label>idl_msg::QuadAttitudeCommandPubSubType</label>
+        <link refid="classidl__msg_1_1_quad_attitude_command_pub_sub_type"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>eprosima::fastdds::dds::TopicDataType</label>
+      </node>
+      <node id="1">
+        <label>idl_msg::QuadAttitudeCommandPubSubType</label>
+        <link refid="classidl__msg_1_1_quad_attitude_command_pub_sub_type"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeCommandPubSubTypes.h" line="41" column="5" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeCommandPubSubTypes.h" bodystart="42" bodyend="100"/>
+    <listofallmembers>
+      <member refid="classidl__msg_1_1_quad_attitude_command_pub_sub_type_1ab45d944d10d3b63a0de0810346b1137f" prot="public" virt="virtual"><scope>idl_msg::QuadAttitudeCommandPubSubType</scope><name>createData</name></member>
+      <member refid="classidl__msg_1_1_quad_attitude_command_pub_sub_type_1a4d7bff71c036037b1b35f2280b191104" prot="public" virt="virtual"><scope>idl_msg::QuadAttitudeCommandPubSubType</scope><name>deleteData</name></member>
+      <member refid="classidl__msg_1_1_quad_attitude_command_pub_sub_type_1aca4bb5bec33aa93f21de31d75818791b" prot="public" virt="virtual"><scope>idl_msg::QuadAttitudeCommandPubSubType</scope><name>deserialize</name></member>
+      <member refid="classidl__msg_1_1_quad_attitude_command_pub_sub_type_1a651dbdbde7eab94071af4bf820db8366" prot="public" virt="virtual"><scope>idl_msg::QuadAttitudeCommandPubSubType</scope><name>getKey</name></member>
+      <member refid="classidl__msg_1_1_quad_attitude_command_pub_sub_type_1acbc540cb2f479e6d2f1f8f7af6c26a1e" prot="public" virt="virtual"><scope>idl_msg::QuadAttitudeCommandPubSubType</scope><name>getSerializedSizeProvider</name></member>
+      <member refid="classidl__msg_1_1_quad_attitude_command_pub_sub_type_1a9a14aa2e4ee08b9574e9519445add667" prot="public" virt="non-virtual"><scope>idl_msg::QuadAttitudeCommandPubSubType</scope><name>m_keyBuffer</name></member>
+      <member refid="classidl__msg_1_1_quad_attitude_command_pub_sub_type_1afc343ad25d65091bd30cc566077226e5" prot="public" virt="non-virtual"><scope>idl_msg::QuadAttitudeCommandPubSubType</scope><name>m_md5</name></member>
+      <member refid="classidl__msg_1_1_quad_attitude_command_pub_sub_type_1ac9c83b46b95ad86f43bc075b93d52baf" prot="public" virt="non-virtual"><scope>idl_msg::QuadAttitudeCommandPubSubType</scope><name>QuadAttitudeCommandPubSubType</name></member>
+      <member refid="classidl__msg_1_1_quad_attitude_command_pub_sub_type_1a7aa67e5569a48a495f831c740fe68af3" prot="public" virt="virtual"><scope>idl_msg::QuadAttitudeCommandPubSubType</scope><name>serialize</name></member>
+      <member refid="classidl__msg_1_1_quad_attitude_command_pub_sub_type_1af642fdb929e830f8e2c1ce7b7bd43f1f" prot="public" virt="non-virtual"><scope>idl_msg::QuadAttitudeCommandPubSubType</scope><name>type</name></member>
+      <member refid="classidl__msg_1_1_quad_attitude_command_pub_sub_type_1a8cf468170b0cf1fb18bed01734a180f1" prot="public" virt="virtual"><scope>idl_msg::QuadAttitudeCommandPubSubType</scope><name>~QuadAttitudeCommandPubSubType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

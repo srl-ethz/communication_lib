@@ -1,0 +1,135 @@
+\hypertarget{_quad_motor_command_8h_source}{}\doxysection{Quad\+Motor\+Command.\+h}
+\label{_quad_motor_command_8h_source}\index{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/msg\_definitions/QuadMotorCommand.h@{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/msg\_definitions/QuadMotorCommand.h}}
+\mbox{\hyperlink{_quad_motor_command_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{// Copyright 2016 Proyectos y Sistemas de Mantenimiento SL (eProsima).}}
+\DoxyCodeLine{2 \textcolor{comment}{//}}
+\DoxyCodeLine{3 \textcolor{comment}{// Licensed under the Apache License, Version 2.0 (the "{}License"{});}}
+\DoxyCodeLine{4 \textcolor{comment}{// you may not use this file except in compliance with the License.}}
+\DoxyCodeLine{5 \textcolor{comment}{// You may obtain a copy of the License at}}
+\DoxyCodeLine{6 \textcolor{comment}{//}}
+\DoxyCodeLine{7 \textcolor{comment}{//     http://www.apache.org/licenses/LICENSE-\/2.0}}
+\DoxyCodeLine{8 \textcolor{comment}{//}}
+\DoxyCodeLine{9 \textcolor{comment}{// Unless required by applicable law or agreed to in writing, software}}
+\DoxyCodeLine{10 \textcolor{comment}{// distributed under the License is distributed on an "{}AS IS"{} BASIS,}}
+\DoxyCodeLine{11 \textcolor{comment}{// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.}}
+\DoxyCodeLine{12 \textcolor{comment}{// See the License for the specific language governing permissions and}}
+\DoxyCodeLine{13 \textcolor{comment}{// limitations under the License.}}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{22 \textcolor{preprocessor}{\#ifndef \_IDL\_MSG\_QUADMOTORCOMMAND\_H\_}}
+\DoxyCodeLine{23 \textcolor{preprocessor}{\#define \_IDL\_MSG\_QUADMOTORCOMMAND\_H\_}}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_header_8h}{Header.h}}"{}}}
+\DoxyCodeLine{26 }
+\DoxyCodeLine{27 \textcolor{preprocessor}{\#include <stdint.h>}}
+\DoxyCodeLine{28 \textcolor{preprocessor}{\#include <array>}}
+\DoxyCodeLine{29 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{30 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{31 \textcolor{preprocessor}{\#include <map>}}
+\DoxyCodeLine{32 \textcolor{preprocessor}{\#include <bitset>}}
+\DoxyCodeLine{33 }
+\DoxyCodeLine{34 \textcolor{preprocessor}{\#if defined(\_WIN32)}}
+\DoxyCodeLine{35 \textcolor{preprocessor}{\#if defined(EPROSIMA\_USER\_DLL\_EXPORT)}}
+\DoxyCodeLine{36 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport \_\_declspec( dllexport )}}
+\DoxyCodeLine{37 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{38 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport}}
+\DoxyCodeLine{39 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// EPROSIMA\_USER\_DLL\_EXPORT}}
+\DoxyCodeLine{40 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{41 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport}}
+\DoxyCodeLine{42 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// \_WIN32}}
+\DoxyCodeLine{43 }
+\DoxyCodeLine{44 \textcolor{preprocessor}{\#if defined(\_WIN32)}}
+\DoxyCodeLine{45 \textcolor{preprocessor}{\#if defined(EPROSIMA\_USER\_DLL\_EXPORT)}}
+\DoxyCodeLine{46 \textcolor{preprocessor}{\#if defined(QuadMotorCommand\_SOURCE)}}
+\DoxyCodeLine{47 \textcolor{preprocessor}{\#define QuadMotorCommand\_DllAPI \_\_declspec( dllexport )}}
+\DoxyCodeLine{48 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{49 \textcolor{preprocessor}{\#define QuadMotorCommand\_DllAPI \_\_declspec( dllimport )}}
+\DoxyCodeLine{50 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// QuadMotorCommand\_SOURCE}}
+\DoxyCodeLine{51 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{52 \textcolor{preprocessor}{\#define QuadMotorCommand\_DllAPI}}
+\DoxyCodeLine{53 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// EPROSIMA\_USER\_DLL\_EXPORT}}
+\DoxyCodeLine{54 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{55 \textcolor{preprocessor}{\#define QuadMotorCommand\_DllAPI}}
+\DoxyCodeLine{56 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_WIN32}}
+\DoxyCodeLine{57 }
+\DoxyCodeLine{58 \textcolor{keyword}{namespace }eprosima \{}
+\DoxyCodeLine{59 \textcolor{keyword}{namespace }fastcdr \{}
+\DoxyCodeLine{60 \textcolor{keyword}{class }Cdr;}
+\DoxyCodeLine{61 \} \textcolor{comment}{// namespace fastcdr}}
+\DoxyCodeLine{62 \} \textcolor{comment}{// namespace eprosima}}
+\DoxyCodeLine{63 }
+\DoxyCodeLine{64 }
+\DoxyCodeLine{65 \textcolor{keyword}{namespace }idl\_msg \{}
+\DoxyCodeLine{70     \textcolor{keyword}{class }\mbox{\hyperlink{classidl__msg_1_1_quad_motor_command}{QuadMotorCommand}}}
+\DoxyCodeLine{71     \{}
+\DoxyCodeLine{72     \textcolor{keyword}{public}:}
+\DoxyCodeLine{73 }
+\DoxyCodeLine{77         eProsima\_user\_DllExport \mbox{\hyperlink{classidl__msg_1_1_quad_motor_command_a59ea3fbadbf79910804b482a447d9935}{QuadMotorCommand}}();}
+\DoxyCodeLine{78 }
+\DoxyCodeLine{82         eProsima\_user\_DllExport \mbox{\hyperlink{classidl__msg_1_1_quad_motor_command_a1681f377110d400ae986f7a450ef7b57}{\string~QuadMotorCommand}}();}
+\DoxyCodeLine{83 }
+\DoxyCodeLine{88         eProsima\_user\_DllExport \mbox{\hyperlink{classidl__msg_1_1_quad_motor_command_a59ea3fbadbf79910804b482a447d9935}{QuadMotorCommand}}(}
+\DoxyCodeLine{89                 \textcolor{keyword}{const} \mbox{\hyperlink{classidl__msg_1_1_quad_motor_command}{QuadMotorCommand}}\& x);}
+\DoxyCodeLine{90 }
+\DoxyCodeLine{95         eProsima\_user\_DllExport \mbox{\hyperlink{classidl__msg_1_1_quad_motor_command_a59ea3fbadbf79910804b482a447d9935}{QuadMotorCommand}}(}
+\DoxyCodeLine{96                 \mbox{\hyperlink{classidl__msg_1_1_quad_motor_command}{QuadMotorCommand}}\&\& x);}
+\DoxyCodeLine{97 }
+\DoxyCodeLine{102         eProsima\_user\_DllExport \mbox{\hyperlink{classidl__msg_1_1_quad_motor_command}{QuadMotorCommand}}\& \mbox{\hyperlink{classidl__msg_1_1_quad_motor_command_a017c3eff5340c838a0e542b38a1e5fe0}{operator =}}(}
+\DoxyCodeLine{103                 \textcolor{keyword}{const} \mbox{\hyperlink{classidl__msg_1_1_quad_motor_command}{QuadMotorCommand}}\& x);}
+\DoxyCodeLine{104 }
+\DoxyCodeLine{109         eProsima\_user\_DllExport \mbox{\hyperlink{classidl__msg_1_1_quad_motor_command}{QuadMotorCommand}}\& \mbox{\hyperlink{classidl__msg_1_1_quad_motor_command_a017c3eff5340c838a0e542b38a1e5fe0}{operator =}}(}
+\DoxyCodeLine{110                 \mbox{\hyperlink{classidl__msg_1_1_quad_motor_command}{QuadMotorCommand}}\&\& x);}
+\DoxyCodeLine{111 }
+\DoxyCodeLine{116         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_quad_motor_command_a9fe64418e1bb45bcf3887aa82a4a6af2}{header}}(}
+\DoxyCodeLine{117                 \textcolor{keyword}{const} \mbox{\hyperlink{classidl__msg_1_1_header}{idl\_msg::Header}}\& \_header);}
+\DoxyCodeLine{118 }
+\DoxyCodeLine{123         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_quad_motor_command_a9fe64418e1bb45bcf3887aa82a4a6af2}{header}}(}
+\DoxyCodeLine{124                 \mbox{\hyperlink{classidl__msg_1_1_header}{idl\_msg::Header}}\&\& \_header);}
+\DoxyCodeLine{125 }
+\DoxyCodeLine{130         eProsima\_user\_DllExport \textcolor{keyword}{const} \mbox{\hyperlink{classidl__msg_1_1_header}{idl\_msg::Header}}\& \mbox{\hyperlink{classidl__msg_1_1_quad_motor_command_a9fe64418e1bb45bcf3887aa82a4a6af2}{header}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{131 }
+\DoxyCodeLine{136         eProsima\_user\_DllExport \mbox{\hyperlink{classidl__msg_1_1_header}{idl\_msg::Header}}\& \mbox{\hyperlink{classidl__msg_1_1_quad_motor_command_a9fe64418e1bb45bcf3887aa82a4a6af2}{header}}();}
+\DoxyCodeLine{141         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_quad_motor_command_acf9e88e01a6d6f99351669457fed554f}{motorspeed}}(}
+\DoxyCodeLine{142                 \textcolor{keyword}{const} std::array<float, 4>\& \_motorspeed);}
+\DoxyCodeLine{143 }
+\DoxyCodeLine{148         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_quad_motor_command_acf9e88e01a6d6f99351669457fed554f}{motorspeed}}(}
+\DoxyCodeLine{149                 std::array<float, 4>\&\& \_motorspeed);}
+\DoxyCodeLine{150 }
+\DoxyCodeLine{155         eProsima\_user\_DllExport \textcolor{keyword}{const} std::array<float, 4>\& \mbox{\hyperlink{classidl__msg_1_1_quad_motor_command_acf9e88e01a6d6f99351669457fed554f}{motorspeed}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{156 }
+\DoxyCodeLine{161         eProsima\_user\_DllExport std::array<float, 4>\& \mbox{\hyperlink{classidl__msg_1_1_quad_motor_command_acf9e88e01a6d6f99351669457fed554f}{motorspeed}}();}
+\DoxyCodeLine{162 }
+\DoxyCodeLine{169         eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classidl__msg_1_1_quad_motor_command_a4adbbc08a6518498b739af03f626cd92}{getMaxCdrSerializedSize}}(}
+\DoxyCodeLine{170                 \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{171 }
+\DoxyCodeLine{178         eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classidl__msg_1_1_quad_motor_command_a60b75b4d54b24b20479e1ca8a859dbf3}{getCdrSerializedSize}}(}
+\DoxyCodeLine{179                 \textcolor{keyword}{const} \mbox{\hyperlink{classidl__msg_1_1_quad_motor_command}{idl\_msg::QuadMotorCommand}}\& data,}
+\DoxyCodeLine{180                 \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{181 }
+\DoxyCodeLine{182 }
+\DoxyCodeLine{187         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_quad_motor_command_af13098717c70baae8223d7d6e5bf3134}{serialize}}(}
+\DoxyCodeLine{188                 eprosima::fastcdr::Cdr\& cdr) \textcolor{keyword}{const};}
+\DoxyCodeLine{189 }
+\DoxyCodeLine{194         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_quad_motor_command_a3c55d85ebfdcef824b2b505b95f0029f}{deserialize}}(}
+\DoxyCodeLine{195                 eprosima::fastcdr::Cdr\& cdr);}
+\DoxyCodeLine{196 }
+\DoxyCodeLine{197 }
+\DoxyCodeLine{198 }
+\DoxyCodeLine{205         eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classidl__msg_1_1_quad_motor_command_ad4dce6d9678e87ffc72b10f2725d8166}{getKeyMaxCdrSerializedSize}}(}
+\DoxyCodeLine{206                 \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{207 }
+\DoxyCodeLine{211         eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{bool} \mbox{\hyperlink{classidl__msg_1_1_quad_motor_command_a43203ee27e1731d465d54576aa809220}{isKeyDefined}}();}
+\DoxyCodeLine{212 }
+\DoxyCodeLine{217         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_quad_motor_command_ae79bd94c54e8196c1f062738a43c75da}{serializeKey}}(}
+\DoxyCodeLine{218                 eprosima::fastcdr::Cdr\& cdr) \textcolor{keyword}{const};}
+\DoxyCodeLine{219 }
+\DoxyCodeLine{220     \textcolor{keyword}{private}:}
+\DoxyCodeLine{221 }
+\DoxyCodeLine{222         \mbox{\hyperlink{classidl__msg_1_1_header}{idl\_msg::Header}} m\_header;}
+\DoxyCodeLine{223         std::array<float, 4> m\_motorspeed;}
+\DoxyCodeLine{224     \};}
+\DoxyCodeLine{225 \} \textcolor{comment}{// namespace idl\_msg}}
+\DoxyCodeLine{226 }
+\DoxyCodeLine{227 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_IDL\_MSG\_QUADMOTORCOMMAND\_H\_}}
+
+\end{DoxyCode}

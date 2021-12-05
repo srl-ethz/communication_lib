@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_video_publisher" kind="class" language="C++" prot="public">
+    <compoundname>VideoPublisher</compoundname>
+    <innerclass refid="class_video_publisher_1_1_pub_listener" prot="public">VideoPublisher::PubListener</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_video_publisher_1a913ddcb62321a03282899d4bff15e006" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string VideoPublisher::topic_name_</definition>
+        <argsstring></argsstring>
+        <name>topic_name_</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" line="26" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_video_publisher_1a2df0121777a50c64ce3f7e68e8668fb5" prot="public" static="no" mutable="no">
+        <type><ref refid="class_video_publisher_1_1_pub_listener" kindref="compound">VideoPublisher::PubListener</ref></type>
+        <definition>VideoPublisher::PubListener VideoPublisher::listener</definition>
+        <argsstring></argsstring>
+        <name>listener</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" line="73" column="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_video_publisher_1ac663e6a7ae7fdc25358859936a127387" prot="private" static="no" mutable="no">
+        <type>eprosima::fastdds::dds::DomainParticipant *</type>
+        <definition>eprosima::fastdds::dds::DomainParticipant* VideoPublisher::participant_</definition>
+        <argsstring></argsstring>
+        <name>participant_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" line="43" column="45" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_video_publisher_1ae5107e42fb21574c7fc05b7aa83d4ec6" prot="private" static="no" mutable="no">
+        <type>eprosima::fastdds::dds::Publisher *</type>
+        <definition>eprosima::fastdds::dds::Publisher* VideoPublisher::publisher_</definition>
+        <argsstring></argsstring>
+        <name>publisher_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" line="44" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_video_publisher_1af442c9da0a8c9e48d7d42a498c2e00e5" prot="private" static="no" mutable="no">
+        <type>eprosima::fastdds::dds::Topic *</type>
+        <definition>eprosima::fastdds::dds::Topic* VideoPublisher::topic_</definition>
+        <argsstring></argsstring>
+        <name>topic_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" line="45" column="33" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_video_publisher_1ae980514d534808c8a85bc3a24fc958db" prot="private" static="no" mutable="no">
+        <type>eprosima::fastdds::dds::DataWriter *</type>
+        <definition>eprosima::fastdds::dds::DataWriter* VideoPublisher::writer_</definition>
+        <argsstring></argsstring>
+        <name>writer_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" line="46" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_video_publisher_1a02c0c26c1ba4aff78e48b0373d279b51" prot="private" static="no" mutable="no">
+        <type>eprosima::fastdds::dds::TypeSupport</type>
+        <definition>eprosima::fastdds::dds::TypeSupport VideoPublisher::type_</definition>
+        <argsstring></argsstring>
+        <name>type_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" line="47" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_video_publisher_1a135e228f053b2a1706783a74f8e99f87" prot="private" static="no" mutable="no">
+        <type>eprosima::fastdds::dds::ReliabilityQosPolicy</type>
+        <definition>eprosima::fastdds::dds::ReliabilityQosPolicy VideoPublisher::best_effort_</definition>
+        <argsstring></argsstring>
+        <name>best_effort_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" line="49" column="48" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_video_publisher_1a706215955f5d0d4c4d1c4d9480fc7f2d" prot="private" static="no" mutable="no">
+        <type>eprosima::fastdds::dds::DataWriterQos</type>
+        <definition>eprosima::fastdds::dds::DataWriterQos VideoPublisher::writer_qos_</definition>
+        <argsstring></argsstring>
+        <name>writer_qos_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" line="51" column="41" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_video_publisher_1ad624cd2e25b6ee986b0f58a4f15c9caa" prot="private" static="no" mutable="no">
+        <type>eprosima::fastdds::dds::PublishModeQosPolicy</type>
+        <definition>eprosima::fastdds::dds::PublishModeQosPolicy VideoPublisher::publish_mode_</definition>
+        <argsstring></argsstring>
+        <name>publish_mode_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" line="52" column="48" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_video_publisher_1a748b9daa63da724a310ff1868a991cd1" prot="private" static="no" mutable="no">
+        <type>eprosima::fastdds::dds::PublisherQos</type>
+        <definition>eprosima::fastdds::dds::PublisherQos VideoPublisher::publisher_qos_</definition>
+        <argsstring></argsstring>
+        <name>publisher_qos_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" line="53" column="40" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_video_publisher_1adc933822df9d1e877a2aaf0dac7ea6a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class msg_type</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>VideoPublisher::VideoPublisher</definition>
+        <argsstring>(msg_type, std::string topic_name, eprosima::fastdds::dds::DomainParticipant *participant)</argsstring>
+        <name>VideoPublisher</name>
+        <param>
+          <type>msg_type</type>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>topic_name</declname>
+        </param>
+        <param>
+          <type>eprosima::fastdds::dds::DomainParticipant *</type>
+          <declname>participant</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" line="13" column="3" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" bodystart="13" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_video_publisher_1aebfe25292dccc8df29b330f32b6fe126" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>VideoPublisher::~VideoPublisher</definition>
+        <argsstring>()</argsstring>
+        <name>~VideoPublisher</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" line="28" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.cpp" bodystart="14" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_video_publisher_1af05d8801e44520f5567756849a496555" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool VideoPublisher::init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" line="30" column="8" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.cpp" bodystart="26" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_video_publisher_1aceb4a7450f6fe5f3a50e6f8c88f6a4c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void VideoPublisher::publish</definition>
+        <argsstring>(T msg)</argsstring>
+        <name>publish</name>
+        <param>
+          <type>T</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" line="32" column="20" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" bodystart="32" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>VideoPublisher</label>
+        <link refid="class_video_publisher"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>listener</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>VideoPublisher::PubListener</label>
+        <link refid="class_video_publisher_1_1_pub_listener"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>eprosima::fastdds::dds::DataWriterListener</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" line="9" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" bodystart="9" bodyend="74"/>
+    <listofallmembers>
+      <member refid="class_video_publisher_1a135e228f053b2a1706783a74f8e99f87" prot="private" virt="non-virtual"><scope>VideoPublisher</scope><name>best_effort_</name></member>
+      <member refid="class_video_publisher_1af05d8801e44520f5567756849a496555" prot="public" virt="non-virtual"><scope>VideoPublisher</scope><name>init</name></member>
+      <member refid="class_video_publisher_1a2df0121777a50c64ce3f7e68e8668fb5" prot="public" virt="non-virtual"><scope>VideoPublisher</scope><name>listener</name></member>
+      <member refid="class_video_publisher_1ac663e6a7ae7fdc25358859936a127387" prot="private" virt="non-virtual"><scope>VideoPublisher</scope><name>participant_</name></member>
+      <member refid="class_video_publisher_1aceb4a7450f6fe5f3a50e6f8c88f6a4c3" prot="public" virt="non-virtual"><scope>VideoPublisher</scope><name>publish</name></member>
+      <member refid="class_video_publisher_1ad624cd2e25b6ee986b0f58a4f15c9caa" prot="private" virt="non-virtual"><scope>VideoPublisher</scope><name>publish_mode_</name></member>
+      <member refid="class_video_publisher_1ae5107e42fb21574c7fc05b7aa83d4ec6" prot="private" virt="non-virtual"><scope>VideoPublisher</scope><name>publisher_</name></member>
+      <member refid="class_video_publisher_1a748b9daa63da724a310ff1868a991cd1" prot="private" virt="non-virtual"><scope>VideoPublisher</scope><name>publisher_qos_</name></member>
+      <member refid="class_video_publisher_1af442c9da0a8c9e48d7d42a498c2e00e5" prot="private" virt="non-virtual"><scope>VideoPublisher</scope><name>topic_</name></member>
+      <member refid="class_video_publisher_1a913ddcb62321a03282899d4bff15e006" prot="public" virt="non-virtual"><scope>VideoPublisher</scope><name>topic_name_</name></member>
+      <member refid="class_video_publisher_1a02c0c26c1ba4aff78e48b0373d279b51" prot="private" virt="non-virtual"><scope>VideoPublisher</scope><name>type_</name></member>
+      <member refid="class_video_publisher_1adc933822df9d1e877a2aaf0dac7ea6a4" prot="public" virt="non-virtual"><scope>VideoPublisher</scope><name>VideoPublisher</name></member>
+      <member refid="class_video_publisher_1ae980514d534808c8a85bc3a24fc958db" prot="private" virt="non-virtual"><scope>VideoPublisher</scope><name>writer_</name></member>
+      <member refid="class_video_publisher_1a706215955f5d0d4c4d1c4d9480fc7f2d" prot="private" virt="non-virtual"><scope>VideoPublisher</scope><name>writer_qos_</name></member>
+      <member refid="class_video_publisher_1aebfe25292dccc8df29b330f32b6fe126" prot="public" virt="virtual"><scope>VideoPublisher</scope><name>~VideoPublisher</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

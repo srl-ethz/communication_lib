@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classvehicle__mocap__odometry_pub_sub_type" kind="class" language="C++" prot="public">
+    <compoundname>vehicle_mocap_odometryPubSubType</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">eprosima::fastdds::dds::TopicDataType</basecompoundref>
+    <includes refid="vehicle__mocap__odometry_pub_sub_types_8h" local="no">vehicle_mocap_odometryPubSubTypes.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classvehicle__mocap__odometry_pub_sub_type_1a6581519ae5235b85f9e71f4e3ce47a05" prot="public" static="no">
+        <type><ref refid="classvehicle__mocap__odometry" kindref="compound">vehicle_mocap_odometry</ref></type>
+        <definition>typedef vehicle_mocap_odometry vehicle_mocap_odometryPubSubType::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_mocap_odometryPubSubTypes.h" line="61" column="36" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_mocap_odometryPubSubTypes.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classvehicle__mocap__odometry_pub_sub_type_1aaaf842154c756a451938dc07b447b64d" prot="public" static="no" mutable="no">
+        <type>MD5</type>
+        <definition>MD5 vehicle_mocap_odometryPubSubType::m_md5</definition>
+        <argsstring></argsstring>
+        <name>m_md5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_mocap_odometryPubSubTypes.h" line="114" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_mocap_odometryPubSubTypes.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__mocap__odometry_pub_sub_type_1ac4f1a0b6fa355f71669dd0e039d34513" prot="public" static="no" mutable="no">
+        <type>unsigned char *</type>
+        <definition>unsigned char* vehicle_mocap_odometryPubSubType::m_keyBuffer</definition>
+        <argsstring></argsstring>
+        <name>m_keyBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_mocap_odometryPubSubTypes.h" line="115" column="19" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_mocap_odometryPubSubTypes.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classvehicle__mocap__odometry_pub_sub_type_1a1ea56b9a0c05a353e7fd81887d6435d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>vehicle_mocap_odometryPubSubType::vehicle_mocap_odometryPubSubType</definition>
+        <argsstring>()</argsstring>
+        <name>vehicle_mocap_odometryPubSubType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_mocap_odometryPubSubTypes.h" line="63" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_mocap_odometryPubSubTypes.cxx" bodystart="49" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__mocap__odometry_pub_sub_type_1aee30694eac84a5303866e0461eacacc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>vehicle_mocap_odometryPubSubType::~vehicle_mocap_odometryPubSubType</definition>
+        <argsstring>()</argsstring>
+        <name>~vehicle_mocap_odometryPubSubType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_mocap_odometryPubSubTypes.h" line="65" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_mocap_odometryPubSubTypes.cxx" bodystart="62" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__mocap__odometry_pub_sub_type_1a60007dfbaa121c7a37f7bd23f319e415" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool vehicle_mocap_odometryPubSubType::serialize</definition>
+        <argsstring>(void *data, eprosima::fastrtps::rtps::SerializedPayload_t *payload) override</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>eprosima::fastrtps::rtps::SerializedPayload_t *</type>
+          <declname>payload</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_mocap_odometryPubSubTypes.h" line="67" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_mocap_odometryPubSubTypes.cxx" bodystart="70" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__mocap__odometry_pub_sub_type_1a3531ec642e33c85131f69a516c79a4e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool vehicle_mocap_odometryPubSubType::deserialize</definition>
+        <argsstring>(eprosima::fastrtps::rtps::SerializedPayload_t *payload, void *data) override</argsstring>
+        <name>deserialize</name>
+        <param>
+          <type>eprosima::fastrtps::rtps::SerializedPayload_t *</type>
+          <declname>payload</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_mocap_odometryPubSubTypes.h" line="71" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_mocap_odometryPubSubTypes.cxx" bodystart="99" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__mocap__odometry_pub_sub_type_1a73f14aaeb2c034ab7921bb24eb4e04f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport std::function&lt; uint32_t()&gt;</type>
+        <definition>std::function&lt; uint32_t()&gt; vehicle_mocap_odometryPubSubType::getSerializedSizeProvider</definition>
+        <argsstring>(void *data) override</argsstring>
+        <name>getSerializedSizeProvider</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_mocap_odometryPubSubTypes.h" line="75" column="51" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_mocap_odometryPubSubTypes.cxx" bodystart="129" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__mocap__odometry_pub_sub_type_1a3f70e7cc2c1e7e286f1b08afe5b25708" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool vehicle_mocap_odometryPubSubType::getKey</definition>
+        <argsstring>(void *data, eprosima::fastrtps::rtps::InstanceHandle_t *ihandle, bool force_md5=false) override</argsstring>
+        <name>getKey</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>eprosima::fastrtps::rtps::InstanceHandle_t *</type>
+          <declname>ihandle</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>force_md5</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_mocap_odometryPubSubTypes.h" line="78" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_mocap_odometryPubSubTypes.cxx" bodystart="150" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__mocap__odometry_pub_sub_type_1a82499f19dca061b45f3cea7c482f2bb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport void *</type>
+        <definition>void * vehicle_mocap_odometryPubSubType::createData</definition>
+        <argsstring>() override</argsstring>
+        <name>createData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_mocap_odometryPubSubTypes.h" line="83" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_mocap_odometryPubSubTypes.cxx" bodystart="139" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__mocap__odometry_pub_sub_type_1ae3260a66d7ebb454d394b3e66a7fd781" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_mocap_odometryPubSubType::deleteData</definition>
+        <argsstring>(void *data) override</argsstring>
+        <name>deleteData</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_mocap_odometryPubSubTypes.h" line="85" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_mocap_odometryPubSubTypes.cxx" bodystart="144" bodyend="148"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents the TopicDataType of the type <ref refid="classvehicle__mocap__odometry" kindref="compound">vehicle_mocap_odometry</ref> defined by the user in the IDL file. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>eprosima::fastdds::dds::TopicDataType</label>
+      </node>
+      <node id="1">
+        <label>vehicle_mocap_odometryPubSubType</label>
+        <link refid="classvehicle__mocap__odometry_pub_sub_type"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>eprosima::fastdds::dds::TopicDataType</label>
+      </node>
+      <node id="1">
+        <label>vehicle_mocap_odometryPubSubType</label>
+        <link refid="classvehicle__mocap__odometry_pub_sub_type"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_mocap_odometryPubSubTypes.h" line="57" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_mocap_odometryPubSubTypes.h" bodystart="58" bodyend="116"/>
+    <listofallmembers>
+      <member refid="classvehicle__mocap__odometry_pub_sub_type_1a82499f19dca061b45f3cea7c482f2bb4" prot="public" virt="virtual"><scope>vehicle_mocap_odometryPubSubType</scope><name>createData</name></member>
+      <member refid="classvehicle__mocap__odometry_pub_sub_type_1ae3260a66d7ebb454d394b3e66a7fd781" prot="public" virt="virtual"><scope>vehicle_mocap_odometryPubSubType</scope><name>deleteData</name></member>
+      <member refid="classvehicle__mocap__odometry_pub_sub_type_1a3531ec642e33c85131f69a516c79a4e7" prot="public" virt="virtual"><scope>vehicle_mocap_odometryPubSubType</scope><name>deserialize</name></member>
+      <member refid="classvehicle__mocap__odometry_pub_sub_type_1a3f70e7cc2c1e7e286f1b08afe5b25708" prot="public" virt="virtual"><scope>vehicle_mocap_odometryPubSubType</scope><name>getKey</name></member>
+      <member refid="classvehicle__mocap__odometry_pub_sub_type_1a73f14aaeb2c034ab7921bb24eb4e04f8" prot="public" virt="virtual"><scope>vehicle_mocap_odometryPubSubType</scope><name>getSerializedSizeProvider</name></member>
+      <member refid="classvehicle__mocap__odometry_pub_sub_type_1ac4f1a0b6fa355f71669dd0e039d34513" prot="public" virt="non-virtual"><scope>vehicle_mocap_odometryPubSubType</scope><name>m_keyBuffer</name></member>
+      <member refid="classvehicle__mocap__odometry_pub_sub_type_1aaaf842154c756a451938dc07b447b64d" prot="public" virt="non-virtual"><scope>vehicle_mocap_odometryPubSubType</scope><name>m_md5</name></member>
+      <member refid="classvehicle__mocap__odometry_pub_sub_type_1a60007dfbaa121c7a37f7bd23f319e415" prot="public" virt="virtual"><scope>vehicle_mocap_odometryPubSubType</scope><name>serialize</name></member>
+      <member refid="classvehicle__mocap__odometry_pub_sub_type_1a6581519ae5235b85f9e71f4e3ce47a05" prot="public" virt="non-virtual"><scope>vehicle_mocap_odometryPubSubType</scope><name>type</name></member>
+      <member refid="classvehicle__mocap__odometry_pub_sub_type_1a1ea56b9a0c05a353e7fd81887d6435d6" prot="public" virt="non-virtual"><scope>vehicle_mocap_odometryPubSubType</scope><name>vehicle_mocap_odometryPubSubType</name></member>
+      <member refid="classvehicle__mocap__odometry_pub_sub_type_1aee30694eac84a5303866e0461eacacc1" prot="public" virt="virtual"><scope>vehicle_mocap_odometryPubSubType</scope><name>~vehicle_mocap_odometryPubSubType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

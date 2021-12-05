@@ -1,0 +1,1412 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classvehicle__local__position__setpoint" kind="class" language="C++" prot="public">
+    <compoundname>vehicle_local_position_setpoint</compoundname>
+    <includes refid="vehicle__local__position__setpoint_8h" local="no">vehicle_local_position_setpoint.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classvehicle__local__position__setpoint_1a888f015c235030978bfbd111d3118794" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t vehicle_local_position_setpoint::m_timestamp_</definition>
+        <argsstring></argsstring>
+        <name>m_timestamp_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="417" column="14" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" bodystart="417" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__local__position__setpoint_1aa3929157fe5ef3a8a4fcdc0fd69f80f9" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vehicle_local_position_setpoint::m_x_</definition>
+        <argsstring></argsstring>
+        <name>m_x_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="418" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" bodystart="418" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__local__position__setpoint_1a0d3d15010ca7e5d8d8c0a86266ebee60" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vehicle_local_position_setpoint::m_y_</definition>
+        <argsstring></argsstring>
+        <name>m_y_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="419" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" bodystart="419" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__local__position__setpoint_1a2eee8ce25ed76a448d6ee8e1c95389ed" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vehicle_local_position_setpoint::m_z_</definition>
+        <argsstring></argsstring>
+        <name>m_z_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="420" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" bodystart="420" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__local__position__setpoint_1a2544cd8feb41a6b505e97ebc524bebc9" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vehicle_local_position_setpoint::m_yaw_</definition>
+        <argsstring></argsstring>
+        <name>m_yaw_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="421" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" bodystart="421" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__local__position__setpoint_1aa520854b655f372d22c1ff23047759cf" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vehicle_local_position_setpoint::m_yawspeed_</definition>
+        <argsstring></argsstring>
+        <name>m_yawspeed_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="422" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" bodystart="422" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__local__position__setpoint_1a46f44e23b0887dc81b675d09ca253fd7" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vehicle_local_position_setpoint::m_vx_</definition>
+        <argsstring></argsstring>
+        <name>m_vx_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="423" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" bodystart="423" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__local__position__setpoint_1ad76c7c69736aacb7eacdd155719e2b35" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vehicle_local_position_setpoint::m_vy_</definition>
+        <argsstring></argsstring>
+        <name>m_vy_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="424" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" bodystart="424" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__local__position__setpoint_1a415d86c721dd46f6540b0ca37e985a77" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vehicle_local_position_setpoint::m_vz_</definition>
+        <argsstring></argsstring>
+        <name>m_vz_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="425" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" bodystart="425" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__local__position__setpoint_1ad0f5f300378d8fc4a63eedef9e277327" prot="private" static="no" mutable="no">
+        <type>vehicle_local_position_setpoint__float_array_3</type>
+        <definition>vehicle_local_position_setpoint__float_array_3 vehicle_local_position_setpoint::m_acceleration</definition>
+        <argsstring></argsstring>
+        <name>m_acceleration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="426" column="52" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" bodystart="426" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__local__position__setpoint_1a9ca91212d56f91f7c154a247184287a4" prot="private" static="no" mutable="no">
+        <type>vehicle_local_position_setpoint__float_array_3</type>
+        <definition>vehicle_local_position_setpoint__float_array_3 vehicle_local_position_setpoint::m_jerk</definition>
+        <argsstring></argsstring>
+        <name>m_jerk</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="427" column="52" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" bodystart="427" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__local__position__setpoint_1a03889627f93a1b7ce59fd8a635c71beb" prot="private" static="no" mutable="no">
+        <type>vehicle_local_position_setpoint__float_array_3</type>
+        <definition>vehicle_local_position_setpoint__float_array_3 vehicle_local_position_setpoint::m_thrust</definition>
+        <argsstring></argsstring>
+        <name>m_thrust</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="428" column="52" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" bodystart="428" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1a660feb21f4425f2aa7929d44b9a1dec9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>vehicle_local_position_setpoint::vehicle_local_position_setpoint</definition>
+        <argsstring>()</argsstring>
+        <name>vehicle_local_position_setpoint</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="76" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="38" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1abef1e020beafabf3d007911c6842534a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>vehicle_local_position_setpoint::~vehicle_local_position_setpoint</definition>
+        <argsstring>()</argsstring>
+        <name>~vehicle_local_position_setpoint</name>
+        <briefdescription>
+<para>Default destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="81" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="67" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1a7e622950a719a339f841eea363d738ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>vehicle_local_position_setpoint::vehicle_local_position_setpoint</definition>
+        <argsstring>(const vehicle_local_position_setpoint &amp;x)</argsstring>
+        <name>vehicle_local_position_setpoint</name>
+        <param>
+          <type>const <ref refid="classvehicle__local__position__setpoint" kindref="compound">vehicle_local_position_setpoint</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classvehicle__local__position__setpoint" kindref="compound">vehicle_local_position_setpoint</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="87" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="83" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1ad2411fcdd279632f21e1f6165d3bad80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>vehicle_local_position_setpoint::vehicle_local_position_setpoint</definition>
+        <argsstring>(vehicle_local_position_setpoint &amp;&amp;x)</argsstring>
+        <name>vehicle_local_position_setpoint</name>
+        <param>
+          <type><ref refid="classvehicle__local__position__setpoint" kindref="compound">vehicle_local_position_setpoint</ref> &amp;&amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Move constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classvehicle__local__position__setpoint" kindref="compound">vehicle_local_position_setpoint</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="94" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="100" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1ac5853ba51e1652f35fc0e5f5480484c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport <ref refid="classvehicle__local__position__setpoint" kindref="compound">vehicle_local_position_setpoint</ref> &amp;</type>
+        <definition>vehicle_local_position_setpoint &amp; vehicle_local_position_setpoint::operator=</definition>
+        <argsstring>(const vehicle_local_position_setpoint &amp;x)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classvehicle__local__position__setpoint" kindref="compound">vehicle_local_position_setpoint</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Copy assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classvehicle__local__position__setpoint" kindref="compound">vehicle_local_position_setpoint</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="101" column="61" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="117" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1acff5f9bbd288c4865de4627db1a8547a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport <ref refid="classvehicle__local__position__setpoint" kindref="compound">vehicle_local_position_setpoint</ref> &amp;</type>
+        <definition>vehicle_local_position_setpoint &amp; vehicle_local_position_setpoint::operator=</definition>
+        <argsstring>(vehicle_local_position_setpoint &amp;&amp;x)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classvehicle__local__position__setpoint" kindref="compound">vehicle_local_position_setpoint</ref> &amp;&amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Move assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classvehicle__local__position__setpoint" kindref="compound">vehicle_local_position_setpoint</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="108" column="61" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="137" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1a4ab95a0f67154f7904f24c1a97fe8fce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_local_position_setpoint::timestamp_</definition>
+        <argsstring>(uint64_t _timestamp_)</argsstring>
+        <name>timestamp_</name>
+        <param>
+          <type>uint64_t</type>
+          <declname>_timestamp_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;timestamp&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member timestamp_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="115" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="304" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1aa404a119fe6c71e42143fde9c86e8948" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint64_t</type>
+        <definition>uint64_t vehicle_local_position_setpoint::timestamp_</definition>
+        <argsstring>() const</argsstring>
+        <name>timestamp_</name>
+        <briefdescription>
+<para>This function returns the value of member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member timestamp_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="122" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="314" bodyend="317"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1a7a4c9eaed8aee57f1aaa0a6cdb58d54a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint64_t &amp;</type>
+        <definition>uint64_t &amp; vehicle_local_position_setpoint::timestamp_</definition>
+        <argsstring>()</argsstring>
+        <name>timestamp_</name>
+        <briefdescription>
+<para>This function returns a reference to member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member timestamp_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="128" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="323" bodyend="326"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1a419448df644bf77ea0bfe57ad02f7a86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_local_position_setpoint::x_</definition>
+        <argsstring>(float _x_)</argsstring>
+        <name>x_</name>
+        <param>
+          <type>float</type>
+          <declname>_x_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member x_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;x&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member x_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="134" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="332" bodyend="336"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1a2b628a427f66c64dddfd4ee6466ba37f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float vehicle_local_position_setpoint::x_</definition>
+        <argsstring>() const</argsstring>
+        <name>x_</name>
+        <briefdescription>
+<para>This function returns the value of member x_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member x_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="141" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="342" bodyend="345"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1a6e5aa9dbd311552b8943f8a54e43ad07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; vehicle_local_position_setpoint::x_</definition>
+        <argsstring>()</argsstring>
+        <name>x_</name>
+        <briefdescription>
+<para>This function returns a reference to member x_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member x_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="147" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="351" bodyend="354"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1a86da9b0aecc3c1cdaba50e55bb72f096" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_local_position_setpoint::y_</definition>
+        <argsstring>(float _y_)</argsstring>
+        <name>y_</name>
+        <param>
+          <type>float</type>
+          <declname>_y_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member y_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;y&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member y_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="153" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="360" bodyend="364"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1a5402180e88c1926e8198a3ecb66f7a6e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float vehicle_local_position_setpoint::y_</definition>
+        <argsstring>() const</argsstring>
+        <name>y_</name>
+        <briefdescription>
+<para>This function returns the value of member y_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member y_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="160" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="370" bodyend="373"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1ad4e4fb28716b4e79ec72182910de9037" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; vehicle_local_position_setpoint::y_</definition>
+        <argsstring>()</argsstring>
+        <name>y_</name>
+        <briefdescription>
+<para>This function returns a reference to member y_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member y_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="166" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="379" bodyend="382"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1aa23cb9fe9e669d77caa169908671a9d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_local_position_setpoint::z_</definition>
+        <argsstring>(float _z_)</argsstring>
+        <name>z_</name>
+        <param>
+          <type>float</type>
+          <declname>_z_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member z_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;z&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member z_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="172" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="388" bodyend="392"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1ac8c88ceb8e4feb4d66be363bb8888154" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float vehicle_local_position_setpoint::z_</definition>
+        <argsstring>() const</argsstring>
+        <name>z_</name>
+        <briefdescription>
+<para>This function returns the value of member z_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member z_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="179" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="398" bodyend="401"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1aff01d301f0ceaaafdcd080696f93f388" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; vehicle_local_position_setpoint::z_</definition>
+        <argsstring>()</argsstring>
+        <name>z_</name>
+        <briefdescription>
+<para>This function returns a reference to member z_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member z_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="185" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="407" bodyend="410"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1a968978ea98412c168d841662966c513f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_local_position_setpoint::yaw_</definition>
+        <argsstring>(float _yaw_)</argsstring>
+        <name>yaw_</name>
+        <param>
+          <type>float</type>
+          <declname>_yaw_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member yaw_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;yaw&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member yaw_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="191" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="416" bodyend="420"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1a339c974a7f3e7fea5459c8dac4175e97" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float vehicle_local_position_setpoint::yaw_</definition>
+        <argsstring>() const</argsstring>
+        <name>yaw_</name>
+        <briefdescription>
+<para>This function returns the value of member yaw_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member yaw_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="198" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="426" bodyend="429"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1a540dbe26d259baae8c069a79cd14a644" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; vehicle_local_position_setpoint::yaw_</definition>
+        <argsstring>()</argsstring>
+        <name>yaw_</name>
+        <briefdescription>
+<para>This function returns a reference to member yaw_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member yaw_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="204" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="435" bodyend="438"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1a3d256bfc8347e08883ef58c99f51a689" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_local_position_setpoint::yawspeed_</definition>
+        <argsstring>(float _yawspeed_)</argsstring>
+        <name>yawspeed_</name>
+        <param>
+          <type>float</type>
+          <declname>_yawspeed_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member yawspeed_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;yawspeed&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member yawspeed_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="210" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="444" bodyend="448"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1a1ae688d4b57f75f134b5ae4de073915a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float vehicle_local_position_setpoint::yawspeed_</definition>
+        <argsstring>() const</argsstring>
+        <name>yawspeed_</name>
+        <briefdescription>
+<para>This function returns the value of member yawspeed_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member yawspeed_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="217" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="454" bodyend="457"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1aa3071cad31b8607439c58e3e6dd6fffa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; vehicle_local_position_setpoint::yawspeed_</definition>
+        <argsstring>()</argsstring>
+        <name>yawspeed_</name>
+        <briefdescription>
+<para>This function returns a reference to member yawspeed_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member yawspeed_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="223" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="463" bodyend="466"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1a8e436ed6e57632ceae893f98d2e9f1ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_local_position_setpoint::vx_</definition>
+        <argsstring>(float _vx_)</argsstring>
+        <name>vx_</name>
+        <param>
+          <type>float</type>
+          <declname>_vx_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member vx_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;vx&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member vx_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="229" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="472" bodyend="476"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1ae7e4a186a0a547b1a27c529104acfe9a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float vehicle_local_position_setpoint::vx_</definition>
+        <argsstring>() const</argsstring>
+        <name>vx_</name>
+        <briefdescription>
+<para>This function returns the value of member vx_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member vx_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="236" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="482" bodyend="485"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1a3337039de832ff7c8f9543b9ac6035f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; vehicle_local_position_setpoint::vx_</definition>
+        <argsstring>()</argsstring>
+        <name>vx_</name>
+        <briefdescription>
+<para>This function returns a reference to member vx_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member vx_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="242" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="491" bodyend="494"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1aff0653416d74e76fcfae906a512e7fce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_local_position_setpoint::vy_</definition>
+        <argsstring>(float _vy_)</argsstring>
+        <name>vy_</name>
+        <param>
+          <type>float</type>
+          <declname>_vy_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member vy_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;vy&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member vy_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="248" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="500" bodyend="504"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1a1ee77a223b2e20666a7d6d3945fbea0f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float vehicle_local_position_setpoint::vy_</definition>
+        <argsstring>() const</argsstring>
+        <name>vy_</name>
+        <briefdescription>
+<para>This function returns the value of member vy_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member vy_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="255" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="510" bodyend="513"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1a94d48662e844b66f9a41485c9b030305" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; vehicle_local_position_setpoint::vy_</definition>
+        <argsstring>()</argsstring>
+        <name>vy_</name>
+        <briefdescription>
+<para>This function returns a reference to member vy_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member vy_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="261" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="519" bodyend="522"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1aef63ef6fbbee0015e7c4404a2ad2ec17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_local_position_setpoint::vz_</definition>
+        <argsstring>(float _vz_)</argsstring>
+        <name>vz_</name>
+        <param>
+          <type>float</type>
+          <declname>_vz_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member vz_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;vz&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member vz_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="267" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="528" bodyend="532"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1a69e4ee3cb074a421cc90ff4269921512" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float vehicle_local_position_setpoint::vz_</definition>
+        <argsstring>() const</argsstring>
+        <name>vz_</name>
+        <briefdescription>
+<para>This function returns the value of member vz_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member vz_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="274" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="538" bodyend="541"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1a926aee65ec26f4834c7db67f6a027c99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; vehicle_local_position_setpoint::vz_</definition>
+        <argsstring>()</argsstring>
+        <name>vz_</name>
+        <briefdescription>
+<para>This function returns a reference to member vz_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member vz_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="280" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="547" bodyend="550"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1a4ba3a24dda0abab2a062485679ebe836" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_local_position_setpoint::acceleration</definition>
+        <argsstring>(const vehicle_local_position_setpoint__float_array_3 &amp;_acceleration)</argsstring>
+        <name>acceleration</name>
+        <param>
+          <type>const vehicle_local_position_setpoint__float_array_3 &amp;</type>
+          <declname>_acceleration</declname>
+        </param>
+        <briefdescription>
+<para>This function copies the value in member acceleration. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_acceleration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member acceleration </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="286" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="556" bodyend="560"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1a07d141e44b26a97beedbcec35ac0f2d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_local_position_setpoint::acceleration</definition>
+        <argsstring>(vehicle_local_position_setpoint__float_array_3 &amp;&amp;_acceleration)</argsstring>
+        <name>acceleration</name>
+        <param>
+          <type>vehicle_local_position_setpoint__float_array_3 &amp;&amp;</type>
+          <declname>_acceleration</declname>
+        </param>
+        <briefdescription>
+<para>This function moves the value in member acceleration. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_acceleration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member acceleration </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="293" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="566" bodyend="570"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1a27eb6a2b9239fb9857399f196e7ffa6c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport const vehicle_local_position_setpoint__float_array_3 &amp;</type>
+        <definition>const vehicle_local_position_setpoint__float_array_3 &amp; vehicle_local_position_setpoint::acceleration</definition>
+        <argsstring>() const</argsstring>
+        <name>acceleration</name>
+        <briefdescription>
+<para>This function returns a constant reference to member acceleration. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Constant reference to member acceleration </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="300" column="82" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="576" bodyend="579"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1a87184e9959067fa27bdadc4c6bb66bd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport vehicle_local_position_setpoint__float_array_3 &amp;</type>
+        <definition>vehicle_local_position_setpoint__float_array_3 &amp; vehicle_local_position_setpoint::acceleration</definition>
+        <argsstring>()</argsstring>
+        <name>acceleration</name>
+        <briefdescription>
+<para>This function returns a reference to member acceleration. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member acceleration </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="306" column="76" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="585" bodyend="588"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1a401cfb016a7d2d3f1862eeba7163c737" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_local_position_setpoint::jerk</definition>
+        <argsstring>(const vehicle_local_position_setpoint__float_array_3 &amp;_jerk)</argsstring>
+        <name>jerk</name>
+        <param>
+          <type>const vehicle_local_position_setpoint__float_array_3 &amp;</type>
+          <declname>_jerk</declname>
+        </param>
+        <briefdescription>
+<para>This function copies the value in member jerk. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_jerk</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member jerk </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="311" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="593" bodyend="597"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1a797ec1cb37a880576f19b8d0e0e19c0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_local_position_setpoint::jerk</definition>
+        <argsstring>(vehicle_local_position_setpoint__float_array_3 &amp;&amp;_jerk)</argsstring>
+        <name>jerk</name>
+        <param>
+          <type>vehicle_local_position_setpoint__float_array_3 &amp;&amp;</type>
+          <declname>_jerk</declname>
+        </param>
+        <briefdescription>
+<para>This function moves the value in member jerk. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_jerk</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member jerk </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="318" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="603" bodyend="607"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1ad722cc2fe1f730a77f091fe4d28f7807" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport const vehicle_local_position_setpoint__float_array_3 &amp;</type>
+        <definition>const vehicle_local_position_setpoint__float_array_3 &amp; vehicle_local_position_setpoint::jerk</definition>
+        <argsstring>() const</argsstring>
+        <name>jerk</name>
+        <briefdescription>
+<para>This function returns a constant reference to member jerk. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Constant reference to member jerk </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="325" column="82" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="613" bodyend="616"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1a75da59598bc7dab5c8e16dc98641e847" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport vehicle_local_position_setpoint__float_array_3 &amp;</type>
+        <definition>vehicle_local_position_setpoint__float_array_3 &amp; vehicle_local_position_setpoint::jerk</definition>
+        <argsstring>()</argsstring>
+        <name>jerk</name>
+        <briefdescription>
+<para>This function returns a reference to member jerk. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member jerk </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="331" column="76" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="622" bodyend="625"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1aa3da3a34dbd136277ddbfaf586308e8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_local_position_setpoint::thrust</definition>
+        <argsstring>(const vehicle_local_position_setpoint__float_array_3 &amp;_thrust)</argsstring>
+        <name>thrust</name>
+        <param>
+          <type>const vehicle_local_position_setpoint__float_array_3 &amp;</type>
+          <declname>_thrust</declname>
+        </param>
+        <briefdescription>
+<para>This function copies the value in member thrust. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_thrust</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member thrust </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="336" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="630" bodyend="634"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1ac3ba570085fd4a53afbcf741b163ca06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_local_position_setpoint::thrust</definition>
+        <argsstring>(vehicle_local_position_setpoint__float_array_3 &amp;&amp;_thrust)</argsstring>
+        <name>thrust</name>
+        <param>
+          <type>vehicle_local_position_setpoint__float_array_3 &amp;&amp;</type>
+          <declname>_thrust</declname>
+        </param>
+        <briefdescription>
+<para>This function moves the value in member thrust. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_thrust</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member thrust </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="343" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="640" bodyend="644"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1a9075cd9e0d59223efcec103a275f1c50" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport const vehicle_local_position_setpoint__float_array_3 &amp;</type>
+        <definition>const vehicle_local_position_setpoint__float_array_3 &amp; vehicle_local_position_setpoint::thrust</definition>
+        <argsstring>() const</argsstring>
+        <name>thrust</name>
+        <briefdescription>
+<para>This function returns a constant reference to member thrust. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Constant reference to member thrust </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="350" column="82" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="650" bodyend="653"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1abc3f79c270c138c7960f9ba5e39f7180" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport vehicle_local_position_setpoint__float_array_3 &amp;</type>
+        <definition>vehicle_local_position_setpoint__float_array_3 &amp; vehicle_local_position_setpoint::thrust</definition>
+        <argsstring>()</argsstring>
+        <name>thrust</name>
+        <briefdescription>
+<para>This function returns a reference to member thrust. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member thrust </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="356" column="76" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="659" bodyend="662"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1a204c7cd6916141296816ea7de7b8d6c8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_local_position_setpoint::serialize</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr) const</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function serializes an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="382" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="257" bodyend="277"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1ad59fa60bd12882e2fe6539d7d865258a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_local_position_setpoint::deserialize</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr)</argsstring>
+        <name>deserialize</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function deserializes an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="389" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="279" bodyend="298"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1a354b7b976244f9770c2b8a1e6909dccc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_local_position_setpoint::serializeKey</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr) const</argsstring>
+        <name>serializeKey</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function serializes the key members of an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="412" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="691" bodyend="696"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1a9e76ebf6b3f30149f1db5338e1ff6ff1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t vehicle_local_position_setpoint::getMaxCdrSerializedSize</definition>
+        <argsstring>(size_t current_alignment=0)</argsstring>
+        <name>getMaxCdrSerializedSize</name>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the maximum serialized size of an object depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Maximum serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="364" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="157" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1a94378ff7ef0c52d7da277f4b6be5b267" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t vehicle_local_position_setpoint::getCdrSerializedSize</definition>
+        <argsstring>(const vehicle_local_position_setpoint &amp;data, size_t current_alignment=0)</argsstring>
+        <name>getCdrSerializedSize</name>
+        <param>
+          <type>const <ref refid="classvehicle__local__position__setpoint" kindref="compound">vehicle_local_position_setpoint</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the serialized size of a data depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data which is calculated its serialized size. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="373" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="203" bodyend="255"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1aecb39bd1d2aea0c2bab763421e26fa8e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t vehicle_local_position_setpoint::getKeyMaxCdrSerializedSize</definition>
+        <argsstring>(size_t current_alignment=0)</argsstring>
+        <name>getKeyMaxCdrSerializedSize</name>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the maximum serialized size of the Key of an object depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Maximum serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="400" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="664" bodyend="684"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_1a8c574218ed14a8b49e9b55d9e3fe2fba" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool vehicle_local_position_setpoint::isKeyDefined</definition>
+        <argsstring>()</argsstring>
+        <name>isKeyDefined</name>
+        <briefdescription>
+<para>This function tells you if the Key has been defined for this type. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="406" column="41" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.cxx" bodystart="686" bodyend="689"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents the structure <ref refid="classvehicle__local__position__setpoint" kindref="compound">vehicle_local_position_setpoint</ref> defined by the user in the IDL file. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" line="69" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpoint.h" bodystart="70" bodyend="429"/>
+    <listofallmembers>
+      <member refid="classvehicle__local__position__setpoint_1a4ba3a24dda0abab2a062485679ebe836" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>acceleration</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a07d141e44b26a97beedbcec35ac0f2d7" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>acceleration</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a27eb6a2b9239fb9857399f196e7ffa6c" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>acceleration</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a87184e9959067fa27bdadc4c6bb66bd6" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>acceleration</name></member>
+      <member refid="classvehicle__local__position__setpoint_1ad59fa60bd12882e2fe6539d7d865258a" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>deserialize</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a94378ff7ef0c52d7da277f4b6be5b267" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>getCdrSerializedSize</name></member>
+      <member refid="classvehicle__local__position__setpoint_1aecb39bd1d2aea0c2bab763421e26fa8e" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>getKeyMaxCdrSerializedSize</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a9e76ebf6b3f30149f1db5338e1ff6ff1" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>getMaxCdrSerializedSize</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a8c574218ed14a8b49e9b55d9e3fe2fba" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>isKeyDefined</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a401cfb016a7d2d3f1862eeba7163c737" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>jerk</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a797ec1cb37a880576f19b8d0e0e19c0f" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>jerk</name></member>
+      <member refid="classvehicle__local__position__setpoint_1ad722cc2fe1f730a77f091fe4d28f7807" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>jerk</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a75da59598bc7dab5c8e16dc98641e847" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>jerk</name></member>
+      <member refid="classvehicle__local__position__setpoint_1ad0f5f300378d8fc4a63eedef9e277327" prot="private" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>m_acceleration</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a9ca91212d56f91f7c154a247184287a4" prot="private" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>m_jerk</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a03889627f93a1b7ce59fd8a635c71beb" prot="private" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>m_thrust</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a888f015c235030978bfbd111d3118794" prot="private" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>m_timestamp_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a46f44e23b0887dc81b675d09ca253fd7" prot="private" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>m_vx_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1ad76c7c69736aacb7eacdd155719e2b35" prot="private" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>m_vy_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a415d86c721dd46f6540b0ca37e985a77" prot="private" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>m_vz_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1aa3929157fe5ef3a8a4fcdc0fd69f80f9" prot="private" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>m_x_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a0d3d15010ca7e5d8d8c0a86266ebee60" prot="private" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>m_y_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a2544cd8feb41a6b505e97ebc524bebc9" prot="private" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>m_yaw_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1aa520854b655f372d22c1ff23047759cf" prot="private" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>m_yawspeed_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a2eee8ce25ed76a448d6ee8e1c95389ed" prot="private" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>m_z_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1ac5853ba51e1652f35fc0e5f5480484c3" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>operator=</name></member>
+      <member refid="classvehicle__local__position__setpoint_1acff5f9bbd288c4865de4627db1a8547a" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>operator=</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a204c7cd6916141296816ea7de7b8d6c8" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>serialize</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a354b7b976244f9770c2b8a1e6909dccc" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>serializeKey</name></member>
+      <member refid="classvehicle__local__position__setpoint_1aa3da3a34dbd136277ddbfaf586308e8f" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>thrust</name></member>
+      <member refid="classvehicle__local__position__setpoint_1ac3ba570085fd4a53afbcf741b163ca06" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>thrust</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a9075cd9e0d59223efcec103a275f1c50" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>thrust</name></member>
+      <member refid="classvehicle__local__position__setpoint_1abc3f79c270c138c7960f9ba5e39f7180" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>thrust</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a4ab95a0f67154f7904f24c1a97fe8fce" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>timestamp_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1aa404a119fe6c71e42143fde9c86e8948" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>timestamp_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a7a4c9eaed8aee57f1aaa0a6cdb58d54a" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>timestamp_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a660feb21f4425f2aa7929d44b9a1dec9" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>vehicle_local_position_setpoint</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a7e622950a719a339f841eea363d738ad" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>vehicle_local_position_setpoint</name></member>
+      <member refid="classvehicle__local__position__setpoint_1ad2411fcdd279632f21e1f6165d3bad80" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>vehicle_local_position_setpoint</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a8e436ed6e57632ceae893f98d2e9f1ee" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>vx_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1ae7e4a186a0a547b1a27c529104acfe9a" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>vx_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a3337039de832ff7c8f9543b9ac6035f6" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>vx_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1aff0653416d74e76fcfae906a512e7fce" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>vy_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a1ee77a223b2e20666a7d6d3945fbea0f" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>vy_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a94d48662e844b66f9a41485c9b030305" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>vy_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1aef63ef6fbbee0015e7c4404a2ad2ec17" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>vz_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a69e4ee3cb074a421cc90ff4269921512" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>vz_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a926aee65ec26f4834c7db67f6a027c99" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>vz_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a419448df644bf77ea0bfe57ad02f7a86" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>x_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a2b628a427f66c64dddfd4ee6466ba37f" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>x_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a6e5aa9dbd311552b8943f8a54e43ad07" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>x_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a86da9b0aecc3c1cdaba50e55bb72f096" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>y_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a5402180e88c1926e8198a3ecb66f7a6e" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>y_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1ad4e4fb28716b4e79ec72182910de9037" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>y_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a968978ea98412c168d841662966c513f" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>yaw_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a339c974a7f3e7fea5459c8dac4175e97" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>yaw_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a540dbe26d259baae8c069a79cd14a644" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>yaw_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a3d256bfc8347e08883ef58c99f51a689" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>yawspeed_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1a1ae688d4b57f75f134b5ae4de073915a" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>yawspeed_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1aa3071cad31b8607439c58e3e6dd6fffa" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>yawspeed_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1aa23cb9fe9e669d77caa169908671a9d1" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>z_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1ac8c88ceb8e4feb4d66be363bb8888154" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>z_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1aff01d301f0ceaaafdcd080696f93f388" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>z_</name></member>
+      <member refid="classvehicle__local__position__setpoint_1abef1e020beafabf3d007911c6842534a" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpoint</scope><name>~vehicle_local_position_setpoint</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1836 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classvehicle__odometry" kind="class" language="C++" prot="public">
+    <compoundname>vehicle_odometry</compoundname>
+    <includes refid="vehicle__odometry_8h" local="no">vehicle_odometry.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classvehicle__odometry_1ab21e3269cf69a08c1cfa7af25030e319" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t vehicle_odometry::m_timestamp_</definition>
+        <argsstring></argsstring>
+        <name>m_timestamp_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="535" column="14" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" bodystart="535" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__odometry_1a1567b765ef64f72a3081e25dc4912224" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t vehicle_odometry::m_timestamp_sample_</definition>
+        <argsstring></argsstring>
+        <name>m_timestamp_sample_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="536" column="14" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" bodystart="536" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__odometry_1a7bc46c27977cefaf1fdea64f8bc73a5b" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t vehicle_odometry::m_local_frame_</definition>
+        <argsstring></argsstring>
+        <name>m_local_frame_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="537" column="13" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" bodystart="537" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__odometry_1aebbc4975eb2c5ac7c277904bed429023" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vehicle_odometry::m_x_</definition>
+        <argsstring></argsstring>
+        <name>m_x_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="538" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" bodystart="538" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__odometry_1a8ec14ae66deaa936fcf08ee96a4f8f39" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vehicle_odometry::m_y_</definition>
+        <argsstring></argsstring>
+        <name>m_y_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="539" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" bodystart="539" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__odometry_1afc0823f453e9482cf0b1ba048f0beb50" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vehicle_odometry::m_z_</definition>
+        <argsstring></argsstring>
+        <name>m_z_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="540" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" bodystart="540" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__odometry_1acdf520fc74f52b1b8047e0895dbd1220" prot="private" static="no" mutable="no">
+        <type>vehicle_odometry__float_array_4</type>
+        <definition>vehicle_odometry__float_array_4 vehicle_odometry::m_q</definition>
+        <argsstring></argsstring>
+        <name>m_q</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="541" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" bodystart="541" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__odometry_1a49ac5d6f12207fde80b3c8a9b2fbf358" prot="private" static="no" mutable="no">
+        <type>vehicle_odometry__float_array_4</type>
+        <definition>vehicle_odometry__float_array_4 vehicle_odometry::m_q_offset</definition>
+        <argsstring></argsstring>
+        <name>m_q_offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="542" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" bodystart="542" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__odometry_1a653e0f88ac7271b93cf49f20c1925e07" prot="private" static="no" mutable="no">
+        <type>vehicle_odometry__float_array_21</type>
+        <definition>vehicle_odometry__float_array_21 vehicle_odometry::m_pose_covariance</definition>
+        <argsstring></argsstring>
+        <name>m_pose_covariance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="543" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" bodystart="543" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__odometry_1a71f7b04b518412d232e04e5ca1f9902b" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t vehicle_odometry::m_velocity_frame_</definition>
+        <argsstring></argsstring>
+        <name>m_velocity_frame_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="544" column="13" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" bodystart="544" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__odometry_1a2f6b02fa35fd6eafaf984ebbf959671a" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vehicle_odometry::m_vx_</definition>
+        <argsstring></argsstring>
+        <name>m_vx_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="545" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" bodystart="545" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__odometry_1a7b719fe5eeec4e3261e4ceb766ae5280" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vehicle_odometry::m_vy_</definition>
+        <argsstring></argsstring>
+        <name>m_vy_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="546" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" bodystart="546" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__odometry_1a3f2201a764456ce6aad626b68f2b464f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vehicle_odometry::m_vz_</definition>
+        <argsstring></argsstring>
+        <name>m_vz_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="547" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" bodystart="547" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__odometry_1ade32c8fb31cbd3007d2c51c6d45de2a1" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vehicle_odometry::m_rollspeed_</definition>
+        <argsstring></argsstring>
+        <name>m_rollspeed_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="548" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" bodystart="548" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__odometry_1aa2549c94c0859e4aca2f196e95f36b2a" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vehicle_odometry::m_pitchspeed_</definition>
+        <argsstring></argsstring>
+        <name>m_pitchspeed_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="549" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" bodystart="549" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__odometry_1a92c26aae8b3ae173c71c6bebaf2078bb" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float vehicle_odometry::m_yawspeed_</definition>
+        <argsstring></argsstring>
+        <name>m_yawspeed_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="550" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" bodystart="550" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__odometry_1a8c3c865a6e072084e6ae859ec485adf3" prot="private" static="no" mutable="no">
+        <type>vehicle_odometry__float_array_21</type>
+        <definition>vehicle_odometry__float_array_21 vehicle_odometry::m_velocity_covariance</definition>
+        <argsstring></argsstring>
+        <name>m_velocity_covariance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="551" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" bodystart="551" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classvehicle__odometry_1a581071df72c3ccf3e2dc45b3cbae5ae2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>vehicle_odometry::vehicle_odometry</definition>
+        <argsstring>()</argsstring>
+        <name>vehicle_odometry</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="93" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="55" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1ab733d19fdb3dbb3df2b3f1603e2e8920" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>vehicle_odometry::~vehicle_odometry</definition>
+        <argsstring>()</argsstring>
+        <name>~vehicle_odometry</name>
+        <briefdescription>
+<para>Default destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="98" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="94" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1ae88902637a7c9b8bd819547c24076410" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>vehicle_odometry::vehicle_odometry</definition>
+        <argsstring>(const vehicle_odometry &amp;x)</argsstring>
+        <name>vehicle_odometry</name>
+        <param>
+          <type>const <ref refid="classvehicle__odometry" kindref="compound">vehicle_odometry</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classvehicle__odometry" kindref="compound">vehicle_odometry</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="104" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="115" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a3a16e2385928166940ef7dccbc4f3dd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>vehicle_odometry::vehicle_odometry</definition>
+        <argsstring>(vehicle_odometry &amp;&amp;x)</argsstring>
+        <name>vehicle_odometry</name>
+        <param>
+          <type><ref refid="classvehicle__odometry" kindref="compound">vehicle_odometry</ref> &amp;&amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Move constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classvehicle__odometry" kindref="compound">vehicle_odometry</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="111" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="137" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a507269586f897694ba97c9a1e473669c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport <ref refid="classvehicle__odometry" kindref="compound">vehicle_odometry</ref> &amp;</type>
+        <definition>vehicle_odometry &amp; vehicle_odometry::operator=</definition>
+        <argsstring>(const vehicle_odometry &amp;x)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classvehicle__odometry" kindref="compound">vehicle_odometry</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Copy assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classvehicle__odometry" kindref="compound">vehicle_odometry</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="118" column="46" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="159" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1acb4c65d6960f02c5c1efd2eeac39eff9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport <ref refid="classvehicle__odometry" kindref="compound">vehicle_odometry</ref> &amp;</type>
+        <definition>vehicle_odometry &amp; vehicle_odometry::operator=</definition>
+        <argsstring>(vehicle_odometry &amp;&amp;x)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classvehicle__odometry" kindref="compound">vehicle_odometry</ref> &amp;&amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Move assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classvehicle__odometry" kindref="compound">vehicle_odometry</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="125" column="46" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="184" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a411ba3def6f193061b8deb4b8b547a9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_odometry::timestamp_</definition>
+        <argsstring>(uint64_t _timestamp_)</argsstring>
+        <name>timestamp_</name>
+        <param>
+          <type>uint64_t</type>
+          <declname>_timestamp_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;timestamp&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member timestamp_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="132" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="400" bodyend="404"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1acd1cb58ce035b3de68e454c6cc460d4d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint64_t</type>
+        <definition>uint64_t vehicle_odometry::timestamp_</definition>
+        <argsstring>() const</argsstring>
+        <name>timestamp_</name>
+        <briefdescription>
+<para>This function returns the value of member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member timestamp_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="139" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="410" bodyend="413"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1ac8191aabb97e1d5d5fcc16acb537ea4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint64_t &amp;</type>
+        <definition>uint64_t &amp; vehicle_odometry::timestamp_</definition>
+        <argsstring>()</argsstring>
+        <name>timestamp_</name>
+        <briefdescription>
+<para>This function returns a reference to member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member timestamp_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="145" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="419" bodyend="422"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a346a421e526c79b894afda7f39706c08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_odometry::timestamp_sample_</definition>
+        <argsstring>(uint64_t _timestamp_sample_)</argsstring>
+        <name>timestamp_sample_</name>
+        <param>
+          <type>uint64_t</type>
+          <declname>_timestamp_sample_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member timestamp_sample_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;timestamp_sample&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member timestamp_sample_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="151" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="428" bodyend="432"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a0a8d1bbcd4caa5d1749961417bc7b41e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint64_t</type>
+        <definition>uint64_t vehicle_odometry::timestamp_sample_</definition>
+        <argsstring>() const</argsstring>
+        <name>timestamp_sample_</name>
+        <briefdescription>
+<para>This function returns the value of member timestamp_sample_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member timestamp_sample_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="158" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="438" bodyend="441"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a70af9c48f82e9618a77a5221813fa1fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint64_t &amp;</type>
+        <definition>uint64_t &amp; vehicle_odometry::timestamp_sample_</definition>
+        <argsstring>()</argsstring>
+        <name>timestamp_sample_</name>
+        <briefdescription>
+<para>This function returns a reference to member timestamp_sample_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member timestamp_sample_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="164" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="447" bodyend="450"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a8844cdda87bd567c17b13d6fae35d945" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_odometry::local_frame_</definition>
+        <argsstring>(uint8_t _local_frame_)</argsstring>
+        <name>local_frame_</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>_local_frame_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member local_frame_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;local_frame&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member local_frame_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="170" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="456" bodyend="460"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a6cae32fa55c663981069a74948efe660" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint8_t</type>
+        <definition>uint8_t vehicle_odometry::local_frame_</definition>
+        <argsstring>() const</argsstring>
+        <name>local_frame_</name>
+        <briefdescription>
+<para>This function returns the value of member local_frame_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member local_frame_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="177" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="466" bodyend="469"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a057286d3442965d1449e89f2ab03aee8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint8_t &amp;</type>
+        <definition>uint8_t &amp; vehicle_odometry::local_frame_</definition>
+        <argsstring>()</argsstring>
+        <name>local_frame_</name>
+        <briefdescription>
+<para>This function returns a reference to member local_frame_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member local_frame_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="183" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="475" bodyend="478"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a86379d35ed4f5e3c373176bb661eb314" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_odometry::x_</definition>
+        <argsstring>(float _x_)</argsstring>
+        <name>x_</name>
+        <param>
+          <type>float</type>
+          <declname>_x_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member x_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;x&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member x_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="189" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="484" bodyend="488"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a3a0b2ffd6add0daed2b3f435461fc93b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float vehicle_odometry::x_</definition>
+        <argsstring>() const</argsstring>
+        <name>x_</name>
+        <briefdescription>
+<para>This function returns the value of member x_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member x_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="196" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="494" bodyend="497"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1ab825a72631175b89cccac2400d4fd406" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; vehicle_odometry::x_</definition>
+        <argsstring>()</argsstring>
+        <name>x_</name>
+        <briefdescription>
+<para>This function returns a reference to member x_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member x_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="202" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="503" bodyend="506"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a380dc92a3aeb37aa23a1d16bb6c8f7ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_odometry::y_</definition>
+        <argsstring>(float _y_)</argsstring>
+        <name>y_</name>
+        <param>
+          <type>float</type>
+          <declname>_y_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member y_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;y&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member y_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="208" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="512" bodyend="516"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1aa9ee5d13ac3b34a9807f9918f36bb996" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float vehicle_odometry::y_</definition>
+        <argsstring>() const</argsstring>
+        <name>y_</name>
+        <briefdescription>
+<para>This function returns the value of member y_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member y_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="215" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="522" bodyend="525"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a4c748df5f862439c32c2ea2187564da3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; vehicle_odometry::y_</definition>
+        <argsstring>()</argsstring>
+        <name>y_</name>
+        <briefdescription>
+<para>This function returns a reference to member y_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member y_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="221" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="531" bodyend="534"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a8a04e7d1209038139c45a573025f2d2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_odometry::z_</definition>
+        <argsstring>(float _z_)</argsstring>
+        <name>z_</name>
+        <param>
+          <type>float</type>
+          <declname>_z_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member z_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;z&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member z_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="227" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="540" bodyend="544"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a632980ec6caadb9503d4019c4ca21604" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float vehicle_odometry::z_</definition>
+        <argsstring>() const</argsstring>
+        <name>z_</name>
+        <briefdescription>
+<para>This function returns the value of member z_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member z_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="234" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="550" bodyend="553"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1abf5b4907500eee99cedf101c1c6668d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; vehicle_odometry::z_</definition>
+        <argsstring>()</argsstring>
+        <name>z_</name>
+        <briefdescription>
+<para>This function returns a reference to member z_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member z_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="240" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="559" bodyend="562"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a65f75756d845ac8ab531951ad9545276" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_odometry::q</definition>
+        <argsstring>(const vehicle_odometry__float_array_4 &amp;_q)</argsstring>
+        <name>q</name>
+        <param>
+          <type>const vehicle_odometry__float_array_4 &amp;</type>
+          <declname>_q</declname>
+        </param>
+        <briefdescription>
+<para>This function copies the value in member q. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_q</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member q </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="246" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="568" bodyend="572"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1ad1153d44b0caf7c359ea73ec15c9370a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_odometry::q</definition>
+        <argsstring>(vehicle_odometry__float_array_4 &amp;&amp;_q)</argsstring>
+        <name>q</name>
+        <param>
+          <type>vehicle_odometry__float_array_4 &amp;&amp;</type>
+          <declname>_q</declname>
+        </param>
+        <briefdescription>
+<para>This function moves the value in member q. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_q</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member q </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="253" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="578" bodyend="582"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1ac039fed153a5bbea85dae5ad912470de" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport const vehicle_odometry__float_array_4 &amp;</type>
+        <definition>const vehicle_odometry__float_array_4 &amp; vehicle_odometry::q</definition>
+        <argsstring>() const</argsstring>
+        <name>q</name>
+        <briefdescription>
+<para>This function returns a constant reference to member q. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Constant reference to member q </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="260" column="67" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="588" bodyend="591"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a9148a3419b44ac43d2e1cca66eff8dd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport vehicle_odometry__float_array_4 &amp;</type>
+        <definition>vehicle_odometry__float_array_4 &amp; vehicle_odometry::q</definition>
+        <argsstring>()</argsstring>
+        <name>q</name>
+        <briefdescription>
+<para>This function returns a reference to member q. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member q </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="266" column="61" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="597" bodyend="600"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1abca9e2104ba661d97ccf23b1e3fdcc68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_odometry::q_offset</definition>
+        <argsstring>(const vehicle_odometry__float_array_4 &amp;_q_offset)</argsstring>
+        <name>q_offset</name>
+        <param>
+          <type>const vehicle_odometry__float_array_4 &amp;</type>
+          <declname>_q_offset</declname>
+        </param>
+        <briefdescription>
+<para>This function copies the value in member q_offset. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_q_offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member q_offset </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="271" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="605" bodyend="609"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a92ecc056f06acd95d1c7534bbc7ad292" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_odometry::q_offset</definition>
+        <argsstring>(vehicle_odometry__float_array_4 &amp;&amp;_q_offset)</argsstring>
+        <name>q_offset</name>
+        <param>
+          <type>vehicle_odometry__float_array_4 &amp;&amp;</type>
+          <declname>_q_offset</declname>
+        </param>
+        <briefdescription>
+<para>This function moves the value in member q_offset. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_q_offset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member q_offset </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="278" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="615" bodyend="619"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a7c0a0ec3cbf2bbbac1de96e9d409ba92" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport const vehicle_odometry__float_array_4 &amp;</type>
+        <definition>const vehicle_odometry__float_array_4 &amp; vehicle_odometry::q_offset</definition>
+        <argsstring>() const</argsstring>
+        <name>q_offset</name>
+        <briefdescription>
+<para>This function returns a constant reference to member q_offset. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Constant reference to member q_offset </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="285" column="67" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="625" bodyend="628"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a13733df22918e4016bee86d0ab6d42b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport vehicle_odometry__float_array_4 &amp;</type>
+        <definition>vehicle_odometry__float_array_4 &amp; vehicle_odometry::q_offset</definition>
+        <argsstring>()</argsstring>
+        <name>q_offset</name>
+        <briefdescription>
+<para>This function returns a reference to member q_offset. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member q_offset </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="291" column="61" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="634" bodyend="637"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a1817902fc785d61618e2c3ed68f07164" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_odometry::pose_covariance</definition>
+        <argsstring>(const vehicle_odometry__float_array_21 &amp;_pose_covariance)</argsstring>
+        <name>pose_covariance</name>
+        <param>
+          <type>const vehicle_odometry__float_array_21 &amp;</type>
+          <declname>_pose_covariance</declname>
+        </param>
+        <briefdescription>
+<para>This function copies the value in member pose_covariance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_pose_covariance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member pose_covariance </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="296" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="642" bodyend="646"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a8946a1cd4a35e2b6c9a6ab99cc21cb72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_odometry::pose_covariance</definition>
+        <argsstring>(vehicle_odometry__float_array_21 &amp;&amp;_pose_covariance)</argsstring>
+        <name>pose_covariance</name>
+        <param>
+          <type>vehicle_odometry__float_array_21 &amp;&amp;</type>
+          <declname>_pose_covariance</declname>
+        </param>
+        <briefdescription>
+<para>This function moves the value in member pose_covariance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_pose_covariance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member pose_covariance </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="303" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="652" bodyend="656"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a52a4689acbc8fc60b8554b0fe7a8fa18" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport const vehicle_odometry__float_array_21 &amp;</type>
+        <definition>const vehicle_odometry__float_array_21 &amp; vehicle_odometry::pose_covariance</definition>
+        <argsstring>() const</argsstring>
+        <name>pose_covariance</name>
+        <briefdescription>
+<para>This function returns a constant reference to member pose_covariance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Constant reference to member pose_covariance </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="310" column="68" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="662" bodyend="665"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a75264200414690a5c48b3d372170752c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport vehicle_odometry__float_array_21 &amp;</type>
+        <definition>vehicle_odometry__float_array_21 &amp; vehicle_odometry::pose_covariance</definition>
+        <argsstring>()</argsstring>
+        <name>pose_covariance</name>
+        <briefdescription>
+<para>This function returns a reference to member pose_covariance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member pose_covariance </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="316" column="62" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="671" bodyend="674"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a90f4d8062f85841ae52419ec0376bc1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_odometry::velocity_frame_</definition>
+        <argsstring>(uint8_t _velocity_frame_)</argsstring>
+        <name>velocity_frame_</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>_velocity_frame_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member velocity_frame_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;velocity_frame&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member velocity_frame_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="321" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="679" bodyend="683"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a87b95f5d12bc1cf38da5673fafc22eae" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint8_t</type>
+        <definition>uint8_t vehicle_odometry::velocity_frame_</definition>
+        <argsstring>() const</argsstring>
+        <name>velocity_frame_</name>
+        <briefdescription>
+<para>This function returns the value of member velocity_frame_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member velocity_frame_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="328" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="689" bodyend="692"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a14f86da3c2f6706e6e0520285faa68a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint8_t &amp;</type>
+        <definition>uint8_t &amp; vehicle_odometry::velocity_frame_</definition>
+        <argsstring>()</argsstring>
+        <name>velocity_frame_</name>
+        <briefdescription>
+<para>This function returns a reference to member velocity_frame_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member velocity_frame_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="334" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="698" bodyend="701"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a9c8f236d3671b0a144964b92ef0401fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_odometry::vx_</definition>
+        <argsstring>(float _vx_)</argsstring>
+        <name>vx_</name>
+        <param>
+          <type>float</type>
+          <declname>_vx_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member vx_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;vx&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member vx_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="340" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="707" bodyend="711"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a0d085f7c4e3a0bbe980e0f75df7dc161" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float vehicle_odometry::vx_</definition>
+        <argsstring>() const</argsstring>
+        <name>vx_</name>
+        <briefdescription>
+<para>This function returns the value of member vx_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member vx_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="347" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="717" bodyend="720"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a185debba7bb43b140057d2d0d8559e9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; vehicle_odometry::vx_</definition>
+        <argsstring>()</argsstring>
+        <name>vx_</name>
+        <briefdescription>
+<para>This function returns a reference to member vx_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member vx_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="353" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="726" bodyend="729"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a8c10f563ac2f66ed933d682024dd9fe9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_odometry::vy_</definition>
+        <argsstring>(float _vy_)</argsstring>
+        <name>vy_</name>
+        <param>
+          <type>float</type>
+          <declname>_vy_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member vy_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;vy&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member vy_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="359" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="735" bodyend="739"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a3c50deda81c7ad05be3e24aaac39b68a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float vehicle_odometry::vy_</definition>
+        <argsstring>() const</argsstring>
+        <name>vy_</name>
+        <briefdescription>
+<para>This function returns the value of member vy_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member vy_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="366" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="745" bodyend="748"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a3f06063f21e3628f3f5d36ca5059e5e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; vehicle_odometry::vy_</definition>
+        <argsstring>()</argsstring>
+        <name>vy_</name>
+        <briefdescription>
+<para>This function returns a reference to member vy_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member vy_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="372" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="754" bodyend="757"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a636a54678cdcd5c4a8a68086b3140fcf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_odometry::vz_</definition>
+        <argsstring>(float _vz_)</argsstring>
+        <name>vz_</name>
+        <param>
+          <type>float</type>
+          <declname>_vz_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member vz_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;vz&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member vz_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="378" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="763" bodyend="767"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1aafc3e72244dc639e9ebffb44d1cdbb25" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float vehicle_odometry::vz_</definition>
+        <argsstring>() const</argsstring>
+        <name>vz_</name>
+        <briefdescription>
+<para>This function returns the value of member vz_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member vz_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="385" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="773" bodyend="776"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a42a95e6b67e4af638d4c33f8e79dff8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; vehicle_odometry::vz_</definition>
+        <argsstring>()</argsstring>
+        <name>vz_</name>
+        <briefdescription>
+<para>This function returns a reference to member vz_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member vz_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="391" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="782" bodyend="785"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a3b80a29e5f6bd42bc4e3dc20329af0e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_odometry::rollspeed_</definition>
+        <argsstring>(float _rollspeed_)</argsstring>
+        <name>rollspeed_</name>
+        <param>
+          <type>float</type>
+          <declname>_rollspeed_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member rollspeed_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;rollspeed&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member rollspeed_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="397" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="791" bodyend="795"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a4cef3a6cfbb0281de6f2a12d7383741a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float vehicle_odometry::rollspeed_</definition>
+        <argsstring>() const</argsstring>
+        <name>rollspeed_</name>
+        <briefdescription>
+<para>This function returns the value of member rollspeed_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member rollspeed_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="404" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="801" bodyend="804"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a465362a172a9b748cdecc493b6a85ba2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; vehicle_odometry::rollspeed_</definition>
+        <argsstring>()</argsstring>
+        <name>rollspeed_</name>
+        <briefdescription>
+<para>This function returns a reference to member rollspeed_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member rollspeed_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="410" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="810" bodyend="813"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a8d032cdd67db8109f32f5e14b8b5d61f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_odometry::pitchspeed_</definition>
+        <argsstring>(float _pitchspeed_)</argsstring>
+        <name>pitchspeed_</name>
+        <param>
+          <type>float</type>
+          <declname>_pitchspeed_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member pitchspeed_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;pitchspeed&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member pitchspeed_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="416" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="819" bodyend="823"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1aa0fd5bd8e0367abbf6c2de010301f19a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float vehicle_odometry::pitchspeed_</definition>
+        <argsstring>() const</argsstring>
+        <name>pitchspeed_</name>
+        <briefdescription>
+<para>This function returns the value of member pitchspeed_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member pitchspeed_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="423" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="829" bodyend="832"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a1718546eb74ae4c3aa5682c4272ebccc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; vehicle_odometry::pitchspeed_</definition>
+        <argsstring>()</argsstring>
+        <name>pitchspeed_</name>
+        <briefdescription>
+<para>This function returns a reference to member pitchspeed_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member pitchspeed_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="429" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="838" bodyend="841"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1abf3b3aed704761a7d228a23d9e5cc546" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_odometry::yawspeed_</definition>
+        <argsstring>(float _yawspeed_)</argsstring>
+        <name>yawspeed_</name>
+        <param>
+          <type>float</type>
+          <declname>_yawspeed_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member yawspeed_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;yawspeed&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member yawspeed_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="435" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="847" bodyend="851"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a8bd3c1e63da5780559a614994c5735ae" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float vehicle_odometry::yawspeed_</definition>
+        <argsstring>() const</argsstring>
+        <name>yawspeed_</name>
+        <briefdescription>
+<para>This function returns the value of member yawspeed_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member yawspeed_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="442" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="857" bodyend="860"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1afc0978ebfa3304006476a432c3e8975f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; vehicle_odometry::yawspeed_</definition>
+        <argsstring>()</argsstring>
+        <name>yawspeed_</name>
+        <briefdescription>
+<para>This function returns a reference to member yawspeed_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member yawspeed_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="448" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="866" bodyend="869"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1ab556514c7275bf69dd9faa382120424d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_odometry::velocity_covariance</definition>
+        <argsstring>(const vehicle_odometry__float_array_21 &amp;_velocity_covariance)</argsstring>
+        <name>velocity_covariance</name>
+        <param>
+          <type>const vehicle_odometry__float_array_21 &amp;</type>
+          <declname>_velocity_covariance</declname>
+        </param>
+        <briefdescription>
+<para>This function copies the value in member velocity_covariance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_velocity_covariance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member velocity_covariance </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="454" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="875" bodyend="879"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a156c1c0dfde53ac5caa3ef571b32aaa6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_odometry::velocity_covariance</definition>
+        <argsstring>(vehicle_odometry__float_array_21 &amp;&amp;_velocity_covariance)</argsstring>
+        <name>velocity_covariance</name>
+        <param>
+          <type>vehicle_odometry__float_array_21 &amp;&amp;</type>
+          <declname>_velocity_covariance</declname>
+        </param>
+        <briefdescription>
+<para>This function moves the value in member velocity_covariance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_velocity_covariance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member velocity_covariance </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="461" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="885" bodyend="889"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a05d551b21f257f5e1220feb6015ecdc5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport const vehicle_odometry__float_array_21 &amp;</type>
+        <definition>const vehicle_odometry__float_array_21 &amp; vehicle_odometry::velocity_covariance</definition>
+        <argsstring>() const</argsstring>
+        <name>velocity_covariance</name>
+        <briefdescription>
+<para>This function returns a constant reference to member velocity_covariance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Constant reference to member velocity_covariance </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="468" column="68" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="895" bodyend="898"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a24ef7e1481c49952bda59c4d8588f08b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport vehicle_odometry__float_array_21 &amp;</type>
+        <definition>vehicle_odometry__float_array_21 &amp; vehicle_odometry::velocity_covariance</definition>
+        <argsstring>()</argsstring>
+        <name>velocity_covariance</name>
+        <briefdescription>
+<para>This function returns a reference to member velocity_covariance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member velocity_covariance </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="474" column="62" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="904" bodyend="907"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1ad5c0cbf02d88a1fa98cf0486cb186eb6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_odometry::serialize</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr) const</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function serializes an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="500" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="341" bodyend="367"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1afe4998ded3ac43bb2077aa59fb381e07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_odometry::deserialize</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr)</argsstring>
+        <name>deserialize</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function deserializes an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="507" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="369" bodyend="394"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a8bcac0c9356b5110eddc704cf3f69733" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_odometry::serializeKey</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr) const</argsstring>
+        <name>serializeKey</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function serializes the key members of an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="530" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="941" bodyend="946"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classvehicle__odometry_1a4a1e5c502a3d60960cb1cf0e7060d89e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t vehicle_odometry::getMaxCdrSerializedSize</definition>
+        <argsstring>(size_t current_alignment=0)</argsstring>
+        <name>getMaxCdrSerializedSize</name>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the maximum serialized size of an object depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Maximum serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="482" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="209" bodyend="268"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a4752571c8480f4eada5079bde02e14ea" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t vehicle_odometry::getCdrSerializedSize</definition>
+        <argsstring>(const vehicle_odometry &amp;data, size_t current_alignment=0)</argsstring>
+        <name>getCdrSerializedSize</name>
+        <param>
+          <type>const <ref refid="classvehicle__odometry" kindref="compound">vehicle_odometry</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the serialized size of a data depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data which is calculated its serialized size. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="491" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="270" bodyend="339"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1a3c6b827b6bb3c0565e1f55e644fd999f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t vehicle_odometry::getKeyMaxCdrSerializedSize</definition>
+        <argsstring>(size_t current_alignment=0)</argsstring>
+        <name>getKeyMaxCdrSerializedSize</name>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the maximum serialized size of the Key of an object depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Maximum serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="518" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="909" bodyend="934"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__odometry_1ab0191006160bb0b3fb383179c5b0b85d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool vehicle_odometry::isKeyDefined</definition>
+        <argsstring>()</argsstring>
+        <name>isKeyDefined</name>
+        <briefdescription>
+<para>This function tells you if the Key has been defined for this type. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="524" column="41" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.cxx" bodystart="936" bodyend="939"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents the structure <ref refid="classvehicle__odometry" kindref="compound">vehicle_odometry</ref> defined by the user in the IDL file. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" line="86" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_odometry.h" bodystart="87" bodyend="552"/>
+    <listofallmembers>
+      <member refid="classvehicle__odometry_1afe4998ded3ac43bb2077aa59fb381e07" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>deserialize</name></member>
+      <member refid="classvehicle__odometry_1a4752571c8480f4eada5079bde02e14ea" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>getCdrSerializedSize</name></member>
+      <member refid="classvehicle__odometry_1a3c6b827b6bb3c0565e1f55e644fd999f" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>getKeyMaxCdrSerializedSize</name></member>
+      <member refid="classvehicle__odometry_1a4a1e5c502a3d60960cb1cf0e7060d89e" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>getMaxCdrSerializedSize</name></member>
+      <member refid="classvehicle__odometry_1ab0191006160bb0b3fb383179c5b0b85d" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>isKeyDefined</name></member>
+      <member refid="classvehicle__odometry_1a8844cdda87bd567c17b13d6fae35d945" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>local_frame_</name></member>
+      <member refid="classvehicle__odometry_1a6cae32fa55c663981069a74948efe660" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>local_frame_</name></member>
+      <member refid="classvehicle__odometry_1a057286d3442965d1449e89f2ab03aee8" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>local_frame_</name></member>
+      <member refid="classvehicle__odometry_1a7bc46c27977cefaf1fdea64f8bc73a5b" prot="private" virt="non-virtual"><scope>vehicle_odometry</scope><name>m_local_frame_</name></member>
+      <member refid="classvehicle__odometry_1aa2549c94c0859e4aca2f196e95f36b2a" prot="private" virt="non-virtual"><scope>vehicle_odometry</scope><name>m_pitchspeed_</name></member>
+      <member refid="classvehicle__odometry_1a653e0f88ac7271b93cf49f20c1925e07" prot="private" virt="non-virtual"><scope>vehicle_odometry</scope><name>m_pose_covariance</name></member>
+      <member refid="classvehicle__odometry_1acdf520fc74f52b1b8047e0895dbd1220" prot="private" virt="non-virtual"><scope>vehicle_odometry</scope><name>m_q</name></member>
+      <member refid="classvehicle__odometry_1a49ac5d6f12207fde80b3c8a9b2fbf358" prot="private" virt="non-virtual"><scope>vehicle_odometry</scope><name>m_q_offset</name></member>
+      <member refid="classvehicle__odometry_1ade32c8fb31cbd3007d2c51c6d45de2a1" prot="private" virt="non-virtual"><scope>vehicle_odometry</scope><name>m_rollspeed_</name></member>
+      <member refid="classvehicle__odometry_1ab21e3269cf69a08c1cfa7af25030e319" prot="private" virt="non-virtual"><scope>vehicle_odometry</scope><name>m_timestamp_</name></member>
+      <member refid="classvehicle__odometry_1a1567b765ef64f72a3081e25dc4912224" prot="private" virt="non-virtual"><scope>vehicle_odometry</scope><name>m_timestamp_sample_</name></member>
+      <member refid="classvehicle__odometry_1a8c3c865a6e072084e6ae859ec485adf3" prot="private" virt="non-virtual"><scope>vehicle_odometry</scope><name>m_velocity_covariance</name></member>
+      <member refid="classvehicle__odometry_1a71f7b04b518412d232e04e5ca1f9902b" prot="private" virt="non-virtual"><scope>vehicle_odometry</scope><name>m_velocity_frame_</name></member>
+      <member refid="classvehicle__odometry_1a2f6b02fa35fd6eafaf984ebbf959671a" prot="private" virt="non-virtual"><scope>vehicle_odometry</scope><name>m_vx_</name></member>
+      <member refid="classvehicle__odometry_1a7b719fe5eeec4e3261e4ceb766ae5280" prot="private" virt="non-virtual"><scope>vehicle_odometry</scope><name>m_vy_</name></member>
+      <member refid="classvehicle__odometry_1a3f2201a764456ce6aad626b68f2b464f" prot="private" virt="non-virtual"><scope>vehicle_odometry</scope><name>m_vz_</name></member>
+      <member refid="classvehicle__odometry_1aebbc4975eb2c5ac7c277904bed429023" prot="private" virt="non-virtual"><scope>vehicle_odometry</scope><name>m_x_</name></member>
+      <member refid="classvehicle__odometry_1a8ec14ae66deaa936fcf08ee96a4f8f39" prot="private" virt="non-virtual"><scope>vehicle_odometry</scope><name>m_y_</name></member>
+      <member refid="classvehicle__odometry_1a92c26aae8b3ae173c71c6bebaf2078bb" prot="private" virt="non-virtual"><scope>vehicle_odometry</scope><name>m_yawspeed_</name></member>
+      <member refid="classvehicle__odometry_1afc0823f453e9482cf0b1ba048f0beb50" prot="private" virt="non-virtual"><scope>vehicle_odometry</scope><name>m_z_</name></member>
+      <member refid="classvehicle__odometry_1a507269586f897694ba97c9a1e473669c" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>operator=</name></member>
+      <member refid="classvehicle__odometry_1acb4c65d6960f02c5c1efd2eeac39eff9" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>operator=</name></member>
+      <member refid="classvehicle__odometry_1a8d032cdd67db8109f32f5e14b8b5d61f" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>pitchspeed_</name></member>
+      <member refid="classvehicle__odometry_1aa0fd5bd8e0367abbf6c2de010301f19a" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>pitchspeed_</name></member>
+      <member refid="classvehicle__odometry_1a1718546eb74ae4c3aa5682c4272ebccc" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>pitchspeed_</name></member>
+      <member refid="classvehicle__odometry_1a1817902fc785d61618e2c3ed68f07164" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>pose_covariance</name></member>
+      <member refid="classvehicle__odometry_1a8946a1cd4a35e2b6c9a6ab99cc21cb72" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>pose_covariance</name></member>
+      <member refid="classvehicle__odometry_1a52a4689acbc8fc60b8554b0fe7a8fa18" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>pose_covariance</name></member>
+      <member refid="classvehicle__odometry_1a75264200414690a5c48b3d372170752c" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>pose_covariance</name></member>
+      <member refid="classvehicle__odometry_1a65f75756d845ac8ab531951ad9545276" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>q</name></member>
+      <member refid="classvehicle__odometry_1ad1153d44b0caf7c359ea73ec15c9370a" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>q</name></member>
+      <member refid="classvehicle__odometry_1ac039fed153a5bbea85dae5ad912470de" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>q</name></member>
+      <member refid="classvehicle__odometry_1a9148a3419b44ac43d2e1cca66eff8dd7" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>q</name></member>
+      <member refid="classvehicle__odometry_1abca9e2104ba661d97ccf23b1e3fdcc68" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>q_offset</name></member>
+      <member refid="classvehicle__odometry_1a92ecc056f06acd95d1c7534bbc7ad292" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>q_offset</name></member>
+      <member refid="classvehicle__odometry_1a7c0a0ec3cbf2bbbac1de96e9d409ba92" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>q_offset</name></member>
+      <member refid="classvehicle__odometry_1a13733df22918e4016bee86d0ab6d42b5" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>q_offset</name></member>
+      <member refid="classvehicle__odometry_1a3b80a29e5f6bd42bc4e3dc20329af0e5" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>rollspeed_</name></member>
+      <member refid="classvehicle__odometry_1a4cef3a6cfbb0281de6f2a12d7383741a" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>rollspeed_</name></member>
+      <member refid="classvehicle__odometry_1a465362a172a9b748cdecc493b6a85ba2" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>rollspeed_</name></member>
+      <member refid="classvehicle__odometry_1ad5c0cbf02d88a1fa98cf0486cb186eb6" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>serialize</name></member>
+      <member refid="classvehicle__odometry_1a8bcac0c9356b5110eddc704cf3f69733" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>serializeKey</name></member>
+      <member refid="classvehicle__odometry_1a411ba3def6f193061b8deb4b8b547a9d" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>timestamp_</name></member>
+      <member refid="classvehicle__odometry_1acd1cb58ce035b3de68e454c6cc460d4d" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>timestamp_</name></member>
+      <member refid="classvehicle__odometry_1ac8191aabb97e1d5d5fcc16acb537ea4c" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>timestamp_</name></member>
+      <member refid="classvehicle__odometry_1a346a421e526c79b894afda7f39706c08" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>timestamp_sample_</name></member>
+      <member refid="classvehicle__odometry_1a0a8d1bbcd4caa5d1749961417bc7b41e" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>timestamp_sample_</name></member>
+      <member refid="classvehicle__odometry_1a70af9c48f82e9618a77a5221813fa1fc" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>timestamp_sample_</name></member>
+      <member refid="classvehicle__odometry_1a581071df72c3ccf3e2dc45b3cbae5ae2" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>vehicle_odometry</name></member>
+      <member refid="classvehicle__odometry_1ae88902637a7c9b8bd819547c24076410" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>vehicle_odometry</name></member>
+      <member refid="classvehicle__odometry_1a3a16e2385928166940ef7dccbc4f3dd8" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>vehicle_odometry</name></member>
+      <member refid="classvehicle__odometry_1ab556514c7275bf69dd9faa382120424d" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>velocity_covariance</name></member>
+      <member refid="classvehicle__odometry_1a156c1c0dfde53ac5caa3ef571b32aaa6" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>velocity_covariance</name></member>
+      <member refid="classvehicle__odometry_1a05d551b21f257f5e1220feb6015ecdc5" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>velocity_covariance</name></member>
+      <member refid="classvehicle__odometry_1a24ef7e1481c49952bda59c4d8588f08b" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>velocity_covariance</name></member>
+      <member refid="classvehicle__odometry_1a90f4d8062f85841ae52419ec0376bc1f" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>velocity_frame_</name></member>
+      <member refid="classvehicle__odometry_1a87b95f5d12bc1cf38da5673fafc22eae" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>velocity_frame_</name></member>
+      <member refid="classvehicle__odometry_1a14f86da3c2f6706e6e0520285faa68a7" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>velocity_frame_</name></member>
+      <member refid="classvehicle__odometry_1a9c8f236d3671b0a144964b92ef0401fa" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>vx_</name></member>
+      <member refid="classvehicle__odometry_1a0d085f7c4e3a0bbe980e0f75df7dc161" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>vx_</name></member>
+      <member refid="classvehicle__odometry_1a185debba7bb43b140057d2d0d8559e9f" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>vx_</name></member>
+      <member refid="classvehicle__odometry_1a8c10f563ac2f66ed933d682024dd9fe9" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>vy_</name></member>
+      <member refid="classvehicle__odometry_1a3c50deda81c7ad05be3e24aaac39b68a" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>vy_</name></member>
+      <member refid="classvehicle__odometry_1a3f06063f21e3628f3f5d36ca5059e5e8" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>vy_</name></member>
+      <member refid="classvehicle__odometry_1a636a54678cdcd5c4a8a68086b3140fcf" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>vz_</name></member>
+      <member refid="classvehicle__odometry_1aafc3e72244dc639e9ebffb44d1cdbb25" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>vz_</name></member>
+      <member refid="classvehicle__odometry_1a42a95e6b67e4af638d4c33f8e79dff8b" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>vz_</name></member>
+      <member refid="classvehicle__odometry_1a86379d35ed4f5e3c373176bb661eb314" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>x_</name></member>
+      <member refid="classvehicle__odometry_1a3a0b2ffd6add0daed2b3f435461fc93b" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>x_</name></member>
+      <member refid="classvehicle__odometry_1ab825a72631175b89cccac2400d4fd406" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>x_</name></member>
+      <member refid="classvehicle__odometry_1a380dc92a3aeb37aa23a1d16bb6c8f7ce" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>y_</name></member>
+      <member refid="classvehicle__odometry_1aa9ee5d13ac3b34a9807f9918f36bb996" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>y_</name></member>
+      <member refid="classvehicle__odometry_1a4c748df5f862439c32c2ea2187564da3" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>y_</name></member>
+      <member refid="classvehicle__odometry_1abf3b3aed704761a7d228a23d9e5cc546" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>yawspeed_</name></member>
+      <member refid="classvehicle__odometry_1a8bd3c1e63da5780559a614994c5735ae" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>yawspeed_</name></member>
+      <member refid="classvehicle__odometry_1afc0978ebfa3304006476a432c3e8975f" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>yawspeed_</name></member>
+      <member refid="classvehicle__odometry_1a8a04e7d1209038139c45a573025f2d2f" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>z_</name></member>
+      <member refid="classvehicle__odometry_1a632980ec6caadb9503d4019c4ca21604" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>z_</name></member>
+      <member refid="classvehicle__odometry_1abf5b4907500eee99cedf101c1c6668d9" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>z_</name></member>
+      <member refid="classvehicle__odometry_1ab733d19fdb3dbb3df2b3f1603e2e8920" prot="public" virt="non-virtual"><scope>vehicle_odometry</scope><name>~vehicle_odometry</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

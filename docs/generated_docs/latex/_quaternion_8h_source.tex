@@ -1,0 +1,146 @@
+\hypertarget{_quaternion_8h_source}{}\doxysection{Quaternion.\+h}
+\label{_quaternion_8h_source}\index{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/msg\_definitions/Quaternion.h@{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/msg\_definitions/Quaternion.h}}
+\mbox{\hyperlink{_quaternion_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{// Copyright 2016 Proyectos y Sistemas de Mantenimiento SL (eProsima).}}
+\DoxyCodeLine{2 \textcolor{comment}{//}}
+\DoxyCodeLine{3 \textcolor{comment}{// Licensed under the Apache License, Version 2.0 (the "{}License"{});}}
+\DoxyCodeLine{4 \textcolor{comment}{// you may not use this file except in compliance with the License.}}
+\DoxyCodeLine{5 \textcolor{comment}{// You may obtain a copy of the License at}}
+\DoxyCodeLine{6 \textcolor{comment}{//}}
+\DoxyCodeLine{7 \textcolor{comment}{//     http://www.apache.org/licenses/LICENSE-\/2.0}}
+\DoxyCodeLine{8 \textcolor{comment}{//}}
+\DoxyCodeLine{9 \textcolor{comment}{// Unless required by applicable law or agreed to in writing, software}}
+\DoxyCodeLine{10 \textcolor{comment}{// distributed under the License is distributed on an "{}AS IS"{} BASIS,}}
+\DoxyCodeLine{11 \textcolor{comment}{// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.}}
+\DoxyCodeLine{12 \textcolor{comment}{// See the License for the specific language governing permissions and}}
+\DoxyCodeLine{13 \textcolor{comment}{// limitations under the License.}}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{22 \textcolor{preprocessor}{\#ifndef \_IDL\_MSG\_QUATERNION\_H\_}}
+\DoxyCodeLine{23 \textcolor{preprocessor}{\#define \_IDL\_MSG\_QUATERNION\_H\_}}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25 }
+\DoxyCodeLine{26 \textcolor{preprocessor}{\#include <stdint.h>}}
+\DoxyCodeLine{27 \textcolor{preprocessor}{\#include <array>}}
+\DoxyCodeLine{28 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{29 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{30 \textcolor{preprocessor}{\#include <map>}}
+\DoxyCodeLine{31 \textcolor{preprocessor}{\#include <bitset>}}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{33 \textcolor{preprocessor}{\#if defined(\_WIN32)}}
+\DoxyCodeLine{34 \textcolor{preprocessor}{\#if defined(EPROSIMA\_USER\_DLL\_EXPORT)}}
+\DoxyCodeLine{35 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport \_\_declspec( dllexport )}}
+\DoxyCodeLine{36 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{37 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport}}
+\DoxyCodeLine{38 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// EPROSIMA\_USER\_DLL\_EXPORT}}
+\DoxyCodeLine{39 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{40 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport}}
+\DoxyCodeLine{41 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// \_WIN32}}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{43 \textcolor{preprocessor}{\#if defined(\_WIN32)}}
+\DoxyCodeLine{44 \textcolor{preprocessor}{\#if defined(EPROSIMA\_USER\_DLL\_EXPORT)}}
+\DoxyCodeLine{45 \textcolor{preprocessor}{\#if defined(Quaternion\_SOURCE)}}
+\DoxyCodeLine{46 \textcolor{preprocessor}{\#define Quaternion\_DllAPI \_\_declspec( dllexport )}}
+\DoxyCodeLine{47 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{48 \textcolor{preprocessor}{\#define Quaternion\_DllAPI \_\_declspec( dllimport )}}
+\DoxyCodeLine{49 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// Quaternion\_SOURCE}}
+\DoxyCodeLine{50 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{51 \textcolor{preprocessor}{\#define Quaternion\_DllAPI}}
+\DoxyCodeLine{52 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// EPROSIMA\_USER\_DLL\_EXPORT}}
+\DoxyCodeLine{53 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{54 \textcolor{preprocessor}{\#define Quaternion\_DllAPI}}
+\DoxyCodeLine{55 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_WIN32}}
+\DoxyCodeLine{56 }
+\DoxyCodeLine{57 \textcolor{keyword}{namespace }eprosima \{}
+\DoxyCodeLine{58 \textcolor{keyword}{namespace }fastcdr \{}
+\DoxyCodeLine{59 \textcolor{keyword}{class }Cdr;}
+\DoxyCodeLine{60 \} \textcolor{comment}{// namespace fastcdr}}
+\DoxyCodeLine{61 \} \textcolor{comment}{// namespace eprosima}}
+\DoxyCodeLine{62 }
+\DoxyCodeLine{63 }
+\DoxyCodeLine{64 \textcolor{keyword}{namespace }idl\_msg \{}
+\DoxyCodeLine{69     \textcolor{keyword}{class }\mbox{\hyperlink{classidl__msg_1_1_quaternion}{Quaternion}}}
+\DoxyCodeLine{70     \{}
+\DoxyCodeLine{71     \textcolor{keyword}{public}:}
+\DoxyCodeLine{72 }
+\DoxyCodeLine{76         eProsima\_user\_DllExport \mbox{\hyperlink{classidl__msg_1_1_quaternion_afc009699556217ff73884a5ad46f263b}{Quaternion}}();}
+\DoxyCodeLine{77 }
+\DoxyCodeLine{81         eProsima\_user\_DllExport \mbox{\hyperlink{classidl__msg_1_1_quaternion_a02f76ca4940469690b83c40cd9868ede}{\string~Quaternion}}();}
+\DoxyCodeLine{82 }
+\DoxyCodeLine{87         eProsima\_user\_DllExport \mbox{\hyperlink{classidl__msg_1_1_quaternion_afc009699556217ff73884a5ad46f263b}{Quaternion}}(}
+\DoxyCodeLine{88                 \textcolor{keyword}{const} \mbox{\hyperlink{classidl__msg_1_1_quaternion}{Quaternion}}\& \mbox{\hyperlink{classidl__msg_1_1_quaternion_a0504c689b74a784b00239e006da33d7c}{x}});}
+\DoxyCodeLine{89 }
+\DoxyCodeLine{94         eProsima\_user\_DllExport \mbox{\hyperlink{classidl__msg_1_1_quaternion_afc009699556217ff73884a5ad46f263b}{Quaternion}}(}
+\DoxyCodeLine{95                 \mbox{\hyperlink{classidl__msg_1_1_quaternion}{Quaternion}}\&\& \mbox{\hyperlink{classidl__msg_1_1_quaternion_a0504c689b74a784b00239e006da33d7c}{x}});}
+\DoxyCodeLine{96 }
+\DoxyCodeLine{101         eProsima\_user\_DllExport \mbox{\hyperlink{classidl__msg_1_1_quaternion}{Quaternion}}\& \mbox{\hyperlink{classidl__msg_1_1_quaternion_acbf3a17fb697ce650d93f8ce91a6df2a}{operator =}}(}
+\DoxyCodeLine{102                 \textcolor{keyword}{const} \mbox{\hyperlink{classidl__msg_1_1_quaternion}{Quaternion}}\& \mbox{\hyperlink{classidl__msg_1_1_quaternion_a0504c689b74a784b00239e006da33d7c}{x}});}
+\DoxyCodeLine{103 }
+\DoxyCodeLine{108         eProsima\_user\_DllExport \mbox{\hyperlink{classidl__msg_1_1_quaternion}{Quaternion}}\& \mbox{\hyperlink{classidl__msg_1_1_quaternion_acbf3a17fb697ce650d93f8ce91a6df2a}{operator =}}(}
+\DoxyCodeLine{109                 \mbox{\hyperlink{classidl__msg_1_1_quaternion}{Quaternion}}\&\& \mbox{\hyperlink{classidl__msg_1_1_quaternion_a0504c689b74a784b00239e006da33d7c}{x}});}
+\DoxyCodeLine{110 }
+\DoxyCodeLine{115         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_quaternion_a0504c689b74a784b00239e006da33d7c}{x}}(}
+\DoxyCodeLine{116                 \textcolor{keywordtype}{float} \_x);}
+\DoxyCodeLine{117 }
+\DoxyCodeLine{122         eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classidl__msg_1_1_quaternion_a0504c689b74a784b00239e006da33d7c}{x}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{123 }
+\DoxyCodeLine{128         eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classidl__msg_1_1_quaternion_a0504c689b74a784b00239e006da33d7c}{x}}();}
+\DoxyCodeLine{129 }
+\DoxyCodeLine{134         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_quaternion_a418e867bb7e26a4b647fb38f699ffce6}{y}}(}
+\DoxyCodeLine{135                 \textcolor{keywordtype}{float} \_y);}
+\DoxyCodeLine{136 }
+\DoxyCodeLine{141         eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classidl__msg_1_1_quaternion_a418e867bb7e26a4b647fb38f699ffce6}{y}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{142 }
+\DoxyCodeLine{147         eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classidl__msg_1_1_quaternion_a418e867bb7e26a4b647fb38f699ffce6}{y}}();}
+\DoxyCodeLine{148 }
+\DoxyCodeLine{153         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_quaternion_a504eab1446d6851ef583fb8bd481e2f7}{z}}(}
+\DoxyCodeLine{154                 \textcolor{keywordtype}{float} \_z);}
+\DoxyCodeLine{155 }
+\DoxyCodeLine{160         eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classidl__msg_1_1_quaternion_a504eab1446d6851ef583fb8bd481e2f7}{z}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{161 }
+\DoxyCodeLine{166         eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classidl__msg_1_1_quaternion_a504eab1446d6851ef583fb8bd481e2f7}{z}}();}
+\DoxyCodeLine{167 }
+\DoxyCodeLine{172         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_quaternion_a975b70d48e1be29fd5b00d64387ba1f1}{w}}(}
+\DoxyCodeLine{173                 \textcolor{keywordtype}{float} \_w);}
+\DoxyCodeLine{174 }
+\DoxyCodeLine{179         eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classidl__msg_1_1_quaternion_a975b70d48e1be29fd5b00d64387ba1f1}{w}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{180 }
+\DoxyCodeLine{185         eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classidl__msg_1_1_quaternion_a975b70d48e1be29fd5b00d64387ba1f1}{w}}();}
+\DoxyCodeLine{186 }
+\DoxyCodeLine{187 }
+\DoxyCodeLine{194         eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classidl__msg_1_1_quaternion_a6882c0cf4c800420c8cf5d5c88f03b25}{getMaxCdrSerializedSize}}(}
+\DoxyCodeLine{195                 \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{196 }
+\DoxyCodeLine{203         eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classidl__msg_1_1_quaternion_a05298f6e31aecde01cf2d93978d70274}{getCdrSerializedSize}}(}
+\DoxyCodeLine{204                 \textcolor{keyword}{const} \mbox{\hyperlink{classidl__msg_1_1_quaternion}{idl\_msg::Quaternion}}\& data,}
+\DoxyCodeLine{205                 \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{206 }
+\DoxyCodeLine{207 }
+\DoxyCodeLine{212         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_quaternion_ae5a48fac6437fa9619310b708631a66d}{serialize}}(}
+\DoxyCodeLine{213                 eprosima::fastcdr::Cdr\& cdr) \textcolor{keyword}{const};}
+\DoxyCodeLine{214 }
+\DoxyCodeLine{219         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_quaternion_a57d238102c9b191b10d78b83f29c32d5}{deserialize}}(}
+\DoxyCodeLine{220                 eprosima::fastcdr::Cdr\& cdr);}
+\DoxyCodeLine{221 }
+\DoxyCodeLine{222 }
+\DoxyCodeLine{223 }
+\DoxyCodeLine{230         eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classidl__msg_1_1_quaternion_a3dd059b78db28824be756478b4a13976}{getKeyMaxCdrSerializedSize}}(}
+\DoxyCodeLine{231                 \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{232 }
+\DoxyCodeLine{236         eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{bool} \mbox{\hyperlink{classidl__msg_1_1_quaternion_a3d866fba4bd2704695cff514d53b561e}{isKeyDefined}}();}
+\DoxyCodeLine{237 }
+\DoxyCodeLine{242         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_quaternion_a559577b5d1677e43a8018d7814011fd9}{serializeKey}}(}
+\DoxyCodeLine{243                 eprosima::fastcdr::Cdr\& cdr) \textcolor{keyword}{const};}
+\DoxyCodeLine{244 }
+\DoxyCodeLine{245     \textcolor{keyword}{private}:}
+\DoxyCodeLine{246 }
+\DoxyCodeLine{247         \textcolor{keywordtype}{float} m\_x;}
+\DoxyCodeLine{248         \textcolor{keywordtype}{float} m\_y;}
+\DoxyCodeLine{249         \textcolor{keywordtype}{float} m\_z;}
+\DoxyCodeLine{250         \textcolor{keywordtype}{float} m\_w;}
+\DoxyCodeLine{251     \};}
+\DoxyCodeLine{252 \} \textcolor{comment}{// namespace idl\_msg}}
+\DoxyCodeLine{253 }
+\DoxyCodeLine{254 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_IDL\_MSG\_QUATERNION\_H\_}}
+
+\end{DoxyCode}

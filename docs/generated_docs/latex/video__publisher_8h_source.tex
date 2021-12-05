@@ -1,0 +1,79 @@
+\hypertarget{video__publisher_8h_source}{}\doxysection{video\+\_\+publisher.\+h}
+\label{video__publisher_8h_source}\index{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/publishers/video\_publisher/video\_publisher.h@{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/publishers/video\_publisher/video\_publisher.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 }
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include <fastdds/dds/domain/DomainParticipant.hpp>}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <fastdds/dds/publisher/DataWriter.hpp>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <fastdds/dds/publisher/DataWriterListener.hpp>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include <fastdds/dds/publisher/Publisher.hpp>}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include <fastdds/dds/topic/TypeSupport.hpp>}}
+\DoxyCodeLine{8 }
+\DoxyCodeLine{9 \textcolor{keyword}{class }\mbox{\hyperlink{class_video_publisher}{VideoPublisher}} \{}
+\DoxyCodeLine{10 \textcolor{keyword}{public}:}
+\DoxyCodeLine{11   \textcolor{comment}{// Constrcutor declared in header file since it is a temlate func}}
+\DoxyCodeLine{12   \textcolor{keyword}{template} <\textcolor{keyword}{class} msg\_type>}
+\DoxyCodeLine{13   \mbox{\hyperlink{class_video_publisher}{VideoPublisher}}(msg\_type, std::string topic\_name,}
+\DoxyCodeLine{14                  eprosima::fastdds::dds::DomainParticipant *participant)}
+\DoxyCodeLine{15       : publisher\_(\textcolor{keyword}{nullptr}), topic\_(\textcolor{keyword}{nullptr}), writer\_(\textcolor{keyword}{nullptr}),}
+\DoxyCodeLine{16         type\_(\textcolor{keyword}{new} msg\_type) \{}
+\DoxyCodeLine{17 }
+\DoxyCodeLine{18     \textcolor{comment}{// Set topic name}}
+\DoxyCodeLine{19     topic\_name\_ = topic\_name;}
+\DoxyCodeLine{20 }
+\DoxyCodeLine{21     \textcolor{comment}{// Set pointer to domain participant}}
+\DoxyCodeLine{22     participant\_ = participant;}
+\DoxyCodeLine{23   \}}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25   \textcolor{comment}{// Topic Name}}
+\DoxyCodeLine{26   std::string topic\_name\_\{\};}
+\DoxyCodeLine{27 }
+\DoxyCodeLine{28   \textcolor{keyword}{virtual} \mbox{\hyperlink{class_video_publisher}{\string~VideoPublisher}}();}
+\DoxyCodeLine{29 }
+\DoxyCodeLine{30   \textcolor{keywordtype}{bool} init();}
+\DoxyCodeLine{31 }
+\DoxyCodeLine{32   \textcolor{keyword}{template} <\textcolor{keyword}{typename} T> \textcolor{keywordtype}{void} publish(T msg) \{}
+\DoxyCodeLine{33     \textcolor{keywordflow}{while} (listener.\mbox{\hyperlink{class_video_publisher_1_1_pub_listener_a287c8a6b26c0057052ec36e15916ecdd}{matched}}() == 0) \{}
+\DoxyCodeLine{34       std::this\_thread::sleep\_for(}
+\DoxyCodeLine{35           std::chrono::milliseconds(250)); \textcolor{comment}{// Sleep 250 ms}}
+\DoxyCodeLine{36     \}}
+\DoxyCodeLine{37 }
+\DoxyCodeLine{38     \textcolor{comment}{// Publish Message}}
+\DoxyCodeLine{39     writer\_-\/>write(\&msg);}
+\DoxyCodeLine{40   \}}
+\DoxyCodeLine{41 }
+\DoxyCodeLine{42 \textcolor{keyword}{private}:}
+\DoxyCodeLine{43   eprosima::fastdds::dds::DomainParticipant *participant\_;}
+\DoxyCodeLine{44   eprosima::fastdds::dds::Publisher *publisher\_;}
+\DoxyCodeLine{45   eprosima::fastdds::dds::Topic *topic\_;}
+\DoxyCodeLine{46   eprosima::fastdds::dds::DataWriter *writer\_;}
+\DoxyCodeLine{47   eprosima::fastdds::dds::TypeSupport type\_;}
+\DoxyCodeLine{48 }
+\DoxyCodeLine{49   eprosima::fastdds::dds::ReliabilityQosPolicy best\_effort\_;}
+\DoxyCodeLine{50 }
+\DoxyCodeLine{51   eprosima::fastdds::dds::DataWriterQos writer\_qos\_;}
+\DoxyCodeLine{52   eprosima::fastdds::dds::PublishModeQosPolicy publish\_mode\_;}
+\DoxyCodeLine{53   eprosima::fastdds::dds::PublisherQos publisher\_qos\_;}
+\DoxyCodeLine{54 }
+\DoxyCodeLine{55 \textcolor{keyword}{public}:}
+\DoxyCodeLine{56   \textcolor{keyword}{class }\mbox{\hyperlink{class_video_publisher_1_1_pub_listener}{PubListener}} : \textcolor{keyword}{public} eprosima::fastdds::dds::DataWriterListener \{}
+\DoxyCodeLine{57 }
+\DoxyCodeLine{58   \textcolor{keyword}{public}:}
+\DoxyCodeLine{59     \mbox{\hyperlink{class_video_publisher_1_1_pub_listener}{PubListener}}() = \textcolor{keywordflow}{default};}
+\DoxyCodeLine{60     \mbox{\hyperlink{class_video_publisher_1_1_pub_listener}{\string~PubListener}}() \textcolor{keyword}{override} = \textcolor{keywordflow}{default};}
+\DoxyCodeLine{61 }
+\DoxyCodeLine{62   \textcolor{keyword}{private}:}
+\DoxyCodeLine{63     \textcolor{keywordtype}{void} on\_publication\_matched(}
+\DoxyCodeLine{64         eprosima::fastdds::dds::DataWriter *writer,}
+\DoxyCodeLine{65         \textcolor{keyword}{const} eprosima::fastdds::dds::PublicationMatchedStatus \&info) \textcolor{keyword}{override};}
+\DoxyCodeLine{66 }
+\DoxyCodeLine{67     \textcolor{keywordtype}{int} matched\_ = 0;}
+\DoxyCodeLine{68 }
+\DoxyCodeLine{69   \textcolor{keyword}{public}:}
+\DoxyCodeLine{71     \textcolor{keyword}{const} \textcolor{keywordtype}{float} \mbox{\hyperlink{class_video_publisher_1_1_pub_listener_a287c8a6b26c0057052ec36e15916ecdd}{matched}}()\textcolor{keyword}{ const }\{ \textcolor{keywordflow}{return} matched\_; \}}
+\DoxyCodeLine{72 }
+\DoxyCodeLine{73   \} listener;}
+\DoxyCodeLine{74 \};}
+
+\end{DoxyCode}

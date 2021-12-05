@@ -1,0 +1,988 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classsensor__combined" kind="class" language="C++" prot="public">
+    <compoundname>sensor_combined</compoundname>
+    <includes refid="sensor__combined_8h" local="no">sensor_combined.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classsensor__combined_1a3f9f1f4d6d77f2e2ca4cb3194e46fa3f" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t sensor_combined::m_timestamp_</definition>
+        <argsstring></argsstring>
+        <name>m_timestamp_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="320" column="14" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" bodystart="320" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsensor__combined_1a8834874c029b00de6ed0f6854743b500" prot="private" static="no" mutable="no">
+        <type>sensor_combined__float_array_3</type>
+        <definition>sensor_combined__float_array_3 sensor_combined::m_gyro_rad</definition>
+        <argsstring></argsstring>
+        <name>m_gyro_rad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="321" column="36" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" bodystart="321" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsensor__combined_1acd92451b6e2f89877042bdf542e52bb4" prot="private" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t sensor_combined::m_gyro_integral_dt_</definition>
+        <argsstring></argsstring>
+        <name>m_gyro_integral_dt_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="322" column="14" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" bodystart="322" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsensor__combined_1afe37010b3cc304340f20e3a815206936" prot="private" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t sensor_combined::m_accelerometer_timestamp_relative_</definition>
+        <argsstring></argsstring>
+        <name>m_accelerometer_timestamp_relative_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="323" column="13" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" bodystart="323" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsensor__combined_1ae708ef524791d02bc28e25454c549106" prot="private" static="no" mutable="no">
+        <type>sensor_combined__float_array_3</type>
+        <definition>sensor_combined__float_array_3 sensor_combined::m_accelerometer_m_s2</definition>
+        <argsstring></argsstring>
+        <name>m_accelerometer_m_s2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="324" column="36" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" bodystart="324" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsensor__combined_1ad9718a2c26d2228c3925b3f7996ba39d" prot="private" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t sensor_combined::m_accelerometer_integral_dt_</definition>
+        <argsstring></argsstring>
+        <name>m_accelerometer_integral_dt_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="325" column="14" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" bodystart="325" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classsensor__combined_1a9236c568ea0ba1bdfef44624104af593" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t sensor_combined::m_accelerometer_clipping_</definition>
+        <argsstring></argsstring>
+        <name>m_accelerometer_clipping_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="326" column="13" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" bodystart="326" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsensor__combined_1a30ac9114986d1aa7827e43281d07a250" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>sensor_combined::sensor_combined</definition>
+        <argsstring>()</argsstring>
+        <name>sensor_combined</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="80" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="42" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensor__combined_1a72966039167485d26e664b315fee696e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>sensor_combined::~sensor_combined</definition>
+        <argsstring>()</argsstring>
+        <name>~sensor_combined</name>
+        <briefdescription>
+<para>Default destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="85" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="61" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensor__combined_1adccebe5452b4ea167bfb6cfba315eaf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>sensor_combined::sensor_combined</definition>
+        <argsstring>(const sensor_combined &amp;x)</argsstring>
+        <name>sensor_combined</name>
+        <param>
+          <type>const <ref refid="classsensor__combined" kindref="compound">sensor_combined</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classsensor__combined" kindref="compound">sensor_combined</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="91" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="72" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensor__combined_1a1db6deddfb34316b5e1d540dc1fc4384" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>sensor_combined::sensor_combined</definition>
+        <argsstring>(sensor_combined &amp;&amp;x)</argsstring>
+        <name>sensor_combined</name>
+        <param>
+          <type><ref refid="classsensor__combined" kindref="compound">sensor_combined</ref> &amp;&amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Move constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classsensor__combined" kindref="compound">sensor_combined</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="98" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="84" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensor__combined_1a13d6402bc5f436480c3f226e16839d44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport <ref refid="classsensor__combined" kindref="compound">sensor_combined</ref> &amp;</type>
+        <definition>sensor_combined &amp; sensor_combined::operator=</definition>
+        <argsstring>(const sensor_combined &amp;x)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classsensor__combined" kindref="compound">sensor_combined</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Copy assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classsensor__combined" kindref="compound">sensor_combined</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="105" column="45" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="96" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensor__combined_1a7128117ae0c15c88df5dcd58b475d192" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport <ref refid="classsensor__combined" kindref="compound">sensor_combined</ref> &amp;</type>
+        <definition>sensor_combined &amp; sensor_combined::operator=</definition>
+        <argsstring>(sensor_combined &amp;&amp;x)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classsensor__combined" kindref="compound">sensor_combined</ref> &amp;&amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Move assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classsensor__combined" kindref="compound">sensor_combined</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="112" column="45" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="111" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensor__combined_1ab9a0074b9d9792103c306ea476419315" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void sensor_combined::timestamp_</definition>
+        <argsstring>(uint64_t _timestamp_)</argsstring>
+        <name>timestamp_</name>
+        <param>
+          <type>uint64_t</type>
+          <declname>_timestamp_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;timestamp&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member timestamp_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="119" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="229" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensor__combined_1adc539e1d62f336176421f0d7e0b523ec" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint64_t</type>
+        <definition>uint64_t sensor_combined::timestamp_</definition>
+        <argsstring>() const</argsstring>
+        <name>timestamp_</name>
+        <briefdescription>
+<para>This function returns the value of member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member timestamp_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="126" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="239" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensor__combined_1ab11cd192867b7ed86712668bd16d58b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint64_t &amp;</type>
+        <definition>uint64_t &amp; sensor_combined::timestamp_</definition>
+        <argsstring>()</argsstring>
+        <name>timestamp_</name>
+        <briefdescription>
+<para>This function returns a reference to member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member timestamp_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="132" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="248" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensor__combined_1a94bc71c8370778ab29f754664d337c9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void sensor_combined::gyro_rad</definition>
+        <argsstring>(const sensor_combined__float_array_3 &amp;_gyro_rad)</argsstring>
+        <name>gyro_rad</name>
+        <param>
+          <type>const sensor_combined__float_array_3 &amp;</type>
+          <declname>_gyro_rad</declname>
+        </param>
+        <briefdescription>
+<para>This function copies the value in member gyro_rad. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_gyro_rad</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member gyro_rad </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="138" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="257" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensor__combined_1a43efcde8ab4a4e8662522cdb94ce9d65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void sensor_combined::gyro_rad</definition>
+        <argsstring>(sensor_combined__float_array_3 &amp;&amp;_gyro_rad)</argsstring>
+        <name>gyro_rad</name>
+        <param>
+          <type>sensor_combined__float_array_3 &amp;&amp;</type>
+          <declname>_gyro_rad</declname>
+        </param>
+        <briefdescription>
+<para>This function moves the value in member gyro_rad. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_gyro_rad</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member gyro_rad </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="145" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="267" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensor__combined_1a5a767480a86917ccdbc14e0a98ae8874" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport const sensor_combined__float_array_3 &amp;</type>
+        <definition>const sensor_combined__float_array_3 &amp; sensor_combined::gyro_rad</definition>
+        <argsstring>() const</argsstring>
+        <name>gyro_rad</name>
+        <briefdescription>
+<para>This function returns a constant reference to member gyro_rad. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Constant reference to member gyro_rad </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="152" column="66" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="277" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensor__combined_1a6dfaab657a2fc22eb319c22594ef2a2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport sensor_combined__float_array_3 &amp;</type>
+        <definition>sensor_combined__float_array_3 &amp; sensor_combined::gyro_rad</definition>
+        <argsstring>()</argsstring>
+        <name>gyro_rad</name>
+        <briefdescription>
+<para>This function returns a reference to member gyro_rad. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member gyro_rad </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="158" column="60" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="286" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensor__combined_1a20a670b8e61529f956f8e34119b4dfcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void sensor_combined::gyro_integral_dt_</definition>
+        <argsstring>(uint32_t _gyro_integral_dt_)</argsstring>
+        <name>gyro_integral_dt_</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>_gyro_integral_dt_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member gyro_integral_dt_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;gyro_integral_dt&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member gyro_integral_dt_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="163" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="294" bodyend="298"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensor__combined_1a0daa7976d1fe61b142059c26421779c7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint32_t</type>
+        <definition>uint32_t sensor_combined::gyro_integral_dt_</definition>
+        <argsstring>() const</argsstring>
+        <name>gyro_integral_dt_</name>
+        <briefdescription>
+<para>This function returns the value of member gyro_integral_dt_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member gyro_integral_dt_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="170" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="304" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensor__combined_1ae01e5666d3b2dbee5be825b231bfb3d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint32_t &amp;</type>
+        <definition>uint32_t &amp; sensor_combined::gyro_integral_dt_</definition>
+        <argsstring>()</argsstring>
+        <name>gyro_integral_dt_</name>
+        <briefdescription>
+<para>This function returns a reference to member gyro_integral_dt_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member gyro_integral_dt_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="176" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="313" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensor__combined_1ac7b8afa8e70c28e569b4a8490c6d24be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void sensor_combined::accelerometer_timestamp_relative_</definition>
+        <argsstring>(int32_t _accelerometer_timestamp_relative_)</argsstring>
+        <name>accelerometer_timestamp_relative_</name>
+        <param>
+          <type>int32_t</type>
+          <declname>_accelerometer_timestamp_relative_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member accelerometer_timestamp_relative_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;accelerometer_timestamp_relative&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member accelerometer_timestamp_relative_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="182" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="322" bodyend="326"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensor__combined_1ad850681015d62c9158f38f1245288262" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport int32_t</type>
+        <definition>int32_t sensor_combined::accelerometer_timestamp_relative_</definition>
+        <argsstring>() const</argsstring>
+        <name>accelerometer_timestamp_relative_</name>
+        <briefdescription>
+<para>This function returns the value of member accelerometer_timestamp_relative_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member accelerometer_timestamp_relative_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="189" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="332" bodyend="335"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensor__combined_1aae7e0cad4d0da7fc2eb7ecbc0a7d87b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport int32_t &amp;</type>
+        <definition>int32_t &amp; sensor_combined::accelerometer_timestamp_relative_</definition>
+        <argsstring>()</argsstring>
+        <name>accelerometer_timestamp_relative_</name>
+        <briefdescription>
+<para>This function returns a reference to member accelerometer_timestamp_relative_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member accelerometer_timestamp_relative_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="195" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="341" bodyend="344"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensor__combined_1a2090737bdcad4cd9ad2c91f6ab727100" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void sensor_combined::accelerometer_m_s2</definition>
+        <argsstring>(const sensor_combined__float_array_3 &amp;_accelerometer_m_s2)</argsstring>
+        <name>accelerometer_m_s2</name>
+        <param>
+          <type>const sensor_combined__float_array_3 &amp;</type>
+          <declname>_accelerometer_m_s2</declname>
+        </param>
+        <briefdescription>
+<para>This function copies the value in member accelerometer_m_s2. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_accelerometer_m_s2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member accelerometer_m_s2 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="201" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="350" bodyend="354"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensor__combined_1ada38c680670c033e8c211e4954388bde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void sensor_combined::accelerometer_m_s2</definition>
+        <argsstring>(sensor_combined__float_array_3 &amp;&amp;_accelerometer_m_s2)</argsstring>
+        <name>accelerometer_m_s2</name>
+        <param>
+          <type>sensor_combined__float_array_3 &amp;&amp;</type>
+          <declname>_accelerometer_m_s2</declname>
+        </param>
+        <briefdescription>
+<para>This function moves the value in member accelerometer_m_s2. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_accelerometer_m_s2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member accelerometer_m_s2 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="208" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="360" bodyend="364"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensor__combined_1a36b94226198cd540a9c32ad99b2927cd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport const sensor_combined__float_array_3 &amp;</type>
+        <definition>const sensor_combined__float_array_3 &amp; sensor_combined::accelerometer_m_s2</definition>
+        <argsstring>() const</argsstring>
+        <name>accelerometer_m_s2</name>
+        <briefdescription>
+<para>This function returns a constant reference to member accelerometer_m_s2. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Constant reference to member accelerometer_m_s2 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="215" column="66" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="370" bodyend="373"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensor__combined_1a0d4dcab86f8f69cad69d7acc7908ccb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport sensor_combined__float_array_3 &amp;</type>
+        <definition>sensor_combined__float_array_3 &amp; sensor_combined::accelerometer_m_s2</definition>
+        <argsstring>()</argsstring>
+        <name>accelerometer_m_s2</name>
+        <briefdescription>
+<para>This function returns a reference to member accelerometer_m_s2. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member accelerometer_m_s2 </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="221" column="60" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="379" bodyend="382"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensor__combined_1acc938250efb3a55ee145166a8377651a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void sensor_combined::accelerometer_integral_dt_</definition>
+        <argsstring>(uint32_t _accelerometer_integral_dt_)</argsstring>
+        <name>accelerometer_integral_dt_</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>_accelerometer_integral_dt_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member accelerometer_integral_dt_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;accelerometer_integral_dt&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member accelerometer_integral_dt_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="226" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="387" bodyend="391"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensor__combined_1a81151c0f2c7bc43c4a70723226867cd5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint32_t</type>
+        <definition>uint32_t sensor_combined::accelerometer_integral_dt_</definition>
+        <argsstring>() const</argsstring>
+        <name>accelerometer_integral_dt_</name>
+        <briefdescription>
+<para>This function returns the value of member accelerometer_integral_dt_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member accelerometer_integral_dt_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="233" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="397" bodyend="400"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensor__combined_1add403513ece5fd29c7648ef62415de1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint32_t &amp;</type>
+        <definition>uint32_t &amp; sensor_combined::accelerometer_integral_dt_</definition>
+        <argsstring>()</argsstring>
+        <name>accelerometer_integral_dt_</name>
+        <briefdescription>
+<para>This function returns a reference to member accelerometer_integral_dt_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member accelerometer_integral_dt_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="239" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="406" bodyend="409"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensor__combined_1a0850bf462965c2980bc9cdb04278a9e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void sensor_combined::accelerometer_clipping_</definition>
+        <argsstring>(uint8_t _accelerometer_clipping_)</argsstring>
+        <name>accelerometer_clipping_</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>_accelerometer_clipping_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member accelerometer_clipping_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;accelerometer_clipping&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member accelerometer_clipping_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="245" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="415" bodyend="419"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensor__combined_1a43b2361edf518ce17e9230aab5576915" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint8_t</type>
+        <definition>uint8_t sensor_combined::accelerometer_clipping_</definition>
+        <argsstring>() const</argsstring>
+        <name>accelerometer_clipping_</name>
+        <briefdescription>
+<para>This function returns the value of member accelerometer_clipping_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member accelerometer_clipping_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="252" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="425" bodyend="428"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensor__combined_1a0b5d9a4a8e230d9ffd1c92c99c385c65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint8_t &amp;</type>
+        <definition>uint8_t &amp; sensor_combined::accelerometer_clipping_</definition>
+        <argsstring>()</argsstring>
+        <name>accelerometer_clipping_</name>
+        <briefdescription>
+<para>This function returns a reference to member accelerometer_clipping_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member accelerometer_clipping_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="258" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="434" bodyend="437"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensor__combined_1a3f180bc00ff7743f3de3a86bbd9b75a8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void sensor_combined::serialize</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr) const</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function serializes an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="285" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="194" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensor__combined_1a2d947290a429e57d50d50fddeef5f498" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void sensor_combined::deserialize</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr)</argsstring>
+        <name>deserialize</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function deserializes an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="292" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="210" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensor__combined_1aa0d1564aa80d856ea5840e215075eb30" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void sensor_combined::serializeKey</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr) const</argsstring>
+        <name>serializeKey</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function serializes the key members of an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="315" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="462" bodyend="467"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classsensor__combined_1a12593c53103b07c7ada74743a27fee34" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t sensor_combined::getMaxCdrSerializedSize</definition>
+        <argsstring>(size_t current_alignment=0)</argsstring>
+        <name>getMaxCdrSerializedSize</name>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the maximum serialized size of an object depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Maximum serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="267" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="126" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensor__combined_1a709d6ddbcb3efa116e3b2f542078b665" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t sensor_combined::getCdrSerializedSize</definition>
+        <argsstring>(const sensor_combined &amp;data, size_t current_alignment=0)</argsstring>
+        <name>getCdrSerializedSize</name>
+        <param>
+          <type>const <ref refid="classsensor__combined" kindref="compound">sensor_combined</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the serialized size of a data depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data which is calculated its serialized size. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="276" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="157" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensor__combined_1a5559c57a821fd1286b393f3c013f9588" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t sensor_combined::getKeyMaxCdrSerializedSize</definition>
+        <argsstring>(size_t current_alignment=0)</argsstring>
+        <name>getKeyMaxCdrSerializedSize</name>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the maximum serialized size of the Key of an object depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Maximum serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="303" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="440" bodyend="455"/>
+      </memberdef>
+      <memberdef kind="function" id="classsensor__combined_1aaf520d4195dc97022d26c9982dce4880" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool sensor_combined::isKeyDefined</definition>
+        <argsstring>()</argsstring>
+        <name>isKeyDefined</name>
+        <briefdescription>
+<para>This function tells you if the Key has been defined for this type. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="309" column="41" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.cxx" bodystart="457" bodyend="460"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents the structure <ref refid="classsensor__combined" kindref="compound">sensor_combined</ref> defined by the user in the IDL file. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" line="73" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/sensor_combined.h" bodystart="74" bodyend="327"/>
+    <listofallmembers>
+      <member refid="classsensor__combined_1a0850bf462965c2980bc9cdb04278a9e6" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>accelerometer_clipping_</name></member>
+      <member refid="classsensor__combined_1a43b2361edf518ce17e9230aab5576915" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>accelerometer_clipping_</name></member>
+      <member refid="classsensor__combined_1a0b5d9a4a8e230d9ffd1c92c99c385c65" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>accelerometer_clipping_</name></member>
+      <member refid="classsensor__combined_1acc938250efb3a55ee145166a8377651a" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>accelerometer_integral_dt_</name></member>
+      <member refid="classsensor__combined_1a81151c0f2c7bc43c4a70723226867cd5" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>accelerometer_integral_dt_</name></member>
+      <member refid="classsensor__combined_1add403513ece5fd29c7648ef62415de1c" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>accelerometer_integral_dt_</name></member>
+      <member refid="classsensor__combined_1a2090737bdcad4cd9ad2c91f6ab727100" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>accelerometer_m_s2</name></member>
+      <member refid="classsensor__combined_1ada38c680670c033e8c211e4954388bde" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>accelerometer_m_s2</name></member>
+      <member refid="classsensor__combined_1a36b94226198cd540a9c32ad99b2927cd" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>accelerometer_m_s2</name></member>
+      <member refid="classsensor__combined_1a0d4dcab86f8f69cad69d7acc7908ccb7" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>accelerometer_m_s2</name></member>
+      <member refid="classsensor__combined_1ac7b8afa8e70c28e569b4a8490c6d24be" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>accelerometer_timestamp_relative_</name></member>
+      <member refid="classsensor__combined_1ad850681015d62c9158f38f1245288262" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>accelerometer_timestamp_relative_</name></member>
+      <member refid="classsensor__combined_1aae7e0cad4d0da7fc2eb7ecbc0a7d87b5" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>accelerometer_timestamp_relative_</name></member>
+      <member refid="classsensor__combined_1a2d947290a429e57d50d50fddeef5f498" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>deserialize</name></member>
+      <member refid="classsensor__combined_1a709d6ddbcb3efa116e3b2f542078b665" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>getCdrSerializedSize</name></member>
+      <member refid="classsensor__combined_1a5559c57a821fd1286b393f3c013f9588" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>getKeyMaxCdrSerializedSize</name></member>
+      <member refid="classsensor__combined_1a12593c53103b07c7ada74743a27fee34" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>getMaxCdrSerializedSize</name></member>
+      <member refid="classsensor__combined_1a20a670b8e61529f956f8e34119b4dfcc" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>gyro_integral_dt_</name></member>
+      <member refid="classsensor__combined_1a0daa7976d1fe61b142059c26421779c7" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>gyro_integral_dt_</name></member>
+      <member refid="classsensor__combined_1ae01e5666d3b2dbee5be825b231bfb3d7" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>gyro_integral_dt_</name></member>
+      <member refid="classsensor__combined_1a94bc71c8370778ab29f754664d337c9d" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>gyro_rad</name></member>
+      <member refid="classsensor__combined_1a43efcde8ab4a4e8662522cdb94ce9d65" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>gyro_rad</name></member>
+      <member refid="classsensor__combined_1a5a767480a86917ccdbc14e0a98ae8874" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>gyro_rad</name></member>
+      <member refid="classsensor__combined_1a6dfaab657a2fc22eb319c22594ef2a2e" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>gyro_rad</name></member>
+      <member refid="classsensor__combined_1aaf520d4195dc97022d26c9982dce4880" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>isKeyDefined</name></member>
+      <member refid="classsensor__combined_1a9236c568ea0ba1bdfef44624104af593" prot="private" virt="non-virtual"><scope>sensor_combined</scope><name>m_accelerometer_clipping_</name></member>
+      <member refid="classsensor__combined_1ad9718a2c26d2228c3925b3f7996ba39d" prot="private" virt="non-virtual"><scope>sensor_combined</scope><name>m_accelerometer_integral_dt_</name></member>
+      <member refid="classsensor__combined_1ae708ef524791d02bc28e25454c549106" prot="private" virt="non-virtual"><scope>sensor_combined</scope><name>m_accelerometer_m_s2</name></member>
+      <member refid="classsensor__combined_1afe37010b3cc304340f20e3a815206936" prot="private" virt="non-virtual"><scope>sensor_combined</scope><name>m_accelerometer_timestamp_relative_</name></member>
+      <member refid="classsensor__combined_1acd92451b6e2f89877042bdf542e52bb4" prot="private" virt="non-virtual"><scope>sensor_combined</scope><name>m_gyro_integral_dt_</name></member>
+      <member refid="classsensor__combined_1a8834874c029b00de6ed0f6854743b500" prot="private" virt="non-virtual"><scope>sensor_combined</scope><name>m_gyro_rad</name></member>
+      <member refid="classsensor__combined_1a3f9f1f4d6d77f2e2ca4cb3194e46fa3f" prot="private" virt="non-virtual"><scope>sensor_combined</scope><name>m_timestamp_</name></member>
+      <member refid="classsensor__combined_1a13d6402bc5f436480c3f226e16839d44" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>operator=</name></member>
+      <member refid="classsensor__combined_1a7128117ae0c15c88df5dcd58b475d192" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>operator=</name></member>
+      <member refid="classsensor__combined_1a30ac9114986d1aa7827e43281d07a250" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>sensor_combined</name></member>
+      <member refid="classsensor__combined_1adccebe5452b4ea167bfb6cfba315eaf3" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>sensor_combined</name></member>
+      <member refid="classsensor__combined_1a1db6deddfb34316b5e1d540dc1fc4384" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>sensor_combined</name></member>
+      <member refid="classsensor__combined_1a3f180bc00ff7743f3de3a86bbd9b75a8" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>serialize</name></member>
+      <member refid="classsensor__combined_1aa0d1564aa80d856ea5840e215075eb30" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>serializeKey</name></member>
+      <member refid="classsensor__combined_1ab9a0074b9d9792103c306ea476419315" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>timestamp_</name></member>
+      <member refid="classsensor__combined_1adc539e1d62f336176421f0d7e0b523ec" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>timestamp_</name></member>
+      <member refid="classsensor__combined_1ab11cd192867b7ed86712668bd16d58b0" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>timestamp_</name></member>
+      <member refid="classsensor__combined_1a72966039167485d26e664b315fee696e" prot="public" virt="non-virtual"><scope>sensor_combined</scope><name>~sensor_combined</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

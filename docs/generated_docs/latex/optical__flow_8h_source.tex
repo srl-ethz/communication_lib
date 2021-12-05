@@ -1,0 +1,252 @@
+\hypertarget{optical__flow_8h_source}{}\doxysection{optical\+\_\+flow.\+h}
+\label{optical__flow_8h_source}\index{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/px4\_msg\_definitions/optical\_flow.h@{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/px4\_msg\_definitions/optical\_flow.h}}
+\mbox{\hyperlink{optical__flow_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{// Copyright 2016 Proyectos y Sistemas de Mantenimiento SL (eProsima).}}
+\DoxyCodeLine{2 \textcolor{comment}{//}}
+\DoxyCodeLine{3 \textcolor{comment}{// Licensed under the Apache License, Version 2.0 (the "{}License"{});}}
+\DoxyCodeLine{4 \textcolor{comment}{// you may not use this file except in compliance with the License.}}
+\DoxyCodeLine{5 \textcolor{comment}{// You may obtain a copy of the License at}}
+\DoxyCodeLine{6 \textcolor{comment}{//}}
+\DoxyCodeLine{7 \textcolor{comment}{//     http://www.apache.org/licenses/LICENSE-\/2.0}}
+\DoxyCodeLine{8 \textcolor{comment}{//}}
+\DoxyCodeLine{9 \textcolor{comment}{// Unless required by applicable law or agreed to in writing, software}}
+\DoxyCodeLine{10 \textcolor{comment}{// distributed under the License is distributed on an "{}AS IS"{} BASIS,}}
+\DoxyCodeLine{11 \textcolor{comment}{// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.}}
+\DoxyCodeLine{12 \textcolor{comment}{// See the License for the specific language governing permissions and}}
+\DoxyCodeLine{13 \textcolor{comment}{// limitations under the License.}}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{22 \textcolor{preprocessor}{\#ifndef \_OPTICAL\_FLOW\_H\_}}
+\DoxyCodeLine{23 \textcolor{preprocessor}{\#define \_OPTICAL\_FLOW\_H\_}}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25 }
+\DoxyCodeLine{26 \textcolor{preprocessor}{\#include <stdint.h>}}
+\DoxyCodeLine{27 \textcolor{preprocessor}{\#include <array>}}
+\DoxyCodeLine{28 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{29 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{30 \textcolor{preprocessor}{\#include <map>}}
+\DoxyCodeLine{31 \textcolor{preprocessor}{\#include <bitset>}}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{33 \textcolor{preprocessor}{\#if defined(\_WIN32)}}
+\DoxyCodeLine{34 \textcolor{preprocessor}{\#if defined(EPROSIMA\_USER\_DLL\_EXPORT)}}
+\DoxyCodeLine{35 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport \_\_declspec( dllexport )}}
+\DoxyCodeLine{36 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{37 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport}}
+\DoxyCodeLine{38 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// EPROSIMA\_USER\_DLL\_EXPORT}}
+\DoxyCodeLine{39 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{40 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport}}
+\DoxyCodeLine{41 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// \_WIN32}}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{43 \textcolor{preprocessor}{\#if defined(\_WIN32)}}
+\DoxyCodeLine{44 \textcolor{preprocessor}{\#if defined(EPROSIMA\_USER\_DLL\_EXPORT)}}
+\DoxyCodeLine{45 \textcolor{preprocessor}{\#if defined(optical\_flow\_SOURCE)}}
+\DoxyCodeLine{46 \textcolor{preprocessor}{\#define optical\_flow\_DllAPI \_\_declspec( dllexport )}}
+\DoxyCodeLine{47 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{48 \textcolor{preprocessor}{\#define optical\_flow\_DllAPI \_\_declspec( dllimport )}}
+\DoxyCodeLine{49 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// optical\_flow\_SOURCE}}
+\DoxyCodeLine{50 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{51 \textcolor{preprocessor}{\#define optical\_flow\_DllAPI}}
+\DoxyCodeLine{52 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// EPROSIMA\_USER\_DLL\_EXPORT}}
+\DoxyCodeLine{53 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{54 \textcolor{preprocessor}{\#define optical\_flow\_DllAPI}}
+\DoxyCodeLine{55 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_WIN32}}
+\DoxyCodeLine{56 }
+\DoxyCodeLine{57 \textcolor{keyword}{namespace }eprosima \{}
+\DoxyCodeLine{58 \textcolor{keyword}{namespace }fastcdr \{}
+\DoxyCodeLine{59 \textcolor{keyword}{class }Cdr;}
+\DoxyCodeLine{60 \} \textcolor{comment}{// namespace fastcdr}}
+\DoxyCodeLine{61 \} \textcolor{comment}{// namespace eprosima}}
+\DoxyCodeLine{62 }
+\DoxyCodeLine{63 }
+\DoxyCodeLine{64 \textcolor{keyword}{const} uint8\_t optical\_flow\_\_MODE\_UNKNOWN = 0;}
+\DoxyCodeLine{65 \textcolor{keyword}{const} uint8\_t optical\_flow\_\_MODE\_BRIGHT = 1;}
+\DoxyCodeLine{66 \textcolor{keyword}{const} uint8\_t optical\_flow\_\_MODE\_LOWLIGHT = 2;}
+\DoxyCodeLine{67 \textcolor{keyword}{const} uint8\_t optical\_flow\_\_MODE\_SUPER\_LOWLIGHT = 3;}
+\DoxyCodeLine{72 \textcolor{keyword}{class }\mbox{\hyperlink{classoptical__flow}{optical\_flow}}}
+\DoxyCodeLine{73 \{}
+\DoxyCodeLine{74 \textcolor{keyword}{public}:}
+\DoxyCodeLine{75 }
+\DoxyCodeLine{79     eProsima\_user\_DllExport \mbox{\hyperlink{classoptical__flow_af53f2bc1323b0e38fe9d0f3be47572f8}{optical\_flow}}();}
+\DoxyCodeLine{80 }
+\DoxyCodeLine{84     eProsima\_user\_DllExport \mbox{\hyperlink{classoptical__flow_a1485d2382ae054763edae8d751effcda}{\string~optical\_flow}}();}
+\DoxyCodeLine{85 }
+\DoxyCodeLine{90     eProsima\_user\_DllExport \mbox{\hyperlink{classoptical__flow_af53f2bc1323b0e38fe9d0f3be47572f8}{optical\_flow}}(}
+\DoxyCodeLine{91             \textcolor{keyword}{const} \mbox{\hyperlink{classoptical__flow}{optical\_flow}}\& x);}
+\DoxyCodeLine{92 }
+\DoxyCodeLine{97     eProsima\_user\_DllExport \mbox{\hyperlink{classoptical__flow_af53f2bc1323b0e38fe9d0f3be47572f8}{optical\_flow}}(}
+\DoxyCodeLine{98             \mbox{\hyperlink{classoptical__flow}{optical\_flow}}\&\& x);}
+\DoxyCodeLine{99 }
+\DoxyCodeLine{104     eProsima\_user\_DllExport \mbox{\hyperlink{classoptical__flow}{optical\_flow}}\& \mbox{\hyperlink{classoptical__flow_a22bd0d55833f2f6cbc14f2c183def7bb}{operator =}}(}
+\DoxyCodeLine{105             \textcolor{keyword}{const} \mbox{\hyperlink{classoptical__flow}{optical\_flow}}\& x);}
+\DoxyCodeLine{106 }
+\DoxyCodeLine{111     eProsima\_user\_DllExport \mbox{\hyperlink{classoptical__flow}{optical\_flow}}\& \mbox{\hyperlink{classoptical__flow_a22bd0d55833f2f6cbc14f2c183def7bb}{operator =}}(}
+\DoxyCodeLine{112             \mbox{\hyperlink{classoptical__flow}{optical\_flow}}\&\& x);}
+\DoxyCodeLine{113 }
+\DoxyCodeLine{118     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classoptical__flow_ae244caa05264d0fbd442e6a815288a01}{timestamp\_}}(}
+\DoxyCodeLine{119             uint64\_t \_timestamp\_);}
+\DoxyCodeLine{120 }
+\DoxyCodeLine{125     eProsima\_user\_DllExport uint64\_t \mbox{\hyperlink{classoptical__flow_ae244caa05264d0fbd442e6a815288a01}{timestamp\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{126 }
+\DoxyCodeLine{131     eProsima\_user\_DllExport uint64\_t\& \mbox{\hyperlink{classoptical__flow_ae244caa05264d0fbd442e6a815288a01}{timestamp\_}}();}
+\DoxyCodeLine{132 }
+\DoxyCodeLine{137     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classoptical__flow_a1c7218cca2742a6ceec08ea1bf948424}{sensor\_id\_}}(}
+\DoxyCodeLine{138             uint8\_t \_sensor\_id\_);}
+\DoxyCodeLine{139 }
+\DoxyCodeLine{144     eProsima\_user\_DllExport uint8\_t \mbox{\hyperlink{classoptical__flow_a1c7218cca2742a6ceec08ea1bf948424}{sensor\_id\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{145 }
+\DoxyCodeLine{150     eProsima\_user\_DllExport uint8\_t\& \mbox{\hyperlink{classoptical__flow_a1c7218cca2742a6ceec08ea1bf948424}{sensor\_id\_}}();}
+\DoxyCodeLine{151 }
+\DoxyCodeLine{156     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classoptical__flow_a0044feecae8cfb25c612d148c59bc23c}{pixel\_flow\_x\_integral\_}}(}
+\DoxyCodeLine{157             \textcolor{keywordtype}{float} \_pixel\_flow\_x\_integral\_);}
+\DoxyCodeLine{158 }
+\DoxyCodeLine{163     eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classoptical__flow_a0044feecae8cfb25c612d148c59bc23c}{pixel\_flow\_x\_integral\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{164 }
+\DoxyCodeLine{169     eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classoptical__flow_a0044feecae8cfb25c612d148c59bc23c}{pixel\_flow\_x\_integral\_}}();}
+\DoxyCodeLine{170 }
+\DoxyCodeLine{175     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classoptical__flow_a61a7b11c9378a250a8327e01f68e36d7}{pixel\_flow\_y\_integral\_}}(}
+\DoxyCodeLine{176             \textcolor{keywordtype}{float} \_pixel\_flow\_y\_integral\_);}
+\DoxyCodeLine{177 }
+\DoxyCodeLine{182     eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classoptical__flow_a61a7b11c9378a250a8327e01f68e36d7}{pixel\_flow\_y\_integral\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{183 }
+\DoxyCodeLine{188     eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classoptical__flow_a61a7b11c9378a250a8327e01f68e36d7}{pixel\_flow\_y\_integral\_}}();}
+\DoxyCodeLine{189 }
+\DoxyCodeLine{194     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classoptical__flow_a5d5d539bc1acebac9fa83eda817598a3}{gyro\_x\_rate\_integral\_}}(}
+\DoxyCodeLine{195             \textcolor{keywordtype}{float} \_gyro\_x\_rate\_integral\_);}
+\DoxyCodeLine{196 }
+\DoxyCodeLine{201     eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classoptical__flow_a5d5d539bc1acebac9fa83eda817598a3}{gyro\_x\_rate\_integral\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{202 }
+\DoxyCodeLine{207     eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classoptical__flow_a5d5d539bc1acebac9fa83eda817598a3}{gyro\_x\_rate\_integral\_}}();}
+\DoxyCodeLine{208 }
+\DoxyCodeLine{213     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classoptical__flow_a8009b63a02ba11bbd23e413b69516263}{gyro\_y\_rate\_integral\_}}(}
+\DoxyCodeLine{214             \textcolor{keywordtype}{float} \_gyro\_y\_rate\_integral\_);}
+\DoxyCodeLine{215 }
+\DoxyCodeLine{220     eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classoptical__flow_a8009b63a02ba11bbd23e413b69516263}{gyro\_y\_rate\_integral\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{221 }
+\DoxyCodeLine{226     eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classoptical__flow_a8009b63a02ba11bbd23e413b69516263}{gyro\_y\_rate\_integral\_}}();}
+\DoxyCodeLine{227 }
+\DoxyCodeLine{232     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classoptical__flow_a726bf279c476bfb37cd6d59db955d34f}{gyro\_z\_rate\_integral\_}}(}
+\DoxyCodeLine{233             \textcolor{keywordtype}{float} \_gyro\_z\_rate\_integral\_);}
+\DoxyCodeLine{234 }
+\DoxyCodeLine{239     eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classoptical__flow_a726bf279c476bfb37cd6d59db955d34f}{gyro\_z\_rate\_integral\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{240 }
+\DoxyCodeLine{245     eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classoptical__flow_a726bf279c476bfb37cd6d59db955d34f}{gyro\_z\_rate\_integral\_}}();}
+\DoxyCodeLine{246 }
+\DoxyCodeLine{251     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classoptical__flow_a64afc94ff5472a5d25365ae9e3c58f21}{ground\_distance\_m\_}}(}
+\DoxyCodeLine{252             \textcolor{keywordtype}{float} \_ground\_distance\_m\_);}
+\DoxyCodeLine{253 }
+\DoxyCodeLine{258     eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classoptical__flow_a64afc94ff5472a5d25365ae9e3c58f21}{ground\_distance\_m\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{259 }
+\DoxyCodeLine{264     eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classoptical__flow_a64afc94ff5472a5d25365ae9e3c58f21}{ground\_distance\_m\_}}();}
+\DoxyCodeLine{265 }
+\DoxyCodeLine{270     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classoptical__flow_aca59dc717781bbf51835ef583bd45d6b}{integration\_timespan\_}}(}
+\DoxyCodeLine{271             uint32\_t \_integration\_timespan\_);}
+\DoxyCodeLine{272 }
+\DoxyCodeLine{277     eProsima\_user\_DllExport uint32\_t \mbox{\hyperlink{classoptical__flow_aca59dc717781bbf51835ef583bd45d6b}{integration\_timespan\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{278 }
+\DoxyCodeLine{283     eProsima\_user\_DllExport uint32\_t\& \mbox{\hyperlink{classoptical__flow_aca59dc717781bbf51835ef583bd45d6b}{integration\_timespan\_}}();}
+\DoxyCodeLine{284 }
+\DoxyCodeLine{289     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classoptical__flow_a2a2c1d75b642cd7cad5bb55d96461cec}{time\_since\_last\_sonar\_update\_}}(}
+\DoxyCodeLine{290             uint32\_t \_time\_since\_last\_sonar\_update\_);}
+\DoxyCodeLine{291 }
+\DoxyCodeLine{296     eProsima\_user\_DllExport uint32\_t \mbox{\hyperlink{classoptical__flow_a2a2c1d75b642cd7cad5bb55d96461cec}{time\_since\_last\_sonar\_update\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{297 }
+\DoxyCodeLine{302     eProsima\_user\_DllExport uint32\_t\& \mbox{\hyperlink{classoptical__flow_a2a2c1d75b642cd7cad5bb55d96461cec}{time\_since\_last\_sonar\_update\_}}();}
+\DoxyCodeLine{303 }
+\DoxyCodeLine{308     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classoptical__flow_abed960872726d7572d05c6fa93a9ccdc}{frame\_count\_since\_last\_readout\_}}(}
+\DoxyCodeLine{309             uint16\_t \_frame\_count\_since\_last\_readout\_);}
+\DoxyCodeLine{310 }
+\DoxyCodeLine{315     eProsima\_user\_DllExport uint16\_t \mbox{\hyperlink{classoptical__flow_abed960872726d7572d05c6fa93a9ccdc}{frame\_count\_since\_last\_readout\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{316 }
+\DoxyCodeLine{321     eProsima\_user\_DllExport uint16\_t\& \mbox{\hyperlink{classoptical__flow_abed960872726d7572d05c6fa93a9ccdc}{frame\_count\_since\_last\_readout\_}}();}
+\DoxyCodeLine{322 }
+\DoxyCodeLine{327     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classoptical__flow_a38d6ade4963d3fe50c83d26cd18e481c}{gyro\_temperature\_}}(}
+\DoxyCodeLine{328             int16\_t \_gyro\_temperature\_);}
+\DoxyCodeLine{329 }
+\DoxyCodeLine{334     eProsima\_user\_DllExport int16\_t \mbox{\hyperlink{classoptical__flow_a38d6ade4963d3fe50c83d26cd18e481c}{gyro\_temperature\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{335 }
+\DoxyCodeLine{340     eProsima\_user\_DllExport int16\_t\& \mbox{\hyperlink{classoptical__flow_a38d6ade4963d3fe50c83d26cd18e481c}{gyro\_temperature\_}}();}
+\DoxyCodeLine{341 }
+\DoxyCodeLine{346     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classoptical__flow_ad44815ede2d2e1df9524e699410c4080}{quality\_}}(}
+\DoxyCodeLine{347             uint8\_t \_quality\_);}
+\DoxyCodeLine{348 }
+\DoxyCodeLine{353     eProsima\_user\_DllExport uint8\_t \mbox{\hyperlink{classoptical__flow_ad44815ede2d2e1df9524e699410c4080}{quality\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{354 }
+\DoxyCodeLine{359     eProsima\_user\_DllExport uint8\_t\& \mbox{\hyperlink{classoptical__flow_ad44815ede2d2e1df9524e699410c4080}{quality\_}}();}
+\DoxyCodeLine{360 }
+\DoxyCodeLine{365     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classoptical__flow_a7a452279d71d0d0269ed31350d3d0b7f}{max\_flow\_rate\_}}(}
+\DoxyCodeLine{366             \textcolor{keywordtype}{float} \_max\_flow\_rate\_);}
+\DoxyCodeLine{367 }
+\DoxyCodeLine{372     eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classoptical__flow_a7a452279d71d0d0269ed31350d3d0b7f}{max\_flow\_rate\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{373 }
+\DoxyCodeLine{378     eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classoptical__flow_a7a452279d71d0d0269ed31350d3d0b7f}{max\_flow\_rate\_}}();}
+\DoxyCodeLine{379 }
+\DoxyCodeLine{384     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classoptical__flow_a7ef70239014e799fe09dffb654179f8f}{min\_ground\_distance\_}}(}
+\DoxyCodeLine{385             \textcolor{keywordtype}{float} \_min\_ground\_distance\_);}
+\DoxyCodeLine{386 }
+\DoxyCodeLine{391     eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classoptical__flow_a7ef70239014e799fe09dffb654179f8f}{min\_ground\_distance\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{392 }
+\DoxyCodeLine{397     eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classoptical__flow_a7ef70239014e799fe09dffb654179f8f}{min\_ground\_distance\_}}();}
+\DoxyCodeLine{398 }
+\DoxyCodeLine{403     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classoptical__flow_acda0fa98a183177b2bd03fda0d8602ef}{max\_ground\_distance\_}}(}
+\DoxyCodeLine{404             \textcolor{keywordtype}{float} \_max\_ground\_distance\_);}
+\DoxyCodeLine{405 }
+\DoxyCodeLine{410     eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classoptical__flow_acda0fa98a183177b2bd03fda0d8602ef}{max\_ground\_distance\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{411 }
+\DoxyCodeLine{416     eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classoptical__flow_acda0fa98a183177b2bd03fda0d8602ef}{max\_ground\_distance\_}}();}
+\DoxyCodeLine{417 }
+\DoxyCodeLine{422     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classoptical__flow_a15d1fe97a7654a04710cf2376ddd9ed1}{mode\_}}(}
+\DoxyCodeLine{423             uint8\_t \_mode\_);}
+\DoxyCodeLine{424 }
+\DoxyCodeLine{429     eProsima\_user\_DllExport uint8\_t \mbox{\hyperlink{classoptical__flow_a15d1fe97a7654a04710cf2376ddd9ed1}{mode\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{430 }
+\DoxyCodeLine{435     eProsima\_user\_DllExport uint8\_t\& \mbox{\hyperlink{classoptical__flow_a15d1fe97a7654a04710cf2376ddd9ed1}{mode\_}}();}
+\DoxyCodeLine{436 }
+\DoxyCodeLine{437 }
+\DoxyCodeLine{444     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classoptical__flow_a2162d871b59e7287e9ce4a1dbc9e4bd7}{getMaxCdrSerializedSize}}(}
+\DoxyCodeLine{445             \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{446 }
+\DoxyCodeLine{453     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classoptical__flow_af6be04115109c16d58bd807b06445b60}{getCdrSerializedSize}}(}
+\DoxyCodeLine{454             \textcolor{keyword}{const} \mbox{\hyperlink{classoptical__flow}{optical\_flow}}\& data,}
+\DoxyCodeLine{455             \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{456 }
+\DoxyCodeLine{457 }
+\DoxyCodeLine{462     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classoptical__flow_ab99da5dcf4c65ce1ff415d8d26f122cf}{serialize}}(}
+\DoxyCodeLine{463             eprosima::fastcdr::Cdr\& cdr) \textcolor{keyword}{const};}
+\DoxyCodeLine{464 }
+\DoxyCodeLine{469     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classoptical__flow_a0b756296187966f4911ab1a3446cde73}{deserialize}}(}
+\DoxyCodeLine{470             eprosima::fastcdr::Cdr\& cdr);}
+\DoxyCodeLine{471 }
+\DoxyCodeLine{472 }
+\DoxyCodeLine{473 }
+\DoxyCodeLine{480     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classoptical__flow_a80f5763a4db1e9964c6e482c114c8f0f}{getKeyMaxCdrSerializedSize}}(}
+\DoxyCodeLine{481             \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{482 }
+\DoxyCodeLine{486     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{bool} \mbox{\hyperlink{classoptical__flow_a01584317b6b0af0591b377349fc34683}{isKeyDefined}}();}
+\DoxyCodeLine{487 }
+\DoxyCodeLine{492     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classoptical__flow_af586e499ac7d84ec91302dbee4fe7fa3}{serializeKey}}(}
+\DoxyCodeLine{493             eprosima::fastcdr::Cdr\& cdr) \textcolor{keyword}{const};}
+\DoxyCodeLine{494 }
+\DoxyCodeLine{495 \textcolor{keyword}{private}:}
+\DoxyCodeLine{496 }
+\DoxyCodeLine{497     uint64\_t m\_timestamp\_;}
+\DoxyCodeLine{498     uint8\_t m\_sensor\_id\_;}
+\DoxyCodeLine{499     \textcolor{keywordtype}{float} m\_pixel\_flow\_x\_integral\_;}
+\DoxyCodeLine{500     \textcolor{keywordtype}{float} m\_pixel\_flow\_y\_integral\_;}
+\DoxyCodeLine{501     \textcolor{keywordtype}{float} m\_gyro\_x\_rate\_integral\_;}
+\DoxyCodeLine{502     \textcolor{keywordtype}{float} m\_gyro\_y\_rate\_integral\_;}
+\DoxyCodeLine{503     \textcolor{keywordtype}{float} m\_gyro\_z\_rate\_integral\_;}
+\DoxyCodeLine{504     \textcolor{keywordtype}{float} m\_ground\_distance\_m\_;}
+\DoxyCodeLine{505     uint32\_t m\_integration\_timespan\_;}
+\DoxyCodeLine{506     uint32\_t m\_time\_since\_last\_sonar\_update\_;}
+\DoxyCodeLine{507     uint16\_t m\_frame\_count\_since\_last\_readout\_;}
+\DoxyCodeLine{508     int16\_t m\_gyro\_temperature\_;}
+\DoxyCodeLine{509     uint8\_t m\_quality\_;}
+\DoxyCodeLine{510     \textcolor{keywordtype}{float} m\_max\_flow\_rate\_;}
+\DoxyCodeLine{511     \textcolor{keywordtype}{float} m\_min\_ground\_distance\_;}
+\DoxyCodeLine{512     \textcolor{keywordtype}{float} m\_max\_ground\_distance\_;}
+\DoxyCodeLine{513     uint8\_t m\_mode\_;}
+\DoxyCodeLine{514 \};}
+\DoxyCodeLine{515 }
+\DoxyCodeLine{516 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_OPTICAL\_FLOW\_H\_}}
+
+\end{DoxyCode}

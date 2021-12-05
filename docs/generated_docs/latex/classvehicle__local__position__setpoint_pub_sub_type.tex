@@ -1,0 +1,62 @@
+\hypertarget{classvehicle__local__position__setpoint_pub_sub_type}{}\doxysection{vehicle\+\_\+local\+\_\+position\+\_\+setpoint\+Pub\+Sub\+Type Class Reference}
+\label{classvehicle__local__position__setpoint_pub_sub_type}\index{vehicle\_local\_position\_setpointPubSubType@{vehicle\_local\_position\_setpointPubSubType}}
+
+
+This class represents the Topic\+Data\+Type of the type \mbox{\hyperlink{classvehicle__local__position__setpoint}{vehicle\+\_\+local\+\_\+position\+\_\+setpoint}} defined by the user in the IDL file.  
+
+
+
+
+{\ttfamily \#include $<$vehicle\+\_\+local\+\_\+position\+\_\+setpoint\+Pub\+Sub\+Types.\+h$>$}
+
+Inheritance diagram for vehicle\+\_\+local\+\_\+position\+\_\+setpoint\+Pub\+Sub\+Type\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classvehicle__local__position__setpoint_pub_sub_type}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classvehicle__local__position__setpoint_pub_sub_type_a41f0c5ef446843ed3093838ed0a9fa90}\label{classvehicle__local__position__setpoint_pub_sub_type_a41f0c5ef446843ed3093838ed0a9fa90}} 
+typedef \mbox{\hyperlink{classvehicle__local__position__setpoint}{vehicle\+\_\+local\+\_\+position\+\_\+setpoint}} {\bfseries type}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classvehicle__local__position__setpoint_pub_sub_type_a3b64202e94596abde1b74c7a001e10f4}\label{classvehicle__local__position__setpoint_pub_sub_type_a3b64202e94596abde1b74c7a001e10f4}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export bool {\bfseries serialize} (void $\ast$data, eprosima\+::fastrtps\+::rtps\+::\+Serialized\+Payload\+\_\+t $\ast$payload) override
+\item 
+\mbox{\Hypertarget{classvehicle__local__position__setpoint_pub_sub_type_a62fb6fe16b6a77f224912eede3e73cc6}\label{classvehicle__local__position__setpoint_pub_sub_type_a62fb6fe16b6a77f224912eede3e73cc6}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export bool {\bfseries deserialize} (eprosima\+::fastrtps\+::rtps\+::\+Serialized\+Payload\+\_\+t $\ast$payload, void $\ast$data) override
+\item 
+\mbox{\Hypertarget{classvehicle__local__position__setpoint_pub_sub_type_a5c0af90ea3a722e4e4eb63990924a756}\label{classvehicle__local__position__setpoint_pub_sub_type_a5c0af90ea3a722e4e4eb63990924a756}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export std\+::function$<$ uint32\+\_\+t()$>$ {\bfseries get\+Serialized\+Size\+Provider} (void $\ast$data) override
+\item 
+\mbox{\Hypertarget{classvehicle__local__position__setpoint_pub_sub_type_aa2313beeabb51f20340949d2ef180dd8}\label{classvehicle__local__position__setpoint_pub_sub_type_aa2313beeabb51f20340949d2ef180dd8}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export bool {\bfseries get\+Key} (void $\ast$data, eprosima\+::fastrtps\+::rtps\+::\+Instance\+Handle\+\_\+t $\ast$ihandle, bool force\+\_\+md5=false) override
+\item 
+\mbox{\Hypertarget{classvehicle__local__position__setpoint_pub_sub_type_ad3595e3ef17588da28b42264bfa19068}\label{classvehicle__local__position__setpoint_pub_sub_type_ad3595e3ef17588da28b42264bfa19068}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export void $\ast$ {\bfseries create\+Data} () override
+\item 
+\mbox{\Hypertarget{classvehicle__local__position__setpoint_pub_sub_type_a1ca5b24e15c01c3c5bd439d62f3c9b7c}\label{classvehicle__local__position__setpoint_pub_sub_type_a1ca5b24e15c01c3c5bd439d62f3c9b7c}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export void {\bfseries delete\+Data} (void $\ast$data) override
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classvehicle__local__position__setpoint_pub_sub_type_af47cb544da5ba3b2665ab40878a05128}\label{classvehicle__local__position__setpoint_pub_sub_type_af47cb544da5ba3b2665ab40878a05128}} 
+MD5 {\bfseries m\+\_\+md5}
+\item 
+\mbox{\Hypertarget{classvehicle__local__position__setpoint_pub_sub_type_af62a431dbf2202a3c9a531ad5c7a8e80}\label{classvehicle__local__position__setpoint_pub_sub_type_af62a431dbf2202a3c9a531ad5c7a8e80}} 
+unsigned char $\ast$ {\bfseries m\+\_\+key\+Buffer}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class represents the Topic\+Data\+Type of the type \mbox{\hyperlink{classvehicle__local__position__setpoint}{vehicle\+\_\+local\+\_\+position\+\_\+setpoint}} defined by the user in the IDL file. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/sarathmenon/\+Desktop/eth\+\_\+soft/code/\+Communication/libraries/communication\+\_\+lib/fastdds\+\_\+lib/fastddsgen\+\_\+generated\+\_\+files/px4\+\_\+msg\+\_\+definitions/\mbox{\hyperlink{vehicle__local__position__setpoint_pub_sub_types_8h}{vehicle\+\_\+local\+\_\+position\+\_\+setpoint\+Pub\+Sub\+Types.\+h}}\item 
+/\+Users/sarathmenon/\+Desktop/eth\+\_\+soft/code/\+Communication/libraries/communication\+\_\+lib/fastdds\+\_\+lib/fastddsgen\+\_\+generated\+\_\+files/px4\+\_\+msg\+\_\+definitions/vehicle\+\_\+local\+\_\+position\+\_\+setpoint\+Pub\+Sub\+Types.\+cxx\end{DoxyCompactItemize}

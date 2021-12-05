@@ -1,0 +1,672 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classidl__msg_1_1_mocap" kind="class" language="C++" prot="public">
+    <compoundname>idl_msg::Mocap</compoundname>
+    <includes refid="_mocap_8h" local="no">Mocap.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classidl__msg_1_1_mocap_1ae0a6d36c37b09964a66034395720a94c" prot="private" static="no" mutable="no">
+        <type><ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref></type>
+        <definition>idl_msg::Header idl_msg::Mocap::m_header</definition>
+        <argsstring></argsstring>
+        <name>m_header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="242" column="25" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" bodystart="242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classidl__msg_1_1_mocap_1a700b759ff2847f91070d8cc1da69cb6f" prot="private" static="no" mutable="no">
+        <type><ref refid="classidl__msg_1_1_pose" kindref="compound">idl_msg::Pose</ref></type>
+        <definition>idl_msg::Pose idl_msg::Mocap::m_pose</definition>
+        <argsstring></argsstring>
+        <name>m_pose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="243" column="23" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" bodystart="243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classidl__msg_1_1_mocap_1a31202c93f2c1651b8fb2645d3bc7626e" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float idl_msg::Mocap::m_latency</definition>
+        <argsstring></argsstring>
+        <name>m_latency</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="244" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classidl__msg_1_1_mocap_1a7017ce92e159b6f88f808bef70410b9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>idl_msg::Mocap::Mocap</definition>
+        <argsstring>()</argsstring>
+        <name>Mocap</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="78" column="33" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="37" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_mocap_1ab329928f700fbb43a8c6a5126ab4124c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>idl_msg::Mocap::~Mocap</definition>
+        <argsstring>()</argsstring>
+        <name>~Mocap</name>
+        <briefdescription>
+<para>Default destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="83" column="33" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="48" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_mocap_1ab5f5ee75a1b869173e2a83cb99516e0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>idl_msg::Mocap::Mocap</definition>
+        <argsstring>(const Mocap &amp;x)</argsstring>
+        <name>Mocap</name>
+        <param>
+          <type>const <ref refid="classidl__msg_1_1_mocap" kindref="compound">Mocap</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classidl__msg_1_1_mocap" kindref="compound">idl_msg::Mocap</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="89" column="33" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="55" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_mocap_1a6b96b8e9a8ddb440ca3b9b1e72dff0f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>idl_msg::Mocap::Mocap</definition>
+        <argsstring>(Mocap &amp;&amp;x)</argsstring>
+        <name>Mocap</name>
+        <param>
+          <type><ref refid="classidl__msg_1_1_mocap" kindref="compound">Mocap</ref> &amp;&amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Move constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classidl__msg_1_1_mocap" kindref="compound">idl_msg::Mocap</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="96" column="33" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="63" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_mocap_1a0f4802b27bbe44e30dab454cd257108f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport <ref refid="classidl__msg_1_1_mocap" kindref="compound">Mocap</ref> &amp;</type>
+        <definition>idl_msg::Mocap &amp; idl_msg::Mocap::operator=</definition>
+        <argsstring>(const Mocap &amp;x)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classidl__msg_1_1_mocap" kindref="compound">Mocap</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Copy assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classidl__msg_1_1_mocap" kindref="compound">idl_msg::Mocap</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="103" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="71" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_mocap_1a97e9049249cb7b9ec536d367a7a8f757" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport <ref refid="classidl__msg_1_1_mocap" kindref="compound">Mocap</ref> &amp;</type>
+        <definition>idl_msg::Mocap &amp; idl_msg::Mocap::operator=</definition>
+        <argsstring>(Mocap &amp;&amp;x)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classidl__msg_1_1_mocap" kindref="compound">Mocap</ref> &amp;&amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Move assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classidl__msg_1_1_mocap" kindref="compound">idl_msg::Mocap</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="110" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="82" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_mocap_1a8884866d924830db9fd64813448d8aa6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void idl_msg::Mocap::header</definition>
+        <argsstring>(const idl_msg::Header &amp;_header)</argsstring>
+        <name>header</name>
+        <param>
+          <type>const <ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref> &amp;</type>
+          <declname>_header</declname>
+        </param>
+        <briefdescription>
+<para>This function copies the value in member header. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_header</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member header </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="117" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="148" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_mocap_1a2884c1d1aae2d50a3d98c16d1ceec81c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void idl_msg::Mocap::header</definition>
+        <argsstring>(idl_msg::Header &amp;&amp;_header)</argsstring>
+        <name>header</name>
+        <param>
+          <type><ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref> &amp;&amp;</type>
+          <declname>_header</declname>
+        </param>
+        <briefdescription>
+<para>This function moves the value in member header. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_header</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member header </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="124" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="158" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_mocap_1a3eaa04429464b673d4e7c3a0fdb267d1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport const <ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref> &amp;</type>
+        <definition>const idl_msg::Header &amp; idl_msg::Mocap::header</definition>
+        <argsstring>() const</argsstring>
+        <name>header</name>
+        <briefdescription>
+<para>This function returns a constant reference to member header. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Constant reference to member header </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="131" column="55" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="168" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_mocap_1a4fff8c669b81bb457b202de17f6dc658" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport <ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref> &amp;</type>
+        <definition>idl_msg::Header &amp; idl_msg::Mocap::header</definition>
+        <argsstring>()</argsstring>
+        <name>header</name>
+        <briefdescription>
+<para>This function returns a reference to member header. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member header </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="137" column="49" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="177" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_mocap_1a01c43c5e0440d0b4fb22c240777a98ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void idl_msg::Mocap::pose</definition>
+        <argsstring>(const idl_msg::Pose &amp;_pose)</argsstring>
+        <name>pose</name>
+        <param>
+          <type>const <ref refid="classidl__msg_1_1_pose" kindref="compound">idl_msg::Pose</ref> &amp;</type>
+          <declname>_pose</declname>
+        </param>
+        <briefdescription>
+<para>This function copies the value in member pose. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_pose</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member pose </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="142" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="185" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_mocap_1a8278d952b48c29da3a78b84db2e1c55d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void idl_msg::Mocap::pose</definition>
+        <argsstring>(idl_msg::Pose &amp;&amp;_pose)</argsstring>
+        <name>pose</name>
+        <param>
+          <type><ref refid="classidl__msg_1_1_pose" kindref="compound">idl_msg::Pose</ref> &amp;&amp;</type>
+          <declname>_pose</declname>
+        </param>
+        <briefdescription>
+<para>This function moves the value in member pose. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_pose</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member pose </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="149" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="195" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_mocap_1a946d87730dbe2b32341159fbfdd8e613" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport const <ref refid="classidl__msg_1_1_pose" kindref="compound">idl_msg::Pose</ref> &amp;</type>
+        <definition>const idl_msg::Pose &amp; idl_msg::Mocap::pose</definition>
+        <argsstring>() const</argsstring>
+        <name>pose</name>
+        <briefdescription>
+<para>This function returns a constant reference to member pose. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Constant reference to member pose </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="156" column="53" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="205" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_mocap_1af64e9c9023cb3b6cd256012ef3777e88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport <ref refid="classidl__msg_1_1_pose" kindref="compound">idl_msg::Pose</ref> &amp;</type>
+        <definition>idl_msg::Pose &amp; idl_msg::Mocap::pose</definition>
+        <argsstring>()</argsstring>
+        <name>pose</name>
+        <briefdescription>
+<para>This function returns a reference to member pose. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member pose </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="162" column="47" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="214" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_mocap_1af67cad17ef77d9f493ae05b9847bbe50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void idl_msg::Mocap::latency</definition>
+        <argsstring>(float _latency)</argsstring>
+        <name>latency</name>
+        <param>
+          <type>float</type>
+          <declname>_latency</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member latency. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_latency</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member latency </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="167" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="222" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_mocap_1ad56712a38ae24dd64f35ef7fa6d6cb47" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float idl_msg::Mocap::latency</definition>
+        <argsstring>() const</argsstring>
+        <name>latency</name>
+        <briefdescription>
+<para>This function returns the value of member latency. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member latency </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="174" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="232" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_mocap_1a0e16d2e84a6e6f5c3be12a02153448a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; idl_msg::Mocap::latency</definition>
+        <argsstring>()</argsstring>
+        <name>latency</name>
+        <briefdescription>
+<para>This function returns a reference to member latency. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member latency </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="180" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="241" bodyend="244"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_mocap_1ad02cfa02bdedeae88e8abf2490ac2aad" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void idl_msg::Mocap::serialize</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr) const</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function serializes an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="207" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="125" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_mocap_1ad5d13f2b90a8d3c81eb00625f6678d41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void idl_msg::Mocap::deserialize</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr)</argsstring>
+        <name>deserialize</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function deserializes an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="214" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="135" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_mocap_1ab7e3bcf80b3fafabeefeebf55443d87d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void idl_msg::Mocap::serializeKey</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr) const</argsstring>
+        <name>serializeKey</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function serializes the key members of an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="237" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="265" bodyend="270"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classidl__msg_1_1_mocap_1a815b62c9a4f1d2fbd13671fea5c7d485" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t idl_msg::Mocap::getMaxCdrSerializedSize</definition>
+        <argsstring>(size_t current_alignment=0)</argsstring>
+        <name>getMaxCdrSerializedSize</name>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the maximum serialized size of an object depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Maximum serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="189" column="47" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="93" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_mocap_1a368fd5bbb39871d5d56f61d714f6307b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t idl_msg::Mocap::getCdrSerializedSize</definition>
+        <argsstring>(const idl_msg::Mocap &amp;data, size_t current_alignment=0)</argsstring>
+        <name>getCdrSerializedSize</name>
+        <param>
+          <type>const <ref refid="classidl__msg_1_1_mocap" kindref="compound">idl_msg::Mocap</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the serialized size of a data depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data which is calculated its serialized size. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="198" column="47" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="108" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_mocap_1aac565f7fb7e69e45ea5758aa814c242a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t idl_msg::Mocap::getKeyMaxCdrSerializedSize</definition>
+        <argsstring>(size_t current_alignment=0)</argsstring>
+        <name>getKeyMaxCdrSerializedSize</name>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the maximum serialized size of the Key of an object depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Maximum serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="225" column="47" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="247" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_mocap_1aced397b3277a6c7a6ad3d05ccf81f1eb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool idl_msg::Mocap::isKeyDefined</definition>
+        <argsstring>()</argsstring>
+        <name>isKeyDefined</name>
+        <briefdescription>
+<para>This function tells you if the Key has been defined for this type. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="231" column="45" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="260" bodyend="263"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents the structure <ref refid="classidl__msg_1_1_mocap" kindref="compound">Mocap</ref> defined by the user in the IDL file. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="71" column="5" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" bodystart="72" bodyend="245"/>
+    <listofallmembers>
+      <member refid="classidl__msg_1_1_mocap_1ad5d13f2b90a8d3c81eb00625f6678d41" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>deserialize</name></member>
+      <member refid="classidl__msg_1_1_mocap_1a368fd5bbb39871d5d56f61d714f6307b" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>getCdrSerializedSize</name></member>
+      <member refid="classidl__msg_1_1_mocap_1aac565f7fb7e69e45ea5758aa814c242a" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>getKeyMaxCdrSerializedSize</name></member>
+      <member refid="classidl__msg_1_1_mocap_1a815b62c9a4f1d2fbd13671fea5c7d485" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>getMaxCdrSerializedSize</name></member>
+      <member refid="classidl__msg_1_1_mocap_1a8884866d924830db9fd64813448d8aa6" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>header</name></member>
+      <member refid="classidl__msg_1_1_mocap_1a2884c1d1aae2d50a3d98c16d1ceec81c" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>header</name></member>
+      <member refid="classidl__msg_1_1_mocap_1a3eaa04429464b673d4e7c3a0fdb267d1" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>header</name></member>
+      <member refid="classidl__msg_1_1_mocap_1a4fff8c669b81bb457b202de17f6dc658" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>header</name></member>
+      <member refid="classidl__msg_1_1_mocap_1aced397b3277a6c7a6ad3d05ccf81f1eb" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>isKeyDefined</name></member>
+      <member refid="classidl__msg_1_1_mocap_1af67cad17ef77d9f493ae05b9847bbe50" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>latency</name></member>
+      <member refid="classidl__msg_1_1_mocap_1ad56712a38ae24dd64f35ef7fa6d6cb47" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>latency</name></member>
+      <member refid="classidl__msg_1_1_mocap_1a0e16d2e84a6e6f5c3be12a02153448a3" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>latency</name></member>
+      <member refid="classidl__msg_1_1_mocap_1ae0a6d36c37b09964a66034395720a94c" prot="private" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>m_header</name></member>
+      <member refid="classidl__msg_1_1_mocap_1a31202c93f2c1651b8fb2645d3bc7626e" prot="private" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>m_latency</name></member>
+      <member refid="classidl__msg_1_1_mocap_1a700b759ff2847f91070d8cc1da69cb6f" prot="private" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>m_pose</name></member>
+      <member refid="classidl__msg_1_1_mocap_1a7017ce92e159b6f88f808bef70410b9d" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>Mocap</name></member>
+      <member refid="classidl__msg_1_1_mocap_1ab5f5ee75a1b869173e2a83cb99516e0d" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>Mocap</name></member>
+      <member refid="classidl__msg_1_1_mocap_1a6b96b8e9a8ddb440ca3b9b1e72dff0f4" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>Mocap</name></member>
+      <member refid="classidl__msg_1_1_mocap_1a0f4802b27bbe44e30dab454cd257108f" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>operator=</name></member>
+      <member refid="classidl__msg_1_1_mocap_1a97e9049249cb7b9ec536d367a7a8f757" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>operator=</name></member>
+      <member refid="classidl__msg_1_1_mocap_1a01c43c5e0440d0b4fb22c240777a98ed" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>pose</name></member>
+      <member refid="classidl__msg_1_1_mocap_1a8278d952b48c29da3a78b84db2e1c55d" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>pose</name></member>
+      <member refid="classidl__msg_1_1_mocap_1a946d87730dbe2b32341159fbfdd8e613" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>pose</name></member>
+      <member refid="classidl__msg_1_1_mocap_1af64e9c9023cb3b6cd256012ef3777e88" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>pose</name></member>
+      <member refid="classidl__msg_1_1_mocap_1ad02cfa02bdedeae88e8abf2490ac2aad" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>serialize</name></member>
+      <member refid="classidl__msg_1_1_mocap_1ab7e3bcf80b3fafabeefeebf55443d87d" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>serializeKey</name></member>
+      <member refid="classidl__msg_1_1_mocap_1ab329928f700fbb43a8c6a5126ab4124c" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>~Mocap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

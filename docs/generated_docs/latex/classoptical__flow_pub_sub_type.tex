@@ -1,0 +1,62 @@
+\hypertarget{classoptical__flow_pub_sub_type}{}\doxysection{optical\+\_\+flow\+Pub\+Sub\+Type Class Reference}
+\label{classoptical__flow_pub_sub_type}\index{optical\_flowPubSubType@{optical\_flowPubSubType}}
+
+
+This class represents the Topic\+Data\+Type of the type \mbox{\hyperlink{classoptical__flow}{optical\+\_\+flow}} defined by the user in the IDL file.  
+
+
+
+
+{\ttfamily \#include $<$optical\+\_\+flow\+Pub\+Sub\+Types.\+h$>$}
+
+Inheritance diagram for optical\+\_\+flow\+Pub\+Sub\+Type\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classoptical__flow_pub_sub_type}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classoptical__flow_pub_sub_type_af0c0986910613e485a5788421b084dc5}\label{classoptical__flow_pub_sub_type_af0c0986910613e485a5788421b084dc5}} 
+typedef \mbox{\hyperlink{classoptical__flow}{optical\+\_\+flow}} {\bfseries type}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classoptical__flow_pub_sub_type_a53981bf3c3840f4fa8786a2e758cb0c7}\label{classoptical__flow_pub_sub_type_a53981bf3c3840f4fa8786a2e758cb0c7}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export bool {\bfseries serialize} (void $\ast$data, eprosima\+::fastrtps\+::rtps\+::\+Serialized\+Payload\+\_\+t $\ast$payload) override
+\item 
+\mbox{\Hypertarget{classoptical__flow_pub_sub_type_a7da0e8df75fc8750d7dc3913c2658d20}\label{classoptical__flow_pub_sub_type_a7da0e8df75fc8750d7dc3913c2658d20}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export bool {\bfseries deserialize} (eprosima\+::fastrtps\+::rtps\+::\+Serialized\+Payload\+\_\+t $\ast$payload, void $\ast$data) override
+\item 
+\mbox{\Hypertarget{classoptical__flow_pub_sub_type_afd0add0d15d057cfcc743f44342df52a}\label{classoptical__flow_pub_sub_type_afd0add0d15d057cfcc743f44342df52a}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export std\+::function$<$ uint32\+\_\+t()$>$ {\bfseries get\+Serialized\+Size\+Provider} (void $\ast$data) override
+\item 
+\mbox{\Hypertarget{classoptical__flow_pub_sub_type_aac5272b5d816996222f4a2869019d11e}\label{classoptical__flow_pub_sub_type_aac5272b5d816996222f4a2869019d11e}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export bool {\bfseries get\+Key} (void $\ast$data, eprosima\+::fastrtps\+::rtps\+::\+Instance\+Handle\+\_\+t $\ast$ihandle, bool force\+\_\+md5=false) override
+\item 
+\mbox{\Hypertarget{classoptical__flow_pub_sub_type_a5837b9edfed8544c1360ac38da03f433}\label{classoptical__flow_pub_sub_type_a5837b9edfed8544c1360ac38da03f433}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export void $\ast$ {\bfseries create\+Data} () override
+\item 
+\mbox{\Hypertarget{classoptical__flow_pub_sub_type_a115fa2cb420fc768067c009f15845591}\label{classoptical__flow_pub_sub_type_a115fa2cb420fc768067c009f15845591}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export void {\bfseries delete\+Data} (void $\ast$data) override
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classoptical__flow_pub_sub_type_a1764307efcecc8d9db73d8b0793472d2}\label{classoptical__flow_pub_sub_type_a1764307efcecc8d9db73d8b0793472d2}} 
+MD5 {\bfseries m\+\_\+md5}
+\item 
+\mbox{\Hypertarget{classoptical__flow_pub_sub_type_a8fda64257bcdd87938fde5f964677846}\label{classoptical__flow_pub_sub_type_a8fda64257bcdd87938fde5f964677846}} 
+unsigned char $\ast$ {\bfseries m\+\_\+key\+Buffer}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class represents the Topic\+Data\+Type of the type \mbox{\hyperlink{classoptical__flow}{optical\+\_\+flow}} defined by the user in the IDL file. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/sarathmenon/\+Desktop/eth\+\_\+soft/code/\+Communication/libraries/communication\+\_\+lib/fastdds\+\_\+lib/fastddsgen\+\_\+generated\+\_\+files/px4\+\_\+msg\+\_\+definitions/\mbox{\hyperlink{optical__flow_pub_sub_types_8h}{optical\+\_\+flow\+Pub\+Sub\+Types.\+h}}\item 
+/\+Users/sarathmenon/\+Desktop/eth\+\_\+soft/code/\+Communication/libraries/communication\+\_\+lib/fastdds\+\_\+lib/fastddsgen\+\_\+generated\+\_\+files/px4\+\_\+msg\+\_\+definitions/optical\+\_\+flow\+Pub\+Sub\+Types.\+cxx\end{DoxyCompactItemize}

@@ -1,0 +1,94 @@
+\hypertarget{offboard__control__mode_pub_sub_types_8h_source}{}\doxysection{offboard\+\_\+control\+\_\+mode\+Pub\+Sub\+Types.\+h}
+\label{offboard__control__mode_pub_sub_types_8h_source}\index{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/px4\_msg\_definitions/offboard\_control\_modePubSubTypes.h@{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/px4\_msg\_definitions/offboard\_control\_modePubSubTypes.h}}
+\mbox{\hyperlink{offboard__control__mode_pub_sub_types_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{// Copyright 2016 Proyectos y Sistemas de Mantenimiento SL (eProsima).}}
+\DoxyCodeLine{2 \textcolor{comment}{//}}
+\DoxyCodeLine{3 \textcolor{comment}{// Licensed under the Apache License, Version 2.0 (the "{}License"{});}}
+\DoxyCodeLine{4 \textcolor{comment}{// you may not use this file except in compliance with the License.}}
+\DoxyCodeLine{5 \textcolor{comment}{// You may obtain a copy of the License at}}
+\DoxyCodeLine{6 \textcolor{comment}{//}}
+\DoxyCodeLine{7 \textcolor{comment}{//     http://www.apache.org/licenses/LICENSE-\/2.0}}
+\DoxyCodeLine{8 \textcolor{comment}{//}}
+\DoxyCodeLine{9 \textcolor{comment}{// Unless required by applicable law or agreed to in writing, software}}
+\DoxyCodeLine{10 \textcolor{comment}{// distributed under the License is distributed on an "{}AS IS"{} BASIS,}}
+\DoxyCodeLine{11 \textcolor{comment}{// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.}}
+\DoxyCodeLine{12 \textcolor{comment}{// See the License for the specific language governing permissions and}}
+\DoxyCodeLine{13 \textcolor{comment}{// limitations under the License.}}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{23 \textcolor{preprocessor}{\#ifndef \_OFFBOARD\_CONTROL\_MODE\_PUBSUBTYPES\_H\_}}
+\DoxyCodeLine{24 \textcolor{preprocessor}{\#define \_OFFBOARD\_CONTROL\_MODE\_PUBSUBTYPES\_H\_}}
+\DoxyCodeLine{25 }
+\DoxyCodeLine{26 \textcolor{preprocessor}{\#include <fastdds/dds/topic/TopicDataType.hpp>}}
+\DoxyCodeLine{27 \textcolor{preprocessor}{\#include <fastrtps/utils/md5.h>}}
+\DoxyCodeLine{28 }
+\DoxyCodeLine{29 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{offboard__control__mode_8h}{offboard\_control\_mode.h}}"{}}}
+\DoxyCodeLine{30 }
+\DoxyCodeLine{31 \textcolor{preprocessor}{\#if !defined(GEN\_API\_VER) || (GEN\_API\_VER != 1)}}
+\DoxyCodeLine{32 \textcolor{preprocessor}{\#error Generated offboard\_control\_mode is not compatible with current installed Fast DDS. Please, regenerate it with fastddsgen.}}
+\DoxyCodeLine{33 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// GEN\_API\_VER}}
+\DoxyCodeLine{34 }
+\DoxyCodeLine{39 \textcolor{keyword}{class }\mbox{\hyperlink{classoffboard__control__mode_pub_sub_type}{offboard\_control\_modePubSubType}} : \textcolor{keyword}{public} eprosima::fastdds::dds::TopicDataType}
+\DoxyCodeLine{40 \{}
+\DoxyCodeLine{41 \textcolor{keyword}{public}:}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{43     \textcolor{keyword}{typedef} \mbox{\hyperlink{classoffboard__control__mode}{offboard\_control\_mode}} \mbox{\hyperlink{classoffboard__control__mode}{type}};}
+\DoxyCodeLine{44 }
+\DoxyCodeLine{45     eProsima\_user\_DllExport \mbox{\hyperlink{classoffboard__control__mode_pub_sub_type}{offboard\_control\_modePubSubType}}();}
+\DoxyCodeLine{46 }
+\DoxyCodeLine{47     eProsima\_user\_DllExport \textcolor{keyword}{virtual} \mbox{\hyperlink{classoffboard__control__mode_pub_sub_type}{\string~offboard\_control\_modePubSubType}}();}
+\DoxyCodeLine{48 }
+\DoxyCodeLine{49     eProsima\_user\_DllExport \textcolor{keyword}{virtual} \textcolor{keywordtype}{bool} serialize(}
+\DoxyCodeLine{50             \textcolor{keywordtype}{void}* data,}
+\DoxyCodeLine{51             eprosima::fastrtps::rtps::SerializedPayload\_t* payload) \textcolor{keyword}{override};}
+\DoxyCodeLine{52 }
+\DoxyCodeLine{53     eProsima\_user\_DllExport \textcolor{keyword}{virtual} \textcolor{keywordtype}{bool} deserialize(}
+\DoxyCodeLine{54             eprosima::fastrtps::rtps::SerializedPayload\_t* payload,}
+\DoxyCodeLine{55             \textcolor{keywordtype}{void}* data) \textcolor{keyword}{override};}
+\DoxyCodeLine{56 }
+\DoxyCodeLine{57     eProsima\_user\_DllExport \textcolor{keyword}{virtual} std::function<uint32\_t()> getSerializedSizeProvider(}
+\DoxyCodeLine{58             \textcolor{keywordtype}{void}* data) \textcolor{keyword}{override};}
+\DoxyCodeLine{59 }
+\DoxyCodeLine{60     eProsima\_user\_DllExport \textcolor{keyword}{virtual} \textcolor{keywordtype}{bool} getKey(}
+\DoxyCodeLine{61             \textcolor{keywordtype}{void}* data,}
+\DoxyCodeLine{62             eprosima::fastrtps::rtps::InstanceHandle\_t* ihandle,}
+\DoxyCodeLine{63             \textcolor{keywordtype}{bool} force\_md5 = \textcolor{keyword}{false}) \textcolor{keyword}{override};}
+\DoxyCodeLine{64 }
+\DoxyCodeLine{65     eProsima\_user\_DllExport \textcolor{keyword}{virtual} \textcolor{keywordtype}{void}* createData() \textcolor{keyword}{override};}
+\DoxyCodeLine{66 }
+\DoxyCodeLine{67     eProsima\_user\_DllExport \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} deleteData(}
+\DoxyCodeLine{68             \textcolor{keywordtype}{void}* data) \textcolor{keyword}{override};}
+\DoxyCodeLine{69 }
+\DoxyCodeLine{70 \textcolor{preprocessor}{\#ifdef TOPIC\_DATA\_TYPE\_API\_HAS\_IS\_BOUNDED}}
+\DoxyCodeLine{71     eProsima\_user\_DllExport \textcolor{keyword}{inline} \textcolor{keywordtype}{bool} is\_bounded()\textcolor{keyword}{ const override}}
+\DoxyCodeLine{72 \textcolor{keyword}{    }\{}
+\DoxyCodeLine{73         \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{74     \}}
+\DoxyCodeLine{75 }
+\DoxyCodeLine{76 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// TOPIC\_DATA\_TYPE\_API\_HAS\_IS\_BOUNDED}}
+\DoxyCodeLine{77 }
+\DoxyCodeLine{78 \textcolor{preprocessor}{\#ifdef TOPIC\_DATA\_TYPE\_API\_HAS\_IS\_PLAIN}}
+\DoxyCodeLine{79     eProsima\_user\_DllExport \textcolor{keyword}{inline} \textcolor{keywordtype}{bool} is\_plain()\textcolor{keyword}{ const override}}
+\DoxyCodeLine{80 \textcolor{keyword}{    }\{}
+\DoxyCodeLine{81         \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{82     \}}
+\DoxyCodeLine{83 }
+\DoxyCodeLine{84 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// TOPIC\_DATA\_TYPE\_API\_HAS\_IS\_PLAIN}}
+\DoxyCodeLine{85 }
+\DoxyCodeLine{86 \textcolor{preprocessor}{\#ifdef TOPIC\_DATA\_TYPE\_API\_HAS\_CONSTRUCT\_SAMPLE}}
+\DoxyCodeLine{87     eProsima\_user\_DllExport \textcolor{keyword}{inline} \textcolor{keywordtype}{bool} construct\_sample(}
+\DoxyCodeLine{88             \textcolor{keywordtype}{void}* memory)\textcolor{keyword}{ const override}}
+\DoxyCodeLine{89 \textcolor{keyword}{    }\{}
+\DoxyCodeLine{90         \textcolor{keyword}{new} (memory) \mbox{\hyperlink{classoffboard__control__mode}{offboard\_control\_mode}}();}
+\DoxyCodeLine{91         \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{92     \}}
+\DoxyCodeLine{93 }
+\DoxyCodeLine{94 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// TOPIC\_DATA\_TYPE\_API\_HAS\_CONSTRUCT\_SAMPLE}}
+\DoxyCodeLine{95 }
+\DoxyCodeLine{96     MD5 m\_md5;}
+\DoxyCodeLine{97     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{char}* m\_keyBuffer;}
+\DoxyCodeLine{98 \};}
+\DoxyCodeLine{99 }
+\DoxyCodeLine{100 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_OFFBOARD\_CONTROL\_MODE\_PUBSUBTYPES\_H\_}}
+
+\end{DoxyCode}

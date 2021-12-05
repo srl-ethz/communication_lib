@@ -1,0 +1,96 @@
+\hypertarget{timesync__status_pub_sub_types_8h_source}{}\doxysection{timesync\+\_\+status\+Pub\+Sub\+Types.\+h}
+\label{timesync__status_pub_sub_types_8h_source}\index{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/px4\_msg\_definitions/timesync\_statusPubSubTypes.h@{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/px4\_msg\_definitions/timesync\_statusPubSubTypes.h}}
+\mbox{\hyperlink{timesync__status_pub_sub_types_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{// Copyright 2016 Proyectos y Sistemas de Mantenimiento SL (eProsima).}}
+\DoxyCodeLine{2 \textcolor{comment}{//}}
+\DoxyCodeLine{3 \textcolor{comment}{// Licensed under the Apache License, Version 2.0 (the "{}License"{});}}
+\DoxyCodeLine{4 \textcolor{comment}{// you may not use this file except in compliance with the License.}}
+\DoxyCodeLine{5 \textcolor{comment}{// You may obtain a copy of the License at}}
+\DoxyCodeLine{6 \textcolor{comment}{//}}
+\DoxyCodeLine{7 \textcolor{comment}{//     http://www.apache.org/licenses/LICENSE-\/2.0}}
+\DoxyCodeLine{8 \textcolor{comment}{//}}
+\DoxyCodeLine{9 \textcolor{comment}{// Unless required by applicable law or agreed to in writing, software}}
+\DoxyCodeLine{10 \textcolor{comment}{// distributed under the License is distributed on an "{}AS IS"{} BASIS,}}
+\DoxyCodeLine{11 \textcolor{comment}{// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.}}
+\DoxyCodeLine{12 \textcolor{comment}{// See the License for the specific language governing permissions and}}
+\DoxyCodeLine{13 \textcolor{comment}{// limitations under the License.}}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{23 \textcolor{preprocessor}{\#ifndef \_TIMESYNC\_STATUS\_PUBSUBTYPES\_H\_}}
+\DoxyCodeLine{24 \textcolor{preprocessor}{\#define \_TIMESYNC\_STATUS\_PUBSUBTYPES\_H\_}}
+\DoxyCodeLine{25 }
+\DoxyCodeLine{26 \textcolor{preprocessor}{\#include <fastdds/dds/topic/TopicDataType.hpp>}}
+\DoxyCodeLine{27 \textcolor{preprocessor}{\#include <fastrtps/utils/md5.h>}}
+\DoxyCodeLine{28 }
+\DoxyCodeLine{29 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{timesync__status_8h}{timesync\_status.h}}"{}}}
+\DoxyCodeLine{30 }
+\DoxyCodeLine{31 \textcolor{preprocessor}{\#if !defined(GEN\_API\_VER) || (GEN\_API\_VER != 1)}}
+\DoxyCodeLine{32 \textcolor{preprocessor}{\#error Generated timesync\_status is not compatible with current installed Fast DDS. Please, regenerate it with fastddsgen.}}
+\DoxyCodeLine{33 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// GEN\_API\_VER}}
+\DoxyCodeLine{34 }
+\DoxyCodeLine{35 }
+\DoxyCodeLine{36 }
+\DoxyCodeLine{41 \textcolor{keyword}{class }\mbox{\hyperlink{classtimesync__status_pub_sub_type}{timesync\_statusPubSubType}} : \textcolor{keyword}{public} eprosima::fastdds::dds::TopicDataType}
+\DoxyCodeLine{42 \{}
+\DoxyCodeLine{43 \textcolor{keyword}{public}:}
+\DoxyCodeLine{44 }
+\DoxyCodeLine{45     \textcolor{keyword}{typedef} \mbox{\hyperlink{classtimesync__status}{timesync\_status}} \mbox{\hyperlink{classtimesync__status}{type}};}
+\DoxyCodeLine{46 }
+\DoxyCodeLine{47     eProsima\_user\_DllExport \mbox{\hyperlink{classtimesync__status_pub_sub_type}{timesync\_statusPubSubType}}();}
+\DoxyCodeLine{48 }
+\DoxyCodeLine{49     eProsima\_user\_DllExport \textcolor{keyword}{virtual} \mbox{\hyperlink{classtimesync__status_pub_sub_type}{\string~timesync\_statusPubSubType}}();}
+\DoxyCodeLine{50 }
+\DoxyCodeLine{51     eProsima\_user\_DllExport \textcolor{keyword}{virtual} \textcolor{keywordtype}{bool} serialize(}
+\DoxyCodeLine{52             \textcolor{keywordtype}{void}* data,}
+\DoxyCodeLine{53             eprosima::fastrtps::rtps::SerializedPayload\_t* payload) \textcolor{keyword}{override};}
+\DoxyCodeLine{54 }
+\DoxyCodeLine{55     eProsima\_user\_DllExport \textcolor{keyword}{virtual} \textcolor{keywordtype}{bool} deserialize(}
+\DoxyCodeLine{56             eprosima::fastrtps::rtps::SerializedPayload\_t* payload,}
+\DoxyCodeLine{57             \textcolor{keywordtype}{void}* data) \textcolor{keyword}{override};}
+\DoxyCodeLine{58 }
+\DoxyCodeLine{59     eProsima\_user\_DllExport \textcolor{keyword}{virtual} std::function<uint32\_t()> getSerializedSizeProvider(}
+\DoxyCodeLine{60             \textcolor{keywordtype}{void}* data) \textcolor{keyword}{override};}
+\DoxyCodeLine{61 }
+\DoxyCodeLine{62     eProsima\_user\_DllExport \textcolor{keyword}{virtual} \textcolor{keywordtype}{bool} getKey(}
+\DoxyCodeLine{63             \textcolor{keywordtype}{void}* data,}
+\DoxyCodeLine{64             eprosima::fastrtps::rtps::InstanceHandle\_t* ihandle,}
+\DoxyCodeLine{65             \textcolor{keywordtype}{bool} force\_md5 = \textcolor{keyword}{false}) \textcolor{keyword}{override};}
+\DoxyCodeLine{66 }
+\DoxyCodeLine{67     eProsima\_user\_DllExport \textcolor{keyword}{virtual} \textcolor{keywordtype}{void}* createData() \textcolor{keyword}{override};}
+\DoxyCodeLine{68 }
+\DoxyCodeLine{69     eProsima\_user\_DllExport \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} deleteData(}
+\DoxyCodeLine{70             \textcolor{keywordtype}{void}* data) \textcolor{keyword}{override};}
+\DoxyCodeLine{71 }
+\DoxyCodeLine{72 \textcolor{preprocessor}{\#ifdef TOPIC\_DATA\_TYPE\_API\_HAS\_IS\_BOUNDED}}
+\DoxyCodeLine{73     eProsima\_user\_DllExport \textcolor{keyword}{inline} \textcolor{keywordtype}{bool} is\_bounded()\textcolor{keyword}{ const override}}
+\DoxyCodeLine{74 \textcolor{keyword}{    }\{}
+\DoxyCodeLine{75         \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{76     \}}
+\DoxyCodeLine{77 }
+\DoxyCodeLine{78 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// TOPIC\_DATA\_TYPE\_API\_HAS\_IS\_BOUNDED}}
+\DoxyCodeLine{79 }
+\DoxyCodeLine{80 \textcolor{preprocessor}{\#ifdef TOPIC\_DATA\_TYPE\_API\_HAS\_IS\_PLAIN}}
+\DoxyCodeLine{81     eProsima\_user\_DllExport \textcolor{keyword}{inline} \textcolor{keywordtype}{bool} is\_plain()\textcolor{keyword}{ const override}}
+\DoxyCodeLine{82 \textcolor{keyword}{    }\{}
+\DoxyCodeLine{83         \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{84     \}}
+\DoxyCodeLine{85 }
+\DoxyCodeLine{86 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// TOPIC\_DATA\_TYPE\_API\_HAS\_IS\_PLAIN}}
+\DoxyCodeLine{87 }
+\DoxyCodeLine{88 \textcolor{preprocessor}{\#ifdef TOPIC\_DATA\_TYPE\_API\_HAS\_CONSTRUCT\_SAMPLE}}
+\DoxyCodeLine{89     eProsima\_user\_DllExport \textcolor{keyword}{inline} \textcolor{keywordtype}{bool} construct\_sample(}
+\DoxyCodeLine{90             \textcolor{keywordtype}{void}* memory)\textcolor{keyword}{ const override}}
+\DoxyCodeLine{91 \textcolor{keyword}{    }\{}
+\DoxyCodeLine{92         \textcolor{keyword}{new} (memory) \mbox{\hyperlink{classtimesync__status}{timesync\_status}}();}
+\DoxyCodeLine{93         \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{94     \}}
+\DoxyCodeLine{95 }
+\DoxyCodeLine{96 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// TOPIC\_DATA\_TYPE\_API\_HAS\_CONSTRUCT\_SAMPLE}}
+\DoxyCodeLine{97 }
+\DoxyCodeLine{98     MD5 m\_md5;}
+\DoxyCodeLine{99     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{char}* m\_keyBuffer;}
+\DoxyCodeLine{100 \};}
+\DoxyCodeLine{101 }
+\DoxyCodeLine{102 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_TIMESYNC\_STATUS\_PUBSUBTYPES\_H\_}}
+
+\end{DoxyCode}

@@ -1,0 +1,1720 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classoptical__flow" kind="class" language="C++" prot="public">
+    <compoundname>optical_flow</compoundname>
+    <includes refid="optical__flow_8h" local="no">optical_flow.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classoptical__flow_1adc06dd30c6bc882381c9be09c7d1ebb5" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t optical_flow::m_timestamp_</definition>
+        <argsstring></argsstring>
+        <name>m_timestamp_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="497" column="14" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" bodystart="497" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoptical__flow_1ace07ea98ceaeb3a808fae5b274f7185b" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t optical_flow::m_sensor_id_</definition>
+        <argsstring></argsstring>
+        <name>m_sensor_id_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="498" column="13" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" bodystart="498" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoptical__flow_1a7e4dea0deb58402d507c57c9701adba6" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float optical_flow::m_pixel_flow_x_integral_</definition>
+        <argsstring></argsstring>
+        <name>m_pixel_flow_x_integral_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="499" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" bodystart="499" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoptical__flow_1a611358da425747ca251f21c04901f341" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float optical_flow::m_pixel_flow_y_integral_</definition>
+        <argsstring></argsstring>
+        <name>m_pixel_flow_y_integral_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="500" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" bodystart="500" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoptical__flow_1ad669bc7b6b484b0ab682a0c728b21428" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float optical_flow::m_gyro_x_rate_integral_</definition>
+        <argsstring></argsstring>
+        <name>m_gyro_x_rate_integral_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="501" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" bodystart="501" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoptical__flow_1af4c7f4cf15b82c2d9df259ae50c8463d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float optical_flow::m_gyro_y_rate_integral_</definition>
+        <argsstring></argsstring>
+        <name>m_gyro_y_rate_integral_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="502" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" bodystart="502" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoptical__flow_1a18b4083769a6cbf7355bf15a731bd7b6" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float optical_flow::m_gyro_z_rate_integral_</definition>
+        <argsstring></argsstring>
+        <name>m_gyro_z_rate_integral_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="503" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" bodystart="503" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoptical__flow_1a2a5f577303a873f8c96902615a0899dd" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float optical_flow::m_ground_distance_m_</definition>
+        <argsstring></argsstring>
+        <name>m_ground_distance_m_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="504" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" bodystart="504" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoptical__flow_1ac245c63fa23cf5b7c283e02392e6d9de" prot="private" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t optical_flow::m_integration_timespan_</definition>
+        <argsstring></argsstring>
+        <name>m_integration_timespan_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="505" column="14" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" bodystart="505" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoptical__flow_1a577835543643374a6e2098b2e7d47669" prot="private" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t optical_flow::m_time_since_last_sonar_update_</definition>
+        <argsstring></argsstring>
+        <name>m_time_since_last_sonar_update_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="506" column="14" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" bodystart="506" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoptical__flow_1a924c8e42b2a3ac9806fb199ece28787f" prot="private" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t optical_flow::m_frame_count_since_last_readout_</definition>
+        <argsstring></argsstring>
+        <name>m_frame_count_since_last_readout_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="507" column="14" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" bodystart="507" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoptical__flow_1a694db24801089f310a4ca131faee057a" prot="private" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t optical_flow::m_gyro_temperature_</definition>
+        <argsstring></argsstring>
+        <name>m_gyro_temperature_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="508" column="13" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" bodystart="508" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoptical__flow_1a5f0ce493ee7ddcc66b150bd325aa89cf" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t optical_flow::m_quality_</definition>
+        <argsstring></argsstring>
+        <name>m_quality_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="509" column="13" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" bodystart="509" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoptical__flow_1ab66f81150b1858ff59f4360052efa4f9" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float optical_flow::m_max_flow_rate_</definition>
+        <argsstring></argsstring>
+        <name>m_max_flow_rate_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="510" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" bodystart="510" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoptical__flow_1a6ca9583203fe921133ae9baef0043bd4" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float optical_flow::m_min_ground_distance_</definition>
+        <argsstring></argsstring>
+        <name>m_min_ground_distance_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="511" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" bodystart="511" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoptical__flow_1a6261323965df080bb9f8e2fd1f6ff2b1" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float optical_flow::m_max_ground_distance_</definition>
+        <argsstring></argsstring>
+        <name>m_max_ground_distance_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="512" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" bodystart="512" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoptical__flow_1a0eeec44f00b796e45c7ec4daa9d0350a" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t optical_flow::m_mode_</definition>
+        <argsstring></argsstring>
+        <name>m_mode_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="513" column="13" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" bodystart="513" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoptical__flow_1af53f2bc1323b0e38fe9d0f3be47572f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>optical_flow::optical_flow</definition>
+        <argsstring>()</argsstring>
+        <name>optical_flow</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="79" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="41" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a1485d2382ae054763edae8d751effcda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>optical_flow::~optical_flow</definition>
+        <argsstring>()</argsstring>
+        <name>~optical_flow</name>
+        <briefdescription>
+<para>Default destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="84" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="80" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1af520a5f2112d2195d6d4235111959669" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>optical_flow::optical_flow</definition>
+        <argsstring>(const optical_flow &amp;x)</argsstring>
+        <name>optical_flow</name>
+        <param>
+          <type>const <ref refid="classoptical__flow" kindref="compound">optical_flow</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classoptical__flow" kindref="compound">optical_flow</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="90" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="101" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a7e01a1d613409c5727c824b995933ebe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>optical_flow::optical_flow</definition>
+        <argsstring>(optical_flow &amp;&amp;x)</argsstring>
+        <name>optical_flow</name>
+        <param>
+          <type><ref refid="classoptical__flow" kindref="compound">optical_flow</ref> &amp;&amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Move constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classoptical__flow" kindref="compound">optical_flow</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="97" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="123" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a22bd0d55833f2f6cbc14f2c183def7bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport <ref refid="classoptical__flow" kindref="compound">optical_flow</ref> &amp;</type>
+        <definition>optical_flow &amp; optical_flow::operator=</definition>
+        <argsstring>(const optical_flow &amp;x)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classoptical__flow" kindref="compound">optical_flow</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Copy assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classoptical__flow" kindref="compound">optical_flow</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="104" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="145" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1af285350552714a1aa7d65b344ce38228" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport <ref refid="classoptical__flow" kindref="compound">optical_flow</ref> &amp;</type>
+        <definition>optical_flow &amp; optical_flow::operator=</definition>
+        <argsstring>(optical_flow &amp;&amp;x)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classoptical__flow" kindref="compound">optical_flow</ref> &amp;&amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Move assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classoptical__flow" kindref="compound">optical_flow</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="111" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="170" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a214457add1859818cc5ea27083170da9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void optical_flow::timestamp_</definition>
+        <argsstring>(uint64_t _timestamp_)</argsstring>
+        <name>timestamp_</name>
+        <param>
+          <type>uint64_t</type>
+          <declname>_timestamp_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;timestamp&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member timestamp_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="118" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="370" bodyend="374"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1ae244caa05264d0fbd442e6a815288a01" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint64_t</type>
+        <definition>uint64_t optical_flow::timestamp_</definition>
+        <argsstring>() const</argsstring>
+        <name>timestamp_</name>
+        <briefdescription>
+<para>This function returns the value of member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member timestamp_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="125" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="380" bodyend="383"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1ac0bd54ed01c8487f7005551b8ed92cc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint64_t &amp;</type>
+        <definition>uint64_t &amp; optical_flow::timestamp_</definition>
+        <argsstring>()</argsstring>
+        <name>timestamp_</name>
+        <briefdescription>
+<para>This function returns a reference to member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member timestamp_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="131" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="389" bodyend="392"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a2d1e5bc13fada21c4251c6fffaceee80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void optical_flow::sensor_id_</definition>
+        <argsstring>(uint8_t _sensor_id_)</argsstring>
+        <name>sensor_id_</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>_sensor_id_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member sensor_id_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;sensor_id&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member sensor_id_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="137" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="398" bodyend="402"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a1c7218cca2742a6ceec08ea1bf948424" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint8_t</type>
+        <definition>uint8_t optical_flow::sensor_id_</definition>
+        <argsstring>() const</argsstring>
+        <name>sensor_id_</name>
+        <briefdescription>
+<para>This function returns the value of member sensor_id_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member sensor_id_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="144" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="408" bodyend="411"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1ad233900cfabf44022d61cbcaa374640b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint8_t &amp;</type>
+        <definition>uint8_t &amp; optical_flow::sensor_id_</definition>
+        <argsstring>()</argsstring>
+        <name>sensor_id_</name>
+        <briefdescription>
+<para>This function returns a reference to member sensor_id_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member sensor_id_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="150" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="417" bodyend="420"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a3fff239e0ffa60a63f6dde1dba2f1627" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void optical_flow::pixel_flow_x_integral_</definition>
+        <argsstring>(float _pixel_flow_x_integral_)</argsstring>
+        <name>pixel_flow_x_integral_</name>
+        <param>
+          <type>float</type>
+          <declname>_pixel_flow_x_integral_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member pixel_flow_x_integral_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;pixel_flow_x_integral&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member pixel_flow_x_integral_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="156" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="426" bodyend="430"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a0044feecae8cfb25c612d148c59bc23c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float optical_flow::pixel_flow_x_integral_</definition>
+        <argsstring>() const</argsstring>
+        <name>pixel_flow_x_integral_</name>
+        <briefdescription>
+<para>This function returns the value of member pixel_flow_x_integral_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member pixel_flow_x_integral_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="163" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="436" bodyend="439"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1afd1648cefbeda53b1d83cc473663754f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; optical_flow::pixel_flow_x_integral_</definition>
+        <argsstring>()</argsstring>
+        <name>pixel_flow_x_integral_</name>
+        <briefdescription>
+<para>This function returns a reference to member pixel_flow_x_integral_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member pixel_flow_x_integral_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="169" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="445" bodyend="448"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1ae050b82f8c2bcc60c8b63e197b525c04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void optical_flow::pixel_flow_y_integral_</definition>
+        <argsstring>(float _pixel_flow_y_integral_)</argsstring>
+        <name>pixel_flow_y_integral_</name>
+        <param>
+          <type>float</type>
+          <declname>_pixel_flow_y_integral_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member pixel_flow_y_integral_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;pixel_flow_y_integral&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member pixel_flow_y_integral_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="175" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="454" bodyend="458"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a61a7b11c9378a250a8327e01f68e36d7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float optical_flow::pixel_flow_y_integral_</definition>
+        <argsstring>() const</argsstring>
+        <name>pixel_flow_y_integral_</name>
+        <briefdescription>
+<para>This function returns the value of member pixel_flow_y_integral_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member pixel_flow_y_integral_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="182" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="464" bodyend="467"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a6840d3ea2d7754992719a2483afae3b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; optical_flow::pixel_flow_y_integral_</definition>
+        <argsstring>()</argsstring>
+        <name>pixel_flow_y_integral_</name>
+        <briefdescription>
+<para>This function returns a reference to member pixel_flow_y_integral_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member pixel_flow_y_integral_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="188" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="473" bodyend="476"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1aebeaa5fc2ffb0a07e09af7c5c2aeac26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void optical_flow::gyro_x_rate_integral_</definition>
+        <argsstring>(float _gyro_x_rate_integral_)</argsstring>
+        <name>gyro_x_rate_integral_</name>
+        <param>
+          <type>float</type>
+          <declname>_gyro_x_rate_integral_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member gyro_x_rate_integral_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;gyro_x_rate_integral&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member gyro_x_rate_integral_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="194" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="482" bodyend="486"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a5d5d539bc1acebac9fa83eda817598a3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float optical_flow::gyro_x_rate_integral_</definition>
+        <argsstring>() const</argsstring>
+        <name>gyro_x_rate_integral_</name>
+        <briefdescription>
+<para>This function returns the value of member gyro_x_rate_integral_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member gyro_x_rate_integral_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="201" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="492" bodyend="495"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a85631f1a1d1fc6d0a1b6bfb3d78e9047" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; optical_flow::gyro_x_rate_integral_</definition>
+        <argsstring>()</argsstring>
+        <name>gyro_x_rate_integral_</name>
+        <briefdescription>
+<para>This function returns a reference to member gyro_x_rate_integral_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member gyro_x_rate_integral_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="207" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="501" bodyend="504"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a1838feb8b52e2c7960ee09b25fb8f4e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void optical_flow::gyro_y_rate_integral_</definition>
+        <argsstring>(float _gyro_y_rate_integral_)</argsstring>
+        <name>gyro_y_rate_integral_</name>
+        <param>
+          <type>float</type>
+          <declname>_gyro_y_rate_integral_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member gyro_y_rate_integral_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;gyro_y_rate_integral&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member gyro_y_rate_integral_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="213" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="510" bodyend="514"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a8009b63a02ba11bbd23e413b69516263" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float optical_flow::gyro_y_rate_integral_</definition>
+        <argsstring>() const</argsstring>
+        <name>gyro_y_rate_integral_</name>
+        <briefdescription>
+<para>This function returns the value of member gyro_y_rate_integral_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member gyro_y_rate_integral_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="220" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="520" bodyend="523"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1ac2cf82eb17956e6de1752ccbfda790cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; optical_flow::gyro_y_rate_integral_</definition>
+        <argsstring>()</argsstring>
+        <name>gyro_y_rate_integral_</name>
+        <briefdescription>
+<para>This function returns a reference to member gyro_y_rate_integral_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member gyro_y_rate_integral_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="226" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="529" bodyend="532"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a6648dae460cc515694464e9154d40d07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void optical_flow::gyro_z_rate_integral_</definition>
+        <argsstring>(float _gyro_z_rate_integral_)</argsstring>
+        <name>gyro_z_rate_integral_</name>
+        <param>
+          <type>float</type>
+          <declname>_gyro_z_rate_integral_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member gyro_z_rate_integral_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;gyro_z_rate_integral&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member gyro_z_rate_integral_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="232" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="538" bodyend="542"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a726bf279c476bfb37cd6d59db955d34f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float optical_flow::gyro_z_rate_integral_</definition>
+        <argsstring>() const</argsstring>
+        <name>gyro_z_rate_integral_</name>
+        <briefdescription>
+<para>This function returns the value of member gyro_z_rate_integral_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member gyro_z_rate_integral_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="239" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="548" bodyend="551"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a2f9eae9687266297dc6bee004db2649d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; optical_flow::gyro_z_rate_integral_</definition>
+        <argsstring>()</argsstring>
+        <name>gyro_z_rate_integral_</name>
+        <briefdescription>
+<para>This function returns a reference to member gyro_z_rate_integral_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member gyro_z_rate_integral_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="245" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="557" bodyend="560"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1aa31f01b61ef42d1c5bcf700d68cd5c04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void optical_flow::ground_distance_m_</definition>
+        <argsstring>(float _ground_distance_m_)</argsstring>
+        <name>ground_distance_m_</name>
+        <param>
+          <type>float</type>
+          <declname>_ground_distance_m_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member ground_distance_m_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;ground_distance_m&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member ground_distance_m_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="251" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="566" bodyend="570"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a64afc94ff5472a5d25365ae9e3c58f21" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float optical_flow::ground_distance_m_</definition>
+        <argsstring>() const</argsstring>
+        <name>ground_distance_m_</name>
+        <briefdescription>
+<para>This function returns the value of member ground_distance_m_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member ground_distance_m_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="258" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="576" bodyend="579"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a25c879018bc50f8a86def93b9f393706" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; optical_flow::ground_distance_m_</definition>
+        <argsstring>()</argsstring>
+        <name>ground_distance_m_</name>
+        <briefdescription>
+<para>This function returns a reference to member ground_distance_m_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member ground_distance_m_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="264" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="585" bodyend="588"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1ab114ba3a2c33890115e2b0da8598887b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void optical_flow::integration_timespan_</definition>
+        <argsstring>(uint32_t _integration_timespan_)</argsstring>
+        <name>integration_timespan_</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>_integration_timespan_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member integration_timespan_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;integration_timespan&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member integration_timespan_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="270" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="594" bodyend="598"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1aca59dc717781bbf51835ef583bd45d6b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint32_t</type>
+        <definition>uint32_t optical_flow::integration_timespan_</definition>
+        <argsstring>() const</argsstring>
+        <name>integration_timespan_</name>
+        <briefdescription>
+<para>This function returns the value of member integration_timespan_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member integration_timespan_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="277" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="604" bodyend="607"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a73c84a612810d315c5fb54706da83ae1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint32_t &amp;</type>
+        <definition>uint32_t &amp; optical_flow::integration_timespan_</definition>
+        <argsstring>()</argsstring>
+        <name>integration_timespan_</name>
+        <briefdescription>
+<para>This function returns a reference to member integration_timespan_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member integration_timespan_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="283" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="613" bodyend="616"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1aa800f779d52e2d9bac570b147c642200" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void optical_flow::time_since_last_sonar_update_</definition>
+        <argsstring>(uint32_t _time_since_last_sonar_update_)</argsstring>
+        <name>time_since_last_sonar_update_</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>_time_since_last_sonar_update_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member time_since_last_sonar_update_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;time_since_last_sonar_update&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member time_since_last_sonar_update_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="289" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="622" bodyend="626"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a2a2c1d75b642cd7cad5bb55d96461cec" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint32_t</type>
+        <definition>uint32_t optical_flow::time_since_last_sonar_update_</definition>
+        <argsstring>() const</argsstring>
+        <name>time_since_last_sonar_update_</name>
+        <briefdescription>
+<para>This function returns the value of member time_since_last_sonar_update_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member time_since_last_sonar_update_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="296" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="632" bodyend="635"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a2ec069bc453719d38cc1acb76ad01e1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint32_t &amp;</type>
+        <definition>uint32_t &amp; optical_flow::time_since_last_sonar_update_</definition>
+        <argsstring>()</argsstring>
+        <name>time_since_last_sonar_update_</name>
+        <briefdescription>
+<para>This function returns a reference to member time_since_last_sonar_update_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member time_since_last_sonar_update_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="302" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="641" bodyend="644"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a234e78198f72dafdef8b8d1d9adec152" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void optical_flow::frame_count_since_last_readout_</definition>
+        <argsstring>(uint16_t _frame_count_since_last_readout_)</argsstring>
+        <name>frame_count_since_last_readout_</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>_frame_count_since_last_readout_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member frame_count_since_last_readout_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;frame_count_since_last_readout&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member frame_count_since_last_readout_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="308" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="650" bodyend="654"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1abed960872726d7572d05c6fa93a9ccdc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint16_t</type>
+        <definition>uint16_t optical_flow::frame_count_since_last_readout_</definition>
+        <argsstring>() const</argsstring>
+        <name>frame_count_since_last_readout_</name>
+        <briefdescription>
+<para>This function returns the value of member frame_count_since_last_readout_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member frame_count_since_last_readout_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="315" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="660" bodyend="663"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1ab9ed42ee0d5c5e9822ec605c8bb21861" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint16_t &amp;</type>
+        <definition>uint16_t &amp; optical_flow::frame_count_since_last_readout_</definition>
+        <argsstring>()</argsstring>
+        <name>frame_count_since_last_readout_</name>
+        <briefdescription>
+<para>This function returns a reference to member frame_count_since_last_readout_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member frame_count_since_last_readout_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="321" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="669" bodyend="672"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1abc659442ddee302371aae926e9a92d96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void optical_flow::gyro_temperature_</definition>
+        <argsstring>(int16_t _gyro_temperature_)</argsstring>
+        <name>gyro_temperature_</name>
+        <param>
+          <type>int16_t</type>
+          <declname>_gyro_temperature_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member gyro_temperature_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;gyro_temperature&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member gyro_temperature_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="327" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="678" bodyend="682"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a38d6ade4963d3fe50c83d26cd18e481c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport int16_t</type>
+        <definition>int16_t optical_flow::gyro_temperature_</definition>
+        <argsstring>() const</argsstring>
+        <name>gyro_temperature_</name>
+        <briefdescription>
+<para>This function returns the value of member gyro_temperature_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member gyro_temperature_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="334" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="688" bodyend="691"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1af83b4e7cdc6ba6721922a845110e2eba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport int16_t &amp;</type>
+        <definition>int16_t &amp; optical_flow::gyro_temperature_</definition>
+        <argsstring>()</argsstring>
+        <name>gyro_temperature_</name>
+        <briefdescription>
+<para>This function returns a reference to member gyro_temperature_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member gyro_temperature_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="340" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="697" bodyend="700"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a0a924bd4172c2cd7b26f6063710b07e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void optical_flow::quality_</definition>
+        <argsstring>(uint8_t _quality_)</argsstring>
+        <name>quality_</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>_quality_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member quality_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;quality&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member quality_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="346" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="706" bodyend="710"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1ad44815ede2d2e1df9524e699410c4080" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint8_t</type>
+        <definition>uint8_t optical_flow::quality_</definition>
+        <argsstring>() const</argsstring>
+        <name>quality_</name>
+        <briefdescription>
+<para>This function returns the value of member quality_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member quality_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="353" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="716" bodyend="719"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a513678b5299b73b877e35b1dbf445140" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint8_t &amp;</type>
+        <definition>uint8_t &amp; optical_flow::quality_</definition>
+        <argsstring>()</argsstring>
+        <name>quality_</name>
+        <briefdescription>
+<para>This function returns a reference to member quality_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member quality_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="359" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="725" bodyend="728"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a96745f28f5a46fe9f6928dc014e6a856" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void optical_flow::max_flow_rate_</definition>
+        <argsstring>(float _max_flow_rate_)</argsstring>
+        <name>max_flow_rate_</name>
+        <param>
+          <type>float</type>
+          <declname>_max_flow_rate_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member max_flow_rate_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;max_flow_rate&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member max_flow_rate_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="365" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="734" bodyend="738"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a7a452279d71d0d0269ed31350d3d0b7f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float optical_flow::max_flow_rate_</definition>
+        <argsstring>() const</argsstring>
+        <name>max_flow_rate_</name>
+        <briefdescription>
+<para>This function returns the value of member max_flow_rate_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member max_flow_rate_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="372" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="744" bodyend="747"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a042f6c883661f363af9ca560ae53569e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; optical_flow::max_flow_rate_</definition>
+        <argsstring>()</argsstring>
+        <name>max_flow_rate_</name>
+        <briefdescription>
+<para>This function returns a reference to member max_flow_rate_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member max_flow_rate_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="378" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="753" bodyend="756"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1ac7976b03fb2c7f123529e0740521e057" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void optical_flow::min_ground_distance_</definition>
+        <argsstring>(float _min_ground_distance_)</argsstring>
+        <name>min_ground_distance_</name>
+        <param>
+          <type>float</type>
+          <declname>_min_ground_distance_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member min_ground_distance_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;min_ground_distance&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member min_ground_distance_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="384" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="762" bodyend="766"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a7ef70239014e799fe09dffb654179f8f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float optical_flow::min_ground_distance_</definition>
+        <argsstring>() const</argsstring>
+        <name>min_ground_distance_</name>
+        <briefdescription>
+<para>This function returns the value of member min_ground_distance_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member min_ground_distance_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="391" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="772" bodyend="775"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a80059d7912d20dc741961b63cfe70a7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; optical_flow::min_ground_distance_</definition>
+        <argsstring>()</argsstring>
+        <name>min_ground_distance_</name>
+        <briefdescription>
+<para>This function returns a reference to member min_ground_distance_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member min_ground_distance_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="397" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="781" bodyend="784"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a0f2dffb7061141d88a6510867d82f277" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void optical_flow::max_ground_distance_</definition>
+        <argsstring>(float _max_ground_distance_)</argsstring>
+        <name>max_ground_distance_</name>
+        <param>
+          <type>float</type>
+          <declname>_max_ground_distance_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member max_ground_distance_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;max_ground_distance&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member max_ground_distance_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="403" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="790" bodyend="794"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1acda0fa98a183177b2bd03fda0d8602ef" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float optical_flow::max_ground_distance_</definition>
+        <argsstring>() const</argsstring>
+        <name>max_ground_distance_</name>
+        <briefdescription>
+<para>This function returns the value of member max_ground_distance_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member max_ground_distance_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="410" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="800" bodyend="803"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1aca0b71a05989ddd04b65cce88054a2e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; optical_flow::max_ground_distance_</definition>
+        <argsstring>()</argsstring>
+        <name>max_ground_distance_</name>
+        <briefdescription>
+<para>This function returns a reference to member max_ground_distance_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member max_ground_distance_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="416" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="809" bodyend="812"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a2c73a5d1291c80c6c54a8dfc007a297d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void optical_flow::mode_</definition>
+        <argsstring>(uint8_t _mode_)</argsstring>
+        <name>mode_</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>_mode_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member mode_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;mode&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member mode_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="422" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="818" bodyend="822"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a15d1fe97a7654a04710cf2376ddd9ed1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint8_t</type>
+        <definition>uint8_t optical_flow::mode_</definition>
+        <argsstring>() const</argsstring>
+        <name>mode_</name>
+        <briefdescription>
+<para>This function returns the value of member mode_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member mode_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="429" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="828" bodyend="831"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1af6a851f72587b686cd1a9061f9019c32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint8_t &amp;</type>
+        <definition>uint8_t &amp; optical_flow::mode_</definition>
+        <argsstring>()</argsstring>
+        <name>mode_</name>
+        <briefdescription>
+<para>This function returns a reference to member mode_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member mode_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="435" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="837" bodyend="840"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1ab99da5dcf4c65ce1ff415d8d26f122cf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void optical_flow::serialize</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr) const</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function serializes an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="462" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="319" bodyend="341"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a0b756296187966f4911ab1a3446cde73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void optical_flow::deserialize</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr)</argsstring>
+        <name>deserialize</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function deserializes an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="469" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="343" bodyend="364"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1af586e499ac7d84ec91302dbee4fe7fa3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void optical_flow::serializeKey</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr) const</argsstring>
+        <name>serializeKey</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function serializes the key members of an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="492" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="875" bodyend="880"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classoptical__flow_1a2162d871b59e7287e9ce4a1dbc9e4bd7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t optical_flow::getMaxCdrSerializedSize</definition>
+        <argsstring>(size_t current_alignment=0)</argsstring>
+        <name>getMaxCdrSerializedSize</name>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the maximum serialized size of an object depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Maximum serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="444" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="195" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1af6be04115109c16d58bd807b06445b60" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t optical_flow::getCdrSerializedSize</definition>
+        <argsstring>(const optical_flow &amp;data, size_t current_alignment=0)</argsstring>
+        <name>getCdrSerializedSize</name>
+        <param>
+          <type>const <ref refid="classoptical__flow" kindref="compound">optical_flow</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the serialized size of a data depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data which is calculated its serialized size. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="453" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="256" bodyend="317"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a80f5763a4db1e9964c6e482c114c8f0f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t optical_flow::getKeyMaxCdrSerializedSize</definition>
+        <argsstring>(size_t current_alignment=0)</argsstring>
+        <name>getKeyMaxCdrSerializedSize</name>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the maximum serialized size of the Key of an object depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Maximum serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="480" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="843" bodyend="868"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_1a01584317b6b0af0591b377349fc34683" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool optical_flow::isKeyDefined</definition>
+        <argsstring>()</argsstring>
+        <name>isKeyDefined</name>
+        <briefdescription>
+<para>This function tells you if the Key has been defined for this type. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="486" column="41" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.cxx" bodystart="870" bodyend="873"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents the structure <ref refid="classoptical__flow" kindref="compound">optical_flow</ref> defined by the user in the IDL file. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" line="72" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flow.h" bodystart="73" bodyend="514"/>
+    <listofallmembers>
+      <member refid="classoptical__flow_1a0b756296187966f4911ab1a3446cde73" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>deserialize</name></member>
+      <member refid="classoptical__flow_1a234e78198f72dafdef8b8d1d9adec152" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>frame_count_since_last_readout_</name></member>
+      <member refid="classoptical__flow_1abed960872726d7572d05c6fa93a9ccdc" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>frame_count_since_last_readout_</name></member>
+      <member refid="classoptical__flow_1ab9ed42ee0d5c5e9822ec605c8bb21861" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>frame_count_since_last_readout_</name></member>
+      <member refid="classoptical__flow_1af6be04115109c16d58bd807b06445b60" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>getCdrSerializedSize</name></member>
+      <member refid="classoptical__flow_1a80f5763a4db1e9964c6e482c114c8f0f" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>getKeyMaxCdrSerializedSize</name></member>
+      <member refid="classoptical__flow_1a2162d871b59e7287e9ce4a1dbc9e4bd7" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>getMaxCdrSerializedSize</name></member>
+      <member refid="classoptical__flow_1aa31f01b61ef42d1c5bcf700d68cd5c04" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>ground_distance_m_</name></member>
+      <member refid="classoptical__flow_1a64afc94ff5472a5d25365ae9e3c58f21" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>ground_distance_m_</name></member>
+      <member refid="classoptical__flow_1a25c879018bc50f8a86def93b9f393706" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>ground_distance_m_</name></member>
+      <member refid="classoptical__flow_1abc659442ddee302371aae926e9a92d96" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>gyro_temperature_</name></member>
+      <member refid="classoptical__flow_1a38d6ade4963d3fe50c83d26cd18e481c" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>gyro_temperature_</name></member>
+      <member refid="classoptical__flow_1af83b4e7cdc6ba6721922a845110e2eba" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>gyro_temperature_</name></member>
+      <member refid="classoptical__flow_1aebeaa5fc2ffb0a07e09af7c5c2aeac26" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>gyro_x_rate_integral_</name></member>
+      <member refid="classoptical__flow_1a5d5d539bc1acebac9fa83eda817598a3" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>gyro_x_rate_integral_</name></member>
+      <member refid="classoptical__flow_1a85631f1a1d1fc6d0a1b6bfb3d78e9047" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>gyro_x_rate_integral_</name></member>
+      <member refid="classoptical__flow_1a1838feb8b52e2c7960ee09b25fb8f4e3" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>gyro_y_rate_integral_</name></member>
+      <member refid="classoptical__flow_1a8009b63a02ba11bbd23e413b69516263" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>gyro_y_rate_integral_</name></member>
+      <member refid="classoptical__flow_1ac2cf82eb17956e6de1752ccbfda790cd" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>gyro_y_rate_integral_</name></member>
+      <member refid="classoptical__flow_1a6648dae460cc515694464e9154d40d07" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>gyro_z_rate_integral_</name></member>
+      <member refid="classoptical__flow_1a726bf279c476bfb37cd6d59db955d34f" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>gyro_z_rate_integral_</name></member>
+      <member refid="classoptical__flow_1a2f9eae9687266297dc6bee004db2649d" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>gyro_z_rate_integral_</name></member>
+      <member refid="classoptical__flow_1ab114ba3a2c33890115e2b0da8598887b" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>integration_timespan_</name></member>
+      <member refid="classoptical__flow_1aca59dc717781bbf51835ef583bd45d6b" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>integration_timespan_</name></member>
+      <member refid="classoptical__flow_1a73c84a612810d315c5fb54706da83ae1" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>integration_timespan_</name></member>
+      <member refid="classoptical__flow_1a01584317b6b0af0591b377349fc34683" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>isKeyDefined</name></member>
+      <member refid="classoptical__flow_1a924c8e42b2a3ac9806fb199ece28787f" prot="private" virt="non-virtual"><scope>optical_flow</scope><name>m_frame_count_since_last_readout_</name></member>
+      <member refid="classoptical__flow_1a2a5f577303a873f8c96902615a0899dd" prot="private" virt="non-virtual"><scope>optical_flow</scope><name>m_ground_distance_m_</name></member>
+      <member refid="classoptical__flow_1a694db24801089f310a4ca131faee057a" prot="private" virt="non-virtual"><scope>optical_flow</scope><name>m_gyro_temperature_</name></member>
+      <member refid="classoptical__flow_1ad669bc7b6b484b0ab682a0c728b21428" prot="private" virt="non-virtual"><scope>optical_flow</scope><name>m_gyro_x_rate_integral_</name></member>
+      <member refid="classoptical__flow_1af4c7f4cf15b82c2d9df259ae50c8463d" prot="private" virt="non-virtual"><scope>optical_flow</scope><name>m_gyro_y_rate_integral_</name></member>
+      <member refid="classoptical__flow_1a18b4083769a6cbf7355bf15a731bd7b6" prot="private" virt="non-virtual"><scope>optical_flow</scope><name>m_gyro_z_rate_integral_</name></member>
+      <member refid="classoptical__flow_1ac245c63fa23cf5b7c283e02392e6d9de" prot="private" virt="non-virtual"><scope>optical_flow</scope><name>m_integration_timespan_</name></member>
+      <member refid="classoptical__flow_1ab66f81150b1858ff59f4360052efa4f9" prot="private" virt="non-virtual"><scope>optical_flow</scope><name>m_max_flow_rate_</name></member>
+      <member refid="classoptical__flow_1a6261323965df080bb9f8e2fd1f6ff2b1" prot="private" virt="non-virtual"><scope>optical_flow</scope><name>m_max_ground_distance_</name></member>
+      <member refid="classoptical__flow_1a6ca9583203fe921133ae9baef0043bd4" prot="private" virt="non-virtual"><scope>optical_flow</scope><name>m_min_ground_distance_</name></member>
+      <member refid="classoptical__flow_1a0eeec44f00b796e45c7ec4daa9d0350a" prot="private" virt="non-virtual"><scope>optical_flow</scope><name>m_mode_</name></member>
+      <member refid="classoptical__flow_1a7e4dea0deb58402d507c57c9701adba6" prot="private" virt="non-virtual"><scope>optical_flow</scope><name>m_pixel_flow_x_integral_</name></member>
+      <member refid="classoptical__flow_1a611358da425747ca251f21c04901f341" prot="private" virt="non-virtual"><scope>optical_flow</scope><name>m_pixel_flow_y_integral_</name></member>
+      <member refid="classoptical__flow_1a5f0ce493ee7ddcc66b150bd325aa89cf" prot="private" virt="non-virtual"><scope>optical_flow</scope><name>m_quality_</name></member>
+      <member refid="classoptical__flow_1ace07ea98ceaeb3a808fae5b274f7185b" prot="private" virt="non-virtual"><scope>optical_flow</scope><name>m_sensor_id_</name></member>
+      <member refid="classoptical__flow_1a577835543643374a6e2098b2e7d47669" prot="private" virt="non-virtual"><scope>optical_flow</scope><name>m_time_since_last_sonar_update_</name></member>
+      <member refid="classoptical__flow_1adc06dd30c6bc882381c9be09c7d1ebb5" prot="private" virt="non-virtual"><scope>optical_flow</scope><name>m_timestamp_</name></member>
+      <member refid="classoptical__flow_1a96745f28f5a46fe9f6928dc014e6a856" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>max_flow_rate_</name></member>
+      <member refid="classoptical__flow_1a7a452279d71d0d0269ed31350d3d0b7f" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>max_flow_rate_</name></member>
+      <member refid="classoptical__flow_1a042f6c883661f363af9ca560ae53569e" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>max_flow_rate_</name></member>
+      <member refid="classoptical__flow_1a0f2dffb7061141d88a6510867d82f277" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>max_ground_distance_</name></member>
+      <member refid="classoptical__flow_1acda0fa98a183177b2bd03fda0d8602ef" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>max_ground_distance_</name></member>
+      <member refid="classoptical__flow_1aca0b71a05989ddd04b65cce88054a2e6" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>max_ground_distance_</name></member>
+      <member refid="classoptical__flow_1ac7976b03fb2c7f123529e0740521e057" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>min_ground_distance_</name></member>
+      <member refid="classoptical__flow_1a7ef70239014e799fe09dffb654179f8f" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>min_ground_distance_</name></member>
+      <member refid="classoptical__flow_1a80059d7912d20dc741961b63cfe70a7d" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>min_ground_distance_</name></member>
+      <member refid="classoptical__flow_1a2c73a5d1291c80c6c54a8dfc007a297d" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>mode_</name></member>
+      <member refid="classoptical__flow_1a15d1fe97a7654a04710cf2376ddd9ed1" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>mode_</name></member>
+      <member refid="classoptical__flow_1af6a851f72587b686cd1a9061f9019c32" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>mode_</name></member>
+      <member refid="classoptical__flow_1a22bd0d55833f2f6cbc14f2c183def7bb" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>operator=</name></member>
+      <member refid="classoptical__flow_1af285350552714a1aa7d65b344ce38228" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>operator=</name></member>
+      <member refid="classoptical__flow_1af53f2bc1323b0e38fe9d0f3be47572f8" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>optical_flow</name></member>
+      <member refid="classoptical__flow_1af520a5f2112d2195d6d4235111959669" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>optical_flow</name></member>
+      <member refid="classoptical__flow_1a7e01a1d613409c5727c824b995933ebe" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>optical_flow</name></member>
+      <member refid="classoptical__flow_1a3fff239e0ffa60a63f6dde1dba2f1627" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>pixel_flow_x_integral_</name></member>
+      <member refid="classoptical__flow_1a0044feecae8cfb25c612d148c59bc23c" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>pixel_flow_x_integral_</name></member>
+      <member refid="classoptical__flow_1afd1648cefbeda53b1d83cc473663754f" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>pixel_flow_x_integral_</name></member>
+      <member refid="classoptical__flow_1ae050b82f8c2bcc60c8b63e197b525c04" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>pixel_flow_y_integral_</name></member>
+      <member refid="classoptical__flow_1a61a7b11c9378a250a8327e01f68e36d7" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>pixel_flow_y_integral_</name></member>
+      <member refid="classoptical__flow_1a6840d3ea2d7754992719a2483afae3b1" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>pixel_flow_y_integral_</name></member>
+      <member refid="classoptical__flow_1a0a924bd4172c2cd7b26f6063710b07e2" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>quality_</name></member>
+      <member refid="classoptical__flow_1ad44815ede2d2e1df9524e699410c4080" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>quality_</name></member>
+      <member refid="classoptical__flow_1a513678b5299b73b877e35b1dbf445140" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>quality_</name></member>
+      <member refid="classoptical__flow_1a2d1e5bc13fada21c4251c6fffaceee80" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>sensor_id_</name></member>
+      <member refid="classoptical__flow_1a1c7218cca2742a6ceec08ea1bf948424" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>sensor_id_</name></member>
+      <member refid="classoptical__flow_1ad233900cfabf44022d61cbcaa374640b" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>sensor_id_</name></member>
+      <member refid="classoptical__flow_1ab99da5dcf4c65ce1ff415d8d26f122cf" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>serialize</name></member>
+      <member refid="classoptical__flow_1af586e499ac7d84ec91302dbee4fe7fa3" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>serializeKey</name></member>
+      <member refid="classoptical__flow_1aa800f779d52e2d9bac570b147c642200" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>time_since_last_sonar_update_</name></member>
+      <member refid="classoptical__flow_1a2a2c1d75b642cd7cad5bb55d96461cec" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>time_since_last_sonar_update_</name></member>
+      <member refid="classoptical__flow_1a2ec069bc453719d38cc1acb76ad01e1f" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>time_since_last_sonar_update_</name></member>
+      <member refid="classoptical__flow_1a214457add1859818cc5ea27083170da9" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>timestamp_</name></member>
+      <member refid="classoptical__flow_1ae244caa05264d0fbd442e6a815288a01" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>timestamp_</name></member>
+      <member refid="classoptical__flow_1ac0bd54ed01c8487f7005551b8ed92cc4" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>timestamp_</name></member>
+      <member refid="classoptical__flow_1a1485d2382ae054763edae8d751effcda" prot="public" virt="non-virtual"><scope>optical_flow</scope><name>~optical_flow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

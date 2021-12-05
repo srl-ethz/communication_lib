@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_78b9222bee2db78736a0eeb719021cfb" kind="dir">
+    <compoundname>/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/default_publisher</compoundname>
+    <innerfile refid="default__publisher_8cpp">default_publisher.cpp</innerfile>
+    <innerfile refid="default__publisher_8h">default_publisher.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/default_publisher/"/>
+  </compounddef>
+</doxygen>

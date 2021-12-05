@@ -1,0 +1,160 @@
+\hypertarget{position__setpoint__triplet_8h_source}{}\doxysection{position\+\_\+setpoint\+\_\+triplet.\+h}
+\label{position__setpoint__triplet_8h_source}\index{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/px4\_msg\_definitions/position\_setpoint\_triplet.h@{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/px4\_msg\_definitions/position\_setpoint\_triplet.h}}
+\mbox{\hyperlink{position__setpoint__triplet_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{// Copyright 2016 Proyectos y Sistemas de Mantenimiento SL (eProsima).}}
+\DoxyCodeLine{2 \textcolor{comment}{//}}
+\DoxyCodeLine{3 \textcolor{comment}{// Licensed under the Apache License, Version 2.0 (the "{}License"{});}}
+\DoxyCodeLine{4 \textcolor{comment}{// you may not use this file except in compliance with the License.}}
+\DoxyCodeLine{5 \textcolor{comment}{// You may obtain a copy of the License at}}
+\DoxyCodeLine{6 \textcolor{comment}{//}}
+\DoxyCodeLine{7 \textcolor{comment}{//     http://www.apache.org/licenses/LICENSE-\/2.0}}
+\DoxyCodeLine{8 \textcolor{comment}{//}}
+\DoxyCodeLine{9 \textcolor{comment}{// Unless required by applicable law or agreed to in writing, software}}
+\DoxyCodeLine{10 \textcolor{comment}{// distributed under the License is distributed on an "{}AS IS"{} BASIS,}}
+\DoxyCodeLine{11 \textcolor{comment}{// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.}}
+\DoxyCodeLine{12 \textcolor{comment}{// See the License for the specific language governing permissions and}}
+\DoxyCodeLine{13 \textcolor{comment}{// limitations under the License.}}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{22 \textcolor{preprocessor}{\#ifndef \_POSITION\_SETPOINT\_TRIPLET\_H\_}}
+\DoxyCodeLine{23 \textcolor{preprocessor}{\#define \_POSITION\_SETPOINT\_TRIPLET\_H\_}}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{position__setpoint_8h}{position\_setpoint.h}}"{}}}
+\DoxyCodeLine{26 }
+\DoxyCodeLine{27 \textcolor{preprocessor}{\#include <stdint.h>}}
+\DoxyCodeLine{28 \textcolor{preprocessor}{\#include <array>}}
+\DoxyCodeLine{29 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{30 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{31 \textcolor{preprocessor}{\#include <map>}}
+\DoxyCodeLine{32 \textcolor{preprocessor}{\#include <bitset>}}
+\DoxyCodeLine{33 }
+\DoxyCodeLine{34 \textcolor{preprocessor}{\#if defined(\_WIN32)}}
+\DoxyCodeLine{35 \textcolor{preprocessor}{\#if defined(EPROSIMA\_USER\_DLL\_EXPORT)}}
+\DoxyCodeLine{36 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport \_\_declspec( dllexport )}}
+\DoxyCodeLine{37 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{38 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport}}
+\DoxyCodeLine{39 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// EPROSIMA\_USER\_DLL\_EXPORT}}
+\DoxyCodeLine{40 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{41 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport}}
+\DoxyCodeLine{42 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// \_WIN32}}
+\DoxyCodeLine{43 }
+\DoxyCodeLine{44 \textcolor{preprocessor}{\#if defined(\_WIN32)}}
+\DoxyCodeLine{45 \textcolor{preprocessor}{\#if defined(EPROSIMA\_USER\_DLL\_EXPORT)}}
+\DoxyCodeLine{46 \textcolor{preprocessor}{\#if defined(position\_setpoint\_triplet\_SOURCE)}}
+\DoxyCodeLine{47 \textcolor{preprocessor}{\#define position\_setpoint\_triplet\_DllAPI \_\_declspec( dllexport )}}
+\DoxyCodeLine{48 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{49 \textcolor{preprocessor}{\#define position\_setpoint\_triplet\_DllAPI \_\_declspec( dllimport )}}
+\DoxyCodeLine{50 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// position\_setpoint\_triplet\_SOURCE}}
+\DoxyCodeLine{51 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{52 \textcolor{preprocessor}{\#define position\_setpoint\_triplet\_DllAPI}}
+\DoxyCodeLine{53 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// EPROSIMA\_USER\_DLL\_EXPORT}}
+\DoxyCodeLine{54 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{55 \textcolor{preprocessor}{\#define position\_setpoint\_triplet\_DllAPI}}
+\DoxyCodeLine{56 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_WIN32}}
+\DoxyCodeLine{57 }
+\DoxyCodeLine{58 \textcolor{keyword}{namespace }eprosima \{}
+\DoxyCodeLine{59 \textcolor{keyword}{namespace }fastcdr \{}
+\DoxyCodeLine{60 \textcolor{keyword}{class }Cdr;}
+\DoxyCodeLine{61 \} \textcolor{comment}{// namespace fastcdr}}
+\DoxyCodeLine{62 \} \textcolor{comment}{// namespace eprosima}}
+\DoxyCodeLine{63 }
+\DoxyCodeLine{64 }
+\DoxyCodeLine{65 }
+\DoxyCodeLine{66 }
+\DoxyCodeLine{67 }
+\DoxyCodeLine{68 }
+\DoxyCodeLine{69 }
+\DoxyCodeLine{70 }
+\DoxyCodeLine{71 }
+\DoxyCodeLine{72 }
+\DoxyCodeLine{73 }
+\DoxyCodeLine{78 \textcolor{keyword}{class }\mbox{\hyperlink{classposition__setpoint__triplet}{position\_setpoint\_triplet}}}
+\DoxyCodeLine{79 \{}
+\DoxyCodeLine{80 \textcolor{keyword}{public}:}
+\DoxyCodeLine{81 }
+\DoxyCodeLine{85     eProsima\_user\_DllExport \mbox{\hyperlink{classposition__setpoint__triplet_a4373c914e845e3b47bc9941c97b76f10}{position\_setpoint\_triplet}}();}
+\DoxyCodeLine{86 }
+\DoxyCodeLine{90     eProsima\_user\_DllExport \mbox{\hyperlink{classposition__setpoint__triplet_ab841128a3534065dc6386bd823ab0949}{\string~position\_setpoint\_triplet}}();}
+\DoxyCodeLine{91 }
+\DoxyCodeLine{96     eProsima\_user\_DllExport \mbox{\hyperlink{classposition__setpoint__triplet_a4373c914e845e3b47bc9941c97b76f10}{position\_setpoint\_triplet}}(}
+\DoxyCodeLine{97             \textcolor{keyword}{const} \mbox{\hyperlink{classposition__setpoint__triplet}{position\_setpoint\_triplet}}\& x);}
+\DoxyCodeLine{98 }
+\DoxyCodeLine{103     eProsima\_user\_DllExport \mbox{\hyperlink{classposition__setpoint__triplet_a4373c914e845e3b47bc9941c97b76f10}{position\_setpoint\_triplet}}(}
+\DoxyCodeLine{104             \mbox{\hyperlink{classposition__setpoint__triplet}{position\_setpoint\_triplet}}\&\& x);}
+\DoxyCodeLine{105 }
+\DoxyCodeLine{110     eProsima\_user\_DllExport \mbox{\hyperlink{classposition__setpoint__triplet}{position\_setpoint\_triplet}}\& \mbox{\hyperlink{classposition__setpoint__triplet_ab8b4799b69a3b0d3b190a07ce9d33a53}{operator =}}(}
+\DoxyCodeLine{111             \textcolor{keyword}{const} \mbox{\hyperlink{classposition__setpoint__triplet}{position\_setpoint\_triplet}}\& x);}
+\DoxyCodeLine{112 }
+\DoxyCodeLine{117     eProsima\_user\_DllExport \mbox{\hyperlink{classposition__setpoint__triplet}{position\_setpoint\_triplet}}\& \mbox{\hyperlink{classposition__setpoint__triplet_ab8b4799b69a3b0d3b190a07ce9d33a53}{operator =}}(}
+\DoxyCodeLine{118             \mbox{\hyperlink{classposition__setpoint__triplet}{position\_setpoint\_triplet}}\&\& x);}
+\DoxyCodeLine{119 }
+\DoxyCodeLine{124     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classposition__setpoint__triplet_a2d8ae768d215f4381d30a463b934f9f9}{timestamp\_}}(}
+\DoxyCodeLine{125             uint64\_t \_timestamp\_);}
+\DoxyCodeLine{126 }
+\DoxyCodeLine{131     eProsima\_user\_DllExport uint64\_t \mbox{\hyperlink{classposition__setpoint__triplet_a2d8ae768d215f4381d30a463b934f9f9}{timestamp\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{132 }
+\DoxyCodeLine{137     eProsima\_user\_DllExport uint64\_t\& \mbox{\hyperlink{classposition__setpoint__triplet_a2d8ae768d215f4381d30a463b934f9f9}{timestamp\_}}();}
+\DoxyCodeLine{138 }
+\DoxyCodeLine{143     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classposition__setpoint__triplet_a8339d9824eaf7ca8318b88ff962cffa6}{previous\_}}(}
+\DoxyCodeLine{144             \textcolor{keyword}{const} \mbox{\hyperlink{classposition__setpoint}{position\_setpoint}}\& \_previous\_);}
+\DoxyCodeLine{145 }
+\DoxyCodeLine{150     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classposition__setpoint__triplet_a8339d9824eaf7ca8318b88ff962cffa6}{previous\_}}(}
+\DoxyCodeLine{151             \mbox{\hyperlink{classposition__setpoint}{position\_setpoint}}\&\& \_previous\_);}
+\DoxyCodeLine{152 }
+\DoxyCodeLine{157     eProsima\_user\_DllExport \textcolor{keyword}{const} \mbox{\hyperlink{classposition__setpoint}{position\_setpoint}}\& \mbox{\hyperlink{classposition__setpoint__triplet_a8339d9824eaf7ca8318b88ff962cffa6}{previous\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{158 }
+\DoxyCodeLine{163     eProsima\_user\_DllExport \mbox{\hyperlink{classposition__setpoint}{position\_setpoint}}\& \mbox{\hyperlink{classposition__setpoint__triplet_a8339d9824eaf7ca8318b88ff962cffa6}{previous\_}}();}
+\DoxyCodeLine{168     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classposition__setpoint__triplet_a495ed88824ae201ba55fb191e6503ef6}{current\_}}(}
+\DoxyCodeLine{169             \textcolor{keyword}{const} \mbox{\hyperlink{classposition__setpoint}{position\_setpoint}}\& \_current\_);}
+\DoxyCodeLine{170 }
+\DoxyCodeLine{175     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classposition__setpoint__triplet_a495ed88824ae201ba55fb191e6503ef6}{current\_}}(}
+\DoxyCodeLine{176             \mbox{\hyperlink{classposition__setpoint}{position\_setpoint}}\&\& \_current\_);}
+\DoxyCodeLine{177 }
+\DoxyCodeLine{182     eProsima\_user\_DllExport \textcolor{keyword}{const} \mbox{\hyperlink{classposition__setpoint}{position\_setpoint}}\& \mbox{\hyperlink{classposition__setpoint__triplet_a495ed88824ae201ba55fb191e6503ef6}{current\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{183 }
+\DoxyCodeLine{188     eProsima\_user\_DllExport \mbox{\hyperlink{classposition__setpoint}{position\_setpoint}}\& \mbox{\hyperlink{classposition__setpoint__triplet_a495ed88824ae201ba55fb191e6503ef6}{current\_}}();}
+\DoxyCodeLine{193     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classposition__setpoint__triplet_a3dcddd7c2112b566f12a4b93932bc24f}{next\_}}(}
+\DoxyCodeLine{194             \textcolor{keyword}{const} \mbox{\hyperlink{classposition__setpoint}{position\_setpoint}}\& \_next\_);}
+\DoxyCodeLine{195 }
+\DoxyCodeLine{200     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classposition__setpoint__triplet_a3dcddd7c2112b566f12a4b93932bc24f}{next\_}}(}
+\DoxyCodeLine{201             \mbox{\hyperlink{classposition__setpoint}{position\_setpoint}}\&\& \_next\_);}
+\DoxyCodeLine{202 }
+\DoxyCodeLine{207     eProsima\_user\_DllExport \textcolor{keyword}{const} \mbox{\hyperlink{classposition__setpoint}{position\_setpoint}}\& \mbox{\hyperlink{classposition__setpoint__triplet_a3dcddd7c2112b566f12a4b93932bc24f}{next\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{208 }
+\DoxyCodeLine{213     eProsima\_user\_DllExport \mbox{\hyperlink{classposition__setpoint}{position\_setpoint}}\& \mbox{\hyperlink{classposition__setpoint__triplet_a3dcddd7c2112b566f12a4b93932bc24f}{next\_}}();}
+\DoxyCodeLine{214 }
+\DoxyCodeLine{221     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classposition__setpoint__triplet_a98577ed4c66d8ce704fb5d5670e4b669}{getMaxCdrSerializedSize}}(}
+\DoxyCodeLine{222             \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{223 }
+\DoxyCodeLine{230     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classposition__setpoint__triplet_a8c08e007ef157489ef0047a67c799565}{getCdrSerializedSize}}(}
+\DoxyCodeLine{231             \textcolor{keyword}{const} \mbox{\hyperlink{classposition__setpoint__triplet}{position\_setpoint\_triplet}}\& data,}
+\DoxyCodeLine{232             \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{233 }
+\DoxyCodeLine{234 }
+\DoxyCodeLine{239     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classposition__setpoint__triplet_a921cdcb75dec42cd35c1964267d638b3}{serialize}}(}
+\DoxyCodeLine{240             eprosima::fastcdr::Cdr\& cdr) \textcolor{keyword}{const};}
+\DoxyCodeLine{241 }
+\DoxyCodeLine{246     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classposition__setpoint__triplet_a14255570690f0d147874e3a7e51558a8}{deserialize}}(}
+\DoxyCodeLine{247             eprosima::fastcdr::Cdr\& cdr);}
+\DoxyCodeLine{248 }
+\DoxyCodeLine{249 }
+\DoxyCodeLine{250 }
+\DoxyCodeLine{257     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classposition__setpoint__triplet_aa95da4673273867504fd59b901569945}{getKeyMaxCdrSerializedSize}}(}
+\DoxyCodeLine{258             \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{259 }
+\DoxyCodeLine{263     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{bool} \mbox{\hyperlink{classposition__setpoint__triplet_a7fa967cc6dcd0e93c1fde48dfededbb0}{isKeyDefined}}();}
+\DoxyCodeLine{264 }
+\DoxyCodeLine{269     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classposition__setpoint__triplet_aa188e48df91f54c28b5cb9d396633c66}{serializeKey}}(}
+\DoxyCodeLine{270             eprosima::fastcdr::Cdr\& cdr) \textcolor{keyword}{const};}
+\DoxyCodeLine{271 }
+\DoxyCodeLine{272 \textcolor{keyword}{private}:}
+\DoxyCodeLine{273 }
+\DoxyCodeLine{274     uint64\_t m\_timestamp\_;}
+\DoxyCodeLine{275     \mbox{\hyperlink{classposition__setpoint}{position\_setpoint}} m\_previous\_;}
+\DoxyCodeLine{276     \mbox{\hyperlink{classposition__setpoint}{position\_setpoint}} m\_current\_;}
+\DoxyCodeLine{277     \mbox{\hyperlink{classposition__setpoint}{position\_setpoint}} m\_next\_;}
+\DoxyCodeLine{278 \};}
+\DoxyCodeLine{279 }
+\DoxyCodeLine{280 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_POSITION\_SETPOINT\_TRIPLET\_H\_}}
+
+\end{DoxyCode}

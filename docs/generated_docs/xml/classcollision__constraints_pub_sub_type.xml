@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classcollision__constraints_pub_sub_type" kind="class" language="C++" prot="public">
+    <compoundname>collision_constraintsPubSubType</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">eprosima::fastdds::dds::TopicDataType</basecompoundref>
+    <includes refid="collision__constraints_pub_sub_types_8h" local="no">collision_constraintsPubSubTypes.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classcollision__constraints_pub_sub_type_1a232c7846a7c47fed7313154ed49b1760" prot="public" static="no">
+        <type><ref refid="classcollision__constraints" kindref="compound">collision_constraints</ref></type>
+        <definition>typedef collision_constraints collision_constraintsPubSubType::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/collision_constraintsPubSubTypes.h" line="44" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/collision_constraintsPubSubTypes.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classcollision__constraints_pub_sub_type_1a5277d3e738b5466a2402e1798dd5da09" prot="public" static="no" mutable="no">
+        <type>MD5</type>
+        <definition>MD5 collision_constraintsPubSubType::m_md5</definition>
+        <argsstring></argsstring>
+        <name>m_md5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/collision_constraintsPubSubTypes.h" line="97" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/collision_constraintsPubSubTypes.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcollision__constraints_pub_sub_type_1aeeb9fc0ff39db22e04af4823d49db41a" prot="public" static="no" mutable="no">
+        <type>unsigned char *</type>
+        <definition>unsigned char* collision_constraintsPubSubType::m_keyBuffer</definition>
+        <argsstring></argsstring>
+        <name>m_keyBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/collision_constraintsPubSubTypes.h" line="98" column="19" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/collision_constraintsPubSubTypes.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcollision__constraints_pub_sub_type_1afa61feea00b94d0c104ba99b7b9fa2fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>collision_constraintsPubSubType::collision_constraintsPubSubType</definition>
+        <argsstring>()</argsstring>
+        <name>collision_constraintsPubSubType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/collision_constraintsPubSubTypes.h" line="46" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/collision_constraintsPubSubTypes.cxx" bodystart="32" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classcollision__constraints_pub_sub_type_1af555952ece43c6fb061a8b0caa01b590" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>collision_constraintsPubSubType::~collision_constraintsPubSubType</definition>
+        <argsstring>()</argsstring>
+        <name>~collision_constraintsPubSubType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/collision_constraintsPubSubTypes.h" line="48" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/collision_constraintsPubSubTypes.cxx" bodystart="45" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classcollision__constraints_pub_sub_type_1af8c60e8aa4423872adfd530eae5b9a24" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool collision_constraintsPubSubType::serialize</definition>
+        <argsstring>(void *data, eprosima::fastrtps::rtps::SerializedPayload_t *payload) override</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>eprosima::fastrtps::rtps::SerializedPayload_t *</type>
+          <declname>payload</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/collision_constraintsPubSubTypes.h" line="50" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/collision_constraintsPubSubTypes.cxx" bodystart="53" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classcollision__constraints_pub_sub_type_1ac510db401b63553ae6ef39789522f16d" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool collision_constraintsPubSubType::deserialize</definition>
+        <argsstring>(eprosima::fastrtps::rtps::SerializedPayload_t *payload, void *data) override</argsstring>
+        <name>deserialize</name>
+        <param>
+          <type>eprosima::fastrtps::rtps::SerializedPayload_t *</type>
+          <declname>payload</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/collision_constraintsPubSubTypes.h" line="54" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/collision_constraintsPubSubTypes.cxx" bodystart="82" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classcollision__constraints_pub_sub_type_1a141dc17db6481eb70847f543999eb23c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport std::function&lt; uint32_t()&gt;</type>
+        <definition>std::function&lt; uint32_t()&gt; collision_constraintsPubSubType::getSerializedSizeProvider</definition>
+        <argsstring>(void *data) override</argsstring>
+        <name>getSerializedSizeProvider</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/collision_constraintsPubSubTypes.h" line="58" column="51" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/collision_constraintsPubSubTypes.cxx" bodystart="112" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classcollision__constraints_pub_sub_type_1a400e1c83bbd73dbe6c2fd788190ef826" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool collision_constraintsPubSubType::getKey</definition>
+        <argsstring>(void *data, eprosima::fastrtps::rtps::InstanceHandle_t *ihandle, bool force_md5=false) override</argsstring>
+        <name>getKey</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>eprosima::fastrtps::rtps::InstanceHandle_t *</type>
+          <declname>ihandle</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>force_md5</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/collision_constraintsPubSubTypes.h" line="61" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/collision_constraintsPubSubTypes.cxx" bodystart="133" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="classcollision__constraints_pub_sub_type_1a1c967de6a274f797bba2a8c9f4134850" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport void *</type>
+        <definition>void * collision_constraintsPubSubType::createData</definition>
+        <argsstring>() override</argsstring>
+        <name>createData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/collision_constraintsPubSubTypes.h" line="66" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/collision_constraintsPubSubTypes.cxx" bodystart="122" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classcollision__constraints_pub_sub_type_1a545ceb84533d910110a84dfa2f751623" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void collision_constraintsPubSubType::deleteData</definition>
+        <argsstring>(void *data) override</argsstring>
+        <name>deleteData</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/collision_constraintsPubSubTypes.h" line="68" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/collision_constraintsPubSubTypes.cxx" bodystart="127" bodyend="131"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents the TopicDataType of the type <ref refid="classcollision__constraints" kindref="compound">collision_constraints</ref> defined by the user in the IDL file. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>collision_constraintsPubSubType</label>
+        <link refid="classcollision__constraints_pub_sub_type"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>eprosima::fastdds::dds::TopicDataType</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>collision_constraintsPubSubType</label>
+        <link refid="classcollision__constraints_pub_sub_type"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>eprosima::fastdds::dds::TopicDataType</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/collision_constraintsPubSubTypes.h" line="40" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/collision_constraintsPubSubTypes.h" bodystart="41" bodyend="99"/>
+    <listofallmembers>
+      <member refid="classcollision__constraints_pub_sub_type_1afa61feea00b94d0c104ba99b7b9fa2fc" prot="public" virt="non-virtual"><scope>collision_constraintsPubSubType</scope><name>collision_constraintsPubSubType</name></member>
+      <member refid="classcollision__constraints_pub_sub_type_1a1c967de6a274f797bba2a8c9f4134850" prot="public" virt="virtual"><scope>collision_constraintsPubSubType</scope><name>createData</name></member>
+      <member refid="classcollision__constraints_pub_sub_type_1a545ceb84533d910110a84dfa2f751623" prot="public" virt="virtual"><scope>collision_constraintsPubSubType</scope><name>deleteData</name></member>
+      <member refid="classcollision__constraints_pub_sub_type_1ac510db401b63553ae6ef39789522f16d" prot="public" virt="virtual"><scope>collision_constraintsPubSubType</scope><name>deserialize</name></member>
+      <member refid="classcollision__constraints_pub_sub_type_1a400e1c83bbd73dbe6c2fd788190ef826" prot="public" virt="virtual"><scope>collision_constraintsPubSubType</scope><name>getKey</name></member>
+      <member refid="classcollision__constraints_pub_sub_type_1a141dc17db6481eb70847f543999eb23c" prot="public" virt="virtual"><scope>collision_constraintsPubSubType</scope><name>getSerializedSizeProvider</name></member>
+      <member refid="classcollision__constraints_pub_sub_type_1aeeb9fc0ff39db22e04af4823d49db41a" prot="public" virt="non-virtual"><scope>collision_constraintsPubSubType</scope><name>m_keyBuffer</name></member>
+      <member refid="classcollision__constraints_pub_sub_type_1a5277d3e738b5466a2402e1798dd5da09" prot="public" virt="non-virtual"><scope>collision_constraintsPubSubType</scope><name>m_md5</name></member>
+      <member refid="classcollision__constraints_pub_sub_type_1af8c60e8aa4423872adfd530eae5b9a24" prot="public" virt="virtual"><scope>collision_constraintsPubSubType</scope><name>serialize</name></member>
+      <member refid="classcollision__constraints_pub_sub_type_1a232c7846a7c47fed7313154ed49b1760" prot="public" virt="non-virtual"><scope>collision_constraintsPubSubType</scope><name>type</name></member>
+      <member refid="classcollision__constraints_pub_sub_type_1af555952ece43c6fb061a8b0caa01b590" prot="public" virt="virtual"><scope>collision_constraintsPubSubType</scope><name>~collision_constraintsPubSubType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

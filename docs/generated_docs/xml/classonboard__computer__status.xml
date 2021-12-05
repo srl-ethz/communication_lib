@@ -1,0 +1,2363 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classonboard__computer__status" kind="class" language="C++" prot="public">
+    <compoundname>onboard_computer_status</compoundname>
+    <includes refid="onboard__computer__status_8h" local="no">onboard_computer_status.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classonboard__computer__status_1a497ff4370a833e388d116de02b21763c" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t onboard_computer_status::m_timestamp_</definition>
+        <argsstring></argsstring>
+        <name>m_timestamp_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="640" column="14" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" bodystart="640" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classonboard__computer__status_1a651b1341efca58fae73b8be37995e262" prot="private" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t onboard_computer_status::m_uptime_</definition>
+        <argsstring></argsstring>
+        <name>m_uptime_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="641" column="14" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" bodystart="641" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classonboard__computer__status_1a6f4faa4d009cdc0e797e250b8e482bda" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t onboard_computer_status::m_type_</definition>
+        <argsstring></argsstring>
+        <name>m_type_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="642" column="13" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" bodystart="642" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classonboard__computer__status_1aaeb406c7530c8e414379134d0100a8cc" prot="private" static="no" mutable="no">
+        <type>onboard_computer_status__octet_array_8</type>
+        <definition>onboard_computer_status__octet_array_8 onboard_computer_status::m_cpu_cores</definition>
+        <argsstring></argsstring>
+        <name>m_cpu_cores</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="643" column="44" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" bodystart="643" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classonboard__computer__status_1a1c39a6e033ad083ad4f48e7f8719b39a" prot="private" static="no" mutable="no">
+        <type>onboard_computer_status__octet_array_10</type>
+        <definition>onboard_computer_status__octet_array_10 onboard_computer_status::m_cpu_combined</definition>
+        <argsstring></argsstring>
+        <name>m_cpu_combined</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="644" column="45" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" bodystart="644" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classonboard__computer__status_1a60f4fd75cc618f77466634f86eadc140" prot="private" static="no" mutable="no">
+        <type>onboard_computer_status__octet_array_4</type>
+        <definition>onboard_computer_status__octet_array_4 onboard_computer_status::m_gpu_cores</definition>
+        <argsstring></argsstring>
+        <name>m_gpu_cores</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="645" column="44" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" bodystart="645" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classonboard__computer__status_1a17c05b06d9e6b1ebeef11d502df32c55" prot="private" static="no" mutable="no">
+        <type>onboard_computer_status__octet_array_10</type>
+        <definition>onboard_computer_status__octet_array_10 onboard_computer_status::m_gpu_combined</definition>
+        <argsstring></argsstring>
+        <name>m_gpu_combined</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="646" column="45" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" bodystart="646" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classonboard__computer__status_1ada75d810861cbde07cf6331cd150141f" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t onboard_computer_status::m_temperature_board_</definition>
+        <argsstring></argsstring>
+        <name>m_temperature_board_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="647" column="13" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" bodystart="647" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classonboard__computer__status_1aeaac64661561f52b8e3f36fc0d81243e" prot="private" static="no" mutable="no">
+        <type>onboard_computer_status__octet_array_8</type>
+        <definition>onboard_computer_status__octet_array_8 onboard_computer_status::m_temperature_core</definition>
+        <argsstring></argsstring>
+        <name>m_temperature_core</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="648" column="44" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" bodystart="648" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classonboard__computer__status_1a283a501c10fd291ca55dba69e254e264" prot="private" static="no" mutable="no">
+        <type>onboard_computer_status__short_array_4</type>
+        <definition>onboard_computer_status__short_array_4 onboard_computer_status::m_fan_speed</definition>
+        <argsstring></argsstring>
+        <name>m_fan_speed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="649" column="44" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" bodystart="649" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classonboard__computer__status_1a1c04ae5a104d0a4413dd94c8b070db25" prot="private" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t onboard_computer_status::m_ram_usage_</definition>
+        <argsstring></argsstring>
+        <name>m_ram_usage_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="650" column="14" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" bodystart="650" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classonboard__computer__status_1a38ad1cd84047a4fbc0b184820f67f363" prot="private" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t onboard_computer_status::m_ram_total_</definition>
+        <argsstring></argsstring>
+        <name>m_ram_total_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="651" column="14" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" bodystart="651" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classonboard__computer__status_1af7268b79b76a7d434c5a11a1ac2f06f4" prot="private" static="no" mutable="no">
+        <type>onboard_computer_status__unsigned_long_array_4</type>
+        <definition>onboard_computer_status__unsigned_long_array_4 onboard_computer_status::m_storage_type</definition>
+        <argsstring></argsstring>
+        <name>m_storage_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="652" column="52" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" bodystart="652" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classonboard__computer__status_1a828f283bf53bbb0f37d5f3dcb4c12bac" prot="private" static="no" mutable="no">
+        <type>onboard_computer_status__unsigned_long_array_4</type>
+        <definition>onboard_computer_status__unsigned_long_array_4 onboard_computer_status::m_storage_usage</definition>
+        <argsstring></argsstring>
+        <name>m_storage_usage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="653" column="52" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" bodystart="653" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classonboard__computer__status_1aead0c0a75dfde2cbc89c3ac02c5bc4cd" prot="private" static="no" mutable="no">
+        <type>onboard_computer_status__unsigned_long_array_4</type>
+        <definition>onboard_computer_status__unsigned_long_array_4 onboard_computer_status::m_storage_total</definition>
+        <argsstring></argsstring>
+        <name>m_storage_total</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="654" column="52" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" bodystart="654" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classonboard__computer__status_1a4a3109ac30077cc3e4ede9332a81eae3" prot="private" static="no" mutable="no">
+        <type>onboard_computer_status__unsigned_long_array_6</type>
+        <definition>onboard_computer_status__unsigned_long_array_6 onboard_computer_status::m_link_type</definition>
+        <argsstring></argsstring>
+        <name>m_link_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="655" column="52" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" bodystart="655" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classonboard__computer__status_1a2b46a1bbe69ba1eed4c116ca9d6e0699" prot="private" static="no" mutable="no">
+        <type>onboard_computer_status__unsigned_long_array_6</type>
+        <definition>onboard_computer_status__unsigned_long_array_6 onboard_computer_status::m_link_tx_rate</definition>
+        <argsstring></argsstring>
+        <name>m_link_tx_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="656" column="52" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" bodystart="656" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classonboard__computer__status_1a8e94b1fea860c0007539a2fa3cfb3781" prot="private" static="no" mutable="no">
+        <type>onboard_computer_status__unsigned_long_array_6</type>
+        <definition>onboard_computer_status__unsigned_long_array_6 onboard_computer_status::m_link_rx_rate</definition>
+        <argsstring></argsstring>
+        <name>m_link_rx_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="657" column="52" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" bodystart="657" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classonboard__computer__status_1a12e7b38fbb94e6517697626dcfc32499" prot="private" static="no" mutable="no">
+        <type>onboard_computer_status__unsigned_long_array_6</type>
+        <definition>onboard_computer_status__unsigned_long_array_6 onboard_computer_status::m_link_tx_max</definition>
+        <argsstring></argsstring>
+        <name>m_link_tx_max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="658" column="52" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" bodystart="658" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classonboard__computer__status_1ae83c60fc60990d5306b49653a9265b48" prot="private" static="no" mutable="no">
+        <type>onboard_computer_status__unsigned_long_array_6</type>
+        <definition>onboard_computer_status__unsigned_long_array_6 onboard_computer_status::m_link_rx_max</definition>
+        <argsstring></argsstring>
+        <name>m_link_rx_max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="659" column="52" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" bodystart="659" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classonboard__computer__status_1a86af4a242e7ab6da7e3a545761e0558f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>onboard_computer_status::onboard_computer_status</definition>
+        <argsstring>()</argsstring>
+        <name>onboard_computer_status</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="81" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="43" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a3ae36bfe7ecaea056f355e78c1faf8e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>onboard_computer_status::~onboard_computer_status</definition>
+        <argsstring>()</argsstring>
+        <name>~onboard_computer_status</name>
+        <briefdescription>
+<para>Default destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="86" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="88" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1aeaa2bc7de9e501302690b709e6c1cdb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>onboard_computer_status::onboard_computer_status</definition>
+        <argsstring>(const onboard_computer_status &amp;x)</argsstring>
+        <name>onboard_computer_status</name>
+        <param>
+          <type>const <ref refid="classonboard__computer__status" kindref="compound">onboard_computer_status</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classonboard__computer__status" kindref="compound">onboard_computer_status</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="92" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="112" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1acbae6dcbf083ef9dc03282806b23615c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>onboard_computer_status::onboard_computer_status</definition>
+        <argsstring>(onboard_computer_status &amp;&amp;x)</argsstring>
+        <name>onboard_computer_status</name>
+        <param>
+          <type><ref refid="classonboard__computer__status" kindref="compound">onboard_computer_status</ref> &amp;&amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Move constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classonboard__computer__status" kindref="compound">onboard_computer_status</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="99" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="137" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a186ea5b2fbea07f46dba6c15eb5b5018" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport <ref refid="classonboard__computer__status" kindref="compound">onboard_computer_status</ref> &amp;</type>
+        <definition>onboard_computer_status &amp; onboard_computer_status::operator=</definition>
+        <argsstring>(const onboard_computer_status &amp;x)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classonboard__computer__status" kindref="compound">onboard_computer_status</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Copy assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classonboard__computer__status" kindref="compound">onboard_computer_status</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="106" column="53" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="162" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a6e957c016e812220244eda12ee4348a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport <ref refid="classonboard__computer__status" kindref="compound">onboard_computer_status</ref> &amp;</type>
+        <definition>onboard_computer_status &amp; onboard_computer_status::operator=</definition>
+        <argsstring>(onboard_computer_status &amp;&amp;x)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classonboard__computer__status" kindref="compound">onboard_computer_status</ref> &amp;&amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Move assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classonboard__computer__status" kindref="compound">onboard_computer_status</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="113" column="53" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="190" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1ade21fb51c4236a9407c60976ed8be02a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::timestamp_</definition>
+        <argsstring>(uint64_t _timestamp_)</argsstring>
+        <name>timestamp_</name>
+        <param>
+          <type>uint64_t</type>
+          <declname>_timestamp_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;timestamp&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member timestamp_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="120" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="473" bodyend="477"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a759303269900ca64b43f9f06ceaccc96" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint64_t</type>
+        <definition>uint64_t onboard_computer_status::timestamp_</definition>
+        <argsstring>() const</argsstring>
+        <name>timestamp_</name>
+        <briefdescription>
+<para>This function returns the value of member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member timestamp_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="127" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="483" bodyend="486"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1ac2a477e7c7a3a3f7953086f921d154d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint64_t &amp;</type>
+        <definition>uint64_t &amp; onboard_computer_status::timestamp_</definition>
+        <argsstring>()</argsstring>
+        <name>timestamp_</name>
+        <briefdescription>
+<para>This function returns a reference to member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member timestamp_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="133" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="492" bodyend="495"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a46f00a75babffb46cae03c20a1bf63df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::uptime_</definition>
+        <argsstring>(uint32_t _uptime_)</argsstring>
+        <name>uptime_</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>_uptime_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member uptime_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;uptime&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member uptime_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="139" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="501" bodyend="505"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1af6be0a0a70fa72d84ac3eef609c97d3f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint32_t</type>
+        <definition>uint32_t onboard_computer_status::uptime_</definition>
+        <argsstring>() const</argsstring>
+        <name>uptime_</name>
+        <briefdescription>
+<para>This function returns the value of member uptime_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member uptime_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="146" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="511" bodyend="514"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a028ce04f3019eb645a2f9de87051b7ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint32_t &amp;</type>
+        <definition>uint32_t &amp; onboard_computer_status::uptime_</definition>
+        <argsstring>()</argsstring>
+        <name>uptime_</name>
+        <briefdescription>
+<para>This function returns a reference to member uptime_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member uptime_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="152" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="520" bodyend="523"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1ab41978e6e41528f69fe40540993040bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::type_</definition>
+        <argsstring>(uint8_t _type_)</argsstring>
+        <name>type_</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>_type_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member type_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;type&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member type_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="158" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="529" bodyend="533"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1aeb8f27ed29c29d23c6e369ec856e8307" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint8_t</type>
+        <definition>uint8_t onboard_computer_status::type_</definition>
+        <argsstring>() const</argsstring>
+        <name>type_</name>
+        <briefdescription>
+<para>This function returns the value of member type_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member type_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="165" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="539" bodyend="542"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a33b1833bc9ce6c226f92a10c47b6477d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint8_t &amp;</type>
+        <definition>uint8_t &amp; onboard_computer_status::type_</definition>
+        <argsstring>()</argsstring>
+        <name>type_</name>
+        <briefdescription>
+<para>This function returns a reference to member type_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member type_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="171" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="548" bodyend="551"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a668b2bc6c7f7f5c7fb7fca6a62d49eda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::cpu_cores</definition>
+        <argsstring>(const onboard_computer_status__octet_array_8 &amp;_cpu_cores)</argsstring>
+        <name>cpu_cores</name>
+        <param>
+          <type>const onboard_computer_status__octet_array_8 &amp;</type>
+          <declname>_cpu_cores</declname>
+        </param>
+        <briefdescription>
+<para>This function copies the value in member cpu_cores. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_cpu_cores</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member cpu_cores </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="177" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="557" bodyend="561"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1afe7a119d572cd2330db98f91939c5a28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::cpu_cores</definition>
+        <argsstring>(onboard_computer_status__octet_array_8 &amp;&amp;_cpu_cores)</argsstring>
+        <name>cpu_cores</name>
+        <param>
+          <type>onboard_computer_status__octet_array_8 &amp;&amp;</type>
+          <declname>_cpu_cores</declname>
+        </param>
+        <briefdescription>
+<para>This function moves the value in member cpu_cores. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_cpu_cores</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member cpu_cores </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="184" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="567" bodyend="571"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1ae4e5451f2a61b6a2852124d2675b27df" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport const onboard_computer_status__octet_array_8 &amp;</type>
+        <definition>const onboard_computer_status__octet_array_8 &amp; onboard_computer_status::cpu_cores</definition>
+        <argsstring>() const</argsstring>
+        <name>cpu_cores</name>
+        <briefdescription>
+<para>This function returns a constant reference to member cpu_cores. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Constant reference to member cpu_cores </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="191" column="74" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="577" bodyend="580"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a92ae81eb4c58ae6f2d87318c16de9cc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport onboard_computer_status__octet_array_8 &amp;</type>
+        <definition>onboard_computer_status__octet_array_8 &amp; onboard_computer_status::cpu_cores</definition>
+        <argsstring>()</argsstring>
+        <name>cpu_cores</name>
+        <briefdescription>
+<para>This function returns a reference to member cpu_cores. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member cpu_cores </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="197" column="68" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="586" bodyend="589"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a2d3678de985187de1139b806e0f88dc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::cpu_combined</definition>
+        <argsstring>(const onboard_computer_status__octet_array_10 &amp;_cpu_combined)</argsstring>
+        <name>cpu_combined</name>
+        <param>
+          <type>const onboard_computer_status__octet_array_10 &amp;</type>
+          <declname>_cpu_combined</declname>
+        </param>
+        <briefdescription>
+<para>This function copies the value in member cpu_combined. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_cpu_combined</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member cpu_combined </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="202" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="594" bodyend="598"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1aafbf414e2ba5f8c3edbe88448c845cea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::cpu_combined</definition>
+        <argsstring>(onboard_computer_status__octet_array_10 &amp;&amp;_cpu_combined)</argsstring>
+        <name>cpu_combined</name>
+        <param>
+          <type>onboard_computer_status__octet_array_10 &amp;&amp;</type>
+          <declname>_cpu_combined</declname>
+        </param>
+        <briefdescription>
+<para>This function moves the value in member cpu_combined. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_cpu_combined</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member cpu_combined </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="209" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="604" bodyend="608"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1aabfa80e1e9f943257be61c380adca5a8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport const onboard_computer_status__octet_array_10 &amp;</type>
+        <definition>const onboard_computer_status__octet_array_10 &amp; onboard_computer_status::cpu_combined</definition>
+        <argsstring>() const</argsstring>
+        <name>cpu_combined</name>
+        <briefdescription>
+<para>This function returns a constant reference to member cpu_combined. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Constant reference to member cpu_combined </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="216" column="75" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="614" bodyend="617"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a3a3d05c8ee0f1f906cb4ae55a36150ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport onboard_computer_status__octet_array_10 &amp;</type>
+        <definition>onboard_computer_status__octet_array_10 &amp; onboard_computer_status::cpu_combined</definition>
+        <argsstring>()</argsstring>
+        <name>cpu_combined</name>
+        <briefdescription>
+<para>This function returns a reference to member cpu_combined. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member cpu_combined </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="222" column="69" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="623" bodyend="626"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1aa9c9fb7be0def18e848c7e106847eb8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::gpu_cores</definition>
+        <argsstring>(const onboard_computer_status__octet_array_4 &amp;_gpu_cores)</argsstring>
+        <name>gpu_cores</name>
+        <param>
+          <type>const onboard_computer_status__octet_array_4 &amp;</type>
+          <declname>_gpu_cores</declname>
+        </param>
+        <briefdescription>
+<para>This function copies the value in member gpu_cores. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_gpu_cores</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member gpu_cores </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="227" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="631" bodyend="635"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a7bf79161f21333d53dc38f506d54c7fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::gpu_cores</definition>
+        <argsstring>(onboard_computer_status__octet_array_4 &amp;&amp;_gpu_cores)</argsstring>
+        <name>gpu_cores</name>
+        <param>
+          <type>onboard_computer_status__octet_array_4 &amp;&amp;</type>
+          <declname>_gpu_cores</declname>
+        </param>
+        <briefdescription>
+<para>This function moves the value in member gpu_cores. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_gpu_cores</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member gpu_cores </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="234" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="641" bodyend="645"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1afcfee77e12bc0bddf8a27774c5ebb1e5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport const onboard_computer_status__octet_array_4 &amp;</type>
+        <definition>const onboard_computer_status__octet_array_4 &amp; onboard_computer_status::gpu_cores</definition>
+        <argsstring>() const</argsstring>
+        <name>gpu_cores</name>
+        <briefdescription>
+<para>This function returns a constant reference to member gpu_cores. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Constant reference to member gpu_cores </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="241" column="74" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="651" bodyend="654"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a70eaeff47ed22a43a9617e22defc9d4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport onboard_computer_status__octet_array_4 &amp;</type>
+        <definition>onboard_computer_status__octet_array_4 &amp; onboard_computer_status::gpu_cores</definition>
+        <argsstring>()</argsstring>
+        <name>gpu_cores</name>
+        <briefdescription>
+<para>This function returns a reference to member gpu_cores. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member gpu_cores </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="247" column="68" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="660" bodyend="663"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1aab14312fe6e8f6a68bf0ec0989da52dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::gpu_combined</definition>
+        <argsstring>(const onboard_computer_status__octet_array_10 &amp;_gpu_combined)</argsstring>
+        <name>gpu_combined</name>
+        <param>
+          <type>const onboard_computer_status__octet_array_10 &amp;</type>
+          <declname>_gpu_combined</declname>
+        </param>
+        <briefdescription>
+<para>This function copies the value in member gpu_combined. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_gpu_combined</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member gpu_combined </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="252" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="668" bodyend="672"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a2805da3869dd4a9fbe6f8e1ce7ff203b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::gpu_combined</definition>
+        <argsstring>(onboard_computer_status__octet_array_10 &amp;&amp;_gpu_combined)</argsstring>
+        <name>gpu_combined</name>
+        <param>
+          <type>onboard_computer_status__octet_array_10 &amp;&amp;</type>
+          <declname>_gpu_combined</declname>
+        </param>
+        <briefdescription>
+<para>This function moves the value in member gpu_combined. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_gpu_combined</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member gpu_combined </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="259" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="678" bodyend="682"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1abfbce78819b0e371b03e26a96a2f3b28" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport const onboard_computer_status__octet_array_10 &amp;</type>
+        <definition>const onboard_computer_status__octet_array_10 &amp; onboard_computer_status::gpu_combined</definition>
+        <argsstring>() const</argsstring>
+        <name>gpu_combined</name>
+        <briefdescription>
+<para>This function returns a constant reference to member gpu_combined. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Constant reference to member gpu_combined </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="266" column="75" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="688" bodyend="691"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a1b645438ac6df732645ca38ac515b9a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport onboard_computer_status__octet_array_10 &amp;</type>
+        <definition>onboard_computer_status__octet_array_10 &amp; onboard_computer_status::gpu_combined</definition>
+        <argsstring>()</argsstring>
+        <name>gpu_combined</name>
+        <briefdescription>
+<para>This function returns a reference to member gpu_combined. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member gpu_combined </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="272" column="69" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="697" bodyend="700"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1aabc7c8f13e680a15754b6b71fd7ede87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::temperature_board_</definition>
+        <argsstring>(uint8_t _temperature_board_)</argsstring>
+        <name>temperature_board_</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>_temperature_board_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member temperature_board_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;temperature_board&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member temperature_board_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="277" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="705" bodyend="709"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a56a5adafc728bbdaa5bbed633c8b7caa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint8_t</type>
+        <definition>uint8_t onboard_computer_status::temperature_board_</definition>
+        <argsstring>() const</argsstring>
+        <name>temperature_board_</name>
+        <briefdescription>
+<para>This function returns the value of member temperature_board_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member temperature_board_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="284" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="715" bodyend="718"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a2262f89f7f6145814d1e8f9aacf73b12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint8_t &amp;</type>
+        <definition>uint8_t &amp; onboard_computer_status::temperature_board_</definition>
+        <argsstring>()</argsstring>
+        <name>temperature_board_</name>
+        <briefdescription>
+<para>This function returns a reference to member temperature_board_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member temperature_board_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="290" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="724" bodyend="727"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a441bf984138a0e34eb3a245c571a29bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::temperature_core</definition>
+        <argsstring>(const onboard_computer_status__octet_array_8 &amp;_temperature_core)</argsstring>
+        <name>temperature_core</name>
+        <param>
+          <type>const onboard_computer_status__octet_array_8 &amp;</type>
+          <declname>_temperature_core</declname>
+        </param>
+        <briefdescription>
+<para>This function copies the value in member temperature_core. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_temperature_core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member temperature_core </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="296" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="733" bodyend="737"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1ac56b043b53ce434dc04ea807782b9596" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::temperature_core</definition>
+        <argsstring>(onboard_computer_status__octet_array_8 &amp;&amp;_temperature_core)</argsstring>
+        <name>temperature_core</name>
+        <param>
+          <type>onboard_computer_status__octet_array_8 &amp;&amp;</type>
+          <declname>_temperature_core</declname>
+        </param>
+        <briefdescription>
+<para>This function moves the value in member temperature_core. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_temperature_core</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member temperature_core </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="303" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="743" bodyend="747"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a92fa2e4fa6763593f2eaa0fa751f2c24" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport const onboard_computer_status__octet_array_8 &amp;</type>
+        <definition>const onboard_computer_status__octet_array_8 &amp; onboard_computer_status::temperature_core</definition>
+        <argsstring>() const</argsstring>
+        <name>temperature_core</name>
+        <briefdescription>
+<para>This function returns a constant reference to member temperature_core. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Constant reference to member temperature_core </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="310" column="74" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="753" bodyend="756"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a933b5072c5e5a4b17af5e28e4a4d5a44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport onboard_computer_status__octet_array_8 &amp;</type>
+        <definition>onboard_computer_status__octet_array_8 &amp; onboard_computer_status::temperature_core</definition>
+        <argsstring>()</argsstring>
+        <name>temperature_core</name>
+        <briefdescription>
+<para>This function returns a reference to member temperature_core. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member temperature_core </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="316" column="68" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="762" bodyend="765"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a8798899a1e63a78b638a9796b634b267" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::fan_speed</definition>
+        <argsstring>(const onboard_computer_status__short_array_4 &amp;_fan_speed)</argsstring>
+        <name>fan_speed</name>
+        <param>
+          <type>const onboard_computer_status__short_array_4 &amp;</type>
+          <declname>_fan_speed</declname>
+        </param>
+        <briefdescription>
+<para>This function copies the value in member fan_speed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_fan_speed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member fan_speed </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="321" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="770" bodyend="774"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1afd7e373ce0858dc446691e54f8c6fbd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::fan_speed</definition>
+        <argsstring>(onboard_computer_status__short_array_4 &amp;&amp;_fan_speed)</argsstring>
+        <name>fan_speed</name>
+        <param>
+          <type>onboard_computer_status__short_array_4 &amp;&amp;</type>
+          <declname>_fan_speed</declname>
+        </param>
+        <briefdescription>
+<para>This function moves the value in member fan_speed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_fan_speed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member fan_speed </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="328" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="780" bodyend="784"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1aa869237c1212ebb0db87f595884d406e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport const onboard_computer_status__short_array_4 &amp;</type>
+        <definition>const onboard_computer_status__short_array_4 &amp; onboard_computer_status::fan_speed</definition>
+        <argsstring>() const</argsstring>
+        <name>fan_speed</name>
+        <briefdescription>
+<para>This function returns a constant reference to member fan_speed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Constant reference to member fan_speed </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="335" column="74" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="790" bodyend="793"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a95944c256575f1f5fc2aa366ef269709" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport onboard_computer_status__short_array_4 &amp;</type>
+        <definition>onboard_computer_status__short_array_4 &amp; onboard_computer_status::fan_speed</definition>
+        <argsstring>()</argsstring>
+        <name>fan_speed</name>
+        <briefdescription>
+<para>This function returns a reference to member fan_speed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member fan_speed </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="341" column="68" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="799" bodyend="802"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a7409765fe68fb4c47ec3e56f807aaa37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::ram_usage_</definition>
+        <argsstring>(uint32_t _ram_usage_)</argsstring>
+        <name>ram_usage_</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>_ram_usage_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member ram_usage_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;ram_usage&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member ram_usage_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="346" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="807" bodyend="811"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a3c1230ba1114ab2b7b95485698e1788a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint32_t</type>
+        <definition>uint32_t onboard_computer_status::ram_usage_</definition>
+        <argsstring>() const</argsstring>
+        <name>ram_usage_</name>
+        <briefdescription>
+<para>This function returns the value of member ram_usage_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member ram_usage_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="353" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="817" bodyend="820"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1ad8e85a287295bcb08da9a8f55dcd65c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint32_t &amp;</type>
+        <definition>uint32_t &amp; onboard_computer_status::ram_usage_</definition>
+        <argsstring>()</argsstring>
+        <name>ram_usage_</name>
+        <briefdescription>
+<para>This function returns a reference to member ram_usage_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member ram_usage_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="359" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="826" bodyend="829"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a0bdb2be35ae6c8020a1b026a1cf85313" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::ram_total_</definition>
+        <argsstring>(uint32_t _ram_total_)</argsstring>
+        <name>ram_total_</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>_ram_total_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member ram_total_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;ram_total&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member ram_total_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="365" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="835" bodyend="839"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1ac13f1fe543432d8c3d25b0d9f7eb241b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint32_t</type>
+        <definition>uint32_t onboard_computer_status::ram_total_</definition>
+        <argsstring>() const</argsstring>
+        <name>ram_total_</name>
+        <briefdescription>
+<para>This function returns the value of member ram_total_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member ram_total_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="372" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="845" bodyend="848"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1ad671ffaebcce9804e047a5fd6b2b388c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint32_t &amp;</type>
+        <definition>uint32_t &amp; onboard_computer_status::ram_total_</definition>
+        <argsstring>()</argsstring>
+        <name>ram_total_</name>
+        <briefdescription>
+<para>This function returns a reference to member ram_total_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member ram_total_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="378" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="854" bodyend="857"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1af4818ed25203f452a640b5d28752336e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::storage_type</definition>
+        <argsstring>(const onboard_computer_status__unsigned_long_array_4 &amp;_storage_type)</argsstring>
+        <name>storage_type</name>
+        <param>
+          <type>const onboard_computer_status__unsigned_long_array_4 &amp;</type>
+          <declname>_storage_type</declname>
+        </param>
+        <briefdescription>
+<para>This function copies the value in member storage_type. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_storage_type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member storage_type </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="384" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="863" bodyend="867"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1acc667b77ab00fb53cdc76c325f51aaee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::storage_type</definition>
+        <argsstring>(onboard_computer_status__unsigned_long_array_4 &amp;&amp;_storage_type)</argsstring>
+        <name>storage_type</name>
+        <param>
+          <type>onboard_computer_status__unsigned_long_array_4 &amp;&amp;</type>
+          <declname>_storage_type</declname>
+        </param>
+        <briefdescription>
+<para>This function moves the value in member storage_type. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_storage_type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member storage_type </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="391" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="873" bodyend="877"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a3f1318cc85ad062444be83e973e3b9cd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport const onboard_computer_status__unsigned_long_array_4 &amp;</type>
+        <definition>const onboard_computer_status__unsigned_long_array_4 &amp; onboard_computer_status::storage_type</definition>
+        <argsstring>() const</argsstring>
+        <name>storage_type</name>
+        <briefdescription>
+<para>This function returns a constant reference to member storage_type. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Constant reference to member storage_type </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="398" column="82" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="883" bodyend="886"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a54382944f5623c333fbd8b25548575e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport onboard_computer_status__unsigned_long_array_4 &amp;</type>
+        <definition>onboard_computer_status__unsigned_long_array_4 &amp; onboard_computer_status::storage_type</definition>
+        <argsstring>()</argsstring>
+        <name>storage_type</name>
+        <briefdescription>
+<para>This function returns a reference to member storage_type. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member storage_type </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="404" column="76" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="892" bodyend="895"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a0275a5ee8acc1cfaa5ac0b2866ecb645" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::storage_usage</definition>
+        <argsstring>(const onboard_computer_status__unsigned_long_array_4 &amp;_storage_usage)</argsstring>
+        <name>storage_usage</name>
+        <param>
+          <type>const onboard_computer_status__unsigned_long_array_4 &amp;</type>
+          <declname>_storage_usage</declname>
+        </param>
+        <briefdescription>
+<para>This function copies the value in member storage_usage. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_storage_usage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member storage_usage </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="409" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="900" bodyend="904"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a1d4145f7072f36aa4d38f91973ac47cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::storage_usage</definition>
+        <argsstring>(onboard_computer_status__unsigned_long_array_4 &amp;&amp;_storage_usage)</argsstring>
+        <name>storage_usage</name>
+        <param>
+          <type>onboard_computer_status__unsigned_long_array_4 &amp;&amp;</type>
+          <declname>_storage_usage</declname>
+        </param>
+        <briefdescription>
+<para>This function moves the value in member storage_usage. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_storage_usage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member storage_usage </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="416" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="910" bodyend="914"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a9f44e1f4f71821500bdf131f5ffc2041" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport const onboard_computer_status__unsigned_long_array_4 &amp;</type>
+        <definition>const onboard_computer_status__unsigned_long_array_4 &amp; onboard_computer_status::storage_usage</definition>
+        <argsstring>() const</argsstring>
+        <name>storage_usage</name>
+        <briefdescription>
+<para>This function returns a constant reference to member storage_usage. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Constant reference to member storage_usage </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="423" column="82" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="920" bodyend="923"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a4327cbf6e0bb3112c3691988d719de7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport onboard_computer_status__unsigned_long_array_4 &amp;</type>
+        <definition>onboard_computer_status__unsigned_long_array_4 &amp; onboard_computer_status::storage_usage</definition>
+        <argsstring>()</argsstring>
+        <name>storage_usage</name>
+        <briefdescription>
+<para>This function returns a reference to member storage_usage. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member storage_usage </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="429" column="76" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="929" bodyend="932"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a65e5f605621cf55169d3adbb0cc951c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::storage_total</definition>
+        <argsstring>(const onboard_computer_status__unsigned_long_array_4 &amp;_storage_total)</argsstring>
+        <name>storage_total</name>
+        <param>
+          <type>const onboard_computer_status__unsigned_long_array_4 &amp;</type>
+          <declname>_storage_total</declname>
+        </param>
+        <briefdescription>
+<para>This function copies the value in member storage_total. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_storage_total</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member storage_total </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="434" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="937" bodyend="941"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a106bab39311ac340800dbed5205d6bd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::storage_total</definition>
+        <argsstring>(onboard_computer_status__unsigned_long_array_4 &amp;&amp;_storage_total)</argsstring>
+        <name>storage_total</name>
+        <param>
+          <type>onboard_computer_status__unsigned_long_array_4 &amp;&amp;</type>
+          <declname>_storage_total</declname>
+        </param>
+        <briefdescription>
+<para>This function moves the value in member storage_total. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_storage_total</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member storage_total </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="441" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="947" bodyend="951"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a33a9204613d4ead295162de134ed95f9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport const onboard_computer_status__unsigned_long_array_4 &amp;</type>
+        <definition>const onboard_computer_status__unsigned_long_array_4 &amp; onboard_computer_status::storage_total</definition>
+        <argsstring>() const</argsstring>
+        <name>storage_total</name>
+        <briefdescription>
+<para>This function returns a constant reference to member storage_total. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Constant reference to member storage_total </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="448" column="82" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="957" bodyend="960"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a91f5866032d9812231f9a35ff37206cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport onboard_computer_status__unsigned_long_array_4 &amp;</type>
+        <definition>onboard_computer_status__unsigned_long_array_4 &amp; onboard_computer_status::storage_total</definition>
+        <argsstring>()</argsstring>
+        <name>storage_total</name>
+        <briefdescription>
+<para>This function returns a reference to member storage_total. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member storage_total </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="454" column="76" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="966" bodyend="969"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a3c241ee1481efa22eb33f44c997cedde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::link_type</definition>
+        <argsstring>(const onboard_computer_status__unsigned_long_array_6 &amp;_link_type)</argsstring>
+        <name>link_type</name>
+        <param>
+          <type>const onboard_computer_status__unsigned_long_array_6 &amp;</type>
+          <declname>_link_type</declname>
+        </param>
+        <briefdescription>
+<para>This function copies the value in member link_type. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_link_type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member link_type </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="459" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="974" bodyend="978"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1aa4ba110a35cc3107625812fe8de17273" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::link_type</definition>
+        <argsstring>(onboard_computer_status__unsigned_long_array_6 &amp;&amp;_link_type)</argsstring>
+        <name>link_type</name>
+        <param>
+          <type>onboard_computer_status__unsigned_long_array_6 &amp;&amp;</type>
+          <declname>_link_type</declname>
+        </param>
+        <briefdescription>
+<para>This function moves the value in member link_type. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_link_type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member link_type </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="466" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="984" bodyend="988"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a5b708aa8d869c7de095fec1f9aee9b13" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport const onboard_computer_status__unsigned_long_array_6 &amp;</type>
+        <definition>const onboard_computer_status__unsigned_long_array_6 &amp; onboard_computer_status::link_type</definition>
+        <argsstring>() const</argsstring>
+        <name>link_type</name>
+        <briefdescription>
+<para>This function returns a constant reference to member link_type. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Constant reference to member link_type </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="473" column="82" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="994" bodyend="997"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1abe3fac300dbf0e1f2573514011ebaeef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport onboard_computer_status__unsigned_long_array_6 &amp;</type>
+        <definition>onboard_computer_status__unsigned_long_array_6 &amp; onboard_computer_status::link_type</definition>
+        <argsstring>()</argsstring>
+        <name>link_type</name>
+        <briefdescription>
+<para>This function returns a reference to member link_type. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member link_type </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="479" column="76" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="1003" bodyend="1006"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a94e33199f6e2a70c31a5b63375a426a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::link_tx_rate</definition>
+        <argsstring>(const onboard_computer_status__unsigned_long_array_6 &amp;_link_tx_rate)</argsstring>
+        <name>link_tx_rate</name>
+        <param>
+          <type>const onboard_computer_status__unsigned_long_array_6 &amp;</type>
+          <declname>_link_tx_rate</declname>
+        </param>
+        <briefdescription>
+<para>This function copies the value in member link_tx_rate. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_link_tx_rate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member link_tx_rate </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="484" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="1011" bodyend="1015"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a9a137105973419ee22a5efe1378904ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::link_tx_rate</definition>
+        <argsstring>(onboard_computer_status__unsigned_long_array_6 &amp;&amp;_link_tx_rate)</argsstring>
+        <name>link_tx_rate</name>
+        <param>
+          <type>onboard_computer_status__unsigned_long_array_6 &amp;&amp;</type>
+          <declname>_link_tx_rate</declname>
+        </param>
+        <briefdescription>
+<para>This function moves the value in member link_tx_rate. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_link_tx_rate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member link_tx_rate </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="491" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="1021" bodyend="1025"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1ab7fc8c39b5cef781554265b3ee780963" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport const onboard_computer_status__unsigned_long_array_6 &amp;</type>
+        <definition>const onboard_computer_status__unsigned_long_array_6 &amp; onboard_computer_status::link_tx_rate</definition>
+        <argsstring>() const</argsstring>
+        <name>link_tx_rate</name>
+        <briefdescription>
+<para>This function returns a constant reference to member link_tx_rate. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Constant reference to member link_tx_rate </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="498" column="82" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="1031" bodyend="1034"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1ad9d3089ac277afb1e426a01245f3e8ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport onboard_computer_status__unsigned_long_array_6 &amp;</type>
+        <definition>onboard_computer_status__unsigned_long_array_6 &amp; onboard_computer_status::link_tx_rate</definition>
+        <argsstring>()</argsstring>
+        <name>link_tx_rate</name>
+        <briefdescription>
+<para>This function returns a reference to member link_tx_rate. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member link_tx_rate </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="504" column="76" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="1040" bodyend="1043"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1af8f54a514a39561fe4317d2c47652993" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::link_rx_rate</definition>
+        <argsstring>(const onboard_computer_status__unsigned_long_array_6 &amp;_link_rx_rate)</argsstring>
+        <name>link_rx_rate</name>
+        <param>
+          <type>const onboard_computer_status__unsigned_long_array_6 &amp;</type>
+          <declname>_link_rx_rate</declname>
+        </param>
+        <briefdescription>
+<para>This function copies the value in member link_rx_rate. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_link_rx_rate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member link_rx_rate </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="509" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="1048" bodyend="1052"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a81c0130a49afdadf926773fe4f3ce242" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::link_rx_rate</definition>
+        <argsstring>(onboard_computer_status__unsigned_long_array_6 &amp;&amp;_link_rx_rate)</argsstring>
+        <name>link_rx_rate</name>
+        <param>
+          <type>onboard_computer_status__unsigned_long_array_6 &amp;&amp;</type>
+          <declname>_link_rx_rate</declname>
+        </param>
+        <briefdescription>
+<para>This function moves the value in member link_rx_rate. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_link_rx_rate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member link_rx_rate </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="516" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="1058" bodyend="1062"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1aeeba2d4157c2d9f519877c856d426ef2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport const onboard_computer_status__unsigned_long_array_6 &amp;</type>
+        <definition>const onboard_computer_status__unsigned_long_array_6 &amp; onboard_computer_status::link_rx_rate</definition>
+        <argsstring>() const</argsstring>
+        <name>link_rx_rate</name>
+        <briefdescription>
+<para>This function returns a constant reference to member link_rx_rate. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Constant reference to member link_rx_rate </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="523" column="82" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="1068" bodyend="1071"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a7f892aab1adfb4372e0462ae3af713f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport onboard_computer_status__unsigned_long_array_6 &amp;</type>
+        <definition>onboard_computer_status__unsigned_long_array_6 &amp; onboard_computer_status::link_rx_rate</definition>
+        <argsstring>()</argsstring>
+        <name>link_rx_rate</name>
+        <briefdescription>
+<para>This function returns a reference to member link_rx_rate. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member link_rx_rate </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="529" column="76" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="1077" bodyend="1080"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1aa19a8fabd77da945f9ad39028ea5108f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::link_tx_max</definition>
+        <argsstring>(const onboard_computer_status__unsigned_long_array_6 &amp;_link_tx_max)</argsstring>
+        <name>link_tx_max</name>
+        <param>
+          <type>const onboard_computer_status__unsigned_long_array_6 &amp;</type>
+          <declname>_link_tx_max</declname>
+        </param>
+        <briefdescription>
+<para>This function copies the value in member link_tx_max. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_link_tx_max</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member link_tx_max </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="534" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="1085" bodyend="1089"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1afecfd21d1e47e521f87d404ccc328324" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::link_tx_max</definition>
+        <argsstring>(onboard_computer_status__unsigned_long_array_6 &amp;&amp;_link_tx_max)</argsstring>
+        <name>link_tx_max</name>
+        <param>
+          <type>onboard_computer_status__unsigned_long_array_6 &amp;&amp;</type>
+          <declname>_link_tx_max</declname>
+        </param>
+        <briefdescription>
+<para>This function moves the value in member link_tx_max. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_link_tx_max</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member link_tx_max </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="541" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="1095" bodyend="1099"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a368dc9eee635b7f48990ae7d2099ec78" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport const onboard_computer_status__unsigned_long_array_6 &amp;</type>
+        <definition>const onboard_computer_status__unsigned_long_array_6 &amp; onboard_computer_status::link_tx_max</definition>
+        <argsstring>() const</argsstring>
+        <name>link_tx_max</name>
+        <briefdescription>
+<para>This function returns a constant reference to member link_tx_max. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Constant reference to member link_tx_max </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="548" column="82" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="1105" bodyend="1108"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1ae51b12468609f0005252880b4349cb18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport onboard_computer_status__unsigned_long_array_6 &amp;</type>
+        <definition>onboard_computer_status__unsigned_long_array_6 &amp; onboard_computer_status::link_tx_max</definition>
+        <argsstring>()</argsstring>
+        <name>link_tx_max</name>
+        <briefdescription>
+<para>This function returns a reference to member link_tx_max. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member link_tx_max </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="554" column="76" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="1114" bodyend="1117"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1aafba1d0ce984358b9b569191354f4609" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::link_rx_max</definition>
+        <argsstring>(const onboard_computer_status__unsigned_long_array_6 &amp;_link_rx_max)</argsstring>
+        <name>link_rx_max</name>
+        <param>
+          <type>const onboard_computer_status__unsigned_long_array_6 &amp;</type>
+          <declname>_link_rx_max</declname>
+        </param>
+        <briefdescription>
+<para>This function copies the value in member link_rx_max. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_link_rx_max</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member link_rx_max </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="559" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="1122" bodyend="1126"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a2b693abf01ec4eb2587262e77345b275" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::link_rx_max</definition>
+        <argsstring>(onboard_computer_status__unsigned_long_array_6 &amp;&amp;_link_rx_max)</argsstring>
+        <name>link_rx_max</name>
+        <param>
+          <type>onboard_computer_status__unsigned_long_array_6 &amp;&amp;</type>
+          <declname>_link_rx_max</declname>
+        </param>
+        <briefdescription>
+<para>This function moves the value in member link_rx_max. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_link_rx_max</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member link_rx_max </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="566" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="1132" bodyend="1136"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1afb3836e2c5815bac6895437dfc1e01ad" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport const onboard_computer_status__unsigned_long_array_6 &amp;</type>
+        <definition>const onboard_computer_status__unsigned_long_array_6 &amp; onboard_computer_status::link_rx_max</definition>
+        <argsstring>() const</argsstring>
+        <name>link_rx_max</name>
+        <briefdescription>
+<para>This function returns a constant reference to member link_rx_max. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Constant reference to member link_rx_max </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="573" column="82" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="1142" bodyend="1145"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a320a820855b311693073b04815c4b9a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport onboard_computer_status__unsigned_long_array_6 &amp;</type>
+        <definition>onboard_computer_status__unsigned_long_array_6 &amp; onboard_computer_status::link_rx_max</definition>
+        <argsstring>()</argsstring>
+        <name>link_rx_max</name>
+        <briefdescription>
+<para>This function returns a reference to member link_rx_max. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member link_rx_max </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="579" column="76" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="1151" bodyend="1154"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a33b527602b416c373ead94f9aa0adb65" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::serialize</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr) const</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function serializes an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="605" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="388" bodyend="427"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a9168ce67fc95a5c4e72f2f77df67f8ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::deserialize</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr)</argsstring>
+        <name>deserialize</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function deserializes an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="612" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="429" bodyend="467"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1aec053fc35f66691a8436020e3aa13628" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void onboard_computer_status::serializeKey</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr) const</argsstring>
+        <name>serializeKey</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function serializes the key members of an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="635" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="1191" bodyend="1196"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classonboard__computer__status_1a712741f4de4c255b1aa061e631abd9d8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t onboard_computer_status::getMaxCdrSerializedSize</definition>
+        <argsstring>(size_t current_alignment=0)</argsstring>
+        <name>getMaxCdrSerializedSize</name>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the maximum serialized size of an object depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Maximum serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="587" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="218" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1aaff84c94c95f10e63fa18738cfd55713" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t onboard_computer_status::getCdrSerializedSize</definition>
+        <argsstring>(const onboard_computer_status &amp;data, size_t current_alignment=0)</argsstring>
+        <name>getCdrSerializedSize</name>
+        <param>
+          <type>const <ref refid="classonboard__computer__status" kindref="compound">onboard_computer_status</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the serialized size of a data depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data which is calculated its serialized size. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="596" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="288" bodyend="386"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a1bbb2e1dc5225805754da8b62de6421e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t onboard_computer_status::getKeyMaxCdrSerializedSize</definition>
+        <argsstring>(size_t current_alignment=0)</argsstring>
+        <name>getKeyMaxCdrSerializedSize</name>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the maximum serialized size of the Key of an object depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Maximum serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="623" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="1156" bodyend="1184"/>
+      </memberdef>
+      <memberdef kind="function" id="classonboard__computer__status_1a7a35b5297015992d03e300c2ad5ef3f4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool onboard_computer_status::isKeyDefined</definition>
+        <argsstring>()</argsstring>
+        <name>isKeyDefined</name>
+        <briefdescription>
+<para>This function tells you if the Key has been defined for this type. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="629" column="41" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.cxx" bodystart="1186" bodyend="1189"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents the structure <ref refid="classonboard__computer__status" kindref="compound">onboard_computer_status</ref> defined by the user in the IDL file. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" line="74" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/onboard_computer_status.h" bodystart="75" bodyend="660"/>
+    <listofallmembers>
+      <member refid="classonboard__computer__status_1a2d3678de985187de1139b806e0f88dc0" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>cpu_combined</name></member>
+      <member refid="classonboard__computer__status_1aafbf414e2ba5f8c3edbe88448c845cea" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>cpu_combined</name></member>
+      <member refid="classonboard__computer__status_1aabfa80e1e9f943257be61c380adca5a8" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>cpu_combined</name></member>
+      <member refid="classonboard__computer__status_1a3a3d05c8ee0f1f906cb4ae55a36150ab" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>cpu_combined</name></member>
+      <member refid="classonboard__computer__status_1a668b2bc6c7f7f5c7fb7fca6a62d49eda" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>cpu_cores</name></member>
+      <member refid="classonboard__computer__status_1afe7a119d572cd2330db98f91939c5a28" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>cpu_cores</name></member>
+      <member refid="classonboard__computer__status_1ae4e5451f2a61b6a2852124d2675b27df" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>cpu_cores</name></member>
+      <member refid="classonboard__computer__status_1a92ae81eb4c58ae6f2d87318c16de9cc3" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>cpu_cores</name></member>
+      <member refid="classonboard__computer__status_1a9168ce67fc95a5c4e72f2f77df67f8ef" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>deserialize</name></member>
+      <member refid="classonboard__computer__status_1a8798899a1e63a78b638a9796b634b267" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>fan_speed</name></member>
+      <member refid="classonboard__computer__status_1afd7e373ce0858dc446691e54f8c6fbd4" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>fan_speed</name></member>
+      <member refid="classonboard__computer__status_1aa869237c1212ebb0db87f595884d406e" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>fan_speed</name></member>
+      <member refid="classonboard__computer__status_1a95944c256575f1f5fc2aa366ef269709" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>fan_speed</name></member>
+      <member refid="classonboard__computer__status_1aaff84c94c95f10e63fa18738cfd55713" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>getCdrSerializedSize</name></member>
+      <member refid="classonboard__computer__status_1a1bbb2e1dc5225805754da8b62de6421e" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>getKeyMaxCdrSerializedSize</name></member>
+      <member refid="classonboard__computer__status_1a712741f4de4c255b1aa061e631abd9d8" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>getMaxCdrSerializedSize</name></member>
+      <member refid="classonboard__computer__status_1aab14312fe6e8f6a68bf0ec0989da52dd" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>gpu_combined</name></member>
+      <member refid="classonboard__computer__status_1a2805da3869dd4a9fbe6f8e1ce7ff203b" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>gpu_combined</name></member>
+      <member refid="classonboard__computer__status_1abfbce78819b0e371b03e26a96a2f3b28" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>gpu_combined</name></member>
+      <member refid="classonboard__computer__status_1a1b645438ac6df732645ca38ac515b9a7" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>gpu_combined</name></member>
+      <member refid="classonboard__computer__status_1aa9c9fb7be0def18e848c7e106847eb8b" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>gpu_cores</name></member>
+      <member refid="classonboard__computer__status_1a7bf79161f21333d53dc38f506d54c7fd" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>gpu_cores</name></member>
+      <member refid="classonboard__computer__status_1afcfee77e12bc0bddf8a27774c5ebb1e5" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>gpu_cores</name></member>
+      <member refid="classonboard__computer__status_1a70eaeff47ed22a43a9617e22defc9d4e" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>gpu_cores</name></member>
+      <member refid="classonboard__computer__status_1a7a35b5297015992d03e300c2ad5ef3f4" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>isKeyDefined</name></member>
+      <member refid="classonboard__computer__status_1aafba1d0ce984358b9b569191354f4609" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>link_rx_max</name></member>
+      <member refid="classonboard__computer__status_1a2b693abf01ec4eb2587262e77345b275" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>link_rx_max</name></member>
+      <member refid="classonboard__computer__status_1afb3836e2c5815bac6895437dfc1e01ad" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>link_rx_max</name></member>
+      <member refid="classonboard__computer__status_1a320a820855b311693073b04815c4b9a0" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>link_rx_max</name></member>
+      <member refid="classonboard__computer__status_1af8f54a514a39561fe4317d2c47652993" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>link_rx_rate</name></member>
+      <member refid="classonboard__computer__status_1a81c0130a49afdadf926773fe4f3ce242" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>link_rx_rate</name></member>
+      <member refid="classonboard__computer__status_1aeeba2d4157c2d9f519877c856d426ef2" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>link_rx_rate</name></member>
+      <member refid="classonboard__computer__status_1a7f892aab1adfb4372e0462ae3af713f9" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>link_rx_rate</name></member>
+      <member refid="classonboard__computer__status_1aa19a8fabd77da945f9ad39028ea5108f" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>link_tx_max</name></member>
+      <member refid="classonboard__computer__status_1afecfd21d1e47e521f87d404ccc328324" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>link_tx_max</name></member>
+      <member refid="classonboard__computer__status_1a368dc9eee635b7f48990ae7d2099ec78" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>link_tx_max</name></member>
+      <member refid="classonboard__computer__status_1ae51b12468609f0005252880b4349cb18" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>link_tx_max</name></member>
+      <member refid="classonboard__computer__status_1a94e33199f6e2a70c31a5b63375a426a1" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>link_tx_rate</name></member>
+      <member refid="classonboard__computer__status_1a9a137105973419ee22a5efe1378904ab" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>link_tx_rate</name></member>
+      <member refid="classonboard__computer__status_1ab7fc8c39b5cef781554265b3ee780963" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>link_tx_rate</name></member>
+      <member refid="classonboard__computer__status_1ad9d3089ac277afb1e426a01245f3e8ee" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>link_tx_rate</name></member>
+      <member refid="classonboard__computer__status_1a3c241ee1481efa22eb33f44c997cedde" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>link_type</name></member>
+      <member refid="classonboard__computer__status_1aa4ba110a35cc3107625812fe8de17273" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>link_type</name></member>
+      <member refid="classonboard__computer__status_1a5b708aa8d869c7de095fec1f9aee9b13" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>link_type</name></member>
+      <member refid="classonboard__computer__status_1abe3fac300dbf0e1f2573514011ebaeef" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>link_type</name></member>
+      <member refid="classonboard__computer__status_1a1c39a6e033ad083ad4f48e7f8719b39a" prot="private" virt="non-virtual"><scope>onboard_computer_status</scope><name>m_cpu_combined</name></member>
+      <member refid="classonboard__computer__status_1aaeb406c7530c8e414379134d0100a8cc" prot="private" virt="non-virtual"><scope>onboard_computer_status</scope><name>m_cpu_cores</name></member>
+      <member refid="classonboard__computer__status_1a283a501c10fd291ca55dba69e254e264" prot="private" virt="non-virtual"><scope>onboard_computer_status</scope><name>m_fan_speed</name></member>
+      <member refid="classonboard__computer__status_1a17c05b06d9e6b1ebeef11d502df32c55" prot="private" virt="non-virtual"><scope>onboard_computer_status</scope><name>m_gpu_combined</name></member>
+      <member refid="classonboard__computer__status_1a60f4fd75cc618f77466634f86eadc140" prot="private" virt="non-virtual"><scope>onboard_computer_status</scope><name>m_gpu_cores</name></member>
+      <member refid="classonboard__computer__status_1ae83c60fc60990d5306b49653a9265b48" prot="private" virt="non-virtual"><scope>onboard_computer_status</scope><name>m_link_rx_max</name></member>
+      <member refid="classonboard__computer__status_1a8e94b1fea860c0007539a2fa3cfb3781" prot="private" virt="non-virtual"><scope>onboard_computer_status</scope><name>m_link_rx_rate</name></member>
+      <member refid="classonboard__computer__status_1a12e7b38fbb94e6517697626dcfc32499" prot="private" virt="non-virtual"><scope>onboard_computer_status</scope><name>m_link_tx_max</name></member>
+      <member refid="classonboard__computer__status_1a2b46a1bbe69ba1eed4c116ca9d6e0699" prot="private" virt="non-virtual"><scope>onboard_computer_status</scope><name>m_link_tx_rate</name></member>
+      <member refid="classonboard__computer__status_1a4a3109ac30077cc3e4ede9332a81eae3" prot="private" virt="non-virtual"><scope>onboard_computer_status</scope><name>m_link_type</name></member>
+      <member refid="classonboard__computer__status_1a38ad1cd84047a4fbc0b184820f67f363" prot="private" virt="non-virtual"><scope>onboard_computer_status</scope><name>m_ram_total_</name></member>
+      <member refid="classonboard__computer__status_1a1c04ae5a104d0a4413dd94c8b070db25" prot="private" virt="non-virtual"><scope>onboard_computer_status</scope><name>m_ram_usage_</name></member>
+      <member refid="classonboard__computer__status_1aead0c0a75dfde2cbc89c3ac02c5bc4cd" prot="private" virt="non-virtual"><scope>onboard_computer_status</scope><name>m_storage_total</name></member>
+      <member refid="classonboard__computer__status_1af7268b79b76a7d434c5a11a1ac2f06f4" prot="private" virt="non-virtual"><scope>onboard_computer_status</scope><name>m_storage_type</name></member>
+      <member refid="classonboard__computer__status_1a828f283bf53bbb0f37d5f3dcb4c12bac" prot="private" virt="non-virtual"><scope>onboard_computer_status</scope><name>m_storage_usage</name></member>
+      <member refid="classonboard__computer__status_1ada75d810861cbde07cf6331cd150141f" prot="private" virt="non-virtual"><scope>onboard_computer_status</scope><name>m_temperature_board_</name></member>
+      <member refid="classonboard__computer__status_1aeaac64661561f52b8e3f36fc0d81243e" prot="private" virt="non-virtual"><scope>onboard_computer_status</scope><name>m_temperature_core</name></member>
+      <member refid="classonboard__computer__status_1a497ff4370a833e388d116de02b21763c" prot="private" virt="non-virtual"><scope>onboard_computer_status</scope><name>m_timestamp_</name></member>
+      <member refid="classonboard__computer__status_1a6f4faa4d009cdc0e797e250b8e482bda" prot="private" virt="non-virtual"><scope>onboard_computer_status</scope><name>m_type_</name></member>
+      <member refid="classonboard__computer__status_1a651b1341efca58fae73b8be37995e262" prot="private" virt="non-virtual"><scope>onboard_computer_status</scope><name>m_uptime_</name></member>
+      <member refid="classonboard__computer__status_1a86af4a242e7ab6da7e3a545761e0558f" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>onboard_computer_status</name></member>
+      <member refid="classonboard__computer__status_1aeaa2bc7de9e501302690b709e6c1cdb4" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>onboard_computer_status</name></member>
+      <member refid="classonboard__computer__status_1acbae6dcbf083ef9dc03282806b23615c" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>onboard_computer_status</name></member>
+      <member refid="classonboard__computer__status_1a186ea5b2fbea07f46dba6c15eb5b5018" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>operator=</name></member>
+      <member refid="classonboard__computer__status_1a6e957c016e812220244eda12ee4348a9" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>operator=</name></member>
+      <member refid="classonboard__computer__status_1a0bdb2be35ae6c8020a1b026a1cf85313" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>ram_total_</name></member>
+      <member refid="classonboard__computer__status_1ac13f1fe543432d8c3d25b0d9f7eb241b" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>ram_total_</name></member>
+      <member refid="classonboard__computer__status_1ad671ffaebcce9804e047a5fd6b2b388c" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>ram_total_</name></member>
+      <member refid="classonboard__computer__status_1a7409765fe68fb4c47ec3e56f807aaa37" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>ram_usage_</name></member>
+      <member refid="classonboard__computer__status_1a3c1230ba1114ab2b7b95485698e1788a" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>ram_usage_</name></member>
+      <member refid="classonboard__computer__status_1ad8e85a287295bcb08da9a8f55dcd65c4" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>ram_usage_</name></member>
+      <member refid="classonboard__computer__status_1a33b527602b416c373ead94f9aa0adb65" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>serialize</name></member>
+      <member refid="classonboard__computer__status_1aec053fc35f66691a8436020e3aa13628" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>serializeKey</name></member>
+      <member refid="classonboard__computer__status_1a65e5f605621cf55169d3adbb0cc951c1" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>storage_total</name></member>
+      <member refid="classonboard__computer__status_1a106bab39311ac340800dbed5205d6bd0" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>storage_total</name></member>
+      <member refid="classonboard__computer__status_1a33a9204613d4ead295162de134ed95f9" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>storage_total</name></member>
+      <member refid="classonboard__computer__status_1a91f5866032d9812231f9a35ff37206cf" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>storage_total</name></member>
+      <member refid="classonboard__computer__status_1af4818ed25203f452a640b5d28752336e" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>storage_type</name></member>
+      <member refid="classonboard__computer__status_1acc667b77ab00fb53cdc76c325f51aaee" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>storage_type</name></member>
+      <member refid="classonboard__computer__status_1a3f1318cc85ad062444be83e973e3b9cd" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>storage_type</name></member>
+      <member refid="classonboard__computer__status_1a54382944f5623c333fbd8b25548575e6" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>storage_type</name></member>
+      <member refid="classonboard__computer__status_1a0275a5ee8acc1cfaa5ac0b2866ecb645" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>storage_usage</name></member>
+      <member refid="classonboard__computer__status_1a1d4145f7072f36aa4d38f91973ac47cb" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>storage_usage</name></member>
+      <member refid="classonboard__computer__status_1a9f44e1f4f71821500bdf131f5ffc2041" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>storage_usage</name></member>
+      <member refid="classonboard__computer__status_1a4327cbf6e0bb3112c3691988d719de7f" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>storage_usage</name></member>
+      <member refid="classonboard__computer__status_1aabc7c8f13e680a15754b6b71fd7ede87" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>temperature_board_</name></member>
+      <member refid="classonboard__computer__status_1a56a5adafc728bbdaa5bbed633c8b7caa" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>temperature_board_</name></member>
+      <member refid="classonboard__computer__status_1a2262f89f7f6145814d1e8f9aacf73b12" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>temperature_board_</name></member>
+      <member refid="classonboard__computer__status_1a441bf984138a0e34eb3a245c571a29bb" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>temperature_core</name></member>
+      <member refid="classonboard__computer__status_1ac56b043b53ce434dc04ea807782b9596" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>temperature_core</name></member>
+      <member refid="classonboard__computer__status_1a92fa2e4fa6763593f2eaa0fa751f2c24" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>temperature_core</name></member>
+      <member refid="classonboard__computer__status_1a933b5072c5e5a4b17af5e28e4a4d5a44" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>temperature_core</name></member>
+      <member refid="classonboard__computer__status_1ade21fb51c4236a9407c60976ed8be02a" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>timestamp_</name></member>
+      <member refid="classonboard__computer__status_1a759303269900ca64b43f9f06ceaccc96" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>timestamp_</name></member>
+      <member refid="classonboard__computer__status_1ac2a477e7c7a3a3f7953086f921d154d8" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>timestamp_</name></member>
+      <member refid="classonboard__computer__status_1ab41978e6e41528f69fe40540993040bb" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>type_</name></member>
+      <member refid="classonboard__computer__status_1aeb8f27ed29c29d23c6e369ec856e8307" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>type_</name></member>
+      <member refid="classonboard__computer__status_1a33b1833bc9ce6c226f92a10c47b6477d" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>type_</name></member>
+      <member refid="classonboard__computer__status_1a46f00a75babffb46cae03c20a1bf63df" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>uptime_</name></member>
+      <member refid="classonboard__computer__status_1af6be0a0a70fa72d84ac3eef609c97d3f" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>uptime_</name></member>
+      <member refid="classonboard__computer__status_1a028ce04f3019eb645a2f9de87051b7ca" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>uptime_</name></member>
+      <member refid="classonboard__computer__status_1a3ae36bfe7ecaea056f355e78c1faf8e4" prot="public" virt="non-virtual"><scope>onboard_computer_status</scope><name>~onboard_computer_status</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

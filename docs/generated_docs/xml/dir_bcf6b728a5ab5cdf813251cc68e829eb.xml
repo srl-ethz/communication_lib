@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_bcf6b728a5ab5cdf813251cc68e829eb" kind="dir">
+    <compoundname>/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher</compoundname>
+    <innerfile refid="video__publisher_8cpp">video_publisher.cpp</innerfile>
+    <innerfile refid="video__publisher_8h">video_publisher.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/"/>
+  </compounddef>
+</doxygen>

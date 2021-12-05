@@ -1,0 +1,144 @@
+\hypertarget{_quad_velocity_cmd_8h_source}{}\doxysection{Quad\+Velocity\+Cmd.\+h}
+\label{_quad_velocity_cmd_8h_source}\index{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/msg\_definitions/QuadVelocityCmd.h@{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/msg\_definitions/QuadVelocityCmd.h}}
+\mbox{\hyperlink{_quad_velocity_cmd_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{// Copyright 2016 Proyectos y Sistemas de Mantenimiento SL (eProsima).}}
+\DoxyCodeLine{2 \textcolor{comment}{//}}
+\DoxyCodeLine{3 \textcolor{comment}{// Licensed under the Apache License, Version 2.0 (the "{}License"{});}}
+\DoxyCodeLine{4 \textcolor{comment}{// you may not use this file except in compliance with the License.}}
+\DoxyCodeLine{5 \textcolor{comment}{// You may obtain a copy of the License at}}
+\DoxyCodeLine{6 \textcolor{comment}{//}}
+\DoxyCodeLine{7 \textcolor{comment}{//     http://www.apache.org/licenses/LICENSE-\/2.0}}
+\DoxyCodeLine{8 \textcolor{comment}{//}}
+\DoxyCodeLine{9 \textcolor{comment}{// Unless required by applicable law or agreed to in writing, software}}
+\DoxyCodeLine{10 \textcolor{comment}{// distributed under the License is distributed on an "{}AS IS"{} BASIS,}}
+\DoxyCodeLine{11 \textcolor{comment}{// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.}}
+\DoxyCodeLine{12 \textcolor{comment}{// See the License for the specific language governing permissions and}}
+\DoxyCodeLine{13 \textcolor{comment}{// limitations under the License.}}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{22 \textcolor{preprocessor}{\#ifndef \_IDL\_MSG\_QUADVELOCITYCMD\_H\_}}
+\DoxyCodeLine{23 \textcolor{preprocessor}{\#define \_IDL\_MSG\_QUADVELOCITYCMD\_H\_}}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_header_8h}{Header.h}}"{}}}
+\DoxyCodeLine{26 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_velocity_8h}{Velocity.h}}"{}}}
+\DoxyCodeLine{27 }
+\DoxyCodeLine{28 \textcolor{preprocessor}{\#include <stdint.h>}}
+\DoxyCodeLine{29 \textcolor{preprocessor}{\#include <array>}}
+\DoxyCodeLine{30 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{31 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{32 \textcolor{preprocessor}{\#include <map>}}
+\DoxyCodeLine{33 \textcolor{preprocessor}{\#include <bitset>}}
+\DoxyCodeLine{34 }
+\DoxyCodeLine{35 \textcolor{preprocessor}{\#if defined(\_WIN32)}}
+\DoxyCodeLine{36 \textcolor{preprocessor}{\#if defined(EPROSIMA\_USER\_DLL\_EXPORT)}}
+\DoxyCodeLine{37 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport \_\_declspec( dllexport )}}
+\DoxyCodeLine{38 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{39 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport}}
+\DoxyCodeLine{40 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// EPROSIMA\_USER\_DLL\_EXPORT}}
+\DoxyCodeLine{41 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{42 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport}}
+\DoxyCodeLine{43 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// \_WIN32}}
+\DoxyCodeLine{44 }
+\DoxyCodeLine{45 \textcolor{preprocessor}{\#if defined(\_WIN32)}}
+\DoxyCodeLine{46 \textcolor{preprocessor}{\#if defined(EPROSIMA\_USER\_DLL\_EXPORT)}}
+\DoxyCodeLine{47 \textcolor{preprocessor}{\#if defined(QuadVelocityCmd\_SOURCE)}}
+\DoxyCodeLine{48 \textcolor{preprocessor}{\#define QuadVelocityCmd\_DllAPI \_\_declspec( dllexport )}}
+\DoxyCodeLine{49 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{50 \textcolor{preprocessor}{\#define QuadVelocityCmd\_DllAPI \_\_declspec( dllimport )}}
+\DoxyCodeLine{51 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// QuadVelocityCmd\_SOURCE}}
+\DoxyCodeLine{52 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{53 \textcolor{preprocessor}{\#define QuadVelocityCmd\_DllAPI}}
+\DoxyCodeLine{54 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// EPROSIMA\_USER\_DLL\_EXPORT}}
+\DoxyCodeLine{55 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{56 \textcolor{preprocessor}{\#define QuadVelocityCmd\_DllAPI}}
+\DoxyCodeLine{57 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_WIN32}}
+\DoxyCodeLine{58 }
+\DoxyCodeLine{59 \textcolor{keyword}{namespace }eprosima \{}
+\DoxyCodeLine{60 \textcolor{keyword}{namespace }fastcdr \{}
+\DoxyCodeLine{61 \textcolor{keyword}{class }Cdr;}
+\DoxyCodeLine{62 \} \textcolor{comment}{// namespace fastcdr}}
+\DoxyCodeLine{63 \} \textcolor{comment}{// namespace eprosima}}
+\DoxyCodeLine{64 }
+\DoxyCodeLine{65 }
+\DoxyCodeLine{66 \textcolor{keyword}{namespace }idl\_msg \{}
+\DoxyCodeLine{71     \textcolor{keyword}{class }\mbox{\hyperlink{classidl__msg_1_1_quad_velocity_cmd}{QuadVelocityCmd}}}
+\DoxyCodeLine{72     \{}
+\DoxyCodeLine{73     \textcolor{keyword}{public}:}
+\DoxyCodeLine{74 }
+\DoxyCodeLine{78         eProsima\_user\_DllExport \mbox{\hyperlink{classidl__msg_1_1_quad_velocity_cmd_aaf624e478c72acb7f9a30356f0e48f31}{QuadVelocityCmd}}();}
+\DoxyCodeLine{79 }
+\DoxyCodeLine{83         eProsima\_user\_DllExport \mbox{\hyperlink{classidl__msg_1_1_quad_velocity_cmd_aaedcfe1bb576cc01b83ef71a6aef5afa}{\string~QuadVelocityCmd}}();}
+\DoxyCodeLine{84 }
+\DoxyCodeLine{89         eProsima\_user\_DllExport \mbox{\hyperlink{classidl__msg_1_1_quad_velocity_cmd_aaf624e478c72acb7f9a30356f0e48f31}{QuadVelocityCmd}}(}
+\DoxyCodeLine{90                 \textcolor{keyword}{const} \mbox{\hyperlink{classidl__msg_1_1_quad_velocity_cmd}{QuadVelocityCmd}}\& x);}
+\DoxyCodeLine{91 }
+\DoxyCodeLine{96         eProsima\_user\_DllExport \mbox{\hyperlink{classidl__msg_1_1_quad_velocity_cmd_aaf624e478c72acb7f9a30356f0e48f31}{QuadVelocityCmd}}(}
+\DoxyCodeLine{97                 \mbox{\hyperlink{classidl__msg_1_1_quad_velocity_cmd}{QuadVelocityCmd}}\&\& x);}
+\DoxyCodeLine{98 }
+\DoxyCodeLine{103         eProsima\_user\_DllExport \mbox{\hyperlink{classidl__msg_1_1_quad_velocity_cmd}{QuadVelocityCmd}}\& \mbox{\hyperlink{classidl__msg_1_1_quad_velocity_cmd_a55d8bfe64b1beeade18bbf77e387d9d3}{operator =}}(}
+\DoxyCodeLine{104                 \textcolor{keyword}{const} \mbox{\hyperlink{classidl__msg_1_1_quad_velocity_cmd}{QuadVelocityCmd}}\& x);}
+\DoxyCodeLine{105 }
+\DoxyCodeLine{110         eProsima\_user\_DllExport \mbox{\hyperlink{classidl__msg_1_1_quad_velocity_cmd}{QuadVelocityCmd}}\& \mbox{\hyperlink{classidl__msg_1_1_quad_velocity_cmd_a55d8bfe64b1beeade18bbf77e387d9d3}{operator =}}(}
+\DoxyCodeLine{111                 \mbox{\hyperlink{classidl__msg_1_1_quad_velocity_cmd}{QuadVelocityCmd}}\&\& x);}
+\DoxyCodeLine{112 }
+\DoxyCodeLine{117         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_quad_velocity_cmd_a2466d039488529580db38153298e1b34}{header}}(}
+\DoxyCodeLine{118                 \textcolor{keyword}{const} \mbox{\hyperlink{classidl__msg_1_1_header}{idl\_msg::Header}}\& \_header);}
+\DoxyCodeLine{119 }
+\DoxyCodeLine{124         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_quad_velocity_cmd_a2466d039488529580db38153298e1b34}{header}}(}
+\DoxyCodeLine{125                 \mbox{\hyperlink{classidl__msg_1_1_header}{idl\_msg::Header}}\&\& \_header);}
+\DoxyCodeLine{126 }
+\DoxyCodeLine{131         eProsima\_user\_DllExport \textcolor{keyword}{const} \mbox{\hyperlink{classidl__msg_1_1_header}{idl\_msg::Header}}\& \mbox{\hyperlink{classidl__msg_1_1_quad_velocity_cmd_a2466d039488529580db38153298e1b34}{header}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{132 }
+\DoxyCodeLine{137         eProsima\_user\_DllExport \mbox{\hyperlink{classidl__msg_1_1_header}{idl\_msg::Header}}\& \mbox{\hyperlink{classidl__msg_1_1_quad_velocity_cmd_a2466d039488529580db38153298e1b34}{header}}();}
+\DoxyCodeLine{142         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_quad_velocity_cmd_aa65148dbecd419e7a4446422789feb4e}{velocity}}(}
+\DoxyCodeLine{143                 \textcolor{keyword}{const} \mbox{\hyperlink{classidl__msg_1_1_velocity}{idl\_msg::Velocity}}\& \_velocity);}
+\DoxyCodeLine{144 }
+\DoxyCodeLine{149         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_quad_velocity_cmd_aa65148dbecd419e7a4446422789feb4e}{velocity}}(}
+\DoxyCodeLine{150                 \mbox{\hyperlink{classidl__msg_1_1_velocity}{idl\_msg::Velocity}}\&\& \_velocity);}
+\DoxyCodeLine{151 }
+\DoxyCodeLine{156         eProsima\_user\_DllExport \textcolor{keyword}{const} \mbox{\hyperlink{classidl__msg_1_1_velocity}{idl\_msg::Velocity}}\& \mbox{\hyperlink{classidl__msg_1_1_quad_velocity_cmd_aa65148dbecd419e7a4446422789feb4e}{velocity}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{157 }
+\DoxyCodeLine{162         eProsima\_user\_DllExport \mbox{\hyperlink{classidl__msg_1_1_velocity}{idl\_msg::Velocity}}\& \mbox{\hyperlink{classidl__msg_1_1_quad_velocity_cmd_aa65148dbecd419e7a4446422789feb4e}{velocity}}();}
+\DoxyCodeLine{167         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_quad_velocity_cmd_a37297014ccbd6a26e560599b7ef141b5}{yaw\_rate}}(}
+\DoxyCodeLine{168                 \textcolor{keywordtype}{float} \_yaw\_rate);}
+\DoxyCodeLine{169 }
+\DoxyCodeLine{174         eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classidl__msg_1_1_quad_velocity_cmd_a37297014ccbd6a26e560599b7ef141b5}{yaw\_rate}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{175 }
+\DoxyCodeLine{180         eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classidl__msg_1_1_quad_velocity_cmd_a37297014ccbd6a26e560599b7ef141b5}{yaw\_rate}}();}
+\DoxyCodeLine{181 }
+\DoxyCodeLine{182 }
+\DoxyCodeLine{189         eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classidl__msg_1_1_quad_velocity_cmd_a33719137540e116f312f0e3cb49bc5be}{getMaxCdrSerializedSize}}(}
+\DoxyCodeLine{190                 \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{191 }
+\DoxyCodeLine{198         eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classidl__msg_1_1_quad_velocity_cmd_a787f39bcb00a602d15e46f9c8d741768}{getCdrSerializedSize}}(}
+\DoxyCodeLine{199                 \textcolor{keyword}{const} \mbox{\hyperlink{classidl__msg_1_1_quad_velocity_cmd}{idl\_msg::QuadVelocityCmd}}\& data,}
+\DoxyCodeLine{200                 \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{201 }
+\DoxyCodeLine{202 }
+\DoxyCodeLine{207         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_quad_velocity_cmd_aee733554be5185fe63b66333ff6dd465}{serialize}}(}
+\DoxyCodeLine{208                 eprosima::fastcdr::Cdr\& cdr) \textcolor{keyword}{const};}
+\DoxyCodeLine{209 }
+\DoxyCodeLine{214         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_quad_velocity_cmd_a0ec0acd9feac75b9d11db4e4d1ebbb1d}{deserialize}}(}
+\DoxyCodeLine{215                 eprosima::fastcdr::Cdr\& cdr);}
+\DoxyCodeLine{216 }
+\DoxyCodeLine{217 }
+\DoxyCodeLine{218 }
+\DoxyCodeLine{225         eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classidl__msg_1_1_quad_velocity_cmd_ac4a5afb82ebfe704b4a63bdea113d461}{getKeyMaxCdrSerializedSize}}(}
+\DoxyCodeLine{226                 \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{227 }
+\DoxyCodeLine{231         eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{bool} \mbox{\hyperlink{classidl__msg_1_1_quad_velocity_cmd_a320ba124a6fb22783a6589b200bbe0c2}{isKeyDefined}}();}
+\DoxyCodeLine{232 }
+\DoxyCodeLine{237         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_quad_velocity_cmd_a9a68e46937768590c35a7f300ec78054}{serializeKey}}(}
+\DoxyCodeLine{238                 eprosima::fastcdr::Cdr\& cdr) \textcolor{keyword}{const};}
+\DoxyCodeLine{239 }
+\DoxyCodeLine{240     \textcolor{keyword}{private}:}
+\DoxyCodeLine{241 }
+\DoxyCodeLine{242         \mbox{\hyperlink{classidl__msg_1_1_header}{idl\_msg::Header}} m\_header;}
+\DoxyCodeLine{243         \mbox{\hyperlink{classidl__msg_1_1_velocity}{idl\_msg::Velocity}} m\_velocity;}
+\DoxyCodeLine{244         \textcolor{keywordtype}{float} m\_yaw\_rate;}
+\DoxyCodeLine{245     \};}
+\DoxyCodeLine{246 \} \textcolor{comment}{// namespace idl\_msg}}
+\DoxyCodeLine{247 }
+\DoxyCodeLine{248 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_IDL\_MSG\_QUADVELOCITYCMD\_H\_}}
+
+\end{DoxyCode}

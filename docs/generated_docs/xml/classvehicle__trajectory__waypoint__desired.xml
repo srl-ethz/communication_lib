@@ -1,0 +1,643 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classvehicle__trajectory__waypoint__desired" kind="class" language="C++" prot="public">
+    <compoundname>vehicle_trajectory_waypoint_desired</compoundname>
+    <includes refid="vehicle__trajectory__waypoint__desired_8h" local="no">vehicle_trajectory_waypoint_desired.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classvehicle__trajectory__waypoint__desired_1a69237d8acddeecfe8648d0f8d6dd2401" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t vehicle_trajectory_waypoint_desired::m_timestamp_</definition>
+        <argsstring></argsstring>
+        <name>m_timestamp_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.h" line="243" column="14" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.h" bodystart="243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__trajectory__waypoint__desired_1a1cb662d5d694993cb9ae2e790696579a" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t vehicle_trajectory_waypoint_desired::m_type_</definition>
+        <argsstring></argsstring>
+        <name>m_type_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.h" line="244" column="13" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.h" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__trajectory__waypoint__desired_1aab575e04ed548cdf02e77c6cd96f7f0e" prot="private" static="no" mutable="no">
+        <type>vehicle_trajectory_waypoint_desired__trajectory_waypoint_array_5</type>
+        <definition>vehicle_trajectory_waypoint_desired__trajectory_waypoint_array_5 vehicle_trajectory_waypoint_desired::m_waypoints</definition>
+        <argsstring></argsstring>
+        <name>m_waypoints</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.h" line="245" column="70" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.h" bodystart="245" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classvehicle__trajectory__waypoint__desired_1a994dbeeb12e48f92cf4a6c52821ada9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>vehicle_trajectory_waypoint_desired::vehicle_trajectory_waypoint_desired</definition>
+        <argsstring>()</argsstring>
+        <name>vehicle_trajectory_waypoint_desired</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.h" line="85" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.cxx" bodystart="46" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__trajectory__waypoint__desired_1a74fbf4eb2ebd3e115b560ccc9bd0d505" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>vehicle_trajectory_waypoint_desired::~vehicle_trajectory_waypoint_desired</definition>
+        <argsstring>()</argsstring>
+        <name>~vehicle_trajectory_waypoint_desired</name>
+        <briefdescription>
+<para>Default destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.h" line="90" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.cxx" bodystart="57" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__trajectory__waypoint__desired_1a6054f27f80ae5c9435882bef499c454a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>vehicle_trajectory_waypoint_desired::vehicle_trajectory_waypoint_desired</definition>
+        <argsstring>(const vehicle_trajectory_waypoint_desired &amp;x)</argsstring>
+        <name>vehicle_trajectory_waypoint_desired</name>
+        <param>
+          <type>const <ref refid="classvehicle__trajectory__waypoint__desired" kindref="compound">vehicle_trajectory_waypoint_desired</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classvehicle__trajectory__waypoint__desired" kindref="compound">vehicle_trajectory_waypoint_desired</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.h" line="96" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.cxx" bodystart="64" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__trajectory__waypoint__desired_1a06ea5d6cf8124c38cd15232e57a70748" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>vehicle_trajectory_waypoint_desired::vehicle_trajectory_waypoint_desired</definition>
+        <argsstring>(vehicle_trajectory_waypoint_desired &amp;&amp;x)</argsstring>
+        <name>vehicle_trajectory_waypoint_desired</name>
+        <param>
+          <type><ref refid="classvehicle__trajectory__waypoint__desired" kindref="compound">vehicle_trajectory_waypoint_desired</ref> &amp;&amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Move constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classvehicle__trajectory__waypoint__desired" kindref="compound">vehicle_trajectory_waypoint_desired</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.h" line="103" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.cxx" bodystart="72" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__trajectory__waypoint__desired_1a21bdf3825b8c9b336b2a78c0a72d0fd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport <ref refid="classvehicle__trajectory__waypoint__desired" kindref="compound">vehicle_trajectory_waypoint_desired</ref> &amp;</type>
+        <definition>vehicle_trajectory_waypoint_desired &amp; vehicle_trajectory_waypoint_desired::operator=</definition>
+        <argsstring>(const vehicle_trajectory_waypoint_desired &amp;x)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classvehicle__trajectory__waypoint__desired" kindref="compound">vehicle_trajectory_waypoint_desired</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Copy assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classvehicle__trajectory__waypoint__desired" kindref="compound">vehicle_trajectory_waypoint_desired</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.h" line="110" column="65" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.cxx" bodystart="80" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__trajectory__waypoint__desired_1a57621ebb85dd3e4f1bb1a3575fb8e5ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport <ref refid="classvehicle__trajectory__waypoint__desired" kindref="compound">vehicle_trajectory_waypoint_desired</ref> &amp;</type>
+        <definition>vehicle_trajectory_waypoint_desired &amp; vehicle_trajectory_waypoint_desired::operator=</definition>
+        <argsstring>(vehicle_trajectory_waypoint_desired &amp;&amp;x)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classvehicle__trajectory__waypoint__desired" kindref="compound">vehicle_trajectory_waypoint_desired</ref> &amp;&amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Move assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classvehicle__trajectory__waypoint__desired" kindref="compound">vehicle_trajectory_waypoint_desired</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.h" line="117" column="65" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.cxx" bodystart="91" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__trajectory__waypoint__desired_1ac4f5872d0aa111b740bef24296e6b539" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_trajectory_waypoint_desired::timestamp_</definition>
+        <argsstring>(uint64_t _timestamp_)</argsstring>
+        <name>timestamp_</name>
+        <param>
+          <type>uint64_t</type>
+          <declname>_timestamp_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;timestamp&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member timestamp_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.h" line="124" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.cxx" bodystart="170" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__trajectory__waypoint__desired_1a734100fdaccab5c748b884c0135a525a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint64_t</type>
+        <definition>uint64_t vehicle_trajectory_waypoint_desired::timestamp_</definition>
+        <argsstring>() const</argsstring>
+        <name>timestamp_</name>
+        <briefdescription>
+<para>This function returns the value of member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member timestamp_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.h" line="131" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.cxx" bodystart="180" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__trajectory__waypoint__desired_1a2a8ab854b5d94a161d855d80f3668be9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint64_t &amp;</type>
+        <definition>uint64_t &amp; vehicle_trajectory_waypoint_desired::timestamp_</definition>
+        <argsstring>()</argsstring>
+        <name>timestamp_</name>
+        <briefdescription>
+<para>This function returns a reference to member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member timestamp_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.h" line="137" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.cxx" bodystart="189" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__trajectory__waypoint__desired_1a6bdf97f54345c8c40ce1a5ed73f8606b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_trajectory_waypoint_desired::type_</definition>
+        <argsstring>(uint8_t _type_)</argsstring>
+        <name>type_</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>_type_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member type_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;type&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member type_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.h" line="143" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.cxx" bodystart="198" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__trajectory__waypoint__desired_1a526d4eda312fb392d035448c4fb0f9bc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint8_t</type>
+        <definition>uint8_t vehicle_trajectory_waypoint_desired::type_</definition>
+        <argsstring>() const</argsstring>
+        <name>type_</name>
+        <briefdescription>
+<para>This function returns the value of member type_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member type_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.h" line="150" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.cxx" bodystart="208" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__trajectory__waypoint__desired_1a4a12fb2da44f4b5bb6645fdabf94c799" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint8_t &amp;</type>
+        <definition>uint8_t &amp; vehicle_trajectory_waypoint_desired::type_</definition>
+        <argsstring>()</argsstring>
+        <name>type_</name>
+        <briefdescription>
+<para>This function returns a reference to member type_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member type_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.h" line="156" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.cxx" bodystart="217" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__trajectory__waypoint__desired_1aa4f670d109060af9c3bbe384eb0d4f76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_trajectory_waypoint_desired::waypoints</definition>
+        <argsstring>(const vehicle_trajectory_waypoint_desired__trajectory_waypoint_array_5 &amp;_waypoints)</argsstring>
+        <name>waypoints</name>
+        <param>
+          <type>const vehicle_trajectory_waypoint_desired__trajectory_waypoint_array_5 &amp;</type>
+          <declname>_waypoints</declname>
+        </param>
+        <briefdescription>
+<para>This function copies the value in member waypoints. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_waypoints</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member waypoints </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.h" line="162" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.cxx" bodystart="226" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__trajectory__waypoint__desired_1a33ab22fe598ecac990a44bedb5752a88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_trajectory_waypoint_desired::waypoints</definition>
+        <argsstring>(vehicle_trajectory_waypoint_desired__trajectory_waypoint_array_5 &amp;&amp;_waypoints)</argsstring>
+        <name>waypoints</name>
+        <param>
+          <type>vehicle_trajectory_waypoint_desired__trajectory_waypoint_array_5 &amp;&amp;</type>
+          <declname>_waypoints</declname>
+        </param>
+        <briefdescription>
+<para>This function moves the value in member waypoints. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_waypoints</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member waypoints </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.h" line="169" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.cxx" bodystart="236" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__trajectory__waypoint__desired_1a9f35cdbdb1770a9a2f117fc18605073c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport const vehicle_trajectory_waypoint_desired__trajectory_waypoint_array_5 &amp;</type>
+        <definition>const vehicle_trajectory_waypoint_desired__trajectory_waypoint_array_5 &amp; vehicle_trajectory_waypoint_desired::waypoints</definition>
+        <argsstring>() const</argsstring>
+        <name>waypoints</name>
+        <briefdescription>
+<para>This function returns a constant reference to member waypoints. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Constant reference to member waypoints </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.h" line="176" column="100" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.cxx" bodystart="246" bodyend="249"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__trajectory__waypoint__desired_1a088ecc166500d737690c3d865420ee5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport vehicle_trajectory_waypoint_desired__trajectory_waypoint_array_5 &amp;</type>
+        <definition>vehicle_trajectory_waypoint_desired__trajectory_waypoint_array_5 &amp; vehicle_trajectory_waypoint_desired::waypoints</definition>
+        <argsstring>()</argsstring>
+        <name>waypoints</name>
+        <briefdescription>
+<para>This function returns a reference to member waypoints. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member waypoints </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.h" line="182" column="94" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.cxx" bodystart="255" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__trajectory__waypoint__desired_1a3e0d309c870d7087e1efa2bd292acc11" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_trajectory_waypoint_desired::serialize</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr) const</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function serializes an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.h" line="208" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.cxx" bodystart="145" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__trajectory__waypoint__desired_1aa3c29976a88c6ae64fec8581fc39c7ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_trajectory_waypoint_desired::deserialize</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr)</argsstring>
+        <name>deserialize</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function deserializes an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.h" line="215" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.cxx" bodystart="156" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__trajectory__waypoint__desired_1ae4032ec71a5c1d35df8890ad6b6f4efc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_trajectory_waypoint_desired::serializeKey</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr) const</argsstring>
+        <name>serializeKey</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function serializes the key members of an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.h" line="238" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.cxx" bodystart="278" bodyend="283"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classvehicle__trajectory__waypoint__desired_1a5121c2dc35a077ed53df09040fa0278f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t vehicle_trajectory_waypoint_desired::getMaxCdrSerializedSize</definition>
+        <argsstring>(size_t current_alignment=0)</argsstring>
+        <name>getMaxCdrSerializedSize</name>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the maximum serialized size of an object depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Maximum serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.h" line="190" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.cxx" bodystart="102" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__trajectory__waypoint__desired_1a9b2518694aa9b64c071291d74d5bd4f7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t vehicle_trajectory_waypoint_desired::getCdrSerializedSize</definition>
+        <argsstring>(const vehicle_trajectory_waypoint_desired &amp;data, size_t current_alignment=0)</argsstring>
+        <name>getCdrSerializedSize</name>
+        <param>
+          <type>const <ref refid="classvehicle__trajectory__waypoint__desired" kindref="compound">vehicle_trajectory_waypoint_desired</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the serialized size of a data depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data which is calculated its serialized size. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.h" line="199" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.cxx" bodystart="122" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__trajectory__waypoint__desired_1ac998845636c4b5f2f9e1775d53ec5cc4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t vehicle_trajectory_waypoint_desired::getKeyMaxCdrSerializedSize</definition>
+        <argsstring>(size_t current_alignment=0)</argsstring>
+        <name>getKeyMaxCdrSerializedSize</name>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the maximum serialized size of the Key of an object depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Maximum serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.h" line="226" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.cxx" bodystart="260" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__trajectory__waypoint__desired_1aa621539f26c103ec389c32d0f48799d7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool vehicle_trajectory_waypoint_desired::isKeyDefined</definition>
+        <argsstring>()</argsstring>
+        <name>isKeyDefined</name>
+        <briefdescription>
+<para>This function tells you if the Key has been defined for this type. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.h" line="232" column="41" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.cxx" bodystart="273" bodyend="276"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents the structure <ref refid="classvehicle__trajectory__waypoint__desired" kindref="compound">vehicle_trajectory_waypoint_desired</ref> defined by the user in the IDL file. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.h" line="78" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_trajectory_waypoint_desired.h" bodystart="79" bodyend="246"/>
+    <listofallmembers>
+      <member refid="classvehicle__trajectory__waypoint__desired_1aa3c29976a88c6ae64fec8581fc39c7ef" prot="public" virt="non-virtual"><scope>vehicle_trajectory_waypoint_desired</scope><name>deserialize</name></member>
+      <member refid="classvehicle__trajectory__waypoint__desired_1a9b2518694aa9b64c071291d74d5bd4f7" prot="public" virt="non-virtual"><scope>vehicle_trajectory_waypoint_desired</scope><name>getCdrSerializedSize</name></member>
+      <member refid="classvehicle__trajectory__waypoint__desired_1ac998845636c4b5f2f9e1775d53ec5cc4" prot="public" virt="non-virtual"><scope>vehicle_trajectory_waypoint_desired</scope><name>getKeyMaxCdrSerializedSize</name></member>
+      <member refid="classvehicle__trajectory__waypoint__desired_1a5121c2dc35a077ed53df09040fa0278f" prot="public" virt="non-virtual"><scope>vehicle_trajectory_waypoint_desired</scope><name>getMaxCdrSerializedSize</name></member>
+      <member refid="classvehicle__trajectory__waypoint__desired_1aa621539f26c103ec389c32d0f48799d7" prot="public" virt="non-virtual"><scope>vehicle_trajectory_waypoint_desired</scope><name>isKeyDefined</name></member>
+      <member refid="classvehicle__trajectory__waypoint__desired_1a69237d8acddeecfe8648d0f8d6dd2401" prot="private" virt="non-virtual"><scope>vehicle_trajectory_waypoint_desired</scope><name>m_timestamp_</name></member>
+      <member refid="classvehicle__trajectory__waypoint__desired_1a1cb662d5d694993cb9ae2e790696579a" prot="private" virt="non-virtual"><scope>vehicle_trajectory_waypoint_desired</scope><name>m_type_</name></member>
+      <member refid="classvehicle__trajectory__waypoint__desired_1aab575e04ed548cdf02e77c6cd96f7f0e" prot="private" virt="non-virtual"><scope>vehicle_trajectory_waypoint_desired</scope><name>m_waypoints</name></member>
+      <member refid="classvehicle__trajectory__waypoint__desired_1a21bdf3825b8c9b336b2a78c0a72d0fd9" prot="public" virt="non-virtual"><scope>vehicle_trajectory_waypoint_desired</scope><name>operator=</name></member>
+      <member refid="classvehicle__trajectory__waypoint__desired_1a57621ebb85dd3e4f1bb1a3575fb8e5ea" prot="public" virt="non-virtual"><scope>vehicle_trajectory_waypoint_desired</scope><name>operator=</name></member>
+      <member refid="classvehicle__trajectory__waypoint__desired_1a3e0d309c870d7087e1efa2bd292acc11" prot="public" virt="non-virtual"><scope>vehicle_trajectory_waypoint_desired</scope><name>serialize</name></member>
+      <member refid="classvehicle__trajectory__waypoint__desired_1ae4032ec71a5c1d35df8890ad6b6f4efc" prot="public" virt="non-virtual"><scope>vehicle_trajectory_waypoint_desired</scope><name>serializeKey</name></member>
+      <member refid="classvehicle__trajectory__waypoint__desired_1ac4f5872d0aa111b740bef24296e6b539" prot="public" virt="non-virtual"><scope>vehicle_trajectory_waypoint_desired</scope><name>timestamp_</name></member>
+      <member refid="classvehicle__trajectory__waypoint__desired_1a734100fdaccab5c748b884c0135a525a" prot="public" virt="non-virtual"><scope>vehicle_trajectory_waypoint_desired</scope><name>timestamp_</name></member>
+      <member refid="classvehicle__trajectory__waypoint__desired_1a2a8ab854b5d94a161d855d80f3668be9" prot="public" virt="non-virtual"><scope>vehicle_trajectory_waypoint_desired</scope><name>timestamp_</name></member>
+      <member refid="classvehicle__trajectory__waypoint__desired_1a6bdf97f54345c8c40ce1a5ed73f8606b" prot="public" virt="non-virtual"><scope>vehicle_trajectory_waypoint_desired</scope><name>type_</name></member>
+      <member refid="classvehicle__trajectory__waypoint__desired_1a526d4eda312fb392d035448c4fb0f9bc" prot="public" virt="non-virtual"><scope>vehicle_trajectory_waypoint_desired</scope><name>type_</name></member>
+      <member refid="classvehicle__trajectory__waypoint__desired_1a4a12fb2da44f4b5bb6645fdabf94c799" prot="public" virt="non-virtual"><scope>vehicle_trajectory_waypoint_desired</scope><name>type_</name></member>
+      <member refid="classvehicle__trajectory__waypoint__desired_1a994dbeeb12e48f92cf4a6c52821ada9c" prot="public" virt="non-virtual"><scope>vehicle_trajectory_waypoint_desired</scope><name>vehicle_trajectory_waypoint_desired</name></member>
+      <member refid="classvehicle__trajectory__waypoint__desired_1a6054f27f80ae5c9435882bef499c454a" prot="public" virt="non-virtual"><scope>vehicle_trajectory_waypoint_desired</scope><name>vehicle_trajectory_waypoint_desired</name></member>
+      <member refid="classvehicle__trajectory__waypoint__desired_1a06ea5d6cf8124c38cd15232e57a70748" prot="public" virt="non-virtual"><scope>vehicle_trajectory_waypoint_desired</scope><name>vehicle_trajectory_waypoint_desired</name></member>
+      <member refid="classvehicle__trajectory__waypoint__desired_1aa4f670d109060af9c3bbe384eb0d4f76" prot="public" virt="non-virtual"><scope>vehicle_trajectory_waypoint_desired</scope><name>waypoints</name></member>
+      <member refid="classvehicle__trajectory__waypoint__desired_1a33ab22fe598ecac990a44bedb5752a88" prot="public" virt="non-virtual"><scope>vehicle_trajectory_waypoint_desired</scope><name>waypoints</name></member>
+      <member refid="classvehicle__trajectory__waypoint__desired_1a9f35cdbdb1770a9a2f117fc18605073c" prot="public" virt="non-virtual"><scope>vehicle_trajectory_waypoint_desired</scope><name>waypoints</name></member>
+      <member refid="classvehicle__trajectory__waypoint__desired_1a088ecc166500d737690c3d865420ee5f" prot="public" virt="non-virtual"><scope>vehicle_trajectory_waypoint_desired</scope><name>waypoints</name></member>
+      <member refid="classvehicle__trajectory__waypoint__desired_1a74fbf4eb2ebd3e115b560ccc9bd0d505" prot="public" virt="non-virtual"><scope>vehicle_trajectory_waypoint_desired</scope><name>~vehicle_trajectory_waypoint_desired</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_d_d_s_publisher" kind="class" language="C++" prot="public">
+    <compoundname>DDSPublisher</compoundname>
+    <innerclass refid="class_d_d_s_publisher_1_1_pub_listener" prot="public">DDSPublisher::PubListener</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_d_s_publisher_1aef17936f7bd20f9a97c53cf1678ecffd" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string DDSPublisher::topic_name_</definition>
+        <argsstring></argsstring>
+        <name>topic_name_</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/default_publisher/default_publisher.h" line="26" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/default_publisher/default_publisher.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_d_s_publisher_1add173240facd285430c2cb37fa5a47ea" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_d_s_publisher_1_1_pub_listener" kindref="compound">DDSPublisher::PubListener</ref></type>
+        <definition>DDSPublisher::PubListener DDSPublisher::listener</definition>
+        <argsstring></argsstring>
+        <name>listener</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/default_publisher/default_publisher.h" line="70" column="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_d_d_s_publisher_1ade3e239e483002acad10a8e0deee2d30" prot="private" static="no" mutable="no">
+        <type>eprosima::fastdds::dds::DomainParticipant *</type>
+        <definition>eprosima::fastdds::dds::DomainParticipant* DDSPublisher::participant_</definition>
+        <argsstring></argsstring>
+        <name>participant_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/default_publisher/default_publisher.h" line="43" column="45" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/default_publisher/default_publisher.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_d_s_publisher_1a251e63dd38060ea0cf953a72fbd6a7ee" prot="private" static="no" mutable="no">
+        <type>eprosima::fastdds::dds::Publisher *</type>
+        <definition>eprosima::fastdds::dds::Publisher* DDSPublisher::publisher_</definition>
+        <argsstring></argsstring>
+        <name>publisher_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/default_publisher/default_publisher.h" line="44" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/default_publisher/default_publisher.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_d_s_publisher_1aeb6809a1f79ee23b3a89bdfd4b1cb216" prot="private" static="no" mutable="no">
+        <type>eprosima::fastdds::dds::Topic *</type>
+        <definition>eprosima::fastdds::dds::Topic* DDSPublisher::topic_</definition>
+        <argsstring></argsstring>
+        <name>topic_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/default_publisher/default_publisher.h" line="45" column="33" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/default_publisher/default_publisher.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_d_s_publisher_1a9468ba92ee7c053275ce004b7c60c35c" prot="private" static="no" mutable="no">
+        <type>eprosima::fastdds::dds::DataWriter *</type>
+        <definition>eprosima::fastdds::dds::DataWriter* DDSPublisher::writer_</definition>
+        <argsstring></argsstring>
+        <name>writer_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/default_publisher/default_publisher.h" line="46" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/default_publisher/default_publisher.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_d_s_publisher_1adbce9d628feab757975f133bdb125605" prot="private" static="no" mutable="no">
+        <type>eprosima::fastdds::dds::TypeSupport</type>
+        <definition>eprosima::fastdds::dds::TypeSupport DDSPublisher::type_</definition>
+        <argsstring></argsstring>
+        <name>type_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/default_publisher/default_publisher.h" line="47" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/default_publisher/default_publisher.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_d_s_publisher_1a07219e5edad7ef6bf50c313c876daa53" prot="private" static="no" mutable="no">
+        <type>eprosima::fastdds::dds::ReliabilityQosPolicy</type>
+        <definition>eprosima::fastdds::dds::ReliabilityQosPolicy DDSPublisher::best_effort_</definition>
+        <argsstring></argsstring>
+        <name>best_effort_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/default_publisher/default_publisher.h" line="49" column="48" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/default_publisher/default_publisher.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_d_s_publisher_1a5dcb90023313755d73d912f6ce843dd9" prot="private" static="no" mutable="no">
+        <type>eprosima::fastdds::dds::DataWriterQos</type>
+        <definition>eprosima::fastdds::dds::DataWriterQos DDSPublisher::writer_qos_</definition>
+        <argsstring></argsstring>
+        <name>writer_qos_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/default_publisher/default_publisher.h" line="50" column="41" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/default_publisher/default_publisher.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_d_d_s_publisher_1a627fabe644745787c520a7b973df6fe4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class msg_type</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>DDSPublisher::DDSPublisher</definition>
+        <argsstring>(msg_type, std::string topic_name, eprosima::fastdds::dds::DomainParticipant *participant)</argsstring>
+        <name>DDSPublisher</name>
+        <param>
+          <type>msg_type</type>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>topic_name</declname>
+        </param>
+        <param>
+          <type>eprosima::fastdds::dds::DomainParticipant *</type>
+          <declname>participant</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/default_publisher/default_publisher.h" line="13" column="3" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/default_publisher/default_publisher.h" bodystart="13" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_d_s_publisher_1a851edeb1bee814dfc4e8115a6a7c194f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>DDSPublisher::~DDSPublisher</definition>
+        <argsstring>()</argsstring>
+        <name>~DDSPublisher</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/default_publisher/default_publisher.h" line="28" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/default_publisher/default_publisher.cpp" bodystart="14" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_d_s_publisher_1a79dcb5c4cefbedb5c9cd356bd0e6e14c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DDSPublisher::init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/default_publisher/default_publisher.h" line="30" column="8" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/default_publisher/default_publisher.cpp" bodystart="26" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_d_s_publisher_1aafc48b00fe51aa01e73ea535cf55e06e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void DDSPublisher::publish</definition>
+        <argsstring>(T msg)</argsstring>
+        <name>publish</name>
+        <param>
+          <type>T</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/default_publisher/default_publisher.h" line="32" column="20" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/default_publisher/default_publisher.h" bodystart="32" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>DDSPublisher</label>
+        <link refid="class_d_d_s_publisher"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>listener</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>DDSPublisher::PubListener</label>
+        <link refid="class_d_d_s_publisher_1_1_pub_listener"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>eprosima::fastdds::dds::DataWriterListener</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/default_publisher/default_publisher.h" line="9" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/default_publisher/default_publisher.h" bodystart="9" bodyend="71"/>
+    <listofallmembers>
+      <member refid="class_d_d_s_publisher_1a07219e5edad7ef6bf50c313c876daa53" prot="private" virt="non-virtual"><scope>DDSPublisher</scope><name>best_effort_</name></member>
+      <member refid="class_d_d_s_publisher_1a627fabe644745787c520a7b973df6fe4" prot="public" virt="non-virtual"><scope>DDSPublisher</scope><name>DDSPublisher</name></member>
+      <member refid="class_d_d_s_publisher_1a79dcb5c4cefbedb5c9cd356bd0e6e14c" prot="public" virt="non-virtual"><scope>DDSPublisher</scope><name>init</name></member>
+      <member refid="class_d_d_s_publisher_1add173240facd285430c2cb37fa5a47ea" prot="public" virt="non-virtual"><scope>DDSPublisher</scope><name>listener</name></member>
+      <member refid="class_d_d_s_publisher_1ade3e239e483002acad10a8e0deee2d30" prot="private" virt="non-virtual"><scope>DDSPublisher</scope><name>participant_</name></member>
+      <member refid="class_d_d_s_publisher_1aafc48b00fe51aa01e73ea535cf55e06e" prot="public" virt="non-virtual"><scope>DDSPublisher</scope><name>publish</name></member>
+      <member refid="class_d_d_s_publisher_1a251e63dd38060ea0cf953a72fbd6a7ee" prot="private" virt="non-virtual"><scope>DDSPublisher</scope><name>publisher_</name></member>
+      <member refid="class_d_d_s_publisher_1aeb6809a1f79ee23b3a89bdfd4b1cb216" prot="private" virt="non-virtual"><scope>DDSPublisher</scope><name>topic_</name></member>
+      <member refid="class_d_d_s_publisher_1aef17936f7bd20f9a97c53cf1678ecffd" prot="public" virt="non-virtual"><scope>DDSPublisher</scope><name>topic_name_</name></member>
+      <member refid="class_d_d_s_publisher_1adbce9d628feab757975f133bdb125605" prot="private" virt="non-virtual"><scope>DDSPublisher</scope><name>type_</name></member>
+      <member refid="class_d_d_s_publisher_1a9468ba92ee7c053275ce004b7c60c35c" prot="private" virt="non-virtual"><scope>DDSPublisher</scope><name>writer_</name></member>
+      <member refid="class_d_d_s_publisher_1a5dcb90023313755d73d912f6ce843dd9" prot="private" virt="non-virtual"><scope>DDSPublisher</scope><name>writer_qos_</name></member>
+      <member refid="class_d_d_s_publisher_1a851edeb1bee814dfc4e8115a6a7c194f" prot="public" virt="virtual"><scope>DDSPublisher</scope><name>~DDSPublisher</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

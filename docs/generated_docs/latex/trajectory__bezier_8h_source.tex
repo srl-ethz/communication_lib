@@ -1,0 +1,147 @@
+\hypertarget{trajectory__bezier_8h_source}{}\doxysection{trajectory\+\_\+bezier.\+h}
+\label{trajectory__bezier_8h_source}\index{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/px4\_msg\_definitions/trajectory\_bezier.h@{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/px4\_msg\_definitions/trajectory\_bezier.h}}
+\mbox{\hyperlink{trajectory__bezier_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{// Copyright 2016 Proyectos y Sistemas de Mantenimiento SL (eProsima).}}
+\DoxyCodeLine{2 \textcolor{comment}{//}}
+\DoxyCodeLine{3 \textcolor{comment}{// Licensed under the Apache License, Version 2.0 (the "{}License"{});}}
+\DoxyCodeLine{4 \textcolor{comment}{// you may not use this file except in compliance with the License.}}
+\DoxyCodeLine{5 \textcolor{comment}{// You may obtain a copy of the License at}}
+\DoxyCodeLine{6 \textcolor{comment}{//}}
+\DoxyCodeLine{7 \textcolor{comment}{//     http://www.apache.org/licenses/LICENSE-\/2.0}}
+\DoxyCodeLine{8 \textcolor{comment}{//}}
+\DoxyCodeLine{9 \textcolor{comment}{// Unless required by applicable law or agreed to in writing, software}}
+\DoxyCodeLine{10 \textcolor{comment}{// distributed under the License is distributed on an "{}AS IS"{} BASIS,}}
+\DoxyCodeLine{11 \textcolor{comment}{// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.}}
+\DoxyCodeLine{12 \textcolor{comment}{// See the License for the specific language governing permissions and}}
+\DoxyCodeLine{13 \textcolor{comment}{// limitations under the License.}}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{22 \textcolor{preprocessor}{\#ifndef \_TRAJECTORY\_BEZIER\_H\_}}
+\DoxyCodeLine{23 \textcolor{preprocessor}{\#define \_TRAJECTORY\_BEZIER\_H\_}}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25 }
+\DoxyCodeLine{26 \textcolor{preprocessor}{\#include <stdint.h>}}
+\DoxyCodeLine{27 \textcolor{preprocessor}{\#include <array>}}
+\DoxyCodeLine{28 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{29 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{30 \textcolor{preprocessor}{\#include <map>}}
+\DoxyCodeLine{31 \textcolor{preprocessor}{\#include <bitset>}}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{33 \textcolor{preprocessor}{\#if defined(\_WIN32)}}
+\DoxyCodeLine{34 \textcolor{preprocessor}{\#if defined(EPROSIMA\_USER\_DLL\_EXPORT)}}
+\DoxyCodeLine{35 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport \_\_declspec( dllexport )}}
+\DoxyCodeLine{36 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{37 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport}}
+\DoxyCodeLine{38 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// EPROSIMA\_USER\_DLL\_EXPORT}}
+\DoxyCodeLine{39 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{40 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport}}
+\DoxyCodeLine{41 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// \_WIN32}}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{43 \textcolor{preprocessor}{\#if defined(\_WIN32)}}
+\DoxyCodeLine{44 \textcolor{preprocessor}{\#if defined(EPROSIMA\_USER\_DLL\_EXPORT)}}
+\DoxyCodeLine{45 \textcolor{preprocessor}{\#if defined(trajectory\_bezier\_SOURCE)}}
+\DoxyCodeLine{46 \textcolor{preprocessor}{\#define trajectory\_bezier\_DllAPI \_\_declspec( dllexport )}}
+\DoxyCodeLine{47 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{48 \textcolor{preprocessor}{\#define trajectory\_bezier\_DllAPI \_\_declspec( dllimport )}}
+\DoxyCodeLine{49 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// trajectory\_bezier\_SOURCE}}
+\DoxyCodeLine{50 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{51 \textcolor{preprocessor}{\#define trajectory\_bezier\_DllAPI}}
+\DoxyCodeLine{52 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// EPROSIMA\_USER\_DLL\_EXPORT}}
+\DoxyCodeLine{53 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{54 \textcolor{preprocessor}{\#define trajectory\_bezier\_DllAPI}}
+\DoxyCodeLine{55 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_WIN32}}
+\DoxyCodeLine{56 }
+\DoxyCodeLine{57 \textcolor{keyword}{namespace }eprosima \{}
+\DoxyCodeLine{58 \textcolor{keyword}{namespace }fastcdr \{}
+\DoxyCodeLine{59 \textcolor{keyword}{class }Cdr;}
+\DoxyCodeLine{60 \} \textcolor{comment}{// namespace fastcdr}}
+\DoxyCodeLine{61 \} \textcolor{comment}{// namespace eprosima}}
+\DoxyCodeLine{62 }
+\DoxyCodeLine{63 }
+\DoxyCodeLine{64 \textcolor{keyword}{typedef} std::array<float, 3> trajectory\_bezier\_\_float\_array\_3;}
+\DoxyCodeLine{69 \textcolor{keyword}{class }\mbox{\hyperlink{classtrajectory__bezier}{trajectory\_bezier}}}
+\DoxyCodeLine{70 \{}
+\DoxyCodeLine{71 \textcolor{keyword}{public}:}
+\DoxyCodeLine{72 }
+\DoxyCodeLine{76     eProsima\_user\_DllExport \mbox{\hyperlink{classtrajectory__bezier_a7e503799b93ed16d175a0ada88f143fb}{trajectory\_bezier}}();}
+\DoxyCodeLine{77 }
+\DoxyCodeLine{81     eProsima\_user\_DllExport \mbox{\hyperlink{classtrajectory__bezier_afb7e5ce2fdc0ffe4d0ef86c3032a06d8}{\string~trajectory\_bezier}}();}
+\DoxyCodeLine{82 }
+\DoxyCodeLine{87     eProsima\_user\_DllExport \mbox{\hyperlink{classtrajectory__bezier_a7e503799b93ed16d175a0ada88f143fb}{trajectory\_bezier}}(}
+\DoxyCodeLine{88             \textcolor{keyword}{const} \mbox{\hyperlink{classtrajectory__bezier}{trajectory\_bezier}}\& x);}
+\DoxyCodeLine{89 }
+\DoxyCodeLine{94     eProsima\_user\_DllExport \mbox{\hyperlink{classtrajectory__bezier_a7e503799b93ed16d175a0ada88f143fb}{trajectory\_bezier}}(}
+\DoxyCodeLine{95             \mbox{\hyperlink{classtrajectory__bezier}{trajectory\_bezier}}\&\& x);}
+\DoxyCodeLine{96 }
+\DoxyCodeLine{101     eProsima\_user\_DllExport \mbox{\hyperlink{classtrajectory__bezier}{trajectory\_bezier}}\& \mbox{\hyperlink{classtrajectory__bezier_a7770a727f2c933d608c0846e642dc71f}{operator =}}(}
+\DoxyCodeLine{102             \textcolor{keyword}{const} \mbox{\hyperlink{classtrajectory__bezier}{trajectory\_bezier}}\& x);}
+\DoxyCodeLine{103 }
+\DoxyCodeLine{108     eProsima\_user\_DllExport \mbox{\hyperlink{classtrajectory__bezier}{trajectory\_bezier}}\& \mbox{\hyperlink{classtrajectory__bezier_a7770a727f2c933d608c0846e642dc71f}{operator =}}(}
+\DoxyCodeLine{109             \mbox{\hyperlink{classtrajectory__bezier}{trajectory\_bezier}}\&\& x);}
+\DoxyCodeLine{110 }
+\DoxyCodeLine{115     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtrajectory__bezier_aea8702ce082e413a44346ca5453ac99c}{timestamp\_}}(}
+\DoxyCodeLine{116             uint64\_t \_timestamp\_);}
+\DoxyCodeLine{117 }
+\DoxyCodeLine{122     eProsima\_user\_DllExport uint64\_t \mbox{\hyperlink{classtrajectory__bezier_aea8702ce082e413a44346ca5453ac99c}{timestamp\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{123 }
+\DoxyCodeLine{128     eProsima\_user\_DllExport uint64\_t\& \mbox{\hyperlink{classtrajectory__bezier_aea8702ce082e413a44346ca5453ac99c}{timestamp\_}}();}
+\DoxyCodeLine{129 }
+\DoxyCodeLine{134     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtrajectory__bezier_adeb0032608160d779342e36ef8e06d64}{position}}(}
+\DoxyCodeLine{135             \textcolor{keyword}{const} trajectory\_bezier\_\_float\_array\_3\& \_position);}
+\DoxyCodeLine{136 }
+\DoxyCodeLine{141     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtrajectory__bezier_adeb0032608160d779342e36ef8e06d64}{position}}(}
+\DoxyCodeLine{142             trajectory\_bezier\_\_float\_array\_3\&\& \_position);}
+\DoxyCodeLine{143 }
+\DoxyCodeLine{148     eProsima\_user\_DllExport \textcolor{keyword}{const} trajectory\_bezier\_\_float\_array\_3\& \mbox{\hyperlink{classtrajectory__bezier_adeb0032608160d779342e36ef8e06d64}{position}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{149 }
+\DoxyCodeLine{154     eProsima\_user\_DllExport trajectory\_bezier\_\_float\_array\_3\& \mbox{\hyperlink{classtrajectory__bezier_adeb0032608160d779342e36ef8e06d64}{position}}();}
+\DoxyCodeLine{159     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtrajectory__bezier_a5c76584e8e0c9e9f78aa3637cd651bf8}{yaw\_}}(}
+\DoxyCodeLine{160             \textcolor{keywordtype}{float} \_yaw\_);}
+\DoxyCodeLine{161 }
+\DoxyCodeLine{166     eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classtrajectory__bezier_a5c76584e8e0c9e9f78aa3637cd651bf8}{yaw\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{167 }
+\DoxyCodeLine{172     eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classtrajectory__bezier_a5c76584e8e0c9e9f78aa3637cd651bf8}{yaw\_}}();}
+\DoxyCodeLine{173 }
+\DoxyCodeLine{178     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtrajectory__bezier_a4ce7f92ba0f9b8a4d7edff5104374b10}{delta\_}}(}
+\DoxyCodeLine{179             \textcolor{keywordtype}{float} \_delta\_);}
+\DoxyCodeLine{180 }
+\DoxyCodeLine{185     eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classtrajectory__bezier_a4ce7f92ba0f9b8a4d7edff5104374b10}{delta\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{186 }
+\DoxyCodeLine{191     eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classtrajectory__bezier_a4ce7f92ba0f9b8a4d7edff5104374b10}{delta\_}}();}
+\DoxyCodeLine{192 }
+\DoxyCodeLine{193 }
+\DoxyCodeLine{200     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classtrajectory__bezier_a092fd97acc42278eab176c4d7e527af2}{getMaxCdrSerializedSize}}(}
+\DoxyCodeLine{201             \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{202 }
+\DoxyCodeLine{209     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classtrajectory__bezier_ad23e96cfd58cac6964ceea245d772078}{getCdrSerializedSize}}(}
+\DoxyCodeLine{210             \textcolor{keyword}{const} \mbox{\hyperlink{classtrajectory__bezier}{trajectory\_bezier}}\& data,}
+\DoxyCodeLine{211             \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{212 }
+\DoxyCodeLine{213 }
+\DoxyCodeLine{218     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtrajectory__bezier_a9376604e498ff34c242409a03c230ed1}{serialize}}(}
+\DoxyCodeLine{219             eprosima::fastcdr::Cdr\& cdr) \textcolor{keyword}{const};}
+\DoxyCodeLine{220 }
+\DoxyCodeLine{225     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtrajectory__bezier_a68a2280041010fea9ced2fb6e75e3c6b}{deserialize}}(}
+\DoxyCodeLine{226             eprosima::fastcdr::Cdr\& cdr);}
+\DoxyCodeLine{227 }
+\DoxyCodeLine{228 }
+\DoxyCodeLine{229 }
+\DoxyCodeLine{236     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classtrajectory__bezier_a4b38ee4eda6c670501be89c3bf5b7422}{getKeyMaxCdrSerializedSize}}(}
+\DoxyCodeLine{237             \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{238 }
+\DoxyCodeLine{242     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{bool} \mbox{\hyperlink{classtrajectory__bezier_ad92aab0a5be504f59933e87709400809}{isKeyDefined}}();}
+\DoxyCodeLine{243 }
+\DoxyCodeLine{248     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtrajectory__bezier_a93f8772108ef30d40ed24796805b4e87}{serializeKey}}(}
+\DoxyCodeLine{249             eprosima::fastcdr::Cdr\& cdr) \textcolor{keyword}{const};}
+\DoxyCodeLine{250 }
+\DoxyCodeLine{251 \textcolor{keyword}{private}:}
+\DoxyCodeLine{252 }
+\DoxyCodeLine{253     uint64\_t m\_timestamp\_;}
+\DoxyCodeLine{254     trajectory\_bezier\_\_float\_array\_3 m\_position;}
+\DoxyCodeLine{255     \textcolor{keywordtype}{float} m\_yaw\_;}
+\DoxyCodeLine{256     \textcolor{keywordtype}{float} m\_delta\_;}
+\DoxyCodeLine{257 \};}
+\DoxyCodeLine{258 }
+\DoxyCodeLine{259 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_TRAJECTORY\_BEZIER\_H\_}}
+
+\end{DoxyCode}

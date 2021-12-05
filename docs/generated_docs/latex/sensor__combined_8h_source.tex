@@ -1,0 +1,177 @@
+\hypertarget{sensor__combined_8h_source}{}\doxysection{sensor\+\_\+combined.\+h}
+\label{sensor__combined_8h_source}\index{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/px4\_msg\_definitions/sensor\_combined.h@{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/px4\_msg\_definitions/sensor\_combined.h}}
+\mbox{\hyperlink{sensor__combined_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{// Copyright 2016 Proyectos y Sistemas de Mantenimiento SL (eProsima).}}
+\DoxyCodeLine{2 \textcolor{comment}{//}}
+\DoxyCodeLine{3 \textcolor{comment}{// Licensed under the Apache License, Version 2.0 (the "{}License"{});}}
+\DoxyCodeLine{4 \textcolor{comment}{// you may not use this file except in compliance with the License.}}
+\DoxyCodeLine{5 \textcolor{comment}{// You may obtain a copy of the License at}}
+\DoxyCodeLine{6 \textcolor{comment}{//}}
+\DoxyCodeLine{7 \textcolor{comment}{//     http://www.apache.org/licenses/LICENSE-\/2.0}}
+\DoxyCodeLine{8 \textcolor{comment}{//}}
+\DoxyCodeLine{9 \textcolor{comment}{// Unless required by applicable law or agreed to in writing, software}}
+\DoxyCodeLine{10 \textcolor{comment}{// distributed under the License is distributed on an "{}AS IS"{} BASIS,}}
+\DoxyCodeLine{11 \textcolor{comment}{// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.}}
+\DoxyCodeLine{12 \textcolor{comment}{// See the License for the specific language governing permissions and}}
+\DoxyCodeLine{13 \textcolor{comment}{// limitations under the License.}}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{22 \textcolor{preprocessor}{\#ifndef \_SENSOR\_COMBINED\_H\_}}
+\DoxyCodeLine{23 \textcolor{preprocessor}{\#define \_SENSOR\_COMBINED\_H\_}}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25 }
+\DoxyCodeLine{26 \textcolor{preprocessor}{\#include <stdint.h>}}
+\DoxyCodeLine{27 \textcolor{preprocessor}{\#include <array>}}
+\DoxyCodeLine{28 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{29 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{30 \textcolor{preprocessor}{\#include <map>}}
+\DoxyCodeLine{31 \textcolor{preprocessor}{\#include <bitset>}}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{33 \textcolor{preprocessor}{\#if defined(\_WIN32)}}
+\DoxyCodeLine{34 \textcolor{preprocessor}{\#if defined(EPROSIMA\_USER\_DLL\_EXPORT)}}
+\DoxyCodeLine{35 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport \_\_declspec( dllexport )}}
+\DoxyCodeLine{36 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{37 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport}}
+\DoxyCodeLine{38 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// EPROSIMA\_USER\_DLL\_EXPORT}}
+\DoxyCodeLine{39 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{40 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport}}
+\DoxyCodeLine{41 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// \_WIN32}}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{43 \textcolor{preprocessor}{\#if defined(\_WIN32)}}
+\DoxyCodeLine{44 \textcolor{preprocessor}{\#if defined(EPROSIMA\_USER\_DLL\_EXPORT)}}
+\DoxyCodeLine{45 \textcolor{preprocessor}{\#if defined(sensor\_combined\_SOURCE)}}
+\DoxyCodeLine{46 \textcolor{preprocessor}{\#define sensor\_combined\_DllAPI \_\_declspec( dllexport )}}
+\DoxyCodeLine{47 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{48 \textcolor{preprocessor}{\#define sensor\_combined\_DllAPI \_\_declspec( dllimport )}}
+\DoxyCodeLine{49 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// sensor\_combined\_SOURCE}}
+\DoxyCodeLine{50 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{51 \textcolor{preprocessor}{\#define sensor\_combined\_DllAPI}}
+\DoxyCodeLine{52 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// EPROSIMA\_USER\_DLL\_EXPORT}}
+\DoxyCodeLine{53 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{54 \textcolor{preprocessor}{\#define sensor\_combined\_DllAPI}}
+\DoxyCodeLine{55 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_WIN32}}
+\DoxyCodeLine{56 }
+\DoxyCodeLine{57 \textcolor{keyword}{namespace }eprosima \{}
+\DoxyCodeLine{58 \textcolor{keyword}{namespace }fastcdr \{}
+\DoxyCodeLine{59 \textcolor{keyword}{class }Cdr;}
+\DoxyCodeLine{60 \} \textcolor{comment}{// namespace fastcdr}}
+\DoxyCodeLine{61 \} \textcolor{comment}{// namespace eprosima}}
+\DoxyCodeLine{62 }
+\DoxyCodeLine{63 }
+\DoxyCodeLine{64 \textcolor{keyword}{const} int32\_t sensor\_combined\_\_RELATIVE\_TIMESTAMP\_INVALID = 2147483647;}
+\DoxyCodeLine{65 \textcolor{keyword}{const} uint8\_t sensor\_combined\_\_CLIPPING\_X = 1;}
+\DoxyCodeLine{66 \textcolor{keyword}{const} uint8\_t sensor\_combined\_\_CLIPPING\_Y = 2;}
+\DoxyCodeLine{67 \textcolor{keyword}{const} uint8\_t sensor\_combined\_\_CLIPPING\_Z = 4;}
+\DoxyCodeLine{68 \textcolor{keyword}{typedef} std::array<float, 3> sensor\_combined\_\_float\_array\_3;}
+\DoxyCodeLine{73 \textcolor{keyword}{class }\mbox{\hyperlink{classsensor__combined}{sensor\_combined}}}
+\DoxyCodeLine{74 \{}
+\DoxyCodeLine{75 \textcolor{keyword}{public}:}
+\DoxyCodeLine{76 }
+\DoxyCodeLine{80     eProsima\_user\_DllExport \mbox{\hyperlink{classsensor__combined_a30ac9114986d1aa7827e43281d07a250}{sensor\_combined}}();}
+\DoxyCodeLine{81 }
+\DoxyCodeLine{85     eProsima\_user\_DllExport \mbox{\hyperlink{classsensor__combined_a72966039167485d26e664b315fee696e}{\string~sensor\_combined}}();}
+\DoxyCodeLine{86 }
+\DoxyCodeLine{91     eProsima\_user\_DllExport \mbox{\hyperlink{classsensor__combined_a30ac9114986d1aa7827e43281d07a250}{sensor\_combined}}(}
+\DoxyCodeLine{92             \textcolor{keyword}{const} \mbox{\hyperlink{classsensor__combined}{sensor\_combined}}\& x);}
+\DoxyCodeLine{93 }
+\DoxyCodeLine{98     eProsima\_user\_DllExport \mbox{\hyperlink{classsensor__combined_a30ac9114986d1aa7827e43281d07a250}{sensor\_combined}}(}
+\DoxyCodeLine{99             \mbox{\hyperlink{classsensor__combined}{sensor\_combined}}\&\& x);}
+\DoxyCodeLine{100 }
+\DoxyCodeLine{105     eProsima\_user\_DllExport \mbox{\hyperlink{classsensor__combined}{sensor\_combined}}\& \mbox{\hyperlink{classsensor__combined_a13d6402bc5f436480c3f226e16839d44}{operator =}}(}
+\DoxyCodeLine{106             \textcolor{keyword}{const} \mbox{\hyperlink{classsensor__combined}{sensor\_combined}}\& x);}
+\DoxyCodeLine{107 }
+\DoxyCodeLine{112     eProsima\_user\_DllExport \mbox{\hyperlink{classsensor__combined}{sensor\_combined}}\& \mbox{\hyperlink{classsensor__combined_a13d6402bc5f436480c3f226e16839d44}{operator =}}(}
+\DoxyCodeLine{113             \mbox{\hyperlink{classsensor__combined}{sensor\_combined}}\&\& x);}
+\DoxyCodeLine{114 }
+\DoxyCodeLine{119     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classsensor__combined_adc539e1d62f336176421f0d7e0b523ec}{timestamp\_}}(}
+\DoxyCodeLine{120             uint64\_t \_timestamp\_);}
+\DoxyCodeLine{121 }
+\DoxyCodeLine{126     eProsima\_user\_DllExport uint64\_t \mbox{\hyperlink{classsensor__combined_adc539e1d62f336176421f0d7e0b523ec}{timestamp\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{127 }
+\DoxyCodeLine{132     eProsima\_user\_DllExport uint64\_t\& \mbox{\hyperlink{classsensor__combined_adc539e1d62f336176421f0d7e0b523ec}{timestamp\_}}();}
+\DoxyCodeLine{133 }
+\DoxyCodeLine{138     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classsensor__combined_a5a767480a86917ccdbc14e0a98ae8874}{gyro\_rad}}(}
+\DoxyCodeLine{139             \textcolor{keyword}{const} sensor\_combined\_\_float\_array\_3\& \_gyro\_rad);}
+\DoxyCodeLine{140 }
+\DoxyCodeLine{145     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classsensor__combined_a5a767480a86917ccdbc14e0a98ae8874}{gyro\_rad}}(}
+\DoxyCodeLine{146             sensor\_combined\_\_float\_array\_3\&\& \_gyro\_rad);}
+\DoxyCodeLine{147 }
+\DoxyCodeLine{152     eProsima\_user\_DllExport \textcolor{keyword}{const} sensor\_combined\_\_float\_array\_3\& \mbox{\hyperlink{classsensor__combined_a5a767480a86917ccdbc14e0a98ae8874}{gyro\_rad}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{153 }
+\DoxyCodeLine{158     eProsima\_user\_DllExport sensor\_combined\_\_float\_array\_3\& \mbox{\hyperlink{classsensor__combined_a5a767480a86917ccdbc14e0a98ae8874}{gyro\_rad}}();}
+\DoxyCodeLine{163     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classsensor__combined_a0daa7976d1fe61b142059c26421779c7}{gyro\_integral\_dt\_}}(}
+\DoxyCodeLine{164             uint32\_t \_gyro\_integral\_dt\_);}
+\DoxyCodeLine{165 }
+\DoxyCodeLine{170     eProsima\_user\_DllExport uint32\_t \mbox{\hyperlink{classsensor__combined_a0daa7976d1fe61b142059c26421779c7}{gyro\_integral\_dt\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{171 }
+\DoxyCodeLine{176     eProsima\_user\_DllExport uint32\_t\& \mbox{\hyperlink{classsensor__combined_a0daa7976d1fe61b142059c26421779c7}{gyro\_integral\_dt\_}}();}
+\DoxyCodeLine{177 }
+\DoxyCodeLine{182     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classsensor__combined_ad850681015d62c9158f38f1245288262}{accelerometer\_timestamp\_relative\_}}(}
+\DoxyCodeLine{183             int32\_t \_accelerometer\_timestamp\_relative\_);}
+\DoxyCodeLine{184 }
+\DoxyCodeLine{189     eProsima\_user\_DllExport int32\_t \mbox{\hyperlink{classsensor__combined_ad850681015d62c9158f38f1245288262}{accelerometer\_timestamp\_relative\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{190 }
+\DoxyCodeLine{195     eProsima\_user\_DllExport int32\_t\& \mbox{\hyperlink{classsensor__combined_ad850681015d62c9158f38f1245288262}{accelerometer\_timestamp\_relative\_}}();}
+\DoxyCodeLine{196 }
+\DoxyCodeLine{201     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classsensor__combined_a36b94226198cd540a9c32ad99b2927cd}{accelerometer\_m\_s2}}(}
+\DoxyCodeLine{202             \textcolor{keyword}{const} sensor\_combined\_\_float\_array\_3\& \_accelerometer\_m\_s2);}
+\DoxyCodeLine{203 }
+\DoxyCodeLine{208     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classsensor__combined_a36b94226198cd540a9c32ad99b2927cd}{accelerometer\_m\_s2}}(}
+\DoxyCodeLine{209             sensor\_combined\_\_float\_array\_3\&\& \_accelerometer\_m\_s2);}
+\DoxyCodeLine{210 }
+\DoxyCodeLine{215     eProsima\_user\_DllExport \textcolor{keyword}{const} sensor\_combined\_\_float\_array\_3\& \mbox{\hyperlink{classsensor__combined_a36b94226198cd540a9c32ad99b2927cd}{accelerometer\_m\_s2}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{216 }
+\DoxyCodeLine{221     eProsima\_user\_DllExport sensor\_combined\_\_float\_array\_3\& \mbox{\hyperlink{classsensor__combined_a36b94226198cd540a9c32ad99b2927cd}{accelerometer\_m\_s2}}();}
+\DoxyCodeLine{226     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classsensor__combined_a81151c0f2c7bc43c4a70723226867cd5}{accelerometer\_integral\_dt\_}}(}
+\DoxyCodeLine{227             uint32\_t \_accelerometer\_integral\_dt\_);}
+\DoxyCodeLine{228 }
+\DoxyCodeLine{233     eProsima\_user\_DllExport uint32\_t \mbox{\hyperlink{classsensor__combined_a81151c0f2c7bc43c4a70723226867cd5}{accelerometer\_integral\_dt\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{234 }
+\DoxyCodeLine{239     eProsima\_user\_DllExport uint32\_t\& \mbox{\hyperlink{classsensor__combined_a81151c0f2c7bc43c4a70723226867cd5}{accelerometer\_integral\_dt\_}}();}
+\DoxyCodeLine{240 }
+\DoxyCodeLine{245     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classsensor__combined_a43b2361edf518ce17e9230aab5576915}{accelerometer\_clipping\_}}(}
+\DoxyCodeLine{246             uint8\_t \_accelerometer\_clipping\_);}
+\DoxyCodeLine{247 }
+\DoxyCodeLine{252     eProsima\_user\_DllExport uint8\_t \mbox{\hyperlink{classsensor__combined_a43b2361edf518ce17e9230aab5576915}{accelerometer\_clipping\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{253 }
+\DoxyCodeLine{258     eProsima\_user\_DllExport uint8\_t\& \mbox{\hyperlink{classsensor__combined_a43b2361edf518ce17e9230aab5576915}{accelerometer\_clipping\_}}();}
+\DoxyCodeLine{259 }
+\DoxyCodeLine{260 }
+\DoxyCodeLine{267     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classsensor__combined_a12593c53103b07c7ada74743a27fee34}{getMaxCdrSerializedSize}}(}
+\DoxyCodeLine{268             \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{269 }
+\DoxyCodeLine{276     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classsensor__combined_a709d6ddbcb3efa116e3b2f542078b665}{getCdrSerializedSize}}(}
+\DoxyCodeLine{277             \textcolor{keyword}{const} \mbox{\hyperlink{classsensor__combined}{sensor\_combined}}\& data,}
+\DoxyCodeLine{278             \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{279 }
+\DoxyCodeLine{280 }
+\DoxyCodeLine{285     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classsensor__combined_a3f180bc00ff7743f3de3a86bbd9b75a8}{serialize}}(}
+\DoxyCodeLine{286             eprosima::fastcdr::Cdr\& cdr) \textcolor{keyword}{const};}
+\DoxyCodeLine{287 }
+\DoxyCodeLine{292     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classsensor__combined_a2d947290a429e57d50d50fddeef5f498}{deserialize}}(}
+\DoxyCodeLine{293             eprosima::fastcdr::Cdr\& cdr);}
+\DoxyCodeLine{294 }
+\DoxyCodeLine{295 }
+\DoxyCodeLine{296 }
+\DoxyCodeLine{303     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classsensor__combined_a5559c57a821fd1286b393f3c013f9588}{getKeyMaxCdrSerializedSize}}(}
+\DoxyCodeLine{304             \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{305 }
+\DoxyCodeLine{309     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{bool} \mbox{\hyperlink{classsensor__combined_aaf520d4195dc97022d26c9982dce4880}{isKeyDefined}}();}
+\DoxyCodeLine{310 }
+\DoxyCodeLine{315     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classsensor__combined_aa0d1564aa80d856ea5840e215075eb30}{serializeKey}}(}
+\DoxyCodeLine{316             eprosima::fastcdr::Cdr\& cdr) \textcolor{keyword}{const};}
+\DoxyCodeLine{317 }
+\DoxyCodeLine{318 \textcolor{keyword}{private}:}
+\DoxyCodeLine{319 }
+\DoxyCodeLine{320     uint64\_t m\_timestamp\_;}
+\DoxyCodeLine{321     sensor\_combined\_\_float\_array\_3 m\_gyro\_rad;}
+\DoxyCodeLine{322     uint32\_t m\_gyro\_integral\_dt\_;}
+\DoxyCodeLine{323     int32\_t m\_accelerometer\_timestamp\_relative\_;}
+\DoxyCodeLine{324     sensor\_combined\_\_float\_array\_3 m\_accelerometer\_m\_s2;}
+\DoxyCodeLine{325     uint32\_t m\_accelerometer\_integral\_dt\_;}
+\DoxyCodeLine{326     uint8\_t m\_accelerometer\_clipping\_;}
+\DoxyCodeLine{327 \};}
+\DoxyCodeLine{328 }
+\DoxyCodeLine{329 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_SENSOR\_COMBINED\_H\_}}
+
+\end{DoxyCode}

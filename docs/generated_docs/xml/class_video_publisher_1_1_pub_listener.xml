@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_video_publisher_1_1_pub_listener" kind="class" language="C++" prot="public">
+    <compoundname>VideoPublisher::PubListener</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">eprosima::fastdds::dds::DataWriterListener</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_video_publisher_1_1_pub_listener_1a967fb31ea63aa9f4b9397b3402642b63" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int VideoPublisher::PubListener::matched_</definition>
+        <argsstring></argsstring>
+        <name>matched_</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" line="67" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_video_publisher_1_1_pub_listener_1a64555d6debefa5873c43d8a38fccdbc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>VideoPublisher::PubListener::PubListener</definition>
+        <argsstring>()=default</argsstring>
+        <name>PubListener</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" line="59" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="class_video_publisher_1_1_pub_listener_1ae8c875fdf39193f7ec38b2575ef15975" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>VideoPublisher::PubListener::~PubListener</definition>
+        <argsstring>() override=default</argsstring>
+        <name>~PubListener</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" line="60" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="class_video_publisher_1_1_pub_listener_1a287c8a6b26c0057052ec36e15916ecdd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const float</type>
+        <definition>const float VideoPublisher::PubListener::matched</definition>
+        <argsstring>() const</argsstring>
+        <name>matched</name>
+        <briefdescription>
+<para>Getter function. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" line="71" column="17" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" bodystart="71" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_video_publisher_1_1_pub_listener_1a365d0a9c581b3a28fc04d12b945764bc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void VideoPublisher::PubListener::on_publication_matched</definition>
+        <argsstring>(eprosima::fastdds::dds::DataWriter *writer, const eprosima::fastdds::dds::PublicationMatchedStatus &amp;info) override</argsstring>
+        <name>on_publication_matched</name>
+        <param>
+          <type>eprosima::fastdds::dds::DataWriter *</type>
+          <declname>writer</declname>
+        </param>
+        <param>
+          <type>const eprosima::fastdds::dds::PublicationMatchedStatus &amp;</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" line="63" column="10" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.cpp" bodystart="66" bodyend="81"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>VideoPublisher::PubListener</label>
+        <link refid="class_video_publisher_1_1_pub_listener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>eprosima::fastdds::dds::DataWriterListener</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>VideoPublisher::PubListener</label>
+        <link refid="class_video_publisher_1_1_pub_listener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>eprosima::fastdds::dds::DataWriterListener</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" line="56" column="3" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher/video_publisher.h" bodystart="56" bodyend="73"/>
+    <listofallmembers>
+      <member refid="class_video_publisher_1_1_pub_listener_1a287c8a6b26c0057052ec36e15916ecdd" prot="public" virt="non-virtual"><scope>VideoPublisher::PubListener</scope><name>matched</name></member>
+      <member refid="class_video_publisher_1_1_pub_listener_1a967fb31ea63aa9f4b9397b3402642b63" prot="private" virt="non-virtual"><scope>VideoPublisher::PubListener</scope><name>matched_</name></member>
+      <member refid="class_video_publisher_1_1_pub_listener_1a365d0a9c581b3a28fc04d12b945764bc" prot="private" virt="non-virtual"><scope>VideoPublisher::PubListener</scope><name>on_publication_matched</name></member>
+      <member refid="class_video_publisher_1_1_pub_listener_1a64555d6debefa5873c43d8a38fccdbc1" prot="public" virt="non-virtual"><scope>VideoPublisher::PubListener</scope><name>PubListener</name></member>
+      <member refid="class_video_publisher_1_1_pub_listener_1ae8c875fdf39193f7ec38b2575ef15975" prot="public" virt="non-virtual"><scope>VideoPublisher::PubListener</scope><name>~PubListener</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

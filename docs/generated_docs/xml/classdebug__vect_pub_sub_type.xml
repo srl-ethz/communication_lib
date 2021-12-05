@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classdebug__vect_pub_sub_type" kind="class" language="C++" prot="public">
+    <compoundname>debug_vectPubSubType</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">eprosima::fastdds::dds::TopicDataType</basecompoundref>
+    <includes refid="debug__vect_pub_sub_types_8h" local="no">debug_vectPubSubTypes.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classdebug__vect_pub_sub_type_1a2440db18a658d40b3155c7795bb346cb" prot="public" static="no">
+        <type><ref refid="classdebug__vect" kindref="compound">debug_vect</ref></type>
+        <definition>typedef debug_vect debug_vectPubSubType::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_vectPubSubTypes.h" line="44" column="24" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_vectPubSubTypes.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classdebug__vect_pub_sub_type_1acb0250a36314eff304813ec461c15673" prot="public" static="no" mutable="no">
+        <type>MD5</type>
+        <definition>MD5 debug_vectPubSubType::m_md5</definition>
+        <argsstring></argsstring>
+        <name>m_md5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_vectPubSubTypes.h" line="97" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_vectPubSubTypes.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdebug__vect_pub_sub_type_1a6ba4fb9db78594f1090769fb87d1c02a" prot="public" static="no" mutable="no">
+        <type>unsigned char *</type>
+        <definition>unsigned char* debug_vectPubSubType::m_keyBuffer</definition>
+        <argsstring></argsstring>
+        <name>m_keyBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_vectPubSubTypes.h" line="98" column="19" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_vectPubSubTypes.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdebug__vect_pub_sub_type_1aa20dc3cc81c62300a264fecef1b5a8c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>debug_vectPubSubType::debug_vectPubSubType</definition>
+        <argsstring>()</argsstring>
+        <name>debug_vectPubSubType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_vectPubSubTypes.h" line="46" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_vectPubSubTypes.cxx" bodystart="32" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classdebug__vect_pub_sub_type_1a68a66f8981690af1cdf7e6122de8b541" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>debug_vectPubSubType::~debug_vectPubSubType</definition>
+        <argsstring>()</argsstring>
+        <name>~debug_vectPubSubType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_vectPubSubTypes.h" line="48" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_vectPubSubTypes.cxx" bodystart="45" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classdebug__vect_pub_sub_type_1a8527d82074bdd167e397fdbb4ca23b82" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool debug_vectPubSubType::serialize</definition>
+        <argsstring>(void *data, eprosima::fastrtps::rtps::SerializedPayload_t *payload) override</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>eprosima::fastrtps::rtps::SerializedPayload_t *</type>
+          <declname>payload</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_vectPubSubTypes.h" line="50" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_vectPubSubTypes.cxx" bodystart="53" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classdebug__vect_pub_sub_type_1a21aa2315b01fb84dc952cbb1b9c36657" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool debug_vectPubSubType::deserialize</definition>
+        <argsstring>(eprosima::fastrtps::rtps::SerializedPayload_t *payload, void *data) override</argsstring>
+        <name>deserialize</name>
+        <param>
+          <type>eprosima::fastrtps::rtps::SerializedPayload_t *</type>
+          <declname>payload</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_vectPubSubTypes.h" line="54" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_vectPubSubTypes.cxx" bodystart="82" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classdebug__vect_pub_sub_type_1aa754beac5c6a703ea27481a3d92faadd" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport std::function&lt; uint32_t()&gt;</type>
+        <definition>std::function&lt; uint32_t()&gt; debug_vectPubSubType::getSerializedSizeProvider</definition>
+        <argsstring>(void *data) override</argsstring>
+        <name>getSerializedSizeProvider</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_vectPubSubTypes.h" line="58" column="51" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_vectPubSubTypes.cxx" bodystart="112" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classdebug__vect_pub_sub_type_1a844957e160ef5950e3e1452b0ba9b323" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool debug_vectPubSubType::getKey</definition>
+        <argsstring>(void *data, eprosima::fastrtps::rtps::InstanceHandle_t *ihandle, bool force_md5=false) override</argsstring>
+        <name>getKey</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>eprosima::fastrtps::rtps::InstanceHandle_t *</type>
+          <declname>ihandle</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>force_md5</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_vectPubSubTypes.h" line="61" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_vectPubSubTypes.cxx" bodystart="133" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="classdebug__vect_pub_sub_type_1a8b80f8fed44ae4b72015ccc9c29883de" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport void *</type>
+        <definition>void * debug_vectPubSubType::createData</definition>
+        <argsstring>() override</argsstring>
+        <name>createData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_vectPubSubTypes.h" line="66" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_vectPubSubTypes.cxx" bodystart="122" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classdebug__vect_pub_sub_type_1a736bb6b1463013e38621ff90b47ec562" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void debug_vectPubSubType::deleteData</definition>
+        <argsstring>(void *data) override</argsstring>
+        <name>deleteData</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_vectPubSubTypes.h" line="68" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_vectPubSubTypes.cxx" bodystart="127" bodyend="131"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents the TopicDataType of the type <ref refid="classdebug__vect" kindref="compound">debug_vect</ref> defined by the user in the IDL file. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>debug_vectPubSubType</label>
+        <link refid="classdebug__vect_pub_sub_type"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>eprosima::fastdds::dds::TopicDataType</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>debug_vectPubSubType</label>
+        <link refid="classdebug__vect_pub_sub_type"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>eprosima::fastdds::dds::TopicDataType</label>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_vectPubSubTypes.h" line="40" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_vectPubSubTypes.h" bodystart="41" bodyend="99"/>
+    <listofallmembers>
+      <member refid="classdebug__vect_pub_sub_type_1a8b80f8fed44ae4b72015ccc9c29883de" prot="public" virt="virtual"><scope>debug_vectPubSubType</scope><name>createData</name></member>
+      <member refid="classdebug__vect_pub_sub_type_1aa20dc3cc81c62300a264fecef1b5a8c7" prot="public" virt="non-virtual"><scope>debug_vectPubSubType</scope><name>debug_vectPubSubType</name></member>
+      <member refid="classdebug__vect_pub_sub_type_1a736bb6b1463013e38621ff90b47ec562" prot="public" virt="virtual"><scope>debug_vectPubSubType</scope><name>deleteData</name></member>
+      <member refid="classdebug__vect_pub_sub_type_1a21aa2315b01fb84dc952cbb1b9c36657" prot="public" virt="virtual"><scope>debug_vectPubSubType</scope><name>deserialize</name></member>
+      <member refid="classdebug__vect_pub_sub_type_1a844957e160ef5950e3e1452b0ba9b323" prot="public" virt="virtual"><scope>debug_vectPubSubType</scope><name>getKey</name></member>
+      <member refid="classdebug__vect_pub_sub_type_1aa754beac5c6a703ea27481a3d92faadd" prot="public" virt="virtual"><scope>debug_vectPubSubType</scope><name>getSerializedSizeProvider</name></member>
+      <member refid="classdebug__vect_pub_sub_type_1a6ba4fb9db78594f1090769fb87d1c02a" prot="public" virt="non-virtual"><scope>debug_vectPubSubType</scope><name>m_keyBuffer</name></member>
+      <member refid="classdebug__vect_pub_sub_type_1acb0250a36314eff304813ec461c15673" prot="public" virt="non-virtual"><scope>debug_vectPubSubType</scope><name>m_md5</name></member>
+      <member refid="classdebug__vect_pub_sub_type_1a8527d82074bdd167e397fdbb4ca23b82" prot="public" virt="virtual"><scope>debug_vectPubSubType</scope><name>serialize</name></member>
+      <member refid="classdebug__vect_pub_sub_type_1a2440db18a658d40b3155c7795bb346cb" prot="public" virt="non-virtual"><scope>debug_vectPubSubType</scope><name>type</name></member>
+      <member refid="classdebug__vect_pub_sub_type_1a68a66f8981690af1cdf7e6122de8b541" prot="public" virt="virtual"><scope>debug_vectPubSubType</scope><name>~debug_vectPubSubType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

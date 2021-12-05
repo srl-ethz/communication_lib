@@ -1,0 +1,693 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classtimesync" kind="class" language="C++" prot="public">
+    <compoundname>timesync</compoundname>
+    <includes refid="timesync_8h" local="no">timesync.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtimesync_1a9fa8c7f6023d53c648dfcaa035ad5edc" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t timesync::m_timestamp_</definition>
+        <argsstring></argsstring>
+        <name>m_timestamp_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.h" line="246" column="14" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.h" bodystart="246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtimesync_1a0b8b64a5c568518028bdab458ba916fa" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t timesync::m_seq_</definition>
+        <argsstring></argsstring>
+        <name>m_seq_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.h" line="247" column="13" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.h" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtimesync_1a8832fa3f98abce0605cf4595aa32e3b7" prot="private" static="no" mutable="no">
+        <type>int64_t</type>
+        <definition>int64_t timesync::m_tc1_</definition>
+        <argsstring></argsstring>
+        <name>m_tc1_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.h" line="248" column="13" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.h" bodystart="248" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtimesync_1a14e9168c336c98986357ee2e2c4a716c" prot="private" static="no" mutable="no">
+        <type>int64_t</type>
+        <definition>int64_t timesync::m_ts1_</definition>
+        <argsstring></argsstring>
+        <name>m_ts1_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.h" line="249" column="13" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.h" bodystart="249" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtimesync_1a1c92805ba94ded4069ec323537b05353" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>timesync::timesync</definition>
+        <argsstring>()</argsstring>
+        <name>timesync</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.h" line="75" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.cxx" bodystart="37" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classtimesync_1af563972948aa3c66b0016fa0d802bab8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>timesync::~timesync</definition>
+        <argsstring>()</argsstring>
+        <name>~timesync</name>
+        <briefdescription>
+<para>Default destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.h" line="80" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.cxx" bodystart="50" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classtimesync_1a5f0300a0d14667ac0b6e2b9fd14bb349" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>timesync::timesync</definition>
+        <argsstring>(const timesync &amp;x)</argsstring>
+        <name>timesync</name>
+        <param>
+          <type>const <ref refid="classtimesync" kindref="compound">timesync</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object timesync that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.h" line="86" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.cxx" bodystart="58" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classtimesync_1a9cab0f386b8f1ff7d9c2a31437aee5dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>timesync::timesync</definition>
+        <argsstring>(timesync &amp;&amp;x)</argsstring>
+        <name>timesync</name>
+        <param>
+          <type><ref refid="classtimesync" kindref="compound">timesync</ref> &amp;&amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Move constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object timesync that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.h" line="93" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.cxx" bodystart="67" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classtimesync_1aa002b4116d0faf97bbd8ed8d23070502" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport <ref refid="classtimesync" kindref="compound">timesync</ref> &amp;</type>
+        <definition>timesync &amp; timesync::operator=</definition>
+        <argsstring>(const timesync &amp;x)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classtimesync" kindref="compound">timesync</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Copy assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object timesync that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.h" line="100" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.cxx" bodystart="76" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classtimesync_1a26249a573a247edea97df6e056da3763" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport <ref refid="classtimesync" kindref="compound">timesync</ref> &amp;</type>
+        <definition>timesync &amp; timesync::operator=</definition>
+        <argsstring>(timesync &amp;&amp;x)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classtimesync" kindref="compound">timesync</ref> &amp;&amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Move assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object timesync that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.h" line="107" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.cxx" bodystart="88" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classtimesync_1af08ed872750b17a3987caca0b2c9ac8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void timesync::timestamp_</definition>
+        <argsstring>(uint64_t _timestamp_)</argsstring>
+        <name>timestamp_</name>
+        <param>
+          <type>uint64_t</type>
+          <declname>_timestamp_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;timestamp&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member timestamp_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.h" line="114" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.cxx" bodystart="171" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="classtimesync_1adc7e5768003d9bafe9712b302cd29f68" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint64_t</type>
+        <definition>uint64_t timesync::timestamp_</definition>
+        <argsstring>() const</argsstring>
+        <name>timestamp_</name>
+        <briefdescription>
+<para>This function returns the value of member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member timestamp_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.h" line="121" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.cxx" bodystart="181" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="classtimesync_1a20ad82c7bf6336bb2e6d1a3b853b585f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint64_t &amp;</type>
+        <definition>uint64_t &amp; timesync::timestamp_</definition>
+        <argsstring>()</argsstring>
+        <name>timestamp_</name>
+        <briefdescription>
+<para>This function returns a reference to member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member timestamp_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.h" line="127" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.cxx" bodystart="190" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="classtimesync_1a9fc9a0594a57027e0fe09ef032d30a5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void timesync::seq_</definition>
+        <argsstring>(uint8_t _seq_)</argsstring>
+        <name>seq_</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>_seq_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member seq_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;seq&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member seq_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.h" line="133" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.cxx" bodystart="199" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="classtimesync_1acae261462502f2b0ce0ab321bc17a73e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint8_t</type>
+        <definition>uint8_t timesync::seq_</definition>
+        <argsstring>() const</argsstring>
+        <name>seq_</name>
+        <briefdescription>
+<para>This function returns the value of member seq_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member seq_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.h" line="140" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.cxx" bodystart="209" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="classtimesync_1ae3d60f45cfb4d70cec9d6b97a140db96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint8_t &amp;</type>
+        <definition>uint8_t &amp; timesync::seq_</definition>
+        <argsstring>()</argsstring>
+        <name>seq_</name>
+        <briefdescription>
+<para>This function returns a reference to member seq_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member seq_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.h" line="146" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.cxx" bodystart="218" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="classtimesync_1ae203bae00f1007edae89b6f1a584bef1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void timesync::tc1_</definition>
+        <argsstring>(int64_t _tc1_)</argsstring>
+        <name>tc1_</name>
+        <param>
+          <type>int64_t</type>
+          <declname>_tc1_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member tc1_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;tc1&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member tc1_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.h" line="152" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.cxx" bodystart="227" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="classtimesync_1a007fee1081090223675e3d9a91337c6d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport int64_t</type>
+        <definition>int64_t timesync::tc1_</definition>
+        <argsstring>() const</argsstring>
+        <name>tc1_</name>
+        <briefdescription>
+<para>This function returns the value of member tc1_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member tc1_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.h" line="159" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.cxx" bodystart="237" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="classtimesync_1a5ab90bd637cb172d57ad53bf9bd8b24d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport int64_t &amp;</type>
+        <definition>int64_t &amp; timesync::tc1_</definition>
+        <argsstring>()</argsstring>
+        <name>tc1_</name>
+        <briefdescription>
+<para>This function returns a reference to member tc1_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member tc1_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.h" line="165" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.cxx" bodystart="246" bodyend="249"/>
+      </memberdef>
+      <memberdef kind="function" id="classtimesync_1ae41d6847566dbf58a2650ffa92814f7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void timesync::ts1_</definition>
+        <argsstring>(int64_t _ts1_)</argsstring>
+        <name>ts1_</name>
+        <param>
+          <type>int64_t</type>
+          <declname>_ts1_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member ts1_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;ts1&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member ts1_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.h" line="171" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.cxx" bodystart="255" bodyend="259"/>
+      </memberdef>
+      <memberdef kind="function" id="classtimesync_1acecc8ef2de0a937bb3bae207b1ea7c8f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport int64_t</type>
+        <definition>int64_t timesync::ts1_</definition>
+        <argsstring>() const</argsstring>
+        <name>ts1_</name>
+        <briefdescription>
+<para>This function returns the value of member ts1_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member ts1_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.h" line="178" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.cxx" bodystart="265" bodyend="268"/>
+      </memberdef>
+      <memberdef kind="function" id="classtimesync_1a58d7ad914ca334420ffbbafdc8775fc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport int64_t &amp;</type>
+        <definition>int64_t &amp; timesync::ts1_</definition>
+        <argsstring>()</argsstring>
+        <name>ts1_</name>
+        <briefdescription>
+<para>This function returns a reference to member ts1_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member ts1_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.h" line="184" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.cxx" bodystart="274" bodyend="277"/>
+      </memberdef>
+      <memberdef kind="function" id="classtimesync_1afab85f0b3c2a55923fcddc7182144a01" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void timesync::serialize</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr) const</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function serializes an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.h" line="211" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.cxx" bodystart="146" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="classtimesync_1a65c10365defb0ea1575920e2ae07fef1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void timesync::deserialize</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr)</argsstring>
+        <name>deserialize</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function deserializes an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.h" line="218" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.cxx" bodystart="157" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="classtimesync_1a1ded8726d5cb0585c3a099e4bdb53d83" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void timesync::serializeKey</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr) const</argsstring>
+        <name>serializeKey</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function serializes the key members of an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.h" line="241" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.cxx" bodystart="299" bodyend="304"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classtimesync_1a6599cc330418c15250060e9b444f428e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t timesync::getMaxCdrSerializedSize</definition>
+        <argsstring>(size_t current_alignment=0)</argsstring>
+        <name>getMaxCdrSerializedSize</name>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the maximum serialized size of an object depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Maximum serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.h" line="193" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.cxx" bodystart="100" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classtimesync_1a96d9a8e205c6561b87e9c7d5178a616b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t timesync::getCdrSerializedSize</definition>
+        <argsstring>(const timesync &amp;data, size_t current_alignment=0)</argsstring>
+        <name>getCdrSerializedSize</name>
+        <param>
+          <type>const <ref refid="classtimesync" kindref="compound">timesync</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the serialized size of a data depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data which is calculated its serialized size. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.h" line="202" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.cxx" bodystart="122" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="classtimesync_1acde8cbb106d08ff83d4b3eb887e407cf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t timesync::getKeyMaxCdrSerializedSize</definition>
+        <argsstring>(size_t current_alignment=0)</argsstring>
+        <name>getKeyMaxCdrSerializedSize</name>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the maximum serialized size of the Key of an object depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Maximum serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.h" line="229" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.cxx" bodystart="280" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="classtimesync_1ab12e6f1b8e641183f84fa09a3baef9f9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool timesync::isKeyDefined</definition>
+        <argsstring>()</argsstring>
+        <name>isKeyDefined</name>
+        <briefdescription>
+<para>This function tells you if the Key has been defined for this type. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.h" line="235" column="41" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.cxx" bodystart="294" bodyend="297"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents the structure timesync defined by the user in the IDL file. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.h" line="68" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/timesync.h" bodystart="69" bodyend="250"/>
+    <listofallmembers>
+      <member refid="classtimesync_1a65c10365defb0ea1575920e2ae07fef1" prot="public" virt="non-virtual"><scope>timesync</scope><name>deserialize</name></member>
+      <member refid="classtimesync_1a96d9a8e205c6561b87e9c7d5178a616b" prot="public" virt="non-virtual"><scope>timesync</scope><name>getCdrSerializedSize</name></member>
+      <member refid="classtimesync_1acde8cbb106d08ff83d4b3eb887e407cf" prot="public" virt="non-virtual"><scope>timesync</scope><name>getKeyMaxCdrSerializedSize</name></member>
+      <member refid="classtimesync_1a6599cc330418c15250060e9b444f428e" prot="public" virt="non-virtual"><scope>timesync</scope><name>getMaxCdrSerializedSize</name></member>
+      <member refid="classtimesync_1ab12e6f1b8e641183f84fa09a3baef9f9" prot="public" virt="non-virtual"><scope>timesync</scope><name>isKeyDefined</name></member>
+      <member refid="classtimesync_1a0b8b64a5c568518028bdab458ba916fa" prot="private" virt="non-virtual"><scope>timesync</scope><name>m_seq_</name></member>
+      <member refid="classtimesync_1a8832fa3f98abce0605cf4595aa32e3b7" prot="private" virt="non-virtual"><scope>timesync</scope><name>m_tc1_</name></member>
+      <member refid="classtimesync_1a9fa8c7f6023d53c648dfcaa035ad5edc" prot="private" virt="non-virtual"><scope>timesync</scope><name>m_timestamp_</name></member>
+      <member refid="classtimesync_1a14e9168c336c98986357ee2e2c4a716c" prot="private" virt="non-virtual"><scope>timesync</scope><name>m_ts1_</name></member>
+      <member refid="classtimesync_1aa002b4116d0faf97bbd8ed8d23070502" prot="public" virt="non-virtual"><scope>timesync</scope><name>operator=</name></member>
+      <member refid="classtimesync_1a26249a573a247edea97df6e056da3763" prot="public" virt="non-virtual"><scope>timesync</scope><name>operator=</name></member>
+      <member refid="classtimesync_1a9fc9a0594a57027e0fe09ef032d30a5b" prot="public" virt="non-virtual"><scope>timesync</scope><name>seq_</name></member>
+      <member refid="classtimesync_1acae261462502f2b0ce0ab321bc17a73e" prot="public" virt="non-virtual"><scope>timesync</scope><name>seq_</name></member>
+      <member refid="classtimesync_1ae3d60f45cfb4d70cec9d6b97a140db96" prot="public" virt="non-virtual"><scope>timesync</scope><name>seq_</name></member>
+      <member refid="classtimesync_1afab85f0b3c2a55923fcddc7182144a01" prot="public" virt="non-virtual"><scope>timesync</scope><name>serialize</name></member>
+      <member refid="classtimesync_1a1ded8726d5cb0585c3a099e4bdb53d83" prot="public" virt="non-virtual"><scope>timesync</scope><name>serializeKey</name></member>
+      <member refid="classtimesync_1ae203bae00f1007edae89b6f1a584bef1" prot="public" virt="non-virtual"><scope>timesync</scope><name>tc1_</name></member>
+      <member refid="classtimesync_1a007fee1081090223675e3d9a91337c6d" prot="public" virt="non-virtual"><scope>timesync</scope><name>tc1_</name></member>
+      <member refid="classtimesync_1a5ab90bd637cb172d57ad53bf9bd8b24d" prot="public" virt="non-virtual"><scope>timesync</scope><name>tc1_</name></member>
+      <member refid="classtimesync_1af08ed872750b17a3987caca0b2c9ac8a" prot="public" virt="non-virtual"><scope>timesync</scope><name>timestamp_</name></member>
+      <member refid="classtimesync_1adc7e5768003d9bafe9712b302cd29f68" prot="public" virt="non-virtual"><scope>timesync</scope><name>timestamp_</name></member>
+      <member refid="classtimesync_1a20ad82c7bf6336bb2e6d1a3b853b585f" prot="public" virt="non-virtual"><scope>timesync</scope><name>timestamp_</name></member>
+      <member refid="classtimesync_1a1c92805ba94ded4069ec323537b05353" prot="public" virt="non-virtual"><scope>timesync</scope><name>timesync</name></member>
+      <member refid="classtimesync_1a5f0300a0d14667ac0b6e2b9fd14bb349" prot="public" virt="non-virtual"><scope>timesync</scope><name>timesync</name></member>
+      <member refid="classtimesync_1a9cab0f386b8f1ff7d9c2a31437aee5dd" prot="public" virt="non-virtual"><scope>timesync</scope><name>timesync</name></member>
+      <member refid="classtimesync_1ae41d6847566dbf58a2650ffa92814f7f" prot="public" virt="non-virtual"><scope>timesync</scope><name>ts1_</name></member>
+      <member refid="classtimesync_1acecc8ef2de0a937bb3bae207b1ea7c8f" prot="public" virt="non-virtual"><scope>timesync</scope><name>ts1_</name></member>
+      <member refid="classtimesync_1a58d7ad914ca334420ffbbafdc8775fc5" prot="public" virt="non-virtual"><scope>timesync</scope><name>ts1_</name></member>
+      <member refid="classtimesync_1af563972948aa3c66b0016fa0d802bab8" prot="public" virt="non-virtual"><scope>timesync</scope><name>~timesync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

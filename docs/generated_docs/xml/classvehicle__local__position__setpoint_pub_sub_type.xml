@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classvehicle__local__position__setpoint_pub_sub_type" kind="class" language="C++" prot="public">
+    <compoundname>vehicle_local_position_setpointPubSubType</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">eprosima::fastdds::dds::TopicDataType</basecompoundref>
+    <includes refid="vehicle__local__position__setpoint_pub_sub_types_8h" local="no">vehicle_local_position_setpointPubSubTypes.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classvehicle__local__position__setpoint_pub_sub_type_1a41f0c5ef446843ed3093838ed0a9fa90" prot="public" static="no">
+        <type><ref refid="classvehicle__local__position__setpoint" kindref="compound">vehicle_local_position_setpoint</ref></type>
+        <definition>typedef vehicle_local_position_setpoint vehicle_local_position_setpointPubSubType::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpointPubSubTypes.h" line="44" column="45" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpointPubSubTypes.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classvehicle__local__position__setpoint_pub_sub_type_1af47cb544da5ba3b2665ab40878a05128" prot="public" static="no" mutable="no">
+        <type>MD5</type>
+        <definition>MD5 vehicle_local_position_setpointPubSubType::m_md5</definition>
+        <argsstring></argsstring>
+        <name>m_md5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpointPubSubTypes.h" line="97" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpointPubSubTypes.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__local__position__setpoint_pub_sub_type_1af62a431dbf2202a3c9a531ad5c7a8e80" prot="public" static="no" mutable="no">
+        <type>unsigned char *</type>
+        <definition>unsigned char* vehicle_local_position_setpointPubSubType::m_keyBuffer</definition>
+        <argsstring></argsstring>
+        <name>m_keyBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpointPubSubTypes.h" line="98" column="19" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpointPubSubTypes.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_pub_sub_type_1a60499e4569637dc69c0135bf7ef8e0d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>vehicle_local_position_setpointPubSubType::vehicle_local_position_setpointPubSubType</definition>
+        <argsstring>()</argsstring>
+        <name>vehicle_local_position_setpointPubSubType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpointPubSubTypes.h" line="46" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpointPubSubTypes.cxx" bodystart="32" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_pub_sub_type_1a6b3e626b20e26167f67c7ccb081e8ec2" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>vehicle_local_position_setpointPubSubType::~vehicle_local_position_setpointPubSubType</definition>
+        <argsstring>()</argsstring>
+        <name>~vehicle_local_position_setpointPubSubType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpointPubSubTypes.h" line="48" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpointPubSubTypes.cxx" bodystart="45" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_pub_sub_type_1a3b64202e94596abde1b74c7a001e10f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool vehicle_local_position_setpointPubSubType::serialize</definition>
+        <argsstring>(void *data, eprosima::fastrtps::rtps::SerializedPayload_t *payload) override</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>eprosima::fastrtps::rtps::SerializedPayload_t *</type>
+          <declname>payload</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpointPubSubTypes.h" line="50" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpointPubSubTypes.cxx" bodystart="53" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_pub_sub_type_1a62fb6fe16b6a77f224912eede3e73cc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool vehicle_local_position_setpointPubSubType::deserialize</definition>
+        <argsstring>(eprosima::fastrtps::rtps::SerializedPayload_t *payload, void *data) override</argsstring>
+        <name>deserialize</name>
+        <param>
+          <type>eprosima::fastrtps::rtps::SerializedPayload_t *</type>
+          <declname>payload</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpointPubSubTypes.h" line="54" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpointPubSubTypes.cxx" bodystart="82" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_pub_sub_type_1a5c0af90ea3a722e4e4eb63990924a756" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport std::function&lt; uint32_t()&gt;</type>
+        <definition>std::function&lt; uint32_t()&gt; vehicle_local_position_setpointPubSubType::getSerializedSizeProvider</definition>
+        <argsstring>(void *data) override</argsstring>
+        <name>getSerializedSizeProvider</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpointPubSubTypes.h" line="58" column="51" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpointPubSubTypes.cxx" bodystart="112" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_pub_sub_type_1aa2313beeabb51f20340949d2ef180dd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool vehicle_local_position_setpointPubSubType::getKey</definition>
+        <argsstring>(void *data, eprosima::fastrtps::rtps::InstanceHandle_t *ihandle, bool force_md5=false) override</argsstring>
+        <name>getKey</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>eprosima::fastrtps::rtps::InstanceHandle_t *</type>
+          <declname>ihandle</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>force_md5</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpointPubSubTypes.h" line="61" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpointPubSubTypes.cxx" bodystart="133" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_pub_sub_type_1ad3595e3ef17588da28b42264bfa19068" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport void *</type>
+        <definition>void * vehicle_local_position_setpointPubSubType::createData</definition>
+        <argsstring>() override</argsstring>
+        <name>createData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpointPubSubTypes.h" line="66" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpointPubSubTypes.cxx" bodystart="122" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__local__position__setpoint_pub_sub_type_1a1ca5b24e15c01c3c5bd439d62f3c9b7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_local_position_setpointPubSubType::deleteData</definition>
+        <argsstring>(void *data) override</argsstring>
+        <name>deleteData</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpointPubSubTypes.h" line="68" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpointPubSubTypes.cxx" bodystart="127" bodyend="131"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents the TopicDataType of the type <ref refid="classvehicle__local__position__setpoint" kindref="compound">vehicle_local_position_setpoint</ref> defined by the user in the IDL file. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>eprosima::fastdds::dds::TopicDataType</label>
+      </node>
+      <node id="1">
+        <label>vehicle_local_position_setpointPubSubType</label>
+        <link refid="classvehicle__local__position__setpoint_pub_sub_type"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>eprosima::fastdds::dds::TopicDataType</label>
+      </node>
+      <node id="1">
+        <label>vehicle_local_position_setpointPubSubType</label>
+        <link refid="classvehicle__local__position__setpoint_pub_sub_type"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpointPubSubTypes.h" line="40" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_local_position_setpointPubSubTypes.h" bodystart="41" bodyend="99"/>
+    <listofallmembers>
+      <member refid="classvehicle__local__position__setpoint_pub_sub_type_1ad3595e3ef17588da28b42264bfa19068" prot="public" virt="virtual"><scope>vehicle_local_position_setpointPubSubType</scope><name>createData</name></member>
+      <member refid="classvehicle__local__position__setpoint_pub_sub_type_1a1ca5b24e15c01c3c5bd439d62f3c9b7c" prot="public" virt="virtual"><scope>vehicle_local_position_setpointPubSubType</scope><name>deleteData</name></member>
+      <member refid="classvehicle__local__position__setpoint_pub_sub_type_1a62fb6fe16b6a77f224912eede3e73cc6" prot="public" virt="virtual"><scope>vehicle_local_position_setpointPubSubType</scope><name>deserialize</name></member>
+      <member refid="classvehicle__local__position__setpoint_pub_sub_type_1aa2313beeabb51f20340949d2ef180dd8" prot="public" virt="virtual"><scope>vehicle_local_position_setpointPubSubType</scope><name>getKey</name></member>
+      <member refid="classvehicle__local__position__setpoint_pub_sub_type_1a5c0af90ea3a722e4e4eb63990924a756" prot="public" virt="virtual"><scope>vehicle_local_position_setpointPubSubType</scope><name>getSerializedSizeProvider</name></member>
+      <member refid="classvehicle__local__position__setpoint_pub_sub_type_1af62a431dbf2202a3c9a531ad5c7a8e80" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpointPubSubType</scope><name>m_keyBuffer</name></member>
+      <member refid="classvehicle__local__position__setpoint_pub_sub_type_1af47cb544da5ba3b2665ab40878a05128" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpointPubSubType</scope><name>m_md5</name></member>
+      <member refid="classvehicle__local__position__setpoint_pub_sub_type_1a3b64202e94596abde1b74c7a001e10f4" prot="public" virt="virtual"><scope>vehicle_local_position_setpointPubSubType</scope><name>serialize</name></member>
+      <member refid="classvehicle__local__position__setpoint_pub_sub_type_1a41f0c5ef446843ed3093838ed0a9fa90" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpointPubSubType</scope><name>type</name></member>
+      <member refid="classvehicle__local__position__setpoint_pub_sub_type_1a60499e4569637dc69c0135bf7ef8e0d0" prot="public" virt="non-virtual"><scope>vehicle_local_position_setpointPubSubType</scope><name>vehicle_local_position_setpointPubSubType</name></member>
+      <member refid="classvehicle__local__position__setpoint_pub_sub_type_1a6b3e626b20e26167f67c7ccb081e8ec2" prot="public" virt="virtual"><scope>vehicle_local_position_setpointPubSubType</scope><name>~vehicle_local_position_setpointPubSubType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

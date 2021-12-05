@@ -1,0 +1,1483 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classvehicle__control__mode" kind="class" language="C++" prot="public">
+    <compoundname>vehicle_control_mode</compoundname>
+    <includes refid="vehicle__control__mode_8h" local="no">vehicle_control_mode.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classvehicle__control__mode_1ab1327a9c8b66382ab83ab0c00cd6b88b" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t vehicle_control_mode::m_timestamp_</definition>
+        <argsstring></argsstring>
+        <name>m_timestamp_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="436" column="14" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" bodystart="436" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__control__mode_1a2944276d3da9d7fa9a99b28832c6a7c1" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool vehicle_control_mode::m_flag_armed_</definition>
+        <argsstring></argsstring>
+        <name>m_flag_armed_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="437" column="10" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" bodystart="437" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__control__mode_1a9a15785fddda8c1fa0db0dbe0f690b5b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool vehicle_control_mode::m_flag_multicopter_position_control_enabled_</definition>
+        <argsstring></argsstring>
+        <name>m_flag_multicopter_position_control_enabled_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="438" column="10" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" bodystart="438" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__control__mode_1a22c77bddd72458a59984ad5c46ce5fca" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool vehicle_control_mode::m_flag_control_manual_enabled_</definition>
+        <argsstring></argsstring>
+        <name>m_flag_control_manual_enabled_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="439" column="10" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" bodystart="439" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__control__mode_1ad583ac9d10d3ff4692ffaa0ddd651a64" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool vehicle_control_mode::m_flag_control_auto_enabled_</definition>
+        <argsstring></argsstring>
+        <name>m_flag_control_auto_enabled_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="440" column="10" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" bodystart="440" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__control__mode_1a31f39252458ca0d7b9a910b201ecd290" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool vehicle_control_mode::m_flag_control_offboard_enabled_</definition>
+        <argsstring></argsstring>
+        <name>m_flag_control_offboard_enabled_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="441" column="10" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" bodystart="441" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__control__mode_1a55b4bfc818dff1d10003c4015654f7ff" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool vehicle_control_mode::m_flag_control_rates_enabled_</definition>
+        <argsstring></argsstring>
+        <name>m_flag_control_rates_enabled_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="442" column="10" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" bodystart="442" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__control__mode_1a7dc872022a279ad127530e862d3738fa" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool vehicle_control_mode::m_flag_control_attitude_enabled_</definition>
+        <argsstring></argsstring>
+        <name>m_flag_control_attitude_enabled_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="443" column="10" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" bodystart="443" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__control__mode_1ad8f37fd355ee0d9ef0a40a575628591a" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool vehicle_control_mode::m_flag_control_acceleration_enabled_</definition>
+        <argsstring></argsstring>
+        <name>m_flag_control_acceleration_enabled_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="444" column="10" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" bodystart="444" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__control__mode_1a06387511b63685d6dae4b075b75c2258" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool vehicle_control_mode::m_flag_control_velocity_enabled_</definition>
+        <argsstring></argsstring>
+        <name>m_flag_control_velocity_enabled_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="445" column="10" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" bodystart="445" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__control__mode_1ace7c0009bf77fa39b8c1399adfd6038b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool vehicle_control_mode::m_flag_control_position_enabled_</definition>
+        <argsstring></argsstring>
+        <name>m_flag_control_position_enabled_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="446" column="10" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" bodystart="446" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__control__mode_1a74a40d42fb4f697676eba27c7ba348c9" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool vehicle_control_mode::m_flag_control_altitude_enabled_</definition>
+        <argsstring></argsstring>
+        <name>m_flag_control_altitude_enabled_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="447" column="10" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" bodystart="447" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__control__mode_1aedfccb017d70823f77cb87922e56ac04" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool vehicle_control_mode::m_flag_control_climb_rate_enabled_</definition>
+        <argsstring></argsstring>
+        <name>m_flag_control_climb_rate_enabled_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="448" column="10" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" bodystart="448" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvehicle__control__mode_1afece722faf41429d7c7a8747b37d8775" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool vehicle_control_mode::m_flag_control_termination_enabled_</definition>
+        <argsstring></argsstring>
+        <name>m_flag_control_termination_enabled_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="449" column="10" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" bodystart="449" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classvehicle__control__mode_1a52a383bcdd008ef071118b7a49888421" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>vehicle_control_mode::vehicle_control_mode</definition>
+        <argsstring>()</argsstring>
+        <name>vehicle_control_mode</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="75" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="37" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1a96be849d64131e60abfca3716d6e3d26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>vehicle_control_mode::~vehicle_control_mode</definition>
+        <argsstring>()</argsstring>
+        <name>~vehicle_control_mode</name>
+        <briefdescription>
+<para>Default destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="80" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="70" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1aece66ea66cade6689233cfba9414360b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>vehicle_control_mode::vehicle_control_mode</definition>
+        <argsstring>(const vehicle_control_mode &amp;x)</argsstring>
+        <name>vehicle_control_mode</name>
+        <param>
+          <type>const <ref refid="classvehicle__control__mode" kindref="compound">vehicle_control_mode</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classvehicle__control__mode" kindref="compound">vehicle_control_mode</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="86" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="88" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1a542c6976e9fa7a56777d9075dc7e96c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>vehicle_control_mode::vehicle_control_mode</definition>
+        <argsstring>(vehicle_control_mode &amp;&amp;x)</argsstring>
+        <name>vehicle_control_mode</name>
+        <param>
+          <type><ref refid="classvehicle__control__mode" kindref="compound">vehicle_control_mode</ref> &amp;&amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Move constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classvehicle__control__mode" kindref="compound">vehicle_control_mode</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="93" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="107" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1a92e74904e66afb075e2208280cfeedec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport <ref refid="classvehicle__control__mode" kindref="compound">vehicle_control_mode</ref> &amp;</type>
+        <definition>vehicle_control_mode &amp; vehicle_control_mode::operator=</definition>
+        <argsstring>(const vehicle_control_mode &amp;x)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classvehicle__control__mode" kindref="compound">vehicle_control_mode</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Copy assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classvehicle__control__mode" kindref="compound">vehicle_control_mode</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="100" column="50" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="126" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1a5fcdef9473d9f57b21e68b6e6399afc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport <ref refid="classvehicle__control__mode" kindref="compound">vehicle_control_mode</ref> &amp;</type>
+        <definition>vehicle_control_mode &amp; vehicle_control_mode::operator=</definition>
+        <argsstring>(vehicle_control_mode &amp;&amp;x)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classvehicle__control__mode" kindref="compound">vehicle_control_mode</ref> &amp;&amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Move assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classvehicle__control__mode" kindref="compound">vehicle_control_mode</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="107" column="50" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="148" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1a0182e74d0ffa57bf972b215957ba336d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_control_mode::timestamp_</definition>
+        <argsstring>(uint64_t _timestamp_)</argsstring>
+        <name>timestamp_</name>
+        <param>
+          <type>uint64_t</type>
+          <declname>_timestamp_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;timestamp&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member timestamp_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="114" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="321" bodyend="325"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1a5b86c158c525c6269de4820557b6fa12" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint64_t</type>
+        <definition>uint64_t vehicle_control_mode::timestamp_</definition>
+        <argsstring>() const</argsstring>
+        <name>timestamp_</name>
+        <briefdescription>
+<para>This function returns the value of member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member timestamp_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="121" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="331" bodyend="334"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1a1141442b47fdbe84600bcc9c848d9419" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint64_t &amp;</type>
+        <definition>uint64_t &amp; vehicle_control_mode::timestamp_</definition>
+        <argsstring>()</argsstring>
+        <name>timestamp_</name>
+        <briefdescription>
+<para>This function returns a reference to member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member timestamp_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="127" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="340" bodyend="343"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1ade6a4160ba191bb029b66fcff41e20a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_control_mode::flag_armed_</definition>
+        <argsstring>(bool _flag_armed_)</argsstring>
+        <name>flag_armed_</name>
+        <param>
+          <type>bool</type>
+          <declname>_flag_armed_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member flag_armed_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;flag_armed&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member flag_armed_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="133" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="349" bodyend="353"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1a982f989b193aa83d68171d40f0161e45" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool vehicle_control_mode::flag_armed_</definition>
+        <argsstring>() const</argsstring>
+        <name>flag_armed_</name>
+        <briefdescription>
+<para>This function returns the value of member flag_armed_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member flag_armed_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="140" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="359" bodyend="362"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1a98c17b68a9710e50e35b09552b26e9fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool &amp;</type>
+        <definition>bool &amp; vehicle_control_mode::flag_armed_</definition>
+        <argsstring>()</argsstring>
+        <name>flag_armed_</name>
+        <briefdescription>
+<para>This function returns a reference to member flag_armed_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member flag_armed_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="146" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="368" bodyend="371"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1af624e53d5c593729be504aa61ee1518f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_control_mode::flag_multicopter_position_control_enabled_</definition>
+        <argsstring>(bool _flag_multicopter_position_control_enabled_)</argsstring>
+        <name>flag_multicopter_position_control_enabled_</name>
+        <param>
+          <type>bool</type>
+          <declname>_flag_multicopter_position_control_enabled_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member flag_multicopter_position_control_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;flag_multicopter_position_control_enabled&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member flag_multicopter_position_control_enabled_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="152" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="377" bodyend="381"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1ae6afbeeb5f121b9542ff337bd9d06b08" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool vehicle_control_mode::flag_multicopter_position_control_enabled_</definition>
+        <argsstring>() const</argsstring>
+        <name>flag_multicopter_position_control_enabled_</name>
+        <briefdescription>
+<para>This function returns the value of member flag_multicopter_position_control_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member flag_multicopter_position_control_enabled_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="159" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="387" bodyend="390"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1a05686c18da4ad2dd01a9e00c0005d669" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool &amp;</type>
+        <definition>bool &amp; vehicle_control_mode::flag_multicopter_position_control_enabled_</definition>
+        <argsstring>()</argsstring>
+        <name>flag_multicopter_position_control_enabled_</name>
+        <briefdescription>
+<para>This function returns a reference to member flag_multicopter_position_control_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member flag_multicopter_position_control_enabled_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="165" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="396" bodyend="399"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1a506eebacdaef05ba5ab717fbefc01850" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_control_mode::flag_control_manual_enabled_</definition>
+        <argsstring>(bool _flag_control_manual_enabled_)</argsstring>
+        <name>flag_control_manual_enabled_</name>
+        <param>
+          <type>bool</type>
+          <declname>_flag_control_manual_enabled_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member flag_control_manual_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;flag_control_manual_enabled&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member flag_control_manual_enabled_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="171" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="405" bodyend="409"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1a67d27db84df7b584fee72f11d38e7359" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool vehicle_control_mode::flag_control_manual_enabled_</definition>
+        <argsstring>() const</argsstring>
+        <name>flag_control_manual_enabled_</name>
+        <briefdescription>
+<para>This function returns the value of member flag_control_manual_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member flag_control_manual_enabled_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="178" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="415" bodyend="418"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1aa8e382c93eb71d2ced356a9684d6526e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool &amp;</type>
+        <definition>bool &amp; vehicle_control_mode::flag_control_manual_enabled_</definition>
+        <argsstring>()</argsstring>
+        <name>flag_control_manual_enabled_</name>
+        <briefdescription>
+<para>This function returns a reference to member flag_control_manual_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member flag_control_manual_enabled_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="184" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="424" bodyend="427"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1af0f4769a037ea6adae50bda694640c92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_control_mode::flag_control_auto_enabled_</definition>
+        <argsstring>(bool _flag_control_auto_enabled_)</argsstring>
+        <name>flag_control_auto_enabled_</name>
+        <param>
+          <type>bool</type>
+          <declname>_flag_control_auto_enabled_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member flag_control_auto_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;flag_control_auto_enabled&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member flag_control_auto_enabled_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="190" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="433" bodyend="437"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1adfd3c24498b5053580d53b80d76b915d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool vehicle_control_mode::flag_control_auto_enabled_</definition>
+        <argsstring>() const</argsstring>
+        <name>flag_control_auto_enabled_</name>
+        <briefdescription>
+<para>This function returns the value of member flag_control_auto_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member flag_control_auto_enabled_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="197" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="443" bodyend="446"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1a1428511841136e23928f80d7d71e19aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool &amp;</type>
+        <definition>bool &amp; vehicle_control_mode::flag_control_auto_enabled_</definition>
+        <argsstring>()</argsstring>
+        <name>flag_control_auto_enabled_</name>
+        <briefdescription>
+<para>This function returns a reference to member flag_control_auto_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member flag_control_auto_enabled_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="203" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="452" bodyend="455"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1a9c4806e5c2d6c2a41b90dd2ed72b8cbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_control_mode::flag_control_offboard_enabled_</definition>
+        <argsstring>(bool _flag_control_offboard_enabled_)</argsstring>
+        <name>flag_control_offboard_enabled_</name>
+        <param>
+          <type>bool</type>
+          <declname>_flag_control_offboard_enabled_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member flag_control_offboard_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;flag_control_offboard_enabled&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member flag_control_offboard_enabled_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="209" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="461" bodyend="465"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1ae68b650e6ac82136d10111e020b83c63" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool vehicle_control_mode::flag_control_offboard_enabled_</definition>
+        <argsstring>() const</argsstring>
+        <name>flag_control_offboard_enabled_</name>
+        <briefdescription>
+<para>This function returns the value of member flag_control_offboard_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member flag_control_offboard_enabled_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="216" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="471" bodyend="474"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1a77869d989e8f8e2c9eb1f843f259baa1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool &amp;</type>
+        <definition>bool &amp; vehicle_control_mode::flag_control_offboard_enabled_</definition>
+        <argsstring>()</argsstring>
+        <name>flag_control_offboard_enabled_</name>
+        <briefdescription>
+<para>This function returns a reference to member flag_control_offboard_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member flag_control_offboard_enabled_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="222" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="480" bodyend="483"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1a1de796fed58fd0414dc935b551b2cdaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_control_mode::flag_control_rates_enabled_</definition>
+        <argsstring>(bool _flag_control_rates_enabled_)</argsstring>
+        <name>flag_control_rates_enabled_</name>
+        <param>
+          <type>bool</type>
+          <declname>_flag_control_rates_enabled_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member flag_control_rates_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;flag_control_rates_enabled&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member flag_control_rates_enabled_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="228" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="489" bodyend="493"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1af7d24d3f915f227a7860cf1680c0b7c1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool vehicle_control_mode::flag_control_rates_enabled_</definition>
+        <argsstring>() const</argsstring>
+        <name>flag_control_rates_enabled_</name>
+        <briefdescription>
+<para>This function returns the value of member flag_control_rates_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member flag_control_rates_enabled_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="235" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="499" bodyend="502"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1a7d6209acdd868bc1a94883c19e8bb585" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool &amp;</type>
+        <definition>bool &amp; vehicle_control_mode::flag_control_rates_enabled_</definition>
+        <argsstring>()</argsstring>
+        <name>flag_control_rates_enabled_</name>
+        <briefdescription>
+<para>This function returns a reference to member flag_control_rates_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member flag_control_rates_enabled_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="241" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="508" bodyend="511"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1a42352375aaf470d48c87ea10a7811bed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_control_mode::flag_control_attitude_enabled_</definition>
+        <argsstring>(bool _flag_control_attitude_enabled_)</argsstring>
+        <name>flag_control_attitude_enabled_</name>
+        <param>
+          <type>bool</type>
+          <declname>_flag_control_attitude_enabled_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member flag_control_attitude_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;flag_control_attitude_enabled&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member flag_control_attitude_enabled_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="247" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="517" bodyend="521"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1a99bbac0e3630014a42c326ef68467f5d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool vehicle_control_mode::flag_control_attitude_enabled_</definition>
+        <argsstring>() const</argsstring>
+        <name>flag_control_attitude_enabled_</name>
+        <briefdescription>
+<para>This function returns the value of member flag_control_attitude_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member flag_control_attitude_enabled_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="254" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="527" bodyend="530"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1a006d4e924ad667b7e7477a9551ad0586" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool &amp;</type>
+        <definition>bool &amp; vehicle_control_mode::flag_control_attitude_enabled_</definition>
+        <argsstring>()</argsstring>
+        <name>flag_control_attitude_enabled_</name>
+        <briefdescription>
+<para>This function returns a reference to member flag_control_attitude_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member flag_control_attitude_enabled_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="260" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="536" bodyend="539"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1a2196ec9d986490485fc31491f0bf815d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_control_mode::flag_control_acceleration_enabled_</definition>
+        <argsstring>(bool _flag_control_acceleration_enabled_)</argsstring>
+        <name>flag_control_acceleration_enabled_</name>
+        <param>
+          <type>bool</type>
+          <declname>_flag_control_acceleration_enabled_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member flag_control_acceleration_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;flag_control_acceleration_enabled&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member flag_control_acceleration_enabled_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="266" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="545" bodyend="549"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1a74ed5d4978835db4caf88cc6ca0d48dd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool vehicle_control_mode::flag_control_acceleration_enabled_</definition>
+        <argsstring>() const</argsstring>
+        <name>flag_control_acceleration_enabled_</name>
+        <briefdescription>
+<para>This function returns the value of member flag_control_acceleration_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member flag_control_acceleration_enabled_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="273" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="555" bodyend="558"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1aedc1972dac93817666da86becd531be5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool &amp;</type>
+        <definition>bool &amp; vehicle_control_mode::flag_control_acceleration_enabled_</definition>
+        <argsstring>()</argsstring>
+        <name>flag_control_acceleration_enabled_</name>
+        <briefdescription>
+<para>This function returns a reference to member flag_control_acceleration_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member flag_control_acceleration_enabled_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="279" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="564" bodyend="567"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1aed2ac26453640a5206367f451df7e066" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_control_mode::flag_control_velocity_enabled_</definition>
+        <argsstring>(bool _flag_control_velocity_enabled_)</argsstring>
+        <name>flag_control_velocity_enabled_</name>
+        <param>
+          <type>bool</type>
+          <declname>_flag_control_velocity_enabled_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member flag_control_velocity_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;flag_control_velocity_enabled&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member flag_control_velocity_enabled_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="285" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="573" bodyend="577"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1a03f375c8509cd9c9038e4aa608f44ad2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool vehicle_control_mode::flag_control_velocity_enabled_</definition>
+        <argsstring>() const</argsstring>
+        <name>flag_control_velocity_enabled_</name>
+        <briefdescription>
+<para>This function returns the value of member flag_control_velocity_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member flag_control_velocity_enabled_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="292" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="583" bodyend="586"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1a5e85304da82e67453124db4d2a2ca448" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool &amp;</type>
+        <definition>bool &amp; vehicle_control_mode::flag_control_velocity_enabled_</definition>
+        <argsstring>()</argsstring>
+        <name>flag_control_velocity_enabled_</name>
+        <briefdescription>
+<para>This function returns a reference to member flag_control_velocity_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member flag_control_velocity_enabled_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="298" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="592" bodyend="595"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1a0f3bbd7a1fe473189344a5f01535e5d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_control_mode::flag_control_position_enabled_</definition>
+        <argsstring>(bool _flag_control_position_enabled_)</argsstring>
+        <name>flag_control_position_enabled_</name>
+        <param>
+          <type>bool</type>
+          <declname>_flag_control_position_enabled_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member flag_control_position_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;flag_control_position_enabled&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member flag_control_position_enabled_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="304" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="601" bodyend="605"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1aab21d86ab857452785dbda88bf39704a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool vehicle_control_mode::flag_control_position_enabled_</definition>
+        <argsstring>() const</argsstring>
+        <name>flag_control_position_enabled_</name>
+        <briefdescription>
+<para>This function returns the value of member flag_control_position_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member flag_control_position_enabled_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="311" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="611" bodyend="614"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1a12f9482d98fbc0f21231fa7f7304a04d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool &amp;</type>
+        <definition>bool &amp; vehicle_control_mode::flag_control_position_enabled_</definition>
+        <argsstring>()</argsstring>
+        <name>flag_control_position_enabled_</name>
+        <briefdescription>
+<para>This function returns a reference to member flag_control_position_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member flag_control_position_enabled_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="317" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="620" bodyend="623"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1ac8f8f65a837231c678553fb523f6c28a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_control_mode::flag_control_altitude_enabled_</definition>
+        <argsstring>(bool _flag_control_altitude_enabled_)</argsstring>
+        <name>flag_control_altitude_enabled_</name>
+        <param>
+          <type>bool</type>
+          <declname>_flag_control_altitude_enabled_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member flag_control_altitude_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;flag_control_altitude_enabled&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member flag_control_altitude_enabled_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="323" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="629" bodyend="633"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1a6c9b96c65664948c1440b9bbe99fc981" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool vehicle_control_mode::flag_control_altitude_enabled_</definition>
+        <argsstring>() const</argsstring>
+        <name>flag_control_altitude_enabled_</name>
+        <briefdescription>
+<para>This function returns the value of member flag_control_altitude_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member flag_control_altitude_enabled_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="330" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="639" bodyend="642"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1ae451f75fa3f60c957b1860eec15d5a34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool &amp;</type>
+        <definition>bool &amp; vehicle_control_mode::flag_control_altitude_enabled_</definition>
+        <argsstring>()</argsstring>
+        <name>flag_control_altitude_enabled_</name>
+        <briefdescription>
+<para>This function returns a reference to member flag_control_altitude_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member flag_control_altitude_enabled_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="336" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="648" bodyend="651"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1a151f5d3bec6c9bf4c68d7e31de3210e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_control_mode::flag_control_climb_rate_enabled_</definition>
+        <argsstring>(bool _flag_control_climb_rate_enabled_)</argsstring>
+        <name>flag_control_climb_rate_enabled_</name>
+        <param>
+          <type>bool</type>
+          <declname>_flag_control_climb_rate_enabled_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member flag_control_climb_rate_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;flag_control_climb_rate_enabled&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member flag_control_climb_rate_enabled_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="342" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="657" bodyend="661"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1aaaeec3c3a5095312c9cd8169b3484e02" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool vehicle_control_mode::flag_control_climb_rate_enabled_</definition>
+        <argsstring>() const</argsstring>
+        <name>flag_control_climb_rate_enabled_</name>
+        <briefdescription>
+<para>This function returns the value of member flag_control_climb_rate_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member flag_control_climb_rate_enabled_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="349" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="667" bodyend="670"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1ade44a76d5dbd2c7950ba8ab66096f7f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool &amp;</type>
+        <definition>bool &amp; vehicle_control_mode::flag_control_climb_rate_enabled_</definition>
+        <argsstring>()</argsstring>
+        <name>flag_control_climb_rate_enabled_</name>
+        <briefdescription>
+<para>This function returns a reference to member flag_control_climb_rate_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member flag_control_climb_rate_enabled_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="355" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="676" bodyend="679"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1a75c9b0ace2dab0240b839215108f0b16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_control_mode::flag_control_termination_enabled_</definition>
+        <argsstring>(bool _flag_control_termination_enabled_)</argsstring>
+        <name>flag_control_termination_enabled_</name>
+        <param>
+          <type>bool</type>
+          <declname>_flag_control_termination_enabled_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member flag_control_termination_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;flag_control_termination_enabled&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member flag_control_termination_enabled_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="361" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="685" bodyend="689"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1ad63685a8003b95b5a6ab4eb9a5117913" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool vehicle_control_mode::flag_control_termination_enabled_</definition>
+        <argsstring>() const</argsstring>
+        <name>flag_control_termination_enabled_</name>
+        <briefdescription>
+<para>This function returns the value of member flag_control_termination_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member flag_control_termination_enabled_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="368" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="695" bodyend="698"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1a51e4b2ceda6a34ca342dd2399b6b507e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool &amp;</type>
+        <definition>bool &amp; vehicle_control_mode::flag_control_termination_enabled_</definition>
+        <argsstring>()</argsstring>
+        <name>flag_control_termination_enabled_</name>
+        <briefdescription>
+<para>This function returns a reference to member flag_control_termination_enabled_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member flag_control_termination_enabled_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="374" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="704" bodyend="707"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1ab116b748124d9fdce7befa53c8403a47" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_control_mode::serialize</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr) const</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function serializes an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="401" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="276" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1a146d7a317d5109be09d61b194c0b2eeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_control_mode::deserialize</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr)</argsstring>
+        <name>deserialize</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function deserializes an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="408" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="297" bodyend="315"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1a9da0680b9024a0a8733695a4a292a168" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void vehicle_control_mode::serializeKey</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr) const</argsstring>
+        <name>serializeKey</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function serializes the key members of an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="431" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="739" bodyend="744"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classvehicle__control__mode_1a16b72a75d3c7182064ac4048c106a5aa" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t vehicle_control_mode::getMaxCdrSerializedSize</definition>
+        <argsstring>(size_t current_alignment=0)</argsstring>
+        <name>getMaxCdrSerializedSize</name>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the maximum serialized size of an object depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Maximum serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="383" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="170" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1a5b5b77e8d9847d2c1876b17af330ab6b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t vehicle_control_mode::getCdrSerializedSize</definition>
+        <argsstring>(const vehicle_control_mode &amp;data, size_t current_alignment=0)</argsstring>
+        <name>getCdrSerializedSize</name>
+        <param>
+          <type>const <ref refid="classvehicle__control__mode" kindref="compound">vehicle_control_mode</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the serialized size of a data depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data which is calculated its serialized size. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="392" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="222" bodyend="274"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1a2ce135964adc218a31515df4d87a987b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t vehicle_control_mode::getKeyMaxCdrSerializedSize</definition>
+        <argsstring>(size_t current_alignment=0)</argsstring>
+        <name>getKeyMaxCdrSerializedSize</name>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the maximum serialized size of the Key of an object depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Maximum serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="419" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="710" bodyend="732"/>
+      </memberdef>
+      <memberdef kind="function" id="classvehicle__control__mode_1a1d6d67f1138a19c1ae4f6a340f843a2a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool vehicle_control_mode::isKeyDefined</definition>
+        <argsstring>()</argsstring>
+        <name>isKeyDefined</name>
+        <briefdescription>
+<para>This function tells you if the Key has been defined for this type. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="425" column="41" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.cxx" bodystart="734" bodyend="737"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents the structure <ref refid="classvehicle__control__mode" kindref="compound">vehicle_control_mode</ref> defined by the user in the IDL file. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" line="68" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/vehicle_control_mode.h" bodystart="69" bodyend="450"/>
+    <listofallmembers>
+      <member refid="classvehicle__control__mode_1a146d7a317d5109be09d61b194c0b2eeb" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>deserialize</name></member>
+      <member refid="classvehicle__control__mode_1ade6a4160ba191bb029b66fcff41e20a3" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_armed_</name></member>
+      <member refid="classvehicle__control__mode_1a982f989b193aa83d68171d40f0161e45" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_armed_</name></member>
+      <member refid="classvehicle__control__mode_1a98c17b68a9710e50e35b09552b26e9fb" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_armed_</name></member>
+      <member refid="classvehicle__control__mode_1a2196ec9d986490485fc31491f0bf815d" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_control_acceleration_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1a74ed5d4978835db4caf88cc6ca0d48dd" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_control_acceleration_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1aedc1972dac93817666da86becd531be5" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_control_acceleration_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1ac8f8f65a837231c678553fb523f6c28a" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_control_altitude_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1a6c9b96c65664948c1440b9bbe99fc981" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_control_altitude_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1ae451f75fa3f60c957b1860eec15d5a34" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_control_altitude_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1a42352375aaf470d48c87ea10a7811bed" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_control_attitude_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1a99bbac0e3630014a42c326ef68467f5d" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_control_attitude_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1a006d4e924ad667b7e7477a9551ad0586" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_control_attitude_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1af0f4769a037ea6adae50bda694640c92" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_control_auto_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1adfd3c24498b5053580d53b80d76b915d" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_control_auto_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1a1428511841136e23928f80d7d71e19aa" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_control_auto_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1a151f5d3bec6c9bf4c68d7e31de3210e2" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_control_climb_rate_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1aaaeec3c3a5095312c9cd8169b3484e02" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_control_climb_rate_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1ade44a76d5dbd2c7950ba8ab66096f7f1" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_control_climb_rate_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1a506eebacdaef05ba5ab717fbefc01850" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_control_manual_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1a67d27db84df7b584fee72f11d38e7359" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_control_manual_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1aa8e382c93eb71d2ced356a9684d6526e" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_control_manual_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1a9c4806e5c2d6c2a41b90dd2ed72b8cbf" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_control_offboard_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1ae68b650e6ac82136d10111e020b83c63" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_control_offboard_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1a77869d989e8f8e2c9eb1f843f259baa1" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_control_offboard_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1a0f3bbd7a1fe473189344a5f01535e5d2" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_control_position_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1aab21d86ab857452785dbda88bf39704a" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_control_position_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1a12f9482d98fbc0f21231fa7f7304a04d" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_control_position_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1a1de796fed58fd0414dc935b551b2cdaf" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_control_rates_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1af7d24d3f915f227a7860cf1680c0b7c1" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_control_rates_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1a7d6209acdd868bc1a94883c19e8bb585" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_control_rates_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1a75c9b0ace2dab0240b839215108f0b16" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_control_termination_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1ad63685a8003b95b5a6ab4eb9a5117913" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_control_termination_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1a51e4b2ceda6a34ca342dd2399b6b507e" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_control_termination_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1aed2ac26453640a5206367f451df7e066" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_control_velocity_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1a03f375c8509cd9c9038e4aa608f44ad2" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_control_velocity_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1a5e85304da82e67453124db4d2a2ca448" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_control_velocity_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1af624e53d5c593729be504aa61ee1518f" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_multicopter_position_control_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1ae6afbeeb5f121b9542ff337bd9d06b08" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_multicopter_position_control_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1a05686c18da4ad2dd01a9e00c0005d669" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>flag_multicopter_position_control_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1a5b5b77e8d9847d2c1876b17af330ab6b" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>getCdrSerializedSize</name></member>
+      <member refid="classvehicle__control__mode_1a2ce135964adc218a31515df4d87a987b" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>getKeyMaxCdrSerializedSize</name></member>
+      <member refid="classvehicle__control__mode_1a16b72a75d3c7182064ac4048c106a5aa" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>getMaxCdrSerializedSize</name></member>
+      <member refid="classvehicle__control__mode_1a1d6d67f1138a19c1ae4f6a340f843a2a" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>isKeyDefined</name></member>
+      <member refid="classvehicle__control__mode_1a2944276d3da9d7fa9a99b28832c6a7c1" prot="private" virt="non-virtual"><scope>vehicle_control_mode</scope><name>m_flag_armed_</name></member>
+      <member refid="classvehicle__control__mode_1ad8f37fd355ee0d9ef0a40a575628591a" prot="private" virt="non-virtual"><scope>vehicle_control_mode</scope><name>m_flag_control_acceleration_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1a74a40d42fb4f697676eba27c7ba348c9" prot="private" virt="non-virtual"><scope>vehicle_control_mode</scope><name>m_flag_control_altitude_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1a7dc872022a279ad127530e862d3738fa" prot="private" virt="non-virtual"><scope>vehicle_control_mode</scope><name>m_flag_control_attitude_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1ad583ac9d10d3ff4692ffaa0ddd651a64" prot="private" virt="non-virtual"><scope>vehicle_control_mode</scope><name>m_flag_control_auto_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1aedfccb017d70823f77cb87922e56ac04" prot="private" virt="non-virtual"><scope>vehicle_control_mode</scope><name>m_flag_control_climb_rate_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1a22c77bddd72458a59984ad5c46ce5fca" prot="private" virt="non-virtual"><scope>vehicle_control_mode</scope><name>m_flag_control_manual_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1a31f39252458ca0d7b9a910b201ecd290" prot="private" virt="non-virtual"><scope>vehicle_control_mode</scope><name>m_flag_control_offboard_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1ace7c0009bf77fa39b8c1399adfd6038b" prot="private" virt="non-virtual"><scope>vehicle_control_mode</scope><name>m_flag_control_position_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1a55b4bfc818dff1d10003c4015654f7ff" prot="private" virt="non-virtual"><scope>vehicle_control_mode</scope><name>m_flag_control_rates_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1afece722faf41429d7c7a8747b37d8775" prot="private" virt="non-virtual"><scope>vehicle_control_mode</scope><name>m_flag_control_termination_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1a06387511b63685d6dae4b075b75c2258" prot="private" virt="non-virtual"><scope>vehicle_control_mode</scope><name>m_flag_control_velocity_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1a9a15785fddda8c1fa0db0dbe0f690b5b" prot="private" virt="non-virtual"><scope>vehicle_control_mode</scope><name>m_flag_multicopter_position_control_enabled_</name></member>
+      <member refid="classvehicle__control__mode_1ab1327a9c8b66382ab83ab0c00cd6b88b" prot="private" virt="non-virtual"><scope>vehicle_control_mode</scope><name>m_timestamp_</name></member>
+      <member refid="classvehicle__control__mode_1a92e74904e66afb075e2208280cfeedec" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>operator=</name></member>
+      <member refid="classvehicle__control__mode_1a5fcdef9473d9f57b21e68b6e6399afc6" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>operator=</name></member>
+      <member refid="classvehicle__control__mode_1ab116b748124d9fdce7befa53c8403a47" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>serialize</name></member>
+      <member refid="classvehicle__control__mode_1a9da0680b9024a0a8733695a4a292a168" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>serializeKey</name></member>
+      <member refid="classvehicle__control__mode_1a0182e74d0ffa57bf972b215957ba336d" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>timestamp_</name></member>
+      <member refid="classvehicle__control__mode_1a5b86c158c525c6269de4820557b6fa12" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>timestamp_</name></member>
+      <member refid="classvehicle__control__mode_1a1141442b47fdbe84600bcc9c848d9419" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>timestamp_</name></member>
+      <member refid="classvehicle__control__mode_1a52a383bcdd008ef071118b7a49888421" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>vehicle_control_mode</name></member>
+      <member refid="classvehicle__control__mode_1aece66ea66cade6689233cfba9414360b" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>vehicle_control_mode</name></member>
+      <member refid="classvehicle__control__mode_1a542c6976e9fa7a56777d9075dc7e96c6" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>vehicle_control_mode</name></member>
+      <member refid="classvehicle__control__mode_1a96be849d64131e60abfca3716d6e3d26" prot="public" virt="non-virtual"><scope>vehicle_control_mode</scope><name>~vehicle_control_mode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

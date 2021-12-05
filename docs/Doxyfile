@@ -2,7 +2,7 @@ PROJECT_NAME           = "Communication_lib"
 
 OUTPUT_DIRECTORY       = /Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/generated_docs
 
-INPUT                  = /Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/domain_participants/default_participant /Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs 
+INPUT                  = /Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib
 
 GENERATE_XML = YES
 

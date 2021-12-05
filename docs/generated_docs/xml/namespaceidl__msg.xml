@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="namespaceidl__msg" kind="namespace" language="C++">
+    <compoundname>idl_msg</compoundname>
+    <innerclass refid="classidl__msg_1_1_euler_angle_z_y_x" prot="public">idl_msg::EulerAngleZYX</innerclass>
+    <innerclass refid="classidl__msg_1_1_euler_angle_z_y_x_pub_sub_type" prot="public">idl_msg::EulerAngleZYXPubSubType</innerclass>
+    <innerclass refid="classidl__msg_1_1_header" prot="public">idl_msg::Header</innerclass>
+    <innerclass refid="classidl__msg_1_1_header_pub_sub_type" prot="public">idl_msg::HeaderPubSubType</innerclass>
+    <innerclass refid="classidl__msg_1_1_image1080p" prot="public">idl_msg::Image1080p</innerclass>
+    <innerclass refid="classidl__msg_1_1_image1080p_pub_sub_type" prot="public">idl_msg::Image1080pPubSubType</innerclass>
+    <innerclass refid="classidl__msg_1_1_image720p" prot="public">idl_msg::Image720p</innerclass>
+    <innerclass refid="classidl__msg_1_1_image720p_pub_sub_type" prot="public">idl_msg::Image720pPubSubType</innerclass>
+    <innerclass refid="classidl__msg_1_1_mocap" prot="public">idl_msg::Mocap</innerclass>
+    <innerclass refid="classidl__msg_1_1_mocap_pub_sub_type" prot="public">idl_msg::MocapPubSubType</innerclass>
+    <innerclass refid="classidl__msg_1_1_motor_speed" prot="public">idl_msg::MotorSpeed</innerclass>
+    <innerclass refid="classidl__msg_1_1_motor_speed_pub_sub_type" prot="public">idl_msg::MotorSpeedPubSubType</innerclass>
+    <innerclass refid="classidl__msg_1_1_pose" prot="public">idl_msg::Pose</innerclass>
+    <innerclass refid="classidl__msg_1_1_pose_pub_sub_type" prot="public">idl_msg::PosePubSubType</innerclass>
+    <innerclass refid="classidl__msg_1_1_position" prot="public">idl_msg::Position</innerclass>
+    <innerclass refid="classidl__msg_1_1_position_pub_sub_type" prot="public">idl_msg::PositionPubSubType</innerclass>
+    <innerclass refid="classidl__msg_1_1_quad_action_cmd" prot="public">idl_msg::QuadActionCmd</innerclass>
+    <innerclass refid="classidl__msg_1_1_quad_action_cmd_pub_sub_type" prot="public">idl_msg::QuadActionCmdPubSubType</innerclass>
+    <innerclass refid="classidl__msg_1_1_quad_attitude_command" prot="public">idl_msg::QuadAttitudeCommand</innerclass>
+    <innerclass refid="classidl__msg_1_1_quad_attitude_command_pub_sub_type" prot="public">idl_msg::QuadAttitudeCommandPubSubType</innerclass>
+    <innerclass refid="classidl__msg_1_1_quad_attitude_rate_command" prot="public">idl_msg::QuadAttitudeRateCommand</innerclass>
+    <innerclass refid="classidl__msg_1_1_quad_attitude_rate_command_pub_sub_type" prot="public">idl_msg::QuadAttitudeRateCommandPubSubType</innerclass>
+    <innerclass refid="classidl__msg_1_1_quad_motor_command" prot="public">idl_msg::QuadMotorCommand</innerclass>
+    <innerclass refid="classidl__msg_1_1_quad_motor_command_pub_sub_type" prot="public">idl_msg::QuadMotorCommandPubSubType</innerclass>
+    <innerclass refid="classidl__msg_1_1_quad_position_cmd" prot="public">idl_msg::QuadPositionCmd</innerclass>
+    <innerclass refid="classidl__msg_1_1_quad_position_cmd_pub_sub_type" prot="public">idl_msg::QuadPositionCmdPubSubType</innerclass>
+    <innerclass refid="classidl__msg_1_1_quad_velocity_cmd" prot="public">idl_msg::QuadVelocityCmd</innerclass>
+    <innerclass refid="classidl__msg_1_1_quad_velocity_cmd_pub_sub_type" prot="public">idl_msg::QuadVelocityCmdPubSubType</innerclass>
+    <innerclass refid="classidl__msg_1_1_quaternion" prot="public">idl_msg::Quaternion</innerclass>
+    <innerclass refid="classidl__msg_1_1_quaternion_pub_sub_type" prot="public">idl_msg::QuaternionPubSubType</innerclass>
+    <innerclass refid="classidl__msg_1_1_thrust_torque_command" prot="public">idl_msg::ThrustTorqueCommand</innerclass>
+    <innerclass refid="classidl__msg_1_1_thrust_torque_command_pub_sub_type" prot="public">idl_msg::ThrustTorqueCommandPubSubType</innerclass>
+    <innerclass refid="classidl__msg_1_1_velocity" prot="public">idl_msg::Velocity</innerclass>
+    <innerclass refid="classidl__msg_1_1_velocity_pub_sub_type" prot="public">idl_msg::VelocityPubSubType</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/EulerAngleZYX.h" line="64" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,456 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classidl__msg_1_1_motor_speed" kind="class" language="C++" prot="public">
+    <compoundname>idl_msg::MotorSpeed</compoundname>
+    <includes refid="_motor_speed_8h" local="no">MotorSpeed.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classidl__msg_1_1_motor_speed_1ae2e13382d4b04b99f260cc123af6c3b3" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float idl_msg::MotorSpeed::m_motor_speed</definition>
+        <argsstring></argsstring>
+        <name>m_motor_speed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.h" line="190" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.h" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classidl__msg_1_1_motor_speed_1a2d9879435db2155f3eafb459f5199f12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>idl_msg::MotorSpeed::MotorSpeed</definition>
+        <argsstring>()</argsstring>
+        <name>MotorSpeed</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.h" line="76" column="33" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.cxx" bodystart="37" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_motor_speed_1a4dab2f266b265c31d7224e7dd12a8e8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>idl_msg::MotorSpeed::~MotorSpeed</definition>
+        <argsstring>()</argsstring>
+        <name>~MotorSpeed</name>
+        <briefdescription>
+<para>Default destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.h" line="81" column="33" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.cxx" bodystart="44" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_motor_speed_1a56d2868d85906456eafb641929c98a8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>idl_msg::MotorSpeed::MotorSpeed</definition>
+        <argsstring>(const MotorSpeed &amp;x)</argsstring>
+        <name>MotorSpeed</name>
+        <param>
+          <type>const <ref refid="classidl__msg_1_1_motor_speed" kindref="compound">MotorSpeed</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classidl__msg_1_1_motor_speed" kindref="compound">idl_msg::MotorSpeed</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.h" line="87" column="33" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.cxx" bodystart="48" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_motor_speed_1a42aa3252d26398990526b84c04a1fd5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>idl_msg::MotorSpeed::MotorSpeed</definition>
+        <argsstring>(MotorSpeed &amp;&amp;x)</argsstring>
+        <name>MotorSpeed</name>
+        <param>
+          <type><ref refid="classidl__msg_1_1_motor_speed" kindref="compound">MotorSpeed</ref> &amp;&amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Move constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classidl__msg_1_1_motor_speed" kindref="compound">idl_msg::MotorSpeed</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.h" line="94" column="33" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.cxx" bodystart="54" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_motor_speed_1a68ac56d2bb8da7039c73017ac03de868" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport <ref refid="classidl__msg_1_1_motor_speed" kindref="compound">MotorSpeed</ref> &amp;</type>
+        <definition>idl_msg::MotorSpeed &amp; idl_msg::MotorSpeed::operator=</definition>
+        <argsstring>(const MotorSpeed &amp;x)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classidl__msg_1_1_motor_speed" kindref="compound">MotorSpeed</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Copy assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classidl__msg_1_1_motor_speed" kindref="compound">idl_msg::MotorSpeed</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.h" line="101" column="44" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.cxx" bodystart="60" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_motor_speed_1a7f5a4e227c6ad77465bcfbd3f8e4f8b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport <ref refid="classidl__msg_1_1_motor_speed" kindref="compound">MotorSpeed</ref> &amp;</type>
+        <definition>idl_msg::MotorSpeed &amp; idl_msg::MotorSpeed::operator=</definition>
+        <argsstring>(MotorSpeed &amp;&amp;x)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classidl__msg_1_1_motor_speed" kindref="compound">MotorSpeed</ref> &amp;&amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Move assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classidl__msg_1_1_motor_speed" kindref="compound">idl_msg::MotorSpeed</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.h" line="108" column="44" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.cxx" bodystart="69" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_motor_speed_1a038d3f25d42241c8c61aa6a4b9e612ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void idl_msg::MotorSpeed::motor_speed</definition>
+        <argsstring>(float _motor_speed)</argsstring>
+        <name>motor_speed</name>
+        <param>
+          <type>float</type>
+          <declname>_motor_speed</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member motor_speed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_motor_speed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member motor_speed </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.h" line="115" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.cxx" bodystart="123" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_motor_speed_1a0ff870242750e23a10973d2ae3564c3e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float idl_msg::MotorSpeed::motor_speed</definition>
+        <argsstring>() const</argsstring>
+        <name>motor_speed</name>
+        <briefdescription>
+<para>This function returns the value of member motor_speed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member motor_speed </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.h" line="122" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.cxx" bodystart="133" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_motor_speed_1ab800b1390ff3dbd6ffaf917dc03803a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; idl_msg::MotorSpeed::motor_speed</definition>
+        <argsstring>()</argsstring>
+        <name>motor_speed</name>
+        <briefdescription>
+<para>This function returns a reference to member motor_speed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member motor_speed </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.h" line="128" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.cxx" bodystart="142" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_motor_speed_1a1cc55ec3835cdf9df7ca9f1c7c041f26" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void idl_msg::MotorSpeed::serialize</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr) const</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function serializes an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.h" line="155" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.cxx" bodystart="104" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_motor_speed_1a9050420f8199569ceb770ca76759a068" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void idl_msg::MotorSpeed::deserialize</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr)</argsstring>
+        <name>deserialize</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function deserializes an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.h" line="162" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.cxx" bodystart="112" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_motor_speed_1ab9b7d86e63ff28dfc915b27bc5f1aef5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void idl_msg::MotorSpeed::serializeKey</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr) const</argsstring>
+        <name>serializeKey</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function serializes the key members of an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.h" line="185" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.cxx" bodystart="163" bodyend="168"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classidl__msg_1_1_motor_speed_1a2f0905487fce96247eea11b1d449357e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t idl_msg::MotorSpeed::getMaxCdrSerializedSize</definition>
+        <argsstring>(size_t current_alignment=0)</argsstring>
+        <name>getMaxCdrSerializedSize</name>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the maximum serialized size of an object depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Maximum serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.h" line="137" column="47" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.cxx" bodystart="78" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_motor_speed_1a8e982914efb25f23534d6dc3c42b76ff" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t idl_msg::MotorSpeed::getCdrSerializedSize</definition>
+        <argsstring>(const idl_msg::MotorSpeed &amp;data, size_t current_alignment=0)</argsstring>
+        <name>getCdrSerializedSize</name>
+        <param>
+          <type>const <ref refid="classidl__msg_1_1_motor_speed" kindref="compound">idl_msg::MotorSpeed</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the serialized size of a data depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data which is calculated its serialized size. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.h" line="146" column="47" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.cxx" bodystart="90" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_motor_speed_1ae91d5b6bbcb4c4af3b803d3aefe91846" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t idl_msg::MotorSpeed::getKeyMaxCdrSerializedSize</definition>
+        <argsstring>(size_t current_alignment=0)</argsstring>
+        <name>getKeyMaxCdrSerializedSize</name>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the maximum serialized size of the Key of an object depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Maximum serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.h" line="173" column="47" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.cxx" bodystart="148" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_motor_speed_1a3868b8403d84428bff5804cc1b90d716" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool idl_msg::MotorSpeed::isKeyDefined</definition>
+        <argsstring>()</argsstring>
+        <name>isKeyDefined</name>
+        <briefdescription>
+<para>This function tells you if the Key has been defined for this type. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.h" line="179" column="45" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.cxx" bodystart="158" bodyend="161"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents the structure <ref refid="classidl__msg_1_1_motor_speed" kindref="compound">MotorSpeed</ref> defined by the user in the IDL file. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.h" line="69" column="5" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.h" bodystart="70" bodyend="191"/>
+    <listofallmembers>
+      <member refid="classidl__msg_1_1_motor_speed_1a9050420f8199569ceb770ca76759a068" prot="public" virt="non-virtual"><scope>idl_msg::MotorSpeed</scope><name>deserialize</name></member>
+      <member refid="classidl__msg_1_1_motor_speed_1a8e982914efb25f23534d6dc3c42b76ff" prot="public" virt="non-virtual"><scope>idl_msg::MotorSpeed</scope><name>getCdrSerializedSize</name></member>
+      <member refid="classidl__msg_1_1_motor_speed_1ae91d5b6bbcb4c4af3b803d3aefe91846" prot="public" virt="non-virtual"><scope>idl_msg::MotorSpeed</scope><name>getKeyMaxCdrSerializedSize</name></member>
+      <member refid="classidl__msg_1_1_motor_speed_1a2f0905487fce96247eea11b1d449357e" prot="public" virt="non-virtual"><scope>idl_msg::MotorSpeed</scope><name>getMaxCdrSerializedSize</name></member>
+      <member refid="classidl__msg_1_1_motor_speed_1a3868b8403d84428bff5804cc1b90d716" prot="public" virt="non-virtual"><scope>idl_msg::MotorSpeed</scope><name>isKeyDefined</name></member>
+      <member refid="classidl__msg_1_1_motor_speed_1ae2e13382d4b04b99f260cc123af6c3b3" prot="private" virt="non-virtual"><scope>idl_msg::MotorSpeed</scope><name>m_motor_speed</name></member>
+      <member refid="classidl__msg_1_1_motor_speed_1a038d3f25d42241c8c61aa6a4b9e612ca" prot="public" virt="non-virtual"><scope>idl_msg::MotorSpeed</scope><name>motor_speed</name></member>
+      <member refid="classidl__msg_1_1_motor_speed_1a0ff870242750e23a10973d2ae3564c3e" prot="public" virt="non-virtual"><scope>idl_msg::MotorSpeed</scope><name>motor_speed</name></member>
+      <member refid="classidl__msg_1_1_motor_speed_1ab800b1390ff3dbd6ffaf917dc03803a5" prot="public" virt="non-virtual"><scope>idl_msg::MotorSpeed</scope><name>motor_speed</name></member>
+      <member refid="classidl__msg_1_1_motor_speed_1a2d9879435db2155f3eafb459f5199f12" prot="public" virt="non-virtual"><scope>idl_msg::MotorSpeed</scope><name>MotorSpeed</name></member>
+      <member refid="classidl__msg_1_1_motor_speed_1a56d2868d85906456eafb641929c98a8f" prot="public" virt="non-virtual"><scope>idl_msg::MotorSpeed</scope><name>MotorSpeed</name></member>
+      <member refid="classidl__msg_1_1_motor_speed_1a42aa3252d26398990526b84c04a1fd5a" prot="public" virt="non-virtual"><scope>idl_msg::MotorSpeed</scope><name>MotorSpeed</name></member>
+      <member refid="classidl__msg_1_1_motor_speed_1a68ac56d2bb8da7039c73017ac03de868" prot="public" virt="non-virtual"><scope>idl_msg::MotorSpeed</scope><name>operator=</name></member>
+      <member refid="classidl__msg_1_1_motor_speed_1a7f5a4e227c6ad77465bcfbd3f8e4f8b8" prot="public" virt="non-virtual"><scope>idl_msg::MotorSpeed</scope><name>operator=</name></member>
+      <member refid="classidl__msg_1_1_motor_speed_1a1cc55ec3835cdf9df7ca9f1c7c041f26" prot="public" virt="non-virtual"><scope>idl_msg::MotorSpeed</scope><name>serialize</name></member>
+      <member refid="classidl__msg_1_1_motor_speed_1ab9b7d86e63ff28dfc915b27bc5f1aef5" prot="public" virt="non-virtual"><scope>idl_msg::MotorSpeed</scope><name>serializeKey</name></member>
+      <member refid="classidl__msg_1_1_motor_speed_1a4dab2f266b265c31d7224e7dd12a8e8b" prot="public" virt="non-virtual"><scope>idl_msg::MotorSpeed</scope><name>~MotorSpeed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

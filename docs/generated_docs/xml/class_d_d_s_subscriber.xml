@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_d_d_s_subscriber" kind="class" language="C++" prot="public">
+    <compoundname>DDSSubscriber</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename msg_init_type</type>
+      </param>
+      <param>
+        <type>typename msg_type</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_d_s_subscriber_1a519815841d8da4ba29ba96c2eddaa416" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string DDSSubscriber&lt; msg_init_type, msg_type &gt;::topic_name_</definition>
+        <argsstring></argsstring>
+        <name>topic_name_</name>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/subscribers/default_subscriber/default_subscriber.h" line="29" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/subscribers/default_subscriber/default_subscriber.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_d_s_subscriber_1a51a1d8d2bda17f2b1dccdabfbfac1a64" prot="public" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="class_sub_listener" kindref="compound">SubListener</ref>&lt; msg_type &gt; &gt;</type>
+        <definition>std::unique_ptr&lt;SubListener&lt;msg_type&gt; &gt; DDSSubscriber&lt; msg_init_type, msg_type &gt;::listener</definition>
+        <argsstring></argsstring>
+        <name>listener</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/subscribers/default_subscriber/default_subscriber.h" line="36" column="19" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/subscribers/default_subscriber/default_subscriber.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_d_d_s_subscriber_1a43ebbf9a79462d8ea6a7bc3baec2183e" prot="private" static="no" mutable="no">
+        <type>eprosima::fastdds::dds::DomainParticipant *</type>
+        <definition>eprosima::fastdds::dds::DomainParticipant* DDSSubscriber&lt; msg_init_type, msg_type &gt;::participant_</definition>
+        <argsstring></argsstring>
+        <name>participant_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/subscribers/default_subscriber/default_subscriber.h" line="39" column="45" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/subscribers/default_subscriber/default_subscriber.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_d_s_subscriber_1ad03efe6cd1a6898defec831efcfd23ea" prot="private" static="no" mutable="no">
+        <type>eprosima::fastdds::dds::Subscriber *</type>
+        <definition>eprosima::fastdds::dds::Subscriber* DDSSubscriber&lt; msg_init_type, msg_type &gt;::subscriber_</definition>
+        <argsstring></argsstring>
+        <name>subscriber_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/subscribers/default_subscriber/default_subscriber.h" line="40" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/subscribers/default_subscriber/default_subscriber.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_d_s_subscriber_1afba77ae249b03037b664b2f8a9a8a1e1" prot="private" static="no" mutable="no">
+        <type>eprosima::fastdds::dds::Topic *</type>
+        <definition>eprosima::fastdds::dds::Topic* DDSSubscriber&lt; msg_init_type, msg_type &gt;::topic_</definition>
+        <argsstring></argsstring>
+        <name>topic_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/subscribers/default_subscriber/default_subscriber.h" line="41" column="33" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/subscribers/default_subscriber/default_subscriber.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_d_s_subscriber_1a7b9177ad0db8f8f4287dbe75a2226674" prot="private" static="no" mutable="no">
+        <type>eprosima::fastdds::dds::DataReader *</type>
+        <definition>eprosima::fastdds::dds::DataReader* DDSSubscriber&lt; msg_init_type, msg_type &gt;::reader_</definition>
+        <argsstring></argsstring>
+        <name>reader_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/subscribers/default_subscriber/default_subscriber.h" line="42" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/subscribers/default_subscriber/default_subscriber.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_d_s_subscriber_1a42d6ffa46734d364adacef04c995012b" prot="private" static="no" mutable="no">
+        <type>eprosima::fastdds::dds::TypeSupport</type>
+        <definition>eprosima::fastdds::dds::TypeSupport DDSSubscriber&lt; msg_init_type, msg_type &gt;::type_</definition>
+        <argsstring></argsstring>
+        <name>type_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/subscribers/default_subscriber/default_subscriber.h" line="43" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/subscribers/default_subscriber/default_subscriber.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_d_d_s_subscriber_1ac94a0f0fd892c93467d1d0b03571b134" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DDSSubscriber&lt; msg_init_type, msg_type &gt;::DDSSubscriber</definition>
+        <argsstring>(msg_init_type, msg_type *msg, std::string topic_name, eprosima::fastdds::dds::DomainParticipant *participant)</argsstring>
+        <name>DDSSubscriber</name>
+        <param>
+          <type>msg_init_type</type>
+        </param>
+        <param>
+          <type>msg_type *</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>topic_name</declname>
+        </param>
+        <param>
+          <type>eprosima::fastdds::dds::DomainParticipant *</type>
+          <declname>participant</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/subscribers/default_subscriber/default_subscriber.h" line="8" column="3" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/subscribers/default_subscriber/default_subscriber.h" bodystart="8" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_d_s_subscriber_1a78780713f1abf4652ae0cc7c4302260c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>DDSSubscriber&lt; msg_init_type, msg_type &gt;::~DDSSubscriber</definition>
+        <argsstring>()</argsstring>
+        <name>~DDSSubscriber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/subscribers/default_subscriber/default_subscriber.h" line="22" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/subscribers/default_subscriber/default_subscriber.cpp" bodystart="6" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_d_s_subscriber_1ab77164e7f1f9293f80aef7b4e6b04023" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DDSSubscriber&lt; msg_init_type, msg_type &gt;::init</definition>
+        <argsstring>()</argsstring>
+        <name>init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/subscribers/default_subscriber/default_subscriber.h" line="24" column="8" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/subscribers/default_subscriber/default_subscriber.cpp" bodystart="19" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_d_s_subscriber_1adfc1ecf2caa63884a3e55d7c9757e26e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DDSSubscriber&lt; msg_init_type, msg_type &gt;::run</definition>
+        <argsstring>()</argsstring>
+        <name>run</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/subscribers/default_subscriber/default_subscriber.h" line="26" column="8" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/subscribers/default_subscriber/default_subscriber.cpp" bodystart="49" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/subscribers/default_subscriber/default_subscriber.h" line="4" column="14" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/subscribers/default_subscriber/default_subscriber.h" bodystart="4" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_d_d_s_subscriber_1ac94a0f0fd892c93467d1d0b03571b134" prot="public" virt="non-virtual"><scope>DDSSubscriber</scope><name>DDSSubscriber</name></member>
+      <member refid="class_d_d_s_subscriber_1ab77164e7f1f9293f80aef7b4e6b04023" prot="public" virt="non-virtual"><scope>DDSSubscriber</scope><name>init</name></member>
+      <member refid="class_d_d_s_subscriber_1a51a1d8d2bda17f2b1dccdabfbfac1a64" prot="public" virt="non-virtual"><scope>DDSSubscriber</scope><name>listener</name></member>
+      <member refid="class_d_d_s_subscriber_1a43ebbf9a79462d8ea6a7bc3baec2183e" prot="private" virt="non-virtual"><scope>DDSSubscriber</scope><name>participant_</name></member>
+      <member refid="class_d_d_s_subscriber_1a7b9177ad0db8f8f4287dbe75a2226674" prot="private" virt="non-virtual"><scope>DDSSubscriber</scope><name>reader_</name></member>
+      <member refid="class_d_d_s_subscriber_1adfc1ecf2caa63884a3e55d7c9757e26e" prot="public" virt="non-virtual"><scope>DDSSubscriber</scope><name>run</name></member>
+      <member refid="class_d_d_s_subscriber_1ad03efe6cd1a6898defec831efcfd23ea" prot="private" virt="non-virtual"><scope>DDSSubscriber</scope><name>subscriber_</name></member>
+      <member refid="class_d_d_s_subscriber_1afba77ae249b03037b664b2f8a9a8a1e1" prot="private" virt="non-virtual"><scope>DDSSubscriber</scope><name>topic_</name></member>
+      <member refid="class_d_d_s_subscriber_1a519815841d8da4ba29ba96c2eddaa416" prot="public" virt="non-virtual"><scope>DDSSubscriber</scope><name>topic_name_</name></member>
+      <member refid="class_d_d_s_subscriber_1a42d6ffa46734d364adacef04c995012b" prot="private" virt="non-virtual"><scope>DDSSubscriber</scope><name>type_</name></member>
+      <member refid="class_d_d_s_subscriber_1a78780713f1abf4652ae0cc7c4302260c" prot="public" virt="virtual"><scope>DDSSubscriber</scope><name>~DDSSubscriber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

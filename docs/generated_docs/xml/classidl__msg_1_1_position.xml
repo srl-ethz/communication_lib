@@ -1,0 +1,614 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classidl__msg_1_1_position" kind="class" language="C++" prot="public">
+    <compoundname>idl_msg::Position</compoundname>
+    <includes refid="_position_8h" local="no">Position.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classidl__msg_1_1_position_1aa8f2db8b5646674cb7236453cabf6d87" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float idl_msg::Position::m_x</definition>
+        <argsstring></argsstring>
+        <name>m_x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="228" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" bodystart="228" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classidl__msg_1_1_position_1a7eab4cc9d271d5c8be8993b940cbd5ae" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float idl_msg::Position::m_y</definition>
+        <argsstring></argsstring>
+        <name>m_y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="229" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" bodystart="229" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classidl__msg_1_1_position_1ab4786ac5236fdf6105c1645f1a4c476b" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float idl_msg::Position::m_z</definition>
+        <argsstring></argsstring>
+        <name>m_z</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="230" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classidl__msg_1_1_position_1ae8e0b184cae84d15539c5aae4d5fe6f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>idl_msg::Position::Position</definition>
+        <argsstring>()</argsstring>
+        <name>Position</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="76" column="33" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.cxx" bodystart="37" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_position_1a4004546a9ccff3574595f44fd17d4a89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>idl_msg::Position::~Position</definition>
+        <argsstring>()</argsstring>
+        <name>~Position</name>
+        <briefdescription>
+<para>Default destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="81" column="33" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.cxx" bodystart="48" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_position_1acb4ef471cb8e30aa48d3df8d6b5b1da7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>idl_msg::Position::Position</definition>
+        <argsstring>(const Position &amp;x)</argsstring>
+        <name>Position</name>
+        <param>
+          <type>const <ref refid="classidl__msg_1_1_position" kindref="compound">Position</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classidl__msg_1_1_position" kindref="compound">idl_msg::Position</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="87" column="33" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.cxx" bodystart="55" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_position_1acd0fdb5b886e8833d0cf6a8a053acf10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>idl_msg::Position::Position</definition>
+        <argsstring>(Position &amp;&amp;x)</argsstring>
+        <name>Position</name>
+        <param>
+          <type><ref refid="classidl__msg_1_1_position" kindref="compound">Position</ref> &amp;&amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Move constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classidl__msg_1_1_position" kindref="compound">idl_msg::Position</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="94" column="33" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.cxx" bodystart="63" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_position_1a443caa0a223d4b11f03b7d9f40e33024" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport <ref refid="classidl__msg_1_1_position" kindref="compound">Position</ref> &amp;</type>
+        <definition>idl_msg::Position &amp; idl_msg::Position::operator=</definition>
+        <argsstring>(const Position &amp;x)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classidl__msg_1_1_position" kindref="compound">Position</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Copy assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classidl__msg_1_1_position" kindref="compound">idl_msg::Position</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="101" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.cxx" bodystart="71" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_position_1a9160367161a2f1bc907bf3f89ee06957" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport <ref refid="classidl__msg_1_1_position" kindref="compound">Position</ref> &amp;</type>
+        <definition>idl_msg::Position &amp; idl_msg::Position::operator=</definition>
+        <argsstring>(Position &amp;&amp;x)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classidl__msg_1_1_position" kindref="compound">Position</ref> &amp;&amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Move assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classidl__msg_1_1_position" kindref="compound">idl_msg::Position</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="108" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.cxx" bodystart="82" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_position_1ad53e1f3e806984b2568676d8823ccf2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void idl_msg::Position::x</definition>
+        <argsstring>(float _x)</argsstring>
+        <name>x</name>
+        <param>
+          <type>float</type>
+          <declname>_x</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member x. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member x </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="115" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.cxx" bodystart="156" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_position_1a6721fdb7690aafdc059957d4837f91b3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float idl_msg::Position::x</definition>
+        <argsstring>() const</argsstring>
+        <name>x</name>
+        <briefdescription>
+<para>This function returns the value of member x. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member x </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="122" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.cxx" bodystart="166" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_position_1a56bbd0d230b42811cfe4e1659f18bbfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; idl_msg::Position::x</definition>
+        <argsstring>()</argsstring>
+        <name>x</name>
+        <briefdescription>
+<para>This function returns a reference to member x. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member x </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="128" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.cxx" bodystart="175" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_position_1afb3bfe6ffe704669acd3e034183f88b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void idl_msg::Position::y</definition>
+        <argsstring>(float _y)</argsstring>
+        <name>y</name>
+        <param>
+          <type>float</type>
+          <declname>_y</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member y. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member y </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="134" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.cxx" bodystart="184" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_position_1acf23ab296f2ba54568312ca81a79c929" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float idl_msg::Position::y</definition>
+        <argsstring>() const</argsstring>
+        <name>y</name>
+        <briefdescription>
+<para>This function returns the value of member y. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member y </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="141" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.cxx" bodystart="194" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_position_1a2a22d6b1272449b92b2b307ef142c395" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; idl_msg::Position::y</definition>
+        <argsstring>()</argsstring>
+        <name>y</name>
+        <briefdescription>
+<para>This function returns a reference to member y. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member y </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="147" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.cxx" bodystart="203" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_position_1adecff8bb9c42d586a6aca8459f079709" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void idl_msg::Position::z</definition>
+        <argsstring>(float _z)</argsstring>
+        <name>z</name>
+        <param>
+          <type>float</type>
+          <declname>_z</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member z. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_z</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member z </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="153" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.cxx" bodystart="212" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_position_1a70a1f3f5723b097bdc4f874915b837f4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float idl_msg::Position::z</definition>
+        <argsstring>() const</argsstring>
+        <name>z</name>
+        <briefdescription>
+<para>This function returns the value of member z. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member z </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="160" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.cxx" bodystart="222" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_position_1ab8678ed5c07e937b246e92a9fadd1606" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; idl_msg::Position::z</definition>
+        <argsstring>()</argsstring>
+        <name>z</name>
+        <briefdescription>
+<para>This function returns a reference to member z. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member z </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="166" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.cxx" bodystart="231" bodyend="234"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_position_1a5443d088ea714b20634b384cb3e1ab36" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void idl_msg::Position::serialize</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr) const</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function serializes an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="193" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.cxx" bodystart="133" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_position_1a99a5b77f81419cfe3138a42e1161ba6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void idl_msg::Position::deserialize</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr)</argsstring>
+        <name>deserialize</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function deserializes an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="200" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.cxx" bodystart="143" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_position_1aa306054a130b866bfe36b7348464dd6c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void idl_msg::Position::serializeKey</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr) const</argsstring>
+        <name>serializeKey</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function serializes the key members of an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="223" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.cxx" bodystart="255" bodyend="260"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classidl__msg_1_1_position_1a54e1267eabe71cb50d3c6bb69d858583" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t idl_msg::Position::getMaxCdrSerializedSize</definition>
+        <argsstring>(size_t current_alignment=0)</argsstring>
+        <name>getMaxCdrSerializedSize</name>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the maximum serialized size of an object depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Maximum serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="175" column="47" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.cxx" bodystart="93" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_position_1ad15af07dc0abf9881f79ce025c25f9f0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t idl_msg::Position::getCdrSerializedSize</definition>
+        <argsstring>(const idl_msg::Position &amp;data, size_t current_alignment=0)</argsstring>
+        <name>getCdrSerializedSize</name>
+        <param>
+          <type>const <ref refid="classidl__msg_1_1_position" kindref="compound">idl_msg::Position</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the serialized size of a data depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data which is calculated its serialized size. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="184" column="47" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.cxx" bodystart="112" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_position_1ae5458b79e1c56200f79b533c195f9fe9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t idl_msg::Position::getKeyMaxCdrSerializedSize</definition>
+        <argsstring>(size_t current_alignment=0)</argsstring>
+        <name>getKeyMaxCdrSerializedSize</name>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the maximum serialized size of the Key of an object depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Maximum serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="211" column="47" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.cxx" bodystart="237" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="classidl__msg_1_1_position_1aed9df9fb84eebae99aa8025076949ec0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool idl_msg::Position::isKeyDefined</definition>
+        <argsstring>()</argsstring>
+        <name>isKeyDefined</name>
+        <briefdescription>
+<para>This function tells you if the Key has been defined for this type. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="217" column="45" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.cxx" bodystart="250" bodyend="253"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents the structure <ref refid="classidl__msg_1_1_position" kindref="compound">Position</ref> defined by the user in the IDL file. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="69" column="5" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" bodystart="70" bodyend="231"/>
+    <listofallmembers>
+      <member refid="classidl__msg_1_1_position_1a99a5b77f81419cfe3138a42e1161ba6a" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>deserialize</name></member>
+      <member refid="classidl__msg_1_1_position_1ad15af07dc0abf9881f79ce025c25f9f0" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>getCdrSerializedSize</name></member>
+      <member refid="classidl__msg_1_1_position_1ae5458b79e1c56200f79b533c195f9fe9" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>getKeyMaxCdrSerializedSize</name></member>
+      <member refid="classidl__msg_1_1_position_1a54e1267eabe71cb50d3c6bb69d858583" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>getMaxCdrSerializedSize</name></member>
+      <member refid="classidl__msg_1_1_position_1aed9df9fb84eebae99aa8025076949ec0" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>isKeyDefined</name></member>
+      <member refid="classidl__msg_1_1_position_1aa8f2db8b5646674cb7236453cabf6d87" prot="private" virt="non-virtual"><scope>idl_msg::Position</scope><name>m_x</name></member>
+      <member refid="classidl__msg_1_1_position_1a7eab4cc9d271d5c8be8993b940cbd5ae" prot="private" virt="non-virtual"><scope>idl_msg::Position</scope><name>m_y</name></member>
+      <member refid="classidl__msg_1_1_position_1ab4786ac5236fdf6105c1645f1a4c476b" prot="private" virt="non-virtual"><scope>idl_msg::Position</scope><name>m_z</name></member>
+      <member refid="classidl__msg_1_1_position_1a443caa0a223d4b11f03b7d9f40e33024" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>operator=</name></member>
+      <member refid="classidl__msg_1_1_position_1a9160367161a2f1bc907bf3f89ee06957" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>operator=</name></member>
+      <member refid="classidl__msg_1_1_position_1ae8e0b184cae84d15539c5aae4d5fe6f1" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>Position</name></member>
+      <member refid="classidl__msg_1_1_position_1acb4ef471cb8e30aa48d3df8d6b5b1da7" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>Position</name></member>
+      <member refid="classidl__msg_1_1_position_1acd0fdb5b886e8833d0cf6a8a053acf10" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>Position</name></member>
+      <member refid="classidl__msg_1_1_position_1a5443d088ea714b20634b384cb3e1ab36" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>serialize</name></member>
+      <member refid="classidl__msg_1_1_position_1aa306054a130b866bfe36b7348464dd6c" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>serializeKey</name></member>
+      <member refid="classidl__msg_1_1_position_1ad53e1f3e806984b2568676d8823ccf2c" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>x</name></member>
+      <member refid="classidl__msg_1_1_position_1a6721fdb7690aafdc059957d4837f91b3" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>x</name></member>
+      <member refid="classidl__msg_1_1_position_1a56bbd0d230b42811cfe4e1659f18bbfc" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>x</name></member>
+      <member refid="classidl__msg_1_1_position_1afb3bfe6ffe704669acd3e034183f88b1" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>y</name></member>
+      <member refid="classidl__msg_1_1_position_1acf23ab296f2ba54568312ca81a79c929" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>y</name></member>
+      <member refid="classidl__msg_1_1_position_1a2a22d6b1272449b92b2b307ef142c395" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>y</name></member>
+      <member refid="classidl__msg_1_1_position_1adecff8bb9c42d586a6aca8459f079709" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>z</name></member>
+      <member refid="classidl__msg_1_1_position_1a70a1f3f5723b097bdc4f874915b837f4" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>z</name></member>
+      <member refid="classidl__msg_1_1_position_1ab8678ed5c07e937b246e92a9fadd1606" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>z</name></member>
+      <member refid="classidl__msg_1_1_position_1a4004546a9ccff3574595f44fd17d4a89" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>~Position</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

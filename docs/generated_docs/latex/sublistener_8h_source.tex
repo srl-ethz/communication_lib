@@ -1,0 +1,62 @@
+\hypertarget{sublistener_8h_source}{}\doxysection{sublistener.\+h}
+\label{sublistener_8h_source}\index{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/subscribers/default\_subscriber/sublistener.h@{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/subscribers/default\_subscriber/sublistener.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 }
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include <chrono>}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <fastdds/dds/domain/DomainParticipant.hpp>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <fastdds/dds/domain/DomainParticipantFactory.hpp>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include <fastdds/dds/subscriber/DataReader.hpp>}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include <fastdds/dds/subscriber/DataReaderListener.hpp>}}
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include <fastdds/dds/subscriber/SampleInfo.hpp>}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include <fastdds/dds/subscriber/Subscriber.hpp>}}
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#include <fastdds/dds/subscriber/qos/DataReaderQos.hpp>}}
+\DoxyCodeLine{11 \textcolor{preprocessor}{\#include <mutex>}}
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#include <shared\_mutex>}}
+\DoxyCodeLine{13 }
+\DoxyCodeLine{14 \textcolor{keyword}{template} <\textcolor{keyword}{typename} msg\_type>}
+\DoxyCodeLine{15 \textcolor{keyword}{class }\mbox{\hyperlink{class_sub_listener}{SubListener}} : \textcolor{keyword}{public} eprosima::fastdds::dds::DataReaderListener \{}
+\DoxyCodeLine{16 }
+\DoxyCodeLine{17 \textcolor{keyword}{public}:}
+\DoxyCodeLine{18   \mbox{\hyperlink{class_sub_listener}{SubListener}}(msg\_type *msg) \{ st = msg; \}}
+\DoxyCodeLine{19 }
+\DoxyCodeLine{20   \mbox{\hyperlink{class_sub_listener}{\string~SubListener}}() \textcolor{keyword}{override} = \textcolor{keywordflow}{default};}
+\DoxyCodeLine{21 }
+\DoxyCodeLine{22 \textcolor{keyword}{private}:}
+\DoxyCodeLine{23   \textcolor{keywordtype}{void} on\_data\_available(eprosima::fastdds::dds::DataReader *reader) \textcolor{keyword}{override};}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25   \textcolor{keywordtype}{void} on\_subscription\_matched(}
+\DoxyCodeLine{26       eprosima::fastdds::dds::DataReader *reader,}
+\DoxyCodeLine{27       \textcolor{keyword}{const} eprosima::fastdds::dds::SubscriptionMatchedStatus \&info) \textcolor{keyword}{override};}
+\DoxyCodeLine{28 }
+\DoxyCodeLine{29 \textcolor{keyword}{public}:}
+\DoxyCodeLine{30   \textcolor{comment}{// Number of latched publishers}}
+\DoxyCodeLine{31   \textcolor{keywordtype}{int} matched\_ = 0;}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{33   \textcolor{comment}{//  Protection against race condition using mutex}}
+\DoxyCodeLine{34   std::mutex m;}
+\DoxyCodeLine{35 }
+\DoxyCodeLine{36   \textcolor{comment}{// Condition variable to indicate msg received}}
+\DoxyCodeLine{37   std::condition\_variable cv;}
+\DoxyCodeLine{38 }
+\DoxyCodeLine{39   \textcolor{comment}{// Flag to idicate reception of new data}}
+\DoxyCodeLine{40   \textcolor{keywordtype}{bool} new\_data\{\textcolor{keyword}{false}\};}
+\DoxyCodeLine{41 }
+\DoxyCodeLine{42   \textcolor{comment}{// Pointer to msg from base class}}
+\DoxyCodeLine{43   msg\_type *st;}
+\DoxyCodeLine{44 }
+\DoxyCodeLine{45 \textcolor{keyword}{public}:}
+\DoxyCodeLine{46   \textcolor{comment}{// Blocks till new data has been received}}
+\DoxyCodeLine{47   \textcolor{keywordtype}{void} wait\_for\_data();}
+\DoxyCodeLine{48 }
+\DoxyCodeLine{49   \textcolor{comment}{// Blocks for specific milliseconds till new data has been received}}
+\DoxyCodeLine{50   \textcolor{keywordtype}{void} wait\_for\_data\_for\_ms(\textcolor{keyword}{const} \textcolor{keywordtype}{int} t);}
+\DoxyCodeLine{51 }
+\DoxyCodeLine{52 \textcolor{keyword}{public}:}
+\DoxyCodeLine{54   \textcolor{keyword}{const} \textcolor{keywordtype}{float} \mbox{\hyperlink{class_sub_listener_a6cc32e0f44545fead6df4d2fdc1c19ff}{matched}}()\textcolor{keyword}{ const }\{ \textcolor{keywordflow}{return} matched\_; \}}
+\DoxyCodeLine{55 \};}
+\DoxyCodeLine{56 }
+\DoxyCodeLine{57 \textcolor{preprocessor}{\#include "{}sublistener.cpp"{}}}
+
+\end{DoxyCode}

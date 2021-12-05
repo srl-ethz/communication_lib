@@ -1,0 +1,95 @@
+\hypertarget{trajectory__setpoint_pub_sub_types_8h_source}{}\doxysection{trajectory\+\_\+setpoint\+Pub\+Sub\+Types.\+h}
+\label{trajectory__setpoint_pub_sub_types_8h_source}\index{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/px4\_msg\_definitions/trajectory\_setpointPubSubTypes.h@{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/px4\_msg\_definitions/trajectory\_setpointPubSubTypes.h}}
+\mbox{\hyperlink{trajectory__setpoint_pub_sub_types_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{// Copyright 2016 Proyectos y Sistemas de Mantenimiento SL (eProsima).}}
+\DoxyCodeLine{2 \textcolor{comment}{//}}
+\DoxyCodeLine{3 \textcolor{comment}{// Licensed under the Apache License, Version 2.0 (the "{}License"{});}}
+\DoxyCodeLine{4 \textcolor{comment}{// you may not use this file except in compliance with the License.}}
+\DoxyCodeLine{5 \textcolor{comment}{// You may obtain a copy of the License at}}
+\DoxyCodeLine{6 \textcolor{comment}{//}}
+\DoxyCodeLine{7 \textcolor{comment}{//     http://www.apache.org/licenses/LICENSE-\/2.0}}
+\DoxyCodeLine{8 \textcolor{comment}{//}}
+\DoxyCodeLine{9 \textcolor{comment}{// Unless required by applicable law or agreed to in writing, software}}
+\DoxyCodeLine{10 \textcolor{comment}{// distributed under the License is distributed on an "{}AS IS"{} BASIS,}}
+\DoxyCodeLine{11 \textcolor{comment}{// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.}}
+\DoxyCodeLine{12 \textcolor{comment}{// See the License for the specific language governing permissions and}}
+\DoxyCodeLine{13 \textcolor{comment}{// limitations under the License.}}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{23 \textcolor{preprocessor}{\#ifndef \_TRAJECTORY\_SETPOINT\_PUBSUBTYPES\_H\_}}
+\DoxyCodeLine{24 \textcolor{preprocessor}{\#define \_TRAJECTORY\_SETPOINT\_PUBSUBTYPES\_H\_}}
+\DoxyCodeLine{25 }
+\DoxyCodeLine{26 \textcolor{preprocessor}{\#include <fastdds/dds/topic/TopicDataType.hpp>}}
+\DoxyCodeLine{27 \textcolor{preprocessor}{\#include <fastrtps/utils/md5.h>}}
+\DoxyCodeLine{28 }
+\DoxyCodeLine{29 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{trajectory__setpoint_8h}{trajectory\_setpoint.h}}"{}}}
+\DoxyCodeLine{30 }
+\DoxyCodeLine{31 \textcolor{preprocessor}{\#if !defined(GEN\_API\_VER) || (GEN\_API\_VER != 1)}}
+\DoxyCodeLine{32 \textcolor{preprocessor}{\#error Generated trajectory\_setpoint is not compatible with current installed Fast DDS. Please, regenerate it with fastddsgen.}}
+\DoxyCodeLine{33 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// GEN\_API\_VER}}
+\DoxyCodeLine{34 }
+\DoxyCodeLine{35 \textcolor{keyword}{typedef} std::array<float, 3> trajectory\_setpoint\_\_float\_array\_3;}
+\DoxyCodeLine{40 \textcolor{keyword}{class }\mbox{\hyperlink{classtrajectory__setpoint_pub_sub_type}{trajectory\_setpointPubSubType}} : \textcolor{keyword}{public} eprosima::fastdds::dds::TopicDataType}
+\DoxyCodeLine{41 \{}
+\DoxyCodeLine{42 \textcolor{keyword}{public}:}
+\DoxyCodeLine{43 }
+\DoxyCodeLine{44     \textcolor{keyword}{typedef} \mbox{\hyperlink{classtrajectory__setpoint}{trajectory\_setpoint}} \mbox{\hyperlink{classtrajectory__setpoint}{type}};}
+\DoxyCodeLine{45 }
+\DoxyCodeLine{46     eProsima\_user\_DllExport \mbox{\hyperlink{classtrajectory__setpoint_pub_sub_type}{trajectory\_setpointPubSubType}}();}
+\DoxyCodeLine{47 }
+\DoxyCodeLine{48     eProsima\_user\_DllExport \textcolor{keyword}{virtual} \mbox{\hyperlink{classtrajectory__setpoint_pub_sub_type}{\string~trajectory\_setpointPubSubType}}();}
+\DoxyCodeLine{49 }
+\DoxyCodeLine{50     eProsima\_user\_DllExport \textcolor{keyword}{virtual} \textcolor{keywordtype}{bool} serialize(}
+\DoxyCodeLine{51             \textcolor{keywordtype}{void}* data,}
+\DoxyCodeLine{52             eprosima::fastrtps::rtps::SerializedPayload\_t* payload) \textcolor{keyword}{override};}
+\DoxyCodeLine{53 }
+\DoxyCodeLine{54     eProsima\_user\_DllExport \textcolor{keyword}{virtual} \textcolor{keywordtype}{bool} deserialize(}
+\DoxyCodeLine{55             eprosima::fastrtps::rtps::SerializedPayload\_t* payload,}
+\DoxyCodeLine{56             \textcolor{keywordtype}{void}* data) \textcolor{keyword}{override};}
+\DoxyCodeLine{57 }
+\DoxyCodeLine{58     eProsima\_user\_DllExport \textcolor{keyword}{virtual} std::function<uint32\_t()> getSerializedSizeProvider(}
+\DoxyCodeLine{59             \textcolor{keywordtype}{void}* data) \textcolor{keyword}{override};}
+\DoxyCodeLine{60 }
+\DoxyCodeLine{61     eProsima\_user\_DllExport \textcolor{keyword}{virtual} \textcolor{keywordtype}{bool} getKey(}
+\DoxyCodeLine{62             \textcolor{keywordtype}{void}* data,}
+\DoxyCodeLine{63             eprosima::fastrtps::rtps::InstanceHandle\_t* ihandle,}
+\DoxyCodeLine{64             \textcolor{keywordtype}{bool} force\_md5 = \textcolor{keyword}{false}) \textcolor{keyword}{override};}
+\DoxyCodeLine{65 }
+\DoxyCodeLine{66     eProsima\_user\_DllExport \textcolor{keyword}{virtual} \textcolor{keywordtype}{void}* createData() \textcolor{keyword}{override};}
+\DoxyCodeLine{67 }
+\DoxyCodeLine{68     eProsima\_user\_DllExport \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} deleteData(}
+\DoxyCodeLine{69             \textcolor{keywordtype}{void}* data) \textcolor{keyword}{override};}
+\DoxyCodeLine{70 }
+\DoxyCodeLine{71 \textcolor{preprocessor}{\#ifdef TOPIC\_DATA\_TYPE\_API\_HAS\_IS\_BOUNDED}}
+\DoxyCodeLine{72     eProsima\_user\_DllExport \textcolor{keyword}{inline} \textcolor{keywordtype}{bool} is\_bounded()\textcolor{keyword}{ const override}}
+\DoxyCodeLine{73 \textcolor{keyword}{    }\{}
+\DoxyCodeLine{74         \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{75     \}}
+\DoxyCodeLine{76 }
+\DoxyCodeLine{77 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// TOPIC\_DATA\_TYPE\_API\_HAS\_IS\_BOUNDED}}
+\DoxyCodeLine{78 }
+\DoxyCodeLine{79 \textcolor{preprocessor}{\#ifdef TOPIC\_DATA\_TYPE\_API\_HAS\_IS\_PLAIN}}
+\DoxyCodeLine{80     eProsima\_user\_DllExport \textcolor{keyword}{inline} \textcolor{keywordtype}{bool} is\_plain()\textcolor{keyword}{ const override}}
+\DoxyCodeLine{81 \textcolor{keyword}{    }\{}
+\DoxyCodeLine{82         \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{83     \}}
+\DoxyCodeLine{84 }
+\DoxyCodeLine{85 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// TOPIC\_DATA\_TYPE\_API\_HAS\_IS\_PLAIN}}
+\DoxyCodeLine{86 }
+\DoxyCodeLine{87 \textcolor{preprocessor}{\#ifdef TOPIC\_DATA\_TYPE\_API\_HAS\_CONSTRUCT\_SAMPLE}}
+\DoxyCodeLine{88     eProsima\_user\_DllExport \textcolor{keyword}{inline} \textcolor{keywordtype}{bool} construct\_sample(}
+\DoxyCodeLine{89             \textcolor{keywordtype}{void}* memory)\textcolor{keyword}{ const override}}
+\DoxyCodeLine{90 \textcolor{keyword}{    }\{}
+\DoxyCodeLine{91         \textcolor{keyword}{new} (memory) \mbox{\hyperlink{classtrajectory__setpoint}{trajectory\_setpoint}}();}
+\DoxyCodeLine{92         \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{93     \}}
+\DoxyCodeLine{94 }
+\DoxyCodeLine{95 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// TOPIC\_DATA\_TYPE\_API\_HAS\_CONSTRUCT\_SAMPLE}}
+\DoxyCodeLine{96 }
+\DoxyCodeLine{97     MD5 m\_md5;}
+\DoxyCodeLine{98     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{char}* m\_keyBuffer;}
+\DoxyCodeLine{99 \};}
+\DoxyCodeLine{100 }
+\DoxyCodeLine{101 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_TRAJECTORY\_SETPOINT\_PUBSUBTYPES\_H\_}}
+
+\end{DoxyCode}

@@ -1,0 +1,62 @@
+\hypertarget{classposition__setpoint_pub_sub_type}{}\doxysection{position\+\_\+setpoint\+Pub\+Sub\+Type Class Reference}
+\label{classposition__setpoint_pub_sub_type}\index{position\_setpointPubSubType@{position\_setpointPubSubType}}
+
+
+This class represents the Topic\+Data\+Type of the type \mbox{\hyperlink{classposition__setpoint}{position\+\_\+setpoint}} defined by the user in the IDL file.  
+
+
+
+
+{\ttfamily \#include $<$position\+\_\+setpoint\+Pub\+Sub\+Types.\+h$>$}
+
+Inheritance diagram for position\+\_\+setpoint\+Pub\+Sub\+Type\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classposition__setpoint_pub_sub_type}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classposition__setpoint_pub_sub_type_aeaa8824e1b36241f11e26f648842ba35}\label{classposition__setpoint_pub_sub_type_aeaa8824e1b36241f11e26f648842ba35}} 
+typedef \mbox{\hyperlink{classposition__setpoint}{position\+\_\+setpoint}} {\bfseries type}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classposition__setpoint_pub_sub_type_ad5cb412e8a7d505a9bd7d208836c2f8a}\label{classposition__setpoint_pub_sub_type_ad5cb412e8a7d505a9bd7d208836c2f8a}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export bool {\bfseries serialize} (void $\ast$data, eprosima\+::fastrtps\+::rtps\+::\+Serialized\+Payload\+\_\+t $\ast$payload) override
+\item 
+\mbox{\Hypertarget{classposition__setpoint_pub_sub_type_a22dc3662ddfe2bca1c68790c3ee5b338}\label{classposition__setpoint_pub_sub_type_a22dc3662ddfe2bca1c68790c3ee5b338}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export bool {\bfseries deserialize} (eprosima\+::fastrtps\+::rtps\+::\+Serialized\+Payload\+\_\+t $\ast$payload, void $\ast$data) override
+\item 
+\mbox{\Hypertarget{classposition__setpoint_pub_sub_type_ab70ede2404b132a7ec0f9044726a3e58}\label{classposition__setpoint_pub_sub_type_ab70ede2404b132a7ec0f9044726a3e58}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export std\+::function$<$ uint32\+\_\+t()$>$ {\bfseries get\+Serialized\+Size\+Provider} (void $\ast$data) override
+\item 
+\mbox{\Hypertarget{classposition__setpoint_pub_sub_type_a5bd01006f161c179126285de13a59c3d}\label{classposition__setpoint_pub_sub_type_a5bd01006f161c179126285de13a59c3d}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export bool {\bfseries get\+Key} (void $\ast$data, eprosima\+::fastrtps\+::rtps\+::\+Instance\+Handle\+\_\+t $\ast$ihandle, bool force\+\_\+md5=false) override
+\item 
+\mbox{\Hypertarget{classposition__setpoint_pub_sub_type_a42afe02f5152bf06a750789431032519}\label{classposition__setpoint_pub_sub_type_a42afe02f5152bf06a750789431032519}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export void $\ast$ {\bfseries create\+Data} () override
+\item 
+\mbox{\Hypertarget{classposition__setpoint_pub_sub_type_a969b3ce9f7826f30d224e3be848c98e5}\label{classposition__setpoint_pub_sub_type_a969b3ce9f7826f30d224e3be848c98e5}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export void {\bfseries delete\+Data} (void $\ast$data) override
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classposition__setpoint_pub_sub_type_adea577b26a0371df1340e5f875e99830}\label{classposition__setpoint_pub_sub_type_adea577b26a0371df1340e5f875e99830}} 
+MD5 {\bfseries m\+\_\+md5}
+\item 
+\mbox{\Hypertarget{classposition__setpoint_pub_sub_type_a03c003975a6121815d520e4a9630011d}\label{classposition__setpoint_pub_sub_type_a03c003975a6121815d520e4a9630011d}} 
+unsigned char $\ast$ {\bfseries m\+\_\+key\+Buffer}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class represents the Topic\+Data\+Type of the type \mbox{\hyperlink{classposition__setpoint}{position\+\_\+setpoint}} defined by the user in the IDL file. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/sarathmenon/\+Desktop/eth\+\_\+soft/code/\+Communication/libraries/communication\+\_\+lib/fastdds\+\_\+lib/fastddsgen\+\_\+generated\+\_\+files/px4\+\_\+msg\+\_\+definitions/\mbox{\hyperlink{position__setpoint_pub_sub_types_8h}{position\+\_\+setpoint\+Pub\+Sub\+Types.\+h}}\item 
+/\+Users/sarathmenon/\+Desktop/eth\+\_\+soft/code/\+Communication/libraries/communication\+\_\+lib/fastdds\+\_\+lib/fastddsgen\+\_\+generated\+\_\+files/px4\+\_\+msg\+\_\+definitions/position\+\_\+setpoint\+Pub\+Sub\+Types.\+cxx\end{DoxyCompactItemize}

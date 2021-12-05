@@ -1,0 +1,47 @@
+\hypertarget{class_sub_listener}{}\doxysection{Sub\+Listener\texorpdfstring{$<$}{<} msg\+\_\+type \texorpdfstring{$>$}{>} Class Template Reference}
+\label{class_sub_listener}\index{SubListener$<$ msg\_type $>$@{SubListener$<$ msg\_type $>$}}
+Inheritance diagram for Sub\+Listener\texorpdfstring{$<$}{<} msg\+\_\+type \texorpdfstring{$>$}{>}\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_sub_listener}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sub_listener_aea422015fc665aec94107291d6304330}\label{class_sub_listener_aea422015fc665aec94107291d6304330}} 
+{\bfseries Sub\+Listener} (msg\+\_\+type $\ast$msg)
+\item 
+\mbox{\Hypertarget{class_sub_listener_ae0c6bf9e5248fc2a52fc590239f1aa15}\label{class_sub_listener_ae0c6bf9e5248fc2a52fc590239f1aa15}} 
+void {\bfseries wait\+\_\+for\+\_\+data} ()
+\item 
+\mbox{\Hypertarget{class_sub_listener_a97ec7702905688f78c20b1a92055e3df}\label{class_sub_listener_a97ec7702905688f78c20b1a92055e3df}} 
+void {\bfseries wait\+\_\+for\+\_\+data\+\_\+for\+\_\+ms} (const int t)
+\item 
+\mbox{\Hypertarget{class_sub_listener_a6cc32e0f44545fead6df4d2fdc1c19ff}\label{class_sub_listener_a6cc32e0f44545fead6df4d2fdc1c19ff}} 
+const float {\bfseries matched} () const
+\begin{DoxyCompactList}\small\item\em Getter function. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_sub_listener_afe9ee33955e3d0be7c4ba677dd1021d5}\label{class_sub_listener_afe9ee33955e3d0be7c4ba677dd1021d5}} 
+int {\bfseries matched\+\_\+} = 0
+\item 
+\mbox{\Hypertarget{class_sub_listener_ae3a45d230516fb56d683236565224498}\label{class_sub_listener_ae3a45d230516fb56d683236565224498}} 
+std\+::mutex {\bfseries m}
+\item 
+\mbox{\Hypertarget{class_sub_listener_a882b7d665441ef4328f10335c82d124e}\label{class_sub_listener_a882b7d665441ef4328f10335c82d124e}} 
+std\+::condition\+\_\+variable {\bfseries cv}
+\item 
+\mbox{\Hypertarget{class_sub_listener_a2e92ca1601c53d1a71777bd1b39e85e2}\label{class_sub_listener_a2e92ca1601c53d1a71777bd1b39e85e2}} 
+bool {\bfseries new\+\_\+data} \{false\}
+\item 
+\mbox{\Hypertarget{class_sub_listener_a4fb19af6a573b25bf96f135d209e50d0}\label{class_sub_listener_a4fb19af6a573b25bf96f135d209e50d0}} 
+msg\+\_\+type $\ast$ {\bfseries st}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/sarathmenon/\+Desktop/eth\+\_\+soft/code/\+Communication/libraries/communication\+\_\+lib/fastdds\+\_\+lib/subscribers/default\+\_\+subscriber/sublistener.\+h\item 
+/\+Users/sarathmenon/\+Desktop/eth\+\_\+soft/code/\+Communication/libraries/communication\+\_\+lib/fastdds\+\_\+lib/subscribers/default\+\_\+subscriber/sublistener.\+cpp\end{DoxyCompactItemize}

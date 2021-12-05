@@ -1,0 +1,157 @@
+\hypertarget{_quad_attitude_rate_command_8h_source}{}\doxysection{Quad\+Attitude\+Rate\+Command.\+h}
+\label{_quad_attitude_rate_command_8h_source}\index{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/msg\_definitions/QuadAttitudeRateCommand.h@{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/msg\_definitions/QuadAttitudeRateCommand.h}}
+\mbox{\hyperlink{_quad_attitude_rate_command_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{// Copyright 2016 Proyectos y Sistemas de Mantenimiento SL (eProsima).}}
+\DoxyCodeLine{2 \textcolor{comment}{//}}
+\DoxyCodeLine{3 \textcolor{comment}{// Licensed under the Apache License, Version 2.0 (the "{}License"{});}}
+\DoxyCodeLine{4 \textcolor{comment}{// you may not use this file except in compliance with the License.}}
+\DoxyCodeLine{5 \textcolor{comment}{// You may obtain a copy of the License at}}
+\DoxyCodeLine{6 \textcolor{comment}{//}}
+\DoxyCodeLine{7 \textcolor{comment}{//     http://www.apache.org/licenses/LICENSE-\/2.0}}
+\DoxyCodeLine{8 \textcolor{comment}{//}}
+\DoxyCodeLine{9 \textcolor{comment}{// Unless required by applicable law or agreed to in writing, software}}
+\DoxyCodeLine{10 \textcolor{comment}{// distributed under the License is distributed on an "{}AS IS"{} BASIS,}}
+\DoxyCodeLine{11 \textcolor{comment}{// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.}}
+\DoxyCodeLine{12 \textcolor{comment}{// See the License for the specific language governing permissions and}}
+\DoxyCodeLine{13 \textcolor{comment}{// limitations under the License.}}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{22 \textcolor{preprocessor}{\#ifndef \_IDL\_MSG\_QUADATTITUDERATECOMMAND\_H\_}}
+\DoxyCodeLine{23 \textcolor{preprocessor}{\#define \_IDL\_MSG\_QUADATTITUDERATECOMMAND\_H\_}}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_header_8h}{Header.h}}"{}}}
+\DoxyCodeLine{26 }
+\DoxyCodeLine{27 \textcolor{preprocessor}{\#include <stdint.h>}}
+\DoxyCodeLine{28 \textcolor{preprocessor}{\#include <array>}}
+\DoxyCodeLine{29 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{30 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{31 \textcolor{preprocessor}{\#include <map>}}
+\DoxyCodeLine{32 \textcolor{preprocessor}{\#include <bitset>}}
+\DoxyCodeLine{33 }
+\DoxyCodeLine{34 \textcolor{preprocessor}{\#if defined(\_WIN32)}}
+\DoxyCodeLine{35 \textcolor{preprocessor}{\#if defined(EPROSIMA\_USER\_DLL\_EXPORT)}}
+\DoxyCodeLine{36 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport \_\_declspec( dllexport )}}
+\DoxyCodeLine{37 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{38 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport}}
+\DoxyCodeLine{39 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// EPROSIMA\_USER\_DLL\_EXPORT}}
+\DoxyCodeLine{40 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{41 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport}}
+\DoxyCodeLine{42 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// \_WIN32}}
+\DoxyCodeLine{43 }
+\DoxyCodeLine{44 \textcolor{preprocessor}{\#if defined(\_WIN32)}}
+\DoxyCodeLine{45 \textcolor{preprocessor}{\#if defined(EPROSIMA\_USER\_DLL\_EXPORT)}}
+\DoxyCodeLine{46 \textcolor{preprocessor}{\#if defined(QuadAttitudeRateCommand\_SOURCE)}}
+\DoxyCodeLine{47 \textcolor{preprocessor}{\#define QuadAttitudeRateCommand\_DllAPI \_\_declspec( dllexport )}}
+\DoxyCodeLine{48 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{49 \textcolor{preprocessor}{\#define QuadAttitudeRateCommand\_DllAPI \_\_declspec( dllimport )}}
+\DoxyCodeLine{50 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// QuadAttitudeRateCommand\_SOURCE}}
+\DoxyCodeLine{51 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{52 \textcolor{preprocessor}{\#define QuadAttitudeRateCommand\_DllAPI}}
+\DoxyCodeLine{53 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// EPROSIMA\_USER\_DLL\_EXPORT}}
+\DoxyCodeLine{54 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{55 \textcolor{preprocessor}{\#define QuadAttitudeRateCommand\_DllAPI}}
+\DoxyCodeLine{56 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_WIN32}}
+\DoxyCodeLine{57 }
+\DoxyCodeLine{58 \textcolor{keyword}{namespace }eprosima \{}
+\DoxyCodeLine{59 \textcolor{keyword}{namespace }fastcdr \{}
+\DoxyCodeLine{60 \textcolor{keyword}{class }Cdr;}
+\DoxyCodeLine{61 \} \textcolor{comment}{// namespace fastcdr}}
+\DoxyCodeLine{62 \} \textcolor{comment}{// namespace eprosima}}
+\DoxyCodeLine{63 }
+\DoxyCodeLine{64 }
+\DoxyCodeLine{65 \textcolor{keyword}{namespace }idl\_msg \{}
+\DoxyCodeLine{70     \textcolor{keyword}{class }\mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command}{QuadAttitudeRateCommand}}}
+\DoxyCodeLine{71     \{}
+\DoxyCodeLine{72     \textcolor{keyword}{public}:}
+\DoxyCodeLine{73 }
+\DoxyCodeLine{77         eProsima\_user\_DllExport \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command_aa23ccc431a5b23546aa24e01778f9672}{QuadAttitudeRateCommand}}();}
+\DoxyCodeLine{78 }
+\DoxyCodeLine{82         eProsima\_user\_DllExport \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command_afb60597c64d9d0227a485670306c2c08}{\string~QuadAttitudeRateCommand}}();}
+\DoxyCodeLine{83 }
+\DoxyCodeLine{88         eProsima\_user\_DllExport \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command_aa23ccc431a5b23546aa24e01778f9672}{QuadAttitudeRateCommand}}(}
+\DoxyCodeLine{89                 \textcolor{keyword}{const} \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command}{QuadAttitudeRateCommand}}\& x);}
+\DoxyCodeLine{90 }
+\DoxyCodeLine{95         eProsima\_user\_DllExport \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command_aa23ccc431a5b23546aa24e01778f9672}{QuadAttitudeRateCommand}}(}
+\DoxyCodeLine{96                 \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command}{QuadAttitudeRateCommand}}\&\& x);}
+\DoxyCodeLine{97 }
+\DoxyCodeLine{102         eProsima\_user\_DllExport \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command}{QuadAttitudeRateCommand}}\& \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command_a96ad5bd20c67970820add0960c73a926}{operator =}}(}
+\DoxyCodeLine{103                 \textcolor{keyword}{const} \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command}{QuadAttitudeRateCommand}}\& x);}
+\DoxyCodeLine{104 }
+\DoxyCodeLine{109         eProsima\_user\_DllExport \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command}{QuadAttitudeRateCommand}}\& \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command_a96ad5bd20c67970820add0960c73a926}{operator =}}(}
+\DoxyCodeLine{110                 \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command}{QuadAttitudeRateCommand}}\&\& x);}
+\DoxyCodeLine{111 }
+\DoxyCodeLine{116         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command_abb792d6c7dc86ef38818b7fd7ad0dbda}{header}}(}
+\DoxyCodeLine{117                 \textcolor{keyword}{const} \mbox{\hyperlink{classidl__msg_1_1_header}{idl\_msg::Header}}\& \_header);}
+\DoxyCodeLine{118 }
+\DoxyCodeLine{123         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command_abb792d6c7dc86ef38818b7fd7ad0dbda}{header}}(}
+\DoxyCodeLine{124                 \mbox{\hyperlink{classidl__msg_1_1_header}{idl\_msg::Header}}\&\& \_header);}
+\DoxyCodeLine{125 }
+\DoxyCodeLine{130         eProsima\_user\_DllExport \textcolor{keyword}{const} \mbox{\hyperlink{classidl__msg_1_1_header}{idl\_msg::Header}}\& \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command_abb792d6c7dc86ef38818b7fd7ad0dbda}{header}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{131 }
+\DoxyCodeLine{136         eProsima\_user\_DllExport \mbox{\hyperlink{classidl__msg_1_1_header}{idl\_msg::Header}}\& \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command_abb792d6c7dc86ef38818b7fd7ad0dbda}{header}}();}
+\DoxyCodeLine{141         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command_ab3452b046dfd2d40b0f9b869bc0c16bf}{thrust}}(}
+\DoxyCodeLine{142                 \textcolor{keywordtype}{float} \_thrust);}
+\DoxyCodeLine{143 }
+\DoxyCodeLine{148         eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command_ab3452b046dfd2d40b0f9b869bc0c16bf}{thrust}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{149 }
+\DoxyCodeLine{154         eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command_ab3452b046dfd2d40b0f9b869bc0c16bf}{thrust}}();}
+\DoxyCodeLine{155 }
+\DoxyCodeLine{160         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command_a9686a6572c2e650cc6734e60c580be0b}{roll\_rate}}(}
+\DoxyCodeLine{161                 \textcolor{keywordtype}{float} \_roll\_rate);}
+\DoxyCodeLine{162 }
+\DoxyCodeLine{167         eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command_a9686a6572c2e650cc6734e60c580be0b}{roll\_rate}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{168 }
+\DoxyCodeLine{173         eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command_a9686a6572c2e650cc6734e60c580be0b}{roll\_rate}}();}
+\DoxyCodeLine{174 }
+\DoxyCodeLine{179         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command_aae5b1b166667edd73fca44a9325c2ee8}{pitch\_rate}}(}
+\DoxyCodeLine{180                 \textcolor{keywordtype}{float} \_pitch\_rate);}
+\DoxyCodeLine{181 }
+\DoxyCodeLine{186         eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command_aae5b1b166667edd73fca44a9325c2ee8}{pitch\_rate}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{187 }
+\DoxyCodeLine{192         eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command_aae5b1b166667edd73fca44a9325c2ee8}{pitch\_rate}}();}
+\DoxyCodeLine{193 }
+\DoxyCodeLine{198         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command_a45abfe44170acb8f77cc628f0905cbac}{yaw\_rate}}(}
+\DoxyCodeLine{199                 \textcolor{keywordtype}{float} \_yaw\_rate);}
+\DoxyCodeLine{200 }
+\DoxyCodeLine{205         eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command_a45abfe44170acb8f77cc628f0905cbac}{yaw\_rate}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{206 }
+\DoxyCodeLine{211         eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command_a45abfe44170acb8f77cc628f0905cbac}{yaw\_rate}}();}
+\DoxyCodeLine{212 }
+\DoxyCodeLine{213 }
+\DoxyCodeLine{220         eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command_ad2e45b5aeec895046ff08782989a8dd1}{getMaxCdrSerializedSize}}(}
+\DoxyCodeLine{221                 \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{222 }
+\DoxyCodeLine{229         eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command_a1f51db16afca4e9b11483945d5598ef9}{getCdrSerializedSize}}(}
+\DoxyCodeLine{230                 \textcolor{keyword}{const} \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command}{idl\_msg::QuadAttitudeRateCommand}}\& data,}
+\DoxyCodeLine{231                 \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{232 }
+\DoxyCodeLine{233 }
+\DoxyCodeLine{238         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command_abd72203e85a5ad748f4256f1e4dc7db2}{serialize}}(}
+\DoxyCodeLine{239                 eprosima::fastcdr::Cdr\& cdr) \textcolor{keyword}{const};}
+\DoxyCodeLine{240 }
+\DoxyCodeLine{245         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command_a3e4076d995456bd5c2009f5883be36ac}{deserialize}}(}
+\DoxyCodeLine{246                 eprosima::fastcdr::Cdr\& cdr);}
+\DoxyCodeLine{247 }
+\DoxyCodeLine{248 }
+\DoxyCodeLine{249 }
+\DoxyCodeLine{256         eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command_a62de7d903d1c05dddf0a37bddb46705e}{getKeyMaxCdrSerializedSize}}(}
+\DoxyCodeLine{257                 \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{258 }
+\DoxyCodeLine{262         eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{bool} \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command_a290f596102deaedd9cac0b4e1f10fe96}{isKeyDefined}}();}
+\DoxyCodeLine{263 }
+\DoxyCodeLine{268         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_quad_attitude_rate_command_adf195dbef5641e3c26f33e5b15d1e8bf}{serializeKey}}(}
+\DoxyCodeLine{269                 eprosima::fastcdr::Cdr\& cdr) \textcolor{keyword}{const};}
+\DoxyCodeLine{270 }
+\DoxyCodeLine{271     \textcolor{keyword}{private}:}
+\DoxyCodeLine{272 }
+\DoxyCodeLine{273         \mbox{\hyperlink{classidl__msg_1_1_header}{idl\_msg::Header}} m\_header;}
+\DoxyCodeLine{274         \textcolor{keywordtype}{float} m\_thrust;}
+\DoxyCodeLine{275         \textcolor{keywordtype}{float} m\_roll\_rate;}
+\DoxyCodeLine{276         \textcolor{keywordtype}{float} m\_pitch\_rate;}
+\DoxyCodeLine{277         \textcolor{keywordtype}{float} m\_yaw\_rate;}
+\DoxyCodeLine{278     \};}
+\DoxyCodeLine{279 \} \textcolor{comment}{// namespace idl\_msg}}
+\DoxyCodeLine{280 }
+\DoxyCodeLine{281 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_IDL\_MSG\_QUADATTITUDERATECOMMAND\_H\_}}
+
+\end{DoxyCode}

@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classoffboard__control__mode_pub_sub_type" kind="class" language="C++" prot="public">
+    <compoundname>offboard_control_modePubSubType</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">eprosima::fastdds::dds::TopicDataType</basecompoundref>
+    <includes refid="offboard__control__mode_pub_sub_types_8h" local="no">offboard_control_modePubSubTypes.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classoffboard__control__mode_pub_sub_type_1aa616d4790777c187ad3d26d9fb401bf1" prot="public" static="no">
+        <type><ref refid="classoffboard__control__mode" kindref="compound">offboard_control_mode</ref></type>
+        <definition>typedef offboard_control_mode offboard_control_modePubSubType::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/offboard_control_modePubSubTypes.h" line="43" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/offboard_control_modePubSubTypes.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classoffboard__control__mode_pub_sub_type_1ade4960720124d4676f37865e727c5e46" prot="public" static="no" mutable="no">
+        <type>MD5</type>
+        <definition>MD5 offboard_control_modePubSubType::m_md5</definition>
+        <argsstring></argsstring>
+        <name>m_md5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/offboard_control_modePubSubTypes.h" line="96" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/offboard_control_modePubSubTypes.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoffboard__control__mode_pub_sub_type_1a4df089d72beb644d45278c3959f1d732" prot="public" static="no" mutable="no">
+        <type>unsigned char *</type>
+        <definition>unsigned char* offboard_control_modePubSubType::m_keyBuffer</definition>
+        <argsstring></argsstring>
+        <name>m_keyBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/offboard_control_modePubSubTypes.h" line="97" column="19" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/offboard_control_modePubSubTypes.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoffboard__control__mode_pub_sub_type_1a6bcdab05269da86b6f3dc04f998cf775" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>offboard_control_modePubSubType::offboard_control_modePubSubType</definition>
+        <argsstring>()</argsstring>
+        <name>offboard_control_modePubSubType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/offboard_control_modePubSubTypes.h" line="45" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/offboard_control_modePubSubTypes.cxx" bodystart="31" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classoffboard__control__mode_pub_sub_type_1a4e04019761f39c6d70bef9046a7860d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>offboard_control_modePubSubType::~offboard_control_modePubSubType</definition>
+        <argsstring>()</argsstring>
+        <name>~offboard_control_modePubSubType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/offboard_control_modePubSubTypes.h" line="47" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/offboard_control_modePubSubTypes.cxx" bodystart="44" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classoffboard__control__mode_pub_sub_type_1acf8f6a48c2668465fdb3573eac549074" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool offboard_control_modePubSubType::serialize</definition>
+        <argsstring>(void *data, eprosima::fastrtps::rtps::SerializedPayload_t *payload) override</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>eprosima::fastrtps::rtps::SerializedPayload_t *</type>
+          <declname>payload</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/offboard_control_modePubSubTypes.h" line="49" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/offboard_control_modePubSubTypes.cxx" bodystart="52" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classoffboard__control__mode_pub_sub_type_1ad18c9eee486aadcddee1b52611730039" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool offboard_control_modePubSubType::deserialize</definition>
+        <argsstring>(eprosima::fastrtps::rtps::SerializedPayload_t *payload, void *data) override</argsstring>
+        <name>deserialize</name>
+        <param>
+          <type>eprosima::fastrtps::rtps::SerializedPayload_t *</type>
+          <declname>payload</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/offboard_control_modePubSubTypes.h" line="53" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/offboard_control_modePubSubTypes.cxx" bodystart="81" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classoffboard__control__mode_pub_sub_type_1a4afefcdf9c2a24c19dd9d0e89f3974a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport std::function&lt; uint32_t()&gt;</type>
+        <definition>std::function&lt; uint32_t()&gt; offboard_control_modePubSubType::getSerializedSizeProvider</definition>
+        <argsstring>(void *data) override</argsstring>
+        <name>getSerializedSizeProvider</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/offboard_control_modePubSubTypes.h" line="57" column="51" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/offboard_control_modePubSubTypes.cxx" bodystart="111" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="classoffboard__control__mode_pub_sub_type_1ae90c19ac9ee59ae52491731e70b02b08" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool offboard_control_modePubSubType::getKey</definition>
+        <argsstring>(void *data, eprosima::fastrtps::rtps::InstanceHandle_t *ihandle, bool force_md5=false) override</argsstring>
+        <name>getKey</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>eprosima::fastrtps::rtps::InstanceHandle_t *</type>
+          <declname>ihandle</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>force_md5</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/offboard_control_modePubSubTypes.h" line="60" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/offboard_control_modePubSubTypes.cxx" bodystart="132" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="classoffboard__control__mode_pub_sub_type_1a3edf943bf2ebca6027650d22c341b199" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport void *</type>
+        <definition>void * offboard_control_modePubSubType::createData</definition>
+        <argsstring>() override</argsstring>
+        <name>createData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/offboard_control_modePubSubTypes.h" line="65" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/offboard_control_modePubSubTypes.cxx" bodystart="121" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classoffboard__control__mode_pub_sub_type_1a5c457a974352392ee5622d9d7b56e5c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void offboard_control_modePubSubType::deleteData</definition>
+        <argsstring>(void *data) override</argsstring>
+        <name>deleteData</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/offboard_control_modePubSubTypes.h" line="67" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/offboard_control_modePubSubTypes.cxx" bodystart="126" bodyend="130"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents the TopicDataType of the type <ref refid="classoffboard__control__mode" kindref="compound">offboard_control_mode</ref> defined by the user in the IDL file. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>eprosima::fastdds::dds::TopicDataType</label>
+      </node>
+      <node id="1">
+        <label>offboard_control_modePubSubType</label>
+        <link refid="classoffboard__control__mode_pub_sub_type"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>eprosima::fastdds::dds::TopicDataType</label>
+      </node>
+      <node id="1">
+        <label>offboard_control_modePubSubType</label>
+        <link refid="classoffboard__control__mode_pub_sub_type"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/offboard_control_modePubSubTypes.h" line="39" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/offboard_control_modePubSubTypes.h" bodystart="40" bodyend="98"/>
+    <listofallmembers>
+      <member refid="classoffboard__control__mode_pub_sub_type_1a3edf943bf2ebca6027650d22c341b199" prot="public" virt="virtual"><scope>offboard_control_modePubSubType</scope><name>createData</name></member>
+      <member refid="classoffboard__control__mode_pub_sub_type_1a5c457a974352392ee5622d9d7b56e5c9" prot="public" virt="virtual"><scope>offboard_control_modePubSubType</scope><name>deleteData</name></member>
+      <member refid="classoffboard__control__mode_pub_sub_type_1ad18c9eee486aadcddee1b52611730039" prot="public" virt="virtual"><scope>offboard_control_modePubSubType</scope><name>deserialize</name></member>
+      <member refid="classoffboard__control__mode_pub_sub_type_1ae90c19ac9ee59ae52491731e70b02b08" prot="public" virt="virtual"><scope>offboard_control_modePubSubType</scope><name>getKey</name></member>
+      <member refid="classoffboard__control__mode_pub_sub_type_1a4afefcdf9c2a24c19dd9d0e89f3974a9" prot="public" virt="virtual"><scope>offboard_control_modePubSubType</scope><name>getSerializedSizeProvider</name></member>
+      <member refid="classoffboard__control__mode_pub_sub_type_1a4df089d72beb644d45278c3959f1d732" prot="public" virt="non-virtual"><scope>offboard_control_modePubSubType</scope><name>m_keyBuffer</name></member>
+      <member refid="classoffboard__control__mode_pub_sub_type_1ade4960720124d4676f37865e727c5e46" prot="public" virt="non-virtual"><scope>offboard_control_modePubSubType</scope><name>m_md5</name></member>
+      <member refid="classoffboard__control__mode_pub_sub_type_1a6bcdab05269da86b6f3dc04f998cf775" prot="public" virt="non-virtual"><scope>offboard_control_modePubSubType</scope><name>offboard_control_modePubSubType</name></member>
+      <member refid="classoffboard__control__mode_pub_sub_type_1acf8f6a48c2668465fdb3573eac549074" prot="public" virt="virtual"><scope>offboard_control_modePubSubType</scope><name>serialize</name></member>
+      <member refid="classoffboard__control__mode_pub_sub_type_1aa616d4790777c187ad3d26d9fb401bf1" prot="public" virt="non-virtual"><scope>offboard_control_modePubSubType</scope><name>type</name></member>
+      <member refid="classoffboard__control__mode_pub_sub_type_1a4e04019761f39c6d70bef9046a7860d0" prot="public" virt="virtual"><scope>offboard_control_modePubSubType</scope><name>~offboard_control_modePubSubType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

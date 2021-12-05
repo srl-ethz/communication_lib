@@ -1,0 +1,141 @@
+\hypertarget{collision__constraints_8h_source}{}\doxysection{collision\+\_\+constraints.\+h}
+\label{collision__constraints_8h_source}\index{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/px4\_msg\_definitions/collision\_constraints.h@{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/px4\_msg\_definitions/collision\_constraints.h}}
+\mbox{\hyperlink{collision__constraints_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{// Copyright 2016 Proyectos y Sistemas de Mantenimiento SL (eProsima).}}
+\DoxyCodeLine{2 \textcolor{comment}{//}}
+\DoxyCodeLine{3 \textcolor{comment}{// Licensed under the Apache License, Version 2.0 (the "{}License"{});}}
+\DoxyCodeLine{4 \textcolor{comment}{// you may not use this file except in compliance with the License.}}
+\DoxyCodeLine{5 \textcolor{comment}{// You may obtain a copy of the License at}}
+\DoxyCodeLine{6 \textcolor{comment}{//}}
+\DoxyCodeLine{7 \textcolor{comment}{//     http://www.apache.org/licenses/LICENSE-\/2.0}}
+\DoxyCodeLine{8 \textcolor{comment}{//}}
+\DoxyCodeLine{9 \textcolor{comment}{// Unless required by applicable law or agreed to in writing, software}}
+\DoxyCodeLine{10 \textcolor{comment}{// distributed under the License is distributed on an "{}AS IS"{} BASIS,}}
+\DoxyCodeLine{11 \textcolor{comment}{// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.}}
+\DoxyCodeLine{12 \textcolor{comment}{// See the License for the specific language governing permissions and}}
+\DoxyCodeLine{13 \textcolor{comment}{// limitations under the License.}}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{22 \textcolor{preprocessor}{\#ifndef \_COLLISION\_CONSTRAINTS\_H\_}}
+\DoxyCodeLine{23 \textcolor{preprocessor}{\#define \_COLLISION\_CONSTRAINTS\_H\_}}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25 }
+\DoxyCodeLine{26 \textcolor{preprocessor}{\#include <stdint.h>}}
+\DoxyCodeLine{27 \textcolor{preprocessor}{\#include <array>}}
+\DoxyCodeLine{28 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{29 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{30 \textcolor{preprocessor}{\#include <map>}}
+\DoxyCodeLine{31 \textcolor{preprocessor}{\#include <bitset>}}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{33 \textcolor{preprocessor}{\#if defined(\_WIN32)}}
+\DoxyCodeLine{34 \textcolor{preprocessor}{\#if defined(EPROSIMA\_USER\_DLL\_EXPORT)}}
+\DoxyCodeLine{35 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport \_\_declspec( dllexport )}}
+\DoxyCodeLine{36 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{37 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport}}
+\DoxyCodeLine{38 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// EPROSIMA\_USER\_DLL\_EXPORT}}
+\DoxyCodeLine{39 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{40 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport}}
+\DoxyCodeLine{41 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// \_WIN32}}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{43 \textcolor{preprocessor}{\#if defined(\_WIN32)}}
+\DoxyCodeLine{44 \textcolor{preprocessor}{\#if defined(EPROSIMA\_USER\_DLL\_EXPORT)}}
+\DoxyCodeLine{45 \textcolor{preprocessor}{\#if defined(collision\_constraints\_SOURCE)}}
+\DoxyCodeLine{46 \textcolor{preprocessor}{\#define collision\_constraints\_DllAPI \_\_declspec( dllexport )}}
+\DoxyCodeLine{47 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{48 \textcolor{preprocessor}{\#define collision\_constraints\_DllAPI \_\_declspec( dllimport )}}
+\DoxyCodeLine{49 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// collision\_constraints\_SOURCE}}
+\DoxyCodeLine{50 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{51 \textcolor{preprocessor}{\#define collision\_constraints\_DllAPI}}
+\DoxyCodeLine{52 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// EPROSIMA\_USER\_DLL\_EXPORT}}
+\DoxyCodeLine{53 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{54 \textcolor{preprocessor}{\#define collision\_constraints\_DllAPI}}
+\DoxyCodeLine{55 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_WIN32}}
+\DoxyCodeLine{56 }
+\DoxyCodeLine{57 \textcolor{keyword}{namespace }eprosima \{}
+\DoxyCodeLine{58 \textcolor{keyword}{namespace }fastcdr \{}
+\DoxyCodeLine{59 \textcolor{keyword}{class }Cdr;}
+\DoxyCodeLine{60 \} \textcolor{comment}{// namespace fastcdr}}
+\DoxyCodeLine{61 \} \textcolor{comment}{// namespace eprosima}}
+\DoxyCodeLine{62 }
+\DoxyCodeLine{63 }
+\DoxyCodeLine{64 \textcolor{keyword}{typedef} std::array<float, 2> collision\_constraints\_\_float\_array\_2;}
+\DoxyCodeLine{69 \textcolor{keyword}{class }\mbox{\hyperlink{classcollision__constraints}{collision\_constraints}}}
+\DoxyCodeLine{70 \{}
+\DoxyCodeLine{71 \textcolor{keyword}{public}:}
+\DoxyCodeLine{72 }
+\DoxyCodeLine{76     eProsima\_user\_DllExport \mbox{\hyperlink{classcollision__constraints_aac50535dce1b5bbc242520eca0145a72}{collision\_constraints}}();}
+\DoxyCodeLine{77 }
+\DoxyCodeLine{81     eProsima\_user\_DllExport \mbox{\hyperlink{classcollision__constraints_a2666a1907ade7e80db5e86116e4e2e73}{\string~collision\_constraints}}();}
+\DoxyCodeLine{82 }
+\DoxyCodeLine{87     eProsima\_user\_DllExport \mbox{\hyperlink{classcollision__constraints_aac50535dce1b5bbc242520eca0145a72}{collision\_constraints}}(}
+\DoxyCodeLine{88             \textcolor{keyword}{const} \mbox{\hyperlink{classcollision__constraints}{collision\_constraints}}\& x);}
+\DoxyCodeLine{89 }
+\DoxyCodeLine{94     eProsima\_user\_DllExport \mbox{\hyperlink{classcollision__constraints_aac50535dce1b5bbc242520eca0145a72}{collision\_constraints}}(}
+\DoxyCodeLine{95             \mbox{\hyperlink{classcollision__constraints}{collision\_constraints}}\&\& x);}
+\DoxyCodeLine{96 }
+\DoxyCodeLine{101     eProsima\_user\_DllExport \mbox{\hyperlink{classcollision__constraints}{collision\_constraints}}\& \mbox{\hyperlink{classcollision__constraints_a094c663683944104bd4f196df10f3b71}{operator =}}(}
+\DoxyCodeLine{102             \textcolor{keyword}{const} \mbox{\hyperlink{classcollision__constraints}{collision\_constraints}}\& x);}
+\DoxyCodeLine{103 }
+\DoxyCodeLine{108     eProsima\_user\_DllExport \mbox{\hyperlink{classcollision__constraints}{collision\_constraints}}\& \mbox{\hyperlink{classcollision__constraints_a094c663683944104bd4f196df10f3b71}{operator =}}(}
+\DoxyCodeLine{109             \mbox{\hyperlink{classcollision__constraints}{collision\_constraints}}\&\& x);}
+\DoxyCodeLine{110 }
+\DoxyCodeLine{115     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classcollision__constraints_a92c810059731cc6f7f18d35114ce3196}{timestamp\_}}(}
+\DoxyCodeLine{116             uint64\_t \_timestamp\_);}
+\DoxyCodeLine{117 }
+\DoxyCodeLine{122     eProsima\_user\_DllExport uint64\_t \mbox{\hyperlink{classcollision__constraints_a92c810059731cc6f7f18d35114ce3196}{timestamp\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{123 }
+\DoxyCodeLine{128     eProsima\_user\_DllExport uint64\_t\& \mbox{\hyperlink{classcollision__constraints_a92c810059731cc6f7f18d35114ce3196}{timestamp\_}}();}
+\DoxyCodeLine{129 }
+\DoxyCodeLine{134     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classcollision__constraints_a982500da36d1ab44a0255613c682fe10}{original\_setpoint}}(}
+\DoxyCodeLine{135             \textcolor{keyword}{const} collision\_constraints\_\_float\_array\_2\& \_original\_setpoint);}
+\DoxyCodeLine{136 }
+\DoxyCodeLine{141     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classcollision__constraints_a982500da36d1ab44a0255613c682fe10}{original\_setpoint}}(}
+\DoxyCodeLine{142             collision\_constraints\_\_float\_array\_2\&\& \_original\_setpoint);}
+\DoxyCodeLine{143 }
+\DoxyCodeLine{148     eProsima\_user\_DllExport \textcolor{keyword}{const} collision\_constraints\_\_float\_array\_2\& \mbox{\hyperlink{classcollision__constraints_a982500da36d1ab44a0255613c682fe10}{original\_setpoint}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{149 }
+\DoxyCodeLine{154     eProsima\_user\_DllExport collision\_constraints\_\_float\_array\_2\& \mbox{\hyperlink{classcollision__constraints_a982500da36d1ab44a0255613c682fe10}{original\_setpoint}}();}
+\DoxyCodeLine{159     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classcollision__constraints_a384a7b093e86f90c07a32ebb20e57cd7}{adapted\_setpoint}}(}
+\DoxyCodeLine{160             \textcolor{keyword}{const} collision\_constraints\_\_float\_array\_2\& \_adapted\_setpoint);}
+\DoxyCodeLine{161 }
+\DoxyCodeLine{166     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classcollision__constraints_a384a7b093e86f90c07a32ebb20e57cd7}{adapted\_setpoint}}(}
+\DoxyCodeLine{167             collision\_constraints\_\_float\_array\_2\&\& \_adapted\_setpoint);}
+\DoxyCodeLine{168 }
+\DoxyCodeLine{173     eProsima\_user\_DllExport \textcolor{keyword}{const} collision\_constraints\_\_float\_array\_2\& \mbox{\hyperlink{classcollision__constraints_a384a7b093e86f90c07a32ebb20e57cd7}{adapted\_setpoint}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{174 }
+\DoxyCodeLine{179     eProsima\_user\_DllExport collision\_constraints\_\_float\_array\_2\& \mbox{\hyperlink{classcollision__constraints_a384a7b093e86f90c07a32ebb20e57cd7}{adapted\_setpoint}}();}
+\DoxyCodeLine{180 }
+\DoxyCodeLine{187     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classcollision__constraints_aeb441e1e81b22c9ee5417a1fb6771262}{getMaxCdrSerializedSize}}(}
+\DoxyCodeLine{188             \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{189 }
+\DoxyCodeLine{196     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classcollision__constraints_a72a05f9ed2f9569890b9eefe0c1a09a3}{getCdrSerializedSize}}(}
+\DoxyCodeLine{197             \textcolor{keyword}{const} \mbox{\hyperlink{classcollision__constraints}{collision\_constraints}}\& data,}
+\DoxyCodeLine{198             \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{199 }
+\DoxyCodeLine{200 }
+\DoxyCodeLine{205     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classcollision__constraints_a9a326febf8c57ae14f66754e286512f8}{serialize}}(}
+\DoxyCodeLine{206             eprosima::fastcdr::Cdr\& cdr) \textcolor{keyword}{const};}
+\DoxyCodeLine{207 }
+\DoxyCodeLine{212     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classcollision__constraints_ab7a3be6b33c21f7eed6a6f1007f49ef1}{deserialize}}(}
+\DoxyCodeLine{213             eprosima::fastcdr::Cdr\& cdr);}
+\DoxyCodeLine{214 }
+\DoxyCodeLine{215 }
+\DoxyCodeLine{216 }
+\DoxyCodeLine{223     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classcollision__constraints_a7f9744f93dff979f26f1e130f73166a2}{getKeyMaxCdrSerializedSize}}(}
+\DoxyCodeLine{224             \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{225 }
+\DoxyCodeLine{229     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{bool} \mbox{\hyperlink{classcollision__constraints_a0d915351d10fd59c2d6ab0fd1263f8ee}{isKeyDefined}}();}
+\DoxyCodeLine{230 }
+\DoxyCodeLine{235     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classcollision__constraints_a6bfb5b58f7061b139292bd24ce2d0128}{serializeKey}}(}
+\DoxyCodeLine{236             eprosima::fastcdr::Cdr\& cdr) \textcolor{keyword}{const};}
+\DoxyCodeLine{237 }
+\DoxyCodeLine{238 \textcolor{keyword}{private}:}
+\DoxyCodeLine{239 }
+\DoxyCodeLine{240     uint64\_t m\_timestamp\_;}
+\DoxyCodeLine{241     collision\_constraints\_\_float\_array\_2 m\_original\_setpoint;}
+\DoxyCodeLine{242     collision\_constraints\_\_float\_array\_2 m\_adapted\_setpoint;}
+\DoxyCodeLine{243 \};}
+\DoxyCodeLine{244 }
+\DoxyCodeLine{245 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_COLLISION\_CONSTRAINTS\_H\_}}
+
+\end{DoxyCode}

@@ -1,0 +1,306 @@
+\hypertarget{onboard__computer__status_8h_source}{}\doxysection{onboard\+\_\+computer\+\_\+status.\+h}
+\label{onboard__computer__status_8h_source}\index{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/px4\_msg\_definitions/onboard\_computer\_status.h@{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/px4\_msg\_definitions/onboard\_computer\_status.h}}
+\mbox{\hyperlink{onboard__computer__status_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{// Copyright 2016 Proyectos y Sistemas de Mantenimiento SL (eProsima).}}
+\DoxyCodeLine{2 \textcolor{comment}{//}}
+\DoxyCodeLine{3 \textcolor{comment}{// Licensed under the Apache License, Version 2.0 (the "{}License"{});}}
+\DoxyCodeLine{4 \textcolor{comment}{// you may not use this file except in compliance with the License.}}
+\DoxyCodeLine{5 \textcolor{comment}{// You may obtain a copy of the License at}}
+\DoxyCodeLine{6 \textcolor{comment}{//}}
+\DoxyCodeLine{7 \textcolor{comment}{//     http://www.apache.org/licenses/LICENSE-\/2.0}}
+\DoxyCodeLine{8 \textcolor{comment}{//}}
+\DoxyCodeLine{9 \textcolor{comment}{// Unless required by applicable law or agreed to in writing, software}}
+\DoxyCodeLine{10 \textcolor{comment}{// distributed under the License is distributed on an "{}AS IS"{} BASIS,}}
+\DoxyCodeLine{11 \textcolor{comment}{// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.}}
+\DoxyCodeLine{12 \textcolor{comment}{// See the License for the specific language governing permissions and}}
+\DoxyCodeLine{13 \textcolor{comment}{// limitations under the License.}}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{22 \textcolor{preprocessor}{\#ifndef \_ONBOARD\_COMPUTER\_STATUS\_H\_}}
+\DoxyCodeLine{23 \textcolor{preprocessor}{\#define \_ONBOARD\_COMPUTER\_STATUS\_H\_}}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25 }
+\DoxyCodeLine{26 \textcolor{preprocessor}{\#include <stdint.h>}}
+\DoxyCodeLine{27 \textcolor{preprocessor}{\#include <array>}}
+\DoxyCodeLine{28 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{29 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{30 \textcolor{preprocessor}{\#include <map>}}
+\DoxyCodeLine{31 \textcolor{preprocessor}{\#include <bitset>}}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{33 \textcolor{preprocessor}{\#if defined(\_WIN32)}}
+\DoxyCodeLine{34 \textcolor{preprocessor}{\#if defined(EPROSIMA\_USER\_DLL\_EXPORT)}}
+\DoxyCodeLine{35 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport \_\_declspec( dllexport )}}
+\DoxyCodeLine{36 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{37 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport}}
+\DoxyCodeLine{38 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// EPROSIMA\_USER\_DLL\_EXPORT}}
+\DoxyCodeLine{39 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{40 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport}}
+\DoxyCodeLine{41 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// \_WIN32}}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{43 \textcolor{preprocessor}{\#if defined(\_WIN32)}}
+\DoxyCodeLine{44 \textcolor{preprocessor}{\#if defined(EPROSIMA\_USER\_DLL\_EXPORT)}}
+\DoxyCodeLine{45 \textcolor{preprocessor}{\#if defined(onboard\_computer\_status\_SOURCE)}}
+\DoxyCodeLine{46 \textcolor{preprocessor}{\#define onboard\_computer\_status\_DllAPI \_\_declspec( dllexport )}}
+\DoxyCodeLine{47 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{48 \textcolor{preprocessor}{\#define onboard\_computer\_status\_DllAPI \_\_declspec( dllimport )}}
+\DoxyCodeLine{49 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// onboard\_computer\_status\_SOURCE}}
+\DoxyCodeLine{50 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{51 \textcolor{preprocessor}{\#define onboard\_computer\_status\_DllAPI}}
+\DoxyCodeLine{52 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// EPROSIMA\_USER\_DLL\_EXPORT}}
+\DoxyCodeLine{53 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{54 \textcolor{preprocessor}{\#define onboard\_computer\_status\_DllAPI}}
+\DoxyCodeLine{55 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_WIN32}}
+\DoxyCodeLine{56 }
+\DoxyCodeLine{57 \textcolor{keyword}{namespace }eprosima \{}
+\DoxyCodeLine{58 \textcolor{keyword}{namespace }fastcdr \{}
+\DoxyCodeLine{59 \textcolor{keyword}{class }Cdr;}
+\DoxyCodeLine{60 \} \textcolor{comment}{// namespace fastcdr}}
+\DoxyCodeLine{61 \} \textcolor{comment}{// namespace eprosima}}
+\DoxyCodeLine{62 }
+\DoxyCodeLine{63 }
+\DoxyCodeLine{64 \textcolor{keyword}{typedef} std::array<uint8\_t, 10> onboard\_computer\_status\_\_octet\_array\_10;}
+\DoxyCodeLine{65 \textcolor{keyword}{typedef} std::array<uint8\_t, 8> onboard\_computer\_status\_\_octet\_array\_8;}
+\DoxyCodeLine{66 \textcolor{keyword}{typedef} std::array<uint8\_t, 4> onboard\_computer\_status\_\_octet\_array\_4;}
+\DoxyCodeLine{67 \textcolor{keyword}{typedef} std::array<int16\_t, 4> onboard\_computer\_status\_\_short\_array\_4;}
+\DoxyCodeLine{68 \textcolor{keyword}{typedef} std::array<uint32\_t, 6> onboard\_computer\_status\_\_unsigned\_long\_array\_6;}
+\DoxyCodeLine{69 \textcolor{keyword}{typedef} std::array<uint32\_t, 4> onboard\_computer\_status\_\_unsigned\_long\_array\_4;}
+\DoxyCodeLine{74 \textcolor{keyword}{class }\mbox{\hyperlink{classonboard__computer__status}{onboard\_computer\_status}}}
+\DoxyCodeLine{75 \{}
+\DoxyCodeLine{76 \textcolor{keyword}{public}:}
+\DoxyCodeLine{77 }
+\DoxyCodeLine{81     eProsima\_user\_DllExport \mbox{\hyperlink{classonboard__computer__status_a86af4a242e7ab6da7e3a545761e0558f}{onboard\_computer\_status}}();}
+\DoxyCodeLine{82 }
+\DoxyCodeLine{86     eProsima\_user\_DllExport \mbox{\hyperlink{classonboard__computer__status_a3ae36bfe7ecaea056f355e78c1faf8e4}{\string~onboard\_computer\_status}}();}
+\DoxyCodeLine{87 }
+\DoxyCodeLine{92     eProsima\_user\_DllExport \mbox{\hyperlink{classonboard__computer__status_a86af4a242e7ab6da7e3a545761e0558f}{onboard\_computer\_status}}(}
+\DoxyCodeLine{93             \textcolor{keyword}{const} \mbox{\hyperlink{classonboard__computer__status}{onboard\_computer\_status}}\& x);}
+\DoxyCodeLine{94 }
+\DoxyCodeLine{99     eProsima\_user\_DllExport \mbox{\hyperlink{classonboard__computer__status_a86af4a242e7ab6da7e3a545761e0558f}{onboard\_computer\_status}}(}
+\DoxyCodeLine{100             \mbox{\hyperlink{classonboard__computer__status}{onboard\_computer\_status}}\&\& x);}
+\DoxyCodeLine{101 }
+\DoxyCodeLine{106     eProsima\_user\_DllExport \mbox{\hyperlink{classonboard__computer__status}{onboard\_computer\_status}}\& \mbox{\hyperlink{classonboard__computer__status_a186ea5b2fbea07f46dba6c15eb5b5018}{operator =}}(}
+\DoxyCodeLine{107             \textcolor{keyword}{const} \mbox{\hyperlink{classonboard__computer__status}{onboard\_computer\_status}}\& x);}
+\DoxyCodeLine{108 }
+\DoxyCodeLine{113     eProsima\_user\_DllExport \mbox{\hyperlink{classonboard__computer__status}{onboard\_computer\_status}}\& \mbox{\hyperlink{classonboard__computer__status_a186ea5b2fbea07f46dba6c15eb5b5018}{operator =}}(}
+\DoxyCodeLine{114             \mbox{\hyperlink{classonboard__computer__status}{onboard\_computer\_status}}\&\& x);}
+\DoxyCodeLine{115 }
+\DoxyCodeLine{120     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_a759303269900ca64b43f9f06ceaccc96}{timestamp\_}}(}
+\DoxyCodeLine{121             uint64\_t \_timestamp\_);}
+\DoxyCodeLine{122 }
+\DoxyCodeLine{127     eProsima\_user\_DllExport uint64\_t \mbox{\hyperlink{classonboard__computer__status_a759303269900ca64b43f9f06ceaccc96}{timestamp\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{128 }
+\DoxyCodeLine{133     eProsima\_user\_DllExport uint64\_t\& \mbox{\hyperlink{classonboard__computer__status_a759303269900ca64b43f9f06ceaccc96}{timestamp\_}}();}
+\DoxyCodeLine{134 }
+\DoxyCodeLine{139     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_af6be0a0a70fa72d84ac3eef609c97d3f}{uptime\_}}(}
+\DoxyCodeLine{140             uint32\_t \_uptime\_);}
+\DoxyCodeLine{141 }
+\DoxyCodeLine{146     eProsima\_user\_DllExport uint32\_t \mbox{\hyperlink{classonboard__computer__status_af6be0a0a70fa72d84ac3eef609c97d3f}{uptime\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{147 }
+\DoxyCodeLine{152     eProsima\_user\_DllExport uint32\_t\& \mbox{\hyperlink{classonboard__computer__status_af6be0a0a70fa72d84ac3eef609c97d3f}{uptime\_}}();}
+\DoxyCodeLine{153 }
+\DoxyCodeLine{158     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_aeb8f27ed29c29d23c6e369ec856e8307}{type\_}}(}
+\DoxyCodeLine{159             uint8\_t \_type\_);}
+\DoxyCodeLine{160 }
+\DoxyCodeLine{165     eProsima\_user\_DllExport uint8\_t \mbox{\hyperlink{classonboard__computer__status_aeb8f27ed29c29d23c6e369ec856e8307}{type\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{166 }
+\DoxyCodeLine{171     eProsima\_user\_DllExport uint8\_t\& \mbox{\hyperlink{classonboard__computer__status_aeb8f27ed29c29d23c6e369ec856e8307}{type\_}}();}
+\DoxyCodeLine{172 }
+\DoxyCodeLine{177     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_ae4e5451f2a61b6a2852124d2675b27df}{cpu\_cores}}(}
+\DoxyCodeLine{178             \textcolor{keyword}{const} onboard\_computer\_status\_\_octet\_array\_8\& \_cpu\_cores);}
+\DoxyCodeLine{179 }
+\DoxyCodeLine{184     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_ae4e5451f2a61b6a2852124d2675b27df}{cpu\_cores}}(}
+\DoxyCodeLine{185             onboard\_computer\_status\_\_octet\_array\_8\&\& \_cpu\_cores);}
+\DoxyCodeLine{186 }
+\DoxyCodeLine{191     eProsima\_user\_DllExport \textcolor{keyword}{const} onboard\_computer\_status\_\_octet\_array\_8\& \mbox{\hyperlink{classonboard__computer__status_ae4e5451f2a61b6a2852124d2675b27df}{cpu\_cores}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{192 }
+\DoxyCodeLine{197     eProsima\_user\_DllExport onboard\_computer\_status\_\_octet\_array\_8\& \mbox{\hyperlink{classonboard__computer__status_ae4e5451f2a61b6a2852124d2675b27df}{cpu\_cores}}();}
+\DoxyCodeLine{202     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_aabfa80e1e9f943257be61c380adca5a8}{cpu\_combined}}(}
+\DoxyCodeLine{203             \textcolor{keyword}{const} onboard\_computer\_status\_\_octet\_array\_10\& \_cpu\_combined);}
+\DoxyCodeLine{204 }
+\DoxyCodeLine{209     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_aabfa80e1e9f943257be61c380adca5a8}{cpu\_combined}}(}
+\DoxyCodeLine{210             onboard\_computer\_status\_\_octet\_array\_10\&\& \_cpu\_combined);}
+\DoxyCodeLine{211 }
+\DoxyCodeLine{216     eProsima\_user\_DllExport \textcolor{keyword}{const} onboard\_computer\_status\_\_octet\_array\_10\& \mbox{\hyperlink{classonboard__computer__status_aabfa80e1e9f943257be61c380adca5a8}{cpu\_combined}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{217 }
+\DoxyCodeLine{222     eProsima\_user\_DllExport onboard\_computer\_status\_\_octet\_array\_10\& \mbox{\hyperlink{classonboard__computer__status_aabfa80e1e9f943257be61c380adca5a8}{cpu\_combined}}();}
+\DoxyCodeLine{227     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_afcfee77e12bc0bddf8a27774c5ebb1e5}{gpu\_cores}}(}
+\DoxyCodeLine{228             \textcolor{keyword}{const} onboard\_computer\_status\_\_octet\_array\_4\& \_gpu\_cores);}
+\DoxyCodeLine{229 }
+\DoxyCodeLine{234     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_afcfee77e12bc0bddf8a27774c5ebb1e5}{gpu\_cores}}(}
+\DoxyCodeLine{235             onboard\_computer\_status\_\_octet\_array\_4\&\& \_gpu\_cores);}
+\DoxyCodeLine{236 }
+\DoxyCodeLine{241     eProsima\_user\_DllExport \textcolor{keyword}{const} onboard\_computer\_status\_\_octet\_array\_4\& \mbox{\hyperlink{classonboard__computer__status_afcfee77e12bc0bddf8a27774c5ebb1e5}{gpu\_cores}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{242 }
+\DoxyCodeLine{247     eProsima\_user\_DllExport onboard\_computer\_status\_\_octet\_array\_4\& \mbox{\hyperlink{classonboard__computer__status_afcfee77e12bc0bddf8a27774c5ebb1e5}{gpu\_cores}}();}
+\DoxyCodeLine{252     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_abfbce78819b0e371b03e26a96a2f3b28}{gpu\_combined}}(}
+\DoxyCodeLine{253             \textcolor{keyword}{const} onboard\_computer\_status\_\_octet\_array\_10\& \_gpu\_combined);}
+\DoxyCodeLine{254 }
+\DoxyCodeLine{259     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_abfbce78819b0e371b03e26a96a2f3b28}{gpu\_combined}}(}
+\DoxyCodeLine{260             onboard\_computer\_status\_\_octet\_array\_10\&\& \_gpu\_combined);}
+\DoxyCodeLine{261 }
+\DoxyCodeLine{266     eProsima\_user\_DllExport \textcolor{keyword}{const} onboard\_computer\_status\_\_octet\_array\_10\& \mbox{\hyperlink{classonboard__computer__status_abfbce78819b0e371b03e26a96a2f3b28}{gpu\_combined}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{267 }
+\DoxyCodeLine{272     eProsima\_user\_DllExport onboard\_computer\_status\_\_octet\_array\_10\& \mbox{\hyperlink{classonboard__computer__status_abfbce78819b0e371b03e26a96a2f3b28}{gpu\_combined}}();}
+\DoxyCodeLine{277     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_a56a5adafc728bbdaa5bbed633c8b7caa}{temperature\_board\_}}(}
+\DoxyCodeLine{278             uint8\_t \_temperature\_board\_);}
+\DoxyCodeLine{279 }
+\DoxyCodeLine{284     eProsima\_user\_DllExport uint8\_t \mbox{\hyperlink{classonboard__computer__status_a56a5adafc728bbdaa5bbed633c8b7caa}{temperature\_board\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{285 }
+\DoxyCodeLine{290     eProsima\_user\_DllExport uint8\_t\& \mbox{\hyperlink{classonboard__computer__status_a56a5adafc728bbdaa5bbed633c8b7caa}{temperature\_board\_}}();}
+\DoxyCodeLine{291 }
+\DoxyCodeLine{296     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_a92fa2e4fa6763593f2eaa0fa751f2c24}{temperature\_core}}(}
+\DoxyCodeLine{297             \textcolor{keyword}{const} onboard\_computer\_status\_\_octet\_array\_8\& \_temperature\_core);}
+\DoxyCodeLine{298 }
+\DoxyCodeLine{303     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_a92fa2e4fa6763593f2eaa0fa751f2c24}{temperature\_core}}(}
+\DoxyCodeLine{304             onboard\_computer\_status\_\_octet\_array\_8\&\& \_temperature\_core);}
+\DoxyCodeLine{305 }
+\DoxyCodeLine{310     eProsima\_user\_DllExport \textcolor{keyword}{const} onboard\_computer\_status\_\_octet\_array\_8\& \mbox{\hyperlink{classonboard__computer__status_a92fa2e4fa6763593f2eaa0fa751f2c24}{temperature\_core}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{311 }
+\DoxyCodeLine{316     eProsima\_user\_DllExport onboard\_computer\_status\_\_octet\_array\_8\& \mbox{\hyperlink{classonboard__computer__status_a92fa2e4fa6763593f2eaa0fa751f2c24}{temperature\_core}}();}
+\DoxyCodeLine{321     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_aa869237c1212ebb0db87f595884d406e}{fan\_speed}}(}
+\DoxyCodeLine{322             \textcolor{keyword}{const} onboard\_computer\_status\_\_short\_array\_4\& \_fan\_speed);}
+\DoxyCodeLine{323 }
+\DoxyCodeLine{328     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_aa869237c1212ebb0db87f595884d406e}{fan\_speed}}(}
+\DoxyCodeLine{329             onboard\_computer\_status\_\_short\_array\_4\&\& \_fan\_speed);}
+\DoxyCodeLine{330 }
+\DoxyCodeLine{335     eProsima\_user\_DllExport \textcolor{keyword}{const} onboard\_computer\_status\_\_short\_array\_4\& \mbox{\hyperlink{classonboard__computer__status_aa869237c1212ebb0db87f595884d406e}{fan\_speed}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{336 }
+\DoxyCodeLine{341     eProsima\_user\_DllExport onboard\_computer\_status\_\_short\_array\_4\& \mbox{\hyperlink{classonboard__computer__status_aa869237c1212ebb0db87f595884d406e}{fan\_speed}}();}
+\DoxyCodeLine{346     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_a3c1230ba1114ab2b7b95485698e1788a}{ram\_usage\_}}(}
+\DoxyCodeLine{347             uint32\_t \_ram\_usage\_);}
+\DoxyCodeLine{348 }
+\DoxyCodeLine{353     eProsima\_user\_DllExport uint32\_t \mbox{\hyperlink{classonboard__computer__status_a3c1230ba1114ab2b7b95485698e1788a}{ram\_usage\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{354 }
+\DoxyCodeLine{359     eProsima\_user\_DllExport uint32\_t\& \mbox{\hyperlink{classonboard__computer__status_a3c1230ba1114ab2b7b95485698e1788a}{ram\_usage\_}}();}
+\DoxyCodeLine{360 }
+\DoxyCodeLine{365     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_ac13f1fe543432d8c3d25b0d9f7eb241b}{ram\_total\_}}(}
+\DoxyCodeLine{366             uint32\_t \_ram\_total\_);}
+\DoxyCodeLine{367 }
+\DoxyCodeLine{372     eProsima\_user\_DllExport uint32\_t \mbox{\hyperlink{classonboard__computer__status_ac13f1fe543432d8c3d25b0d9f7eb241b}{ram\_total\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{373 }
+\DoxyCodeLine{378     eProsima\_user\_DllExport uint32\_t\& \mbox{\hyperlink{classonboard__computer__status_ac13f1fe543432d8c3d25b0d9f7eb241b}{ram\_total\_}}();}
+\DoxyCodeLine{379 }
+\DoxyCodeLine{384     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_a3f1318cc85ad062444be83e973e3b9cd}{storage\_type}}(}
+\DoxyCodeLine{385             \textcolor{keyword}{const} onboard\_computer\_status\_\_unsigned\_long\_array\_4\& \_storage\_type);}
+\DoxyCodeLine{386 }
+\DoxyCodeLine{391     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_a3f1318cc85ad062444be83e973e3b9cd}{storage\_type}}(}
+\DoxyCodeLine{392             onboard\_computer\_status\_\_unsigned\_long\_array\_4\&\& \_storage\_type);}
+\DoxyCodeLine{393 }
+\DoxyCodeLine{398     eProsima\_user\_DllExport \textcolor{keyword}{const} onboard\_computer\_status\_\_unsigned\_long\_array\_4\& \mbox{\hyperlink{classonboard__computer__status_a3f1318cc85ad062444be83e973e3b9cd}{storage\_type}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{399 }
+\DoxyCodeLine{404     eProsima\_user\_DllExport onboard\_computer\_status\_\_unsigned\_long\_array\_4\& \mbox{\hyperlink{classonboard__computer__status_a3f1318cc85ad062444be83e973e3b9cd}{storage\_type}}();}
+\DoxyCodeLine{409     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_a9f44e1f4f71821500bdf131f5ffc2041}{storage\_usage}}(}
+\DoxyCodeLine{410             \textcolor{keyword}{const} onboard\_computer\_status\_\_unsigned\_long\_array\_4\& \_storage\_usage);}
+\DoxyCodeLine{411 }
+\DoxyCodeLine{416     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_a9f44e1f4f71821500bdf131f5ffc2041}{storage\_usage}}(}
+\DoxyCodeLine{417             onboard\_computer\_status\_\_unsigned\_long\_array\_4\&\& \_storage\_usage);}
+\DoxyCodeLine{418 }
+\DoxyCodeLine{423     eProsima\_user\_DllExport \textcolor{keyword}{const} onboard\_computer\_status\_\_unsigned\_long\_array\_4\& \mbox{\hyperlink{classonboard__computer__status_a9f44e1f4f71821500bdf131f5ffc2041}{storage\_usage}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{424 }
+\DoxyCodeLine{429     eProsima\_user\_DllExport onboard\_computer\_status\_\_unsigned\_long\_array\_4\& \mbox{\hyperlink{classonboard__computer__status_a9f44e1f4f71821500bdf131f5ffc2041}{storage\_usage}}();}
+\DoxyCodeLine{434     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_a33a9204613d4ead295162de134ed95f9}{storage\_total}}(}
+\DoxyCodeLine{435             \textcolor{keyword}{const} onboard\_computer\_status\_\_unsigned\_long\_array\_4\& \_storage\_total);}
+\DoxyCodeLine{436 }
+\DoxyCodeLine{441     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_a33a9204613d4ead295162de134ed95f9}{storage\_total}}(}
+\DoxyCodeLine{442             onboard\_computer\_status\_\_unsigned\_long\_array\_4\&\& \_storage\_total);}
+\DoxyCodeLine{443 }
+\DoxyCodeLine{448     eProsima\_user\_DllExport \textcolor{keyword}{const} onboard\_computer\_status\_\_unsigned\_long\_array\_4\& \mbox{\hyperlink{classonboard__computer__status_a33a9204613d4ead295162de134ed95f9}{storage\_total}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{449 }
+\DoxyCodeLine{454     eProsima\_user\_DllExport onboard\_computer\_status\_\_unsigned\_long\_array\_4\& \mbox{\hyperlink{classonboard__computer__status_a33a9204613d4ead295162de134ed95f9}{storage\_total}}();}
+\DoxyCodeLine{459     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_a5b708aa8d869c7de095fec1f9aee9b13}{link\_type}}(}
+\DoxyCodeLine{460             \textcolor{keyword}{const} onboard\_computer\_status\_\_unsigned\_long\_array\_6\& \_link\_type);}
+\DoxyCodeLine{461 }
+\DoxyCodeLine{466     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_a5b708aa8d869c7de095fec1f9aee9b13}{link\_type}}(}
+\DoxyCodeLine{467             onboard\_computer\_status\_\_unsigned\_long\_array\_6\&\& \_link\_type);}
+\DoxyCodeLine{468 }
+\DoxyCodeLine{473     eProsima\_user\_DllExport \textcolor{keyword}{const} onboard\_computer\_status\_\_unsigned\_long\_array\_6\& \mbox{\hyperlink{classonboard__computer__status_a5b708aa8d869c7de095fec1f9aee9b13}{link\_type}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{474 }
+\DoxyCodeLine{479     eProsima\_user\_DllExport onboard\_computer\_status\_\_unsigned\_long\_array\_6\& \mbox{\hyperlink{classonboard__computer__status_a5b708aa8d869c7de095fec1f9aee9b13}{link\_type}}();}
+\DoxyCodeLine{484     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_ab7fc8c39b5cef781554265b3ee780963}{link\_tx\_rate}}(}
+\DoxyCodeLine{485             \textcolor{keyword}{const} onboard\_computer\_status\_\_unsigned\_long\_array\_6\& \_link\_tx\_rate);}
+\DoxyCodeLine{486 }
+\DoxyCodeLine{491     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_ab7fc8c39b5cef781554265b3ee780963}{link\_tx\_rate}}(}
+\DoxyCodeLine{492             onboard\_computer\_status\_\_unsigned\_long\_array\_6\&\& \_link\_tx\_rate);}
+\DoxyCodeLine{493 }
+\DoxyCodeLine{498     eProsima\_user\_DllExport \textcolor{keyword}{const} onboard\_computer\_status\_\_unsigned\_long\_array\_6\& \mbox{\hyperlink{classonboard__computer__status_ab7fc8c39b5cef781554265b3ee780963}{link\_tx\_rate}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{499 }
+\DoxyCodeLine{504     eProsima\_user\_DllExport onboard\_computer\_status\_\_unsigned\_long\_array\_6\& \mbox{\hyperlink{classonboard__computer__status_ab7fc8c39b5cef781554265b3ee780963}{link\_tx\_rate}}();}
+\DoxyCodeLine{509     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_aeeba2d4157c2d9f519877c856d426ef2}{link\_rx\_rate}}(}
+\DoxyCodeLine{510             \textcolor{keyword}{const} onboard\_computer\_status\_\_unsigned\_long\_array\_6\& \_link\_rx\_rate);}
+\DoxyCodeLine{511 }
+\DoxyCodeLine{516     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_aeeba2d4157c2d9f519877c856d426ef2}{link\_rx\_rate}}(}
+\DoxyCodeLine{517             onboard\_computer\_status\_\_unsigned\_long\_array\_6\&\& \_link\_rx\_rate);}
+\DoxyCodeLine{518 }
+\DoxyCodeLine{523     eProsima\_user\_DllExport \textcolor{keyword}{const} onboard\_computer\_status\_\_unsigned\_long\_array\_6\& \mbox{\hyperlink{classonboard__computer__status_aeeba2d4157c2d9f519877c856d426ef2}{link\_rx\_rate}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{524 }
+\DoxyCodeLine{529     eProsima\_user\_DllExport onboard\_computer\_status\_\_unsigned\_long\_array\_6\& \mbox{\hyperlink{classonboard__computer__status_aeeba2d4157c2d9f519877c856d426ef2}{link\_rx\_rate}}();}
+\DoxyCodeLine{534     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_a368dc9eee635b7f48990ae7d2099ec78}{link\_tx\_max}}(}
+\DoxyCodeLine{535             \textcolor{keyword}{const} onboard\_computer\_status\_\_unsigned\_long\_array\_6\& \_link\_tx\_max);}
+\DoxyCodeLine{536 }
+\DoxyCodeLine{541     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_a368dc9eee635b7f48990ae7d2099ec78}{link\_tx\_max}}(}
+\DoxyCodeLine{542             onboard\_computer\_status\_\_unsigned\_long\_array\_6\&\& \_link\_tx\_max);}
+\DoxyCodeLine{543 }
+\DoxyCodeLine{548     eProsima\_user\_DllExport \textcolor{keyword}{const} onboard\_computer\_status\_\_unsigned\_long\_array\_6\& \mbox{\hyperlink{classonboard__computer__status_a368dc9eee635b7f48990ae7d2099ec78}{link\_tx\_max}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{549 }
+\DoxyCodeLine{554     eProsima\_user\_DllExport onboard\_computer\_status\_\_unsigned\_long\_array\_6\& \mbox{\hyperlink{classonboard__computer__status_a368dc9eee635b7f48990ae7d2099ec78}{link\_tx\_max}}();}
+\DoxyCodeLine{559     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_afb3836e2c5815bac6895437dfc1e01ad}{link\_rx\_max}}(}
+\DoxyCodeLine{560             \textcolor{keyword}{const} onboard\_computer\_status\_\_unsigned\_long\_array\_6\& \_link\_rx\_max);}
+\DoxyCodeLine{561 }
+\DoxyCodeLine{566     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_afb3836e2c5815bac6895437dfc1e01ad}{link\_rx\_max}}(}
+\DoxyCodeLine{567             onboard\_computer\_status\_\_unsigned\_long\_array\_6\&\& \_link\_rx\_max);}
+\DoxyCodeLine{568 }
+\DoxyCodeLine{573     eProsima\_user\_DllExport \textcolor{keyword}{const} onboard\_computer\_status\_\_unsigned\_long\_array\_6\& \mbox{\hyperlink{classonboard__computer__status_afb3836e2c5815bac6895437dfc1e01ad}{link\_rx\_max}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{574 }
+\DoxyCodeLine{579     eProsima\_user\_DllExport onboard\_computer\_status\_\_unsigned\_long\_array\_6\& \mbox{\hyperlink{classonboard__computer__status_afb3836e2c5815bac6895437dfc1e01ad}{link\_rx\_max}}();}
+\DoxyCodeLine{580 }
+\DoxyCodeLine{587     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classonboard__computer__status_a712741f4de4c255b1aa061e631abd9d8}{getMaxCdrSerializedSize}}(}
+\DoxyCodeLine{588             \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{589 }
+\DoxyCodeLine{596     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classonboard__computer__status_aaff84c94c95f10e63fa18738cfd55713}{getCdrSerializedSize}}(}
+\DoxyCodeLine{597             \textcolor{keyword}{const} \mbox{\hyperlink{classonboard__computer__status}{onboard\_computer\_status}}\& data,}
+\DoxyCodeLine{598             \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{599 }
+\DoxyCodeLine{600 }
+\DoxyCodeLine{605     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_a33b527602b416c373ead94f9aa0adb65}{serialize}}(}
+\DoxyCodeLine{606             eprosima::fastcdr::Cdr\& cdr) \textcolor{keyword}{const};}
+\DoxyCodeLine{607 }
+\DoxyCodeLine{612     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_a9168ce67fc95a5c4e72f2f77df67f8ef}{deserialize}}(}
+\DoxyCodeLine{613             eprosima::fastcdr::Cdr\& cdr);}
+\DoxyCodeLine{614 }
+\DoxyCodeLine{615 }
+\DoxyCodeLine{616 }
+\DoxyCodeLine{623     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classonboard__computer__status_a1bbb2e1dc5225805754da8b62de6421e}{getKeyMaxCdrSerializedSize}}(}
+\DoxyCodeLine{624             \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{625 }
+\DoxyCodeLine{629     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{bool} \mbox{\hyperlink{classonboard__computer__status_a7a35b5297015992d03e300c2ad5ef3f4}{isKeyDefined}}();}
+\DoxyCodeLine{630 }
+\DoxyCodeLine{635     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classonboard__computer__status_aec053fc35f66691a8436020e3aa13628}{serializeKey}}(}
+\DoxyCodeLine{636             eprosima::fastcdr::Cdr\& cdr) \textcolor{keyword}{const};}
+\DoxyCodeLine{637 }
+\DoxyCodeLine{638 \textcolor{keyword}{private}:}
+\DoxyCodeLine{639 }
+\DoxyCodeLine{640     uint64\_t m\_timestamp\_;}
+\DoxyCodeLine{641     uint32\_t m\_uptime\_;}
+\DoxyCodeLine{642     uint8\_t m\_type\_;}
+\DoxyCodeLine{643     onboard\_computer\_status\_\_octet\_array\_8 m\_cpu\_cores;}
+\DoxyCodeLine{644     onboard\_computer\_status\_\_octet\_array\_10 m\_cpu\_combined;}
+\DoxyCodeLine{645     onboard\_computer\_status\_\_octet\_array\_4 m\_gpu\_cores;}
+\DoxyCodeLine{646     onboard\_computer\_status\_\_octet\_array\_10 m\_gpu\_combined;}
+\DoxyCodeLine{647     uint8\_t m\_temperature\_board\_;}
+\DoxyCodeLine{648     onboard\_computer\_status\_\_octet\_array\_8 m\_temperature\_core;}
+\DoxyCodeLine{649     onboard\_computer\_status\_\_short\_array\_4 m\_fan\_speed;}
+\DoxyCodeLine{650     uint32\_t m\_ram\_usage\_;}
+\DoxyCodeLine{651     uint32\_t m\_ram\_total\_;}
+\DoxyCodeLine{652     onboard\_computer\_status\_\_unsigned\_long\_array\_4 m\_storage\_type;}
+\DoxyCodeLine{653     onboard\_computer\_status\_\_unsigned\_long\_array\_4 m\_storage\_usage;}
+\DoxyCodeLine{654     onboard\_computer\_status\_\_unsigned\_long\_array\_4 m\_storage\_total;}
+\DoxyCodeLine{655     onboard\_computer\_status\_\_unsigned\_long\_array\_6 m\_link\_type;}
+\DoxyCodeLine{656     onboard\_computer\_status\_\_unsigned\_long\_array\_6 m\_link\_tx\_rate;}
+\DoxyCodeLine{657     onboard\_computer\_status\_\_unsigned\_long\_array\_6 m\_link\_rx\_rate;}
+\DoxyCodeLine{658     onboard\_computer\_status\_\_unsigned\_long\_array\_6 m\_link\_tx\_max;}
+\DoxyCodeLine{659     onboard\_computer\_status\_\_unsigned\_long\_array\_6 m\_link\_rx\_max;}
+\DoxyCodeLine{660 \};}
+\DoxyCodeLine{661 }
+\DoxyCodeLine{662 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_ONBOARD\_COMPUTER\_STATUS\_H\_}}
+
+\end{DoxyCode}

@@ -1,0 +1,433 @@
+\hypertarget{vehicle__command_8h}{}\doxysection{/\+Users/sarathmenon/\+Desktop/eth\+\_\+soft/code/\+Communication/libraries/communication\+\_\+lib/fastdds\+\_\+lib/fastddsgen\+\_\+generated\+\_\+files/px4\+\_\+msg\+\_\+definitions/vehicle\+\_\+command.h File Reference}
+\label{vehicle__command_8h}\index{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/px4\_msg\_definitions/vehicle\_command.h@{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/px4\_msg\_definitions/vehicle\_command.h}}
+{\ttfamily \#include $<$stdint.\+h$>$}\newline
+{\ttfamily \#include $<$array$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$map$>$}\newline
+{\ttfamily \#include $<$bitset$>$}\newline
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classvehicle__command}{vehicle\+\_\+command}}
+\begin{DoxyCompactList}\small\item\em This class represents the structure \mbox{\hyperlink{classvehicle__command}{vehicle\+\_\+command}} defined by the user in the IDL file. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a510aee781f665db2a3994b8797aa7a60}\label{vehicle__command_8h_a510aee781f665db2a3994b8797aa7a60}} 
+const uint32\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+PX4\+\_\+\+INTERNAL\+\_\+\+START} = 65537
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_ad464e61c669c489c8cd26083bcc0cb39}\label{vehicle__command_8h_ad464e61c669c489c8cd26083bcc0cb39}} 
+const uint32\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+SET\+\_\+\+GPS\+\_\+\+GLOBAL\+\_\+\+ORIGIN} = 100000
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a7579fe33c4474d1c63a792bb94b87233}\label{vehicle__command_8h_a7579fe33c4474d1c63a792bb94b87233}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+CUSTOM\+\_\+0} = 0
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_acc2eb0837e4e772ee705b59f07578dcd}\label{vehicle__command_8h_acc2eb0837e4e772ee705b59f07578dcd}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+CUSTOM\+\_\+1} = 1
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_ae33f854b79959f53e29577c8cfa15553}\label{vehicle__command_8h_ae33f854b79959f53e29577c8cfa15553}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+CUSTOM\+\_\+2} = 2
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_ac49963878bd3e65b307dea60dcfad55e}\label{vehicle__command_8h_ac49963878bd3e65b307dea60dcfad55e}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+NAV\+\_\+\+WAYPOINT} = 16
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a3855ddd5609f9b714c21768b6c045120}\label{vehicle__command_8h_a3855ddd5609f9b714c21768b6c045120}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+NAV\+\_\+\+LOITER\+\_\+\+UNLIM} = 17
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a3eff850f317fe36fec2a6cb6d05b0abd}\label{vehicle__command_8h_a3eff850f317fe36fec2a6cb6d05b0abd}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+NAV\+\_\+\+LOITER\+\_\+\+TURNS} = 18
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_ace1e2eaa4d11ebc966d53c83d32ffedc}\label{vehicle__command_8h_ace1e2eaa4d11ebc966d53c83d32ffedc}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+NAV\+\_\+\+LOITER\+\_\+\+TIME} = 19
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a68a799dafb15453f73122dbb581604dc}\label{vehicle__command_8h_a68a799dafb15453f73122dbb581604dc}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+NAV\+\_\+\+RETURN\+\_\+\+TO\+\_\+\+LAUNCH} = 20
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a5b3a9b226d23ced3ecfde8148a009462}\label{vehicle__command_8h_a5b3a9b226d23ced3ecfde8148a009462}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+NAV\+\_\+\+LAND} = 21
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_abe683097bdd3dea557abcc641454cc48}\label{vehicle__command_8h_abe683097bdd3dea557abcc641454cc48}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+NAV\+\_\+\+TAKEOFF} = 22
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_aca9cba4e30f6fe64d9fade519d95aca9}\label{vehicle__command_8h_aca9cba4e30f6fe64d9fade519d95aca9}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+NAV\+\_\+\+PRECLAND} = 23
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_af391573f7c9fb8059effd082ec670e05}\label{vehicle__command_8h_af391573f7c9fb8059effd082ec670e05}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+ORBIT} = 34
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_ab7b6bb2ebb3212cfa8990e50ba982fe4}\label{vehicle__command_8h_ab7b6bb2ebb3212cfa8990e50ba982fe4}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+NAV\+\_\+\+ROI} = 80
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_aed45952f9d9a5492030d25d70c59c4dc}\label{vehicle__command_8h_aed45952f9d9a5492030d25d70c59c4dc}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+NAV\+\_\+\+PATHPLANNING} = 81
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a1a5b23ce305d63ab4f0b5d27c672c615}\label{vehicle__command_8h_a1a5b23ce305d63ab4f0b5d27c672c615}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+NAV\+\_\+\+VTOL\+\_\+\+TAKEOFF} = 84
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a64d8215255b0cceade7091fe9f9ab8b3}\label{vehicle__command_8h_a64d8215255b0cceade7091fe9f9ab8b3}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+NAV\+\_\+\+VTOL\+\_\+\+LAND} = 85
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a04307a9ee29ecec1e43ba667b6fa8bf5}\label{vehicle__command_8h_a04307a9ee29ecec1e43ba667b6fa8bf5}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+NAV\+\_\+\+GUIDED\+\_\+\+LIMITS} = 90
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a41eb78b8ac30ffb1596fa4c14e826a60}\label{vehicle__command_8h_a41eb78b8ac30ffb1596fa4c14e826a60}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+NAV\+\_\+\+GUIDED\+\_\+\+MASTER} = 91
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a11370ccee56e7f795d804506d788f67a}\label{vehicle__command_8h_a11370ccee56e7f795d804506d788f67a}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+NAV\+\_\+\+DELAY} = 93
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_aac9743c8e5b3d034b145a3828721fffe}\label{vehicle__command_8h_aac9743c8e5b3d034b145a3828721fffe}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+NAV\+\_\+\+LAST} = 95
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a92245b1d159f35984eb668da159384ae}\label{vehicle__command_8h_a92245b1d159f35984eb668da159384ae}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+CONDITION\+\_\+\+DELAY} = 112
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_ab048370fa4d9e80b8e2eb8ed86327dd2}\label{vehicle__command_8h_ab048370fa4d9e80b8e2eb8ed86327dd2}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+CONDITION\+\_\+\+CHANGE\+\_\+\+ALT} = 113
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a0d9fe5fb6ca5bc82444b7e142d12320d}\label{vehicle__command_8h_a0d9fe5fb6ca5bc82444b7e142d12320d}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+CONDITION\+\_\+\+DISTANCE} = 114
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a4b04364be9dfe94ac2befdcb33dc6e94}\label{vehicle__command_8h_a4b04364be9dfe94ac2befdcb33dc6e94}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+CONDITION\+\_\+\+YAW} = 115
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a9ce535b9d4c6e9dfe9f9260b4c432ad3}\label{vehicle__command_8h_a9ce535b9d4c6e9dfe9f9260b4c432ad3}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+CONDITION\+\_\+\+LAST} = 159
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a0ea7528fb5602b77ad947a537ac55f05}\label{vehicle__command_8h_a0ea7528fb5602b77ad947a537ac55f05}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+CONDITION\+\_\+\+GATE} = 4501
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_ac8e228b79249f3cbbd3fae4bb3b5de45}\label{vehicle__command_8h_ac8e228b79249f3cbbd3fae4bb3b5de45}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+SET\+\_\+\+MODE} = 176
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a89e737970472368db04a6d7922b86625}\label{vehicle__command_8h_a89e737970472368db04a6d7922b86625}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+JUMP} = 177
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_ad6882bfa593fc46b67f92101ca0a6fcf}\label{vehicle__command_8h_ad6882bfa593fc46b67f92101ca0a6fcf}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+CHANGE\+\_\+\+SPEED} = 178
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_afd50510df3368c33eced87b7c683de15}\label{vehicle__command_8h_afd50510df3368c33eced87b7c683de15}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+SET\+\_\+\+HOME} = 179
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a6886b234e424efb2cc8ed5c2f7afd1b2}\label{vehicle__command_8h_a6886b234e424efb2cc8ed5c2f7afd1b2}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+SET\+\_\+\+PARAMETER} = 180
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_afbe1c55418d2db91216230854897882a}\label{vehicle__command_8h_afbe1c55418d2db91216230854897882a}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+SET\+\_\+\+RELAY} = 181
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a7f72079e7d1d4fd19736e43c72959a1d}\label{vehicle__command_8h_a7f72079e7d1d4fd19736e43c72959a1d}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+REPEAT\+\_\+\+RELAY} = 182
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_ad0805e5a73adb03e73eaf31b84e3e80d}\label{vehicle__command_8h_ad0805e5a73adb03e73eaf31b84e3e80d}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+SET\+\_\+\+SERVO} = 183
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_aa08002fae0e5869fe0ac407632adaa12}\label{vehicle__command_8h_aa08002fae0e5869fe0ac407632adaa12}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+REPEAT\+\_\+\+SERVO} = 184
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_aa7b5ad3a82abfab6bcc8171e09fd8e90}\label{vehicle__command_8h_aa7b5ad3a82abfab6bcc8171e09fd8e90}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+FLIGHTTERMINATION} = 185
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_ae23b609db6cf402b8fb73f8572ba52e1}\label{vehicle__command_8h_ae23b609db6cf402b8fb73f8572ba52e1}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+LAND\+\_\+\+START} = 189
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_aced3261c325bb66e362e946c8055a693}\label{vehicle__command_8h_aced3261c325bb66e362e946c8055a693}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+GO\+\_\+\+AROUND} = 191
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a6dabad6c3629cb1fac2ce678948ad54b}\label{vehicle__command_8h_a6dabad6c3629cb1fac2ce678948ad54b}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+REPOSITION} = 192
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a435d1f2a0236271c2a5261148eb88e19}\label{vehicle__command_8h_a435d1f2a0236271c2a5261148eb88e19}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+PAUSE\+\_\+\+CONTINUE} = 193
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a798a89e6e7dcf6eff0f3bfcd309582c3}\label{vehicle__command_8h_a798a89e6e7dcf6eff0f3bfcd309582c3}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+SET\+\_\+\+ROI\+\_\+\+LOCATION} = 195
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_acffb644c4e024fc8693ad348e5a5ff08}\label{vehicle__command_8h_acffb644c4e024fc8693ad348e5a5ff08}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+SET\+\_\+\+ROI\+\_\+\+WPNEXT\+\_\+\+OFFSET} = 196
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_afc6668cc619250d697acc88a77d25f51}\label{vehicle__command_8h_afc6668cc619250d697acc88a77d25f51}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+SET\+\_\+\+ROI\+\_\+\+NONE} = 197
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a076ca95a95459d110c2942f3f2309e65}\label{vehicle__command_8h_a076ca95a95459d110c2942f3f2309e65}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+CONTROL\+\_\+\+VIDEO} = 200
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_af7a6f2a64a5f02a5bbbd992e25784c00}\label{vehicle__command_8h_af7a6f2a64a5f02a5bbbd992e25784c00}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+SET\+\_\+\+ROI} = 201
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_afd860293109574c4057a145f67c79f82}\label{vehicle__command_8h_afd860293109574c4057a145f67c79f82}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+DIGICAM\+\_\+\+CONTROL} = 203
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a514762c50532322df07e684a027cc9e1}\label{vehicle__command_8h_a514762c50532322df07e684a027cc9e1}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+MOUNT\+\_\+\+CONFIGURE} = 204
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a419504f7c6f1d7b4041d48d2c52c025f}\label{vehicle__command_8h_a419504f7c6f1d7b4041d48d2c52c025f}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+MOUNT\+\_\+\+CONTROL} = 205
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a519063de282d2eba1820576670d155e4}\label{vehicle__command_8h_a519063de282d2eba1820576670d155e4}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+SET\+\_\+\+CAM\+\_\+\+TRIGG\+\_\+\+DIST} = 206
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a627ed9a84e2fb5c6c3b2275d2552ac71}\label{vehicle__command_8h_a627ed9a84e2fb5c6c3b2275d2552ac71}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+FENCE\+\_\+\+ENABLE} = 207
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a467de767aed0ad97943bb2bfaac87f59}\label{vehicle__command_8h_a467de767aed0ad97943bb2bfaac87f59}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+PARACHUTE} = 208
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_ac755c7669b8375d7b47e57980a8d0497}\label{vehicle__command_8h_ac755c7669b8375d7b47e57980a8d0497}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+MOTOR\+\_\+\+TEST} = 209
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_aee43f6e373dd72a6ad8652e23d7fce1d}\label{vehicle__command_8h_aee43f6e373dd72a6ad8652e23d7fce1d}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+INVERTED\+\_\+\+FLIGHT} = 210
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_ab556d2a5c9926286b42f0d4c6e377692}\label{vehicle__command_8h_ab556d2a5c9926286b42f0d4c6e377692}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+SET\+\_\+\+CAM\+\_\+\+TRIGG\+\_\+\+INTERVAL} = 214
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_af840cc63ceef0ef849d0c75ff2bc1043}\label{vehicle__command_8h_af840cc63ceef0ef849d0c75ff2bc1043}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+MOUNT\+\_\+\+CONTROL\+\_\+\+QUAT} = 220
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a12cf532047e5293838cdd59470016042}\label{vehicle__command_8h_a12cf532047e5293838cdd59470016042}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+GUIDED\+\_\+\+MASTER} = 221
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a98a7f467a0dd2f597dad0176edb98211}\label{vehicle__command_8h_a98a7f467a0dd2f597dad0176edb98211}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+GUIDED\+\_\+\+LIMITS} = 222
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a999b6de2967487c6b8d75a9d44e7d6d8}\label{vehicle__command_8h_a999b6de2967487c6b8d75a9d44e7d6d8}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+LAST} = 240
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a5c9c6dc80d9f02c5e2b3ad3afa2d5d89}\label{vehicle__command_8h_a5c9c6dc80d9f02c5e2b3ad3afa2d5d89}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+PREFLIGHT\+\_\+\+CALIBRATION} = 241
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a6584bba9a08c95855b47da9c98ad801b}\label{vehicle__command_8h_a6584bba9a08c95855b47da9c98ad801b}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+PREFLIGHT\+\_\+\+CALIBRATION\+\_\+\+TEMPERATURE\+\_\+\+CALIBRATION} = 3
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_abf25c8e92ab98934368711bcf309b369}\label{vehicle__command_8h_abf25c8e92ab98934368711bcf309b369}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+PREFLIGHT\+\_\+\+SET\+\_\+\+SENSOR\+\_\+\+OFFSETS} = 242
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a465b17ddbf77acb3345561438b8f75b5}\label{vehicle__command_8h_a465b17ddbf77acb3345561438b8f75b5}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+PREFLIGHT\+\_\+\+UAVCAN} = 243
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_aabec3de651995f652dd553bacb22d031}\label{vehicle__command_8h_aabec3de651995f652dd553bacb22d031}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+PREFLIGHT\+\_\+\+STORAGE} = 245
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a8662f59e104e2822cde12a8f3f114185}\label{vehicle__command_8h_a8662f59e104e2822cde12a8f3f114185}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+PREFLIGHT\+\_\+\+REBOOT\+\_\+\+SHUTDOWN} = 246
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_adf7494c6283efe39778c0d7433ffbccd}\label{vehicle__command_8h_adf7494c6283efe39778c0d7433ffbccd}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+OBLIQUE\+\_\+\+SURVEY} = 260
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_aef2e2b23519e79aed35f82182fe992f7}\label{vehicle__command_8h_aef2e2b23519e79aed35f82182fe992f7}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+GIMBAL\+\_\+\+DEVICE\+\_\+\+INFORMATION} = 283
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_acb60f409b10e32b218152a123e853091}\label{vehicle__command_8h_acb60f409b10e32b218152a123e853091}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+MISSION\+\_\+\+START} = 300
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a3a213241bec213eeb7eb75dedd5d5240}\label{vehicle__command_8h_a3a213241bec213eeb7eb75dedd5d5240}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+COMPONENT\+\_\+\+ARM\+\_\+\+DISARM} = 400
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a0dd47d81f44847863b4c090a9efdebbe}\label{vehicle__command_8h_a0dd47d81f44847863b4c090a9efdebbe}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+INJECT\+\_\+\+FAILURE} = 420
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a254f61d185153cc5fe67cfa286805ef6}\label{vehicle__command_8h_a254f61d185153cc5fe67cfa286805ef6}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+START\+\_\+\+RX\+\_\+\+PAIR} = 500
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_abea1405a25d3c7347a8bab3d2b2b0762}\label{vehicle__command_8h_abea1405a25d3c7347a8bab3d2b2b0762}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+REQUEST\+\_\+\+MESSAGE} = 512
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_af895846536c79d2c5f7877b20386e899}\label{vehicle__command_8h_af895846536c79d2c5f7877b20386e899}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+SET\+\_\+\+CAMERA\+\_\+\+MODE} = 530
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a193b72c99f42ad9f5bf06d59948fad0e}\label{vehicle__command_8h_a193b72c99f42ad9f5bf06d59948fad0e}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+SET\+\_\+\+CAMERA\+\_\+\+ZOOM} = 531
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a0ac6fb28c4152aae0d8eb797d1ae614a}\label{vehicle__command_8h_a0ac6fb28c4152aae0d8eb797d1ae614a}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+SET\+\_\+\+CAMERA\+\_\+\+FOCUS} = 532
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_ace5395feb3ac9910b647c11b920709ac}\label{vehicle__command_8h_ace5395feb3ac9910b647c11b920709ac}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+GIMBAL\+\_\+\+MANAGER\+\_\+\+PITCHYAW} = 1000
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a529192368699d8ce7e83de11905dca9f}\label{vehicle__command_8h_a529192368699d8ce7e83de11905dca9f}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+GIMBAL\+\_\+\+MANAGER\+\_\+\+CONFIGURE} = 1001
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a44d9f6098491910557c74e8c69b033e2}\label{vehicle__command_8h_a44d9f6098491910557c74e8c69b033e2}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+TRIGGER\+\_\+\+CONTROL} = 2003
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_aec5cc11a90730a8d8593d46e0fbdc5fa}\label{vehicle__command_8h_aec5cc11a90730a8d8593d46e0fbdc5fa}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+LOGGING\+\_\+\+START} = 2510
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a13fa1c42cd3a4a1fffe53462f4469389}\label{vehicle__command_8h_a13fa1c42cd3a4a1fffe53462f4469389}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+LOGGING\+\_\+\+STOP} = 2511
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_ab4ccd15311c54df01f7c36c59f7820d1}\label{vehicle__command_8h_ab4ccd15311c54df01f7c36c59f7820d1}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+CONTROL\+\_\+\+HIGH\+\_\+\+LATENCY} = 2600
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a8c66ea26c4e4f57c097aeddf0248534b}\label{vehicle__command_8h_a8c66ea26c4e4f57c097aeddf0248534b}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+DO\+\_\+\+VTOL\+\_\+\+TRANSITION} = 3000
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a47e0bfa7e01a7f82205b65aa3fa6a028}\label{vehicle__command_8h_a47e0bfa7e01a7f82205b65aa3fa6a028}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+ARM\+\_\+\+AUTHORIZATION\+\_\+\+REQUEST} = 3001
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_acad99ff938ae573a4836233d6d1be2f6}\label{vehicle__command_8h_acad99ff938ae573a4836233d6d1be2f6}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+PAYLOAD\+\_\+\+PREPARE\+\_\+\+DEPLOY} = 30001
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a9c2ee19e7d7835e8945827733b31eb44}\label{vehicle__command_8h_a9c2ee19e7d7835e8945827733b31eb44}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+PAYLOAD\+\_\+\+CONTROL\+\_\+\+DEPLOY} = 30002
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a3496c166a4a1935aa9ead1538a0acb56}\label{vehicle__command_8h_a3496c166a4a1935aa9ead1538a0acb56}} 
+const uint16\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+FIXED\+\_\+\+MAG\+\_\+\+CAL\+\_\+\+YAW} = 42006
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_ada9059a2e029dfd6dc794faab3b069d7}\label{vehicle__command_8h_ada9059a2e029dfd6dc794faab3b069d7}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+RESULT\+\_\+\+ACCEPTED} = 0
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a0f73c2281df1f96fd2978046c11cb5e8}\label{vehicle__command_8h_a0f73c2281df1f96fd2978046c11cb5e8}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+RESULT\+\_\+\+TEMPORARILY\+\_\+\+REJECTED} = 1
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a8875e940ec22f584522223cf1efef2d6}\label{vehicle__command_8h_a8875e940ec22f584522223cf1efef2d6}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+RESULT\+\_\+\+DENIED} = 2
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a1c61ee4dfdb21617143248217f5e04fd}\label{vehicle__command_8h_a1c61ee4dfdb21617143248217f5e04fd}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+RESULT\+\_\+\+UNSUPPORTED} = 3
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_aeb6699556173dc81e3a6743d7a0d3b39}\label{vehicle__command_8h_aeb6699556173dc81e3a6743d7a0d3b39}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+RESULT\+\_\+\+FAILED} = 4
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a95d9d3b182f7f31a05eea2f586fc41d8}\label{vehicle__command_8h_a95d9d3b182f7f31a05eea2f586fc41d8}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+RESULT\+\_\+\+IN\+\_\+\+PROGRESS} = 5
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_ad2cc0427c70de65f0403a5c5414102a1}\label{vehicle__command_8h_ad2cc0427c70de65f0403a5c5414102a1}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CMD\+\_\+\+RESULT\+\_\+\+ENUM\+\_\+\+END} = 6
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a3065be0192a7c679205fa024cff1f7c3}\label{vehicle__command_8h_a3065be0192a7c679205fa024cff1f7c3}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+MOUNT\+\_\+\+MODE\+\_\+\+RETRACT} = 0
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a90b962c365585c1b9a4c24572a5c1c7e}\label{vehicle__command_8h_a90b962c365585c1b9a4c24572a5c1c7e}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+MOUNT\+\_\+\+MODE\+\_\+\+NEUTRAL} = 1
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a381c57376566b77bcb6abd54fb54ad5e}\label{vehicle__command_8h_a381c57376566b77bcb6abd54fb54ad5e}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+MOUNT\+\_\+\+MODE\+\_\+\+MAVLINK\+\_\+\+TARGETING} = 2
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a324a6f9453c6177dc44b4c1176465cba}\label{vehicle__command_8h_a324a6f9453c6177dc44b4c1176465cba}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+MOUNT\+\_\+\+MODE\+\_\+\+RC\+\_\+\+TARGETING} = 3
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_ab34f1c91406f1910ead645f8674d7726}\label{vehicle__command_8h_ab34f1c91406f1910ead645f8674d7726}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+MOUNT\+\_\+\+MODE\+\_\+\+GPS\+\_\+\+POINT} = 4
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a2992d64821436586a9374f032b645c87}\label{vehicle__command_8h_a2992d64821436586a9374f032b645c87}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+MOUNT\+\_\+\+MODE\+\_\+\+ENUM\+\_\+\+END} = 5
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a3bfc7993c044ab80431730b5909e3429}\label{vehicle__command_8h_a3bfc7993c044ab80431730b5909e3429}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+ROI\+\_\+\+NONE} = 0
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a6daf049b2ab09ca1133844c5a6b85711}\label{vehicle__command_8h_a6daf049b2ab09ca1133844c5a6b85711}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+ROI\+\_\+\+WPNEXT} = 1
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_addbdef9a8bf5929bada555ccd2d759ff}\label{vehicle__command_8h_addbdef9a8bf5929bada555ccd2d759ff}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+ROI\+\_\+\+WPINDEX} = 2
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a050ac0c66e074b576c47ca0e46e9ee16}\label{vehicle__command_8h_a050ac0c66e074b576c47ca0e46e9ee16}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+ROI\+\_\+\+LOCATION} = 3
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_ac2ee677041d087995aac0e91cc792434}\label{vehicle__command_8h_ac2ee677041d087995aac0e91cc792434}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+ROI\+\_\+\+TARGET} = 4
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_ab7dc044bff5c95532956d45303ec5b14}\label{vehicle__command_8h_ab7dc044bff5c95532956d45303ec5b14}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+ROI\+\_\+\+ENUM\+\_\+\+END} = 5
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a3d36e3f06c7d1c50ccde44e1ca6ca9af}\label{vehicle__command_8h_a3d36e3f06c7d1c50ccde44e1ca6ca9af}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CAMERA\+\_\+\+ZOOM\+\_\+\+TYPE\+\_\+\+STEP} = 0
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a41ebcd1b3daacb3973e0d4b95c070023}\label{vehicle__command_8h_a41ebcd1b3daacb3973e0d4b95c070023}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CAMERA\+\_\+\+ZOOM\+\_\+\+TYPE\+\_\+\+CONTINUOUS} = 1
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a17655dc3f8ef95b283c3df7a03c34849}\label{vehicle__command_8h_a17655dc3f8ef95b283c3df7a03c34849}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CAMERA\+\_\+\+ZOOM\+\_\+\+TYPE\+\_\+\+RANGE} = 2
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a42ede8053ee29b3d0ea902c9da335f3b}\label{vehicle__command_8h_a42ede8053ee29b3d0ea902c9da335f3b}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+VEHICLE\+\_\+\+CAMERA\+\_\+\+ZOOM\+\_\+\+TYPE\+\_\+\+FOCAL\+\_\+\+LENGTH} = 3
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a87aa3ceceae17edd180b7da9a7e04beb}\label{vehicle__command_8h_a87aa3ceceae17edd180b7da9a7e04beb}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+PARACHUTE\+\_\+\+ACTION\+\_\+\+DISABLE} = 0
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a593ed951fa78b6cae9f4bddf6da86152}\label{vehicle__command_8h_a593ed951fa78b6cae9f4bddf6da86152}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+PARACHUTE\+\_\+\+ACTION\+\_\+\+ENABLE} = 1
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_ad034008bcaf817a6cad2a8592ca06efa}\label{vehicle__command_8h_ad034008bcaf817a6cad2a8592ca06efa}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+PARACHUTE\+\_\+\+ACTION\+\_\+\+RELEASE} = 2
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a9b8d3e3f3ade8b27c986ae82899df1b0}\label{vehicle__command_8h_a9b8d3e3f3ade8b27c986ae82899df1b0}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+FAILURE\+\_\+\+UNIT\+\_\+\+SENSOR\+\_\+\+GYRO} = 0
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_aaac6c30f58d824ce9eb3201e6d47f398}\label{vehicle__command_8h_aaac6c30f58d824ce9eb3201e6d47f398}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+FAILURE\+\_\+\+UNIT\+\_\+\+SENSOR\+\_\+\+ACCEL} = 1
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_abf0de23853551abe972d5c14ee31c195}\label{vehicle__command_8h_abf0de23853551abe972d5c14ee31c195}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+FAILURE\+\_\+\+UNIT\+\_\+\+SENSOR\+\_\+\+MAG} = 2
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a98aa6f3e84eff49ee9709c51dad81f2e}\label{vehicle__command_8h_a98aa6f3e84eff49ee9709c51dad81f2e}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+FAILURE\+\_\+\+UNIT\+\_\+\+SENSOR\+\_\+\+BARO} = 3
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_acfea458f6f9493ccfa4f15ee2209f3cf}\label{vehicle__command_8h_acfea458f6f9493ccfa4f15ee2209f3cf}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+FAILURE\+\_\+\+UNIT\+\_\+\+SENSOR\+\_\+\+GPS} = 4
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a5f1cbb69d7904ff0c392cda4fd1fd539}\label{vehicle__command_8h_a5f1cbb69d7904ff0c392cda4fd1fd539}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+FAILURE\+\_\+\+UNIT\+\_\+\+SENSOR\+\_\+\+OPTICAL\+\_\+\+FLOW} = 5
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a6400674d3f39627ceb577981d3ba486b}\label{vehicle__command_8h_a6400674d3f39627ceb577981d3ba486b}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+FAILURE\+\_\+\+UNIT\+\_\+\+SENSOR\+\_\+\+VIO} = 6
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a1cf7bc34d8adf9f611348c37b00ff8f1}\label{vehicle__command_8h_a1cf7bc34d8adf9f611348c37b00ff8f1}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+FAILURE\+\_\+\+UNIT\+\_\+\+SENSOR\+\_\+\+DISTANCE\+\_\+\+SENSOR} = 7
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a240038480ed60e18741d8dc5d2df12aa}\label{vehicle__command_8h_a240038480ed60e18741d8dc5d2df12aa}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+FAILURE\+\_\+\+UNIT\+\_\+\+SENSOR\+\_\+\+AIRSPEED} = 8
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a348db14cff250600a1dd7f4dd6af3133}\label{vehicle__command_8h_a348db14cff250600a1dd7f4dd6af3133}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+FAILURE\+\_\+\+UNIT\+\_\+\+SYSTEM\+\_\+\+BATTERY} = 100
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_ac49dfcd687d3b5f40f6e82cbc16a3cb6}\label{vehicle__command_8h_ac49dfcd687d3b5f40f6e82cbc16a3cb6}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+FAILURE\+\_\+\+UNIT\+\_\+\+SYSTEM\+\_\+\+MOTOR} = 101
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a24362b2cac9fd6585b7ad6aca6b2f9c7}\label{vehicle__command_8h_a24362b2cac9fd6585b7ad6aca6b2f9c7}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+FAILURE\+\_\+\+UNIT\+\_\+\+SYSTEM\+\_\+\+SERVO} = 102
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_aacccda0bf3e7428468b508664963defa}\label{vehicle__command_8h_aacccda0bf3e7428468b508664963defa}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+FAILURE\+\_\+\+UNIT\+\_\+\+SYSTEM\+\_\+\+AVOIDANCE} = 103
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a5bd5ae49b83e900acfedfe0e4def2b3d}\label{vehicle__command_8h_a5bd5ae49b83e900acfedfe0e4def2b3d}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+FAILURE\+\_\+\+UNIT\+\_\+\+SYSTEM\+\_\+\+RC\+\_\+\+SIGNAL} = 104
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a21f5f855950edbed32abf0a513861a7b}\label{vehicle__command_8h_a21f5f855950edbed32abf0a513861a7b}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+FAILURE\+\_\+\+UNIT\+\_\+\+SYSTEM\+\_\+\+MAVLINK\+\_\+\+SIGNAL} = 105
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a08cb899d307bd317ba862689d72ce548}\label{vehicle__command_8h_a08cb899d307bd317ba862689d72ce548}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+FAILURE\+\_\+\+TYPE\+\_\+\+OK} = 0
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_aba7de67e6a091f3b01195242a27a7a57}\label{vehicle__command_8h_aba7de67e6a091f3b01195242a27a7a57}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+FAILURE\+\_\+\+TYPE\+\_\+\+OFF} = 1
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_ac82a7c8344ba9a54fb0b3bc9a3e788bd}\label{vehicle__command_8h_ac82a7c8344ba9a54fb0b3bc9a3e788bd}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+FAILURE\+\_\+\+TYPE\+\_\+\+STUCK} = 2
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_ae899adb4108a38e4254d9449acf3520d}\label{vehicle__command_8h_ae899adb4108a38e4254d9449acf3520d}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+FAILURE\+\_\+\+TYPE\+\_\+\+GARBAGE} = 3
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a030c838cfc29a9fec42db69feab41deb}\label{vehicle__command_8h_a030c838cfc29a9fec42db69feab41deb}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+FAILURE\+\_\+\+TYPE\+\_\+\+WRONG} = 4
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a5fbbc847c451fa195126d8b6fd3a8f19}\label{vehicle__command_8h_a5fbbc847c451fa195126d8b6fd3a8f19}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+FAILURE\+\_\+\+TYPE\+\_\+\+SLOW} = 5
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a2f96b51f7ac9d8e1a4223fb9c720defd}\label{vehicle__command_8h_a2f96b51f7ac9d8e1a4223fb9c720defd}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+FAILURE\+\_\+\+TYPE\+\_\+\+DELAYED} = 6
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a17f675d0836497792c9336480e3d11a4}\label{vehicle__command_8h_a17f675d0836497792c9336480e3d11a4}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+FAILURE\+\_\+\+TYPE\+\_\+\+INTERMITTENT} = 7
+\item 
+\mbox{\Hypertarget{vehicle__command_8h_a0814360f69158b04832bf6b237f732c7}\label{vehicle__command_8h_a0814360f69158b04832bf6b237f732c7}} 
+const uint8\+\_\+t {\bfseries vehicle\+\_\+command\+\_\+\+\_\+\+ORB\+\_\+\+QUEUE\+\_\+\+LENGTH} = 8
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This header file contains the declaration of the described types in the IDL file.
+
+This file was generated by the tool gen. 

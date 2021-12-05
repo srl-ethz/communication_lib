@@ -1,0 +1,62 @@
+\hypertarget{classvehicle__control__mode_pub_sub_type}{}\doxysection{vehicle\+\_\+control\+\_\+mode\+Pub\+Sub\+Type Class Reference}
+\label{classvehicle__control__mode_pub_sub_type}\index{vehicle\_control\_modePubSubType@{vehicle\_control\_modePubSubType}}
+
+
+This class represents the Topic\+Data\+Type of the type \mbox{\hyperlink{classvehicle__control__mode}{vehicle\+\_\+control\+\_\+mode}} defined by the user in the IDL file.  
+
+
+
+
+{\ttfamily \#include $<$vehicle\+\_\+control\+\_\+mode\+Pub\+Sub\+Types.\+h$>$}
+
+Inheritance diagram for vehicle\+\_\+control\+\_\+mode\+Pub\+Sub\+Type\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classvehicle__control__mode_pub_sub_type}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classvehicle__control__mode_pub_sub_type_a7ebe891158397eb9b658ea63e97509cb}\label{classvehicle__control__mode_pub_sub_type_a7ebe891158397eb9b658ea63e97509cb}} 
+typedef \mbox{\hyperlink{classvehicle__control__mode}{vehicle\+\_\+control\+\_\+mode}} {\bfseries type}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classvehicle__control__mode_pub_sub_type_a59684779ee93bd560c766b2c4a9bf8d2}\label{classvehicle__control__mode_pub_sub_type_a59684779ee93bd560c766b2c4a9bf8d2}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export bool {\bfseries serialize} (void $\ast$data, eprosima\+::fastrtps\+::rtps\+::\+Serialized\+Payload\+\_\+t $\ast$payload) override
+\item 
+\mbox{\Hypertarget{classvehicle__control__mode_pub_sub_type_a539d4bae1ad0201912fa24d245155fe3}\label{classvehicle__control__mode_pub_sub_type_a539d4bae1ad0201912fa24d245155fe3}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export bool {\bfseries deserialize} (eprosima\+::fastrtps\+::rtps\+::\+Serialized\+Payload\+\_\+t $\ast$payload, void $\ast$data) override
+\item 
+\mbox{\Hypertarget{classvehicle__control__mode_pub_sub_type_a59a864c0a8f69196cddaf7fbf7190628}\label{classvehicle__control__mode_pub_sub_type_a59a864c0a8f69196cddaf7fbf7190628}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export std\+::function$<$ uint32\+\_\+t()$>$ {\bfseries get\+Serialized\+Size\+Provider} (void $\ast$data) override
+\item 
+\mbox{\Hypertarget{classvehicle__control__mode_pub_sub_type_aec89f528c8fdcdea6080e35ba7a7c65f}\label{classvehicle__control__mode_pub_sub_type_aec89f528c8fdcdea6080e35ba7a7c65f}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export bool {\bfseries get\+Key} (void $\ast$data, eprosima\+::fastrtps\+::rtps\+::\+Instance\+Handle\+\_\+t $\ast$ihandle, bool force\+\_\+md5=false) override
+\item 
+\mbox{\Hypertarget{classvehicle__control__mode_pub_sub_type_a1db62bbf38da1c6631ab1de6da7bf7ba}\label{classvehicle__control__mode_pub_sub_type_a1db62bbf38da1c6631ab1de6da7bf7ba}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export void $\ast$ {\bfseries create\+Data} () override
+\item 
+\mbox{\Hypertarget{classvehicle__control__mode_pub_sub_type_a56e4d2d10239b0e98cfc4275d5f26253}\label{classvehicle__control__mode_pub_sub_type_a56e4d2d10239b0e98cfc4275d5f26253}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export void {\bfseries delete\+Data} (void $\ast$data) override
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classvehicle__control__mode_pub_sub_type_af7c5a7ae05a88578b4a836c2837c5c28}\label{classvehicle__control__mode_pub_sub_type_af7c5a7ae05a88578b4a836c2837c5c28}} 
+MD5 {\bfseries m\+\_\+md5}
+\item 
+\mbox{\Hypertarget{classvehicle__control__mode_pub_sub_type_ad5f78badce6c82e9f0e39df30b72b7a4}\label{classvehicle__control__mode_pub_sub_type_ad5f78badce6c82e9f0e39df30b72b7a4}} 
+unsigned char $\ast$ {\bfseries m\+\_\+key\+Buffer}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class represents the Topic\+Data\+Type of the type \mbox{\hyperlink{classvehicle__control__mode}{vehicle\+\_\+control\+\_\+mode}} defined by the user in the IDL file. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/sarathmenon/\+Desktop/eth\+\_\+soft/code/\+Communication/libraries/communication\+\_\+lib/fastdds\+\_\+lib/fastddsgen\+\_\+generated\+\_\+files/px4\+\_\+msg\+\_\+definitions/\mbox{\hyperlink{vehicle__control__mode_pub_sub_types_8h}{vehicle\+\_\+control\+\_\+mode\+Pub\+Sub\+Types.\+h}}\item 
+/\+Users/sarathmenon/\+Desktop/eth\+\_\+soft/code/\+Communication/libraries/communication\+\_\+lib/fastdds\+\_\+lib/fastddsgen\+\_\+generated\+\_\+files/px4\+\_\+msg\+\_\+definitions/vehicle\+\_\+control\+\_\+mode\+Pub\+Sub\+Types.\+cxx\end{DoxyCompactItemize}

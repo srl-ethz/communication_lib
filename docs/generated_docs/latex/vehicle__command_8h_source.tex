@@ -1,0 +1,369 @@
+\hypertarget{vehicle__command_8h_source}{}\doxysection{vehicle\+\_\+command.\+h}
+\label{vehicle__command_8h_source}\index{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/px4\_msg\_definitions/vehicle\_command.h@{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/px4\_msg\_definitions/vehicle\_command.h}}
+\mbox{\hyperlink{vehicle__command_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{// Copyright 2016 Proyectos y Sistemas de Mantenimiento SL (eProsima).}}
+\DoxyCodeLine{2 \textcolor{comment}{//}}
+\DoxyCodeLine{3 \textcolor{comment}{// Licensed under the Apache License, Version 2.0 (the "{}License"{});}}
+\DoxyCodeLine{4 \textcolor{comment}{// you may not use this file except in compliance with the License.}}
+\DoxyCodeLine{5 \textcolor{comment}{// You may obtain a copy of the License at}}
+\DoxyCodeLine{6 \textcolor{comment}{//}}
+\DoxyCodeLine{7 \textcolor{comment}{//     http://www.apache.org/licenses/LICENSE-\/2.0}}
+\DoxyCodeLine{8 \textcolor{comment}{//}}
+\DoxyCodeLine{9 \textcolor{comment}{// Unless required by applicable law or agreed to in writing, software}}
+\DoxyCodeLine{10 \textcolor{comment}{// distributed under the License is distributed on an "{}AS IS"{} BASIS,}}
+\DoxyCodeLine{11 \textcolor{comment}{// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.}}
+\DoxyCodeLine{12 \textcolor{comment}{// See the License for the specific language governing permissions and}}
+\DoxyCodeLine{13 \textcolor{comment}{// limitations under the License.}}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{22 \textcolor{preprocessor}{\#ifndef \_VEHICLE\_COMMAND\_H\_}}
+\DoxyCodeLine{23 \textcolor{preprocessor}{\#define \_VEHICLE\_COMMAND\_H\_}}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25 }
+\DoxyCodeLine{26 \textcolor{preprocessor}{\#include <stdint.h>}}
+\DoxyCodeLine{27 \textcolor{preprocessor}{\#include <array>}}
+\DoxyCodeLine{28 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{29 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{30 \textcolor{preprocessor}{\#include <map>}}
+\DoxyCodeLine{31 \textcolor{preprocessor}{\#include <bitset>}}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{33 \textcolor{preprocessor}{\#if defined(\_WIN32)}}
+\DoxyCodeLine{34 \textcolor{preprocessor}{\#if defined(EPROSIMA\_USER\_DLL\_EXPORT)}}
+\DoxyCodeLine{35 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport \_\_declspec( dllexport )}}
+\DoxyCodeLine{36 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{37 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport}}
+\DoxyCodeLine{38 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// EPROSIMA\_USER\_DLL\_EXPORT}}
+\DoxyCodeLine{39 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{40 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport}}
+\DoxyCodeLine{41 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// \_WIN32}}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{43 \textcolor{preprocessor}{\#if defined(\_WIN32)}}
+\DoxyCodeLine{44 \textcolor{preprocessor}{\#if defined(EPROSIMA\_USER\_DLL\_EXPORT)}}
+\DoxyCodeLine{45 \textcolor{preprocessor}{\#if defined(vehicle\_command\_SOURCE)}}
+\DoxyCodeLine{46 \textcolor{preprocessor}{\#define vehicle\_command\_DllAPI \_\_declspec( dllexport )}}
+\DoxyCodeLine{47 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{48 \textcolor{preprocessor}{\#define vehicle\_command\_DllAPI \_\_declspec( dllimport )}}
+\DoxyCodeLine{49 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// vehicle\_command\_SOURCE}}
+\DoxyCodeLine{50 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{51 \textcolor{preprocessor}{\#define vehicle\_command\_DllAPI}}
+\DoxyCodeLine{52 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// EPROSIMA\_USER\_DLL\_EXPORT}}
+\DoxyCodeLine{53 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{54 \textcolor{preprocessor}{\#define vehicle\_command\_DllAPI}}
+\DoxyCodeLine{55 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_WIN32}}
+\DoxyCodeLine{56 }
+\DoxyCodeLine{57 \textcolor{keyword}{namespace }eprosima \{}
+\DoxyCodeLine{58 \textcolor{keyword}{namespace }fastcdr \{}
+\DoxyCodeLine{59 \textcolor{keyword}{class }Cdr;}
+\DoxyCodeLine{60 \} \textcolor{comment}{// namespace fastcdr}}
+\DoxyCodeLine{61 \} \textcolor{comment}{// namespace eprosima}}
+\DoxyCodeLine{62 }
+\DoxyCodeLine{63 }
+\DoxyCodeLine{64 \textcolor{keyword}{const} uint32\_t vehicle\_command\_\_VEHICLE\_CMD\_PX4\_INTERNAL\_START = 65537;}
+\DoxyCodeLine{65 \textcolor{keyword}{const} uint32\_t vehicle\_command\_\_VEHICLE\_CMD\_SET\_GPS\_GLOBAL\_ORIGIN = 100000;}
+\DoxyCodeLine{66 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_CUSTOM\_0 = 0;}
+\DoxyCodeLine{67 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_CUSTOM\_1 = 1;}
+\DoxyCodeLine{68 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_CUSTOM\_2 = 2;}
+\DoxyCodeLine{69 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_NAV\_WAYPOINT = 16;}
+\DoxyCodeLine{70 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_NAV\_LOITER\_UNLIM = 17;}
+\DoxyCodeLine{71 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_NAV\_LOITER\_TURNS = 18;}
+\DoxyCodeLine{72 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_NAV\_LOITER\_TIME = 19;}
+\DoxyCodeLine{73 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_NAV\_RETURN\_TO\_LAUNCH = 20;}
+\DoxyCodeLine{74 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_NAV\_LAND = 21;}
+\DoxyCodeLine{75 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_NAV\_TAKEOFF = 22;}
+\DoxyCodeLine{76 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_NAV\_PRECLAND = 23;}
+\DoxyCodeLine{77 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_ORBIT = 34;}
+\DoxyCodeLine{78 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_NAV\_ROI = 80;}
+\DoxyCodeLine{79 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_NAV\_PATHPLANNING = 81;}
+\DoxyCodeLine{80 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_NAV\_VTOL\_TAKEOFF = 84;}
+\DoxyCodeLine{81 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_NAV\_VTOL\_LAND = 85;}
+\DoxyCodeLine{82 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_NAV\_GUIDED\_LIMITS = 90;}
+\DoxyCodeLine{83 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_NAV\_GUIDED\_MASTER = 91;}
+\DoxyCodeLine{84 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_NAV\_DELAY = 93;}
+\DoxyCodeLine{85 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_NAV\_LAST = 95;}
+\DoxyCodeLine{86 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_CONDITION\_DELAY = 112;}
+\DoxyCodeLine{87 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_CONDITION\_CHANGE\_ALT = 113;}
+\DoxyCodeLine{88 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_CONDITION\_DISTANCE = 114;}
+\DoxyCodeLine{89 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_CONDITION\_YAW = 115;}
+\DoxyCodeLine{90 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_CONDITION\_LAST = 159;}
+\DoxyCodeLine{91 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_CONDITION\_GATE = 4501;}
+\DoxyCodeLine{92 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_SET\_MODE = 176;}
+\DoxyCodeLine{93 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_JUMP = 177;}
+\DoxyCodeLine{94 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_CHANGE\_SPEED = 178;}
+\DoxyCodeLine{95 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_SET\_HOME = 179;}
+\DoxyCodeLine{96 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_SET\_PARAMETER = 180;}
+\DoxyCodeLine{97 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_SET\_RELAY = 181;}
+\DoxyCodeLine{98 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_REPEAT\_RELAY = 182;}
+\DoxyCodeLine{99 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_SET\_SERVO = 183;}
+\DoxyCodeLine{100 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_REPEAT\_SERVO = 184;}
+\DoxyCodeLine{101 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_FLIGHTTERMINATION = 185;}
+\DoxyCodeLine{102 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_LAND\_START = 189;}
+\DoxyCodeLine{103 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_GO\_AROUND = 191;}
+\DoxyCodeLine{104 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_REPOSITION = 192;}
+\DoxyCodeLine{105 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_PAUSE\_CONTINUE = 193;}
+\DoxyCodeLine{106 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_SET\_ROI\_LOCATION = 195;}
+\DoxyCodeLine{107 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_SET\_ROI\_WPNEXT\_OFFSET = 196;}
+\DoxyCodeLine{108 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_SET\_ROI\_NONE = 197;}
+\DoxyCodeLine{109 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_CONTROL\_VIDEO = 200;}
+\DoxyCodeLine{110 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_SET\_ROI = 201;}
+\DoxyCodeLine{111 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_DIGICAM\_CONTROL = 203;}
+\DoxyCodeLine{112 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_MOUNT\_CONFIGURE = 204;}
+\DoxyCodeLine{113 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_MOUNT\_CONTROL = 205;}
+\DoxyCodeLine{114 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_SET\_CAM\_TRIGG\_DIST = 206;}
+\DoxyCodeLine{115 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_FENCE\_ENABLE = 207;}
+\DoxyCodeLine{116 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_PARACHUTE = 208;}
+\DoxyCodeLine{117 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_MOTOR\_TEST = 209;}
+\DoxyCodeLine{118 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_INVERTED\_FLIGHT = 210;}
+\DoxyCodeLine{119 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_SET\_CAM\_TRIGG\_INTERVAL = 214;}
+\DoxyCodeLine{120 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_MOUNT\_CONTROL\_QUAT = 220;}
+\DoxyCodeLine{121 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_GUIDED\_MASTER = 221;}
+\DoxyCodeLine{122 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_GUIDED\_LIMITS = 222;}
+\DoxyCodeLine{123 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_LAST = 240;}
+\DoxyCodeLine{124 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_PREFLIGHT\_CALIBRATION = 241;}
+\DoxyCodeLine{125 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_PREFLIGHT\_CALIBRATION\_TEMPERATURE\_CALIBRATION = 3;}
+\DoxyCodeLine{126 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_PREFLIGHT\_SET\_SENSOR\_OFFSETS = 242;}
+\DoxyCodeLine{127 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_PREFLIGHT\_UAVCAN = 243;}
+\DoxyCodeLine{128 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_PREFLIGHT\_STORAGE = 245;}
+\DoxyCodeLine{129 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_PREFLIGHT\_REBOOT\_SHUTDOWN = 246;}
+\DoxyCodeLine{130 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_OBLIQUE\_SURVEY = 260;}
+\DoxyCodeLine{131 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_GIMBAL\_DEVICE\_INFORMATION = 283;}
+\DoxyCodeLine{132 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_MISSION\_START = 300;}
+\DoxyCodeLine{133 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_COMPONENT\_ARM\_DISARM = 400;}
+\DoxyCodeLine{134 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_INJECT\_FAILURE = 420;}
+\DoxyCodeLine{135 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_START\_RX\_PAIR = 500;}
+\DoxyCodeLine{136 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_REQUEST\_MESSAGE = 512;}
+\DoxyCodeLine{137 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_SET\_CAMERA\_MODE = 530;}
+\DoxyCodeLine{138 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_SET\_CAMERA\_ZOOM = 531;}
+\DoxyCodeLine{139 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_SET\_CAMERA\_FOCUS = 532;}
+\DoxyCodeLine{140 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_GIMBAL\_MANAGER\_PITCHYAW = 1000;}
+\DoxyCodeLine{141 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_GIMBAL\_MANAGER\_CONFIGURE = 1001;}
+\DoxyCodeLine{142 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_TRIGGER\_CONTROL = 2003;}
+\DoxyCodeLine{143 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_LOGGING\_START = 2510;}
+\DoxyCodeLine{144 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_LOGGING\_STOP = 2511;}
+\DoxyCodeLine{145 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_CONTROL\_HIGH\_LATENCY = 2600;}
+\DoxyCodeLine{146 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_DO\_VTOL\_TRANSITION = 3000;}
+\DoxyCodeLine{147 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_ARM\_AUTHORIZATION\_REQUEST = 3001;}
+\DoxyCodeLine{148 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_PAYLOAD\_PREPARE\_DEPLOY = 30001;}
+\DoxyCodeLine{149 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_PAYLOAD\_CONTROL\_DEPLOY = 30002;}
+\DoxyCodeLine{150 \textcolor{keyword}{const} uint16\_t vehicle\_command\_\_VEHICLE\_CMD\_FIXED\_MAG\_CAL\_YAW = 42006;}
+\DoxyCodeLine{151 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_VEHICLE\_CMD\_RESULT\_ACCEPTED = 0;}
+\DoxyCodeLine{152 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_VEHICLE\_CMD\_RESULT\_TEMPORARILY\_REJECTED = 1;}
+\DoxyCodeLine{153 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_VEHICLE\_CMD\_RESULT\_DENIED = 2;}
+\DoxyCodeLine{154 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_VEHICLE\_CMD\_RESULT\_UNSUPPORTED = 3;}
+\DoxyCodeLine{155 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_VEHICLE\_CMD\_RESULT\_FAILED = 4;}
+\DoxyCodeLine{156 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_VEHICLE\_CMD\_RESULT\_IN\_PROGRESS = 5;}
+\DoxyCodeLine{157 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_VEHICLE\_CMD\_RESULT\_ENUM\_END = 6;}
+\DoxyCodeLine{158 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_VEHICLE\_MOUNT\_MODE\_RETRACT = 0;}
+\DoxyCodeLine{159 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_VEHICLE\_MOUNT\_MODE\_NEUTRAL = 1;}
+\DoxyCodeLine{160 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_VEHICLE\_MOUNT\_MODE\_MAVLINK\_TARGETING = 2;}
+\DoxyCodeLine{161 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_VEHICLE\_MOUNT\_MODE\_RC\_TARGETING = 3;}
+\DoxyCodeLine{162 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_VEHICLE\_MOUNT\_MODE\_GPS\_POINT = 4;}
+\DoxyCodeLine{163 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_VEHICLE\_MOUNT\_MODE\_ENUM\_END = 5;}
+\DoxyCodeLine{164 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_VEHICLE\_ROI\_NONE = 0;}
+\DoxyCodeLine{165 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_VEHICLE\_ROI\_WPNEXT = 1;}
+\DoxyCodeLine{166 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_VEHICLE\_ROI\_WPINDEX = 2;}
+\DoxyCodeLine{167 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_VEHICLE\_ROI\_LOCATION = 3;}
+\DoxyCodeLine{168 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_VEHICLE\_ROI\_TARGET = 4;}
+\DoxyCodeLine{169 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_VEHICLE\_ROI\_ENUM\_END = 5;}
+\DoxyCodeLine{170 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_VEHICLE\_CAMERA\_ZOOM\_TYPE\_STEP = 0;}
+\DoxyCodeLine{171 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_VEHICLE\_CAMERA\_ZOOM\_TYPE\_CONTINUOUS = 1;}
+\DoxyCodeLine{172 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_VEHICLE\_CAMERA\_ZOOM\_TYPE\_RANGE = 2;}
+\DoxyCodeLine{173 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_VEHICLE\_CAMERA\_ZOOM\_TYPE\_FOCAL\_LENGTH = 3;}
+\DoxyCodeLine{174 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_PARACHUTE\_ACTION\_DISABLE = 0;}
+\DoxyCodeLine{175 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_PARACHUTE\_ACTION\_ENABLE = 1;}
+\DoxyCodeLine{176 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_PARACHUTE\_ACTION\_RELEASE = 2;}
+\DoxyCodeLine{177 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_FAILURE\_UNIT\_SENSOR\_GYRO = 0;}
+\DoxyCodeLine{178 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_FAILURE\_UNIT\_SENSOR\_ACCEL = 1;}
+\DoxyCodeLine{179 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_FAILURE\_UNIT\_SENSOR\_MAG = 2;}
+\DoxyCodeLine{180 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_FAILURE\_UNIT\_SENSOR\_BARO = 3;}
+\DoxyCodeLine{181 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_FAILURE\_UNIT\_SENSOR\_GPS = 4;}
+\DoxyCodeLine{182 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_FAILURE\_UNIT\_SENSOR\_OPTICAL\_FLOW = 5;}
+\DoxyCodeLine{183 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_FAILURE\_UNIT\_SENSOR\_VIO = 6;}
+\DoxyCodeLine{184 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_FAILURE\_UNIT\_SENSOR\_DISTANCE\_SENSOR = 7;}
+\DoxyCodeLine{185 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_FAILURE\_UNIT\_SENSOR\_AIRSPEED = 8;}
+\DoxyCodeLine{186 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_FAILURE\_UNIT\_SYSTEM\_BATTERY = 100;}
+\DoxyCodeLine{187 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_FAILURE\_UNIT\_SYSTEM\_MOTOR = 101;}
+\DoxyCodeLine{188 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_FAILURE\_UNIT\_SYSTEM\_SERVO = 102;}
+\DoxyCodeLine{189 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_FAILURE\_UNIT\_SYSTEM\_AVOIDANCE = 103;}
+\DoxyCodeLine{190 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_FAILURE\_UNIT\_SYSTEM\_RC\_SIGNAL = 104;}
+\DoxyCodeLine{191 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_FAILURE\_UNIT\_SYSTEM\_MAVLINK\_SIGNAL = 105;}
+\DoxyCodeLine{192 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_FAILURE\_TYPE\_OK = 0;}
+\DoxyCodeLine{193 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_FAILURE\_TYPE\_OFF = 1;}
+\DoxyCodeLine{194 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_FAILURE\_TYPE\_STUCK = 2;}
+\DoxyCodeLine{195 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_FAILURE\_TYPE\_GARBAGE = 3;}
+\DoxyCodeLine{196 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_FAILURE\_TYPE\_WRONG = 4;}
+\DoxyCodeLine{197 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_FAILURE\_TYPE\_SLOW = 5;}
+\DoxyCodeLine{198 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_FAILURE\_TYPE\_DELAYED = 6;}
+\DoxyCodeLine{199 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_FAILURE\_TYPE\_INTERMITTENT = 7;}
+\DoxyCodeLine{200 \textcolor{keyword}{const} uint8\_t vehicle\_command\_\_ORB\_QUEUE\_LENGTH = 8;}
+\DoxyCodeLine{205 \textcolor{keyword}{class }\mbox{\hyperlink{classvehicle__command}{vehicle\_command}}}
+\DoxyCodeLine{206 \{}
+\DoxyCodeLine{207 \textcolor{keyword}{public}:}
+\DoxyCodeLine{208 }
+\DoxyCodeLine{212     eProsima\_user\_DllExport \mbox{\hyperlink{classvehicle__command_a51957aba9706c71568af43ea0b8685b8}{vehicle\_command}}();}
+\DoxyCodeLine{213 }
+\DoxyCodeLine{217     eProsima\_user\_DllExport \mbox{\hyperlink{classvehicle__command_ad8babba5dbb3feff52684342a153dc26}{\string~vehicle\_command}}();}
+\DoxyCodeLine{218 }
+\DoxyCodeLine{223     eProsima\_user\_DllExport \mbox{\hyperlink{classvehicle__command_a51957aba9706c71568af43ea0b8685b8}{vehicle\_command}}(}
+\DoxyCodeLine{224             \textcolor{keyword}{const} \mbox{\hyperlink{classvehicle__command}{vehicle\_command}}\& x);}
+\DoxyCodeLine{225 }
+\DoxyCodeLine{230     eProsima\_user\_DllExport \mbox{\hyperlink{classvehicle__command_a51957aba9706c71568af43ea0b8685b8}{vehicle\_command}}(}
+\DoxyCodeLine{231             \mbox{\hyperlink{classvehicle__command}{vehicle\_command}}\&\& x);}
+\DoxyCodeLine{232 }
+\DoxyCodeLine{237     eProsima\_user\_DllExport \mbox{\hyperlink{classvehicle__command}{vehicle\_command}}\& \mbox{\hyperlink{classvehicle__command_a2081ba170849229f7910f44c0e574db8}{operator =}}(}
+\DoxyCodeLine{238             \textcolor{keyword}{const} \mbox{\hyperlink{classvehicle__command}{vehicle\_command}}\& x);}
+\DoxyCodeLine{239 }
+\DoxyCodeLine{244     eProsima\_user\_DllExport \mbox{\hyperlink{classvehicle__command}{vehicle\_command}}\& \mbox{\hyperlink{classvehicle__command_a2081ba170849229f7910f44c0e574db8}{operator =}}(}
+\DoxyCodeLine{245             \mbox{\hyperlink{classvehicle__command}{vehicle\_command}}\&\& x);}
+\DoxyCodeLine{246 }
+\DoxyCodeLine{251     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__command_aad50fe2adbb231f2f6a5f845b8d2c757}{timestamp\_}}(}
+\DoxyCodeLine{252             uint64\_t \_timestamp\_);}
+\DoxyCodeLine{253 }
+\DoxyCodeLine{258     eProsima\_user\_DllExport uint64\_t \mbox{\hyperlink{classvehicle__command_aad50fe2adbb231f2f6a5f845b8d2c757}{timestamp\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{259 }
+\DoxyCodeLine{264     eProsima\_user\_DllExport uint64\_t\& \mbox{\hyperlink{classvehicle__command_aad50fe2adbb231f2f6a5f845b8d2c757}{timestamp\_}}();}
+\DoxyCodeLine{265 }
+\DoxyCodeLine{270     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__command_a2f04d86ad422a75d19a55f45dc92938c}{param1\_}}(}
+\DoxyCodeLine{271             \textcolor{keywordtype}{float} \_param1\_);}
+\DoxyCodeLine{272 }
+\DoxyCodeLine{277     eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classvehicle__command_a2f04d86ad422a75d19a55f45dc92938c}{param1\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{278 }
+\DoxyCodeLine{283     eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classvehicle__command_a2f04d86ad422a75d19a55f45dc92938c}{param1\_}}();}
+\DoxyCodeLine{284 }
+\DoxyCodeLine{289     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__command_a64a7ec8859b55ed2a2c44fb84eb1b97a}{param2\_}}(}
+\DoxyCodeLine{290             \textcolor{keywordtype}{float} \_param2\_);}
+\DoxyCodeLine{291 }
+\DoxyCodeLine{296     eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classvehicle__command_a64a7ec8859b55ed2a2c44fb84eb1b97a}{param2\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{297 }
+\DoxyCodeLine{302     eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classvehicle__command_a64a7ec8859b55ed2a2c44fb84eb1b97a}{param2\_}}();}
+\DoxyCodeLine{303 }
+\DoxyCodeLine{308     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__command_acd2163590fc48f30797e75e43bdf48a2}{param3\_}}(}
+\DoxyCodeLine{309             \textcolor{keywordtype}{float} \_param3\_);}
+\DoxyCodeLine{310 }
+\DoxyCodeLine{315     eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classvehicle__command_acd2163590fc48f30797e75e43bdf48a2}{param3\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{316 }
+\DoxyCodeLine{321     eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classvehicle__command_acd2163590fc48f30797e75e43bdf48a2}{param3\_}}();}
+\DoxyCodeLine{322 }
+\DoxyCodeLine{327     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__command_a3110c167447cb1b47e4ee30cbc475a52}{param4\_}}(}
+\DoxyCodeLine{328             \textcolor{keywordtype}{float} \_param4\_);}
+\DoxyCodeLine{329 }
+\DoxyCodeLine{334     eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classvehicle__command_a3110c167447cb1b47e4ee30cbc475a52}{param4\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{335 }
+\DoxyCodeLine{340     eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classvehicle__command_a3110c167447cb1b47e4ee30cbc475a52}{param4\_}}();}
+\DoxyCodeLine{341 }
+\DoxyCodeLine{346     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__command_a18325c9338f73b3c8a5872bc330cb241}{param5\_}}(}
+\DoxyCodeLine{347             \textcolor{keywordtype}{double} \_param5\_);}
+\DoxyCodeLine{348 }
+\DoxyCodeLine{353     eProsima\_user\_DllExport \textcolor{keywordtype}{double} \mbox{\hyperlink{classvehicle__command_a18325c9338f73b3c8a5872bc330cb241}{param5\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{354 }
+\DoxyCodeLine{359     eProsima\_user\_DllExport \textcolor{keywordtype}{double}\& \mbox{\hyperlink{classvehicle__command_a18325c9338f73b3c8a5872bc330cb241}{param5\_}}();}
+\DoxyCodeLine{360 }
+\DoxyCodeLine{365     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__command_abad5e69dec63af8cbdf0f60c55268f28}{param6\_}}(}
+\DoxyCodeLine{366             \textcolor{keywordtype}{double} \_param6\_);}
+\DoxyCodeLine{367 }
+\DoxyCodeLine{372     eProsima\_user\_DllExport \textcolor{keywordtype}{double} \mbox{\hyperlink{classvehicle__command_abad5e69dec63af8cbdf0f60c55268f28}{param6\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{373 }
+\DoxyCodeLine{378     eProsima\_user\_DllExport \textcolor{keywordtype}{double}\& \mbox{\hyperlink{classvehicle__command_abad5e69dec63af8cbdf0f60c55268f28}{param6\_}}();}
+\DoxyCodeLine{379 }
+\DoxyCodeLine{384     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__command_a124e516cb09233b1bd76c4793cd1b413}{param7\_}}(}
+\DoxyCodeLine{385             \textcolor{keywordtype}{float} \_param7\_);}
+\DoxyCodeLine{386 }
+\DoxyCodeLine{391     eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classvehicle__command_a124e516cb09233b1bd76c4793cd1b413}{param7\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{392 }
+\DoxyCodeLine{397     eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classvehicle__command_a124e516cb09233b1bd76c4793cd1b413}{param7\_}}();}
+\DoxyCodeLine{398 }
+\DoxyCodeLine{403     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__command_a97ff0776908f205c31e036ba655efe5a}{command\_}}(}
+\DoxyCodeLine{404             uint32\_t \_command\_);}
+\DoxyCodeLine{405 }
+\DoxyCodeLine{410     eProsima\_user\_DllExport uint32\_t \mbox{\hyperlink{classvehicle__command_a97ff0776908f205c31e036ba655efe5a}{command\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{411 }
+\DoxyCodeLine{416     eProsima\_user\_DllExport uint32\_t\& \mbox{\hyperlink{classvehicle__command_a97ff0776908f205c31e036ba655efe5a}{command\_}}();}
+\DoxyCodeLine{417 }
+\DoxyCodeLine{422     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__command_aeda35dff5833f7573340f5a8af5e5ee6}{target\_system\_}}(}
+\DoxyCodeLine{423             uint8\_t \_target\_system\_);}
+\DoxyCodeLine{424 }
+\DoxyCodeLine{429     eProsima\_user\_DllExport uint8\_t \mbox{\hyperlink{classvehicle__command_aeda35dff5833f7573340f5a8af5e5ee6}{target\_system\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{430 }
+\DoxyCodeLine{435     eProsima\_user\_DllExport uint8\_t\& \mbox{\hyperlink{classvehicle__command_aeda35dff5833f7573340f5a8af5e5ee6}{target\_system\_}}();}
+\DoxyCodeLine{436 }
+\DoxyCodeLine{441     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__command_a7cdbb1164f9ac6052ca17d8f3fe3e48e}{target\_component\_}}(}
+\DoxyCodeLine{442             uint8\_t \_target\_component\_);}
+\DoxyCodeLine{443 }
+\DoxyCodeLine{448     eProsima\_user\_DllExport uint8\_t \mbox{\hyperlink{classvehicle__command_a7cdbb1164f9ac6052ca17d8f3fe3e48e}{target\_component\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{449 }
+\DoxyCodeLine{454     eProsima\_user\_DllExport uint8\_t\& \mbox{\hyperlink{classvehicle__command_a7cdbb1164f9ac6052ca17d8f3fe3e48e}{target\_component\_}}();}
+\DoxyCodeLine{455 }
+\DoxyCodeLine{460     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__command_affe3db29463ba597de487e0f5e01398e}{source\_system\_}}(}
+\DoxyCodeLine{461             uint8\_t \_source\_system\_);}
+\DoxyCodeLine{462 }
+\DoxyCodeLine{467     eProsima\_user\_DllExport uint8\_t \mbox{\hyperlink{classvehicle__command_affe3db29463ba597de487e0f5e01398e}{source\_system\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{468 }
+\DoxyCodeLine{473     eProsima\_user\_DllExport uint8\_t\& \mbox{\hyperlink{classvehicle__command_affe3db29463ba597de487e0f5e01398e}{source\_system\_}}();}
+\DoxyCodeLine{474 }
+\DoxyCodeLine{479     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__command_a125a0a3274d3e4f0808406eca342b200}{source\_component\_}}(}
+\DoxyCodeLine{480             uint8\_t \_source\_component\_);}
+\DoxyCodeLine{481 }
+\DoxyCodeLine{486     eProsima\_user\_DllExport uint8\_t \mbox{\hyperlink{classvehicle__command_a125a0a3274d3e4f0808406eca342b200}{source\_component\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{487 }
+\DoxyCodeLine{492     eProsima\_user\_DllExport uint8\_t\& \mbox{\hyperlink{classvehicle__command_a125a0a3274d3e4f0808406eca342b200}{source\_component\_}}();}
+\DoxyCodeLine{493 }
+\DoxyCodeLine{498     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__command_a4e75db84f5c4c86549a0cbd7c6505010}{confirmation\_}}(}
+\DoxyCodeLine{499             uint8\_t \_confirmation\_);}
+\DoxyCodeLine{500 }
+\DoxyCodeLine{505     eProsima\_user\_DllExport uint8\_t \mbox{\hyperlink{classvehicle__command_a4e75db84f5c4c86549a0cbd7c6505010}{confirmation\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{506 }
+\DoxyCodeLine{511     eProsima\_user\_DllExport uint8\_t\& \mbox{\hyperlink{classvehicle__command_a4e75db84f5c4c86549a0cbd7c6505010}{confirmation\_}}();}
+\DoxyCodeLine{512 }
+\DoxyCodeLine{517     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__command_a8ca0326a4c1abb4f6b8dcdedc7099b29}{from\_external\_}}(}
+\DoxyCodeLine{518             \textcolor{keywordtype}{bool} \_from\_external\_);}
+\DoxyCodeLine{519 }
+\DoxyCodeLine{524     eProsima\_user\_DllExport \textcolor{keywordtype}{bool} \mbox{\hyperlink{classvehicle__command_a8ca0326a4c1abb4f6b8dcdedc7099b29}{from\_external\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{525 }
+\DoxyCodeLine{530     eProsima\_user\_DllExport \textcolor{keywordtype}{bool}\& \mbox{\hyperlink{classvehicle__command_a8ca0326a4c1abb4f6b8dcdedc7099b29}{from\_external\_}}();}
+\DoxyCodeLine{531 }
+\DoxyCodeLine{532 }
+\DoxyCodeLine{539     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classvehicle__command_abbe5666274d91d642eb7d37392c6468b}{getMaxCdrSerializedSize}}(}
+\DoxyCodeLine{540             \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{541 }
+\DoxyCodeLine{548     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classvehicle__command_a71fd10d819de12f9acbaa39a16925a91}{getCdrSerializedSize}}(}
+\DoxyCodeLine{549             \textcolor{keyword}{const} \mbox{\hyperlink{classvehicle__command}{vehicle\_command}}\& data,}
+\DoxyCodeLine{550             \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{551 }
+\DoxyCodeLine{552 }
+\DoxyCodeLine{557     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__command_ad199e22304e8421a7d000c391a5bfa5c}{serialize}}(}
+\DoxyCodeLine{558             eprosima::fastcdr::Cdr\& cdr) \textcolor{keyword}{const};}
+\DoxyCodeLine{559 }
+\DoxyCodeLine{564     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__command_a5f8ce077d418eb28d3063acf42ef926a}{deserialize}}(}
+\DoxyCodeLine{565             eprosima::fastcdr::Cdr\& cdr);}
+\DoxyCodeLine{566 }
+\DoxyCodeLine{567 }
+\DoxyCodeLine{568 }
+\DoxyCodeLine{575     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classvehicle__command_a911157bd8426865093797ac3761fb5c2}{getKeyMaxCdrSerializedSize}}(}
+\DoxyCodeLine{576             \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{577 }
+\DoxyCodeLine{581     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{bool} \mbox{\hyperlink{classvehicle__command_afc6db1ab00186c8a7df91296304a8ac9}{isKeyDefined}}();}
+\DoxyCodeLine{582 }
+\DoxyCodeLine{587     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__command_a8d1ec3a8d511443ddbbad93f55fab569}{serializeKey}}(}
+\DoxyCodeLine{588             eprosima::fastcdr::Cdr\& cdr) \textcolor{keyword}{const};}
+\DoxyCodeLine{589 }
+\DoxyCodeLine{590 \textcolor{keyword}{private}:}
+\DoxyCodeLine{591 }
+\DoxyCodeLine{592     uint64\_t m\_timestamp\_;}
+\DoxyCodeLine{593     \textcolor{keywordtype}{float} m\_param1\_;}
+\DoxyCodeLine{594     \textcolor{keywordtype}{float} m\_param2\_;}
+\DoxyCodeLine{595     \textcolor{keywordtype}{float} m\_param3\_;}
+\DoxyCodeLine{596     \textcolor{keywordtype}{float} m\_param4\_;}
+\DoxyCodeLine{597     \textcolor{keywordtype}{double} m\_param5\_;}
+\DoxyCodeLine{598     \textcolor{keywordtype}{double} m\_param6\_;}
+\DoxyCodeLine{599     \textcolor{keywordtype}{float} m\_param7\_;}
+\DoxyCodeLine{600     uint32\_t m\_command\_;}
+\DoxyCodeLine{601     uint8\_t m\_target\_system\_;}
+\DoxyCodeLine{602     uint8\_t m\_target\_component\_;}
+\DoxyCodeLine{603     uint8\_t m\_source\_system\_;}
+\DoxyCodeLine{604     uint8\_t m\_source\_component\_;}
+\DoxyCodeLine{605     uint8\_t m\_confirmation\_;}
+\DoxyCodeLine{606     \textcolor{keywordtype}{bool} m\_from\_external\_;}
+\DoxyCodeLine{607 \};}
+\DoxyCodeLine{608 }
+\DoxyCodeLine{609 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_VEHICLE\_COMMAND\_H\_}}
+
+\end{DoxyCode}

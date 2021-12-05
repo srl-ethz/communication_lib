@@ -1,0 +1,162 @@
+\hypertarget{timesync__status_8h_source}{}\doxysection{timesync\+\_\+status.\+h}
+\label{timesync__status_8h_source}\index{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/px4\_msg\_definitions/timesync\_status.h@{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/px4\_msg\_definitions/timesync\_status.h}}
+\mbox{\hyperlink{timesync__status_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{// Copyright 2016 Proyectos y Sistemas de Mantenimiento SL (eProsima).}}
+\DoxyCodeLine{2 \textcolor{comment}{//}}
+\DoxyCodeLine{3 \textcolor{comment}{// Licensed under the Apache License, Version 2.0 (the "{}License"{});}}
+\DoxyCodeLine{4 \textcolor{comment}{// you may not use this file except in compliance with the License.}}
+\DoxyCodeLine{5 \textcolor{comment}{// You may obtain a copy of the License at}}
+\DoxyCodeLine{6 \textcolor{comment}{//}}
+\DoxyCodeLine{7 \textcolor{comment}{//     http://www.apache.org/licenses/LICENSE-\/2.0}}
+\DoxyCodeLine{8 \textcolor{comment}{//}}
+\DoxyCodeLine{9 \textcolor{comment}{// Unless required by applicable law or agreed to in writing, software}}
+\DoxyCodeLine{10 \textcolor{comment}{// distributed under the License is distributed on an "{}AS IS"{} BASIS,}}
+\DoxyCodeLine{11 \textcolor{comment}{// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.}}
+\DoxyCodeLine{12 \textcolor{comment}{// See the License for the specific language governing permissions and}}
+\DoxyCodeLine{13 \textcolor{comment}{// limitations under the License.}}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{22 \textcolor{preprocessor}{\#ifndef \_TIMESYNC\_STATUS\_H\_}}
+\DoxyCodeLine{23 \textcolor{preprocessor}{\#define \_TIMESYNC\_STATUS\_H\_}}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25 }
+\DoxyCodeLine{26 \textcolor{preprocessor}{\#include <stdint.h>}}
+\DoxyCodeLine{27 \textcolor{preprocessor}{\#include <array>}}
+\DoxyCodeLine{28 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{29 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{30 \textcolor{preprocessor}{\#include <map>}}
+\DoxyCodeLine{31 \textcolor{preprocessor}{\#include <bitset>}}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{33 \textcolor{preprocessor}{\#if defined(\_WIN32)}}
+\DoxyCodeLine{34 \textcolor{preprocessor}{\#if defined(EPROSIMA\_USER\_DLL\_EXPORT)}}
+\DoxyCodeLine{35 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport \_\_declspec( dllexport )}}
+\DoxyCodeLine{36 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{37 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport}}
+\DoxyCodeLine{38 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// EPROSIMA\_USER\_DLL\_EXPORT}}
+\DoxyCodeLine{39 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{40 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport}}
+\DoxyCodeLine{41 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// \_WIN32}}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{43 \textcolor{preprocessor}{\#if defined(\_WIN32)}}
+\DoxyCodeLine{44 \textcolor{preprocessor}{\#if defined(EPROSIMA\_USER\_DLL\_EXPORT)}}
+\DoxyCodeLine{45 \textcolor{preprocessor}{\#if defined(timesync\_status\_SOURCE)}}
+\DoxyCodeLine{46 \textcolor{preprocessor}{\#define timesync\_status\_DllAPI \_\_declspec( dllexport )}}
+\DoxyCodeLine{47 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{48 \textcolor{preprocessor}{\#define timesync\_status\_DllAPI \_\_declspec( dllimport )}}
+\DoxyCodeLine{49 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// timesync\_status\_SOURCE}}
+\DoxyCodeLine{50 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{51 \textcolor{preprocessor}{\#define timesync\_status\_DllAPI}}
+\DoxyCodeLine{52 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// EPROSIMA\_USER\_DLL\_EXPORT}}
+\DoxyCodeLine{53 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{54 \textcolor{preprocessor}{\#define timesync\_status\_DllAPI}}
+\DoxyCodeLine{55 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_WIN32}}
+\DoxyCodeLine{56 }
+\DoxyCodeLine{57 \textcolor{keyword}{namespace }eprosima \{}
+\DoxyCodeLine{58 \textcolor{keyword}{namespace }fastcdr \{}
+\DoxyCodeLine{59 \textcolor{keyword}{class }Cdr;}
+\DoxyCodeLine{60 \} \textcolor{comment}{// namespace fastcdr}}
+\DoxyCodeLine{61 \} \textcolor{comment}{// namespace eprosima}}
+\DoxyCodeLine{62 }
+\DoxyCodeLine{63 }
+\DoxyCodeLine{64 \textcolor{keyword}{const} uint8\_t timesync\_status\_\_SOURCE\_PROTOCOL\_MAVLINK = 0;}
+\DoxyCodeLine{65 \textcolor{keyword}{const} uint8\_t timesync\_status\_\_SOURCE\_PROTOCOL\_RTPS = 1;}
+\DoxyCodeLine{70 \textcolor{keyword}{class }\mbox{\hyperlink{classtimesync__status}{timesync\_status}}}
+\DoxyCodeLine{71 \{}
+\DoxyCodeLine{72 \textcolor{keyword}{public}:}
+\DoxyCodeLine{73 }
+\DoxyCodeLine{77     eProsima\_user\_DllExport \mbox{\hyperlink{classtimesync__status_a5b375b9f455088e047031d4a2c218fe2}{timesync\_status}}();}
+\DoxyCodeLine{78 }
+\DoxyCodeLine{82     eProsima\_user\_DllExport \mbox{\hyperlink{classtimesync__status_ae5fc601ec5878615d6a6cfbde2a50bf7}{\string~timesync\_status}}();}
+\DoxyCodeLine{83 }
+\DoxyCodeLine{88     eProsima\_user\_DllExport \mbox{\hyperlink{classtimesync__status_a5b375b9f455088e047031d4a2c218fe2}{timesync\_status}}(}
+\DoxyCodeLine{89             \textcolor{keyword}{const} \mbox{\hyperlink{classtimesync__status}{timesync\_status}}\& x);}
+\DoxyCodeLine{90 }
+\DoxyCodeLine{95     eProsima\_user\_DllExport \mbox{\hyperlink{classtimesync__status_a5b375b9f455088e047031d4a2c218fe2}{timesync\_status}}(}
+\DoxyCodeLine{96             \mbox{\hyperlink{classtimesync__status}{timesync\_status}}\&\& x);}
+\DoxyCodeLine{97 }
+\DoxyCodeLine{102     eProsima\_user\_DllExport \mbox{\hyperlink{classtimesync__status}{timesync\_status}}\& \mbox{\hyperlink{classtimesync__status_a49ee6a3b878c1ea86747960d624e3846}{operator =}}(}
+\DoxyCodeLine{103             \textcolor{keyword}{const} \mbox{\hyperlink{classtimesync__status}{timesync\_status}}\& x);}
+\DoxyCodeLine{104 }
+\DoxyCodeLine{109     eProsima\_user\_DllExport \mbox{\hyperlink{classtimesync__status}{timesync\_status}}\& \mbox{\hyperlink{classtimesync__status_a49ee6a3b878c1ea86747960d624e3846}{operator =}}(}
+\DoxyCodeLine{110             \mbox{\hyperlink{classtimesync__status}{timesync\_status}}\&\& x);}
+\DoxyCodeLine{111 }
+\DoxyCodeLine{116     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtimesync__status_a591641bda11399ee467db180396fa605}{timestamp\_}}(}
+\DoxyCodeLine{117             uint64\_t \_timestamp\_);}
+\DoxyCodeLine{118 }
+\DoxyCodeLine{123     eProsima\_user\_DllExport uint64\_t \mbox{\hyperlink{classtimesync__status_a591641bda11399ee467db180396fa605}{timestamp\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{124 }
+\DoxyCodeLine{129     eProsima\_user\_DllExport uint64\_t\& \mbox{\hyperlink{classtimesync__status_a591641bda11399ee467db180396fa605}{timestamp\_}}();}
+\DoxyCodeLine{130 }
+\DoxyCodeLine{135     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtimesync__status_a66c168d7dc7a72a0a47c8873ea054907}{source\_protocol\_}}(}
+\DoxyCodeLine{136             uint8\_t \_source\_protocol\_);}
+\DoxyCodeLine{137 }
+\DoxyCodeLine{142     eProsima\_user\_DllExport uint8\_t \mbox{\hyperlink{classtimesync__status_a66c168d7dc7a72a0a47c8873ea054907}{source\_protocol\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{143 }
+\DoxyCodeLine{148     eProsima\_user\_DllExport uint8\_t\& \mbox{\hyperlink{classtimesync__status_a66c168d7dc7a72a0a47c8873ea054907}{source\_protocol\_}}();}
+\DoxyCodeLine{149 }
+\DoxyCodeLine{154     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtimesync__status_a839212bf4da76a37bf3360afa5a53627}{remote\_timestamp\_}}(}
+\DoxyCodeLine{155             uint64\_t \_remote\_timestamp\_);}
+\DoxyCodeLine{156 }
+\DoxyCodeLine{161     eProsima\_user\_DllExport uint64\_t \mbox{\hyperlink{classtimesync__status_a839212bf4da76a37bf3360afa5a53627}{remote\_timestamp\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{162 }
+\DoxyCodeLine{167     eProsima\_user\_DllExport uint64\_t\& \mbox{\hyperlink{classtimesync__status_a839212bf4da76a37bf3360afa5a53627}{remote\_timestamp\_}}();}
+\DoxyCodeLine{168 }
+\DoxyCodeLine{173     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtimesync__status_ac0a9e169f267c2e4b5ef97f1ac106fd6}{observed\_offset\_}}(}
+\DoxyCodeLine{174             int64\_t \_observed\_offset\_);}
+\DoxyCodeLine{175 }
+\DoxyCodeLine{180     eProsima\_user\_DllExport int64\_t \mbox{\hyperlink{classtimesync__status_ac0a9e169f267c2e4b5ef97f1ac106fd6}{observed\_offset\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{181 }
+\DoxyCodeLine{186     eProsima\_user\_DllExport int64\_t\& \mbox{\hyperlink{classtimesync__status_ac0a9e169f267c2e4b5ef97f1ac106fd6}{observed\_offset\_}}();}
+\DoxyCodeLine{187 }
+\DoxyCodeLine{192     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtimesync__status_a7d54a1a31b557c87e16c2c48122ba8e2}{estimated\_offset\_}}(}
+\DoxyCodeLine{193             int64\_t \_estimated\_offset\_);}
+\DoxyCodeLine{194 }
+\DoxyCodeLine{199     eProsima\_user\_DllExport int64\_t \mbox{\hyperlink{classtimesync__status_a7d54a1a31b557c87e16c2c48122ba8e2}{estimated\_offset\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{200 }
+\DoxyCodeLine{205     eProsima\_user\_DllExport int64\_t\& \mbox{\hyperlink{classtimesync__status_a7d54a1a31b557c87e16c2c48122ba8e2}{estimated\_offset\_}}();}
+\DoxyCodeLine{206 }
+\DoxyCodeLine{211     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtimesync__status_a98cb096e95c6d1aaec1354e4be953f4e}{round\_trip\_time\_}}(}
+\DoxyCodeLine{212             uint32\_t \_round\_trip\_time\_);}
+\DoxyCodeLine{213 }
+\DoxyCodeLine{218     eProsima\_user\_DllExport uint32\_t \mbox{\hyperlink{classtimesync__status_a98cb096e95c6d1aaec1354e4be953f4e}{round\_trip\_time\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{219 }
+\DoxyCodeLine{224     eProsima\_user\_DllExport uint32\_t\& \mbox{\hyperlink{classtimesync__status_a98cb096e95c6d1aaec1354e4be953f4e}{round\_trip\_time\_}}();}
+\DoxyCodeLine{225 }
+\DoxyCodeLine{226 }
+\DoxyCodeLine{233     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classtimesync__status_a430e17d002ca0e1ea7a6fd4606de214e}{getMaxCdrSerializedSize}}(}
+\DoxyCodeLine{234             \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{235 }
+\DoxyCodeLine{242     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classtimesync__status_a922391372b5bd829aa658e5a80a5adcf}{getCdrSerializedSize}}(}
+\DoxyCodeLine{243             \textcolor{keyword}{const} \mbox{\hyperlink{classtimesync__status}{timesync\_status}}\& data,}
+\DoxyCodeLine{244             \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{245 }
+\DoxyCodeLine{246 }
+\DoxyCodeLine{251     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtimesync__status_a605e2a1815727a3d513d4daca58934b0}{serialize}}(}
+\DoxyCodeLine{252             eprosima::fastcdr::Cdr\& cdr) \textcolor{keyword}{const};}
+\DoxyCodeLine{253 }
+\DoxyCodeLine{258     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtimesync__status_a9ce6393943cc9ee9becfc1e6bd053746}{deserialize}}(}
+\DoxyCodeLine{259             eprosima::fastcdr::Cdr\& cdr);}
+\DoxyCodeLine{260 }
+\DoxyCodeLine{261 }
+\DoxyCodeLine{262 }
+\DoxyCodeLine{269     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classtimesync__status_afdfa53639aa9ec366f4978595be84440}{getKeyMaxCdrSerializedSize}}(}
+\DoxyCodeLine{270             \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{271 }
+\DoxyCodeLine{275     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{bool} \mbox{\hyperlink{classtimesync__status_a6899721b6e0a401c1c02eb4e83dfb706}{isKeyDefined}}();}
+\DoxyCodeLine{276 }
+\DoxyCodeLine{281     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtimesync__status_a236ee4ed0e47ee6b72440f0ca2943e24}{serializeKey}}(}
+\DoxyCodeLine{282             eprosima::fastcdr::Cdr\& cdr) \textcolor{keyword}{const};}
+\DoxyCodeLine{283 }
+\DoxyCodeLine{284 \textcolor{keyword}{private}:}
+\DoxyCodeLine{285 }
+\DoxyCodeLine{286     uint64\_t m\_timestamp\_;}
+\DoxyCodeLine{287     uint8\_t m\_source\_protocol\_;}
+\DoxyCodeLine{288     uint64\_t m\_remote\_timestamp\_;}
+\DoxyCodeLine{289     int64\_t m\_observed\_offset\_;}
+\DoxyCodeLine{290     int64\_t m\_estimated\_offset\_;}
+\DoxyCodeLine{291     uint32\_t m\_round\_trip\_time\_;}
+\DoxyCodeLine{292 \};}
+\DoxyCodeLine{293 }
+\DoxyCodeLine{294 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_TIMESYNC\_STATUS\_H\_}}
+
+\end{DoxyCode}

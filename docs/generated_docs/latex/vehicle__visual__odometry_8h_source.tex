@@ -1,0 +1,274 @@
+\hypertarget{vehicle__visual__odometry_8h_source}{}\doxysection{vehicle\+\_\+visual\+\_\+odometry.\+h}
+\label{vehicle__visual__odometry_8h_source}\index{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/px4\_msg\_definitions/vehicle\_visual\_odometry.h@{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/px4\_msg\_definitions/vehicle\_visual\_odometry.h}}
+\mbox{\hyperlink{vehicle__visual__odometry_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{// Copyright 2016 Proyectos y Sistemas de Mantenimiento SL (eProsima).}}
+\DoxyCodeLine{2 \textcolor{comment}{//}}
+\DoxyCodeLine{3 \textcolor{comment}{// Licensed under the Apache License, Version 2.0 (the "{}License"{});}}
+\DoxyCodeLine{4 \textcolor{comment}{// you may not use this file except in compliance with the License.}}
+\DoxyCodeLine{5 \textcolor{comment}{// You may obtain a copy of the License at}}
+\DoxyCodeLine{6 \textcolor{comment}{//}}
+\DoxyCodeLine{7 \textcolor{comment}{//     http://www.apache.org/licenses/LICENSE-\/2.0}}
+\DoxyCodeLine{8 \textcolor{comment}{//}}
+\DoxyCodeLine{9 \textcolor{comment}{// Unless required by applicable law or agreed to in writing, software}}
+\DoxyCodeLine{10 \textcolor{comment}{// distributed under the License is distributed on an "{}AS IS"{} BASIS,}}
+\DoxyCodeLine{11 \textcolor{comment}{// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.}}
+\DoxyCodeLine{12 \textcolor{comment}{// See the License for the specific language governing permissions and}}
+\DoxyCodeLine{13 \textcolor{comment}{// limitations under the License.}}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{22 \textcolor{preprocessor}{\#ifndef \_VEHICLE\_VISUAL\_ODOMETRY\_H\_}}
+\DoxyCodeLine{23 \textcolor{preprocessor}{\#define \_VEHICLE\_VISUAL\_ODOMETRY\_H\_}}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25 }
+\DoxyCodeLine{26 \textcolor{preprocessor}{\#include <stdint.h>}}
+\DoxyCodeLine{27 \textcolor{preprocessor}{\#include <array>}}
+\DoxyCodeLine{28 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{29 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{30 \textcolor{preprocessor}{\#include <map>}}
+\DoxyCodeLine{31 \textcolor{preprocessor}{\#include <bitset>}}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{33 \textcolor{preprocessor}{\#if defined(\_WIN32)}}
+\DoxyCodeLine{34 \textcolor{preprocessor}{\#if defined(EPROSIMA\_USER\_DLL\_EXPORT)}}
+\DoxyCodeLine{35 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport \_\_declspec( dllexport )}}
+\DoxyCodeLine{36 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{37 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport}}
+\DoxyCodeLine{38 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// EPROSIMA\_USER\_DLL\_EXPORT}}
+\DoxyCodeLine{39 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{40 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport}}
+\DoxyCodeLine{41 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// \_WIN32}}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{43 \textcolor{preprocessor}{\#if defined(\_WIN32)}}
+\DoxyCodeLine{44 \textcolor{preprocessor}{\#if defined(EPROSIMA\_USER\_DLL\_EXPORT)}}
+\DoxyCodeLine{45 \textcolor{preprocessor}{\#if defined(vehicle\_visual\_odometry\_SOURCE)}}
+\DoxyCodeLine{46 \textcolor{preprocessor}{\#define vehicle\_visual\_odometry\_DllAPI \_\_declspec( dllexport )}}
+\DoxyCodeLine{47 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{48 \textcolor{preprocessor}{\#define vehicle\_visual\_odometry\_DllAPI \_\_declspec( dllimport )}}
+\DoxyCodeLine{49 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// vehicle\_visual\_odometry\_SOURCE}}
+\DoxyCodeLine{50 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{51 \textcolor{preprocessor}{\#define vehicle\_visual\_odometry\_DllAPI}}
+\DoxyCodeLine{52 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// EPROSIMA\_USER\_DLL\_EXPORT}}
+\DoxyCodeLine{53 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{54 \textcolor{preprocessor}{\#define vehicle\_visual\_odometry\_DllAPI}}
+\DoxyCodeLine{55 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_WIN32}}
+\DoxyCodeLine{56 }
+\DoxyCodeLine{57 \textcolor{keyword}{namespace }eprosima \{}
+\DoxyCodeLine{58 \textcolor{keyword}{namespace }fastcdr \{}
+\DoxyCodeLine{59 \textcolor{keyword}{class }Cdr;}
+\DoxyCodeLine{60 \} \textcolor{comment}{// namespace fastcdr}}
+\DoxyCodeLine{61 \} \textcolor{comment}{// namespace eprosima}}
+\DoxyCodeLine{62 }
+\DoxyCodeLine{63 }
+\DoxyCodeLine{64 \textcolor{keyword}{const} uint8\_t vehicle\_visual\_odometry\_\_COVARIANCE\_MATRIX\_X\_VARIANCE = 0;}
+\DoxyCodeLine{65 \textcolor{keyword}{const} uint8\_t vehicle\_visual\_odometry\_\_COVARIANCE\_MATRIX\_Y\_VARIANCE = 6;}
+\DoxyCodeLine{66 \textcolor{keyword}{const} uint8\_t vehicle\_visual\_odometry\_\_COVARIANCE\_MATRIX\_Z\_VARIANCE = 11;}
+\DoxyCodeLine{67 \textcolor{keyword}{const} uint8\_t vehicle\_visual\_odometry\_\_COVARIANCE\_MATRIX\_ROLL\_VARIANCE = 15;}
+\DoxyCodeLine{68 \textcolor{keyword}{const} uint8\_t vehicle\_visual\_odometry\_\_COVARIANCE\_MATRIX\_PITCH\_VARIANCE = 18;}
+\DoxyCodeLine{69 \textcolor{keyword}{const} uint8\_t vehicle\_visual\_odometry\_\_COVARIANCE\_MATRIX\_YAW\_VARIANCE = 20;}
+\DoxyCodeLine{70 \textcolor{keyword}{const} uint8\_t vehicle\_visual\_odometry\_\_COVARIANCE\_MATRIX\_VX\_VARIANCE = 0;}
+\DoxyCodeLine{71 \textcolor{keyword}{const} uint8\_t vehicle\_visual\_odometry\_\_COVARIANCE\_MATRIX\_VY\_VARIANCE = 6;}
+\DoxyCodeLine{72 \textcolor{keyword}{const} uint8\_t vehicle\_visual\_odometry\_\_COVARIANCE\_MATRIX\_VZ\_VARIANCE = 11;}
+\DoxyCodeLine{73 \textcolor{keyword}{const} uint8\_t vehicle\_visual\_odometry\_\_COVARIANCE\_MATRIX\_ROLLRATE\_VARIANCE = 15;}
+\DoxyCodeLine{74 \textcolor{keyword}{const} uint8\_t vehicle\_visual\_odometry\_\_COVARIANCE\_MATRIX\_PITCHRATE\_VARIANCE = 18;}
+\DoxyCodeLine{75 \textcolor{keyword}{const} uint8\_t vehicle\_visual\_odometry\_\_COVARIANCE\_MATRIX\_YAWRATE\_VARIANCE = 20;}
+\DoxyCodeLine{76 \textcolor{keyword}{const} uint8\_t vehicle\_visual\_odometry\_\_LOCAL\_FRAME\_NED = 0;}
+\DoxyCodeLine{77 \textcolor{keyword}{const} uint8\_t vehicle\_visual\_odometry\_\_LOCAL\_FRAME\_FRD = 1;}
+\DoxyCodeLine{78 \textcolor{keyword}{const} uint8\_t vehicle\_visual\_odometry\_\_LOCAL\_FRAME\_OTHER = 2;}
+\DoxyCodeLine{79 \textcolor{keyword}{const} uint8\_t vehicle\_visual\_odometry\_\_BODY\_FRAME\_FRD = 3;}
+\DoxyCodeLine{80 \textcolor{keyword}{typedef} std::array<float, 21> vehicle\_visual\_odometry\_\_float\_array\_21;}
+\DoxyCodeLine{81 \textcolor{keyword}{typedef} std::array<float, 4> vehicle\_visual\_odometry\_\_float\_array\_4;}
+\DoxyCodeLine{86 \textcolor{keyword}{class }\mbox{\hyperlink{classvehicle__visual__odometry}{vehicle\_visual\_odometry}}}
+\DoxyCodeLine{87 \{}
+\DoxyCodeLine{88 \textcolor{keyword}{public}:}
+\DoxyCodeLine{89 }
+\DoxyCodeLine{93     eProsima\_user\_DllExport \mbox{\hyperlink{classvehicle__visual__odometry_abf03dbda8071e4443d15d46c249971ae}{vehicle\_visual\_odometry}}();}
+\DoxyCodeLine{94 }
+\DoxyCodeLine{98     eProsima\_user\_DllExport \mbox{\hyperlink{classvehicle__visual__odometry_a1582e1e285b3507d4f7bfc0b63651f8a}{\string~vehicle\_visual\_odometry}}();}
+\DoxyCodeLine{99 }
+\DoxyCodeLine{104     eProsima\_user\_DllExport \mbox{\hyperlink{classvehicle__visual__odometry_abf03dbda8071e4443d15d46c249971ae}{vehicle\_visual\_odometry}}(}
+\DoxyCodeLine{105             \textcolor{keyword}{const} \mbox{\hyperlink{classvehicle__visual__odometry}{vehicle\_visual\_odometry}}\& x);}
+\DoxyCodeLine{106 }
+\DoxyCodeLine{111     eProsima\_user\_DllExport \mbox{\hyperlink{classvehicle__visual__odometry_abf03dbda8071e4443d15d46c249971ae}{vehicle\_visual\_odometry}}(}
+\DoxyCodeLine{112             \mbox{\hyperlink{classvehicle__visual__odometry}{vehicle\_visual\_odometry}}\&\& x);}
+\DoxyCodeLine{113 }
+\DoxyCodeLine{118     eProsima\_user\_DllExport \mbox{\hyperlink{classvehicle__visual__odometry}{vehicle\_visual\_odometry}}\& \mbox{\hyperlink{classvehicle__visual__odometry_ac730e7b33158cc39ac830f1fc75bced1}{operator =}}(}
+\DoxyCodeLine{119             \textcolor{keyword}{const} \mbox{\hyperlink{classvehicle__visual__odometry}{vehicle\_visual\_odometry}}\& x);}
+\DoxyCodeLine{120 }
+\DoxyCodeLine{125     eProsima\_user\_DllExport \mbox{\hyperlink{classvehicle__visual__odometry}{vehicle\_visual\_odometry}}\& \mbox{\hyperlink{classvehicle__visual__odometry_ac730e7b33158cc39ac830f1fc75bced1}{operator =}}(}
+\DoxyCodeLine{126             \mbox{\hyperlink{classvehicle__visual__odometry}{vehicle\_visual\_odometry}}\&\& x);}
+\DoxyCodeLine{127 }
+\DoxyCodeLine{132     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__visual__odometry_a3f05a449ee07d4769af2c08005c14593}{timestamp\_}}(}
+\DoxyCodeLine{133             uint64\_t \_timestamp\_);}
+\DoxyCodeLine{134 }
+\DoxyCodeLine{139     eProsima\_user\_DllExport uint64\_t \mbox{\hyperlink{classvehicle__visual__odometry_a3f05a449ee07d4769af2c08005c14593}{timestamp\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{140 }
+\DoxyCodeLine{145     eProsima\_user\_DllExport uint64\_t\& \mbox{\hyperlink{classvehicle__visual__odometry_a3f05a449ee07d4769af2c08005c14593}{timestamp\_}}();}
+\DoxyCodeLine{146 }
+\DoxyCodeLine{151     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__visual__odometry_a449be7c7d5a193fdae0dc6ad6069eea6}{timestamp\_sample\_}}(}
+\DoxyCodeLine{152             uint64\_t \_timestamp\_sample\_);}
+\DoxyCodeLine{153 }
+\DoxyCodeLine{158     eProsima\_user\_DllExport uint64\_t \mbox{\hyperlink{classvehicle__visual__odometry_a449be7c7d5a193fdae0dc6ad6069eea6}{timestamp\_sample\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{159 }
+\DoxyCodeLine{164     eProsima\_user\_DllExport uint64\_t\& \mbox{\hyperlink{classvehicle__visual__odometry_a449be7c7d5a193fdae0dc6ad6069eea6}{timestamp\_sample\_}}();}
+\DoxyCodeLine{165 }
+\DoxyCodeLine{170     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__visual__odometry_af53be40153371991841b88330f801a42}{local\_frame\_}}(}
+\DoxyCodeLine{171             uint8\_t \_local\_frame\_);}
+\DoxyCodeLine{172 }
+\DoxyCodeLine{177     eProsima\_user\_DllExport uint8\_t \mbox{\hyperlink{classvehicle__visual__odometry_af53be40153371991841b88330f801a42}{local\_frame\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{178 }
+\DoxyCodeLine{183     eProsima\_user\_DllExport uint8\_t\& \mbox{\hyperlink{classvehicle__visual__odometry_af53be40153371991841b88330f801a42}{local\_frame\_}}();}
+\DoxyCodeLine{184 }
+\DoxyCodeLine{189     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__visual__odometry_a327407148bc9e131fb15c2efa166feca}{x\_}}(}
+\DoxyCodeLine{190             \textcolor{keywordtype}{float} \_x\_);}
+\DoxyCodeLine{191 }
+\DoxyCodeLine{196     eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classvehicle__visual__odometry_a327407148bc9e131fb15c2efa166feca}{x\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{197 }
+\DoxyCodeLine{202     eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classvehicle__visual__odometry_a327407148bc9e131fb15c2efa166feca}{x\_}}();}
+\DoxyCodeLine{203 }
+\DoxyCodeLine{208     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__visual__odometry_afc1a86efe479276a5da68157e78f6e6b}{y\_}}(}
+\DoxyCodeLine{209             \textcolor{keywordtype}{float} \_y\_);}
+\DoxyCodeLine{210 }
+\DoxyCodeLine{215     eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classvehicle__visual__odometry_afc1a86efe479276a5da68157e78f6e6b}{y\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{216 }
+\DoxyCodeLine{221     eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classvehicle__visual__odometry_afc1a86efe479276a5da68157e78f6e6b}{y\_}}();}
+\DoxyCodeLine{222 }
+\DoxyCodeLine{227     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__visual__odometry_a9eff3ea1e01c5246b6046552316fb23d}{z\_}}(}
+\DoxyCodeLine{228             \textcolor{keywordtype}{float} \_z\_);}
+\DoxyCodeLine{229 }
+\DoxyCodeLine{234     eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classvehicle__visual__odometry_a9eff3ea1e01c5246b6046552316fb23d}{z\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{235 }
+\DoxyCodeLine{240     eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classvehicle__visual__odometry_a9eff3ea1e01c5246b6046552316fb23d}{z\_}}();}
+\DoxyCodeLine{241 }
+\DoxyCodeLine{246     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__visual__odometry_ac4769f22679c1403dc6de6b83963b924}{q}}(}
+\DoxyCodeLine{247             \textcolor{keyword}{const} vehicle\_visual\_odometry\_\_float\_array\_4\& \_q);}
+\DoxyCodeLine{248 }
+\DoxyCodeLine{253     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__visual__odometry_ac4769f22679c1403dc6de6b83963b924}{q}}(}
+\DoxyCodeLine{254             vehicle\_visual\_odometry\_\_float\_array\_4\&\& \_q);}
+\DoxyCodeLine{255 }
+\DoxyCodeLine{260     eProsima\_user\_DllExport \textcolor{keyword}{const} vehicle\_visual\_odometry\_\_float\_array\_4\& \mbox{\hyperlink{classvehicle__visual__odometry_ac4769f22679c1403dc6de6b83963b924}{q}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{261 }
+\DoxyCodeLine{266     eProsima\_user\_DllExport vehicle\_visual\_odometry\_\_float\_array\_4\& \mbox{\hyperlink{classvehicle__visual__odometry_ac4769f22679c1403dc6de6b83963b924}{q}}();}
+\DoxyCodeLine{271     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__visual__odometry_a039e41fcbc85028a41925da5fc933c20}{q\_offset}}(}
+\DoxyCodeLine{272             \textcolor{keyword}{const} vehicle\_visual\_odometry\_\_float\_array\_4\& \_q\_offset);}
+\DoxyCodeLine{273 }
+\DoxyCodeLine{278     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__visual__odometry_a039e41fcbc85028a41925da5fc933c20}{q\_offset}}(}
+\DoxyCodeLine{279             vehicle\_visual\_odometry\_\_float\_array\_4\&\& \_q\_offset);}
+\DoxyCodeLine{280 }
+\DoxyCodeLine{285     eProsima\_user\_DllExport \textcolor{keyword}{const} vehicle\_visual\_odometry\_\_float\_array\_4\& \mbox{\hyperlink{classvehicle__visual__odometry_a039e41fcbc85028a41925da5fc933c20}{q\_offset}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{286 }
+\DoxyCodeLine{291     eProsima\_user\_DllExport vehicle\_visual\_odometry\_\_float\_array\_4\& \mbox{\hyperlink{classvehicle__visual__odometry_a039e41fcbc85028a41925da5fc933c20}{q\_offset}}();}
+\DoxyCodeLine{296     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__visual__odometry_af8212322a2559fbe79becfe1cdf7bbeb}{pose\_covariance}}(}
+\DoxyCodeLine{297             \textcolor{keyword}{const} vehicle\_visual\_odometry\_\_float\_array\_21\& \_pose\_covariance);}
+\DoxyCodeLine{298 }
+\DoxyCodeLine{303     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__visual__odometry_af8212322a2559fbe79becfe1cdf7bbeb}{pose\_covariance}}(}
+\DoxyCodeLine{304             vehicle\_visual\_odometry\_\_float\_array\_21\&\& \_pose\_covariance);}
+\DoxyCodeLine{305 }
+\DoxyCodeLine{310     eProsima\_user\_DllExport \textcolor{keyword}{const} vehicle\_visual\_odometry\_\_float\_array\_21\& \mbox{\hyperlink{classvehicle__visual__odometry_af8212322a2559fbe79becfe1cdf7bbeb}{pose\_covariance}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{311 }
+\DoxyCodeLine{316     eProsima\_user\_DllExport vehicle\_visual\_odometry\_\_float\_array\_21\& \mbox{\hyperlink{classvehicle__visual__odometry_af8212322a2559fbe79becfe1cdf7bbeb}{pose\_covariance}}();}
+\DoxyCodeLine{321     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__visual__odometry_a621cd42dd70e0b5cf80935f2b461a017}{velocity\_frame\_}}(}
+\DoxyCodeLine{322             uint8\_t \_velocity\_frame\_);}
+\DoxyCodeLine{323 }
+\DoxyCodeLine{328     eProsima\_user\_DllExport uint8\_t \mbox{\hyperlink{classvehicle__visual__odometry_a621cd42dd70e0b5cf80935f2b461a017}{velocity\_frame\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{329 }
+\DoxyCodeLine{334     eProsima\_user\_DllExport uint8\_t\& \mbox{\hyperlink{classvehicle__visual__odometry_a621cd42dd70e0b5cf80935f2b461a017}{velocity\_frame\_}}();}
+\DoxyCodeLine{335 }
+\DoxyCodeLine{340     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__visual__odometry_ac58b8ca5b68b8ac86d184bb48be3f460}{vx\_}}(}
+\DoxyCodeLine{341             \textcolor{keywordtype}{float} \_vx\_);}
+\DoxyCodeLine{342 }
+\DoxyCodeLine{347     eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classvehicle__visual__odometry_ac58b8ca5b68b8ac86d184bb48be3f460}{vx\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{348 }
+\DoxyCodeLine{353     eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classvehicle__visual__odometry_ac58b8ca5b68b8ac86d184bb48be3f460}{vx\_}}();}
+\DoxyCodeLine{354 }
+\DoxyCodeLine{359     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__visual__odometry_a960723d85b9f5080e32f36bc143658ae}{vy\_}}(}
+\DoxyCodeLine{360             \textcolor{keywordtype}{float} \_vy\_);}
+\DoxyCodeLine{361 }
+\DoxyCodeLine{366     eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classvehicle__visual__odometry_a960723d85b9f5080e32f36bc143658ae}{vy\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{367 }
+\DoxyCodeLine{372     eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classvehicle__visual__odometry_a960723d85b9f5080e32f36bc143658ae}{vy\_}}();}
+\DoxyCodeLine{373 }
+\DoxyCodeLine{378     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__visual__odometry_ade37c5bba440b25f925b1ef7306bc940}{vz\_}}(}
+\DoxyCodeLine{379             \textcolor{keywordtype}{float} \_vz\_);}
+\DoxyCodeLine{380 }
+\DoxyCodeLine{385     eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classvehicle__visual__odometry_ade37c5bba440b25f925b1ef7306bc940}{vz\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{386 }
+\DoxyCodeLine{391     eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classvehicle__visual__odometry_ade37c5bba440b25f925b1ef7306bc940}{vz\_}}();}
+\DoxyCodeLine{392 }
+\DoxyCodeLine{397     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__visual__odometry_ae5b839c8e86b1c27e1d29f097137066c}{rollspeed\_}}(}
+\DoxyCodeLine{398             \textcolor{keywordtype}{float} \_rollspeed\_);}
+\DoxyCodeLine{399 }
+\DoxyCodeLine{404     eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classvehicle__visual__odometry_ae5b839c8e86b1c27e1d29f097137066c}{rollspeed\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{405 }
+\DoxyCodeLine{410     eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classvehicle__visual__odometry_ae5b839c8e86b1c27e1d29f097137066c}{rollspeed\_}}();}
+\DoxyCodeLine{411 }
+\DoxyCodeLine{416     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__visual__odometry_acc999bf4a0f6cd57b9d119841d690da5}{pitchspeed\_}}(}
+\DoxyCodeLine{417             \textcolor{keywordtype}{float} \_pitchspeed\_);}
+\DoxyCodeLine{418 }
+\DoxyCodeLine{423     eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classvehicle__visual__odometry_acc999bf4a0f6cd57b9d119841d690da5}{pitchspeed\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{424 }
+\DoxyCodeLine{429     eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classvehicle__visual__odometry_acc999bf4a0f6cd57b9d119841d690da5}{pitchspeed\_}}();}
+\DoxyCodeLine{430 }
+\DoxyCodeLine{435     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__visual__odometry_a1b592fd561abcf6828dc7561a0259fdb}{yawspeed\_}}(}
+\DoxyCodeLine{436             \textcolor{keywordtype}{float} \_yawspeed\_);}
+\DoxyCodeLine{437 }
+\DoxyCodeLine{442     eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classvehicle__visual__odometry_a1b592fd561abcf6828dc7561a0259fdb}{yawspeed\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{443 }
+\DoxyCodeLine{448     eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classvehicle__visual__odometry_a1b592fd561abcf6828dc7561a0259fdb}{yawspeed\_}}();}
+\DoxyCodeLine{449 }
+\DoxyCodeLine{454     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__visual__odometry_a6069d153754e2a6579676a320d502215}{velocity\_covariance}}(}
+\DoxyCodeLine{455             \textcolor{keyword}{const} vehicle\_visual\_odometry\_\_float\_array\_21\& \_velocity\_covariance);}
+\DoxyCodeLine{456 }
+\DoxyCodeLine{461     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__visual__odometry_a6069d153754e2a6579676a320d502215}{velocity\_covariance}}(}
+\DoxyCodeLine{462             vehicle\_visual\_odometry\_\_float\_array\_21\&\& \_velocity\_covariance);}
+\DoxyCodeLine{463 }
+\DoxyCodeLine{468     eProsima\_user\_DllExport \textcolor{keyword}{const} vehicle\_visual\_odometry\_\_float\_array\_21\& \mbox{\hyperlink{classvehicle__visual__odometry_a6069d153754e2a6579676a320d502215}{velocity\_covariance}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{469 }
+\DoxyCodeLine{474     eProsima\_user\_DllExport vehicle\_visual\_odometry\_\_float\_array\_21\& \mbox{\hyperlink{classvehicle__visual__odometry_a6069d153754e2a6579676a320d502215}{velocity\_covariance}}();}
+\DoxyCodeLine{475 }
+\DoxyCodeLine{482     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classvehicle__visual__odometry_a237925e772187438c88976918adff4bd}{getMaxCdrSerializedSize}}(}
+\DoxyCodeLine{483             \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{484 }
+\DoxyCodeLine{491     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classvehicle__visual__odometry_ad8a075f3c2ea1f9027ad17f9710c4229}{getCdrSerializedSize}}(}
+\DoxyCodeLine{492             \textcolor{keyword}{const} \mbox{\hyperlink{classvehicle__visual__odometry}{vehicle\_visual\_odometry}}\& data,}
+\DoxyCodeLine{493             \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{494 }
+\DoxyCodeLine{495 }
+\DoxyCodeLine{500     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__visual__odometry_a3aba033f0d21ac0bc46d5860a7012a44}{serialize}}(}
+\DoxyCodeLine{501             eprosima::fastcdr::Cdr\& cdr) \textcolor{keyword}{const};}
+\DoxyCodeLine{502 }
+\DoxyCodeLine{507     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__visual__odometry_a5ef9fe4f405c69a077076bd3e7ab0d20}{deserialize}}(}
+\DoxyCodeLine{508             eprosima::fastcdr::Cdr\& cdr);}
+\DoxyCodeLine{509 }
+\DoxyCodeLine{510 }
+\DoxyCodeLine{511 }
+\DoxyCodeLine{518     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classvehicle__visual__odometry_a5a5581d7de973f45bac01b4c4330a3c1}{getKeyMaxCdrSerializedSize}}(}
+\DoxyCodeLine{519             \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{520 }
+\DoxyCodeLine{524     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{bool} \mbox{\hyperlink{classvehicle__visual__odometry_aad92447df97bc91e0bf99d06bb04d80a}{isKeyDefined}}();}
+\DoxyCodeLine{525 }
+\DoxyCodeLine{530     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classvehicle__visual__odometry_ad6b2ff573bea2509ad7453a8b6565c85}{serializeKey}}(}
+\DoxyCodeLine{531             eprosima::fastcdr::Cdr\& cdr) \textcolor{keyword}{const};}
+\DoxyCodeLine{532 }
+\DoxyCodeLine{533 \textcolor{keyword}{private}:}
+\DoxyCodeLine{534 }
+\DoxyCodeLine{535     uint64\_t m\_timestamp\_;}
+\DoxyCodeLine{536     uint64\_t m\_timestamp\_sample\_;}
+\DoxyCodeLine{537     uint8\_t m\_local\_frame\_;}
+\DoxyCodeLine{538     \textcolor{keywordtype}{float} m\_x\_;}
+\DoxyCodeLine{539     \textcolor{keywordtype}{float} m\_y\_;}
+\DoxyCodeLine{540     \textcolor{keywordtype}{float} m\_z\_;}
+\DoxyCodeLine{541     vehicle\_visual\_odometry\_\_float\_array\_4 m\_q;}
+\DoxyCodeLine{542     vehicle\_visual\_odometry\_\_float\_array\_4 m\_q\_offset;}
+\DoxyCodeLine{543     vehicle\_visual\_odometry\_\_float\_array\_21 m\_pose\_covariance;}
+\DoxyCodeLine{544     uint8\_t m\_velocity\_frame\_;}
+\DoxyCodeLine{545     \textcolor{keywordtype}{float} m\_vx\_;}
+\DoxyCodeLine{546     \textcolor{keywordtype}{float} m\_vy\_;}
+\DoxyCodeLine{547     \textcolor{keywordtype}{float} m\_vz\_;}
+\DoxyCodeLine{548     \textcolor{keywordtype}{float} m\_rollspeed\_;}
+\DoxyCodeLine{549     \textcolor{keywordtype}{float} m\_pitchspeed\_;}
+\DoxyCodeLine{550     \textcolor{keywordtype}{float} m\_yawspeed\_;}
+\DoxyCodeLine{551     vehicle\_visual\_odometry\_\_float\_array\_21 m\_velocity\_covariance;}
+\DoxyCodeLine{552 \};}
+\DoxyCodeLine{553 }
+\DoxyCodeLine{554 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_VEHICLE\_VISUAL\_ODOMETRY\_H\_}}
+
+\end{DoxyCode}

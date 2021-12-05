@@ -1,0 +1,62 @@
+\hypertarget{classdebug__array_pub_sub_type}{}\doxysection{debug\+\_\+array\+Pub\+Sub\+Type Class Reference}
+\label{classdebug__array_pub_sub_type}\index{debug\_arrayPubSubType@{debug\_arrayPubSubType}}
+
+
+This class represents the Topic\+Data\+Type of the type \mbox{\hyperlink{classdebug__array}{debug\+\_\+array}} defined by the user in the IDL file.  
+
+
+
+
+{\ttfamily \#include $<$debug\+\_\+array\+Pub\+Sub\+Types.\+h$>$}
+
+Inheritance diagram for debug\+\_\+array\+Pub\+Sub\+Type\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classdebug__array_pub_sub_type}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classdebug__array_pub_sub_type_ae3c64f362d66112d870f8e2ac981086e}\label{classdebug__array_pub_sub_type_ae3c64f362d66112d870f8e2ac981086e}} 
+typedef \mbox{\hyperlink{classdebug__array}{debug\+\_\+array}} {\bfseries type}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classdebug__array_pub_sub_type_ae513fbe631611170a694ceb6fe12100f}\label{classdebug__array_pub_sub_type_ae513fbe631611170a694ceb6fe12100f}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export bool {\bfseries serialize} (void $\ast$data, eprosima\+::fastrtps\+::rtps\+::\+Serialized\+Payload\+\_\+t $\ast$payload) override
+\item 
+\mbox{\Hypertarget{classdebug__array_pub_sub_type_acb82f4e21bb7b9227851cc31fd9f6b06}\label{classdebug__array_pub_sub_type_acb82f4e21bb7b9227851cc31fd9f6b06}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export bool {\bfseries deserialize} (eprosima\+::fastrtps\+::rtps\+::\+Serialized\+Payload\+\_\+t $\ast$payload, void $\ast$data) override
+\item 
+\mbox{\Hypertarget{classdebug__array_pub_sub_type_a2d15a817a7921e6889ad802e14cf14ad}\label{classdebug__array_pub_sub_type_a2d15a817a7921e6889ad802e14cf14ad}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export std\+::function$<$ uint32\+\_\+t()$>$ {\bfseries get\+Serialized\+Size\+Provider} (void $\ast$data) override
+\item 
+\mbox{\Hypertarget{classdebug__array_pub_sub_type_ae5cc99b3e8570658a153f3e3d379d287}\label{classdebug__array_pub_sub_type_ae5cc99b3e8570658a153f3e3d379d287}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export bool {\bfseries get\+Key} (void $\ast$data, eprosima\+::fastrtps\+::rtps\+::\+Instance\+Handle\+\_\+t $\ast$ihandle, bool force\+\_\+md5=false) override
+\item 
+\mbox{\Hypertarget{classdebug__array_pub_sub_type_a5cc1d81ecfa96bddb3b02cb25444027b}\label{classdebug__array_pub_sub_type_a5cc1d81ecfa96bddb3b02cb25444027b}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export void $\ast$ {\bfseries create\+Data} () override
+\item 
+\mbox{\Hypertarget{classdebug__array_pub_sub_type_af441586c2b5e6a020933280cf4e41d0b}\label{classdebug__array_pub_sub_type_af441586c2b5e6a020933280cf4e41d0b}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export void {\bfseries delete\+Data} (void $\ast$data) override
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classdebug__array_pub_sub_type_a90252dd64dcd16426512cee322a9a500}\label{classdebug__array_pub_sub_type_a90252dd64dcd16426512cee322a9a500}} 
+MD5 {\bfseries m\+\_\+md5}
+\item 
+\mbox{\Hypertarget{classdebug__array_pub_sub_type_a15f6623d80fa54d90a4f358dc12a7013}\label{classdebug__array_pub_sub_type_a15f6623d80fa54d90a4f358dc12a7013}} 
+unsigned char $\ast$ {\bfseries m\+\_\+key\+Buffer}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class represents the Topic\+Data\+Type of the type \mbox{\hyperlink{classdebug__array}{debug\+\_\+array}} defined by the user in the IDL file. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/sarathmenon/\+Desktop/eth\+\_\+soft/code/\+Communication/libraries/communication\+\_\+lib/fastdds\+\_\+lib/fastddsgen\+\_\+generated\+\_\+files/px4\+\_\+msg\+\_\+definitions/\mbox{\hyperlink{debug__array_pub_sub_types_8h}{debug\+\_\+array\+Pub\+Sub\+Types.\+h}}\item 
+/\+Users/sarathmenon/\+Desktop/eth\+\_\+soft/code/\+Communication/libraries/communication\+\_\+lib/fastdds\+\_\+lib/fastddsgen\+\_\+generated\+\_\+files/px4\+\_\+msg\+\_\+definitions/debug\+\_\+array\+Pub\+Sub\+Types.\+cxx\end{DoxyCompactItemize}

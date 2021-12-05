@@ -1,0 +1,614 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classdebug__value" kind="class" language="C++" prot="public">
+    <compoundname>debug_value</compoundname>
+    <includes refid="debug__value_8h" local="no">debug_value.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classdebug__value_1a7fa8c8ba37c92c7e7351b79a1e889071" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t debug_value::m_timestamp_</definition>
+        <argsstring></argsstring>
+        <name>m_timestamp_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.h" line="227" column="14" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.h" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdebug__value_1a5f48cadc415b69e0db99816b49d75c40" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t debug_value::m_ind_</definition>
+        <argsstring></argsstring>
+        <name>m_ind_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.h" line="228" column="13" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.h" bodystart="228" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classdebug__value_1a24b13595357105d9fdab23ad44f44dda" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float debug_value::m_value_</definition>
+        <argsstring></argsstring>
+        <name>m_value_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.h" line="229" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.h" bodystart="229" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdebug__value_1acca17683142d22935bc130c5e7ca0fc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>debug_value::debug_value</definition>
+        <argsstring>()</argsstring>
+        <name>debug_value</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.h" line="75" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.cxx" bodystart="37" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classdebug__value_1a7520ed1fbf1fd276c6b96b7267e334fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>debug_value::~debug_value</definition>
+        <argsstring>()</argsstring>
+        <name>~debug_value</name>
+        <briefdescription>
+<para>Default destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.h" line="80" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.cxx" bodystart="48" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classdebug__value_1a02492ae3ed4ba19f2efabc29cd844e2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>debug_value::debug_value</definition>
+        <argsstring>(const debug_value &amp;x)</argsstring>
+        <name>debug_value</name>
+        <param>
+          <type>const <ref refid="classdebug__value" kindref="compound">debug_value</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classdebug__value" kindref="compound">debug_value</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.h" line="86" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.cxx" bodystart="55" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classdebug__value_1a80d147f9ae395343e72f28948cf18312" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>debug_value::debug_value</definition>
+        <argsstring>(debug_value &amp;&amp;x)</argsstring>
+        <name>debug_value</name>
+        <param>
+          <type><ref refid="classdebug__value" kindref="compound">debug_value</ref> &amp;&amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Move constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classdebug__value" kindref="compound">debug_value</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.h" line="93" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.cxx" bodystart="63" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classdebug__value_1a757fb33e2bf7c510b199d5a643102eaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport <ref refid="classdebug__value" kindref="compound">debug_value</ref> &amp;</type>
+        <definition>debug_value &amp; debug_value::operator=</definition>
+        <argsstring>(const debug_value &amp;x)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classdebug__value" kindref="compound">debug_value</ref> &amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Copy assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classdebug__value" kindref="compound">debug_value</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.h" line="100" column="41" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.cxx" bodystart="71" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classdebug__value_1a81521a12d8f8be8d0a394bc456203276" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport <ref refid="classdebug__value" kindref="compound">debug_value</ref> &amp;</type>
+        <definition>debug_value &amp; debug_value::operator=</definition>
+        <argsstring>(debug_value &amp;&amp;x)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classdebug__value" kindref="compound">debug_value</ref> &amp;&amp;</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Move assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Reference to the object <ref refid="classdebug__value" kindref="compound">debug_value</ref> that will be copied. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.h" line="107" column="41" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.cxx" bodystart="82" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classdebug__value_1ad11df15ade95035c56557604462850af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void debug_value::timestamp_</definition>
+        <argsstring>(uint64_t _timestamp_)</argsstring>
+        <name>timestamp_</name>
+        <param>
+          <type>uint64_t</type>
+          <declname>_timestamp_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;timestamp&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member timestamp_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.h" line="114" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.cxx" bodystart="156" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="classdebug__value_1aaaed886bf6fb225601a53126489a5ad4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint64_t</type>
+        <definition>uint64_t debug_value::timestamp_</definition>
+        <argsstring>() const</argsstring>
+        <name>timestamp_</name>
+        <briefdescription>
+<para>This function returns the value of member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member timestamp_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.h" line="121" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.cxx" bodystart="166" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="classdebug__value_1afe41ebe158dbcbb1440651df5b775574" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint64_t &amp;</type>
+        <definition>uint64_t &amp; debug_value::timestamp_</definition>
+        <argsstring>()</argsstring>
+        <name>timestamp_</name>
+        <briefdescription>
+<para>This function returns a reference to member timestamp_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member timestamp_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.h" line="127" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.cxx" bodystart="175" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="classdebug__value_1a9b2572426558577ff950c5dcc45b835a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void debug_value::ind_</definition>
+        <argsstring>(uint8_t _ind_)</argsstring>
+        <name>ind_</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>_ind_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member ind_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;ind&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member ind_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.h" line="133" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.cxx" bodystart="184" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="classdebug__value_1a1051a18f880a80eaae097d98c4126921" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint8_t</type>
+        <definition>uint8_t debug_value::ind_</definition>
+        <argsstring>() const</argsstring>
+        <name>ind_</name>
+        <briefdescription>
+<para>This function returns the value of member ind_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member ind_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.h" line="140" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.cxx" bodystart="194" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="classdebug__value_1a8ea594a53e840a35f3f41f9dc73d4e99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport uint8_t &amp;</type>
+        <definition>uint8_t &amp; debug_value::ind_</definition>
+        <argsstring>()</argsstring>
+        <name>ind_</name>
+        <briefdescription>
+<para>This function returns a reference to member ind_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member ind_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.h" line="146" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.cxx" bodystart="203" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="classdebug__value_1a0f719cf82a94862d9db339f3403752c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void debug_value::value_</definition>
+        <argsstring>(float _value_)</argsstring>
+        <name>value_</name>
+        <param>
+          <type>float</type>
+          <declname>_value_</declname>
+        </param>
+        <briefdescription>
+<para>This function sets a value in member value_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>&lt;em&gt;value&lt;/em&gt;</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member value_ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.h" line="152" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.cxx" bodystart="212" bodyend="216"/>
+      </memberdef>
+      <memberdef kind="function" id="classdebug__value_1afe3c84e296f0f49105384f4d15181417" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float</type>
+        <definition>float debug_value::value_</definition>
+        <argsstring>() const</argsstring>
+        <name>value_</name>
+        <briefdescription>
+<para>This function returns the value of member value_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Value of member value_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.h" line="159" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.cxx" bodystart="222" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="classdebug__value_1adb763efecbff6e1a38cc798259e2445b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport float &amp;</type>
+        <definition>float &amp; debug_value::value_</definition>
+        <argsstring>()</argsstring>
+        <name>value_</name>
+        <briefdescription>
+<para>This function returns a reference to member value_. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Reference to member value_ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.h" line="165" column="35" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.cxx" bodystart="231" bodyend="234"/>
+      </memberdef>
+      <memberdef kind="function" id="classdebug__value_1a4b1ec8723ce0831aacab64770a6e50ad" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void debug_value::serialize</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr) const</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function serializes an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.h" line="192" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.cxx" bodystart="133" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="classdebug__value_1abd8e6fad7f02185d6e411205df9280d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void debug_value::deserialize</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr)</argsstring>
+        <name>deserialize</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function deserializes an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.h" line="199" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.cxx" bodystart="143" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="classdebug__value_1a91cd306cb62842773fb8ffb13cb4d272" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void debug_value::serializeKey</definition>
+        <argsstring>(eprosima::fastcdr::Cdr &amp;cdr) const</argsstring>
+        <name>serializeKey</name>
+        <param>
+          <type>eprosima::fastcdr::Cdr &amp;</type>
+          <declname>cdr</declname>
+        </param>
+        <briefdescription>
+<para>This function serializes the key members of an object using CDR serialization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cdr</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>CDR serialization object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.h" line="222" column="34" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.cxx" bodystart="255" bodyend="260"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classdebug__value_1acc4a44dc5be0ef4454be0c79679a43bc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t debug_value::getMaxCdrSerializedSize</definition>
+        <argsstring>(size_t current_alignment=0)</argsstring>
+        <name>getMaxCdrSerializedSize</name>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the maximum serialized size of an object depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Maximum serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.h" line="174" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.cxx" bodystart="93" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classdebug__value_1af901da8df0af7db5cf00e438f07fb7d1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t debug_value::getCdrSerializedSize</definition>
+        <argsstring>(const debug_value &amp;data, size_t current_alignment=0)</argsstring>
+        <name>getCdrSerializedSize</name>
+        <param>
+          <type>const <ref refid="classdebug__value" kindref="compound">debug_value</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the serialized size of a data depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data which is calculated its serialized size. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.h" line="183" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.cxx" bodystart="112" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classdebug__value_1aa247cebb8d8df2b6e048e6567eff62c9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport size_t</type>
+        <definition>size_t debug_value::getKeyMaxCdrSerializedSize</definition>
+        <argsstring>(size_t current_alignment=0)</argsstring>
+        <name>getKeyMaxCdrSerializedSize</name>
+        <param>
+          <type>size_t</type>
+          <declname>current_alignment</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>This function returns the maximum serialized size of the Key of an object depending on the buffer alignment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>current_alignment</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Buffer alignment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Maximum serialized size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.h" line="210" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.cxx" bodystart="237" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="classdebug__value_1aa4925af81634ccb9bfdb9a0476361e1c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool debug_value::isKeyDefined</definition>
+        <argsstring>()</argsstring>
+        <name>isKeyDefined</name>
+        <briefdescription>
+<para>This function tells you if the Key has been defined for this type. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.h" line="216" column="41" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.cxx" bodystart="250" bodyend="253"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents the structure <ref refid="classdebug__value" kindref="compound">debug_value</ref> defined by the user in the IDL file. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.h" line="68" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/debug_value.h" bodystart="69" bodyend="230"/>
+    <listofallmembers>
+      <member refid="classdebug__value_1acca17683142d22935bc130c5e7ca0fc2" prot="public" virt="non-virtual"><scope>debug_value</scope><name>debug_value</name></member>
+      <member refid="classdebug__value_1a02492ae3ed4ba19f2efabc29cd844e2f" prot="public" virt="non-virtual"><scope>debug_value</scope><name>debug_value</name></member>
+      <member refid="classdebug__value_1a80d147f9ae395343e72f28948cf18312" prot="public" virt="non-virtual"><scope>debug_value</scope><name>debug_value</name></member>
+      <member refid="classdebug__value_1abd8e6fad7f02185d6e411205df9280d9" prot="public" virt="non-virtual"><scope>debug_value</scope><name>deserialize</name></member>
+      <member refid="classdebug__value_1af901da8df0af7db5cf00e438f07fb7d1" prot="public" virt="non-virtual"><scope>debug_value</scope><name>getCdrSerializedSize</name></member>
+      <member refid="classdebug__value_1aa247cebb8d8df2b6e048e6567eff62c9" prot="public" virt="non-virtual"><scope>debug_value</scope><name>getKeyMaxCdrSerializedSize</name></member>
+      <member refid="classdebug__value_1acc4a44dc5be0ef4454be0c79679a43bc" prot="public" virt="non-virtual"><scope>debug_value</scope><name>getMaxCdrSerializedSize</name></member>
+      <member refid="classdebug__value_1a9b2572426558577ff950c5dcc45b835a" prot="public" virt="non-virtual"><scope>debug_value</scope><name>ind_</name></member>
+      <member refid="classdebug__value_1a1051a18f880a80eaae097d98c4126921" prot="public" virt="non-virtual"><scope>debug_value</scope><name>ind_</name></member>
+      <member refid="classdebug__value_1a8ea594a53e840a35f3f41f9dc73d4e99" prot="public" virt="non-virtual"><scope>debug_value</scope><name>ind_</name></member>
+      <member refid="classdebug__value_1aa4925af81634ccb9bfdb9a0476361e1c" prot="public" virt="non-virtual"><scope>debug_value</scope><name>isKeyDefined</name></member>
+      <member refid="classdebug__value_1a5f48cadc415b69e0db99816b49d75c40" prot="private" virt="non-virtual"><scope>debug_value</scope><name>m_ind_</name></member>
+      <member refid="classdebug__value_1a7fa8c8ba37c92c7e7351b79a1e889071" prot="private" virt="non-virtual"><scope>debug_value</scope><name>m_timestamp_</name></member>
+      <member refid="classdebug__value_1a24b13595357105d9fdab23ad44f44dda" prot="private" virt="non-virtual"><scope>debug_value</scope><name>m_value_</name></member>
+      <member refid="classdebug__value_1a757fb33e2bf7c510b199d5a643102eaf" prot="public" virt="non-virtual"><scope>debug_value</scope><name>operator=</name></member>
+      <member refid="classdebug__value_1a81521a12d8f8be8d0a394bc456203276" prot="public" virt="non-virtual"><scope>debug_value</scope><name>operator=</name></member>
+      <member refid="classdebug__value_1a4b1ec8723ce0831aacab64770a6e50ad" prot="public" virt="non-virtual"><scope>debug_value</scope><name>serialize</name></member>
+      <member refid="classdebug__value_1a91cd306cb62842773fb8ffb13cb4d272" prot="public" virt="non-virtual"><scope>debug_value</scope><name>serializeKey</name></member>
+      <member refid="classdebug__value_1ad11df15ade95035c56557604462850af" prot="public" virt="non-virtual"><scope>debug_value</scope><name>timestamp_</name></member>
+      <member refid="classdebug__value_1aaaed886bf6fb225601a53126489a5ad4" prot="public" virt="non-virtual"><scope>debug_value</scope><name>timestamp_</name></member>
+      <member refid="classdebug__value_1afe41ebe158dbcbb1440651df5b775574" prot="public" virt="non-virtual"><scope>debug_value</scope><name>timestamp_</name></member>
+      <member refid="classdebug__value_1a0f719cf82a94862d9db339f3403752c1" prot="public" virt="non-virtual"><scope>debug_value</scope><name>value_</name></member>
+      <member refid="classdebug__value_1afe3c84e296f0f49105384f4d15181417" prot="public" virt="non-virtual"><scope>debug_value</scope><name>value_</name></member>
+      <member refid="classdebug__value_1adb763efecbff6e1a38cc798259e2445b" prot="public" virt="non-virtual"><scope>debug_value</scope><name>value_</name></member>
+      <member refid="classdebug__value_1a7520ed1fbf1fd276c6b96b7267e334fa" prot="public" virt="non-virtual"><scope>debug_value</scope><name>~debug_value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

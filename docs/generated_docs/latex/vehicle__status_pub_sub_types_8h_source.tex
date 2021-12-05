@@ -1,0 +1,152 @@
+\hypertarget{vehicle__status_pub_sub_types_8h_source}{}\doxysection{vehicle\+\_\+status\+Pub\+Sub\+Types.\+h}
+\label{vehicle__status_pub_sub_types_8h_source}\index{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/px4\_msg\_definitions/vehicle\_statusPubSubTypes.h@{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/px4\_msg\_definitions/vehicle\_statusPubSubTypes.h}}
+\mbox{\hyperlink{vehicle__status_pub_sub_types_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{// Copyright 2016 Proyectos y Sistemas de Mantenimiento SL (eProsima).}}
+\DoxyCodeLine{2 \textcolor{comment}{//}}
+\DoxyCodeLine{3 \textcolor{comment}{// Licensed under the Apache License, Version 2.0 (the "{}License"{});}}
+\DoxyCodeLine{4 \textcolor{comment}{// you may not use this file except in compliance with the License.}}
+\DoxyCodeLine{5 \textcolor{comment}{// You may obtain a copy of the License at}}
+\DoxyCodeLine{6 \textcolor{comment}{//}}
+\DoxyCodeLine{7 \textcolor{comment}{//     http://www.apache.org/licenses/LICENSE-\/2.0}}
+\DoxyCodeLine{8 \textcolor{comment}{//}}
+\DoxyCodeLine{9 \textcolor{comment}{// Unless required by applicable law or agreed to in writing, software}}
+\DoxyCodeLine{10 \textcolor{comment}{// distributed under the License is distributed on an "{}AS IS"{} BASIS,}}
+\DoxyCodeLine{11 \textcolor{comment}{// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.}}
+\DoxyCodeLine{12 \textcolor{comment}{// See the License for the specific language governing permissions and}}
+\DoxyCodeLine{13 \textcolor{comment}{// limitations under the License.}}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{23 \textcolor{preprocessor}{\#ifndef \_VEHICLE\_STATUS\_PUBSUBTYPES\_H\_}}
+\DoxyCodeLine{24 \textcolor{preprocessor}{\#define \_VEHICLE\_STATUS\_PUBSUBTYPES\_H\_}}
+\DoxyCodeLine{25 }
+\DoxyCodeLine{26 \textcolor{preprocessor}{\#include <fastdds/dds/topic/TopicDataType.hpp>}}
+\DoxyCodeLine{27 \textcolor{preprocessor}{\#include <fastrtps/utils/md5.h>}}
+\DoxyCodeLine{28 }
+\DoxyCodeLine{29 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{vehicle__status_8h}{vehicle\_status.h}}"{}}}
+\DoxyCodeLine{30 }
+\DoxyCodeLine{31 \textcolor{preprocessor}{\#if !defined(GEN\_API\_VER) || (GEN\_API\_VER != 1)}}
+\DoxyCodeLine{32 \textcolor{preprocessor}{\#error Generated vehicle\_status is not compatible with current installed Fast DDS. Please, regenerate it with fastddsgen.}}
+\DoxyCodeLine{33 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// GEN\_API\_VER}}
+\DoxyCodeLine{34 }
+\DoxyCodeLine{35 }
+\DoxyCodeLine{36 }
+\DoxyCodeLine{37 }
+\DoxyCodeLine{38 }
+\DoxyCodeLine{39 }
+\DoxyCodeLine{40 }
+\DoxyCodeLine{41 }
+\DoxyCodeLine{42 }
+\DoxyCodeLine{43 }
+\DoxyCodeLine{44 }
+\DoxyCodeLine{45 }
+\DoxyCodeLine{46 }
+\DoxyCodeLine{47 }
+\DoxyCodeLine{48 }
+\DoxyCodeLine{49 }
+\DoxyCodeLine{50 }
+\DoxyCodeLine{51 }
+\DoxyCodeLine{52 }
+\DoxyCodeLine{53 }
+\DoxyCodeLine{54 }
+\DoxyCodeLine{55 }
+\DoxyCodeLine{56 }
+\DoxyCodeLine{57 }
+\DoxyCodeLine{58 }
+\DoxyCodeLine{59 }
+\DoxyCodeLine{60 }
+\DoxyCodeLine{61 }
+\DoxyCodeLine{62 }
+\DoxyCodeLine{63 }
+\DoxyCodeLine{64 }
+\DoxyCodeLine{65 }
+\DoxyCodeLine{66 }
+\DoxyCodeLine{67 }
+\DoxyCodeLine{68 }
+\DoxyCodeLine{69 }
+\DoxyCodeLine{70 }
+\DoxyCodeLine{71 }
+\DoxyCodeLine{72 }
+\DoxyCodeLine{73 }
+\DoxyCodeLine{74 }
+\DoxyCodeLine{75 }
+\DoxyCodeLine{76 }
+\DoxyCodeLine{77 }
+\DoxyCodeLine{78 }
+\DoxyCodeLine{79 }
+\DoxyCodeLine{80 }
+\DoxyCodeLine{81 }
+\DoxyCodeLine{82 }
+\DoxyCodeLine{83 }
+\DoxyCodeLine{84 }
+\DoxyCodeLine{85 }
+\DoxyCodeLine{86 }
+\DoxyCodeLine{87 }
+\DoxyCodeLine{88 }
+\DoxyCodeLine{89 }
+\DoxyCodeLine{90 }
+\DoxyCodeLine{91 }
+\DoxyCodeLine{92 }
+\DoxyCodeLine{97 \textcolor{keyword}{class }\mbox{\hyperlink{classvehicle__status_pub_sub_type}{vehicle\_statusPubSubType}} : \textcolor{keyword}{public} eprosima::fastdds::dds::TopicDataType}
+\DoxyCodeLine{98 \{}
+\DoxyCodeLine{99 \textcolor{keyword}{public}:}
+\DoxyCodeLine{100 }
+\DoxyCodeLine{101     \textcolor{keyword}{typedef} \mbox{\hyperlink{classvehicle__status}{vehicle\_status}} \mbox{\hyperlink{classvehicle__status}{type}};}
+\DoxyCodeLine{102 }
+\DoxyCodeLine{103     eProsima\_user\_DllExport \mbox{\hyperlink{classvehicle__status_pub_sub_type}{vehicle\_statusPubSubType}}();}
+\DoxyCodeLine{104 }
+\DoxyCodeLine{105     eProsima\_user\_DllExport \textcolor{keyword}{virtual} \mbox{\hyperlink{classvehicle__status_pub_sub_type}{\string~vehicle\_statusPubSubType}}();}
+\DoxyCodeLine{106 }
+\DoxyCodeLine{107     eProsima\_user\_DllExport \textcolor{keyword}{virtual} \textcolor{keywordtype}{bool} serialize(}
+\DoxyCodeLine{108             \textcolor{keywordtype}{void}* data,}
+\DoxyCodeLine{109             eprosima::fastrtps::rtps::SerializedPayload\_t* payload) \textcolor{keyword}{override};}
+\DoxyCodeLine{110 }
+\DoxyCodeLine{111     eProsima\_user\_DllExport \textcolor{keyword}{virtual} \textcolor{keywordtype}{bool} deserialize(}
+\DoxyCodeLine{112             eprosima::fastrtps::rtps::SerializedPayload\_t* payload,}
+\DoxyCodeLine{113             \textcolor{keywordtype}{void}* data) \textcolor{keyword}{override};}
+\DoxyCodeLine{114 }
+\DoxyCodeLine{115     eProsima\_user\_DllExport \textcolor{keyword}{virtual} std::function<uint32\_t()> getSerializedSizeProvider(}
+\DoxyCodeLine{116             \textcolor{keywordtype}{void}* data) \textcolor{keyword}{override};}
+\DoxyCodeLine{117 }
+\DoxyCodeLine{118     eProsima\_user\_DllExport \textcolor{keyword}{virtual} \textcolor{keywordtype}{bool} getKey(}
+\DoxyCodeLine{119             \textcolor{keywordtype}{void}* data,}
+\DoxyCodeLine{120             eprosima::fastrtps::rtps::InstanceHandle\_t* ihandle,}
+\DoxyCodeLine{121             \textcolor{keywordtype}{bool} force\_md5 = \textcolor{keyword}{false}) \textcolor{keyword}{override};}
+\DoxyCodeLine{122 }
+\DoxyCodeLine{123     eProsima\_user\_DllExport \textcolor{keyword}{virtual} \textcolor{keywordtype}{void}* createData() \textcolor{keyword}{override};}
+\DoxyCodeLine{124 }
+\DoxyCodeLine{125     eProsima\_user\_DllExport \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} deleteData(}
+\DoxyCodeLine{126             \textcolor{keywordtype}{void}* data) \textcolor{keyword}{override};}
+\DoxyCodeLine{127 }
+\DoxyCodeLine{128 \textcolor{preprocessor}{\#ifdef TOPIC\_DATA\_TYPE\_API\_HAS\_IS\_BOUNDED}}
+\DoxyCodeLine{129     eProsima\_user\_DllExport \textcolor{keyword}{inline} \textcolor{keywordtype}{bool} is\_bounded()\textcolor{keyword}{ const override}}
+\DoxyCodeLine{130 \textcolor{keyword}{    }\{}
+\DoxyCodeLine{131         \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{132     \}}
+\DoxyCodeLine{133 }
+\DoxyCodeLine{134 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// TOPIC\_DATA\_TYPE\_API\_HAS\_IS\_BOUNDED}}
+\DoxyCodeLine{135 }
+\DoxyCodeLine{136 \textcolor{preprocessor}{\#ifdef TOPIC\_DATA\_TYPE\_API\_HAS\_IS\_PLAIN}}
+\DoxyCodeLine{137     eProsima\_user\_DllExport \textcolor{keyword}{inline} \textcolor{keywordtype}{bool} is\_plain()\textcolor{keyword}{ const override}}
+\DoxyCodeLine{138 \textcolor{keyword}{    }\{}
+\DoxyCodeLine{139         \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{140     \}}
+\DoxyCodeLine{141 }
+\DoxyCodeLine{142 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// TOPIC\_DATA\_TYPE\_API\_HAS\_IS\_PLAIN}}
+\DoxyCodeLine{143 }
+\DoxyCodeLine{144 \textcolor{preprocessor}{\#ifdef TOPIC\_DATA\_TYPE\_API\_HAS\_CONSTRUCT\_SAMPLE}}
+\DoxyCodeLine{145     eProsima\_user\_DllExport \textcolor{keyword}{inline} \textcolor{keywordtype}{bool} construct\_sample(}
+\DoxyCodeLine{146             \textcolor{keywordtype}{void}* memory)\textcolor{keyword}{ const override}}
+\DoxyCodeLine{147 \textcolor{keyword}{    }\{}
+\DoxyCodeLine{148         \textcolor{keyword}{new} (memory) \mbox{\hyperlink{classvehicle__status}{vehicle\_status}}();}
+\DoxyCodeLine{149         \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{150     \}}
+\DoxyCodeLine{151 }
+\DoxyCodeLine{152 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// TOPIC\_DATA\_TYPE\_API\_HAS\_CONSTRUCT\_SAMPLE}}
+\DoxyCodeLine{153 }
+\DoxyCodeLine{154     MD5 m\_md5;}
+\DoxyCodeLine{155     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{char}* m\_keyBuffer;}
+\DoxyCodeLine{156 \};}
+\DoxyCodeLine{157 }
+\DoxyCodeLine{158 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_VEHICLE\_STATUS\_PUBSUBTYPES\_H\_}}
+
+\end{DoxyCode}

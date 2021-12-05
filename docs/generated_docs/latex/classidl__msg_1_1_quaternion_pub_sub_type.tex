@@ -1,0 +1,62 @@
+\hypertarget{classidl__msg_1_1_quaternion_pub_sub_type}{}\doxysection{idl\+\_\+msg\+::Quaternion\+Pub\+Sub\+Type Class Reference}
+\label{classidl__msg_1_1_quaternion_pub_sub_type}\index{idl\_msg::QuaternionPubSubType@{idl\_msg::QuaternionPubSubType}}
+
+
+This class represents the Topic\+Data\+Type of the type \mbox{\hyperlink{classidl__msg_1_1_quaternion}{Quaternion}} defined by the user in the IDL file.  
+
+
+
+
+{\ttfamily \#include $<$Quaternion\+Pub\+Sub\+Types.\+h$>$}
+
+Inheritance diagram for idl\+\_\+msg\+::Quaternion\+Pub\+Sub\+Type\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classidl__msg_1_1_quaternion_pub_sub_type}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classidl__msg_1_1_quaternion_pub_sub_type_a4e9f983797b2156309857736f7d6f49e}\label{classidl__msg_1_1_quaternion_pub_sub_type_a4e9f983797b2156309857736f7d6f49e}} 
+typedef \mbox{\hyperlink{classidl__msg_1_1_quaternion}{Quaternion}} {\bfseries type}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classidl__msg_1_1_quaternion_pub_sub_type_a1cc4c82bf27936531336d86512c11e7f}\label{classidl__msg_1_1_quaternion_pub_sub_type_a1cc4c82bf27936531336d86512c11e7f}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export bool {\bfseries serialize} (void $\ast$data, eprosima\+::fastrtps\+::rtps\+::\+Serialized\+Payload\+\_\+t $\ast$payload) override
+\item 
+\mbox{\Hypertarget{classidl__msg_1_1_quaternion_pub_sub_type_ac30fe27b7c99e74cdf4cd6733c9d0471}\label{classidl__msg_1_1_quaternion_pub_sub_type_ac30fe27b7c99e74cdf4cd6733c9d0471}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export bool {\bfseries deserialize} (eprosima\+::fastrtps\+::rtps\+::\+Serialized\+Payload\+\_\+t $\ast$payload, void $\ast$data) override
+\item 
+\mbox{\Hypertarget{classidl__msg_1_1_quaternion_pub_sub_type_a3fe4eb9784591c32622ceb2fc48f1cae}\label{classidl__msg_1_1_quaternion_pub_sub_type_a3fe4eb9784591c32622ceb2fc48f1cae}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export std\+::function$<$ uint32\+\_\+t()$>$ {\bfseries get\+Serialized\+Size\+Provider} (void $\ast$data) override
+\item 
+\mbox{\Hypertarget{classidl__msg_1_1_quaternion_pub_sub_type_aca841f6f1f06687c724833b02848d978}\label{classidl__msg_1_1_quaternion_pub_sub_type_aca841f6f1f06687c724833b02848d978}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export bool {\bfseries get\+Key} (void $\ast$data, eprosima\+::fastrtps\+::rtps\+::\+Instance\+Handle\+\_\+t $\ast$ihandle, bool force\+\_\+md5=false) override
+\item 
+\mbox{\Hypertarget{classidl__msg_1_1_quaternion_pub_sub_type_a86e0ded3d1c30b86501823aaa16a9c7e}\label{classidl__msg_1_1_quaternion_pub_sub_type_a86e0ded3d1c30b86501823aaa16a9c7e}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export void $\ast$ {\bfseries create\+Data} () override
+\item 
+\mbox{\Hypertarget{classidl__msg_1_1_quaternion_pub_sub_type_a52950f0de1a7932c75d694b790d937aa}\label{classidl__msg_1_1_quaternion_pub_sub_type_a52950f0de1a7932c75d694b790d937aa}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export void {\bfseries delete\+Data} (void $\ast$data) override
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classidl__msg_1_1_quaternion_pub_sub_type_a6171392f9ecc8a7bb1c9d82079603b43}\label{classidl__msg_1_1_quaternion_pub_sub_type_a6171392f9ecc8a7bb1c9d82079603b43}} 
+MD5 {\bfseries m\+\_\+md5}
+\item 
+\mbox{\Hypertarget{classidl__msg_1_1_quaternion_pub_sub_type_a45d4a675875aa227b4029f3a1fce085d}\label{classidl__msg_1_1_quaternion_pub_sub_type_a45d4a675875aa227b4029f3a1fce085d}} 
+unsigned char $\ast$ {\bfseries m\+\_\+key\+Buffer}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class represents the Topic\+Data\+Type of the type \mbox{\hyperlink{classidl__msg_1_1_quaternion}{Quaternion}} defined by the user in the IDL file. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/sarathmenon/\+Desktop/eth\+\_\+soft/code/\+Communication/libraries/communication\+\_\+lib/fastdds\+\_\+lib/fastddsgen\+\_\+generated\+\_\+files/msg\+\_\+definitions/\mbox{\hyperlink{_quaternion_pub_sub_types_8h}{Quaternion\+Pub\+Sub\+Types.\+h}}\item 
+/\+Users/sarathmenon/\+Desktop/eth\+\_\+soft/code/\+Communication/libraries/communication\+\_\+lib/fastdds\+\_\+lib/fastddsgen\+\_\+generated\+\_\+files/msg\+\_\+definitions/Quaternion\+Pub\+Sub\+Types.\+cxx\end{DoxyCompactItemize}

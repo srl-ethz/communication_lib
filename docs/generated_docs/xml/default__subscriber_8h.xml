@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="default__subscriber_8h" kind="file" language="C++">
+    <compoundname>default_subscriber.h</compoundname>
+    <includes refid="sublistener_8h" local="yes">sublistener.h</includes>
+    <includes refid="default__subscriber_8cpp" local="yes">default_subscriber.cpp</includes>
+    <includedby refid="default__subscriber_8cpp" local="yes">/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/subscribers/default_subscriber/default_subscriber.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/subscribers/default_subscriber/default_subscriber.h</label>
+        <link refid="default__subscriber_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>sublistener.h</label>
+        <link refid="sublistener_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>chrono</label>
+      </node>
+      <node id="4">
+        <label>fastdds/dds/domain/DomainParticipant.hpp</label>
+      </node>
+      <node id="5">
+        <label>fastdds/dds/domain/DomainParticipantFactory.hpp</label>
+      </node>
+      <node id="6">
+        <label>fastdds/dds/subscriber/DataReader.hpp</label>
+      </node>
+      <node id="7">
+        <label>fastdds/dds/subscriber/DataReaderListener.hpp</label>
+      </node>
+      <node id="8">
+        <label>fastdds/dds/subscriber/SampleInfo.hpp</label>
+      </node>
+      <node id="9">
+        <label>fastdds/dds/subscriber/Subscriber.hpp</label>
+      </node>
+      <node id="10">
+        <label>fastdds/dds/subscriber/qos/DataReaderQos.hpp</label>
+      </node>
+      <node id="11">
+        <label>mutex</label>
+      </node>
+      <node id="12">
+        <label>shared_mutex</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="class_d_d_s_subscriber" prot="public">DDSSubscriber</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;sublistener.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="class_d_d_s_subscriber" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>msg_init_type,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>msg_type&gt;<sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_d_d_s_subscriber" kindref="compound">DDSSubscriber</ref><sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>msg_type<sp/>=<sp/>class<sp/>type<sp/>of<sp/>msg</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><ref refid="class_d_d_s_subscriber" kindref="compound">DDSSubscriber</ref>(msg_init_type,<sp/>msg_type<sp/>*msg,<sp/>std::string<sp/>topic_name,</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>eprosima::fastdds::dds::DomainParticipant<sp/>*participant)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>subscriber_(</highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">),<sp/>topic_(</highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">),<sp/>reader_(</highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>type_(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>msg_init_type)<sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>topic<sp/>name</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>topic_name_<sp/>=<sp/>topic_name;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>pointer<sp/>to<sp/>domain<sp/>participant</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>participant_<sp/>=<sp/>participant;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Create<sp/>sublistener<sp/>object</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>listener<sp/>=<sp/>std::make_unique&lt;SubListener&lt;msg_type&gt;&gt;(msg);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="class_d_d_s_subscriber" kindref="compound">~DDSSubscriber</ref>();</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>init();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>run();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Custom<sp/>Variables</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/>std::string<sp/>topic_name_{};</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>//<sp/>Buffer<sp/>to<sp/>hold<sp/>incoming<sp/>data</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>msg_type<sp/>msg{};</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Pointer<sp/>to<sp/>listerner<sp/>object<sp/>(contains<sp/>callbacks)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/>std::unique_ptr&lt;SubListener&lt;msg_type&gt;&gt;<sp/>listener;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/>eprosima::fastdds::dds::DomainParticipant<sp/>*participant_;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/>eprosima::fastdds::dds::Subscriber<sp/>*subscriber_;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/>eprosima::fastdds::dds::Topic<sp/>*topic_;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/>eprosima::fastdds::dds::DataReader<sp/>*reader_;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/>eprosima::fastdds::dds::TypeSupport<sp/>type_;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;default_subscriber.cpp&quot;</highlight></codeline>
+    </programlisting>
+    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/subscribers/default_subscriber/default_subscriber.h"/>
+  </compounddef>
+</doxygen>

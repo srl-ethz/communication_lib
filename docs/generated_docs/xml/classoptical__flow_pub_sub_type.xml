@@ -1,0 +1,235 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classoptical__flow_pub_sub_type" kind="class" language="C++" prot="public">
+    <compoundname>optical_flowPubSubType</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">eprosima::fastdds::dds::TopicDataType</basecompoundref>
+    <includes refid="optical__flow_pub_sub_types_8h" local="no">optical_flowPubSubTypes.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classoptical__flow_pub_sub_type_1af0c0986910613e485a5788421b084dc5" prot="public" static="no">
+        <type><ref refid="classoptical__flow" kindref="compound">optical_flow</ref></type>
+        <definition>typedef optical_flow optical_flowPubSubType::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flowPubSubTypes.h" line="47" column="26" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flowPubSubTypes.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classoptical__flow_pub_sub_type_1a1764307efcecc8d9db73d8b0793472d2" prot="public" static="no" mutable="no">
+        <type>MD5</type>
+        <definition>MD5 optical_flowPubSubType::m_md5</definition>
+        <argsstring></argsstring>
+        <name>m_md5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flowPubSubTypes.h" line="100" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flowPubSubTypes.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classoptical__flow_pub_sub_type_1a8fda64257bcdd87938fde5f964677846" prot="public" static="no" mutable="no">
+        <type>unsigned char *</type>
+        <definition>unsigned char* optical_flowPubSubType::m_keyBuffer</definition>
+        <argsstring></argsstring>
+        <name>m_keyBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flowPubSubTypes.h" line="101" column="19" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flowPubSubTypes.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classoptical__flow_pub_sub_type_1ae8bceffaf5342bba436a889abce80b4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>optical_flowPubSubType::optical_flowPubSubType</definition>
+        <argsstring>()</argsstring>
+        <name>optical_flowPubSubType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flowPubSubTypes.h" line="49" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flowPubSubTypes.cxx" bodystart="35" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_pub_sub_type_1ad7bfa184c7ed4d3585ace6497e0de418" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport</type>
+        <definition>optical_flowPubSubType::~optical_flowPubSubType</definition>
+        <argsstring>()</argsstring>
+        <name>~optical_flowPubSubType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flowPubSubTypes.h" line="51" column="37" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flowPubSubTypes.cxx" bodystart="48" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_pub_sub_type_1a53981bf3c3840f4fa8786a2e758cb0c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool optical_flowPubSubType::serialize</definition>
+        <argsstring>(void *data, eprosima::fastrtps::rtps::SerializedPayload_t *payload) override</argsstring>
+        <name>serialize</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>eprosima::fastrtps::rtps::SerializedPayload_t *</type>
+          <declname>payload</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flowPubSubTypes.h" line="53" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flowPubSubTypes.cxx" bodystart="56" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_pub_sub_type_1a7da0e8df75fc8750d7dc3913c2658d20" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool optical_flowPubSubType::deserialize</definition>
+        <argsstring>(eprosima::fastrtps::rtps::SerializedPayload_t *payload, void *data) override</argsstring>
+        <name>deserialize</name>
+        <param>
+          <type>eprosima::fastrtps::rtps::SerializedPayload_t *</type>
+          <declname>payload</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flowPubSubTypes.h" line="57" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flowPubSubTypes.cxx" bodystart="85" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_pub_sub_type_1afd0add0d15d057cfcc743f44342df52a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport std::function&lt; uint32_t()&gt;</type>
+        <definition>std::function&lt; uint32_t()&gt; optical_flowPubSubType::getSerializedSizeProvider</definition>
+        <argsstring>(void *data) override</argsstring>
+        <name>getSerializedSizeProvider</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flowPubSubTypes.h" line="61" column="51" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flowPubSubTypes.cxx" bodystart="115" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_pub_sub_type_1aac5272b5d816996222f4a2869019d11e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport bool</type>
+        <definition>bool optical_flowPubSubType::getKey</definition>
+        <argsstring>(void *data, eprosima::fastrtps::rtps::InstanceHandle_t *ihandle, bool force_md5=false) override</argsstring>
+        <name>getKey</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>eprosima::fastrtps::rtps::InstanceHandle_t *</type>
+          <declname>ihandle</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>force_md5</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flowPubSubTypes.h" line="64" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flowPubSubTypes.cxx" bodystart="136" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_pub_sub_type_1a5837b9edfed8544c1360ac38da03f433" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport void *</type>
+        <definition>void * optical_flowPubSubType::createData</definition>
+        <argsstring>() override</argsstring>
+        <name>createData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flowPubSubTypes.h" line="69" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flowPubSubTypes.cxx" bodystart="125" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classoptical__flow_pub_sub_type_1a115fa2cb420fc768067c009f15845591" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>eProsima_user_DllExport void</type>
+        <definition>void optical_flowPubSubType::deleteData</definition>
+        <argsstring>(void *data) override</argsstring>
+        <name>deleteData</name>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flowPubSubTypes.h" line="71" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flowPubSubTypes.cxx" bodystart="130" bodyend="134"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class represents the TopicDataType of the type <ref refid="classoptical__flow" kindref="compound">optical_flow</ref> defined by the user in the IDL file. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>eprosima::fastdds::dds::TopicDataType</label>
+      </node>
+      <node id="1">
+        <label>optical_flowPubSubType</label>
+        <link refid="classoptical__flow_pub_sub_type"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>eprosima::fastdds::dds::TopicDataType</label>
+      </node>
+      <node id="1">
+        <label>optical_flowPubSubType</label>
+        <link refid="classoptical__flow_pub_sub_type"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flowPubSubTypes.h" line="43" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions/optical_flowPubSubTypes.h" bodystart="44" bodyend="102"/>
+    <listofallmembers>
+      <member refid="classoptical__flow_pub_sub_type_1a5837b9edfed8544c1360ac38da03f433" prot="public" virt="virtual"><scope>optical_flowPubSubType</scope><name>createData</name></member>
+      <member refid="classoptical__flow_pub_sub_type_1a115fa2cb420fc768067c009f15845591" prot="public" virt="virtual"><scope>optical_flowPubSubType</scope><name>deleteData</name></member>
+      <member refid="classoptical__flow_pub_sub_type_1a7da0e8df75fc8750d7dc3913c2658d20" prot="public" virt="virtual"><scope>optical_flowPubSubType</scope><name>deserialize</name></member>
+      <member refid="classoptical__flow_pub_sub_type_1aac5272b5d816996222f4a2869019d11e" prot="public" virt="virtual"><scope>optical_flowPubSubType</scope><name>getKey</name></member>
+      <member refid="classoptical__flow_pub_sub_type_1afd0add0d15d057cfcc743f44342df52a" prot="public" virt="virtual"><scope>optical_flowPubSubType</scope><name>getSerializedSizeProvider</name></member>
+      <member refid="classoptical__flow_pub_sub_type_1a8fda64257bcdd87938fde5f964677846" prot="public" virt="non-virtual"><scope>optical_flowPubSubType</scope><name>m_keyBuffer</name></member>
+      <member refid="classoptical__flow_pub_sub_type_1a1764307efcecc8d9db73d8b0793472d2" prot="public" virt="non-virtual"><scope>optical_flowPubSubType</scope><name>m_md5</name></member>
+      <member refid="classoptical__flow_pub_sub_type_1ae8bceffaf5342bba436a889abce80b4c" prot="public" virt="non-virtual"><scope>optical_flowPubSubType</scope><name>optical_flowPubSubType</name></member>
+      <member refid="classoptical__flow_pub_sub_type_1a53981bf3c3840f4fa8786a2e758cb0c7" prot="public" virt="virtual"><scope>optical_flowPubSubType</scope><name>serialize</name></member>
+      <member refid="classoptical__flow_pub_sub_type_1af0c0986910613e485a5788421b084dc5" prot="public" virt="non-virtual"><scope>optical_flowPubSubType</scope><name>type</name></member>
+      <member refid="classoptical__flow_pub_sub_type_1ad7bfa184c7ed4d3585ace6497e0de418" prot="public" virt="virtual"><scope>optical_flowPubSubType</scope><name>~optical_flowPubSubType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

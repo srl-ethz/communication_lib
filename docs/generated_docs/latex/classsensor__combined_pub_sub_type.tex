@@ -1,0 +1,62 @@
+\hypertarget{classsensor__combined_pub_sub_type}{}\doxysection{sensor\+\_\+combined\+Pub\+Sub\+Type Class Reference}
+\label{classsensor__combined_pub_sub_type}\index{sensor\_combinedPubSubType@{sensor\_combinedPubSubType}}
+
+
+This class represents the Topic\+Data\+Type of the type \mbox{\hyperlink{classsensor__combined}{sensor\+\_\+combined}} defined by the user in the IDL file.  
+
+
+
+
+{\ttfamily \#include $<$sensor\+\_\+combined\+Pub\+Sub\+Types.\+h$>$}
+
+Inheritance diagram for sensor\+\_\+combined\+Pub\+Sub\+Type\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classsensor__combined_pub_sub_type}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classsensor__combined_pub_sub_type_a910ecabac83c667b8741c022ff4212cb}\label{classsensor__combined_pub_sub_type_a910ecabac83c667b8741c022ff4212cb}} 
+typedef \mbox{\hyperlink{classsensor__combined}{sensor\+\_\+combined}} {\bfseries type}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classsensor__combined_pub_sub_type_abe27505d44dd934aac61261b886fd808}\label{classsensor__combined_pub_sub_type_abe27505d44dd934aac61261b886fd808}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export bool {\bfseries serialize} (void $\ast$data, eprosima\+::fastrtps\+::rtps\+::\+Serialized\+Payload\+\_\+t $\ast$payload) override
+\item 
+\mbox{\Hypertarget{classsensor__combined_pub_sub_type_af4df6d4021a0e14a5245fed9e4b5931c}\label{classsensor__combined_pub_sub_type_af4df6d4021a0e14a5245fed9e4b5931c}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export bool {\bfseries deserialize} (eprosima\+::fastrtps\+::rtps\+::\+Serialized\+Payload\+\_\+t $\ast$payload, void $\ast$data) override
+\item 
+\mbox{\Hypertarget{classsensor__combined_pub_sub_type_a2cf3e770e4228620828db7e6298efb4c}\label{classsensor__combined_pub_sub_type_a2cf3e770e4228620828db7e6298efb4c}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export std\+::function$<$ uint32\+\_\+t()$>$ {\bfseries get\+Serialized\+Size\+Provider} (void $\ast$data) override
+\item 
+\mbox{\Hypertarget{classsensor__combined_pub_sub_type_a4d992bd2174c0b5fc6210bf2005c8f3a}\label{classsensor__combined_pub_sub_type_a4d992bd2174c0b5fc6210bf2005c8f3a}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export bool {\bfseries get\+Key} (void $\ast$data, eprosima\+::fastrtps\+::rtps\+::\+Instance\+Handle\+\_\+t $\ast$ihandle, bool force\+\_\+md5=false) override
+\item 
+\mbox{\Hypertarget{classsensor__combined_pub_sub_type_acba10210098d738f204113b7bd0596e9}\label{classsensor__combined_pub_sub_type_acba10210098d738f204113b7bd0596e9}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export void $\ast$ {\bfseries create\+Data} () override
+\item 
+\mbox{\Hypertarget{classsensor__combined_pub_sub_type_a1c650bab2949de8d7854abe625297cc4}\label{classsensor__combined_pub_sub_type_a1c650bab2949de8d7854abe625297cc4}} 
+virtual e\+Prosima\+\_\+user\+\_\+\+Dll\+Export void {\bfseries delete\+Data} (void $\ast$data) override
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classsensor__combined_pub_sub_type_ad9a2601702c73b19dbec23afeb1d9dc5}\label{classsensor__combined_pub_sub_type_ad9a2601702c73b19dbec23afeb1d9dc5}} 
+MD5 {\bfseries m\+\_\+md5}
+\item 
+\mbox{\Hypertarget{classsensor__combined_pub_sub_type_a79e7f52b4987cbc5da254be69ba0f280}\label{classsensor__combined_pub_sub_type_a79e7f52b4987cbc5da254be69ba0f280}} 
+unsigned char $\ast$ {\bfseries m\+\_\+key\+Buffer}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class represents the Topic\+Data\+Type of the type \mbox{\hyperlink{classsensor__combined}{sensor\+\_\+combined}} defined by the user in the IDL file. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/\+Users/sarathmenon/\+Desktop/eth\+\_\+soft/code/\+Communication/libraries/communication\+\_\+lib/fastdds\+\_\+lib/fastddsgen\+\_\+generated\+\_\+files/px4\+\_\+msg\+\_\+definitions/\mbox{\hyperlink{sensor__combined_pub_sub_types_8h}{sensor\+\_\+combined\+Pub\+Sub\+Types.\+h}}\item 
+/\+Users/sarathmenon/\+Desktop/eth\+\_\+soft/code/\+Communication/libraries/communication\+\_\+lib/fastdds\+\_\+lib/fastddsgen\+\_\+generated\+\_\+files/px4\+\_\+msg\+\_\+definitions/sensor\+\_\+combined\+Pub\+Sub\+Types.\+cxx\end{DoxyCompactItemize}

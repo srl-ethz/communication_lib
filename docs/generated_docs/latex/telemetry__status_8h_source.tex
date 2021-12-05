@@ -1,0 +1,406 @@
+\hypertarget{telemetry__status_8h_source}{}\doxysection{telemetry\+\_\+status.\+h}
+\label{telemetry__status_8h_source}\index{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/px4\_msg\_definitions/telemetry\_status.h@{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/px4\_msg\_definitions/telemetry\_status.h}}
+\mbox{\hyperlink{telemetry__status_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{// Copyright 2016 Proyectos y Sistemas de Mantenimiento SL (eProsima).}}
+\DoxyCodeLine{2 \textcolor{comment}{//}}
+\DoxyCodeLine{3 \textcolor{comment}{// Licensed under the Apache License, Version 2.0 (the "{}License"{});}}
+\DoxyCodeLine{4 \textcolor{comment}{// you may not use this file except in compliance with the License.}}
+\DoxyCodeLine{5 \textcolor{comment}{// You may obtain a copy of the License at}}
+\DoxyCodeLine{6 \textcolor{comment}{//}}
+\DoxyCodeLine{7 \textcolor{comment}{//     http://www.apache.org/licenses/LICENSE-\/2.0}}
+\DoxyCodeLine{8 \textcolor{comment}{//}}
+\DoxyCodeLine{9 \textcolor{comment}{// Unless required by applicable law or agreed to in writing, software}}
+\DoxyCodeLine{10 \textcolor{comment}{// distributed under the License is distributed on an "{}AS IS"{} BASIS,}}
+\DoxyCodeLine{11 \textcolor{comment}{// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.}}
+\DoxyCodeLine{12 \textcolor{comment}{// See the License for the specific language governing permissions and}}
+\DoxyCodeLine{13 \textcolor{comment}{// limitations under the License.}}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{22 \textcolor{preprocessor}{\#ifndef \_TELEMETRY\_STATUS\_H\_}}
+\DoxyCodeLine{23 \textcolor{preprocessor}{\#define \_TELEMETRY\_STATUS\_H\_}}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25 }
+\DoxyCodeLine{26 \textcolor{preprocessor}{\#include <stdint.h>}}
+\DoxyCodeLine{27 \textcolor{preprocessor}{\#include <array>}}
+\DoxyCodeLine{28 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{29 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{30 \textcolor{preprocessor}{\#include <map>}}
+\DoxyCodeLine{31 \textcolor{preprocessor}{\#include <bitset>}}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{33 \textcolor{preprocessor}{\#if defined(\_WIN32)}}
+\DoxyCodeLine{34 \textcolor{preprocessor}{\#if defined(EPROSIMA\_USER\_DLL\_EXPORT)}}
+\DoxyCodeLine{35 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport \_\_declspec( dllexport )}}
+\DoxyCodeLine{36 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{37 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport}}
+\DoxyCodeLine{38 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// EPROSIMA\_USER\_DLL\_EXPORT}}
+\DoxyCodeLine{39 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{40 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport}}
+\DoxyCodeLine{41 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// \_WIN32}}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{43 \textcolor{preprocessor}{\#if defined(\_WIN32)}}
+\DoxyCodeLine{44 \textcolor{preprocessor}{\#if defined(EPROSIMA\_USER\_DLL\_EXPORT)}}
+\DoxyCodeLine{45 \textcolor{preprocessor}{\#if defined(telemetry\_status\_SOURCE)}}
+\DoxyCodeLine{46 \textcolor{preprocessor}{\#define telemetry\_status\_DllAPI \_\_declspec( dllexport )}}
+\DoxyCodeLine{47 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{48 \textcolor{preprocessor}{\#define telemetry\_status\_DllAPI \_\_declspec( dllimport )}}
+\DoxyCodeLine{49 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// telemetry\_status\_SOURCE}}
+\DoxyCodeLine{50 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{51 \textcolor{preprocessor}{\#define telemetry\_status\_DllAPI}}
+\DoxyCodeLine{52 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// EPROSIMA\_USER\_DLL\_EXPORT}}
+\DoxyCodeLine{53 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{54 \textcolor{preprocessor}{\#define telemetry\_status\_DllAPI}}
+\DoxyCodeLine{55 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_WIN32}}
+\DoxyCodeLine{56 }
+\DoxyCodeLine{57 \textcolor{keyword}{namespace }eprosima \{}
+\DoxyCodeLine{58 \textcolor{keyword}{namespace }fastcdr \{}
+\DoxyCodeLine{59 \textcolor{keyword}{class }Cdr;}
+\DoxyCodeLine{60 \} \textcolor{comment}{// namespace fastcdr}}
+\DoxyCodeLine{61 \} \textcolor{comment}{// namespace eprosima}}
+\DoxyCodeLine{62 }
+\DoxyCodeLine{63 }
+\DoxyCodeLine{64 \textcolor{keyword}{const} uint64\_t telemetry\_status\_\_HEARTBEAT\_TIMEOUT\_US = 1500000;}
+\DoxyCodeLine{65 \textcolor{keyword}{const} uint8\_t telemetry\_status\_\_LINK\_TYPE\_GENERIC = 0;}
+\DoxyCodeLine{66 \textcolor{keyword}{const} uint8\_t telemetry\_status\_\_LINK\_TYPE\_UBIQUITY\_BULLET = 1;}
+\DoxyCodeLine{67 \textcolor{keyword}{const} uint8\_t telemetry\_status\_\_LINK\_TYPE\_WIRE = 2;}
+\DoxyCodeLine{68 \textcolor{keyword}{const} uint8\_t telemetry\_status\_\_LINK\_TYPE\_USB = 3;}
+\DoxyCodeLine{69 \textcolor{keyword}{const} uint8\_t telemetry\_status\_\_LINK\_TYPE\_IRIDIUM = 4;}
+\DoxyCodeLine{74 \textcolor{keyword}{class }\mbox{\hyperlink{classtelemetry__status}{telemetry\_status}}}
+\DoxyCodeLine{75 \{}
+\DoxyCodeLine{76 \textcolor{keyword}{public}:}
+\DoxyCodeLine{77 }
+\DoxyCodeLine{81     eProsima\_user\_DllExport \mbox{\hyperlink{classtelemetry__status_a70293537a44acdfcc02642042cfd3332}{telemetry\_status}}();}
+\DoxyCodeLine{82 }
+\DoxyCodeLine{86     eProsima\_user\_DllExport \mbox{\hyperlink{classtelemetry__status_a69a7e3f3e82739ed365692c0eee62038}{\string~telemetry\_status}}();}
+\DoxyCodeLine{87 }
+\DoxyCodeLine{92     eProsima\_user\_DllExport \mbox{\hyperlink{classtelemetry__status_a70293537a44acdfcc02642042cfd3332}{telemetry\_status}}(}
+\DoxyCodeLine{93             \textcolor{keyword}{const} \mbox{\hyperlink{classtelemetry__status}{telemetry\_status}}\& x);}
+\DoxyCodeLine{94 }
+\DoxyCodeLine{99     eProsima\_user\_DllExport \mbox{\hyperlink{classtelemetry__status_a70293537a44acdfcc02642042cfd3332}{telemetry\_status}}(}
+\DoxyCodeLine{100             \mbox{\hyperlink{classtelemetry__status}{telemetry\_status}}\&\& x);}
+\DoxyCodeLine{101 }
+\DoxyCodeLine{106     eProsima\_user\_DllExport \mbox{\hyperlink{classtelemetry__status}{telemetry\_status}}\& \mbox{\hyperlink{classtelemetry__status_ab189be38fbb338edb801100f1231ac33}{operator =}}(}
+\DoxyCodeLine{107             \textcolor{keyword}{const} \mbox{\hyperlink{classtelemetry__status}{telemetry\_status}}\& x);}
+\DoxyCodeLine{108 }
+\DoxyCodeLine{113     eProsima\_user\_DllExport \mbox{\hyperlink{classtelemetry__status}{telemetry\_status}}\& \mbox{\hyperlink{classtelemetry__status_ab189be38fbb338edb801100f1231ac33}{operator =}}(}
+\DoxyCodeLine{114             \mbox{\hyperlink{classtelemetry__status}{telemetry\_status}}\&\& x);}
+\DoxyCodeLine{115 }
+\DoxyCodeLine{120     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_ab0a582ef5460ade2d7b8730550d5e70d}{timestamp\_}}(}
+\DoxyCodeLine{121             uint64\_t \_timestamp\_);}
+\DoxyCodeLine{122 }
+\DoxyCodeLine{127     eProsima\_user\_DllExport uint64\_t \mbox{\hyperlink{classtelemetry__status_ab0a582ef5460ade2d7b8730550d5e70d}{timestamp\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{128 }
+\DoxyCodeLine{133     eProsima\_user\_DllExport uint64\_t\& \mbox{\hyperlink{classtelemetry__status_ab0a582ef5460ade2d7b8730550d5e70d}{timestamp\_}}();}
+\DoxyCodeLine{134 }
+\DoxyCodeLine{139     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_ae8b7b20b35f45798dfbd1a0a839d8f2c}{type\_}}(}
+\DoxyCodeLine{140             uint8\_t \_type\_);}
+\DoxyCodeLine{141 }
+\DoxyCodeLine{146     eProsima\_user\_DllExport uint8\_t \mbox{\hyperlink{classtelemetry__status_ae8b7b20b35f45798dfbd1a0a839d8f2c}{type\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{147 }
+\DoxyCodeLine{152     eProsima\_user\_DllExport uint8\_t\& \mbox{\hyperlink{classtelemetry__status_ae8b7b20b35f45798dfbd1a0a839d8f2c}{type\_}}();}
+\DoxyCodeLine{153 }
+\DoxyCodeLine{158     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_aea37034a4f87455d1abc00cd04ca137f}{mode\_}}(}
+\DoxyCodeLine{159             uint8\_t \_mode\_);}
+\DoxyCodeLine{160 }
+\DoxyCodeLine{165     eProsima\_user\_DllExport uint8\_t \mbox{\hyperlink{classtelemetry__status_aea37034a4f87455d1abc00cd04ca137f}{mode\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{166 }
+\DoxyCodeLine{171     eProsima\_user\_DllExport uint8\_t\& \mbox{\hyperlink{classtelemetry__status_aea37034a4f87455d1abc00cd04ca137f}{mode\_}}();}
+\DoxyCodeLine{172 }
+\DoxyCodeLine{177     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_a4e86e4d953978aede87d268f81020bb3}{flow\_control\_}}(}
+\DoxyCodeLine{178             \textcolor{keywordtype}{bool} \_flow\_control\_);}
+\DoxyCodeLine{179 }
+\DoxyCodeLine{184     eProsima\_user\_DllExport \textcolor{keywordtype}{bool} \mbox{\hyperlink{classtelemetry__status_a4e86e4d953978aede87d268f81020bb3}{flow\_control\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{185 }
+\DoxyCodeLine{190     eProsima\_user\_DllExport \textcolor{keywordtype}{bool}\& \mbox{\hyperlink{classtelemetry__status_a4e86e4d953978aede87d268f81020bb3}{flow\_control\_}}();}
+\DoxyCodeLine{191 }
+\DoxyCodeLine{196     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_a203b3a811e2a8a68014f354c3dd4543d}{forwarding\_}}(}
+\DoxyCodeLine{197             \textcolor{keywordtype}{bool} \_forwarding\_);}
+\DoxyCodeLine{198 }
+\DoxyCodeLine{203     eProsima\_user\_DllExport \textcolor{keywordtype}{bool} \mbox{\hyperlink{classtelemetry__status_a203b3a811e2a8a68014f354c3dd4543d}{forwarding\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{204 }
+\DoxyCodeLine{209     eProsima\_user\_DllExport \textcolor{keywordtype}{bool}\& \mbox{\hyperlink{classtelemetry__status_a203b3a811e2a8a68014f354c3dd4543d}{forwarding\_}}();}
+\DoxyCodeLine{210 }
+\DoxyCodeLine{215     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_ab2dfe75fcf30b67df3a1cfbf49f3f7b1}{mavlink\_v2\_}}(}
+\DoxyCodeLine{216             \textcolor{keywordtype}{bool} \_mavlink\_v2\_);}
+\DoxyCodeLine{217 }
+\DoxyCodeLine{222     eProsima\_user\_DllExport \textcolor{keywordtype}{bool} \mbox{\hyperlink{classtelemetry__status_ab2dfe75fcf30b67df3a1cfbf49f3f7b1}{mavlink\_v2\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{223 }
+\DoxyCodeLine{228     eProsima\_user\_DllExport \textcolor{keywordtype}{bool}\& \mbox{\hyperlink{classtelemetry__status_ab2dfe75fcf30b67df3a1cfbf49f3f7b1}{mavlink\_v2\_}}();}
+\DoxyCodeLine{229 }
+\DoxyCodeLine{234     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_a7d8bd4dff23fdc5434a5de6e3d642e56}{ftp\_}}(}
+\DoxyCodeLine{235             \textcolor{keywordtype}{bool} \_ftp\_);}
+\DoxyCodeLine{236 }
+\DoxyCodeLine{241     eProsima\_user\_DllExport \textcolor{keywordtype}{bool} \mbox{\hyperlink{classtelemetry__status_a7d8bd4dff23fdc5434a5de6e3d642e56}{ftp\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{242 }
+\DoxyCodeLine{247     eProsima\_user\_DllExport \textcolor{keywordtype}{bool}\& \mbox{\hyperlink{classtelemetry__status_a7d8bd4dff23fdc5434a5de6e3d642e56}{ftp\_}}();}
+\DoxyCodeLine{248 }
+\DoxyCodeLine{253     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_a5572a40935ff3dc9bc05234890704877}{streams\_}}(}
+\DoxyCodeLine{254             uint8\_t \_streams\_);}
+\DoxyCodeLine{255 }
+\DoxyCodeLine{260     eProsima\_user\_DllExport uint8\_t \mbox{\hyperlink{classtelemetry__status_a5572a40935ff3dc9bc05234890704877}{streams\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{261 }
+\DoxyCodeLine{266     eProsima\_user\_DllExport uint8\_t\& \mbox{\hyperlink{classtelemetry__status_a5572a40935ff3dc9bc05234890704877}{streams\_}}();}
+\DoxyCodeLine{267 }
+\DoxyCodeLine{272     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_a5078fefe28cc133ac0ae5f7a052ff1e6}{data\_rate\_}}(}
+\DoxyCodeLine{273             \textcolor{keywordtype}{float} \_data\_rate\_);}
+\DoxyCodeLine{274 }
+\DoxyCodeLine{279     eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classtelemetry__status_a5078fefe28cc133ac0ae5f7a052ff1e6}{data\_rate\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{280 }
+\DoxyCodeLine{285     eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classtelemetry__status_a5078fefe28cc133ac0ae5f7a052ff1e6}{data\_rate\_}}();}
+\DoxyCodeLine{286 }
+\DoxyCodeLine{291     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_a50299cd7ecf27327aaa2b9e559296524}{rate\_multiplier\_}}(}
+\DoxyCodeLine{292             \textcolor{keywordtype}{float} \_rate\_multiplier\_);}
+\DoxyCodeLine{293 }
+\DoxyCodeLine{298     eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classtelemetry__status_a50299cd7ecf27327aaa2b9e559296524}{rate\_multiplier\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{299 }
+\DoxyCodeLine{304     eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classtelemetry__status_a50299cd7ecf27327aaa2b9e559296524}{rate\_multiplier\_}}();}
+\DoxyCodeLine{305 }
+\DoxyCodeLine{310     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_a72ff5b252ca12d79aa8bc214b0250f86}{tx\_rate\_avg\_}}(}
+\DoxyCodeLine{311             \textcolor{keywordtype}{float} \_tx\_rate\_avg\_);}
+\DoxyCodeLine{312 }
+\DoxyCodeLine{317     eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classtelemetry__status_a72ff5b252ca12d79aa8bc214b0250f86}{tx\_rate\_avg\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{318 }
+\DoxyCodeLine{323     eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classtelemetry__status_a72ff5b252ca12d79aa8bc214b0250f86}{tx\_rate\_avg\_}}();}
+\DoxyCodeLine{324 }
+\DoxyCodeLine{329     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_a72156abd480402abdec45475071725bf}{tx\_error\_rate\_avg\_}}(}
+\DoxyCodeLine{330             \textcolor{keywordtype}{float} \_tx\_error\_rate\_avg\_);}
+\DoxyCodeLine{331 }
+\DoxyCodeLine{336     eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classtelemetry__status_a72156abd480402abdec45475071725bf}{tx\_error\_rate\_avg\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{337 }
+\DoxyCodeLine{342     eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classtelemetry__status_a72156abd480402abdec45475071725bf}{tx\_error\_rate\_avg\_}}();}
+\DoxyCodeLine{343 }
+\DoxyCodeLine{348     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_a5c867a777f98ee486c2d3dcd1b45ee21}{tx\_message\_count\_}}(}
+\DoxyCodeLine{349             uint32\_t \_tx\_message\_count\_);}
+\DoxyCodeLine{350 }
+\DoxyCodeLine{355     eProsima\_user\_DllExport uint32\_t \mbox{\hyperlink{classtelemetry__status_a5c867a777f98ee486c2d3dcd1b45ee21}{tx\_message\_count\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{356 }
+\DoxyCodeLine{361     eProsima\_user\_DllExport uint32\_t\& \mbox{\hyperlink{classtelemetry__status_a5c867a777f98ee486c2d3dcd1b45ee21}{tx\_message\_count\_}}();}
+\DoxyCodeLine{362 }
+\DoxyCodeLine{367     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_ac2f0075002c66d51827486c7536fef4c}{tx\_buffer\_overruns\_}}(}
+\DoxyCodeLine{368             uint32\_t \_tx\_buffer\_overruns\_);}
+\DoxyCodeLine{369 }
+\DoxyCodeLine{374     eProsima\_user\_DllExport uint32\_t \mbox{\hyperlink{classtelemetry__status_ac2f0075002c66d51827486c7536fef4c}{tx\_buffer\_overruns\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{375 }
+\DoxyCodeLine{380     eProsima\_user\_DllExport uint32\_t\& \mbox{\hyperlink{classtelemetry__status_ac2f0075002c66d51827486c7536fef4c}{tx\_buffer\_overruns\_}}();}
+\DoxyCodeLine{381 }
+\DoxyCodeLine{386     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_af440365d1c9cbaf83ba70f0ac961b128}{rx\_rate\_avg\_}}(}
+\DoxyCodeLine{387             \textcolor{keywordtype}{float} \_rx\_rate\_avg\_);}
+\DoxyCodeLine{388 }
+\DoxyCodeLine{393     eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classtelemetry__status_af440365d1c9cbaf83ba70f0ac961b128}{rx\_rate\_avg\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{394 }
+\DoxyCodeLine{399     eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classtelemetry__status_af440365d1c9cbaf83ba70f0ac961b128}{rx\_rate\_avg\_}}();}
+\DoxyCodeLine{400 }
+\DoxyCodeLine{405     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_add2791d2162fbec647081a0d2d312346}{rx\_message\_count\_}}(}
+\DoxyCodeLine{406             uint32\_t \_rx\_message\_count\_);}
+\DoxyCodeLine{407 }
+\DoxyCodeLine{412     eProsima\_user\_DllExport uint32\_t \mbox{\hyperlink{classtelemetry__status_add2791d2162fbec647081a0d2d312346}{rx\_message\_count\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{413 }
+\DoxyCodeLine{418     eProsima\_user\_DllExport uint32\_t\& \mbox{\hyperlink{classtelemetry__status_add2791d2162fbec647081a0d2d312346}{rx\_message\_count\_}}();}
+\DoxyCodeLine{419 }
+\DoxyCodeLine{424     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_a7a0fa226b4e3d85568243a81a4a3f79a}{rx\_message\_lost\_count\_}}(}
+\DoxyCodeLine{425             uint32\_t \_rx\_message\_lost\_count\_);}
+\DoxyCodeLine{426 }
+\DoxyCodeLine{431     eProsima\_user\_DllExport uint32\_t \mbox{\hyperlink{classtelemetry__status_a7a0fa226b4e3d85568243a81a4a3f79a}{rx\_message\_lost\_count\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{432 }
+\DoxyCodeLine{437     eProsima\_user\_DllExport uint32\_t\& \mbox{\hyperlink{classtelemetry__status_a7a0fa226b4e3d85568243a81a4a3f79a}{rx\_message\_lost\_count\_}}();}
+\DoxyCodeLine{438 }
+\DoxyCodeLine{443     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_a2e11a5be0a2ed22c20abc72d5e0c58bd}{rx\_buffer\_overruns\_}}(}
+\DoxyCodeLine{444             uint32\_t \_rx\_buffer\_overruns\_);}
+\DoxyCodeLine{445 }
+\DoxyCodeLine{450     eProsima\_user\_DllExport uint32\_t \mbox{\hyperlink{classtelemetry__status_a2e11a5be0a2ed22c20abc72d5e0c58bd}{rx\_buffer\_overruns\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{451 }
+\DoxyCodeLine{456     eProsima\_user\_DllExport uint32\_t\& \mbox{\hyperlink{classtelemetry__status_a2e11a5be0a2ed22c20abc72d5e0c58bd}{rx\_buffer\_overruns\_}}();}
+\DoxyCodeLine{457 }
+\DoxyCodeLine{462     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_aa99c440aa6a6261a0488605661438ae3}{rx\_parse\_errors\_}}(}
+\DoxyCodeLine{463             uint32\_t \_rx\_parse\_errors\_);}
+\DoxyCodeLine{464 }
+\DoxyCodeLine{469     eProsima\_user\_DllExport uint32\_t \mbox{\hyperlink{classtelemetry__status_aa99c440aa6a6261a0488605661438ae3}{rx\_parse\_errors\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{470 }
+\DoxyCodeLine{475     eProsima\_user\_DllExport uint32\_t\& \mbox{\hyperlink{classtelemetry__status_aa99c440aa6a6261a0488605661438ae3}{rx\_parse\_errors\_}}();}
+\DoxyCodeLine{476 }
+\DoxyCodeLine{481     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_a75539f454e887717217481ad9f36200e}{rx\_packet\_drop\_count\_}}(}
+\DoxyCodeLine{482             uint32\_t \_rx\_packet\_drop\_count\_);}
+\DoxyCodeLine{483 }
+\DoxyCodeLine{488     eProsima\_user\_DllExport uint32\_t \mbox{\hyperlink{classtelemetry__status_a75539f454e887717217481ad9f36200e}{rx\_packet\_drop\_count\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{489 }
+\DoxyCodeLine{494     eProsima\_user\_DllExport uint32\_t\& \mbox{\hyperlink{classtelemetry__status_a75539f454e887717217481ad9f36200e}{rx\_packet\_drop\_count\_}}();}
+\DoxyCodeLine{495 }
+\DoxyCodeLine{500     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_a447c584889dbce9c68d9f34d60797a7b}{rx\_message\_lost\_rate\_}}(}
+\DoxyCodeLine{501             \textcolor{keywordtype}{float} \_rx\_message\_lost\_rate\_);}
+\DoxyCodeLine{502 }
+\DoxyCodeLine{507     eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classtelemetry__status_a447c584889dbce9c68d9f34d60797a7b}{rx\_message\_lost\_rate\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{508 }
+\DoxyCodeLine{513     eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classtelemetry__status_a447c584889dbce9c68d9f34d60797a7b}{rx\_message\_lost\_rate\_}}();}
+\DoxyCodeLine{514 }
+\DoxyCodeLine{519     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_aeadacb834fe95bb18311226114998f5a}{heartbeat\_type\_antenna\_tracker\_}}(}
+\DoxyCodeLine{520             \textcolor{keywordtype}{bool} \_heartbeat\_type\_antenna\_tracker\_);}
+\DoxyCodeLine{521 }
+\DoxyCodeLine{526     eProsima\_user\_DllExport \textcolor{keywordtype}{bool} \mbox{\hyperlink{classtelemetry__status_aeadacb834fe95bb18311226114998f5a}{heartbeat\_type\_antenna\_tracker\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{527 }
+\DoxyCodeLine{532     eProsima\_user\_DllExport \textcolor{keywordtype}{bool}\& \mbox{\hyperlink{classtelemetry__status_aeadacb834fe95bb18311226114998f5a}{heartbeat\_type\_antenna\_tracker\_}}();}
+\DoxyCodeLine{533 }
+\DoxyCodeLine{538     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_ae75db1b5427d85a20e3fd5d7f16e44fe}{heartbeat\_type\_gcs\_}}(}
+\DoxyCodeLine{539             \textcolor{keywordtype}{bool} \_heartbeat\_type\_gcs\_);}
+\DoxyCodeLine{540 }
+\DoxyCodeLine{545     eProsima\_user\_DllExport \textcolor{keywordtype}{bool} \mbox{\hyperlink{classtelemetry__status_ae75db1b5427d85a20e3fd5d7f16e44fe}{heartbeat\_type\_gcs\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{546 }
+\DoxyCodeLine{551     eProsima\_user\_DllExport \textcolor{keywordtype}{bool}\& \mbox{\hyperlink{classtelemetry__status_ae75db1b5427d85a20e3fd5d7f16e44fe}{heartbeat\_type\_gcs\_}}();}
+\DoxyCodeLine{552 }
+\DoxyCodeLine{557     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_acfdf9fbcf429ca3de1766fa2b4b4e6d1}{heartbeat\_type\_onboard\_controller\_}}(}
+\DoxyCodeLine{558             \textcolor{keywordtype}{bool} \_heartbeat\_type\_onboard\_controller\_);}
+\DoxyCodeLine{559 }
+\DoxyCodeLine{564     eProsima\_user\_DllExport \textcolor{keywordtype}{bool} \mbox{\hyperlink{classtelemetry__status_acfdf9fbcf429ca3de1766fa2b4b4e6d1}{heartbeat\_type\_onboard\_controller\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{565 }
+\DoxyCodeLine{570     eProsima\_user\_DllExport \textcolor{keywordtype}{bool}\& \mbox{\hyperlink{classtelemetry__status_acfdf9fbcf429ca3de1766fa2b4b4e6d1}{heartbeat\_type\_onboard\_controller\_}}();}
+\DoxyCodeLine{571 }
+\DoxyCodeLine{576     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_a51293a34685717e2af92f7f5e0b9f495}{heartbeat\_type\_gimbal\_}}(}
+\DoxyCodeLine{577             \textcolor{keywordtype}{bool} \_heartbeat\_type\_gimbal\_);}
+\DoxyCodeLine{578 }
+\DoxyCodeLine{583     eProsima\_user\_DllExport \textcolor{keywordtype}{bool} \mbox{\hyperlink{classtelemetry__status_a51293a34685717e2af92f7f5e0b9f495}{heartbeat\_type\_gimbal\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{584 }
+\DoxyCodeLine{589     eProsima\_user\_DllExport \textcolor{keywordtype}{bool}\& \mbox{\hyperlink{classtelemetry__status_a51293a34685717e2af92f7f5e0b9f495}{heartbeat\_type\_gimbal\_}}();}
+\DoxyCodeLine{590 }
+\DoxyCodeLine{595     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_aff86903333d2baad4cbd585cd90199b5}{heartbeat\_type\_adsb\_}}(}
+\DoxyCodeLine{596             \textcolor{keywordtype}{bool} \_heartbeat\_type\_adsb\_);}
+\DoxyCodeLine{597 }
+\DoxyCodeLine{602     eProsima\_user\_DllExport \textcolor{keywordtype}{bool} \mbox{\hyperlink{classtelemetry__status_aff86903333d2baad4cbd585cd90199b5}{heartbeat\_type\_adsb\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{603 }
+\DoxyCodeLine{608     eProsima\_user\_DllExport \textcolor{keywordtype}{bool}\& \mbox{\hyperlink{classtelemetry__status_aff86903333d2baad4cbd585cd90199b5}{heartbeat\_type\_adsb\_}}();}
+\DoxyCodeLine{609 }
+\DoxyCodeLine{614     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_a87536a311e230c6f03c1f31377d74ba0}{heartbeat\_type\_camera\_}}(}
+\DoxyCodeLine{615             \textcolor{keywordtype}{bool} \_heartbeat\_type\_camera\_);}
+\DoxyCodeLine{616 }
+\DoxyCodeLine{621     eProsima\_user\_DllExport \textcolor{keywordtype}{bool} \mbox{\hyperlink{classtelemetry__status_a87536a311e230c6f03c1f31377d74ba0}{heartbeat\_type\_camera\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{622 }
+\DoxyCodeLine{627     eProsima\_user\_DllExport \textcolor{keywordtype}{bool}\& \mbox{\hyperlink{classtelemetry__status_a87536a311e230c6f03c1f31377d74ba0}{heartbeat\_type\_camera\_}}();}
+\DoxyCodeLine{628 }
+\DoxyCodeLine{633     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_a268819edfe2371d9888b11dba6307115}{heartbeat\_component\_telemetry\_radio\_}}(}
+\DoxyCodeLine{634             \textcolor{keywordtype}{bool} \_heartbeat\_component\_telemetry\_radio\_);}
+\DoxyCodeLine{635 }
+\DoxyCodeLine{640     eProsima\_user\_DllExport \textcolor{keywordtype}{bool} \mbox{\hyperlink{classtelemetry__status_a268819edfe2371d9888b11dba6307115}{heartbeat\_component\_telemetry\_radio\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{641 }
+\DoxyCodeLine{646     eProsima\_user\_DllExport \textcolor{keywordtype}{bool}\& \mbox{\hyperlink{classtelemetry__status_a268819edfe2371d9888b11dba6307115}{heartbeat\_component\_telemetry\_radio\_}}();}
+\DoxyCodeLine{647 }
+\DoxyCodeLine{652     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_a4745ccf36a93dc2a957ada06f19848ec}{heartbeat\_component\_log\_}}(}
+\DoxyCodeLine{653             \textcolor{keywordtype}{bool} \_heartbeat\_component\_log\_);}
+\DoxyCodeLine{654 }
+\DoxyCodeLine{659     eProsima\_user\_DllExport \textcolor{keywordtype}{bool} \mbox{\hyperlink{classtelemetry__status_a4745ccf36a93dc2a957ada06f19848ec}{heartbeat\_component\_log\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{660 }
+\DoxyCodeLine{665     eProsima\_user\_DllExport \textcolor{keywordtype}{bool}\& \mbox{\hyperlink{classtelemetry__status_a4745ccf36a93dc2a957ada06f19848ec}{heartbeat\_component\_log\_}}();}
+\DoxyCodeLine{666 }
+\DoxyCodeLine{671     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_a4e9c90c34c8bab4a6b7d6b708acfceee}{heartbeat\_component\_osd\_}}(}
+\DoxyCodeLine{672             \textcolor{keywordtype}{bool} \_heartbeat\_component\_osd\_);}
+\DoxyCodeLine{673 }
+\DoxyCodeLine{678     eProsima\_user\_DllExport \textcolor{keywordtype}{bool} \mbox{\hyperlink{classtelemetry__status_a4e9c90c34c8bab4a6b7d6b708acfceee}{heartbeat\_component\_osd\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{679 }
+\DoxyCodeLine{684     eProsima\_user\_DllExport \textcolor{keywordtype}{bool}\& \mbox{\hyperlink{classtelemetry__status_a4e9c90c34c8bab4a6b7d6b708acfceee}{heartbeat\_component\_osd\_}}();}
+\DoxyCodeLine{685 }
+\DoxyCodeLine{690     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_adc3575fc8bbc3162417fc9a282ff048b}{heartbeat\_component\_obstacle\_avoidance\_}}(}
+\DoxyCodeLine{691             \textcolor{keywordtype}{bool} \_heartbeat\_component\_obstacle\_avoidance\_);}
+\DoxyCodeLine{692 }
+\DoxyCodeLine{697     eProsima\_user\_DllExport \textcolor{keywordtype}{bool} \mbox{\hyperlink{classtelemetry__status_adc3575fc8bbc3162417fc9a282ff048b}{heartbeat\_component\_obstacle\_avoidance\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{698 }
+\DoxyCodeLine{703     eProsima\_user\_DllExport \textcolor{keywordtype}{bool}\& \mbox{\hyperlink{classtelemetry__status_adc3575fc8bbc3162417fc9a282ff048b}{heartbeat\_component\_obstacle\_avoidance\_}}();}
+\DoxyCodeLine{704 }
+\DoxyCodeLine{709     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_a185c8bbc6454efd8623fdc4ce13042f8}{heartbeat\_component\_vio\_}}(}
+\DoxyCodeLine{710             \textcolor{keywordtype}{bool} \_heartbeat\_component\_vio\_);}
+\DoxyCodeLine{711 }
+\DoxyCodeLine{716     eProsima\_user\_DllExport \textcolor{keywordtype}{bool} \mbox{\hyperlink{classtelemetry__status_a185c8bbc6454efd8623fdc4ce13042f8}{heartbeat\_component\_vio\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{717 }
+\DoxyCodeLine{722     eProsima\_user\_DllExport \textcolor{keywordtype}{bool}\& \mbox{\hyperlink{classtelemetry__status_a185c8bbc6454efd8623fdc4ce13042f8}{heartbeat\_component\_vio\_}}();}
+\DoxyCodeLine{723 }
+\DoxyCodeLine{728     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_a38bb004a478f4797a16ea5e3cd390937}{heartbeat\_component\_pairing\_manager\_}}(}
+\DoxyCodeLine{729             \textcolor{keywordtype}{bool} \_heartbeat\_component\_pairing\_manager\_);}
+\DoxyCodeLine{730 }
+\DoxyCodeLine{735     eProsima\_user\_DllExport \textcolor{keywordtype}{bool} \mbox{\hyperlink{classtelemetry__status_a38bb004a478f4797a16ea5e3cd390937}{heartbeat\_component\_pairing\_manager\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{736 }
+\DoxyCodeLine{741     eProsima\_user\_DllExport \textcolor{keywordtype}{bool}\& \mbox{\hyperlink{classtelemetry__status_a38bb004a478f4797a16ea5e3cd390937}{heartbeat\_component\_pairing\_manager\_}}();}
+\DoxyCodeLine{742 }
+\DoxyCodeLine{747     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_a6c7891c9708a5509502139e5b2fb6b2a}{heartbeat\_component\_udp\_bridge\_}}(}
+\DoxyCodeLine{748             \textcolor{keywordtype}{bool} \_heartbeat\_component\_udp\_bridge\_);}
+\DoxyCodeLine{749 }
+\DoxyCodeLine{754     eProsima\_user\_DllExport \textcolor{keywordtype}{bool} \mbox{\hyperlink{classtelemetry__status_a6c7891c9708a5509502139e5b2fb6b2a}{heartbeat\_component\_udp\_bridge\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{755 }
+\DoxyCodeLine{760     eProsima\_user\_DllExport \textcolor{keywordtype}{bool}\& \mbox{\hyperlink{classtelemetry__status_a6c7891c9708a5509502139e5b2fb6b2a}{heartbeat\_component\_udp\_bridge\_}}();}
+\DoxyCodeLine{761 }
+\DoxyCodeLine{766     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_a2665d058c51f84982aa95cfa3476dc16}{heartbeat\_component\_uart\_bridge\_}}(}
+\DoxyCodeLine{767             \textcolor{keywordtype}{bool} \_heartbeat\_component\_uart\_bridge\_);}
+\DoxyCodeLine{768 }
+\DoxyCodeLine{773     eProsima\_user\_DllExport \textcolor{keywordtype}{bool} \mbox{\hyperlink{classtelemetry__status_a2665d058c51f84982aa95cfa3476dc16}{heartbeat\_component\_uart\_bridge\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{774 }
+\DoxyCodeLine{779     eProsima\_user\_DllExport \textcolor{keywordtype}{bool}\& \mbox{\hyperlink{classtelemetry__status_a2665d058c51f84982aa95cfa3476dc16}{heartbeat\_component\_uart\_bridge\_}}();}
+\DoxyCodeLine{780 }
+\DoxyCodeLine{785     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_a7ba523632ca7b377afdc2a3c2aeba99a}{avoidance\_system\_healthy\_}}(}
+\DoxyCodeLine{786             \textcolor{keywordtype}{bool} \_avoidance\_system\_healthy\_);}
+\DoxyCodeLine{787 }
+\DoxyCodeLine{792     eProsima\_user\_DllExport \textcolor{keywordtype}{bool} \mbox{\hyperlink{classtelemetry__status_a7ba523632ca7b377afdc2a3c2aeba99a}{avoidance\_system\_healthy\_}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{793 }
+\DoxyCodeLine{798     eProsima\_user\_DllExport \textcolor{keywordtype}{bool}\& \mbox{\hyperlink{classtelemetry__status_a7ba523632ca7b377afdc2a3c2aeba99a}{avoidance\_system\_healthy\_}}();}
+\DoxyCodeLine{799 }
+\DoxyCodeLine{800 }
+\DoxyCodeLine{807     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classtelemetry__status_a66d608de147c8f1320242dd2000327ed}{getMaxCdrSerializedSize}}(}
+\DoxyCodeLine{808             \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{809 }
+\DoxyCodeLine{816     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classtelemetry__status_a4daa69cdab3f3e017348da9cf3e2e8ce}{getCdrSerializedSize}}(}
+\DoxyCodeLine{817             \textcolor{keyword}{const} \mbox{\hyperlink{classtelemetry__status}{telemetry\_status}}\& data,}
+\DoxyCodeLine{818             \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{819 }
+\DoxyCodeLine{820 }
+\DoxyCodeLine{825     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_a49e31e3f0a3be83c6913756c483760c2}{serialize}}(}
+\DoxyCodeLine{826             eprosima::fastcdr::Cdr\& cdr) \textcolor{keyword}{const};}
+\DoxyCodeLine{827 }
+\DoxyCodeLine{832     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_a1741fdc1fb415b9a5f07ee94ab568cc2}{deserialize}}(}
+\DoxyCodeLine{833             eprosima::fastcdr::Cdr\& cdr);}
+\DoxyCodeLine{834 }
+\DoxyCodeLine{835 }
+\DoxyCodeLine{836 }
+\DoxyCodeLine{843     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classtelemetry__status_ad206c6fa5d4d552756dc849dfa72bbcd}{getKeyMaxCdrSerializedSize}}(}
+\DoxyCodeLine{844             \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{845 }
+\DoxyCodeLine{849     eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{bool} \mbox{\hyperlink{classtelemetry__status_a1bf4148e27b1f92b0da46bc480dc9d7e}{isKeyDefined}}();}
+\DoxyCodeLine{850 }
+\DoxyCodeLine{855     eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classtelemetry__status_aa0ef628e2f346d588d5599b6c4b04d65}{serializeKey}}(}
+\DoxyCodeLine{856             eprosima::fastcdr::Cdr\& cdr) \textcolor{keyword}{const};}
+\DoxyCodeLine{857 }
+\DoxyCodeLine{858 \textcolor{keyword}{private}:}
+\DoxyCodeLine{859 }
+\DoxyCodeLine{860     uint64\_t m\_timestamp\_;}
+\DoxyCodeLine{861     uint8\_t m\_type\_;}
+\DoxyCodeLine{862     uint8\_t m\_mode\_;}
+\DoxyCodeLine{863     \textcolor{keywordtype}{bool} m\_flow\_control\_;}
+\DoxyCodeLine{864     \textcolor{keywordtype}{bool} m\_forwarding\_;}
+\DoxyCodeLine{865     \textcolor{keywordtype}{bool} m\_mavlink\_v2\_;}
+\DoxyCodeLine{866     \textcolor{keywordtype}{bool} m\_ftp\_;}
+\DoxyCodeLine{867     uint8\_t m\_streams\_;}
+\DoxyCodeLine{868     \textcolor{keywordtype}{float} m\_data\_rate\_;}
+\DoxyCodeLine{869     \textcolor{keywordtype}{float} m\_rate\_multiplier\_;}
+\DoxyCodeLine{870     \textcolor{keywordtype}{float} m\_tx\_rate\_avg\_;}
+\DoxyCodeLine{871     \textcolor{keywordtype}{float} m\_tx\_error\_rate\_avg\_;}
+\DoxyCodeLine{872     uint32\_t m\_tx\_message\_count\_;}
+\DoxyCodeLine{873     uint32\_t m\_tx\_buffer\_overruns\_;}
+\DoxyCodeLine{874     \textcolor{keywordtype}{float} m\_rx\_rate\_avg\_;}
+\DoxyCodeLine{875     uint32\_t m\_rx\_message\_count\_;}
+\DoxyCodeLine{876     uint32\_t m\_rx\_message\_lost\_count\_;}
+\DoxyCodeLine{877     uint32\_t m\_rx\_buffer\_overruns\_;}
+\DoxyCodeLine{878     uint32\_t m\_rx\_parse\_errors\_;}
+\DoxyCodeLine{879     uint32\_t m\_rx\_packet\_drop\_count\_;}
+\DoxyCodeLine{880     \textcolor{keywordtype}{float} m\_rx\_message\_lost\_rate\_;}
+\DoxyCodeLine{881     \textcolor{keywordtype}{bool} m\_heartbeat\_type\_antenna\_tracker\_;}
+\DoxyCodeLine{882     \textcolor{keywordtype}{bool} m\_heartbeat\_type\_gcs\_;}
+\DoxyCodeLine{883     \textcolor{keywordtype}{bool} m\_heartbeat\_type\_onboard\_controller\_;}
+\DoxyCodeLine{884     \textcolor{keywordtype}{bool} m\_heartbeat\_type\_gimbal\_;}
+\DoxyCodeLine{885     \textcolor{keywordtype}{bool} m\_heartbeat\_type\_adsb\_;}
+\DoxyCodeLine{886     \textcolor{keywordtype}{bool} m\_heartbeat\_type\_camera\_;}
+\DoxyCodeLine{887     \textcolor{keywordtype}{bool} m\_heartbeat\_component\_telemetry\_radio\_;}
+\DoxyCodeLine{888     \textcolor{keywordtype}{bool} m\_heartbeat\_component\_log\_;}
+\DoxyCodeLine{889     \textcolor{keywordtype}{bool} m\_heartbeat\_component\_osd\_;}
+\DoxyCodeLine{890     \textcolor{keywordtype}{bool} m\_heartbeat\_component\_obstacle\_avoidance\_;}
+\DoxyCodeLine{891     \textcolor{keywordtype}{bool} m\_heartbeat\_component\_vio\_;}
+\DoxyCodeLine{892     \textcolor{keywordtype}{bool} m\_heartbeat\_component\_pairing\_manager\_;}
+\DoxyCodeLine{893     \textcolor{keywordtype}{bool} m\_heartbeat\_component\_udp\_bridge\_;}
+\DoxyCodeLine{894     \textcolor{keywordtype}{bool} m\_heartbeat\_component\_uart\_bridge\_;}
+\DoxyCodeLine{895     \textcolor{keywordtype}{bool} m\_avoidance\_system\_healthy\_;}
+\DoxyCodeLine{896 \};}
+\DoxyCodeLine{897 }
+\DoxyCodeLine{898 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_TELEMETRY\_STATUS\_H\_}}
+
+\end{DoxyCode}

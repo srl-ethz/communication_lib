@@ -1,0 +1,98 @@
+\hypertarget{optical__flow_pub_sub_types_8h_source}{}\doxysection{optical\+\_\+flow\+Pub\+Sub\+Types.\+h}
+\label{optical__flow_pub_sub_types_8h_source}\index{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/px4\_msg\_definitions/optical\_flowPubSubTypes.h@{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/px4\_msg\_definitions/optical\_flowPubSubTypes.h}}
+\mbox{\hyperlink{optical__flow_pub_sub_types_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{// Copyright 2016 Proyectos y Sistemas de Mantenimiento SL (eProsima).}}
+\DoxyCodeLine{2 \textcolor{comment}{//}}
+\DoxyCodeLine{3 \textcolor{comment}{// Licensed under the Apache License, Version 2.0 (the "{}License"{});}}
+\DoxyCodeLine{4 \textcolor{comment}{// you may not use this file except in compliance with the License.}}
+\DoxyCodeLine{5 \textcolor{comment}{// You may obtain a copy of the License at}}
+\DoxyCodeLine{6 \textcolor{comment}{//}}
+\DoxyCodeLine{7 \textcolor{comment}{//     http://www.apache.org/licenses/LICENSE-\/2.0}}
+\DoxyCodeLine{8 \textcolor{comment}{//}}
+\DoxyCodeLine{9 \textcolor{comment}{// Unless required by applicable law or agreed to in writing, software}}
+\DoxyCodeLine{10 \textcolor{comment}{// distributed under the License is distributed on an "{}AS IS"{} BASIS,}}
+\DoxyCodeLine{11 \textcolor{comment}{// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.}}
+\DoxyCodeLine{12 \textcolor{comment}{// See the License for the specific language governing permissions and}}
+\DoxyCodeLine{13 \textcolor{comment}{// limitations under the License.}}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{23 \textcolor{preprocessor}{\#ifndef \_OPTICAL\_FLOW\_PUBSUBTYPES\_H\_}}
+\DoxyCodeLine{24 \textcolor{preprocessor}{\#define \_OPTICAL\_FLOW\_PUBSUBTYPES\_H\_}}
+\DoxyCodeLine{25 }
+\DoxyCodeLine{26 \textcolor{preprocessor}{\#include <fastdds/dds/topic/TopicDataType.hpp>}}
+\DoxyCodeLine{27 \textcolor{preprocessor}{\#include <fastrtps/utils/md5.h>}}
+\DoxyCodeLine{28 }
+\DoxyCodeLine{29 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{optical__flow_8h}{optical\_flow.h}}"{}}}
+\DoxyCodeLine{30 }
+\DoxyCodeLine{31 \textcolor{preprocessor}{\#if !defined(GEN\_API\_VER) || (GEN\_API\_VER != 1)}}
+\DoxyCodeLine{32 \textcolor{preprocessor}{\#error Generated optical\_flow is not compatible with current installed Fast DDS. Please, regenerate it with fastddsgen.}}
+\DoxyCodeLine{33 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// GEN\_API\_VER}}
+\DoxyCodeLine{34 }
+\DoxyCodeLine{35 }
+\DoxyCodeLine{36 }
+\DoxyCodeLine{37 }
+\DoxyCodeLine{38 }
+\DoxyCodeLine{43 \textcolor{keyword}{class }\mbox{\hyperlink{classoptical__flow_pub_sub_type}{optical\_flowPubSubType}} : \textcolor{keyword}{public} eprosima::fastdds::dds::TopicDataType}
+\DoxyCodeLine{44 \{}
+\DoxyCodeLine{45 \textcolor{keyword}{public}:}
+\DoxyCodeLine{46 }
+\DoxyCodeLine{47     \textcolor{keyword}{typedef} \mbox{\hyperlink{classoptical__flow}{optical\_flow}} \mbox{\hyperlink{classoptical__flow}{type}};}
+\DoxyCodeLine{48 }
+\DoxyCodeLine{49     eProsima\_user\_DllExport \mbox{\hyperlink{classoptical__flow_pub_sub_type}{optical\_flowPubSubType}}();}
+\DoxyCodeLine{50 }
+\DoxyCodeLine{51     eProsima\_user\_DllExport \textcolor{keyword}{virtual} \mbox{\hyperlink{classoptical__flow_pub_sub_type}{\string~optical\_flowPubSubType}}();}
+\DoxyCodeLine{52 }
+\DoxyCodeLine{53     eProsima\_user\_DllExport \textcolor{keyword}{virtual} \textcolor{keywordtype}{bool} serialize(}
+\DoxyCodeLine{54             \textcolor{keywordtype}{void}* data,}
+\DoxyCodeLine{55             eprosima::fastrtps::rtps::SerializedPayload\_t* payload) \textcolor{keyword}{override};}
+\DoxyCodeLine{56 }
+\DoxyCodeLine{57     eProsima\_user\_DllExport \textcolor{keyword}{virtual} \textcolor{keywordtype}{bool} deserialize(}
+\DoxyCodeLine{58             eprosima::fastrtps::rtps::SerializedPayload\_t* payload,}
+\DoxyCodeLine{59             \textcolor{keywordtype}{void}* data) \textcolor{keyword}{override};}
+\DoxyCodeLine{60 }
+\DoxyCodeLine{61     eProsima\_user\_DllExport \textcolor{keyword}{virtual} std::function<uint32\_t()> getSerializedSizeProvider(}
+\DoxyCodeLine{62             \textcolor{keywordtype}{void}* data) \textcolor{keyword}{override};}
+\DoxyCodeLine{63 }
+\DoxyCodeLine{64     eProsima\_user\_DllExport \textcolor{keyword}{virtual} \textcolor{keywordtype}{bool} getKey(}
+\DoxyCodeLine{65             \textcolor{keywordtype}{void}* data,}
+\DoxyCodeLine{66             eprosima::fastrtps::rtps::InstanceHandle\_t* ihandle,}
+\DoxyCodeLine{67             \textcolor{keywordtype}{bool} force\_md5 = \textcolor{keyword}{false}) \textcolor{keyword}{override};}
+\DoxyCodeLine{68 }
+\DoxyCodeLine{69     eProsima\_user\_DllExport \textcolor{keyword}{virtual} \textcolor{keywordtype}{void}* createData() \textcolor{keyword}{override};}
+\DoxyCodeLine{70 }
+\DoxyCodeLine{71     eProsima\_user\_DllExport \textcolor{keyword}{virtual} \textcolor{keywordtype}{void} deleteData(}
+\DoxyCodeLine{72             \textcolor{keywordtype}{void}* data) \textcolor{keyword}{override};}
+\DoxyCodeLine{73 }
+\DoxyCodeLine{74 \textcolor{preprocessor}{\#ifdef TOPIC\_DATA\_TYPE\_API\_HAS\_IS\_BOUNDED}}
+\DoxyCodeLine{75     eProsima\_user\_DllExport \textcolor{keyword}{inline} \textcolor{keywordtype}{bool} is\_bounded()\textcolor{keyword}{ const override}}
+\DoxyCodeLine{76 \textcolor{keyword}{    }\{}
+\DoxyCodeLine{77         \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{78     \}}
+\DoxyCodeLine{79 }
+\DoxyCodeLine{80 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// TOPIC\_DATA\_TYPE\_API\_HAS\_IS\_BOUNDED}}
+\DoxyCodeLine{81 }
+\DoxyCodeLine{82 \textcolor{preprocessor}{\#ifdef TOPIC\_DATA\_TYPE\_API\_HAS\_IS\_PLAIN}}
+\DoxyCodeLine{83     eProsima\_user\_DllExport \textcolor{keyword}{inline} \textcolor{keywordtype}{bool} is\_plain()\textcolor{keyword}{ const override}}
+\DoxyCodeLine{84 \textcolor{keyword}{    }\{}
+\DoxyCodeLine{85         \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{86     \}}
+\DoxyCodeLine{87 }
+\DoxyCodeLine{88 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// TOPIC\_DATA\_TYPE\_API\_HAS\_IS\_PLAIN}}
+\DoxyCodeLine{89 }
+\DoxyCodeLine{90 \textcolor{preprocessor}{\#ifdef TOPIC\_DATA\_TYPE\_API\_HAS\_CONSTRUCT\_SAMPLE}}
+\DoxyCodeLine{91     eProsima\_user\_DllExport \textcolor{keyword}{inline} \textcolor{keywordtype}{bool} construct\_sample(}
+\DoxyCodeLine{92             \textcolor{keywordtype}{void}* memory)\textcolor{keyword}{ const override}}
+\DoxyCodeLine{93 \textcolor{keyword}{    }\{}
+\DoxyCodeLine{94         \textcolor{keyword}{new} (memory) \mbox{\hyperlink{classoptical__flow}{optical\_flow}}();}
+\DoxyCodeLine{95         \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{96     \}}
+\DoxyCodeLine{97 }
+\DoxyCodeLine{98 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// TOPIC\_DATA\_TYPE\_API\_HAS\_CONSTRUCT\_SAMPLE}}
+\DoxyCodeLine{99 }
+\DoxyCodeLine{100     MD5 m\_md5;}
+\DoxyCodeLine{101     \textcolor{keywordtype}{unsigned} \textcolor{keywordtype}{char}* m\_keyBuffer;}
+\DoxyCodeLine{102 \};}
+\DoxyCodeLine{103 }
+\DoxyCodeLine{104 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_OPTICAL\_FLOW\_PUBSUBTYPES\_H\_}}
+
+\end{DoxyCode}
