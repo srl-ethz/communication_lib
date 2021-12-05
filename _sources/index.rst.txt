@@ -45,7 +45,7 @@ Contents
 
 .. toctree::
    :maxdepth: 2
-   :caption: Concepts
+   :caption: Full API Reference
 
    contents/full_reference/index   
    
