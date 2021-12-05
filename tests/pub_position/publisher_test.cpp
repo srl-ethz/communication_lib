@@ -14,15 +14,15 @@ int main() {
                             dp.participant());
 
   // create message of position type
-  cpp_msg::Position position;
+  cpp_msg::Position pos_msg;
 
   for (int i = 0; i < 10; i++) {
 
-    position.x = i + 1;
-    position.y = i - 1;
-    position.z = i;
+    pos_msg.x = i + 1;
+    pos_msg.y = i - 1;
+    pos_msg.z = i;
 
-    position_pub.publish(position);
+    position_pub.publish(pos_msg);
     std::this_thread::sleep_for(std::chrono::milliseconds(250));
   }
 }
