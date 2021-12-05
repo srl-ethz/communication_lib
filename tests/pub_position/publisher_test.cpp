@@ -1,31 +1,32 @@
 #include "PositionPubSubTypes.h"
 #include "default_participant.h"
 #include "default_publisher.h"
-#include "sensor_msgs/msgs/Mocap.h"
+#include "geometry_msgs/msgs/Position.h"
 #include <chrono>
-#include <cstdlib>
-#include <future>
 
 int main() {
-  // Message
-  idl_msg::Position position;
 
-  // Create participant. Arguments-> Domain id, QOS name
-  DefaultParticipant dp(0, "selva");
+  // Create participant. Arguments: Domain id, Name
+  DefaultParticipant dp(0, "sample_participant");
 
-  // Create publisher with msg type
+  // Create publisher with msg type and topic name
   DDSPublisher position_pub(idl_msg::PositionPubSubType(), "position",
                             dp.participant());
 
-  // Initialize publisher with topic name
+  // Send 10 data samples
   if (position_pub.init()) {
+
+    // create message of position type
+    cpp_msg::Position position;
+
     for (int i = 0; i < 10; i++) {
-      position.x(i + 1);
+
+      position.x = i + 1;
+      position.y = i - 1;
+      position.z = i;
+
       position_pub.publish(position);
       std::this_thread::sleep_for(std::chrono::milliseconds(250));
     }
   }
-
-  // eprosima::fastdds::dds::DomainParticipantFactory::get_instance()
-  //     ->delete_participant(participant_);
 }
