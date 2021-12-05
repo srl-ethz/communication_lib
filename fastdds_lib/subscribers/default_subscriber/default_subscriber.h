@@ -17,9 +17,15 @@ public:
 
     // Create sublistener object
     listener = std::make_unique<SubListener<msg_type>>(msg);
+
+    // intitalize with error checking
+    if (this->init() == false) {
+      std::cerr << "DDS Publisher could not be initialized";
+      exit(EXIT_FAILURE);
+    };
   }
 
-  virtual ~DDSSubscriber();
+  ~DDSSubscriber();
 
   bool init();
 

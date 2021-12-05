@@ -20,9 +20,15 @@ public:
 
     // Set pointer to domain participant
     participant_ = participant;
+
+    // intitalize with error checking
+    if (this->init() == false) {
+      std::cerr << "DDS Publisher could not be initialized";
+      exit(EXIT_FAILURE);
+    };
   }
 
-  virtual ~DDSPublisher();
+  ~DDSPublisher();
 
   bool init();
 

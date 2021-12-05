@@ -13,20 +13,16 @@ int main() {
   DDSPublisher position_pub(idl_msg::PositionPubSubType(), "position",
                             dp.participant());
 
-  // Send 10 data samples
-  if (position_pub.init()) {
+  // create message of position type
+  cpp_msg::Position position;
 
-    // create message of position type
-    cpp_msg::Position position;
+  for (int i = 0; i < 10; i++) {
 
-    for (int i = 0; i < 10; i++) {
+    position.x = i + 1;
+    position.y = i - 1;
+    position.z = i;
 
-      position.x = i + 1;
-      position.y = i - 1;
-      position.z = i;
-
-      position_pub.publish(position);
-      std::this_thread::sleep_for(std::chrono::milliseconds(250));
-    }
+    position_pub.publish(position);
+    std::this_thread::sleep_for(std::chrono::milliseconds(250));
   }
 }

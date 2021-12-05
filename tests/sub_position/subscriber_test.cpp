@@ -24,8 +24,6 @@ int main() {
   DDSSubscriber mocap_sub(idl_msg::PositionPubSubType(), &pos_msg, "position",
                           dp.participant());
 
-  mocap_sub.init();
-
   for (;;) {
 
     // Blocks until new data is available
