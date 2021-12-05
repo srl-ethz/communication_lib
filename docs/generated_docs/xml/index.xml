@@ -44,7 +44,6 @@
   </compound>
   <compound refid="class_d_d_s_publisher" kind="class"><name>DDSPublisher</name>
     <member refid="class_d_d_s_publisher_1aef17936f7bd20f9a97c53cf1678ecffd" kind="variable"><name>topic_name_</name></member>
-    <member refid="class_d_d_s_publisher_1add173240facd285430c2cb37fa5a47ea" kind="variable"><name>listener</name></member>
     <member refid="class_d_d_s_publisher_1ade3e239e483002acad10a8e0deee2d30" kind="variable"><name>participant_</name></member>
     <member refid="class_d_d_s_publisher_1a251e63dd38060ea0cf953a72fbd6a7ee" kind="variable"><name>publisher_</name></member>
     <member refid="class_d_d_s_publisher_1aeb6809a1f79ee23b3a89bdfd4b1cb216" kind="variable"><name>topic_</name></member>
@@ -52,6 +51,7 @@
     <member refid="class_d_d_s_publisher_1adbce9d628feab757975f133bdb125605" kind="variable"><name>type_</name></member>
     <member refid="class_d_d_s_publisher_1a07219e5edad7ef6bf50c313c876daa53" kind="variable"><name>best_effort_</name></member>
     <member refid="class_d_d_s_publisher_1a5dcb90023313755d73d912f6ce843dd9" kind="variable"><name>writer_qos_</name></member>
+    <member refid="class_d_d_s_publisher_1add173240facd285430c2cb37fa5a47ea" kind="variable"><name>listener</name></member>
     <member refid="class_d_d_s_publisher_1a627fabe644745787c520a7b973df6fe4" kind="function"><name>DDSPublisher</name></member>
     <member refid="class_d_d_s_publisher_1a851edeb1bee814dfc4e8115a6a7c194f" kind="function"><name>~DDSPublisher</name></member>
     <member refid="class_d_d_s_publisher_1a79dcb5c4cefbedb5c9cd356bd0e6e14c" kind="function"><name>init</name></member>
@@ -59,12 +59,12 @@
   </compound>
   <compound refid="class_d_d_s_subscriber" kind="class"><name>DDSSubscriber</name>
     <member refid="class_d_d_s_subscriber_1a519815841d8da4ba29ba96c2eddaa416" kind="variable"><name>topic_name_</name></member>
-    <member refid="class_d_d_s_subscriber_1a51a1d8d2bda17f2b1dccdabfbfac1a64" kind="variable"><name>listener</name></member>
     <member refid="class_d_d_s_subscriber_1a43ebbf9a79462d8ea6a7bc3baec2183e" kind="variable"><name>participant_</name></member>
     <member refid="class_d_d_s_subscriber_1ad03efe6cd1a6898defec831efcfd23ea" kind="variable"><name>subscriber_</name></member>
     <member refid="class_d_d_s_subscriber_1afba77ae249b03037b664b2f8a9a8a1e1" kind="variable"><name>topic_</name></member>
     <member refid="class_d_d_s_subscriber_1a7b9177ad0db8f8f4287dbe75a2226674" kind="variable"><name>reader_</name></member>
     <member refid="class_d_d_s_subscriber_1a42d6ffa46734d364adacef04c995012b" kind="variable"><name>type_</name></member>
+    <member refid="class_d_d_s_subscriber_1a51a1d8d2bda17f2b1dccdabfbfac1a64" kind="variable"><name>listener</name></member>
     <member refid="class_d_d_s_subscriber_1ac94a0f0fd892c93467d1d0b03571b134" kind="function"><name>DDSSubscriber</name></member>
     <member refid="class_d_d_s_subscriber_1a78780713f1abf4652ae0cc7c4302260c" kind="function"><name>~DDSSubscriber</name></member>
     <member refid="class_d_d_s_subscriber_1ab77164e7f1f9293f80aef7b4e6b04023" kind="function"><name>init</name></member>

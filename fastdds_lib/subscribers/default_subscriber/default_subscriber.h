@@ -25,11 +25,9 @@ public:
 
   void run();
 
+private:
   // Custom Variables
   std::string topic_name_{};
-
-  // // Buffer to hold incoming data
-  // msg_type msg{};
 
 public:
   // Pointer to listerner object (contains callbacks)

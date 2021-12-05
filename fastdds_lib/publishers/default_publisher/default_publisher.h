@@ -22,9 +22,6 @@ public:
     participant_ = participant;
   }
 
-  // Topic Name
-  std::string topic_name_{};
-
   virtual ~DDSPublisher();
 
   bool init();
@@ -38,6 +35,10 @@ public:
     // Publish Message
     writer_->write(&msg);
   }
+
+private:
+  // Topic Name
+  std::string topic_name_{};
 
 private:
   eprosima::fastdds::dds::DomainParticipant *participant_;
