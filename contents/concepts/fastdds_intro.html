@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neural networks aka deep learning &mdash; comm_lib  documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="prev" title="Concepts" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> comm_lib
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Concepts</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Concepts</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="index.html#contents">Contents</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Neural networks aka deep learning</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#intution">Intution</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#before-deep-learning">Before Deep learning</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#neural-networksg">Neural Networksg</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">comm_lib</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="index.html">Concepts</a> &raquo;</li>
+      <li>Neural networks aka deep learning</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/contents/concepts/fastdds_intro.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="neural-networks-aka-deep-learning">
+<h1>Neural networks aka deep learning<a class="headerlink" href="#neural-networks-aka-deep-learning" title="Permalink to this headline"></a></h1>
+<p>The first step to understanding neural networks is to be clear about the terms Artificial Intelligence
+,Machine learning and Deep learning. <strong>AI</strong> includes practically any techinique that <em>empowers a machine to
+take intelligent decisions without being expicitly programmed</em>. <strong>Machine learning</strong> resides within AI and
+refers specifically to a range of tools that promote <em>intelligence through learning</em> . <strong>Deep learning</strong>
+happens to be a part of machine learning that exploits <em>specific tools called</em> <strong>Neural Networks</strong> to make
+it work.</p>
+<section id="intution">
+<h2>Intution<a class="headerlink" href="#intution" title="Permalink to this headline"></a></h2>
+</section>
+<section id="before-deep-learning">
+<h2>Before Deep learning<a class="headerlink" href="#before-deep-learning" title="Permalink to this headline"></a></h2>
+<p>Deep learning now constitutes most of machine learning and both advancements and econimic value generated are growing exponentially ,but this was not always the case.Even in the last decade most of the ML community was concerened with several now obsolete techniques such as kNN ,SVM and random forests.But these techinques had
+several problems associated with them and nobody could get it to work really well on any problem that mattered in real life.Let me demostrate them through two examples:</p>
+<blockquote>
+<div><p><strong>The feature problem :</strong> Consider that the problem is to classify male and female voice.Going by old Ml techniques the first step would be to find out among the general properties of sound such as frequeny ,amplitude ,bass etc ,one that of differentiates them the most which would be frequency in this case.Such Properties of data are called features in ML.Now ,consider a database of voices of people speaking in different accents ,background noise etc.This causes a lot of confusion as to which features to select.Even in the male category voices of children might sometimes be interpreted as that of females due to the relatively high frequency. <strong>We need to manually select the best features and this is a very hard ,ambiguous process.</strong> The evolution of a separate field of study called <strong>Feature Engineering</strong> exemplifies this headache.</p>
+<p><strong>The categories problem :</strong> Consider that the problem is to recognize human faces.The traditional Ml method used for  this would be SVM[Support vector machine].It works be separating groups of input features.For instance ,one category might consist of with and without spectacles and another might be with sunglasses and without hair.As the complexity of the dataset increases,you can imagine that <a href="#id1"><span class="problematic" id="id2">**</span></a>no of categories would increase and prediction accuracy would decrease exponentially with size of the dataset.**As if to add to all that ,the computer cann’t see an image like humans can ,it can just process a matrix of numbers[4k ,1080p ,720p etc refer to the size of this matrix].As you can guess ,the primary problem of feature selection exsists in an amplified form here.</p>
+</div></blockquote>
+</section>
+<section id="neural-networksg">
+<h2>Neural Networksg<a class="headerlink" href="#neural-networksg" title="Permalink to this headline"></a></h2>
+<section id="inspired-by-the-brain">
+<h3>Inspired by the brain<a class="headerlink" href="#inspired-by-the-brain" title="Permalink to this headline"></a></h3>
+<p>The first thing that comes to our mind on hearing the term ‘Neural’ is the connection to the human brain and yes it is true.Deep learning is inspired by the millions of neurons and interconnections in the brain.However in the present scenario , <em>deep learning is to the human brain as bird flight is to aeroplanes.</em> Both perform the same function but the method is better.Having said that ,it widely accepted even by godfathers of deep learning that the present methods are far from optimal.Hence ,there is <em>no guarantee of the analogy holding in the future.</em> There have been breakthrough developments recently in the field that are largely inspired by neuroscience and the trend is expexted to continue.</p>
+</section>
+<section id="just-math">
+<h3>Just math<a class="headerlink" href="#just-math" title="Permalink to this headline"></a></h3>
+<p>Neural networks are really just a bunch of mathematical equations implemented in code.Theoretically ,it would be possible to implement all neural network computations on paper but thankfully ,we have computers to do it much faster for us.Each aspect of a neural network can be related to a particular field in math</p>
+<blockquote>
+<div><p><strong>Structure of the network and computations :</strong> Linear algebra [Matrices and related operations]</p>
+<p><strong>Process of learning :</strong> Calculus [Mostly gradients and derivatives]</p>
+<p><strong>Stochastic nature of predictions :</strong> Probabiility [For instance bayes]</p>
+</div></blockquote>
+</section>
+<section id="no-feature-selection">
+<h3>No feature selection<a class="headerlink" href="#no-feature-selection" title="Permalink to this headline"></a></h3>
+<p>Remeber the problem of feature selection ? The main diference between neural networks and old ML techniques is that we don’t need to select specific features to input.Instad ,we can input all the data features and the nework decides which ones are really important:</p>
+<p><strong>Visual recognition :</strong> We input all the image pixels.In case of 720p ,it would be 1280 X 720 = 921600 inputs.</p>
+<p><strong>Audio processing:</strong> We can directly input the audio file in time domain or frequency domain</p>
+</section>
+<section id="software-2-0">
+<h3>Software 2.0<a class="headerlink" href="#software-2-0" title="Permalink to this headline"></a></h3>
+<p>Deep learning has been referred to by Andrej Karpathy ,a leading AI researcher as Software 2.0.Accrding to him ,Software 1.0 consists of all the code that was written in langauges such as C++ ,python ,javascrpt etc in which the method has been explicitly specified.Although the structure of the network is written on Software 1.0 languages ,the method is the language of weights and these weights are learnt ,not programmed.</p>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="Concepts" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, sarath_suresh.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -33,12 +33,19 @@ Contents
 ==================
 .. toctree::
    :maxdepth: 2
-   :caption: Neural Networks
+   :caption: Installation
 
-   nn_intro
+   contents/intallation/index
 
-Docs
-====
+.. toctree::
+   :maxdepth: 2
+   :caption: Concepts
 
-.. doxygenclass:: DefaultParticipant
-   :members:
+   contents/concepts/index
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Concepts
+
+   contents/full_reference/index   
+   
