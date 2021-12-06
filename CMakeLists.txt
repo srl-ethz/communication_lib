@@ -22,8 +22,8 @@ add_subdirectory(fastdds_lib)
 
 # if (BUILD_DOC)
 # # Add the cmake folder so the FindSphinx module is found
-# set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake" ${CMAKE_MODULE_PATH})
-# add_subdirectory(docs)
+set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake" ${CMAKE_MODULE_PATH})
+add_subdirectory(docs)
 # endif (BUILD_DOC)
 
 add_subdirectory(tests)

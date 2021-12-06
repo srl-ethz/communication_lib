@@ -5,8 +5,6 @@ Concepts
 
 Concepts explanations
 
-Contents
-=======================
 
 .. toctree::
    :maxdepth: 1

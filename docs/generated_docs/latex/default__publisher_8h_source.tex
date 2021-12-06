@@ -24,54 +24,60 @@
 \DoxyCodeLine{20 }
 \DoxyCodeLine{21     \textcolor{comment}{// Set pointer to domain participant}}
 \DoxyCodeLine{22     participant\_ = participant;}
-\DoxyCodeLine{23   \}}
-\DoxyCodeLine{24 }
-\DoxyCodeLine{25   \textcolor{keyword}{virtual} \mbox{\hyperlink{class_d_d_s_publisher}{\string~DDSPublisher}}();}
-\DoxyCodeLine{26 }
-\DoxyCodeLine{27   \textcolor{keywordtype}{bool} init();}
-\DoxyCodeLine{28 }
-\DoxyCodeLine{29   \textcolor{keyword}{template} <\textcolor{keyword}{typename} T> \textcolor{keywordtype}{void} publish(T msg) \{}
-\DoxyCodeLine{30     \textcolor{keywordflow}{while} (listener.\mbox{\hyperlink{class_d_d_s_publisher_1_1_pub_listener_aad6c5bd8a013b374dea6f597252148b1}{matched}}() == 0) \{}
-\DoxyCodeLine{31       std::this\_thread::sleep\_for(}
-\DoxyCodeLine{32           std::chrono::milliseconds(250)); \textcolor{comment}{// Sleep 250 ms}}
-\DoxyCodeLine{33     \}}
+\DoxyCodeLine{23 }
+\DoxyCodeLine{24     \textcolor{comment}{// intitalize with error checking}}
+\DoxyCodeLine{25     \textcolor{keywordflow}{if} (this-\/>init() == \textcolor{keyword}{false}) \{}
+\DoxyCodeLine{26       std::cerr << \textcolor{stringliteral}{"{}DDS Publisher could not be initialized"{}};}
+\DoxyCodeLine{27       exit(EXIT\_FAILURE);}
+\DoxyCodeLine{28     \};}
+\DoxyCodeLine{29   \}}
+\DoxyCodeLine{30 }
+\DoxyCodeLine{31   \mbox{\hyperlink{class_d_d_s_publisher}{\string~DDSPublisher}}();}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{33   \textcolor{keywordtype}{bool} init();}
 \DoxyCodeLine{34 }
-\DoxyCodeLine{35     \textcolor{comment}{// Publish Message}}
-\DoxyCodeLine{36     writer\_-\/>write(\&msg);}
-\DoxyCodeLine{37   \}}
-\DoxyCodeLine{38 }
-\DoxyCodeLine{39 \textcolor{keyword}{private}:}
-\DoxyCodeLine{40   \textcolor{comment}{// Topic Name}}
-\DoxyCodeLine{41   std::string topic\_name\_\{\};}
-\DoxyCodeLine{42 }
-\DoxyCodeLine{43 \textcolor{keyword}{private}:}
-\DoxyCodeLine{44   eprosima::fastdds::dds::DomainParticipant *participant\_;}
-\DoxyCodeLine{45   eprosima::fastdds::dds::Publisher *publisher\_;}
-\DoxyCodeLine{46   eprosima::fastdds::dds::Topic *topic\_;}
-\DoxyCodeLine{47   eprosima::fastdds::dds::DataWriter *writer\_;}
-\DoxyCodeLine{48   eprosima::fastdds::dds::TypeSupport type\_;}
-\DoxyCodeLine{49 }
-\DoxyCodeLine{50   eprosima::fastdds::dds::ReliabilityQosPolicy best\_effort\_;}
-\DoxyCodeLine{51   eprosima::fastdds::dds::DataWriterQos writer\_qos\_;}
-\DoxyCodeLine{52 }
-\DoxyCodeLine{53 \textcolor{keyword}{public}:}
-\DoxyCodeLine{54   \textcolor{keyword}{class }\mbox{\hyperlink{class_d_d_s_publisher_1_1_pub_listener}{PubListener}} : \textcolor{keyword}{public} eprosima::fastdds::dds::DataWriterListener \{}
+\DoxyCodeLine{35   \textcolor{keyword}{template} <\textcolor{keyword}{typename} T> \textcolor{keywordtype}{void} publish(T msg) \{}
+\DoxyCodeLine{36     \textcolor{keywordflow}{while} (listener.\mbox{\hyperlink{class_d_d_s_publisher_1_1_pub_listener_aad6c5bd8a013b374dea6f597252148b1}{matched}}() == 0) \{}
+\DoxyCodeLine{37       std::this\_thread::sleep\_for(}
+\DoxyCodeLine{38           std::chrono::milliseconds(250)); \textcolor{comment}{// Sleep 250 ms}}
+\DoxyCodeLine{39     \}}
+\DoxyCodeLine{40 }
+\DoxyCodeLine{41     \textcolor{comment}{// Publish Message}}
+\DoxyCodeLine{42     writer\_-\/>write(\&msg);}
+\DoxyCodeLine{43   \}}
+\DoxyCodeLine{44 }
+\DoxyCodeLine{45 \textcolor{keyword}{private}:}
+\DoxyCodeLine{46   \textcolor{comment}{// Topic Name}}
+\DoxyCodeLine{47   std::string topic\_name\_\{\};}
+\DoxyCodeLine{48 }
+\DoxyCodeLine{49 \textcolor{keyword}{private}:}
+\DoxyCodeLine{50   eprosima::fastdds::dds::DomainParticipant *participant\_;}
+\DoxyCodeLine{51   eprosima::fastdds::dds::Publisher *publisher\_;}
+\DoxyCodeLine{52   eprosima::fastdds::dds::Topic *topic\_;}
+\DoxyCodeLine{53   eprosima::fastdds::dds::DataWriter *writer\_;}
+\DoxyCodeLine{54   eprosima::fastdds::dds::TypeSupport type\_;}
 \DoxyCodeLine{55 }
-\DoxyCodeLine{56   \textcolor{keyword}{public}:}
-\DoxyCodeLine{57     \mbox{\hyperlink{class_d_d_s_publisher_1_1_pub_listener}{PubListener}}() = \textcolor{keywordflow}{default};}
-\DoxyCodeLine{58     \mbox{\hyperlink{class_d_d_s_publisher_1_1_pub_listener}{\string~PubListener}}() \textcolor{keyword}{override} = \textcolor{keywordflow}{default};}
-\DoxyCodeLine{59 }
-\DoxyCodeLine{60   \textcolor{keyword}{private}:}
-\DoxyCodeLine{61     \textcolor{keywordtype}{void} on\_publication\_matched(}
-\DoxyCodeLine{62         eprosima::fastdds::dds::DataWriter *writer,}
-\DoxyCodeLine{63         \textcolor{keyword}{const} eprosima::fastdds::dds::PublicationMatchedStatus \&info) \textcolor{keyword}{override};}
-\DoxyCodeLine{64 }
-\DoxyCodeLine{65     \textcolor{keywordtype}{int} matched\_ = 0;}
-\DoxyCodeLine{66 }
-\DoxyCodeLine{67   \textcolor{keyword}{public}:}
-\DoxyCodeLine{69     \textcolor{keyword}{const} \textcolor{keywordtype}{float} \mbox{\hyperlink{class_d_d_s_publisher_1_1_pub_listener_aad6c5bd8a013b374dea6f597252148b1}{matched}}()\textcolor{keyword}{ const }\{ \textcolor{keywordflow}{return} matched\_; \}}
+\DoxyCodeLine{56   eprosima::fastdds::dds::ReliabilityQosPolicy best\_effort\_;}
+\DoxyCodeLine{57   eprosima::fastdds::dds::DataWriterQos writer\_qos\_;}
+\DoxyCodeLine{58 }
+\DoxyCodeLine{59 \textcolor{keyword}{public}:}
+\DoxyCodeLine{60   \textcolor{keyword}{class }\mbox{\hyperlink{class_d_d_s_publisher_1_1_pub_listener}{PubListener}} : \textcolor{keyword}{public} eprosima::fastdds::dds::DataWriterListener \{}
+\DoxyCodeLine{61 }
+\DoxyCodeLine{62   \textcolor{keyword}{public}:}
+\DoxyCodeLine{63     \mbox{\hyperlink{class_d_d_s_publisher_1_1_pub_listener}{PubListener}}() = \textcolor{keywordflow}{default};}
+\DoxyCodeLine{64     \mbox{\hyperlink{class_d_d_s_publisher_1_1_pub_listener}{\string~PubListener}}() \textcolor{keyword}{override} = \textcolor{keywordflow}{default};}
+\DoxyCodeLine{65 }
+\DoxyCodeLine{66   \textcolor{keyword}{private}:}
+\DoxyCodeLine{67     \textcolor{keywordtype}{void} on\_publication\_matched(}
+\DoxyCodeLine{68         eprosima::fastdds::dds::DataWriter *writer,}
+\DoxyCodeLine{69         \textcolor{keyword}{const} eprosima::fastdds::dds::PublicationMatchedStatus \&info) \textcolor{keyword}{override};}
 \DoxyCodeLine{70 }
-\DoxyCodeLine{71   \} listener;}
-\DoxyCodeLine{72 \};}
+\DoxyCodeLine{71     \textcolor{keywordtype}{int} matched\_ = 0;}
+\DoxyCodeLine{72 }
+\DoxyCodeLine{73   \textcolor{keyword}{public}:}
+\DoxyCodeLine{75     \textcolor{keyword}{const} \textcolor{keywordtype}{float} \mbox{\hyperlink{class_d_d_s_publisher_1_1_pub_listener_aad6c5bd8a013b374dea6f597252148b1}{matched}}()\textcolor{keyword}{ const }\{ \textcolor{keywordflow}{return} matched\_; \}}
+\DoxyCodeLine{76 }
+\DoxyCodeLine{77   \} listener;}
+\DoxyCodeLine{78 \};}
 
 \end{DoxyCode}

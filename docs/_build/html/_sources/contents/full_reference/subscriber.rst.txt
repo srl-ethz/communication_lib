@@ -1,0 +1,5 @@
+Subscriber
+========
+
+.. doxygenclass:: DDSSubscriber
+   :members:

@@ -81,15 +81,35 @@ the domain participant</p>
 <section id="writing-a-simple-publisher">
 <h1>Writing a simple publisher<a class="headerlink" href="#writing-a-simple-publisher" title="Permalink to this headline"></a></h1>
 <p>Let us create a publisher that sends messages of type position:</p>
-<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="p">..</span><span class="w"> </span><span class="n">doxygenclass</span><span class="o">::</span><span class="w"> </span><span class="n">DDSPublisher</span><span class="w"></span>
+<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;PositionPubSubTypes.h&quot;</span><span class="cp"></span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;default_participant.h&quot;</span><span class="cp"></span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;default_publisher.h&quot;</span><span class="cp"></span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;geometry_msgs/msgs/Position.h&quot;</span><span class="cp"></span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;chrono&gt;</span><span class="cp"></span>
 </pre></div>
 </div>
+<p>int main() {</p>
 <blockquote>
-<div><dl class="field-list simple">
-<dt class="field-odd">members</dt>
-<dd class="field-odd"><p></p></dd>
-</dl>
+<div><p>// Create participant. Arguments: Domain id, Name
+DefaultParticipant dp(0, “sample_participant”);</p>
+<p>// Create publisher with msg type and topic name
+DDSPublisher position_pub(idl_msg::PositionPubSubType(), “position”,</p>
+<blockquote>
+<div><p>dp.participant());</p>
 </div></blockquote>
+<p>// create message of position type
+cpp_msg::Position pos_msg;</p>
+<p>for (int i = 0; i &lt; 10; i++) {</p>
+<blockquote>
+<div><p>pos_msg.x = i + 1;
+pos_msg.y = i - 1;
+pos_msg.z = i;</p>
+<p>position_pub.publish(pos_msg);
+std::this_thread::sleep_for(std::chrono::milliseconds(250));</p>
+</div></blockquote>
+<p>}</p>
+</div></blockquote>
+<p>}</p>
 </section>
 
 
