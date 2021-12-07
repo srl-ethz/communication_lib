@@ -11,6 +11,7 @@ fastddsgen_generated_lib
 publishers_lib
 subscribers_lib
 domain_participants_lib
+utilities
 )
 
 
@@ -18,3 +19,4 @@ add_subdirectory(fastddsgen_generated_files)
 add_subdirectory(publishers)
 add_subdirectory(subscribers)
 add_subdirectory(domain_participants)
+add_subdirectory(utilities)

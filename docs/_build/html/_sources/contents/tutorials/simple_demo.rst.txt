@@ -94,3 +94,10 @@ be published.
     }
 
 10 samples are published with a delay of 250ms between each publication.
+
+Writing a simple publisher
+---------------------------
+
+Let us create a subscriber that subscribes to the publisher above.
+
+.. code-block:: c

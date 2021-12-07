@@ -2798,6 +2798,10 @@
   </compound>
   <compound refid="namespaceidl__msg" kind="namespace"><name>idl_msg</name>
   </compound>
+  <compound refid="namespacelog" kind="namespace"><name>log</name>
+    <member refid="logging_8h_1abbf29b5399fda7a36612dffdd95e5f62" kind="variable"><name>printMutex</name></member>
+    <member refid="logging_8h_1a510d9487b8737f1ef03a1c6b6a150935" kind="function"><name>safe_print</name></member>
+  </compound>
   <compound refid="default__participant_8cpp" kind="file"><name>default_participant.cpp</name>
   </compound>
   <compound refid="default__participant_8h" kind="file"><name>default_participant.h</name>
@@ -3691,6 +3695,8 @@
   </compound>
   <compound refid="sublistener_8h" kind="file"><name>sublistener.h</name>
   </compound>
+  <compound refid="logging_8h" kind="file"><name>logging.h</name>
+  </compound>
   <compound refid="dir_2fd40f02c1a580a53cfb59cac1735828" kind="dir"><name>/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/domain_participants/default_participant</name>
   </compound>
   <compound refid="dir_78b9222bee2db78736a0eeb719021cfb" kind="dir"><name>/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/default_publisher</name>
@@ -3710,6 +3716,8 @@
   <compound refid="dir_bc936ac97bd1b041d75287faf5392cc8" kind="dir"><name>/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions</name>
   </compound>
   <compound refid="dir_a3d4d56730192173f6f1bcc8d4106a83" kind="dir"><name>/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/subscribers</name>
+  </compound>
+  <compound refid="dir_920207548a5d32c3d571939439242e05" kind="dir"><name>/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/utilities</name>
   </compound>
   <compound refid="dir_bcf6b728a5ab5cdf813251cc68e829eb" kind="dir"><name>/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/video_publisher</name>
   </compound>

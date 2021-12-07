@@ -1,0 +1,18 @@
+\hypertarget{logging_8h_source}{}\doxysection{logging.\+h}
+\label{logging_8h_source}\index{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/utilities/logging.h@{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/utilities/logging.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 }
+\DoxyCodeLine{3 \textcolor{keyword}{namespace }log \{}
+\DoxyCodeLine{4 }
+\DoxyCodeLine{5 std::mutex printMutex;}
+\DoxyCodeLine{6 }
+\DoxyCodeLine{7 \textcolor{keyword}{template} <\textcolor{keyword}{typename} T> \textcolor{keyword}{inline} \textcolor{keywordtype}{void} safe\_print(T val) \{}
+\DoxyCodeLine{8   std::lock\_guard lock(printMutex); \textcolor{comment}{// lock is acquired}}
+\DoxyCodeLine{9   std::cout << val << \textcolor{charliteral}{'\(\backslash\)n'};}
+\DoxyCodeLine{10 \} \textcolor{comment}{// lock is released}}
+\DoxyCodeLine{11 }
+\DoxyCodeLine{12 \} \textcolor{comment}{// namespace log}}
+
+\end{DoxyCode}
