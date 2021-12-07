@@ -11,7 +11,6 @@ set(CMAKE_VISIBILITY_INLINES_HIDDEN YES)
 # Set NO to build as shared library, YES to build as static library
 set(BUILD_SHARED_LIBS YES)
 
-
 add_library(comm_lib INTERFACE)
 
 target_link_libraries(comm_lib INTERFACE

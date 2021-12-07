@@ -21,7 +21,7 @@ msg_definitions
 )
 
 
-target_link_libraries(fastddsgen_generated_lib PRIVATE
+target_link_libraries(fastddsgen_generated_lib PUBLIC
 fastcdr 
 fastrtps
 )

@@ -7,7 +7,7 @@ src/domain_participant.cpp
 
 target_include_directories(domain_participant PUBLIC include)
 
-target_link_libraries(domain_participant PRIVATE
+target_link_libraries(domain_participant PUBLIC
 fastcdr 
 fastrtps
 )
