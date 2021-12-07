@@ -5,6 +5,12 @@ set(CMAKE_CXX_STANDARD 17)
 # first we can indicate the documentation build as an option and set it to ON by default
 option(BUILD_DOC "Build documentation" ON)
 
+# hidel all targets by default
+set(CMAKE_CXX_VISIBILITY_PRESET hidden)
+set(CMAKE_VISIBILITY_INLINES_HIDDEN YES)
+
+# Set NO to build as shared library, YES to build as static library
+set(BUILD_SHARED_LIBS NO)
 
 # Find requirements
 find_package(fastcdr REQUIRED)
@@ -20,11 +26,11 @@ fastdds_lib
 add_subdirectory(msgs_lib)
 add_subdirectory(fastdds_lib)
 
-if (BUILD_DOC)
-# # Add the cmake folder so the FindSphinx module is found
-set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake" ${CMAKE_MODULE_PATH})
-add_subdirectory(docs)
-endif (BUILD_DOC)
+# if (BUILD_DOC)
+# # # Add the cmake folder so the FindSphinx module is found
+# set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake" ${CMAKE_MODULE_PATH})
+# add_subdirectory(docs)
+# endif (BUILD_DOC)
 
 add_subdirectory(tests)
 

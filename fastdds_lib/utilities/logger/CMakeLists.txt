@@ -4,7 +4,7 @@
 # ###############################################################################
 
 
-add_library(logger STATIC)
+add_library(logger)
 
 target_sources(logger PRIVATE
 src/logger.cpp
