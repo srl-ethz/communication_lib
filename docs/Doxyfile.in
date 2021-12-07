@@ -1,6 +1,6 @@
 PROJECT_NAME           = "Communication_lib"
 
-OUTPUT_DIRECTORY       = @CMAKE_CURRENT_SOURCE_DIR@/generated_docs
+OUTPUT_DIRECTORY       = @CMAKE_CURRENT_SOURCE_DIR@/_build
 
 INPUT                  = @CMAKE_SOURCE_DIR@/fastdds_lib
 

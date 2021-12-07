@@ -1,5 +1,0 @@
-Publisher
-==========
-
-.. doxygenclass:: DDSPublisher
-   :members:

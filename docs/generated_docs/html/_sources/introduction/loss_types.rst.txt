@@ -1,5 +1,0 @@
-Docs
-====
-
-.. doxygenclass:: DefaultParticipant
-   :members:
