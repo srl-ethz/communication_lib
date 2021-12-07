@@ -1,4 +1,4 @@
-#include "default_participant.h"
+#include "domain_participant.h"
 
 DefaultParticipant::DefaultParticipant(int domain_id, std::string qos_name) {
 

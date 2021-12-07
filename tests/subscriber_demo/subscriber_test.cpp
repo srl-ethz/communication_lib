@@ -1,6 +1,6 @@
 #include "PositionPubSubTypes.h"
-#include "default_participant.h"
 #include "default_subscriber.h"
+#include "domain_participant.h"
 #include "geometry_msgs/msgs/Position.h"
 #include "logger.h"
 

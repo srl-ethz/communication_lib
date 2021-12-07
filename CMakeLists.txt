@@ -9,7 +9,7 @@ set(CMAKE_CXX_VISIBILITY_PRESET hidden)
 set(CMAKE_VISIBILITY_INLINES_HIDDEN YES)
 
 # Set NO to build as shared library, YES to build as static library
-set(BUILD_SHARED_LIBS NO)
+set(BUILD_SHARED_LIBS YES)
 
 # Find requirements
 find_package(fastcdr REQUIRED)
@@ -34,7 +34,6 @@ add_subdirectory(fastdds_lib)
 add_subdirectory(tests)
 
 # For library installation
-
 install(TARGETS comm_lib DESTINATION lib )
 
 #=============================================
