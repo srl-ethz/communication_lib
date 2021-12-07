@@ -1,11 +1,10 @@
 cmake_minimum_required(VERSION 3.16)
 project(communication_lib VERSION 0.1.0)
+
+# Set c++ standard to 17
 set(CMAKE_CXX_STANDARD 17)
 
-# first we can indicate the documentation build as an option and set it to ON by default
-option(BUILD_DOC "Build documentation" ON)
-
-# hidel all targets by default
+# hide all targets by default
 set(CMAKE_CXX_VISIBILITY_PRESET hidden)
 set(CMAKE_VISIBILITY_INLINES_HIDDEN YES)
 
