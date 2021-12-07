@@ -85,12 +85,12 @@ be published.
 
     for (int i = 0; i < 10; i++) {
 
-    pos_msg.x = i + 1;
-    pos_msg.y = i - 1;
-    pos_msg.z = i;
+      pos_msg.x = i + 1;
+      pos_msg.y = i - 1;
+      pos_msg.z = i;
 
-    position_pub.publish(pos_msg);
-    std::this_thread::sleep_for(std::chrono::milliseconds(250));
-  }
+      position_pub.publish(pos_msg);
+      std::this_thread::sleep_for(std::chrono::milliseconds(250));
+    }
 
 10 samples are published with a delay of 250ms between each publication.
