@@ -1,5 +1,5 @@
 
-#include "default_subscriber.h"
+#include "subscriber.h"
 using namespace eprosima::fastdds::dds;
 
 template <typename msg_init_type, typename msg_type>

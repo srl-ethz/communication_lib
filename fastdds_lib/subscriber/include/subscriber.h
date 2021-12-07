@@ -1,5 +1,5 @@
 #pragma once
-#include "sublistener.h"
+#include "listener.h"
 
 template <typename msg_init_type, typename msg_type> class DDSSubscriber {
 public:
@@ -47,4 +47,4 @@ private:
   eprosima::fastdds::dds::TypeSupport type_;
 };
 
-#include "default_subscriber.cpp"
+#include "subscriber.cpp"

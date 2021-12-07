@@ -1,4 +1,4 @@
-#include "default_publisher.h"
+#include "publisher.h"
 
 #include <fastdds/dds/domain/DomainParticipantFactory.hpp>
 #include <fastdds/dds/publisher/DataWriter.hpp>

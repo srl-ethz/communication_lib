@@ -1,11 +1,9 @@
 
-add_library(subscribers_lib INTERFACE)
+add_library(subscriber INTERFACE)
 
-target_include_directories(subscribers_lib INTERFACE
-default_subscriber
-)
+target_include_directories(subscriber INTERFACE include)
 
-target_link_libraries(subscribers_lib INTERFACE
+target_link_libraries(subscriber INTERFACE
 fastcdr 
 fastrtps
 )
