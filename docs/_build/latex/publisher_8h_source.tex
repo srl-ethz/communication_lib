@@ -1,0 +1,83 @@
+\hypertarget{publisher_8h_source}{}\doxysection{publisher.\+h}
+\label{publisher_8h_source}\index{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/publisher/include/publisher.h@{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/publisher/include/publisher.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 }
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include <fastdds/dds/domain/DomainParticipant.hpp>}}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <fastdds/dds/publisher/DataWriter.hpp>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <fastdds/dds/publisher/DataWriterListener.hpp>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include <fastdds/dds/publisher/Publisher.hpp>}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include <fastdds/dds/topic/TypeSupport.hpp>}}
+\DoxyCodeLine{8 }
+\DoxyCodeLine{9 \textcolor{keyword}{class }\mbox{\hyperlink{class_d_d_s_publisher}{DDSPublisher}} \{}
+\DoxyCodeLine{10 \textcolor{keyword}{public}:}
+\DoxyCodeLine{11   \textcolor{comment}{// Constrcutor declared in header file since it is a temlate func}}
+\DoxyCodeLine{12   \textcolor{keyword}{template} <\textcolor{keyword}{class} msg\_type>}
+\DoxyCodeLine{13   \mbox{\hyperlink{class_d_d_s_publisher}{DDSPublisher}}(msg\_type, std::string topic\_name,}
+\DoxyCodeLine{14                eprosima::fastdds::dds::DomainParticipant *participant)}
+\DoxyCodeLine{15       : publisher\_(\textcolor{keyword}{nullptr}), topic\_(\textcolor{keyword}{nullptr}), writer\_(\textcolor{keyword}{nullptr}),}
+\DoxyCodeLine{16         type\_(\textcolor{keyword}{new} msg\_type) \{}
+\DoxyCodeLine{17 }
+\DoxyCodeLine{18     \textcolor{comment}{// Set topic name}}
+\DoxyCodeLine{19     topic\_name\_ = topic\_name;}
+\DoxyCodeLine{20 }
+\DoxyCodeLine{21     \textcolor{comment}{// Set pointer to domain participant}}
+\DoxyCodeLine{22     participant\_ = participant;}
+\DoxyCodeLine{23 }
+\DoxyCodeLine{24     \textcolor{comment}{// intitalize with error checking}}
+\DoxyCodeLine{25     \textcolor{keywordflow}{if} (this-\/>init() == \textcolor{keyword}{false}) \{}
+\DoxyCodeLine{26       std::cerr << \textcolor{stringliteral}{"{}DDS Publisher could not be initialized"{}};}
+\DoxyCodeLine{27       exit(EXIT\_FAILURE);}
+\DoxyCodeLine{28     \};}
+\DoxyCodeLine{29   \}}
+\DoxyCodeLine{30 }
+\DoxyCodeLine{31   \mbox{\hyperlink{class_d_d_s_publisher}{\string~DDSPublisher}}();}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{33   \textcolor{keywordtype}{bool} init();}
+\DoxyCodeLine{34 }
+\DoxyCodeLine{35   \textcolor{keyword}{template} <\textcolor{keyword}{typename} T> \textcolor{keywordtype}{void} publish(T msg) \{}
+\DoxyCodeLine{36     \textcolor{keywordflow}{while} (listener.\mbox{\hyperlink{class_d_d_s_publisher_1_1_pub_listener_aad6c5bd8a013b374dea6f597252148b1}{matched}}() == 0) \{}
+\DoxyCodeLine{37       std::this\_thread::sleep\_for(}
+\DoxyCodeLine{38           std::chrono::milliseconds(250)); \textcolor{comment}{// Sleep 250 ms}}
+\DoxyCodeLine{39     \}}
+\DoxyCodeLine{40 }
+\DoxyCodeLine{41     \textcolor{comment}{// Publish Message}}
+\DoxyCodeLine{42     writer\_-\/>write(\&msg);}
+\DoxyCodeLine{43   \}}
+\DoxyCodeLine{44 }
+\DoxyCodeLine{45 \textcolor{keyword}{private}:}
+\DoxyCodeLine{46   \textcolor{comment}{// Topic Name}}
+\DoxyCodeLine{47   std::string topic\_name\_\{\};}
+\DoxyCodeLine{48 }
+\DoxyCodeLine{49 \textcolor{keyword}{private}:}
+\DoxyCodeLine{50   eprosima::fastdds::dds::DomainParticipant *participant\_;}
+\DoxyCodeLine{51   eprosima::fastdds::dds::Publisher *publisher\_;}
+\DoxyCodeLine{52   eprosima::fastdds::dds::Topic *topic\_;}
+\DoxyCodeLine{53   eprosima::fastdds::dds::DataWriter *writer\_;}
+\DoxyCodeLine{54   eprosima::fastdds::dds::TypeSupport type\_;}
+\DoxyCodeLine{55 }
+\DoxyCodeLine{56   eprosima::fastdds::dds::ReliabilityQosPolicy best\_effort\_;}
+\DoxyCodeLine{57   eprosima::fastdds::dds::DataWriterQos writer\_qos\_;}
+\DoxyCodeLine{58 }
+\DoxyCodeLine{59 \textcolor{keyword}{public}:}
+\DoxyCodeLine{60   \textcolor{keyword}{class }\mbox{\hyperlink{class_d_d_s_publisher_1_1_pub_listener}{PubListener}} : \textcolor{keyword}{public} eprosima::fastdds::dds::DataWriterListener \{}
+\DoxyCodeLine{61 }
+\DoxyCodeLine{62   \textcolor{keyword}{public}:}
+\DoxyCodeLine{63     \mbox{\hyperlink{class_d_d_s_publisher_1_1_pub_listener}{PubListener}}() = \textcolor{keywordflow}{default};}
+\DoxyCodeLine{64     \mbox{\hyperlink{class_d_d_s_publisher_1_1_pub_listener}{\string~PubListener}}() \textcolor{keyword}{override} = \textcolor{keywordflow}{default};}
+\DoxyCodeLine{65 }
+\DoxyCodeLine{66   \textcolor{keyword}{private}:}
+\DoxyCodeLine{67     \textcolor{keywordtype}{void} on\_publication\_matched(}
+\DoxyCodeLine{68         eprosima::fastdds::dds::DataWriter *writer,}
+\DoxyCodeLine{69         \textcolor{keyword}{const} eprosima::fastdds::dds::PublicationMatchedStatus \&info) \textcolor{keyword}{override};}
+\DoxyCodeLine{70 }
+\DoxyCodeLine{71     \textcolor{keywordtype}{int} matched\_ = 0;}
+\DoxyCodeLine{72 }
+\DoxyCodeLine{73   \textcolor{keyword}{public}:}
+\DoxyCodeLine{75     \textcolor{keyword}{const} \textcolor{keywordtype}{float} \mbox{\hyperlink{class_d_d_s_publisher_1_1_pub_listener_aad6c5bd8a013b374dea6f597252148b1}{matched}}()\textcolor{keyword}{ const }\{ \textcolor{keywordflow}{return} matched\_; \}}
+\DoxyCodeLine{76 }
+\DoxyCodeLine{77   \} listener;}
+\DoxyCodeLine{78 \};}
+
+\end{DoxyCode}

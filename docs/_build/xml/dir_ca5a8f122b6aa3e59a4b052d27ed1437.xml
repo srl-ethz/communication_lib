@@ -2,10 +2,10 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="dir_ca5a8f122b6aa3e59a4b052d27ed1437" kind="dir">
     <compoundname>/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib</compoundname>
-    <innerdir refid="dir_e4838f33cdde76c0cf88fda2d08ca0ac">/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/domain_participants</innerdir>
+    <innerdir refid="dir_1d534988716f71a02d7b595dc5523b7e">/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/domain_participant</innerdir>
     <innerdir refid="dir_78cf9a832492dd7b2f5f8fd9e3639e99">/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files</innerdir>
-    <innerdir refid="dir_c694c7bb8ec6c69061e24fd3679370f5">/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers</innerdir>
-    <innerdir refid="dir_a3d4d56730192173f6f1bcc8d4106a83">/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/subscribers</innerdir>
+    <innerdir refid="dir_76aa9aa0a1c23c3aa439a9a1c3603a6b">/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publisher</innerdir>
+    <innerdir refid="dir_60c55d4462de5bf349d291f85e9133e0">/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/subscriber</innerdir>
     <innerdir refid="dir_920207548a5d32c3d571939439242e05">/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/utilities</innerdir>
     <briefdescription>
     </briefdescription>

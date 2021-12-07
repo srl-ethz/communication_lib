@@ -27,6 +27,10 @@ endif (DOXYGEN_FOUND)
 
 ####################################################################################
 #Sphinx settings
+
+# # Add the cmake folder so the FindSphinx module is found
+set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake" ${CMAKE_MODULE_PATH})
+
 find_package(Sphinx REQUIRED)
 
 set(SPHINX_SOURCE ${CMAKE_CURRENT_SOURCE_DIR})

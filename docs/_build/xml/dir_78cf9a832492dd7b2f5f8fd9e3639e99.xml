@@ -3,7 +3,6 @@
   <compounddef id="dir_78cf9a832492dd7b2f5f8fd9e3639e99" kind="dir">
     <compoundname>/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files</compoundname>
     <innerdir refid="dir_d72524645a43255f80455cd5cb0a8760">/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions</innerdir>
-    <innerdir refid="dir_bc936ac97bd1b041d75287faf5392cc8">/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions</innerdir>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

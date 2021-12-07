@@ -11,9 +11,6 @@ set(CMAKE_VISIBILITY_INLINES_HIDDEN YES)
 # Set NO to build as shared library, YES to build as static library
 set(BUILD_SHARED_LIBS YES)
 
-# Find requirements
-find_package(fastcdr REQUIRED)
-find_package(fastrtps REQUIRED)
 
 add_library(comm_lib INTERFACE)
 
@@ -26,8 +23,6 @@ add_subdirectory(msgs_lib)
 add_subdirectory(fastdds_lib)
 
 # if (BUILD_DOC)
-# # # Add the cmake folder so the FindSphinx module is found
-# set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake" ${CMAKE_MODULE_PATH})
 # add_subdirectory(docs)
 # endif (BUILD_DOC)
 

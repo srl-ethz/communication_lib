@@ -1,0 +1,37 @@
+\hypertarget{domain__participant_8h_source}{}\doxysection{domain\+\_\+participant.\+h}
+\label{domain__participant_8h_source}\index{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/domain\_participant/include/domain\_participant.h@{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/domain\_participant/include/domain\_participant.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include <cstring>}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <fastdds/dds/domain/DomainParticipant.hpp>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <fastdds/dds/domain/DomainParticipantFactory.hpp>}}
+\DoxyCodeLine{6 }
+\DoxyCodeLine{7 \textcolor{keyword}{class }\mbox{\hyperlink{class_default_participant}{DefaultParticipant}} \{}
+\DoxyCodeLine{8 \textcolor{keyword}{public}:}
+\DoxyCodeLine{9   \mbox{\hyperlink{class_default_participant}{DefaultParticipant}}(\textcolor{keywordtype}{int} domain\_id, std::string qos\_name);}
+\DoxyCodeLine{10   \mbox{\hyperlink{class_default_participant}{\string~DefaultParticipant}}();}
+\DoxyCodeLine{11 }
+\DoxyCodeLine{12 \textcolor{keyword}{private}:}
+\DoxyCodeLine{13   \textcolor{comment}{// Domain id (participants with different domain id's can't communicate)}}
+\DoxyCodeLine{14   \textcolor{keywordtype}{int} domain\_id\_\{\};}
+\DoxyCodeLine{15 }
+\DoxyCodeLine{16   \textcolor{comment}{// QOS name}}
+\DoxyCodeLine{17   std::string qos\_name\_\{\};}
+\DoxyCodeLine{18 }
+\DoxyCodeLine{19   \textcolor{comment}{// Pointer to participant}}
+\DoxyCodeLine{20   eprosima::fastdds::dds::DomainParticipant *participant\_;}
+\DoxyCodeLine{21 }
+\DoxyCodeLine{22   \textcolor{comment}{// QOS for participant}}
+\DoxyCodeLine{23   eprosima::fastdds::dds::DomainParticipantQos p\_qos;}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25 \textcolor{keyword}{public}:}
+\DoxyCodeLine{27   \textcolor{keyword}{const} std::string \mbox{\hyperlink{class_default_participant_af366d662fa43261ca19476690d6e8a27}{participant\_name}}()\textcolor{keyword}{ const }\{ \textcolor{keywordflow}{return} qos\_name\_; \}}
+\DoxyCodeLine{28 }
+\DoxyCodeLine{30   eprosima::fastdds::dds::DomainParticipant *\mbox{\hyperlink{class_default_participant_a2b05270345c68420ecd520a11e9c25c1}{participant}}()\textcolor{keyword}{ const }\{}
+\DoxyCodeLine{31     \textcolor{keywordflow}{return} participant\_;}
+\DoxyCodeLine{32   \}}
+\DoxyCodeLine{33 \};}
+
+\end{DoxyCode}

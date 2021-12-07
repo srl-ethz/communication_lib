@@ -6,6 +6,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers/default_publisher/default_publisher.cpp" line="12" column="1"/>
+    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publisher/src/publisher.cpp" line="12" column="1"/>
   </compounddef>
 </doxygen>

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['sensor_5fcombined_0',['sensor_combined',['../classsensor__combined.html',1,'']]],
-  ['sensor_5fcombinedpubsubtype_1',['sensor_combinedPubSubType',['../classsensor__combined_pub_sub_type.html',1,'']]],
-  ['sublistener_2',['SubListener',['../class_sub_listener.html',1,'']]]
+  ['velocity_0',['Velocity',['../classidl__msg_1_1_velocity.html',1,'idl_msg']]],
+  ['velocitypubsubtype_1',['VelocityPubSubType',['../classidl__msg_1_1_velocity_pub_sub_type.html',1,'idl_msg']]]
 ];

@@ -1,0 +1,56 @@
+\hypertarget{subscriber_8h_source}{}\doxysection{subscriber.\+h}
+\label{subscriber_8h_source}\index{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/subscriber/include/subscriber.h@{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/subscriber/include/subscriber.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include "{}listener.h"{}}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{keyword}{template} <\textcolor{keyword}{typename} msg\_init\_type, \textcolor{keyword}{typename} msg\_type> \textcolor{keyword}{class }\mbox{\hyperlink{class_d_d_s_subscriber}{DDSSubscriber}} \{}
+\DoxyCodeLine{5 \textcolor{keyword}{public}:}
+\DoxyCodeLine{6   \textcolor{comment}{// msg\_type = class type of msg}}
+\DoxyCodeLine{7 }
+\DoxyCodeLine{8   \mbox{\hyperlink{class_d_d_s_subscriber}{DDSSubscriber}}(msg\_init\_type, msg\_type *msg, std::string topic\_name,}
+\DoxyCodeLine{9                 eprosima::fastdds::dds::DomainParticipant *participant)}
+\DoxyCodeLine{10       : subscriber\_(\textcolor{keyword}{nullptr}), topic\_(\textcolor{keyword}{nullptr}), reader\_(\textcolor{keyword}{nullptr}),}
+\DoxyCodeLine{11         type\_(\textcolor{keyword}{new} msg\_init\_type) \{}
+\DoxyCodeLine{12     \textcolor{comment}{// Set topic name}}
+\DoxyCodeLine{13     topic\_name\_ = topic\_name;}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{15     \textcolor{comment}{// Set pointer to domain participant}}
+\DoxyCodeLine{16     participant\_ = participant;}
+\DoxyCodeLine{17 }
+\DoxyCodeLine{18     \textcolor{comment}{// Create sublistener object}}
+\DoxyCodeLine{19     listener = std::make\_unique<SubListener<msg\_type>>(msg);}
+\DoxyCodeLine{20 }
+\DoxyCodeLine{21     \textcolor{comment}{// intitalize with error checking}}
+\DoxyCodeLine{22     \textcolor{keywordflow}{if} (this-\/>init() == \textcolor{keyword}{false}) \{}
+\DoxyCodeLine{23       std::cerr << \textcolor{stringliteral}{"{}DDS Publisher could not be initialized"{}};}
+\DoxyCodeLine{24       exit(EXIT\_FAILURE);}
+\DoxyCodeLine{25     \};}
+\DoxyCodeLine{26   \}}
+\DoxyCodeLine{27 }
+\DoxyCodeLine{28   \mbox{\hyperlink{class_d_d_s_subscriber}{\string~DDSSubscriber}}();}
+\DoxyCodeLine{29 }
+\DoxyCodeLine{30   \textcolor{keywordtype}{bool} init();}
+\DoxyCodeLine{31 }
+\DoxyCodeLine{32   \textcolor{keywordtype}{void} run();}
+\DoxyCodeLine{33 }
+\DoxyCodeLine{34 \textcolor{keyword}{private}:}
+\DoxyCodeLine{35   \textcolor{comment}{// Custom Variables}}
+\DoxyCodeLine{36   std::string topic\_name\_\{\};}
+\DoxyCodeLine{37 }
+\DoxyCodeLine{38 \textcolor{keyword}{public}:}
+\DoxyCodeLine{39   \textcolor{comment}{// Pointer to listerner object (contains callbacks)}}
+\DoxyCodeLine{40   std::unique\_ptr<SubListener<msg\_type>> listener;}
+\DoxyCodeLine{41 }
+\DoxyCodeLine{42 \textcolor{keyword}{private}:}
+\DoxyCodeLine{43   eprosima::fastdds::dds::DomainParticipant *participant\_;}
+\DoxyCodeLine{44   eprosima::fastdds::dds::Subscriber *subscriber\_;}
+\DoxyCodeLine{45   eprosima::fastdds::dds::Topic *topic\_;}
+\DoxyCodeLine{46   eprosima::fastdds::dds::DataReader *reader\_;}
+\DoxyCodeLine{47   eprosima::fastdds::dds::TypeSupport type\_;}
+\DoxyCodeLine{48 \};}
+\DoxyCodeLine{49 }
+\DoxyCodeLine{50 \textcolor{preprocessor}{\#include "{}subscriber.cpp"{}}}
+
+\end{DoxyCode}

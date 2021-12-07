@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['euleranglezyx_0',['EulerAngleZYX',['../classidl__msg_1_1_euler_angle_z_y_x.html',1,'idl_msg']]],
-  ['euleranglezyxpubsubtype_1',['EulerAngleZYXPubSubType',['../classidl__msg_1_1_euler_angle_z_y_x_pub_sub_type.html',1,'idl_msg']]]
+  ['header_0',['Header',['../classidl__msg_1_1_header.html',1,'idl_msg']]],
+  ['headerpubsubtype_1',['HeaderPubSubType',['../classidl__msg_1_1_header_pub_sub_type.html',1,'idl_msg']]]
 ];

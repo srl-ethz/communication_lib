@@ -1,8 +1,11 @@
 
 # ###############################################################################
-# # Library of controllers
+# # Library of fastdds elements
 # ###############################################################################
 
+# Find requirements
+find_package(fastcdr REQUIRED)
+find_package(fastrtps REQUIRED)
 
 add_library(fastdds_lib INTERFACE)
 
