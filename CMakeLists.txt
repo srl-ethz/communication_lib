@@ -3,7 +3,7 @@ project(communication_lib VERSION 0.1.0)
 set(CMAKE_CXX_STANDARD 17)
 
 # first we can indicate the documentation build as an option and set it to ON by default
-option(BUILD_DOC "Build documentation" OFF)
+option(BUILD_DOC "Build documentation" ON)
 
 
 # Find requirements
@@ -20,13 +20,17 @@ fastdds_lib
 add_subdirectory(msgs_lib)
 add_subdirectory(fastdds_lib)
 
-# if (BUILD_DOC)
-# # # Add the cmake folder so the FindSphinx module is found
-# set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake" ${CMAKE_MODULE_PATH})
-# add_subdirectory(docs)
-# endif (BUILD_DOC)
+if (BUILD_DOC)
+# # Add the cmake folder so the FindSphinx module is found
+set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake" ${CMAKE_MODULE_PATH})
+add_subdirectory(docs)
+endif (BUILD_DOC)
 
 add_subdirectory(tests)
+
+# For library installation
+
+install(TARGETS comm_lib DESTINATION lib )
 
 #=============================================
 # to allow find_package() on comm_lib
