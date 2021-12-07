@@ -1,0 +1,31 @@
+\hypertarget{logger_8h_source}{}\doxysection{logger.\+h}
+\label{logger_8h_source}\index{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/utilities/logger/include/logger.h@{/Users/sarathmenon/Desktop/eth\_soft/code/Communication/libraries/communication\_lib/fastdds\_lib/utilities/logger/include/logger.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include <mutex>}}
+\DoxyCodeLine{4 }
+\DoxyCodeLine{5 \textcolor{keyword}{class }\mbox{\hyperlink{class_logger}{Logger}} \{}
+\DoxyCodeLine{6 }
+\DoxyCodeLine{7 \textcolor{keyword}{public}:}
+\DoxyCodeLine{8   \mbox{\hyperlink{class_logger}{Logger}}()\{\};}
+\DoxyCodeLine{9   \mbox{\hyperlink{class_logger}{\string~Logger}}()\{\};}
+\DoxyCodeLine{10 }
+\DoxyCodeLine{11 \textcolor{keyword}{private}:}
+\DoxyCodeLine{12   std::mutex mutex\_;}
+\DoxyCodeLine{13 }
+\DoxyCodeLine{14 \textcolor{keyword}{public}:}
+\DoxyCodeLine{15   \textcolor{keyword}{template} <\textcolor{keyword}{typename} T> \textcolor{keywordtype}{void} safe\_print(T val) \{}
+\DoxyCodeLine{16     std::lock\_guard lock(mutex\_); \textcolor{comment}{// lock is acquired}}
+\DoxyCodeLine{17     std::cout << val << \textcolor{charliteral}{'\(\backslash\)n'};}
+\DoxyCodeLine{18   \} \textcolor{comment}{// lock is released}}
+\DoxyCodeLine{19 }
+\DoxyCodeLine{20   \textcolor{comment}{// addition}}
+\DoxyCodeLine{21   \textcolor{keyword}{template} <\textcolor{keyword}{typename} T> \textcolor{keywordtype}{void} operator<<(\textcolor{keyword}{const} T val) \{}
+\DoxyCodeLine{22     std::cout << val << \textcolor{charliteral}{'\(\backslash\)n'};}
+\DoxyCodeLine{23   \}}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25 \} sflog;}
+
+\end{DoxyCode}

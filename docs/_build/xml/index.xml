@@ -409,6 +409,13 @@
     <member refid="classidl__msg_1_1_image720p_pub_sub_type_1a3015f6618a2e6e903984e717207e123f" kind="function"><name>createData</name></member>
     <member refid="classidl__msg_1_1_image720p_pub_sub_type_1ad3c02e7e5fefb7e116d5ff67a27f9fa4" kind="function"><name>deleteData</name></member>
   </compound>
+  <compound refid="class_logger" kind="class"><name>Logger</name>
+    <member refid="class_logger_1a9e74a559ca8a34e2a0a66c5c8ac1e4fd" kind="variable"><name>mutex_</name></member>
+    <member refid="class_logger_1abc41bfb031d896170c7675fa96a6b30c" kind="function"><name>Logger</name></member>
+    <member refid="class_logger_1acb668a9e186a25fbaad2e4af6d1ed00a" kind="function"><name>~Logger</name></member>
+    <member refid="class_logger_1a5cc0a4315c481496bff82f1e4054e9ed" kind="function"><name>safe_print</name></member>
+    <member refid="class_logger_1af615574672b61a3962fd69c81c0c7fcd" kind="function"><name>operator&lt;&lt;</name></member>
+  </compound>
   <compound refid="classidl__msg_1_1_mocap" kind="class"><name>idl_msg::Mocap</name>
     <member refid="classidl__msg_1_1_mocap_1ae0a6d36c37b09964a66034395720a94c" kind="variable"><name>m_header</name></member>
     <member refid="classidl__msg_1_1_mocap_1a700b759ff2847f91070d8cc1da69cb6f" kind="variable"><name>m_pose</name></member>
@@ -2798,10 +2805,6 @@
   </compound>
   <compound refid="namespaceidl__msg" kind="namespace"><name>idl_msg</name>
   </compound>
-  <compound refid="namespacelog" kind="namespace"><name>log</name>
-    <member refid="logging_8h_1abbf29b5399fda7a36612dffdd95e5f62" kind="variable"><name>printMutex</name></member>
-    <member refid="logging_8h_1a510d9487b8737f1ef03a1c6b6a150935" kind="function"><name>safe_print</name></member>
-  </compound>
   <compound refid="default__participant_8cpp" kind="file"><name>default_participant.cpp</name>
   </compound>
   <compound refid="default__participant_8h" kind="file"><name>default_participant.h</name>
@@ -3695,7 +3698,10 @@
   </compound>
   <compound refid="sublistener_8h" kind="file"><name>sublistener.h</name>
   </compound>
-  <compound refid="logging_8h" kind="file"><name>logging.h</name>
+  <compound refid="logger_8h" kind="file"><name>logger.h</name>
+    <member refid="logger_8h_1a549391095e3d4f91a8dc2e1e3ff15d7a" kind="variable"><name>sflog</name></member>
+  </compound>
+  <compound refid="logger_8cpp" kind="file"><name>logger.cpp</name>
   </compound>
   <compound refid="dir_2fd40f02c1a580a53cfb59cac1735828" kind="dir"><name>/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/domain_participants/default_participant</name>
   </compound>
@@ -3709,11 +3715,17 @@
   </compound>
   <compound refid="dir_78cf9a832492dd7b2f5f8fd9e3639e99" kind="dir"><name>/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files</name>
   </compound>
+  <compound refid="dir_23b9c7a33a379492a97b6204a9b5d6c7" kind="dir"><name>/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/utilities/logger/include</name>
+  </compound>
+  <compound refid="dir_9c53a54e2f591436e0271b754fa0d2c0" kind="dir"><name>/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/utilities/logger</name>
+  </compound>
   <compound refid="dir_d72524645a43255f80455cd5cb0a8760" kind="dir"><name>/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions</name>
   </compound>
   <compound refid="dir_c694c7bb8ec6c69061e24fd3679370f5" kind="dir"><name>/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/publishers</name>
   </compound>
   <compound refid="dir_bc936ac97bd1b041d75287faf5392cc8" kind="dir"><name>/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/px4_msg_definitions</name>
+  </compound>
+  <compound refid="dir_2f7a346772d2b16527421eb8fade77e1" kind="dir"><name>/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/utilities/logger/src</name>
   </compound>
   <compound refid="dir_a3d4d56730192173f6f1bcc8d4106a83" kind="dir"><name>/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/subscribers</name>
   </compound>
