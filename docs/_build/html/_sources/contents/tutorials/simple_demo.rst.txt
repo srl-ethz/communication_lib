@@ -129,10 +129,6 @@ Let us create a subscriber that subscribes to the publisher above.
       }
     }
 
-
-Code breakdown
-~~~~~~~~~~~~~~~
-
 .. code-block:: c
 
     #include "PositionPubSubTypes.h"

@@ -19,7 +19,7 @@
     <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Writing a simple publisher and subscriber" href="async_pub.html" />
+    <link rel="next" title="Writing an asynchronous publisher" href="async_pub.html" />
     <link rel="prev" title="DDS (Data Distribuion Services)" href="../concepts/fastdds_intro.html" /> 
 </head>
 
@@ -51,10 +51,7 @@
 <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Simple publisher and subscriber</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#writing-a-simple-publisher">Writing a simple publisher</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#writing-a-simple-subscriber">Writing a simple subscriber</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#code-breakdown">Code breakdown</a></li>
-</ul>
-</li>
+<li class="toctree-l2"><a class="reference internal" href="#writing-a-simple-subscriber">Writing a simple subscriber</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="async_pub.html">Asynchronous publisher</a></li>
@@ -62,7 +59,7 @@
 <p class="caption" role="heading"><span class="caption-text">Tools</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../tools/realtime_plotter.html">Realtime Plotter</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../tools/visualizer.html">Visuazlier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tools/visualizer.html">Visualizer</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../tools/logger.html">Logger</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Full API Reference</span></p>
@@ -209,8 +206,6 @@ be published.</p>
 <span class="p">}</span><span class="w"></span>
 </pre></div>
 </div>
-<section id="code-breakdown">
-<h3>Code breakdown<a class="headerlink" href="#code-breakdown" title="Permalink to this headline"></a></h3>
 <div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;PositionPubSubTypes.h&quot;</span><span class="cp"></span>
 <span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;default_participant.h&quot;</span><span class="cp"></span>
 <span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;default_subscriber.h&quot;</span><span class="cp"></span>
@@ -243,14 +238,13 @@ The latest data sample received by the publisher is saved to this variable.</p>
 <p>The wait_for_data() function block code execution until the subscriber receives a message.</p>
 </section>
 </section>
-</section>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="../concepts/fastdds_intro.html" class="btn btn-neutral float-left" title="DDS (Data Distribuion Services)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="async_pub.html" class="btn btn-neutral float-right" title="Writing a simple publisher and subscriber" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="async_pub.html" class="btn btn-neutral float-right" title="Writing an asynchronous publisher" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
