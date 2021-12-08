@@ -1,1 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -dynamiclib -Wl,-headerpad_max_install_names -o liblogger.dylib -install_name @rpath/liblogger.dylib CMakeFiles/logger.dir/src/logger.cpp.o 

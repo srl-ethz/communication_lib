@@ -1,5 +1,5 @@
 Writing a simple publisher and subscriber 
-==========
+==========================================
 
 The three important entities in DDS are : Domain Participant, Publisher and Subscriber. 
 

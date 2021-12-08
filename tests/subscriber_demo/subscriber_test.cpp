@@ -22,6 +22,7 @@ int main() {
     // Blocks until new data is available
     mocap_sub.listener->wait_for_data();
 
-    sflog << pos_msg.x;
+    std::cout << "Received Data: (" << pos_msg.x << ", " << pos_msg.y << ", "
+              << pos_msg.z << ')' << '\n';
   }
 }

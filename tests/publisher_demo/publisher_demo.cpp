@@ -23,6 +23,11 @@ int main() {
     pos_msg.z = i;
 
     position_pub.publish(pos_msg);
+
+    std::cout << "Sent Data: (" << pos_msg.x << ", " << pos_msg.y << ", "
+              << pos_msg.z << ')' << '\n';
+
+    // publish at 4 Hz
     std::this_thread::sleep_for(std::chrono::milliseconds(250));
   }
 }

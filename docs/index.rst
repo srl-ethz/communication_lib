@@ -3,9 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-#################################
+####################################
 A DDS based middleware for Robotics
-#################################
+####################################
 
 Introduction
 ====================================
@@ -16,21 +16,6 @@ Introduction
 Contents
 ====================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-  
-.. * :ref:`search`
-
-Contents
-==================
 .. toctree::
    :maxdepth: 2
    :caption: Installation
@@ -55,5 +40,7 @@ Contents
    :maxdepth: 2
    :caption: Full API Reference
 
-   Full API Reference <contents/full_reference/index>
+   Domain Participant <contents/full_reference/domain_participant>
+   Publisher <contents/full_reference/publisher>
+   Subscriber <contents/full_reference/subscriber>
    
