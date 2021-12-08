@@ -38,6 +38,14 @@ Contents
 
 .. toctree::
    :maxdepth: 2
+   :caption: Tools
+
+   Realtime Plotter <contents/tools/realtime_plotter>
+   Visualizer <contents/tools/visualizer>
+   Logger <contents/tools/logger>
+
+.. toctree::
+   :maxdepth: 2
    :caption: Full API Reference
 
    Domain Participant <contents/full_reference/domain_participant>
