@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(communication_lib VERSION 0.1.0)
+project(communication_lib VERSION 0.1.2)
 
 # Set c++ standard to 17
 set(CMAKE_CXX_STANDARD 17)
@@ -21,14 +21,28 @@ fastdds_lib
 add_subdirectory(msgs_lib)
 add_subdirectory(fastdds_lib)
 
-# if (BUILD_DOC)
-# add_subdirectory(docs)
-# endif (BUILD_DOC)
+if (BUILD_DOC)
+add_subdirectory(docs)
+endif (BUILD_DOC)
 
 add_subdirectory(tests)
 
 # For library installation
-install(TARGETS comm_lib DESTINATION lib )
+ 
+if(NOT WIN32 AND CMAKE_SOURCE_DIR STREQUAL CMAKE_CURRENT_SOURCE_DIR) 
+    set(CMAKE_INSTALL_PREFIX "/opt/raptor/comm_lib")
+endif()
+
+# Minimal inclusion, but see caveat further below
+include(GNUInstallDirs)
+
+install(TARGETS comm_lib
+RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR} 
+LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR} 
+ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR}
+)
+
+# install(TARGETS comm_lib DESTINATION lib )
 
 #=============================================
 # to allow find_package() on comm_lib

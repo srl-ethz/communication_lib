@@ -35,23 +35,25 @@ Contents
    :maxdepth: 2
    :caption: Installation
 
-   contents/intallation/index
+   Installing on mac and linux <contents/installation/install_linux_mac>
+   Installing on windows <contents/installation/install_win>
 
 .. toctree::
    :maxdepth: 2
    :caption: Concepts
 
-   contents/concepts/index
+   Introduction <contents/concepts/fastdds_intro>
 
 .. toctree::
    :maxdepth: 2
    :caption: Tutorials
 
-   contents/tutorials/index   
+   Simple publisher and subscriber <contents/tutorials/simple_demo>
+   Asynchronous publisher <contents/tutorials/async_pub>
 
 .. toctree::
    :maxdepth: 2
    :caption: Full API Reference
 
-   contents/full_reference/index   
+   Full API Reference <contents/full_reference/index>
    
