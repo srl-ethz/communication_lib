@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Writing a simple publisher and subscriber &mdash; comm_lib  documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Domain Participant" href="../full_reference/domain_participant.html" />
+    <link rel="prev" title="Writing a simple publisher and subscriber" href="simple_demo.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> comm_lib
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Installation</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../installation/install_linux_mac.html">Installing on mac and linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../installation/install_win.html">Installing on windows</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Concepts</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../concepts/fastdds_intro.html">Introduction</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="simple_demo.html">Simple publisher and subscriber</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Asynchronous publisher</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#writing-a-simple-publisher">Writing a simple publisher</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#writing-a-simple-subscriber">Writing a simple subscriber</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#code-breakdown">Code breakdown</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Full API Reference</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../full_reference/domain_participant.html">Domain Participant</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../full_reference/publisher.html">Publisher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../full_reference/subscriber.html">Subscriber</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">comm_lib</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Writing a simple publisher and subscriber</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/contents/tutorials/async_pub.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="writing-a-simple-publisher-and-subscriber">
+<h1>Writing a simple publisher and subscriber<a class="headerlink" href="#writing-a-simple-publisher-and-subscriber" title="Permalink to this headline"></a></h1>
+<p>The three important entities in DDS are : Domain Participant, Publisher and Subscriber.</p>
+<p>Each individual application has one domain participant. It is reposible for connecting
+to the netwrok, finfing other nodes, etc. Publisher transmit data of a given message type
+and topic name. Subscribers initialized with the same message type and topic name
+can receive the data. All publishers and subscribers in an application must register to
+the domain participant</p>
+<section id="writing-a-simple-publisher">
+<h2>Writing a simple publisher<a class="headerlink" href="#writing-a-simple-publisher" title="Permalink to this headline"></a></h2>
+<p>Let us create a publisher that sends messages of type position.</p>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;PositionPubSubTypes.h&quot;</span><span class="cp"></span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;default_participant.h&quot;</span><span class="cp"></span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;default_publisher.h&quot;</span><span class="cp"></span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;geometry_msgs/msgs/Position.h&quot;</span><span class="cp"></span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;chrono&gt;</span><span class="cp"></span>
+
+<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+
+<span class="w">  </span><span class="c1">// Create participant. Arguments: Domain id, Name</span>
+<span class="w">  </span><span class="n">DefaultParticipant</span><span class="w"> </span><span class="n">dp</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;sample_participant&quot;</span><span class="p">);</span><span class="w"></span>
+
+<span class="w">  </span><span class="c1">// Create publisher with msg type and topic name</span>
+<span class="w">  </span><span class="n">DDSPublisher</span><span class="w"> </span><span class="n">position_pub</span><span class="p">(</span><span class="n">idl_msg</span><span class="o">::</span><span class="n">PositionPubSubType</span><span class="p">(),</span><span class="w"> </span><span class="s">&quot;position&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">dp</span><span class="p">.</span><span class="n">participant</span><span class="p">());</span><span class="w"></span>
+
+<span class="w">  </span><span class="c1">// create message of position type</span>
+<span class="w">  </span><span class="n">cpp_msg</span><span class="o">::</span><span class="n">Position</span><span class="w"> </span><span class="n">pos_msg</span><span class="p">;</span><span class="w"></span>
+
+<span class="w">  </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">10</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+
+<span class="w">    </span><span class="n">pos_msg</span><span class="p">.</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="n">pos_msg</span><span class="p">.</span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="n">pos_msg</span><span class="p">.</span><span class="n">z</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">i</span><span class="p">;</span><span class="w"></span>
+
+<span class="w">    </span><span class="n">position_pub</span><span class="p">.</span><span class="n">publish</span><span class="p">(</span><span class="n">pos_msg</span><span class="p">);</span><span class="w"></span>
+<span class="w">    </span><span class="n">std</span><span class="o">::</span><span class="n">this_thread</span><span class="o">::</span><span class="n">sleep_for</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">chrono</span><span class="o">::</span><span class="n">milliseconds</span><span class="p">(</span><span class="mi">250</span><span class="p">));</span><span class="w"></span>
+<span class="w">  </span><span class="p">}</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+</pre></div>
+</div>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;default_participant.h&quot;</span><span class="cp"></span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;default_publisher.h&quot;</span><span class="cp"></span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;PositionPubSubTypes.h&quot;</span><span class="cp"></span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;geometry_msgs/msgs/Position.h&quot;</span><span class="cp"></span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;chrono&gt;</span><span class="cp"></span>
+</pre></div>
+</div>
+<p>The first two lines allow the usage of the domain participant and publisher. The third
+line includes the message type for pubisher initialization. The fourth line includes the
+corresponding message type for actual data publishing</p>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="c1">// Create domain participant. Arguments: Domain id, Name</span>
+<span class="n">DefaultParticipant</span><span class="w"> </span><span class="nf">dp</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;sample_participant&quot;</span><span class="p">);</span><span class="w"></span>
+</pre></div>
+</div>
+<p>The DefaultParticipant class creates a DDS domain participant with the domain id and
+name specified. Each application contains one domain partipant, to which all publishers
+and subscribers must register. Individual applications can commmunicate only if their
+domain id’s are the same.</p>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="c1">// Create publisher with msg type and topic name</span>
+<span class="n">DDSPublisher</span><span class="w"> </span><span class="nf">position_pub</span><span class="p">(</span><span class="n">idl_msg</span><span class="o">::</span><span class="n">PositionPubSubType</span><span class="p">(),</span><span class="w"> </span><span class="s">&quot;position&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">dp</span><span class="p">.</span><span class="n">participant</span><span class="p">());</span><span class="w"></span>
+
+<span class="c1">// create message of position type</span>
+<span class="n">cpp_msg</span><span class="o">::</span><span class="n">Position</span><span class="w"> </span><span class="n">pos_msg</span><span class="p">;</span><span class="w"></span>
+</pre></div>
+</div>
+<p>The DDSPublisher class creates a DDS Pulbisher with the given message type and topic name.
+In addition, the domain participant is also required. The next line creates the message to
+be published.</p>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="mi">10</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+
+<span class="w">  </span><span class="n">pos_msg</span><span class="p">.</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="n">pos_msg</span><span class="p">.</span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="n">pos_msg</span><span class="p">.</span><span class="n">z</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">i</span><span class="p">;</span><span class="w"></span>
+
+<span class="w">  </span><span class="n">position_pub</span><span class="p">.</span><span class="n">publish</span><span class="p">(</span><span class="n">pos_msg</span><span class="p">);</span><span class="w"></span>
+<span class="w">  </span><span class="n">std</span><span class="o">::</span><span class="n">this_thread</span><span class="o">::</span><span class="n">sleep_for</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">chrono</span><span class="o">::</span><span class="n">milliseconds</span><span class="p">(</span><span class="mi">250</span><span class="p">));</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+</pre></div>
+</div>
+<p>10 samples are published with a delay of 250ms between each publication.</p>
+</section>
+<section id="writing-a-simple-subscriber">
+<h2>Writing a simple subscriber<a class="headerlink" href="#writing-a-simple-subscriber" title="Permalink to this headline"></a></h2>
+<p>Let us create a subscriber that subscribes to the publisher above.</p>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;PositionPubSubTypes.h&quot;</span><span class="cp"></span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;default_participant.h&quot;</span><span class="cp"></span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;default_subscriber.h&quot;</span><span class="cp"></span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;geometry_msgs/msgs/Position.h&quot;</span><span class="cp"></span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;logger.h&quot;</span><span class="cp"></span>
+
+<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+
+<span class="w">  </span><span class="c1">// Create participant. Arguments-&gt; Domain id, QOS name</span>
+<span class="w">  </span><span class="n">DefaultParticipant</span><span class="w"> </span><span class="n">dp</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;selva&quot;</span><span class="p">);</span><span class="w"></span>
+
+<span class="w">  </span><span class="c1">// Message</span>
+<span class="w">  </span><span class="c1">// idl_msg::Position pos_msg{};</span>
+<span class="w">  </span><span class="n">cpp_msg</span><span class="o">::</span><span class="n">Position</span><span class="w"> </span><span class="n">pos_msg</span><span class="p">{};</span><span class="w"></span>
+
+<span class="w">  </span><span class="c1">// Create subscriber with msg type</span>
+<span class="w">  </span><span class="n">DDSSubscriber</span><span class="w"> </span><span class="n">mocap_sub</span><span class="p">(</span><span class="n">idl_msg</span><span class="o">::</span><span class="n">PositionPubSubType</span><span class="p">(),</span><span class="w"> </span><span class="o">&amp;</span><span class="n">pos_msg</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;position&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">                          </span><span class="n">dp</span><span class="p">.</span><span class="n">participant</span><span class="p">());</span><span class="w"></span>
+
+<span class="w">  </span><span class="k">for</span><span class="w"> </span><span class="p">(;;)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+
+<span class="w">    </span><span class="c1">// Blocks until new data is available</span>
+<span class="w">    </span><span class="n">mocap_sub</span><span class="p">.</span><span class="n">listener</span><span class="o">-&gt;</span><span class="n">wait_for_data</span><span class="p">();</span><span class="w"></span>
+
+<span class="w">    </span><span class="n">sflog</span><span class="w"> </span><span class="o">&lt;&lt;</span><span class="w"> </span><span class="n">pos_msg</span><span class="p">.</span><span class="n">x</span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="p">}</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+</pre></div>
+</div>
+<section id="code-breakdown">
+<h3>Code breakdown<a class="headerlink" href="#code-breakdown" title="Permalink to this headline"></a></h3>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;PositionPubSubTypes.h&quot;</span><span class="cp"></span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;default_participant.h&quot;</span><span class="cp"></span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;default_subscriber.h&quot;</span><span class="cp"></span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;geometry_msgs/msgs/Position.h&quot;</span><span class="cp"></span>
+<span class="cp">#include</span><span class="w"> </span><span class="cpf">&quot;logger.h&quot;</span><span class="cp"></span>
+
+<span class="kt">int</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
+
+<span class="w">  </span><span class="c1">// Create participant. Arguments-&gt; Domain id, QOS name</span>
+<span class="w">  </span><span class="n">DefaultParticipant</span><span class="w"> </span><span class="n">dp</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;selva&quot;</span><span class="p">);</span><span class="w"></span>
+
+<span class="w">  </span><span class="c1">// Message</span>
+<span class="w">  </span><span class="c1">// idl_msg::Position pos_msg{};</span>
+<span class="w">  </span><span class="n">cpp_msg</span><span class="o">::</span><span class="n">Position</span><span class="w"> </span><span class="n">pos_msg</span><span class="p">{};</span><span class="w"></span>
+</pre></div>
+</div>
+<p>Same function as in the publisher example</p>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="c1">// Create subscriber with msg type</span>
+<span class="w">  </span><span class="n">DDSSubscriber</span><span class="w"> </span><span class="nf">mocap_sub</span><span class="p">(</span><span class="n">idl_msg</span><span class="o">::</span><span class="n">PositionPubSubType</span><span class="p">(),</span><span class="w"> </span><span class="o">&amp;</span><span class="n">pos_msg</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;position&quot;</span><span class="p">,</span><span class="w"></span>
+<span class="w">                          </span><span class="n">dp</span><span class="p">.</span><span class="n">participant</span><span class="p">());</span><span class="w"></span>
+</pre></div>
+</div>
+<p>Like the publisher, the message type, topic name and domain participant are required
+to initialize a subscriber. In addition, the the pos_msg variable is passed by reference.
+The latest data sample received by the publisher is saved to this variable.</p>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="c1">// Blocks until new data is available</span>
+<span class="n">mocap_sub</span><span class="p">.</span><span class="n">listener</span><span class="o">-&gt;</span><span class="n">wait_for_data</span><span class="p">();</span><span class="w"></span>
+</pre></div>
+</div>
+<p>The wait_for_data() function block code execution until the subscriber receives a message.</p>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="simple_demo.html" class="btn btn-neutral float-left" title="Writing a simple publisher and subscriber" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../full_reference/domain_participant.html" class="btn btn-neutral float-right" title="Domain Participant" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, sarath_suresh.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

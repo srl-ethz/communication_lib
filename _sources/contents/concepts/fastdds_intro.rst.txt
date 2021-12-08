@@ -1,62 +1,50 @@
-##############
-Neural networks aka deep learning
-##############
+################################
+DDS (Data Distribuion Services)
+################################
 
-The first step to understanding neural networks is to be clear about the terms Artificial Intelligence
-,Machine learning and Deep learning. **AI** includes practically any techinique that *empowers a machine to
-take intelligent decisions without being expicitly programmed*. **Machine learning** resides within AI and
-refers specifically to a range of tools that promote *intelligence through learning* . **Deep learning**
-happens to be a part of machine learning that exploits *specific tools called* **Neural Networks** to make
-it work.
+The DDS (Data Distribuion Standard) is an open source standard for distributed and real
+time systems. Smart Grids, Smart Cities, Defense, SCADA, Financial Trading, Air Traffic
+Control and Management, High Performance Telemetry and Large Scale Supervisory System.
 
-Intution
+The core concept is the illusion of a Global Data Space (GDS) to which all connected devices have
+access.  In reality, it is fully distributed system of high performance point to point 
+connections. This avoids data bottlenecks and single points of failure. The tgraceful 
+performance degradation in the face of adversities such as sensor/actuator failure, as 
+opposed to abrupt failure. This ensures resilience and predictability under stress that 
+is critical for  autonomous systems operating in the real world. 
+
+DDS offers dynamic discovery, which means that all devices connected to the local network 
+are automatically discovered. No network configuration is required. 
+
+Why not just use ROS?
 =====================
 
+Robotics projects typically use the ROS as the software framework. ROS is a set of excellent
+tools for visuaization, simulation, SLAM etc and middleware for communication between these 
+tools. However, the ROS1 middleware does not satisfy time temporal deadlines and fault tolerances required for real
+time systems. This is is especially relevant for safety critical systems like flying roots
+and autonomous vehicles. Also, it is not a suitable choice for embedded onboard computer
+due to its resource intensive nature. ROS2 addresses these issues by replacing the transport
+system with DDS, an industry standard for real time communication between computers and
+embedded devices. ROS2 offers  an API similar to ROS1 as it is already popular in the
+Robotics community. Unfortunately, this lease that messages must undergo conversion 2
+time: ROS2 to DDS while sending and DDS to ROS2 while receiving. [1][2] show that this 
+conversion adds significant communication latency. Clearly, ROS2 is much suitable than 
+native DDS implementations  for critical communication channels.
 
+Another issue is hardware and software compatibility. ROS2 supports Windows,  Mac OS and
+linux unlike ROS1. An extension called Micro-ROS provides access to microcontrollers.
+Nonetheless, installation on certain operating systems incurs overhead upto 20 times 
+larger than the size of ROS2 itself. In contrast, native DDS implementations require
+minimal supporting software. Also, it is desirable to quickly incorporate new features
+offered by the latest standards of C++.  In particular, more efficient methods are
+expected for asynchronous and concurrent programming. Such features can drastically 
+improve processing speed and minimise communication latency.
 
+In addition, there is an increasing need to communicate with software outside the ROS ecosystem, especially for simulation. The Rotors flight simulator based on gazebo is widely used for flight simulation, since it is accurate, easy to use and tightly integrated with ROS. But is not a one stop solution for simulation. For instance,  the lack of photorealistic simulation is a major shortcoming for research in vision based robotics. In addition, the performance drops drastically when tens of flying vehicles are simulated at the same time, since the underlying  bullet physics engine is computationally intensive.  This makes gazebo is not suitable for  Reinforcement Learning, which require several robots to be simulated in parallel for efficient training.  [Flightmare] discusses this issue in more detail. Their solution is to decouple the physics engine and photorealistic simulation.  The dynamics is simulated in a simple environment in Gazebo, and the state information is relayed to a high performance rendering engine such as Unity 3D  or Unreal engine. The images captured by a virtual camera at the same pose is then relayed to the perception system. A first principles model replaces Gazebo for reinforcement learning applications - Accuracy is sacrificed for speed. This allows tens of quadcopters to be simulated in parallel at accelerated timescales. Typically, the rendering engine must run on a  separate GPU based machine. Intermachine communication incurs much more latency that intramachine communication. Lockstep simulation can be used to prevent data loss - At each timestep, each node waits the data to arrive before starting. Nevertheless, communication latency slows down the process significantly. 
 
-Before Deep learning
-=====================
+.. figure:: images/ros2_dataflow.pdf
+   :scale: 100 %
+   :align: center
 
-Deep learning now constitutes most of machine learning and both advancements and econimic value generated are growing exponentially ,but this was not always the case.Even in the last decade most of the ML community was concerened with several now obsolete techniques such as kNN ,SVM and random forests.But these techinques had
-several problems associated with them and nobody could get it to work really well on any problem that mattered in real life.Let me demostrate them through two examples:
-
- **The feature problem :** Consider that the problem is to classify male and female voice.Going by old Ml techniques the first step would be to find out among the general properties of sound such as frequeny ,amplitude ,bass etc ,one that of differentiates them the most which would be frequency in this case.Such Properties of data are called features in ML.Now ,consider a database of voices of people speaking in different accents ,background noise etc.This causes a lot of confusion as to which features to select.Even in the male category voices of children might sometimes be interpreted as that of females due to the relatively high frequency. **We need to manually select the best features and this is a very hard ,ambiguous process.** The evolution of a separate field of study called **Feature Engineering** exemplifies this headache.
-
-
- **The categories problem :** Consider that the problem is to recognize human faces.The traditional Ml method used for  this would be SVM[Support vector machine].It works be separating groups of input features.For instance ,one category might consist of with and without spectacles and another might be with sunglasses and without hair.As the complexity of the dataset increases,you can imagine that **no of categories would increase and prediction accuracy would decrease exponentially with size of the dataset.**As if to add to all that ,the computer cann't see an image like humans can ,it can just process a matrix of numbers[4k ,1080p ,720p etc refer to the size of this matrix].As you can guess ,the primary problem of feature selection exsists in an amplified form here.
-
-
-
-Neural Networksg
-=======================
-
-Inspired by the brain
-----------------------
-
-The first thing that comes to our mind on hearing the term 'Neural' is the connection to the human brain and yes it is true.Deep learning is inspired by the millions of neurons and interconnections in the brain.However in the present scenario , *deep learning is to the human brain as bird flight is to aeroplanes.* Both perform the same function but the method is better.Having said that ,it widely accepted even by godfathers of deep learning that the present methods are far from optimal.Hence ,there is *no guarantee of the analogy holding in the future.* There have been breakthrough developments recently in the field that are largely inspired by neuroscience and the trend is expexted to continue.
-
-Just math
-----------
-
-Neural networks are really just a bunch of mathematical equations implemented in code.Theoretically ,it would be possible to implement all neural network computations on paper but thankfully ,we have computers to do it much faster for us.Each aspect of a neural network can be related to a particular field in math
-
-  **Structure of the network and computations :** Linear algebra [Matrices and related operations]
-
-  **Process of learning :** Calculus [Mostly gradients and derivatives]
-
-  **Stochastic nature of predictions :** Probabiility [For instance bayes]
-
-No feature selection
-----------------------
-
-Remeber the problem of feature selection ? The main diference between neural networks and old ML techniques is that we don't need to select specific features to input.Instad ,we can input all the data features and the nework decides which ones are really important:
-
-**Visual recognition :** We input all the image pixels.In case of 720p ,it would be 1280 X 720 = 921600 inputs.
-
-**Audio processing:** We can directly input the audio file in time domain or frequency domain
-
-Software 2.0
---------------
-
-Deep learning has been referred to by Andrej Karpathy ,a leading AI researcher as Software 2.0.Accrding to him ,Software 1.0 consists of all the code that was written in langauges such as C++ ,python ,javascrpt etc in which the method has been explicitly specified.Although the structure of the network is written on Software 1.0 languages ,the method is the language of weights and these weights are learnt ,not programmed.
+   This is the caption of the figure (a simple paragraph).
