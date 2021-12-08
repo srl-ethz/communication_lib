@@ -16,6 +16,11 @@ is critical for  autonomous systems operating in the real world.
 DDS offers dynamic discovery, which means that all devices connected to the local network 
 are automatically discovered. No network configuration is required. 
 
+.. figure:: images/dds_brochure.pdf
+   :align: center
+
+   Benefits of using the DDS Standard
+
 Why not just use ROS?
 =====================
 
@@ -29,8 +34,14 @@ system with DDS, an industry standard for real time communication between comput
 embedded devices. ROS2 offers  an API similar to ROS1 as it is already popular in the
 Robotics community. Unfortunately, this lease that messages must undergo conversion 2
 time: ROS2 to DDS while sending and DDS to ROS2 while receiving. [1][2] show that this 
-conversion adds significant communication latency. Clearly, ROS2 is much suitable than 
-native DDS implementations  for critical communication channels.
+conversion adds significant communication latency. Clearly, native DDS implementations are 
+more suitable for time critical communication channels.In addition, there is an increasing 
+need to communicate with software outside the ROS ecosystem, especially for simulation. 
+
+.. figure:: images/ros2_dataflow.pdf
+   :align: center
+
+   Comparison of dataflow in ROS2 vs native dds implementation
 
 Another issue is hardware and software compatibility. ROS2 supports Windows,  Mac OS and
 linux unlike ROS1. An extension called Micro-ROS provides access to microcontrollers.
@@ -41,10 +52,8 @@ offered by the latest standards of C++.  In particular, more efficient methods a
 expected for asynchronous and concurrent programming. Such features can drastically 
 improve processing speed and minimise communication latency.
 
-In addition, there is an increasing need to communicate with software outside the ROS ecosystem, especially for simulation. The Rotors flight simulator based on gazebo is widely used for flight simulation, since it is accurate, easy to use and tightly integrated with ROS. But is not a one stop solution for simulation. For instance,  the lack of photorealistic simulation is a major shortcoming for research in vision based robotics. In addition, the performance drops drastically when tens of flying vehicles are simulated at the same time, since the underlying  bullet physics engine is computationally intensive.  This makes gazebo is not suitable for  Reinforcement Learning, which require several robots to be simulated in parallel for efficient training.  [Flightmare] discusses this issue in more detail. Their solution is to decouple the physics engine and photorealistic simulation.  The dynamics is simulated in a simple environment in Gazebo, and the state information is relayed to a high performance rendering engine such as Unity 3D  or Unreal engine. The images captured by a virtual camera at the same pose is then relayed to the perception system. A first principles model replaces Gazebo for reinforcement learning applications - Accuracy is sacrificed for speed. This allows tens of quadcopters to be simulated in parallel at accelerated timescales. Typically, the rendering engine must run on a  separate GPU based machine. Intermachine communication incurs much more latency that intramachine communication. Lockstep simulation can be used to prevent data loss - At each timestep, each node waits the data to arrive before starting. Nevertheless, communication latency slows down the process significantly. 
 
-.. figure:: images/ros2_dataflow.pdf
-   :scale: 100 %
+.. figure:: images/data_types.pdf
    :align: center
 
-   This is the caption of the figure (a simple paragraph).
+   Range of supported devices and transport mechanisms
