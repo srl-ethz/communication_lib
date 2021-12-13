@@ -25,10 +25,9 @@ if (BUILD_DOC)
 add_subdirectory(docs)
 endif (BUILD_DOC)
 
-add_subdirectory(tests)
+add_subdirectory(demo)
 
 # For library installation
- 
 if(NOT WIN32 AND CMAKE_SOURCE_DIR STREQUAL CMAKE_CURRENT_SOURCE_DIR) 
     set(CMAKE_INSTALL_PREFIX "/opt/raptor/comm_lib")
 endif()

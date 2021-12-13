@@ -1,4 +1,0 @@
-
-add_subdirectory(subscriber_demo)
-add_subdirectory(publisher_demo)
-add_subdirectory(publisher_async_demo)
