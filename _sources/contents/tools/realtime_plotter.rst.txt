@@ -14,7 +14,7 @@ Realtime Plotter
 ..   cd communication_lib
 ..   sudo make install
 
-.. figure:: images/realtime_plotter.pdf
+.. figure:: images/realtime_plotter.png
    :align: center
 
    Range of supported devices and transport mechanisms  
