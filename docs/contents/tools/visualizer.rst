@@ -14,7 +14,7 @@ Visualizer
 ..   cd communication_lib
 ..   sudo make install
 
-.. figure:: images/visualizer.pdf
+.. figure:: images/visualizer.png
    :align: center
 
    Range of supported devices and transport mechanisms
