@@ -18,7 +18,8 @@ DDS Standard. The features include:
 Supported devices
 =====================
 
-.. figure:: images/data_types.pdf
+.. figure:: images/data_types.png
+   :scale: 50 %
    :align: center
 
    Range of supported devices and transport mechanisms
@@ -40,11 +41,6 @@ is critical for  autonomous systems operating in the real world.
 DDS offers dynamic discovery, which means that all devices connected to the local network 
 are automatically discovered. No network configuration is required. 
 
-.. figure:: images/dds_brochure.pdf
-   :align: center
-
-   Benefits of using the DDS Standard
-
 Why not just use ROS1 of ROS2?
 ===============================
 
@@ -62,7 +58,7 @@ conversion adds significant communication latency. Clearly, native DDS implement
 more suitable for time critical communication channels.In addition, there is an increasing 
 need to communicate with software outside the ROS ecosystem, especially for simulation. 
 
-.. figure:: images/ros2_dataflow.pdf
+.. figure:: images/ros2_dataflow.png
    :align: center
 
    Comparison of dataflow in ROS2 vs native dds implementation
