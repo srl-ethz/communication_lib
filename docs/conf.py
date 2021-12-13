@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'comm_lib'
+project = 'SRL Communication library'
 copyright = '2021, sarath_suresh'
 author = 'sarath_suresh'
 

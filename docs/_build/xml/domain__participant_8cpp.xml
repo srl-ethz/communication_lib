@@ -15,7 +15,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/domain_participant/src/domain_participant.cpp</label>
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/domain_participant/src/domain_participant.cpp</label>
         <link refid="domain__participant_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -70,6 +70,6 @@
 <codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>-&gt;delete_participant(participant_);</highlight></codeline>
 <codeline lineno="34"><highlight class="normal">};</highlight></codeline>
     </programlisting>
-    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/domain_participant/src/domain_participant.cpp"/>
+    <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/domain_participant/src/domain_participant.cpp"/>
   </compounddef>
 </doxygen>

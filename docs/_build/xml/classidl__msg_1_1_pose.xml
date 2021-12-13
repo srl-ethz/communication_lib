@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="275" column="25" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" bodystart="275" bodyend="-1"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="275" column="25" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" bodystart="275" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classidl__msg_1_1_pose_1afdece9348079d922030d6f8344128b1d" prot="private" static="no" mutable="no">
         <type><ref refid="classidl__msg_1_1_position" kindref="compound">idl_msg::Position</ref></type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="276" column="27" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" bodystart="276" bodyend="-1"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="276" column="27" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" bodystart="276" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classidl__msg_1_1_pose_1af3fc4eba84271cbd952cfe792cee22a9" prot="private" static="no" mutable="no">
         <type><ref refid="classidl__msg_1_1_euler_angle_z_y_x" kindref="compound">idl_msg::EulerAngleZYX</ref></type>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="277" column="32" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" bodystart="277" bodyend="-1"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="277" column="32" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" bodystart="277" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classidl__msg_1_1_pose_1a3f033c37eda5d66cd0646b2b69369454" prot="private" static="no" mutable="no">
         <type><ref refid="classidl__msg_1_1_quaternion" kindref="compound">idl_msg::Quaternion</ref></type>
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="278" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" bodystart="278" bodyend="-1"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="278" column="29" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" bodystart="278" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -70,7 +70,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="80" column="33" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="37" bodyend="48"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="80" column="33" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="37" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_pose_1ac8f7a9d1e19d0cb2ac790af9e023a0ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport</type>
@@ -84,7 +84,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="85" column="33" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="50" bodyend="56"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="85" column="33" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="50" bodyend="56"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_pose_1ae727c2cb28eb6b35ca4821004c60a027" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport</type>
@@ -112,7 +112,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="91" column="33" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="58" bodyend="65"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="91" column="33" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="58" bodyend="65"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_pose_1aedaa69a3e016da1a738a18da43200366" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport</type>
@@ -140,7 +140,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="98" column="33" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="67" bodyend="74"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="98" column="33" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="67" bodyend="74"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_pose_1ac02cbc56a04fb529639abcc64d7e2847" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport <ref refid="classidl__msg_1_1_pose" kindref="compound">Pose</ref> &amp;</type>
@@ -168,7 +168,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="105" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="76" bodyend="86"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="105" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="76" bodyend="86"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_pose_1a924aa5c65814e9a1e67c8fd6a040819c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport <ref refid="classidl__msg_1_1_pose" kindref="compound">Pose</ref> &amp;</type>
@@ -196,7 +196,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="112" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="88" bodyend="98"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="112" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="88" bodyend="98"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_pose_1af11c9f1a26963fd1294d58774512c942" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
@@ -224,7 +224,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="119" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="155" bodyend="159"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="119" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="155" bodyend="159"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_pose_1a81e2ed51f091da7f5876350b2045d6ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
@@ -252,7 +252,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="126" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="165" bodyend="169"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="126" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="165" bodyend="169"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_pose_1a8a524f5c4ae5dbeaa88f03258deffc3d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport const <ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref> &amp;</type>
@@ -269,7 +269,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="133" column="55" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="175" bodyend="178"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="133" column="55" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="175" bodyend="178"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_pose_1aac0b5063fda586a3bd8edc02de4ce372" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport <ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref> &amp;</type>
@@ -286,7 +286,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="139" column="49" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="184" bodyend="187"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="139" column="49" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="184" bodyend="187"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_pose_1a5d01322ebc80c53927745cb932f11d42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
@@ -314,7 +314,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="144" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="192" bodyend="196"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="144" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="192" bodyend="196"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_pose_1ab9e8dce9d7956aa3adc7b102a3ff0898" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
@@ -342,7 +342,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="151" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="202" bodyend="206"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="151" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="202" bodyend="206"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_pose_1ae4a940e69d174a6968d90c4ebfeda495" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport const <ref refid="classidl__msg_1_1_position" kindref="compound">idl_msg::Position</ref> &amp;</type>
@@ -359,7 +359,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="158" column="57" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="212" bodyend="215"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="158" column="57" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="212" bodyend="215"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_pose_1a748d8ef049beafc7f0f13f11a95c6eb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport <ref refid="classidl__msg_1_1_position" kindref="compound">idl_msg::Position</ref> &amp;</type>
@@ -376,7 +376,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="164" column="51" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="221" bodyend="224"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="164" column="51" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="221" bodyend="224"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_pose_1ab69e267cacb8dbac658ed14e8d1f33ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
@@ -404,7 +404,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="169" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="229" bodyend="233"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="169" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="229" bodyend="233"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_pose_1a26d2fa5907b9a29cb396bd3e6c0bbac8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
@@ -432,7 +432,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="176" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="239" bodyend="243"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="176" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="239" bodyend="243"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_pose_1a5561bfb46980504a6bec48917a565ad4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport const <ref refid="classidl__msg_1_1_euler_angle_z_y_x" kindref="compound">idl_msg::EulerAngleZYX</ref> &amp;</type>
@@ -449,7 +449,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="183" column="62" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="249" bodyend="252"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="183" column="62" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="249" bodyend="252"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_pose_1ac8764641679ca299d198f8f0fdd4b0ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport <ref refid="classidl__msg_1_1_euler_angle_z_y_x" kindref="compound">idl_msg::EulerAngleZYX</ref> &amp;</type>
@@ -466,7 +466,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="189" column="56" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="258" bodyend="261"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="189" column="56" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="258" bodyend="261"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_pose_1a08cd263f12e8aca02c5c66dec20f373d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
@@ -494,7 +494,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="194" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="266" bodyend="270"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="194" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="266" bodyend="270"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_pose_1ab12d32c62b9c8d56f69698809f632dab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
@@ -522,7 +522,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="201" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="276" bodyend="280"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="201" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="276" bodyend="280"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_pose_1a70a786ecc7099681d6771ee14015b6d2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport const <ref refid="classidl__msg_1_1_quaternion" kindref="compound">idl_msg::Quaternion</ref> &amp;</type>
@@ -539,7 +539,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="208" column="59" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="286" bodyend="289"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="208" column="59" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="286" bodyend="289"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_pose_1a12ac9366a44f389baf1ead08b143089b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport <ref refid="classidl__msg_1_1_quaternion" kindref="compound">idl_msg::Quaternion</ref> &amp;</type>
@@ -556,7 +556,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="214" column="53" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="295" bodyend="298"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="214" column="53" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="295" bodyend="298"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_pose_1ae8fd88d3a21b703ab5c1d6d4695c33db" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
@@ -584,7 +584,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="240" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="130" bodyend="139"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="240" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="130" bodyend="139"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_pose_1aa5cd29d760a4bdb31979ba7143f5fbba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
@@ -612,7 +612,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="247" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="141" bodyend="149"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="247" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="141" bodyend="149"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_pose_1a1ad3ac55e89a2ef594b2efd7b2c0e40a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
@@ -640,7 +640,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="270" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="319" bodyend="324"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="270" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="319" bodyend="324"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -673,7 +673,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="222" column="47" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="100" bodyend="112"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="222" column="47" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="100" bodyend="112"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_pose_1a4650486a05a2b818e8086ec9ebc7f689" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport size_t</type>
@@ -716,7 +716,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="231" column="47" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="114" bodyend="128"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="231" column="47" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="114" bodyend="128"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_pose_1ad984ed83a37c13caf022c914fae70326" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport size_t</type>
@@ -747,7 +747,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="258" column="47" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="300" bodyend="312"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="258" column="47" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="300" bodyend="312"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_pose_1a6ae98444e39330ffd8d66f4fc6061c9f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport bool</type>
@@ -761,7 +761,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="264" column="45" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="314" bodyend="317"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="264" column="45" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.cxx" bodystart="314" bodyend="317"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -769,7 +769,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="73" column="5" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" bodystart="74" bodyend="279"/>
+    <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" line="73" column="5" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Pose.h" bodystart="74" bodyend="279"/>
     <listofallmembers>
       <member refid="classidl__msg_1_1_pose_1aa5cd29d760a4bdb31979ba7143f5fbba" prot="public" virt="non-virtual"><scope>idl_msg::Pose</scope><name>deserialize</name></member>
       <member refid="classidl__msg_1_1_pose_1a4650486a05a2b818e8086ec9ebc7f689" prot="public" virt="non-virtual"><scope>idl_msg::Pose</scope><name>getCdrSerializedSize</name></member>

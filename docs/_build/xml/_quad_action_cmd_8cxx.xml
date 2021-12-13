@@ -24,7 +24,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadActionCmd.cxx</label>
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadActionCmd.cxx</label>
         <link refid="_quad_action_cmd_8cxx"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -274,6 +274,6 @@
 <codeline lineno="221"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="222"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadActionCmd.cxx"/>
+    <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadActionCmd.cxx"/>
   </compounddef>
 </doxygen>

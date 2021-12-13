@@ -1,8 +1,8 @@
 PROJECT_NAME           = "Communication_lib"
 
-OUTPUT_DIRECTORY       = /Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/docs/_build
+OUTPUT_DIRECTORY       = /Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/docs/_build
 
-INPUT                  = /Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib
+INPUT                  = /Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib
 
 GENERATE_XML = YES
 

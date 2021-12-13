@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.h" line="45" column="28" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.h" bodystart="45" bodyend="-1"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.h" line="45" column="28" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.h" bodystart="45" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-attrib">
@@ -31,7 +31,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.h" line="98" column="13" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.h" bodystart="98" bodyend="-1"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.h" line="98" column="13" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.h" bodystart="98" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classidl__msg_1_1_quaternion_pub_sub_type_1a45d4a675875aa227b4029f3a1fce085d" prot="public" static="no" mutable="no">
         <type>unsigned char *</type>
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.h" line="99" column="23" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.h" bodystart="99" bodyend="-1"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.h" line="99" column="23" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.h" bodystart="99" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -59,7 +59,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.h" line="47" column="33" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.cxx" bodystart="32" bodyend="43"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.h" line="47" column="33" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.cxx" bodystart="32" bodyend="43"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quaternion_pub_sub_type_1a88c1a1cce1556bc9950d8d8b6e1c16b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>eProsima_user_DllExport</type>
@@ -72,7 +72,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.h" line="49" column="41" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.cxx" bodystart="45" bodyend="51"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.h" line="49" column="41" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.cxx" bodystart="45" bodyend="51"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quaternion_pub_sub_type_1a1cc4c82bf27936531336d86512c11e7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>eProsima_user_DllExport bool</type>
@@ -93,7 +93,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.h" line="51" column="46" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.cxx" bodystart="53" bodyend="80"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.h" line="51" column="46" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.cxx" bodystart="53" bodyend="80"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quaternion_pub_sub_type_1ac30fe27b7c99e74cdf4cd6733c9d0471" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>eProsima_user_DllExport bool</type>
@@ -114,7 +114,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.h" line="55" column="46" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.cxx" bodystart="82" bodyend="110"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.h" line="55" column="46" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.cxx" bodystart="82" bodyend="110"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quaternion_pub_sub_type_1a3fe4eb9784591c32622ceb2fc48f1cae" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>eProsima_user_DllExport std::function&lt; uint32_t()&gt;</type>
@@ -131,7 +131,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.h" line="59" column="55" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.cxx" bodystart="112" bodyend="120"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.h" line="59" column="55" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.cxx" bodystart="112" bodyend="120"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quaternion_pub_sub_type_1aca841f6f1f06687c724833b02848d978" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>eProsima_user_DllExport bool</type>
@@ -157,7 +157,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.h" line="62" column="46" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.cxx" bodystart="133" bodyend="170"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.h" line="62" column="46" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.cxx" bodystart="133" bodyend="170"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quaternion_pub_sub_type_1a86e0ded3d1c30b86501823aaa16a9c7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>eProsima_user_DllExport void *</type>
@@ -170,7 +170,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.h" line="67" column="46" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.cxx" bodystart="122" bodyend="125"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.h" line="67" column="46" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.cxx" bodystart="122" bodyend="125"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quaternion_pub_sub_type_1a52950f0de1a7932c75d694b790d937aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>eProsima_user_DllExport void</type>
@@ -187,7 +187,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.h" line="69" column="46" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.cxx" bodystart="127" bodyend="131"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.h" line="69" column="46" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.cxx" bodystart="127" bodyend="131"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -217,7 +217,7 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.h" line="41" column="5" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.h" bodystart="42" bodyend="100"/>
+    <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.h" line="41" column="5" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuaternionPubSubTypes.h" bodystart="42" bodyend="100"/>
     <listofallmembers>
       <member refid="classidl__msg_1_1_quaternion_pub_sub_type_1a86e0ded3d1c30b86501823aaa16a9c7e" prot="public" virt="virtual"><scope>idl_msg::QuaternionPubSubType</scope><name>createData</name></member>
       <member refid="classidl__msg_1_1_quaternion_pub_sub_type_1a52950f0de1a7932c75d694b790d937aa" prot="public" virt="virtual"><scope>idl_msg::QuaternionPubSubType</scope><name>deleteData</name></member>

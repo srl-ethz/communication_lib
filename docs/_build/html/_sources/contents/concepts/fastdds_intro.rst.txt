@@ -1,8 +1,32 @@
 ################################
-DDS (Data Distribuion Services)
+SRL Communication library
 ################################
 
-The DDS (Data Distribuion Standard) is an open source standard for distributed and real
+SRL Communication library is a middleware solution for realtime communication based on the 
+DDS Standard. The features include:
+
+* **Cross platorm compatible:** Supports windows, mac os, linux and raspbian. Forget being forced to install Ubuntu !.
+
+* **High Performance:**  Doesn't sacrifice performance for ease of use unlike ROS2.
+
+* **Plug and Play:** No need for any network configuration. Everything just works !.
+
+* **Ease of use:** An easy-to-use API and message library similar to ROS1. Can be easily integrated into third party software such as game engines and GUI frameworks.
+
+* **Low footprint:**: light package size and minimal set of dependencies 
+
+Supported devices
+=====================
+
+.. figure:: images/data_types.pdf
+   :align: center
+
+   Range of supported devices and transport mechanisms
+
+But what is DDS ?
+=====================
+
+DDS (Data Distribuion Services) is an open source standard for distributed and real
 time systems. Smart Grids, Smart Cities, Defense, SCADA, Financial Trading, Air Traffic
 Control and Management, High Performance Telemetry and Large Scale Supervisory System.
 
@@ -21,8 +45,8 @@ are automatically discovered. No network configuration is required.
 
    Benefits of using the DDS Standard
 
-Why not just use ROS?
-=====================
+Why not just use ROS1 of ROS2?
+===============================
 
 Robotics projects typically use the ROS as the software framework. ROS is a set of excellent
 tools for visuaization, simulation, SLAM etc and middleware for communication between these 
@@ -53,7 +77,3 @@ expected for asynchronous and concurrent programming. Such features can drastica
 improve processing speed and minimise communication latency.
 
 
-.. figure:: images/data_types.pdf
-   :align: center
-
-   Range of supported devices and transport mechanisms

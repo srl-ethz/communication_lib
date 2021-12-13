@@ -15,4 +15,11 @@ Then, download and install communication_lib::
 
   git clone -- recursive https://github.com/sarath-menon/communication_lib.git
   cd communication_lib
+  mkdir build
+  cd build
+  cmake ..
+  make
+
+If you want to install the library systemwide, run::
+
   sudo make install

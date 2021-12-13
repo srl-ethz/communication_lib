@@ -24,7 +24,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx</label>
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx</label>
         <link refid="_quad_attitude_rate_command_8cxx"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -370,6 +370,6 @@
 <codeline lineno="353"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="354"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx"/>
+    <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx"/>
   </compounddef>
 </doxygen>

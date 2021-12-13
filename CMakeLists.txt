@@ -21,9 +21,9 @@ fastdds_lib
 add_subdirectory(msgs_lib)
 add_subdirectory(fastdds_lib)
 
-if (BUILD_DOC)
+# if (BUILD_DOC)
 add_subdirectory(docs)
-endif (BUILD_DOC)
+# endif (BUILD_DOC)
 
 add_subdirectory(demo)
 

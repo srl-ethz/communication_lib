@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="dir_d72524645a43255f80455cd5cb0a8760" kind="dir">
-    <compoundname>/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions</compoundname>
+    <compoundname>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions</compoundname>
     <innerfile refid="_euler_angle_z_y_x_8cxx">EulerAngleZYX.cxx</innerfile>
     <innerfile refid="_euler_angle_z_y_x_8h">EulerAngleZYX.h</innerfile>
     <innerfile refid="_euler_angle_z_y_x_pub_sub_types_8cxx">EulerAngleZYXPubSubTypes.cxx</innerfile>
@@ -74,6 +74,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/"/>
+    <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/"/>
   </compounddef>
 </doxygen>

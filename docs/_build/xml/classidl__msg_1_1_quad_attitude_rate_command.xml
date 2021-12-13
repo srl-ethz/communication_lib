@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="273" column="25" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" bodystart="273" bodyend="-1"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="273" column="25" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" bodystart="273" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classidl__msg_1_1_quad_attitude_rate_command_1a8087864968b012b8a568972533c45121" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -28,7 +28,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="274" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" bodystart="274" bodyend="-1"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="274" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" bodystart="274" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classidl__msg_1_1_quad_attitude_rate_command_1a1be63a5b53020204bcd09270e28fcba1" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -41,7 +41,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="275" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" bodystart="275" bodyend="-1"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="275" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" bodystart="275" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classidl__msg_1_1_quad_attitude_rate_command_1aa7ed71058f9e6164aa966dd2d082d637" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -54,7 +54,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="276" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" bodystart="276" bodyend="-1"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="276" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" bodystart="276" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classidl__msg_1_1_quad_attitude_rate_command_1a073c4ae82c47a0a32feaf3fe74b72ce6" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -67,7 +67,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="277" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" bodystart="277" bodyend="-1"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="277" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" bodystart="277" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -83,7 +83,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="77" column="33" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="37" bodyend="50"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="77" column="33" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="37" bodyend="50"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quad_attitude_rate_command_1afb60597c64d9d0227a485670306c2c08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport</type>
@@ -97,7 +97,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="82" column="33" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="52" bodyend="59"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="82" column="33" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="52" bodyend="59"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quad_attitude_rate_command_1a8ed94986b5d47cb7e9211fa2c38067b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport</type>
@@ -125,7 +125,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="88" column="33" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="61" bodyend="69"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="88" column="33" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="61" bodyend="69"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quad_attitude_rate_command_1ae2905c9a0b552c4e84a3f45a5f0beff3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport</type>
@@ -153,7 +153,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="95" column="33" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="71" bodyend="79"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="95" column="33" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="71" bodyend="79"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quad_attitude_rate_command_1a96ad5bd20c67970820add0960c73a926" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport <ref refid="classidl__msg_1_1_quad_attitude_rate_command" kindref="compound">QuadAttitudeRateCommand</ref> &amp;</type>
@@ -181,7 +181,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="102" column="57" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="81" bodyend="92"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="102" column="57" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="81" bodyend="92"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quad_attitude_rate_command_1a028c13d77ec24904630efc6a68680e17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport <ref refid="classidl__msg_1_1_quad_attitude_rate_command" kindref="compound">QuadAttitudeRateCommand</ref> &amp;</type>
@@ -209,7 +209,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="109" column="57" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="94" bodyend="105"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="109" column="57" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="94" bodyend="105"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quad_attitude_rate_command_1a0cf9c3a44fc4553d96cd6605df7414e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
@@ -237,7 +237,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="116" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="182" bodyend="186"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="116" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="182" bodyend="186"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quad_attitude_rate_command_1a39a2946b36bda0961272929af23065c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
@@ -265,7 +265,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="123" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="192" bodyend="196"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="123" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="192" bodyend="196"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quad_attitude_rate_command_1abb792d6c7dc86ef38818b7fd7ad0dbda" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport const <ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref> &amp;</type>
@@ -282,7 +282,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="130" column="55" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="202" bodyend="205"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="130" column="55" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="202" bodyend="205"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quad_attitude_rate_command_1ac29432bc2c633d97fff63632a8ae94aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport <ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref> &amp;</type>
@@ -299,7 +299,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="136" column="49" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="211" bodyend="214"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="136" column="49" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="211" bodyend="214"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quad_attitude_rate_command_1a5788a0eeb64398fc904942d748c50a89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
@@ -327,7 +327,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="141" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="219" bodyend="223"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="141" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="219" bodyend="223"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quad_attitude_rate_command_1ab3452b046dfd2d40b0f9b869bc0c16bf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float</type>
@@ -344,7 +344,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="148" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="229" bodyend="232"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="148" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="229" bodyend="232"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quad_attitude_rate_command_1a7a15f4289aef6b08299c8ddf7e41fef9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float &amp;</type>
@@ -361,7 +361,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="154" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="238" bodyend="241"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="154" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="238" bodyend="241"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quad_attitude_rate_command_1a135b51e025d68dd9921e91a9533039a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
@@ -389,7 +389,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="160" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="247" bodyend="251"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="160" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="247" bodyend="251"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quad_attitude_rate_command_1a9686a6572c2e650cc6734e60c580be0b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float</type>
@@ -406,7 +406,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="167" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="257" bodyend="260"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="167" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="257" bodyend="260"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quad_attitude_rate_command_1acd0a096614468a03c00847696cdcd1a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float &amp;</type>
@@ -423,7 +423,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="173" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="266" bodyend="269"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="173" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="266" bodyend="269"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quad_attitude_rate_command_1a4131514ae038c9d5a694edc7abf27b4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
@@ -451,7 +451,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="179" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="275" bodyend="279"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="179" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="275" bodyend="279"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quad_attitude_rate_command_1aae5b1b166667edd73fca44a9325c2ee8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float</type>
@@ -468,7 +468,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="186" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="285" bodyend="288"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="186" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="285" bodyend="288"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quad_attitude_rate_command_1a8684ec3de7b19d464600c4caaf4ce035" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float &amp;</type>
@@ -485,7 +485,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="192" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="294" bodyend="297"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="192" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="294" bodyend="297"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quad_attitude_rate_command_1a91c31cb1221393276b5308c1047d6ce5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
@@ -513,7 +513,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="198" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="303" bodyend="307"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="198" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="303" bodyend="307"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quad_attitude_rate_command_1a45abfe44170acb8f77cc628f0905cbac" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float</type>
@@ -530,7 +530,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="205" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="313" bodyend="316"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="205" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="313" bodyend="316"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quad_attitude_rate_command_1a884f8c09b0c8cda2eb181b06cab88314" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float &amp;</type>
@@ -547,7 +547,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="211" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="322" bodyend="325"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="211" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="322" bodyend="325"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quad_attitude_rate_command_1abd72203e85a5ad748f4256f1e4dc7db2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
@@ -575,7 +575,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="238" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="155" bodyend="165"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="238" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="155" bodyend="165"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quad_attitude_rate_command_1a3e4076d995456bd5c2009f5883be36ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
@@ -603,7 +603,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="245" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="167" bodyend="176"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="245" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="167" bodyend="176"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quad_attitude_rate_command_1adf195dbef5641e3c26f33e5b15d1e8bf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
@@ -631,7 +631,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="268" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="348" bodyend="353"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="268" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="348" bodyend="353"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-static-func">
@@ -664,7 +664,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="220" column="47" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="107" bodyend="128"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="220" column="47" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="107" bodyend="128"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quad_attitude_rate_command_1a1f51db16afca4e9b11483945d5598ef9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport size_t</type>
@@ -707,7 +707,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="229" column="47" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="130" bodyend="153"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="229" column="47" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="130" bodyend="153"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quad_attitude_rate_command_1a62de7d903d1c05dddf0a37bddb46705e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport size_t</type>
@@ -738,7 +738,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="256" column="47" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="328" bodyend="341"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="256" column="47" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="328" bodyend="341"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quad_attitude_rate_command_1a290f596102deaedd9cac0b4e1f10fe96" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport bool</type>
@@ -752,7 +752,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="262" column="45" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="343" bodyend="346"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="262" column="45" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.cxx" bodystart="343" bodyend="346"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -760,7 +760,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="70" column="5" bodyfile="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" bodystart="71" bodyend="278"/>
+    <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" line="70" column="5" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadAttitudeRateCommand.h" bodystart="71" bodyend="278"/>
     <listofallmembers>
       <member refid="classidl__msg_1_1_quad_attitude_rate_command_1a3e4076d995456bd5c2009f5883be36ac" prot="public" virt="non-virtual"><scope>idl_msg::QuadAttitudeRateCommand</scope><name>deserialize</name></member>
       <member refid="classidl__msg_1_1_quad_attitude_rate_command_1a1f51db16afca4e9b11483945d5598ef9" prot="public" virt="non-virtual"><scope>idl_msg::QuadAttitudeRateCommand</scope><name>getCdrSerializedSize</name></member>

@@ -13,7 +13,7 @@
         </childnode>
       </node>
       <node id="1">
-        <label>/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/utilities/logger/src/logger.cpp</label>
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/utilities/logger/src/logger.cpp</label>
         <link refid="logger_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
@@ -32,6 +32,6 @@
     <programlisting>
 <codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;logger.h&quot;</highlight></codeline>
     </programlisting>
-    <location file="/Users/sarathmenon/Desktop/eth_soft/code/Communication/libraries/communication_lib/fastdds_lib/utilities/logger/src/logger.cpp"/>
+    <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/utilities/logger/src/logger.cpp"/>
   </compounddef>
 </doxygen>
