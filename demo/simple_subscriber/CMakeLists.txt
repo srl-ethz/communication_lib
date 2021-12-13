@@ -3,9 +3,9 @@
 find_package(fastcdr REQUIRED)
 find_package(fastrtps REQUIRED)
 
-add_executable(sub_demo subscriber_test.cpp)
+add_executable(simple_subscriber simple_subscriber.cpp)
 
-target_link_libraries(sub_demo PRIVATE
+target_link_libraries(simple_subscriber PRIVATE
 comm_lib
 )
 

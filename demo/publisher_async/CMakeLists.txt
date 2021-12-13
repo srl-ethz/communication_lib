@@ -4,9 +4,9 @@
 find_package(fastcdr REQUIRED)
 find_package(fastrtps REQUIRED)
 
-add_executable(pub_pos_async publisher_async_demo.cpp)
+add_executable(publisher_async publisher_async.cpp)
 
-target_link_libraries(pub_pos_async PRIVATE
+target_link_libraries(publisher_async PRIVATE
 comm_lib
 )
 
