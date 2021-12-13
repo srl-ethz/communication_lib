@@ -2,14 +2,14 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="_quad_velocity_cmd_8cxx" kind="file" language="C++">
     <compoundname>QuadVelocityCmd.cxx</compoundname>
-    <includes refid="_quad_velocity_cmd_8h" local="yes">QuadVelocityCmd.h</includes>
+    <includes refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_quad_velocity_cmd_8h" local="yes">QuadVelocityCmd.h</includes>
     <includes local="no">fastcdr/Cdr.h</includes>
     <includes local="no">fastcdr/exceptions/BadParamException.h</includes>
     <includes local="no">utility</includes>
     <incdepgraph>
       <node id="3">
         <label>Header.h</label>
-        <link refid="_header_8h"/>
+        <link refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_header_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
@@ -37,7 +37,7 @@
       </node>
       <node id="2">
         <label>QuadVelocityCmd.h</label>
-        <link refid="_quad_velocity_cmd_8h"/>
+        <link refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_quad_velocity_cmd_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
@@ -57,7 +57,7 @@
       </node>
       <node id="10">
         <label>Velocity.h</label>
-        <link refid="_velocity_8h"/>
+        <link refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_velocity_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
@@ -125,7 +125,7 @@
 <codeline lineno="26"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>_WIN32</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_quad_velocity_cmd_8h" kindref="compound">QuadVelocityCmd.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;QuadVelocityCmd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fastcdr/Cdr.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fastcdr/exceptions/BadParamException.h&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -212,8 +212,8 @@
 <codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>initial_alignment<sp/>=<sp/>current_alignment;</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"></highlight></codeline>
 <codeline lineno="115"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>current_alignment<sp/>+=<sp/><ref refid="classidl__msg_1_1_header_1a32ec7d95fc4157731f6bc9ea537a7be7" kindref="member">idl_msg::Header::getCdrSerializedSize</ref>(data.<ref refid="classidl__msg_1_1_quad_velocity_cmd_1adf9c63a4d02c09f894317503e61bb220" kindref="member">header</ref>(),<sp/>current_alignment);</highlight></codeline>
-<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>current_alignment<sp/>+=<sp/><ref refid="classidl__msg_1_1_velocity_1a8b31e296981b0dbab4041bced6182d80" kindref="member">idl_msg::Velocity::getCdrSerializedSize</ref>(data.<ref refid="classidl__msg_1_1_quad_velocity_cmd_1a9665a5954f2c7a05b2f594d178da8586" kindref="member">velocity</ref>(),<sp/>current_alignment);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>current_alignment<sp/>+=<sp/><ref refid="classidl__msg_1_1_header_1a32ec7d95fc4157731f6bc9ea537a7be7" kindref="member">idl_msg::Header::getCdrSerializedSize</ref>(data.<ref refid="classidl__msg_1_1_quad_velocity_cmd_1a7e64968fffd3f7490fb0d47f9cb969ba" kindref="member">header</ref>(),<sp/>current_alignment);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>current_alignment<sp/>+=<sp/><ref refid="classidl__msg_1_1_velocity_1a8b31e296981b0dbab4041bced6182d80" kindref="member">idl_msg::Velocity::getCdrSerializedSize</ref>(data.<ref refid="classidl__msg_1_1_quad_velocity_cmd_1a0a3620590732901604a41585b46b1d50" kindref="member">velocity</ref>(),<sp/>current_alignment);</highlight></codeline>
 <codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>current_alignment<sp/>+=<sp/>4<sp/>+<sp/>eprosima::fastcdr::Cdr::alignment(current_alignment,<sp/>4);</highlight></codeline>
 <codeline lineno="119"><highlight class="normal"></highlight></codeline>
 <codeline lineno="120"><highlight class="normal"></highlight></codeline>
@@ -240,60 +240,60 @@
 <codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>dcdr<sp/>&gt;&gt;<sp/>m_yaw_rate;</highlight></codeline>
 <codeline lineno="142"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="143"><highlight class="normal"></highlight></codeline>
-<codeline lineno="148"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_quad_velocity_cmd_1a2466d039488529580db38153298e1b34" kindref="member">idl_msg::QuadVelocityCmd::header</ref>(</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_quad_velocity_cmd_1a7e64968fffd3f7490fb0d47f9cb969ba" kindref="member">idl_msg::QuadVelocityCmd::header</ref>(</highlight></codeline>
 <codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref>&amp;<sp/>_header)</highlight></codeline>
 <codeline lineno="150"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>m_header<sp/>=<sp/>_header;</highlight></codeline>
 <codeline lineno="152"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="153"><highlight class="normal"></highlight></codeline>
-<codeline lineno="158"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_quad_velocity_cmd_1a2466d039488529580db38153298e1b34" kindref="member">idl_msg::QuadVelocityCmd::header</ref>(</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_quad_velocity_cmd_1a7e64968fffd3f7490fb0d47f9cb969ba" kindref="member">idl_msg::QuadVelocityCmd::header</ref>(</highlight></codeline>
 <codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref>&amp;&amp;<sp/>_header)</highlight></codeline>
 <codeline lineno="160"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>m_header<sp/>=<sp/>std::move(_header);</highlight></codeline>
 <codeline lineno="162"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="163"><highlight class="normal"></highlight></codeline>
-<codeline lineno="168"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref>&amp;<sp/><ref refid="classidl__msg_1_1_quad_velocity_cmd_1a2466d039488529580db38153298e1b34" kindref="member">idl_msg::QuadVelocityCmd::header</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref>&amp;<sp/><ref refid="classidl__msg_1_1_quad_velocity_cmd_1a7e64968fffd3f7490fb0d47f9cb969ba" kindref="member">idl_msg::QuadVelocityCmd::header</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="169"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_header;</highlight></codeline>
 <codeline lineno="171"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="172"><highlight class="normal"></highlight></codeline>
-<codeline lineno="177"><highlight class="normal"><ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref>&amp;<sp/><ref refid="classidl__msg_1_1_quad_velocity_cmd_1a2466d039488529580db38153298e1b34" kindref="member">idl_msg::QuadVelocityCmd::header</ref>()</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref>&amp;<sp/><ref refid="classidl__msg_1_1_quad_velocity_cmd_1a7e64968fffd3f7490fb0d47f9cb969ba" kindref="member">idl_msg::QuadVelocityCmd::header</ref>()</highlight></codeline>
 <codeline lineno="178"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_header;</highlight></codeline>
 <codeline lineno="180"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="185"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_quad_velocity_cmd_1aa65148dbecd419e7a4446422789feb4e" kindref="member">idl_msg::QuadVelocityCmd::velocity</ref>(</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_quad_velocity_cmd_1a0a3620590732901604a41585b46b1d50" kindref="member">idl_msg::QuadVelocityCmd::velocity</ref>(</highlight></codeline>
 <codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_velocity" kindref="compound">idl_msg::Velocity</ref>&amp;<sp/>_velocity)</highlight></codeline>
 <codeline lineno="187"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>m_velocity<sp/>=<sp/>_velocity;</highlight></codeline>
 <codeline lineno="189"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="190"><highlight class="normal"></highlight></codeline>
-<codeline lineno="195"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_quad_velocity_cmd_1aa65148dbecd419e7a4446422789feb4e" kindref="member">idl_msg::QuadVelocityCmd::velocity</ref>(</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_quad_velocity_cmd_1a0a3620590732901604a41585b46b1d50" kindref="member">idl_msg::QuadVelocityCmd::velocity</ref>(</highlight></codeline>
 <codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classidl__msg_1_1_velocity" kindref="compound">idl_msg::Velocity</ref>&amp;&amp;<sp/>_velocity)</highlight></codeline>
 <codeline lineno="197"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/>m_velocity<sp/>=<sp/>std::move(_velocity);</highlight></codeline>
 <codeline lineno="199"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="200"><highlight class="normal"></highlight></codeline>
-<codeline lineno="205"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_velocity" kindref="compound">idl_msg::Velocity</ref>&amp;<sp/><ref refid="classidl__msg_1_1_quad_velocity_cmd_1aa65148dbecd419e7a4446422789feb4e" kindref="member">idl_msg::QuadVelocityCmd::velocity</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_velocity" kindref="compound">idl_msg::Velocity</ref>&amp;<sp/><ref refid="classidl__msg_1_1_quad_velocity_cmd_1a0a3620590732901604a41585b46b1d50" kindref="member">idl_msg::QuadVelocityCmd::velocity</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="206"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_velocity;</highlight></codeline>
 <codeline lineno="208"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="209"><highlight class="normal"></highlight></codeline>
-<codeline lineno="214"><highlight class="normal"><ref refid="classidl__msg_1_1_velocity" kindref="compound">idl_msg::Velocity</ref>&amp;<sp/><ref refid="classidl__msg_1_1_quad_velocity_cmd_1aa65148dbecd419e7a4446422789feb4e" kindref="member">idl_msg::QuadVelocityCmd::velocity</ref>()</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><ref refid="classidl__msg_1_1_velocity" kindref="compound">idl_msg::Velocity</ref>&amp;<sp/><ref refid="classidl__msg_1_1_quad_velocity_cmd_1a0a3620590732901604a41585b46b1d50" kindref="member">idl_msg::QuadVelocityCmd::velocity</ref>()</highlight></codeline>
 <codeline lineno="215"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_velocity;</highlight></codeline>
 <codeline lineno="217"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="222"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_quad_velocity_cmd_1a37297014ccbd6a26e560599b7ef141b5" kindref="member">idl_msg::QuadVelocityCmd::yaw_rate</ref>(</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_quad_velocity_cmd_1aade77b54ef1c5bd38809fe62bc0a8d36" kindref="member">idl_msg::QuadVelocityCmd::yaw_rate</ref>(</highlight></codeline>
 <codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_yaw_rate)</highlight></codeline>
 <codeline lineno="224"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/>m_yaw_rate<sp/>=<sp/>_yaw_rate;</highlight></codeline>
 <codeline lineno="226"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="227"><highlight class="normal"></highlight></codeline>
-<codeline lineno="232"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_quad_velocity_cmd_1a37297014ccbd6a26e560599b7ef141b5" kindref="member">idl_msg::QuadVelocityCmd::yaw_rate</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_quad_velocity_cmd_1aade77b54ef1c5bd38809fe62bc0a8d36" kindref="member">idl_msg::QuadVelocityCmd::yaw_rate</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="233"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_yaw_rate;</highlight></codeline>
 <codeline lineno="235"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="236"><highlight class="normal"></highlight></codeline>
-<codeline lineno="241"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&amp;<sp/><ref refid="classidl__msg_1_1_quad_velocity_cmd_1a37297014ccbd6a26e560599b7ef141b5" kindref="member">idl_msg::QuadVelocityCmd::yaw_rate</ref>()</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&amp;<sp/><ref refid="classidl__msg_1_1_quad_velocity_cmd_1aade77b54ef1c5bd38809fe62bc0a8d36" kindref="member">idl_msg::QuadVelocityCmd::yaw_rate</ref>()</highlight></codeline>
 <codeline lineno="242"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_yaw_rate;</highlight></codeline>
 <codeline lineno="244"><highlight class="normal">}</highlight></codeline>

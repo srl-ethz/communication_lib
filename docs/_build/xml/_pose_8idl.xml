@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_pose_8idl" kind="file" language="IDL">
+    <compoundname>Pose.idl</compoundname>
+    <includes refid="_euler_angle_z_y_x_8idl" local="yes">EulerAngleZYX.idl</includes>
+    <includes refid="_header_8idl" local="yes">Header.idl</includes>
+    <includes refid="_position_8idl" local="yes">Position.idl</includes>
+    <includes refid="_quaternion_8idl" local="yes">Quaternion.idl</includes>
+    <includedby refid="_mocap_8idl" local="yes">/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Mocap.idl</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>EulerAngleZYX.idl</label>
+        <link refid="_euler_angle_z_y_x_8idl_source"/>
+      </node>
+      <node id="3">
+        <label>Header.idl</label>
+        <link refid="_header_8idl_source"/>
+      </node>
+      <node id="1">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Pose.idl</label>
+        <link refid="_pose_8idl"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Position.idl</label>
+        <link refid="_position_8idl_source"/>
+      </node>
+      <node id="5">
+        <label>Quaternion.idl</label>
+        <link refid="_quaternion_8idl_source"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Mocap.idl</label>
+        <link refid="_mocap_8idl_source"/>
+      </node>
+      <node id="1">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Pose.idl</label>
+        <link refid="_pose_8idl"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classidl__msg_1_1_pose" prot="public">idl_msg::Pose</innerclass>
+    <innernamespace refid="namespaceidl__msg">idl_msg</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;EulerAngleZYX.idl&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Header.idl&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Position.idl&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Quaternion.idl&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">module<sp/>idl_msg{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">Pose<sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="classidl__msg_1_1_pose_1a15fbdead8ee013eb2ff9d6aa37cb7f7e" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="classidl__msg_1_1_header" kindref="compound">Header</ref><sp/><ref refid="classidl__msg_1_1_pose_1a15fbdead8ee013eb2ff9d6aa37cb7f7e" kindref="member">header</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="classidl__msg_1_1_pose_1ab599d467ba815d888549516b0d7a4a8f" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="classidl__msg_1_1_position" kindref="compound">Position</ref><sp/><ref refid="classidl__msg_1_1_pose_1ab599d467ba815d888549516b0d7a4a8f" kindref="member">position</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="classidl__msg_1_1_pose_1a7162f30d8a38af97f98cee55d9939b86" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="classidl__msg_1_1_euler_angle_z_y_x" kindref="compound">EulerAngleZYX</ref><sp/><ref refid="classidl__msg_1_1_pose_1a7162f30d8a38af97f98cee55d9939b86" kindref="member">orientation_euler</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="classidl__msg_1_1_pose_1afeaead3bfde01aba1a48ff848c1f7927" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="classidl__msg_1_1_quaternion" kindref="compound">Quaternion</ref><sp/><ref refid="classidl__msg_1_1_pose_1afeaead3bfde01aba1a48ff848c1f7927" kindref="member">orientation_quat</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Pose.idl"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_0b3af3905bda63c38408dc431c7b9ad1" kind="dir">
+    <compoundname>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs</compoundname>
+    <innerdir refid="dir_8fb99055a664a6883e7249c79b80fdd7">/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/actuator_msgs</innerdir>
+    <innerdir refid="dir_b69186ad431fcbd5faffe609b17efbd8">/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs</innerdir>
+    <innerdir refid="dir_62a561fb4f32495c252230ce2db4fa23">/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/sensor_msgs</innerdir>
+    <innerdir refid="dir_8253cf162ec821ef3112e63c02e404ca">/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/std_msgs</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_euler_angle_z_y_x_8idl" kind="file" language="IDL">
+    <compoundname>EulerAngleZYX.idl</compoundname>
+    <includedby refid="_pose_8idl" local="yes">/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Pose.idl</includedby>
+    <invincdepgraph>
+      <node id="1">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/EulerAngleZYX.idl</label>
+        <link refid="_euler_angle_z_y_x_8idl"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Mocap.idl</label>
+        <link refid="_mocap_8idl_source"/>
+      </node>
+      <node id="2">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Pose.idl</label>
+        <link refid="_pose_8idl_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classidl__msg_1_1_euler_angle_z_y_x" prot="public">idl_msg::EulerAngleZYX</innerclass>
+    <innernamespace refid="namespaceidl__msg">idl_msg</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">module<sp/>idl_msg{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">EulerAngleZYX<sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="classidl__msg_1_1_euler_angle_z_y_x_1ad734ad48d945f264a8d064c6480c81eb" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_euler_angle_z_y_x_1ad734ad48d945f264a8d064c6480c81eb" kindref="member">roll</ref>;</highlight></codeline>
+<codeline lineno="8" refid="classidl__msg_1_1_euler_angle_z_y_x_1a082d4575c2e6fd4974e59077c42d80bb" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_euler_angle_z_y_x_1a082d4575c2e6fd4974e59077c42d80bb" kindref="member">pitch</ref>;</highlight></codeline>
+<codeline lineno="9" refid="classidl__msg_1_1_euler_angle_z_y_x_1a7ab43f2dc5934dfe73a93d5eba40c3eb" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_euler_angle_z_y_x_1a7ab43f2dc5934dfe73a93d5eba40c3eb" kindref="member">yaw</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/EulerAngleZYX.idl"/>
+  </compounddef>
+</doxygen>

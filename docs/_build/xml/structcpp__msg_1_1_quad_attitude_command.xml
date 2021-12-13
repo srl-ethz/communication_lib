@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structcpp__msg_1_1_quad_attitude_command" kind="struct" language="C++" prot="public">
+    <compoundname>cpp_msg::QuadAttitudeCommand</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcpp__msg_1_1_quad_attitude_command_1a00a6863ccce914115df44392b473db13" prot="public" static="no" mutable="no">
+        <type><ref refid="structcpp__msg_1_1_header" kindref="compound">Header</ref></type>
+        <definition>Header cpp_msg::QuadAttitudeCommand::header</definition>
+        <argsstring></argsstring>
+        <name>header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadAttitudeCommand.h" line="8" column="10" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadAttitudeCommand.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcpp__msg_1_1_quad_attitude_command_1a5e2ea6e8eaeba73a8a8ca13f24c4aba4" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float cpp_msg::QuadAttitudeCommand::thrust</definition>
+        <argsstring></argsstring>
+        <name>thrust</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadAttitudeCommand.h" line="10" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadAttitudeCommand.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcpp__msg_1_1_quad_attitude_command_1a74235c136619d7a572bd198e5eaad87e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float cpp_msg::QuadAttitudeCommand::roll</definition>
+        <argsstring></argsstring>
+        <name>roll</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadAttitudeCommand.h" line="11" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadAttitudeCommand.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcpp__msg_1_1_quad_attitude_command_1a8e48128508e44f649cdf3d021b6e81f2" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float cpp_msg::QuadAttitudeCommand::pitch</definition>
+        <argsstring></argsstring>
+        <name>pitch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadAttitudeCommand.h" line="12" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadAttitudeCommand.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcpp__msg_1_1_quad_attitude_command_1a9eddc52267c64a2286d3c8d0927ea541" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float cpp_msg::QuadAttitudeCommand::yaw</definition>
+        <argsstring></argsstring>
+        <name>yaw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadAttitudeCommand.h" line="13" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadAttitudeCommand.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>cpp_msg::Header</label>
+        <link refid="structcpp__msg_1_1_header"/>
+      </node>
+      <node id="1">
+        <label>cpp_msg::QuadAttitudeCommand</label>
+        <link refid="structcpp__msg_1_1_quad_attitude_command"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>header</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadAttitudeCommand.h" line="6" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadAttitudeCommand.h" bodystart="6" bodyend="14"/>
+    <listofallmembers>
+      <member refid="structcpp__msg_1_1_quad_attitude_command_1a00a6863ccce914115df44392b473db13" prot="public" virt="non-virtual"><scope>cpp_msg::QuadAttitudeCommand</scope><name>header</name></member>
+      <member refid="structcpp__msg_1_1_quad_attitude_command_1a8e48128508e44f649cdf3d021b6e81f2" prot="public" virt="non-virtual"><scope>cpp_msg::QuadAttitudeCommand</scope><name>pitch</name></member>
+      <member refid="structcpp__msg_1_1_quad_attitude_command_1a74235c136619d7a572bd198e5eaad87e" prot="public" virt="non-virtual"><scope>cpp_msg::QuadAttitudeCommand</scope><name>roll</name></member>
+      <member refid="structcpp__msg_1_1_quad_attitude_command_1a5e2ea6e8eaeba73a8a8ca13f24c4aba4" prot="public" virt="non-virtual"><scope>cpp_msg::QuadAttitudeCommand</scope><name>thrust</name></member>
+      <member refid="structcpp__msg_1_1_quad_attitude_command_1a9eddc52267c64a2286d3c8d0927ea541" prot="public" virt="non-virtual"><scope>cpp_msg::QuadAttitudeCommand</scope><name>yaw</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

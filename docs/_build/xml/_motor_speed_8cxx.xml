@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="_motor_speed_8cxx" kind="file" language="C++">
     <compoundname>MotorSpeed.cxx</compoundname>
-    <includes refid="_motor_speed_8h" local="yes">MotorSpeed.h</includes>
+    <includes refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_motor_speed_8h" local="yes">MotorSpeed.h</includes>
     <includes local="no">fastcdr/Cdr.h</includes>
     <includes local="no">fastcdr/exceptions/BadParamException.h</includes>
     <includes local="no">utility</includes>
@@ -21,7 +21,7 @@
       </node>
       <node id="2">
         <label>MotorSpeed.h</label>
-        <link refid="_motor_speed_8h"/>
+        <link refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_motor_speed_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
@@ -89,7 +89,7 @@
 <codeline lineno="26"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>_WIN32</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_motor_speed_8h" kindref="compound">MotorSpeed.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MotorSpeed.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fastcdr/Cdr.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fastcdr/exceptions/BadParamException.h&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -179,18 +179,18 @@
 <codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>dcdr<sp/>&gt;&gt;<sp/>m_motor_speed;</highlight></codeline>
 <codeline lineno="117"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="118"><highlight class="normal"></highlight></codeline>
-<codeline lineno="123"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_motor_speed_1a0ff870242750e23a10973d2ae3564c3e" kindref="member">idl_msg::MotorSpeed::motor_speed</ref>(</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_motor_speed_1a19f3e1874c658ea522ae17e946096424" kindref="member">idl_msg::MotorSpeed::motor_speed</ref>(</highlight></codeline>
 <codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_motor_speed)</highlight></codeline>
 <codeline lineno="125"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>m_motor_speed<sp/>=<sp/>_motor_speed;</highlight></codeline>
 <codeline lineno="127"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="128"><highlight class="normal"></highlight></codeline>
-<codeline lineno="133"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_motor_speed_1a0ff870242750e23a10973d2ae3564c3e" kindref="member">idl_msg::MotorSpeed::motor_speed</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_motor_speed_1a19f3e1874c658ea522ae17e946096424" kindref="member">idl_msg::MotorSpeed::motor_speed</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="134"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_motor_speed;</highlight></codeline>
 <codeline lineno="136"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="137"><highlight class="normal"></highlight></codeline>
-<codeline lineno="142"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&amp;<sp/><ref refid="classidl__msg_1_1_motor_speed_1a0ff870242750e23a10973d2ae3564c3e" kindref="member">idl_msg::MotorSpeed::motor_speed</ref>()</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&amp;<sp/><ref refid="classidl__msg_1_1_motor_speed_1a19f3e1874c658ea522ae17e946096424" kindref="member">idl_msg::MotorSpeed::motor_speed</ref>()</highlight></codeline>
 <codeline lineno="143"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_motor_speed;</highlight></codeline>
 <codeline lineno="145"><highlight class="normal">}</highlight></codeline>

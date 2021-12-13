@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_thrust_torque_command_8idl" kind="file" language="IDL">
+    <compoundname>ThrustTorqueCommand.idl</compoundname>
+    <includes refid="_header_8idl" local="yes">Header.idl</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>Header.idl</label>
+        <link refid="_header_8idl_source"/>
+      </node>
+      <node id="1">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/ThrustTorqueCommand.idl</label>
+        <link refid="_thrust_torque_command_8idl"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classidl__msg_1_1_thrust_torque_command" prot="public">idl_msg::ThrustTorqueCommand</innerclass>
+    <innernamespace refid="namespaceidl__msg">idl_msg</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Header.idl&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">module<sp/>idl_msg{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">ThrustTorqueCommand<sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="classidl__msg_1_1_thrust_torque_command_1a3dd0ea22b364bd03f863448441fd0d14" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="classidl__msg_1_1_header" kindref="compound">Header</ref><sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1a3dd0ea22b364bd03f863448441fd0d14" kindref="member">header</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="classidl__msg_1_1_thrust_torque_command_1af72d7db4228347977f0d63884c92e4d4" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1af72d7db4228347977f0d63884c92e4d4" kindref="member">thrust</ref>;</highlight></codeline>
+<codeline lineno="11" refid="classidl__msg_1_1_thrust_torque_command_1a33d13c0104604e2eb7b32ee6ccf73206" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1a33d13c0104604e2eb7b32ee6ccf73206" kindref="member">roll_torque</ref>;</highlight></codeline>
+<codeline lineno="12" refid="classidl__msg_1_1_thrust_torque_command_1af95b42052c305d5022e6aef953966dbd" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1af95b42052c305d5022e6aef953966dbd" kindref="member">pitch_torque</ref>;</highlight></codeline>
+<codeline lineno="13" refid="classidl__msg_1_1_thrust_torque_command_1a89810243c244e521d0e2721fba7c6c84" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1a89810243c244e521d0e2721fba7c6c84" kindref="member">yaw_torque</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/ThrustTorqueCommand.idl"/>
+  </compounddef>
+</doxygen>

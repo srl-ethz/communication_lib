@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="_euler_angle_z_y_x_8cxx" kind="file" language="C++">
     <compoundname>EulerAngleZYX.cxx</compoundname>
-    <includes refid="_euler_angle_z_y_x_8h" local="yes">EulerAngleZYX.h</includes>
+    <includes refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_euler_angle_z_y_x_8h" local="yes">EulerAngleZYX.h</includes>
     <includes local="no">fastcdr/Cdr.h</includes>
     <includes local="no">fastcdr/exceptions/BadParamException.h</includes>
     <includes local="no">utility</includes>
@@ -21,7 +21,7 @@
       </node>
       <node id="2">
         <label>EulerAngleZYX.h</label>
-        <link refid="_euler_angle_z_y_x_8h"/>
+        <link refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_euler_angle_z_y_x_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
@@ -90,7 +90,7 @@
 <codeline lineno="26"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>_WIN32</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_euler_angle_z_y_x_8h" kindref="compound">EulerAngleZYX.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;EulerAngleZYX.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fastcdr/Cdr.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fastcdr/exceptions/BadParamException.h&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -213,50 +213,50 @@
 <codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>dcdr<sp/>&gt;&gt;<sp/>m_yaw;</highlight></codeline>
 <codeline lineno="150"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="151"><highlight class="normal"></highlight></codeline>
-<codeline lineno="156"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_euler_angle_z_y_x_1a802e0cbd73ef4a562cbf86a26ca9c886" kindref="member">idl_msg::EulerAngleZYX::roll</ref>(</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_euler_angle_z_y_x_1ad734ad48d945f264a8d064c6480c81eb" kindref="member">idl_msg::EulerAngleZYX::roll</ref>(</highlight></codeline>
 <codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_roll)</highlight></codeline>
 <codeline lineno="158"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>m_roll<sp/>=<sp/>_roll;</highlight></codeline>
 <codeline lineno="160"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="161"><highlight class="normal"></highlight></codeline>
-<codeline lineno="166"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_euler_angle_z_y_x_1a802e0cbd73ef4a562cbf86a26ca9c886" kindref="member">idl_msg::EulerAngleZYX::roll</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_euler_angle_z_y_x_1ad734ad48d945f264a8d064c6480c81eb" kindref="member">idl_msg::EulerAngleZYX::roll</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="167"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_roll;</highlight></codeline>
 <codeline lineno="169"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="170"><highlight class="normal"></highlight></codeline>
-<codeline lineno="175"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&amp;<sp/><ref refid="classidl__msg_1_1_euler_angle_z_y_x_1a802e0cbd73ef4a562cbf86a26ca9c886" kindref="member">idl_msg::EulerAngleZYX::roll</ref>()</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&amp;<sp/><ref refid="classidl__msg_1_1_euler_angle_z_y_x_1ad734ad48d945f264a8d064c6480c81eb" kindref="member">idl_msg::EulerAngleZYX::roll</ref>()</highlight></codeline>
 <codeline lineno="176"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_roll;</highlight></codeline>
 <codeline lineno="178"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="179"><highlight class="normal"></highlight></codeline>
-<codeline lineno="184"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_euler_angle_z_y_x_1a9238d2cd23ad6da403d829d8dd99614b" kindref="member">idl_msg::EulerAngleZYX::pitch</ref>(</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_euler_angle_z_y_x_1a082d4575c2e6fd4974e59077c42d80bb" kindref="member">idl_msg::EulerAngleZYX::pitch</ref>(</highlight></codeline>
 <codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_pitch)</highlight></codeline>
 <codeline lineno="186"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pitch<sp/>=<sp/>_pitch;</highlight></codeline>
 <codeline lineno="188"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="189"><highlight class="normal"></highlight></codeline>
-<codeline lineno="194"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_euler_angle_z_y_x_1a9238d2cd23ad6da403d829d8dd99614b" kindref="member">idl_msg::EulerAngleZYX::pitch</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_euler_angle_z_y_x_1a082d4575c2e6fd4974e59077c42d80bb" kindref="member">idl_msg::EulerAngleZYX::pitch</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="195"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_pitch;</highlight></codeline>
 <codeline lineno="197"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="198"><highlight class="normal"></highlight></codeline>
-<codeline lineno="203"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&amp;<sp/><ref refid="classidl__msg_1_1_euler_angle_z_y_x_1a9238d2cd23ad6da403d829d8dd99614b" kindref="member">idl_msg::EulerAngleZYX::pitch</ref>()</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&amp;<sp/><ref refid="classidl__msg_1_1_euler_angle_z_y_x_1a082d4575c2e6fd4974e59077c42d80bb" kindref="member">idl_msg::EulerAngleZYX::pitch</ref>()</highlight></codeline>
 <codeline lineno="204"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_pitch;</highlight></codeline>
 <codeline lineno="206"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="207"><highlight class="normal"></highlight></codeline>
-<codeline lineno="212"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_euler_angle_z_y_x_1a2bc740f4f0ed8bf67d100e040289fca6" kindref="member">idl_msg::EulerAngleZYX::yaw</ref>(</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_euler_angle_z_y_x_1a7ab43f2dc5934dfe73a93d5eba40c3eb" kindref="member">idl_msg::EulerAngleZYX::yaw</ref>(</highlight></codeline>
 <codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_yaw)</highlight></codeline>
 <codeline lineno="214"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/>m_yaw<sp/>=<sp/>_yaw;</highlight></codeline>
 <codeline lineno="216"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="217"><highlight class="normal"></highlight></codeline>
-<codeline lineno="222"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_euler_angle_z_y_x_1a2bc740f4f0ed8bf67d100e040289fca6" kindref="member">idl_msg::EulerAngleZYX::yaw</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_euler_angle_z_y_x_1a7ab43f2dc5934dfe73a93d5eba40c3eb" kindref="member">idl_msg::EulerAngleZYX::yaw</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="223"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_yaw;</highlight></codeline>
 <codeline lineno="225"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="226"><highlight class="normal"></highlight></codeline>
-<codeline lineno="231"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&amp;<sp/><ref refid="classidl__msg_1_1_euler_angle_z_y_x_1a2bc740f4f0ed8bf67d100e040289fca6" kindref="member">idl_msg::EulerAngleZYX::yaw</ref>()</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&amp;<sp/><ref refid="classidl__msg_1_1_euler_angle_z_y_x_1a7ab43f2dc5934dfe73a93d5eba40c3eb" kindref="member">idl_msg::EulerAngleZYX::yaw</ref>()</highlight></codeline>
 <codeline lineno="232"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_yaw;</highlight></codeline>
 <codeline lineno="234"><highlight class="normal">}</highlight></codeline>

@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="msgs__lib_2cpp__msgs_2basic__msgs_2std__msgs_2msgs_2_header_8h" kind="file" language="C++">
+    <compoundname>Header.h</compoundname>
+    <includes local="no">string</includes>
+    <includedby refid="msgs__lib_2cpp__msgs_2basic__msgs_2geometry__msgs_2msgs_2_pose_8h" local="yes">/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs/msgs/Pose.h</includedby>
+    <includedby refid="msgs__lib_2cpp__msgs_2basic__msgs_2sensor__msgs_2msgs_2_image1080p_8h" local="yes">/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/sensor_msgs/msgs/Image1080p.h</includedby>
+    <includedby refid="msgs__lib_2cpp__msgs_2basic__msgs_2sensor__msgs_2msgs_2_image720p_8h" local="yes">/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/sensor_msgs/msgs/Image720p.h</includedby>
+    <includedby refid="msgs__lib_2cpp__msgs_2basic__msgs_2sensor__msgs_2msgs_2_mocap_8h" local="yes">/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/sensor_msgs/msgs/Mocap.h</includedby>
+    <includedby refid="msgs__lib_2cpp__msgs_2robot__msgs_2quadcopter__msgs_2msgs_2_quad_attitude_command_8h" local="yes">/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadAttitudeCommand.h</includedby>
+    <includedby refid="msgs__lib_2cpp__msgs_2robot__msgs_2quadcopter__msgs_2msgs_2_quad_attitude_rate_command_8h" local="yes">/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadAttitudeRateCommand.h</includedby>
+    <includedby refid="msgs__lib_2cpp__msgs_2robot__msgs_2quadcopter__msgs_2msgs_2_quad_motor_command_8h" local="yes">/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadMotorCommand.h</includedby>
+    <includedby refid="msgs__lib_2cpp__msgs_2robot__msgs_2quadcopter__msgs_2msgs_2_quad_position_cmd_8h" local="yes">/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadPositionCmd.h</includedby>
+    <includedby refid="msgs__lib_2cpp__msgs_2robot__msgs_2quadcopter__msgs_2msgs_2_quad_velocity_cmd_8h" local="yes">/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadVelocityCmd.h</includedby>
+    <includedby refid="msgs__lib_2cpp__msgs_2robot__msgs_2quadcopter__msgs_2msgs_2_thrust_torque_command_8h" local="yes">/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/ThrustTorqueCommand.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/std_msgs/msgs/Header.h</label>
+        <link refid="msgs__lib_2cpp__msgs_2basic__msgs_2std__msgs_2msgs_2_header_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>string</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs/msgs/Pose.h</label>
+        <link refid="msgs__lib_2cpp__msgs_2basic__msgs_2geometry__msgs_2msgs_2_pose_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/sensor_msgs/msgs/Image1080p.h</label>
+        <link refid="msgs__lib_2cpp__msgs_2basic__msgs_2sensor__msgs_2msgs_2_image1080p_8h_source"/>
+      </node>
+      <node id="5">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/sensor_msgs/msgs/Image720p.h</label>
+        <link refid="msgs__lib_2cpp__msgs_2basic__msgs_2sensor__msgs_2msgs_2_image720p_8h_source"/>
+      </node>
+      <node id="3">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/sensor_msgs/msgs/Mocap.h</label>
+        <link refid="msgs__lib_2cpp__msgs_2basic__msgs_2sensor__msgs_2msgs_2_mocap_8h_source"/>
+      </node>
+      <node id="1">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/std_msgs/msgs/Header.h</label>
+        <link refid="msgs__lib_2cpp__msgs_2basic__msgs_2std__msgs_2msgs_2_header_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadAttitudeCommand.h</label>
+        <link refid="msgs__lib_2cpp__msgs_2robot__msgs_2quadcopter__msgs_2msgs_2_quad_attitude_command_8h_source"/>
+      </node>
+      <node id="7">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadAttitudeRateCommand.h</label>
+        <link refid="msgs__lib_2cpp__msgs_2robot__msgs_2quadcopter__msgs_2msgs_2_quad_attitude_rate_command_8h_source"/>
+      </node>
+      <node id="8">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadMotorCommand.h</label>
+        <link refid="msgs__lib_2cpp__msgs_2robot__msgs_2quadcopter__msgs_2msgs_2_quad_motor_command_8h_source"/>
+      </node>
+      <node id="9">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadPositionCmd.h</label>
+        <link refid="msgs__lib_2cpp__msgs_2robot__msgs_2quadcopter__msgs_2msgs_2_quad_position_cmd_8h_source"/>
+      </node>
+      <node id="10">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadVelocityCmd.h</label>
+        <link refid="msgs__lib_2cpp__msgs_2robot__msgs_2quadcopter__msgs_2msgs_2_quad_velocity_cmd_8h_source"/>
+      </node>
+      <node id="11">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/ThrustTorqueCommand.h</label>
+        <link refid="msgs__lib_2cpp__msgs_2robot__msgs_2quadcopter__msgs_2msgs_2_thrust_torque_command_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structcpp__msg_1_1_header" prot="public">cpp_msg::Header</innerclass>
+    <innernamespace refid="namespacecpp__msg">cpp_msg</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">cpp_msg<sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="structcpp__msg_1_1_header" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structcpp__msg_1_1_header" kindref="compound">Header</ref><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>timestamp;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/>std::string<sp/>id;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>cpp_msg</highlight></codeline>
+    </programlisting>
+    <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/std_msgs/msgs/Header.h"/>
+  </compounddef>
+</doxygen>

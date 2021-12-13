@@ -42,4 +42,5 @@ A DDS based middleware for Robotics
    Domain Participant <contents/full_reference/domain_participant>
    Publisher <contents/full_reference/publisher>
    Subscriber <contents/full_reference/subscriber>
+   Messages <contents/full_reference/messages_list>
    

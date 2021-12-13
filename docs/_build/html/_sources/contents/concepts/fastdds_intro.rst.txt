@@ -13,7 +13,7 @@ DDS Standard. The features include:
 
 * **Ease of use:** An easy-to-use API and message library similar to ROS1. Can be easily integrated into third party software such as game engines and GUI frameworks.
 
-* **Low footprint:**: light package size and minimal set of dependencies 
+* **Low footprint:** Light package size and minimal set of dependencies 
 
 Supported devices
 =====================

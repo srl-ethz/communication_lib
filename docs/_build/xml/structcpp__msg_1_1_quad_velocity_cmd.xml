@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structcpp__msg_1_1_quad_velocity_cmd" kind="struct" language="C++" prot="public">
+    <compoundname>cpp_msg::QuadVelocityCmd</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcpp__msg_1_1_quad_velocity_cmd_1acb4eac75247a462706207e9adac62895" prot="public" static="no" mutable="no">
+        <type><ref refid="structcpp__msg_1_1_header" kindref="compound">Header</ref></type>
+        <definition>Header cpp_msg::QuadVelocityCmd::header</definition>
+        <argsstring></argsstring>
+        <name>header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadVelocityCmd.h" line="9" column="10" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadVelocityCmd.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcpp__msg_1_1_quad_velocity_cmd_1a5b63bbe2ad74400b7ac2c8768c415e2f" prot="public" static="no" mutable="no">
+        <type><ref refid="structcpp__msg_1_1_velocity" kindref="compound">Velocity</ref></type>
+        <definition>Velocity cpp_msg::QuadVelocityCmd::velocity</definition>
+        <argsstring></argsstring>
+        <name>velocity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadVelocityCmd.h" line="11" column="12" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadVelocityCmd.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcpp__msg_1_1_quad_velocity_cmd_1a6096efa9eaf74b7c27e0a9c520c970f3" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float cpp_msg::QuadVelocityCmd::yaw_angle</definition>
+        <argsstring></argsstring>
+        <name>yaw_angle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadVelocityCmd.h" line="13" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadVelocityCmd.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>cpp_msg::Header</label>
+        <link refid="structcpp__msg_1_1_header"/>
+      </node>
+      <node id="1">
+        <label>cpp_msg::QuadVelocityCmd</label>
+        <link refid="structcpp__msg_1_1_quad_velocity_cmd"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>header</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>velocity</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>cpp_msg::Velocity</label>
+        <link refid="structcpp__msg_1_1_velocity"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadVelocityCmd.h" line="7" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadVelocityCmd.h" bodystart="7" bodyend="14"/>
+    <listofallmembers>
+      <member refid="structcpp__msg_1_1_quad_velocity_cmd_1acb4eac75247a462706207e9adac62895" prot="public" virt="non-virtual"><scope>cpp_msg::QuadVelocityCmd</scope><name>header</name></member>
+      <member refid="structcpp__msg_1_1_quad_velocity_cmd_1a5b63bbe2ad74400b7ac2c8768c415e2f" prot="public" virt="non-virtual"><scope>cpp_msg::QuadVelocityCmd</scope><name>velocity</name></member>
+      <member refid="structcpp__msg_1_1_quad_velocity_cmd_1a6096efa9eaf74b7c27e0a9c520c970f3" prot="public" virt="non-virtual"><scope>cpp_msg::QuadVelocityCmd</scope><name>yaw_angle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

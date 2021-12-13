@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_b69186ad431fcbd5faffe609b17efbd8" kind="dir">
+    <compoundname>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs</compoundname>
+    <innerdir refid="dir_9d49819a77752212b9b58e24cf80bad2">/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs/msgs</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs/"/>
+  </compounddef>
+</doxygen>

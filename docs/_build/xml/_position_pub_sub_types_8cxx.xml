@@ -8,7 +8,7 @@
     <incdepgraph>
       <node id="7">
         <label>Position.h</label>
-        <link refid="_position_8h"/>
+        <link refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_position_8h"/>
         <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="9" relation="include">

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_9f37636919940b5cd6744e4fa357816c" kind="dir">
+    <compoundname>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs</compoundname>
+    <innerfile refid="_euler_angle_z_y_x_8idl">EulerAngleZYX.idl</innerfile>
+    <innerfile refid="_header_8idl">Header.idl</innerfile>
+    <innerfile refid="_image1080p_8idl">Image1080p.idl</innerfile>
+    <innerfile refid="_image720p_8idl">Image720p.idl</innerfile>
+    <innerfile refid="_mocap_8idl">Mocap.idl</innerfile>
+    <innerfile refid="_motor_speed_8idl">MotorSpeed.idl</innerfile>
+    <innerfile refid="_pose_8idl">Pose.idl</innerfile>
+    <innerfile refid="_position_8idl">Position.idl</innerfile>
+    <innerfile refid="_quad_action_cmd_8idl">QuadActionCmd.idl</innerfile>
+    <innerfile refid="_quad_attitude_command_8idl">QuadAttitudeCommand.idl</innerfile>
+    <innerfile refid="_quad_attitude_rate_command_8idl">QuadAttitudeRateCommand.idl</innerfile>
+    <innerfile refid="_quad_motor_command_8idl">QuadMotorCommand.idl</innerfile>
+    <innerfile refid="_quad_position_cmd_8idl">QuadPositionCmd.idl</innerfile>
+    <innerfile refid="_quad_velocity_cmd_8idl">QuadVelocityCmd.idl</innerfile>
+    <innerfile refid="_quaternion_8idl">Quaternion.idl</innerfile>
+    <innerfile refid="_thrust_torque_command_8idl">ThrustTorqueCommand.idl</innerfile>
+    <innerfile refid="_velocity_8idl">Velocity.idl</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/"/>
+  </compounddef>
+</doxygen>

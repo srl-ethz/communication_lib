@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
-  <compounddef id="classidl__msg_1_1_image720p" kind="class" language="C++" prot="public">
+  <compounddef id="classidl__msg_1_1_image720p" kind="struct" language="C++" prot="public">
     <compoundname>idl_msg::Image720p</compoundname>
-    <includes refid="_image720p_8h" local="no">Image720p.h</includes>
+    <includes refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_image720p_8h" local="no">Image720p.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classidl__msg_1_1_image720p_1aef5920a07d651cecf1a36bf8e4dd7b0f" prot="private" static="no" mutable="no">
         <type><ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref></type>
@@ -29,6 +29,86 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image720p.h" line="223" column="20" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image720p.h" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classidl__msg_1_1_image720p_1a066b2de38bc83aa1fe2e3483dde0c979" prot="public" static="no" mutable="no">
+        <type><ref refid="classidl__msg_1_1_header" kindref="compound">Header</ref></type>
+        <definition>idl_msg::Header &amp; idl_msg::Image720p::header</definition>
+        <argsstring></argsstring>
+        <name>header</name>
+        <briefdescription>
+<para>This function copies the value in member header. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns a reference to member header.</para>
+<para>This function returns a constant reference to member header.</para>
+<para>This function moves the value in member header.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_header</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member header</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_header</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member header</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Constant reference to member header</para>
+</simplesect>
+<simplesect kind="return"><para>Reference to member header </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Image720p.idl" line="9" column="10" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Image720p.idl" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classidl__msg_1_1_image720p_1a7c6747706e43bda6c9904e46600d762b" prot="public" static="no" mutable="no">
+        <type>octet</type>
+        <definition>std::array&lt; uint8_t, 1280 *720 *3 &gt; &amp; idl_msg::Image720p::frame</definition>
+        <argsstring>[1280 *720 *3]</argsstring>
+        <name>frame</name>
+        <briefdescription>
+<para>This function copies the value in member frame. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns a reference to member frame.</para>
+<para>This function returns a constant reference to member frame.</para>
+<para>This function moves the value in member frame.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_frame</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member frame</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_frame</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member frame</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Constant reference to member frame</para>
+</simplesect>
+<simplesect kind="return"><para>Reference to member frame </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Image720p.idl" line="11" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Image720p.idl" bodystart="11" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -172,9 +252,9 @@
         </inbodydescription>
         <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image720p.h" line="109" column="43" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image720p.cxx" bodystart="76" bodyend="84"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_image720p_1aa1d673f95817c2c792c0f317bf179397" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_image720p_1ab816183770a49f5114935a55c8279629" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::Image720p::header</definition>
+        <definition>eProsima_user_DllExport void idl_msg::Image720p::header</definition>
         <argsstring>(const idl_msg::Header &amp;_header)</argsstring>
         <name>header</name>
         <param>
@@ -198,11 +278,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image720p.h" line="116" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image720p.cxx" bodystart="141" bodyend="145"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image720p.h" line="116" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_image720p_1a53b3f34d9126336ee7270639a2050e86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_image720p_1a810c5bf321b3672f56342603d47f696c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::Image720p::header</definition>
+        <definition>eProsima_user_DllExport void idl_msg::Image720p::header</definition>
         <argsstring>(idl_msg::Header &amp;&amp;_header)</argsstring>
         <name>header</name>
         <param>
@@ -226,11 +306,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image720p.h" line="123" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image720p.cxx" bodystart="151" bodyend="155"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image720p.h" line="123" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_image720p_1a33682062e9a9ef4ec8b97e36e0542179" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_image720p_1ad47750c856ef40d6519fd6a1544e82e3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport const <ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref> &amp;</type>
-        <definition>const idl_msg::Header &amp; idl_msg::Image720p::header</definition>
+        <definition>eProsima_user_DllExport const idl_msg::Header &amp; idl_msg::Image720p::header</definition>
         <argsstring>() const</argsstring>
         <name>header</name>
         <briefdescription>
@@ -243,11 +323,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image720p.h" line="130" column="55" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image720p.cxx" bodystart="161" bodyend="164"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image720p.h" line="130" column="55"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_image720p_1a7cb11448281ec8fa5db910e21e3f432a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_image720p_1a4007d9440ec307418d31bc6b0fe835fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport <ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref> &amp;</type>
-        <definition>idl_msg::Header &amp; idl_msg::Image720p::header</definition>
+        <definition>eProsima_user_DllExport idl_msg::Header &amp; idl_msg::Image720p::header</definition>
         <argsstring>()</argsstring>
         <name>header</name>
         <briefdescription>
@@ -260,11 +340,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image720p.h" line="136" column="49" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image720p.cxx" bodystart="170" bodyend="173"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image720p.h" line="136" column="49"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_image720p_1ae7fe703d72ea4b49fda41be2fc521f24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_image720p_1abca8011ea5c1f72209c92b7ccbd2c303" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::Image720p::frame</definition>
+        <definition>eProsima_user_DllExport void idl_msg::Image720p::frame</definition>
         <argsstring>(const std::array&lt; uint8_t, 1280 *720 *3 &gt; &amp;_frame)</argsstring>
         <name>frame</name>
         <param>
@@ -288,11 +368,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image720p.h" line="141" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image720p.cxx" bodystart="178" bodyend="182"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image720p.h" line="141" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_image720p_1ad6085d38b8eb34de85adcbf6c8cbe156" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_image720p_1a06c058090cac0a7a45ce8a593556ee5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::Image720p::frame</definition>
+        <definition>eProsima_user_DllExport void idl_msg::Image720p::frame</definition>
         <argsstring>(std::array&lt; uint8_t, 1280 *720 *3 &gt; &amp;&amp;_frame)</argsstring>
         <name>frame</name>
         <param>
@@ -316,11 +396,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image720p.h" line="148" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image720p.cxx" bodystart="188" bodyend="192"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image720p.h" line="148" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_image720p_1a65650b896a06e18afd88262ffa9fe727" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_image720p_1a3b4a73c03b1fd9bac50258fcd8b5bfb7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport const std::array&lt; uint8_t, 1280 *720 *3 &gt; &amp;</type>
-        <definition>const std::array&lt; uint8_t, 1280 *720 *3 &gt; &amp; idl_msg::Image720p::frame</definition>
+        <definition>eProsima_user_DllExport const std::array&lt; uint8_t, 1280 *720 *3 &gt; &amp; idl_msg::Image720p::frame</definition>
         <argsstring>() const</argsstring>
         <name>frame</name>
         <briefdescription>
@@ -333,11 +413,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image720p.h" line="155" column="50" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image720p.cxx" bodystart="198" bodyend="201"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image720p.h" line="155" column="50"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_image720p_1a7fcc10e148ba70dada6252aef9d5db6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_image720p_1ad19211ff9dd0531c9987b115f04dc023" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport std::array&lt; uint8_t, 1280 *720 *3 &gt; &amp;</type>
-        <definition>std::array&lt; uint8_t, 1280 *720 *3 &gt; &amp; idl_msg::Image720p::frame</definition>
+        <definition>eProsima_user_DllExport std::array&lt; uint8_t, 1280 *720 *3 &gt; &amp; idl_msg::Image720p::frame</definition>
         <argsstring>()</argsstring>
         <name>frame</name>
         <briefdescription>
@@ -350,7 +430,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image720p.h" line="161" column="44" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image720p.cxx" bodystart="207" bodyend="210"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image720p.h" line="161" column="44"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_image720p_1a2e7e011711d7f65cf0f3334eab7c14b7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
@@ -563,20 +643,35 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>idl_msg::Header</label>
+        <link refid="classidl__msg_1_1_header"/>
+      </node>
+      <node id="1">
+        <label>idl_msg::Image720p</label>
+        <link refid="classidl__msg_1_1_image720p"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>header</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
     <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image720p.h" line="70" column="5" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image720p.h" bodystart="71" bodyend="224"/>
     <listofallmembers>
       <member refid="classidl__msg_1_1_image720p_1ac1122bc455e33f8a7ef67874639d8121" prot="public" virt="non-virtual"><scope>idl_msg::Image720p</scope><name>deserialize</name></member>
-      <member refid="classidl__msg_1_1_image720p_1ae7fe703d72ea4b49fda41be2fc521f24" prot="public" virt="non-virtual"><scope>idl_msg::Image720p</scope><name>frame</name></member>
-      <member refid="classidl__msg_1_1_image720p_1ad6085d38b8eb34de85adcbf6c8cbe156" prot="public" virt="non-virtual"><scope>idl_msg::Image720p</scope><name>frame</name></member>
-      <member refid="classidl__msg_1_1_image720p_1a65650b896a06e18afd88262ffa9fe727" prot="public" virt="non-virtual"><scope>idl_msg::Image720p</scope><name>frame</name></member>
-      <member refid="classidl__msg_1_1_image720p_1a7fcc10e148ba70dada6252aef9d5db6e" prot="public" virt="non-virtual"><scope>idl_msg::Image720p</scope><name>frame</name></member>
+      <member refid="classidl__msg_1_1_image720p_1a7c6747706e43bda6c9904e46600d762b" prot="public" virt="non-virtual"><scope>idl_msg::Image720p</scope><name>frame</name></member>
+      <member refid="classidl__msg_1_1_image720p_1abca8011ea5c1f72209c92b7ccbd2c303" prot="public" virt="non-virtual"><scope>idl_msg::Image720p</scope><name>frame</name></member>
+      <member refid="classidl__msg_1_1_image720p_1a06c058090cac0a7a45ce8a593556ee5d" prot="public" virt="non-virtual"><scope>idl_msg::Image720p</scope><name>frame</name></member>
+      <member refid="classidl__msg_1_1_image720p_1a3b4a73c03b1fd9bac50258fcd8b5bfb7" prot="public" virt="non-virtual"><scope>idl_msg::Image720p</scope><name>frame</name></member>
+      <member refid="classidl__msg_1_1_image720p_1ad19211ff9dd0531c9987b115f04dc023" prot="public" virt="non-virtual"><scope>idl_msg::Image720p</scope><name>frame</name></member>
       <member refid="classidl__msg_1_1_image720p_1aaaef3dc21a0ac7b20e1014f5b5357fbf" prot="public" virt="non-virtual"><scope>idl_msg::Image720p</scope><name>getCdrSerializedSize</name></member>
       <member refid="classidl__msg_1_1_image720p_1a8237254b17d75fe53ce2b9b5e02ba3ae" prot="public" virt="non-virtual"><scope>idl_msg::Image720p</scope><name>getKeyMaxCdrSerializedSize</name></member>
       <member refid="classidl__msg_1_1_image720p_1a06e80898ef5dbd86d08307e00960747e" prot="public" virt="non-virtual"><scope>idl_msg::Image720p</scope><name>getMaxCdrSerializedSize</name></member>
-      <member refid="classidl__msg_1_1_image720p_1aa1d673f95817c2c792c0f317bf179397" prot="public" virt="non-virtual"><scope>idl_msg::Image720p</scope><name>header</name></member>
-      <member refid="classidl__msg_1_1_image720p_1a53b3f34d9126336ee7270639a2050e86" prot="public" virt="non-virtual"><scope>idl_msg::Image720p</scope><name>header</name></member>
-      <member refid="classidl__msg_1_1_image720p_1a33682062e9a9ef4ec8b97e36e0542179" prot="public" virt="non-virtual"><scope>idl_msg::Image720p</scope><name>header</name></member>
-      <member refid="classidl__msg_1_1_image720p_1a7cb11448281ec8fa5db910e21e3f432a" prot="public" virt="non-virtual"><scope>idl_msg::Image720p</scope><name>header</name></member>
+      <member refid="classidl__msg_1_1_image720p_1a066b2de38bc83aa1fe2e3483dde0c979" prot="public" virt="non-virtual"><scope>idl_msg::Image720p</scope><name>header</name></member>
+      <member refid="classidl__msg_1_1_image720p_1ab816183770a49f5114935a55c8279629" prot="public" virt="non-virtual"><scope>idl_msg::Image720p</scope><name>header</name></member>
+      <member refid="classidl__msg_1_1_image720p_1a810c5bf321b3672f56342603d47f696c" prot="public" virt="non-virtual"><scope>idl_msg::Image720p</scope><name>header</name></member>
+      <member refid="classidl__msg_1_1_image720p_1ad47750c856ef40d6519fd6a1544e82e3" prot="public" virt="non-virtual"><scope>idl_msg::Image720p</scope><name>header</name></member>
+      <member refid="classidl__msg_1_1_image720p_1a4007d9440ec307418d31bc6b0fe835fc" prot="public" virt="non-virtual"><scope>idl_msg::Image720p</scope><name>header</name></member>
       <member refid="classidl__msg_1_1_image720p_1addf124b51ead149b0653c7a415c03bc4" prot="public" virt="non-virtual"><scope>idl_msg::Image720p</scope><name>Image720p</name></member>
       <member refid="classidl__msg_1_1_image720p_1a71297f60e241fc3f9e5ecb08489851ca" prot="public" virt="non-virtual"><scope>idl_msg::Image720p</scope><name>Image720p</name></member>
       <member refid="classidl__msg_1_1_image720p_1af46dfa3e9dca2c374eadb819d2787b12" prot="public" virt="non-virtual"><scope>idl_msg::Image720p</scope><name>Image720p</name></member>

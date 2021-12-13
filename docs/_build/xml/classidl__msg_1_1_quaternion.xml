@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
-  <compounddef id="classidl__msg_1_1_quaternion" kind="class" language="C++" prot="public">
+  <compounddef id="classidl__msg_1_1_quaternion" kind="struct" language="C++" prot="public">
     <compoundname>idl_msg::Quaternion</compoundname>
-    <includes refid="_quaternion_8h" local="no">Quaternion.h</includes>
+    <includes refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_quaternion_8h" local="no">Quaternion.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classidl__msg_1_1_quaternion_1af0623261f2d689cd57ee65b1e0ef7428" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -55,6 +55,128 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.h" line="250" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.h" bodystart="250" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classidl__msg_1_1_quaternion_1a576be0f5df6116a720f40fa35b1f1dd9" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float &amp; idl_msg::Quaternion::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+<para>This function sets a value in member x. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns a reference to member x.</para>
+<para>This function returns the value of member x.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member x</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Value of member x</para>
+</simplesect>
+<simplesect kind="return"><para>Reference to member x </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Quaternion.idl" line="7" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Quaternion.idl" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classidl__msg_1_1_quaternion_1a3ddc4c86f24f8d9d4337ece8d55f632a" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float &amp; idl_msg::Quaternion::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+<para>This function sets a value in member y. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns a reference to member y.</para>
+<para>This function returns the value of member y.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member y</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Value of member y</para>
+</simplesect>
+<simplesect kind="return"><para>Reference to member y </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Quaternion.idl" line="8" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Quaternion.idl" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classidl__msg_1_1_quaternion_1a3c8ab8fd387638f885e574fbec47f64c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float &amp; idl_msg::Quaternion::z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <briefdescription>
+<para>This function sets a value in member z. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns a reference to member z.</para>
+<para>This function returns the value of member z.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_z</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member z</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Value of member z</para>
+</simplesect>
+<simplesect kind="return"><para>Reference to member z </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Quaternion.idl" line="9" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Quaternion.idl" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classidl__msg_1_1_quaternion_1aadf5fcf67768b80e98073caa0b33c346" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float &amp; idl_msg::Quaternion::w</definition>
+        <argsstring></argsstring>
+        <name>w</name>
+        <briefdescription>
+<para>This function sets a value in member w. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns a reference to member w.</para>
+<para>This function returns the value of member w.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member w</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Value of member w</para>
+</simplesect>
+<simplesect kind="return"><para>Reference to member w </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Quaternion.idl" line="11" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Quaternion.idl" bodystart="11" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -198,9 +320,9 @@
         </inbodydescription>
         <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.h" line="108" column="44" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.cxx" bodystart="88" bodyend="98"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quaternion_1a12ee5aa4ebe3126c1d0077942008e272" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quaternion_1a5fea44d19610af8527590d63ca59e6b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::Quaternion::x</definition>
+        <definition>eProsima_user_DllExport void idl_msg::Quaternion::x</definition>
         <argsstring>(float _x)</argsstring>
         <name>x</name>
         <param>
@@ -224,11 +346,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.h" line="115" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.cxx" bodystart="171" bodyend="175"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.h" line="115" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quaternion_1a0504c689b74a784b00239e006da33d7c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quaternion_1a4e2ca5742311ccef45fb8c05b176a2ac" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float</type>
-        <definition>float idl_msg::Quaternion::x</definition>
+        <definition>eProsima_user_DllExport float idl_msg::Quaternion::x</definition>
         <argsstring>() const</argsstring>
         <name>x</name>
         <briefdescription>
@@ -241,11 +363,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.h" line="122" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.cxx" bodystart="181" bodyend="184"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.h" line="122" column="39"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quaternion_1a8ebc5b7c1dab8c7d65d6a6a1ec766004" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quaternion_1ad907a32780d0ba37ed19c6efd40f88e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float &amp;</type>
-        <definition>float &amp; idl_msg::Quaternion::x</definition>
+        <definition>eProsima_user_DllExport float &amp; idl_msg::Quaternion::x</definition>
         <argsstring>()</argsstring>
         <name>x</name>
         <briefdescription>
@@ -258,11 +380,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.h" line="128" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.cxx" bodystart="190" bodyend="193"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.h" line="128" column="39"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quaternion_1acd6e3122b41b519d056d4ab500a992b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quaternion_1aa609637c2c2e7bb8e835a0193ecd6cce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::Quaternion::y</definition>
+        <definition>eProsima_user_DllExport void idl_msg::Quaternion::y</definition>
         <argsstring>(float _y)</argsstring>
         <name>y</name>
         <param>
@@ -286,11 +408,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.h" line="134" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.cxx" bodystart="199" bodyend="203"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.h" line="134" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quaternion_1a418e867bb7e26a4b647fb38f699ffce6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quaternion_1a0e98cca79003cc5f2c59c944a22a29cf" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float</type>
-        <definition>float idl_msg::Quaternion::y</definition>
+        <definition>eProsima_user_DllExport float idl_msg::Quaternion::y</definition>
         <argsstring>() const</argsstring>
         <name>y</name>
         <briefdescription>
@@ -303,11 +425,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.h" line="141" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.cxx" bodystart="209" bodyend="212"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.h" line="141" column="39"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quaternion_1a04c7e5ddd3b7db6f82db57930fff5c92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quaternion_1aa9f8fb9511b38997b2ed186dd381bbc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float &amp;</type>
-        <definition>float &amp; idl_msg::Quaternion::y</definition>
+        <definition>eProsima_user_DllExport float &amp; idl_msg::Quaternion::y</definition>
         <argsstring>()</argsstring>
         <name>y</name>
         <briefdescription>
@@ -320,11 +442,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.h" line="147" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.cxx" bodystart="218" bodyend="221"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.h" line="147" column="39"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quaternion_1a31d46e37c5bc940dacf08a6f6ac15aeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quaternion_1a6d0da89cbca9f03ee6a36963b94b878e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::Quaternion::z</definition>
+        <definition>eProsima_user_DllExport void idl_msg::Quaternion::z</definition>
         <argsstring>(float _z)</argsstring>
         <name>z</name>
         <param>
@@ -348,11 +470,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.h" line="153" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.cxx" bodystart="227" bodyend="231"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.h" line="153" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quaternion_1a504eab1446d6851ef583fb8bd481e2f7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quaternion_1a673d85156148287e24e2f86320739f68" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float</type>
-        <definition>float idl_msg::Quaternion::z</definition>
+        <definition>eProsima_user_DllExport float idl_msg::Quaternion::z</definition>
         <argsstring>() const</argsstring>
         <name>z</name>
         <briefdescription>
@@ -365,11 +487,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.h" line="160" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.cxx" bodystart="237" bodyend="240"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.h" line="160" column="39"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quaternion_1a6a8d62aad15a11cf050a521cc46e724f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quaternion_1ae7f702671e97b44da11894165cca15c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float &amp;</type>
-        <definition>float &amp; idl_msg::Quaternion::z</definition>
+        <definition>eProsima_user_DllExport float &amp; idl_msg::Quaternion::z</definition>
         <argsstring>()</argsstring>
         <name>z</name>
         <briefdescription>
@@ -382,11 +504,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.h" line="166" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.cxx" bodystart="246" bodyend="249"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.h" line="166" column="39"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quaternion_1ae5c7f0026b0ab020fd7b4c3847e800f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quaternion_1adf08a0b3e744a90dfe972cd0d2186e26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::Quaternion::w</definition>
+        <definition>eProsima_user_DllExport void idl_msg::Quaternion::w</definition>
         <argsstring>(float _w)</argsstring>
         <name>w</name>
         <param>
@@ -410,11 +532,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.h" line="172" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.cxx" bodystart="255" bodyend="259"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.h" line="172" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quaternion_1a975b70d48e1be29fd5b00d64387ba1f1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quaternion_1a81eb1935f657f0894655eb9b22600322" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float</type>
-        <definition>float idl_msg::Quaternion::w</definition>
+        <definition>eProsima_user_DllExport float idl_msg::Quaternion::w</definition>
         <argsstring>() const</argsstring>
         <name>w</name>
         <briefdescription>
@@ -427,11 +549,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.h" line="179" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.cxx" bodystart="265" bodyend="268"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.h" line="179" column="39"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quaternion_1ac4a469822304bbf51abbb344ce6d089f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quaternion_1a3812bccb842512f5b6a50d57a34e6cff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float &amp;</type>
-        <definition>float &amp; idl_msg::Quaternion::w</definition>
+        <definition>eProsima_user_DllExport float &amp; idl_msg::Quaternion::w</definition>
         <argsstring>()</argsstring>
         <name>w</name>
         <briefdescription>
@@ -444,7 +566,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.h" line="185" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.cxx" bodystart="274" bodyend="277"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Quaternion.h" line="185" column="39"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quaternion_1ae5a48fac6437fa9619310b708631a66d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
@@ -675,18 +797,22 @@
       <member refid="classidl__msg_1_1_quaternion_1a1cb022c1312c278435bbf23551dc4ebb" prot="public" virt="non-virtual"><scope>idl_msg::Quaternion</scope><name>Quaternion</name></member>
       <member refid="classidl__msg_1_1_quaternion_1ae5a48fac6437fa9619310b708631a66d" prot="public" virt="non-virtual"><scope>idl_msg::Quaternion</scope><name>serialize</name></member>
       <member refid="classidl__msg_1_1_quaternion_1a559577b5d1677e43a8018d7814011fd9" prot="public" virt="non-virtual"><scope>idl_msg::Quaternion</scope><name>serializeKey</name></member>
-      <member refid="classidl__msg_1_1_quaternion_1ae5c7f0026b0ab020fd7b4c3847e800f2" prot="public" virt="non-virtual"><scope>idl_msg::Quaternion</scope><name>w</name></member>
-      <member refid="classidl__msg_1_1_quaternion_1a975b70d48e1be29fd5b00d64387ba1f1" prot="public" virt="non-virtual"><scope>idl_msg::Quaternion</scope><name>w</name></member>
-      <member refid="classidl__msg_1_1_quaternion_1ac4a469822304bbf51abbb344ce6d089f" prot="public" virt="non-virtual"><scope>idl_msg::Quaternion</scope><name>w</name></member>
-      <member refid="classidl__msg_1_1_quaternion_1a12ee5aa4ebe3126c1d0077942008e272" prot="public" virt="non-virtual"><scope>idl_msg::Quaternion</scope><name>x</name></member>
-      <member refid="classidl__msg_1_1_quaternion_1a0504c689b74a784b00239e006da33d7c" prot="public" virt="non-virtual"><scope>idl_msg::Quaternion</scope><name>x</name></member>
-      <member refid="classidl__msg_1_1_quaternion_1a8ebc5b7c1dab8c7d65d6a6a1ec766004" prot="public" virt="non-virtual"><scope>idl_msg::Quaternion</scope><name>x</name></member>
-      <member refid="classidl__msg_1_1_quaternion_1acd6e3122b41b519d056d4ab500a992b5" prot="public" virt="non-virtual"><scope>idl_msg::Quaternion</scope><name>y</name></member>
-      <member refid="classidl__msg_1_1_quaternion_1a418e867bb7e26a4b647fb38f699ffce6" prot="public" virt="non-virtual"><scope>idl_msg::Quaternion</scope><name>y</name></member>
-      <member refid="classidl__msg_1_1_quaternion_1a04c7e5ddd3b7db6f82db57930fff5c92" prot="public" virt="non-virtual"><scope>idl_msg::Quaternion</scope><name>y</name></member>
-      <member refid="classidl__msg_1_1_quaternion_1a31d46e37c5bc940dacf08a6f6ac15aeb" prot="public" virt="non-virtual"><scope>idl_msg::Quaternion</scope><name>z</name></member>
-      <member refid="classidl__msg_1_1_quaternion_1a504eab1446d6851ef583fb8bd481e2f7" prot="public" virt="non-virtual"><scope>idl_msg::Quaternion</scope><name>z</name></member>
-      <member refid="classidl__msg_1_1_quaternion_1a6a8d62aad15a11cf050a521cc46e724f" prot="public" virt="non-virtual"><scope>idl_msg::Quaternion</scope><name>z</name></member>
+      <member refid="classidl__msg_1_1_quaternion_1aadf5fcf67768b80e98073caa0b33c346" prot="public" virt="non-virtual"><scope>idl_msg::Quaternion</scope><name>w</name></member>
+      <member refid="classidl__msg_1_1_quaternion_1adf08a0b3e744a90dfe972cd0d2186e26" prot="public" virt="non-virtual"><scope>idl_msg::Quaternion</scope><name>w</name></member>
+      <member refid="classidl__msg_1_1_quaternion_1a81eb1935f657f0894655eb9b22600322" prot="public" virt="non-virtual"><scope>idl_msg::Quaternion</scope><name>w</name></member>
+      <member refid="classidl__msg_1_1_quaternion_1a3812bccb842512f5b6a50d57a34e6cff" prot="public" virt="non-virtual"><scope>idl_msg::Quaternion</scope><name>w</name></member>
+      <member refid="classidl__msg_1_1_quaternion_1a576be0f5df6116a720f40fa35b1f1dd9" prot="public" virt="non-virtual"><scope>idl_msg::Quaternion</scope><name>x</name></member>
+      <member refid="classidl__msg_1_1_quaternion_1a5fea44d19610af8527590d63ca59e6b0" prot="public" virt="non-virtual"><scope>idl_msg::Quaternion</scope><name>x</name></member>
+      <member refid="classidl__msg_1_1_quaternion_1a4e2ca5742311ccef45fb8c05b176a2ac" prot="public" virt="non-virtual"><scope>idl_msg::Quaternion</scope><name>x</name></member>
+      <member refid="classidl__msg_1_1_quaternion_1ad907a32780d0ba37ed19c6efd40f88e2" prot="public" virt="non-virtual"><scope>idl_msg::Quaternion</scope><name>x</name></member>
+      <member refid="classidl__msg_1_1_quaternion_1a3ddc4c86f24f8d9d4337ece8d55f632a" prot="public" virt="non-virtual"><scope>idl_msg::Quaternion</scope><name>y</name></member>
+      <member refid="classidl__msg_1_1_quaternion_1aa609637c2c2e7bb8e835a0193ecd6cce" prot="public" virt="non-virtual"><scope>idl_msg::Quaternion</scope><name>y</name></member>
+      <member refid="classidl__msg_1_1_quaternion_1a0e98cca79003cc5f2c59c944a22a29cf" prot="public" virt="non-virtual"><scope>idl_msg::Quaternion</scope><name>y</name></member>
+      <member refid="classidl__msg_1_1_quaternion_1aa9f8fb9511b38997b2ed186dd381bbc8" prot="public" virt="non-virtual"><scope>idl_msg::Quaternion</scope><name>y</name></member>
+      <member refid="classidl__msg_1_1_quaternion_1a3c8ab8fd387638f885e574fbec47f64c" prot="public" virt="non-virtual"><scope>idl_msg::Quaternion</scope><name>z</name></member>
+      <member refid="classidl__msg_1_1_quaternion_1a6d0da89cbca9f03ee6a36963b94b878e" prot="public" virt="non-virtual"><scope>idl_msg::Quaternion</scope><name>z</name></member>
+      <member refid="classidl__msg_1_1_quaternion_1a673d85156148287e24e2f86320739f68" prot="public" virt="non-virtual"><scope>idl_msg::Quaternion</scope><name>z</name></member>
+      <member refid="classidl__msg_1_1_quaternion_1ae7f702671e97b44da11894165cca15c8" prot="public" virt="non-virtual"><scope>idl_msg::Quaternion</scope><name>z</name></member>
       <member refid="classidl__msg_1_1_quaternion_1a02f76ca4940469690b83c40cd9868ede" prot="public" virt="non-virtual"><scope>idl_msg::Quaternion</scope><name>~Quaternion</name></member>
     </listofallmembers>
   </compounddef>

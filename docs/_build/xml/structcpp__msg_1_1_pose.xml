@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structcpp__msg_1_1_pose" kind="struct" language="C++" prot="public">
+    <compoundname>cpp_msg::Pose</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcpp__msg_1_1_pose_1a07e47b6cdab3b57a901a7a90d9abe067" prot="public" static="no" mutable="no">
+        <type><ref refid="structcpp__msg_1_1_header" kindref="compound">Header</ref></type>
+        <definition>Header cpp_msg::Pose::header</definition>
+        <argsstring></argsstring>
+        <name>header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs/msgs/Pose.h" line="11" column="10" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs/msgs/Pose.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcpp__msg_1_1_pose_1afd12c5fdb9cf08d99353a73625a63207" prot="public" static="no" mutable="no">
+        <type><ref refid="structcpp__msg_1_1_position" kindref="compound">Position</ref></type>
+        <definition>Position cpp_msg::Pose::position</definition>
+        <argsstring></argsstring>
+        <name>position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs/msgs/Pose.h" line="13" column="12" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs/msgs/Pose.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcpp__msg_1_1_pose_1a6a4f8b34edf7fd94698b904daa7a82d4" prot="public" static="no" mutable="no">
+        <type><ref refid="structcpp__msg_1_1_euler_angle_z_y_z" kindref="compound">EulerAngleZYZ</ref></type>
+        <definition>EulerAngleZYZ cpp_msg::Pose::orientation_euler</definition>
+        <argsstring></argsstring>
+        <name>orientation_euler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs/msgs/Pose.h" line="15" column="17" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs/msgs/Pose.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcpp__msg_1_1_pose_1a69467b8f443734b02788937b0ab79e5e" prot="public" static="no" mutable="no">
+        <type><ref refid="structcpp__msg_1_1_quaternion" kindref="compound">Quaternion</ref></type>
+        <definition>Quaternion cpp_msg::Pose::orientation_quat</definition>
+        <argsstring></argsstring>
+        <name>orientation_quat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs/msgs/Pose.h" line="17" column="14" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs/msgs/Pose.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4">
+        <label>cpp_msg::EulerAngleZYZ</label>
+        <link refid="structcpp__msg_1_1_euler_angle_z_y_z"/>
+      </node>
+      <node id="2">
+        <label>cpp_msg::Header</label>
+        <link refid="structcpp__msg_1_1_header"/>
+      </node>
+      <node id="1">
+        <label>cpp_msg::Pose</label>
+        <link refid="structcpp__msg_1_1_pose"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>header</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>position</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>orientation_euler</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>orientation_quat</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>cpp_msg::Position</label>
+        <link refid="structcpp__msg_1_1_position"/>
+      </node>
+      <node id="5">
+        <label>cpp_msg::Quaternion</label>
+        <link refid="structcpp__msg_1_1_quaternion"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs/msgs/Pose.h" line="9" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs/msgs/Pose.h" bodystart="9" bodyend="18"/>
+    <listofallmembers>
+      <member refid="structcpp__msg_1_1_pose_1a07e47b6cdab3b57a901a7a90d9abe067" prot="public" virt="non-virtual"><scope>cpp_msg::Pose</scope><name>header</name></member>
+      <member refid="structcpp__msg_1_1_pose_1a6a4f8b34edf7fd94698b904daa7a82d4" prot="public" virt="non-virtual"><scope>cpp_msg::Pose</scope><name>orientation_euler</name></member>
+      <member refid="structcpp__msg_1_1_pose_1a69467b8f443734b02788937b0ab79e5e" prot="public" virt="non-virtual"><scope>cpp_msg::Pose</scope><name>orientation_quat</name></member>
+      <member refid="structcpp__msg_1_1_pose_1afd12c5fdb9cf08d99353a73625a63207" prot="public" virt="non-virtual"><scope>cpp_msg::Pose</scope><name>position</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

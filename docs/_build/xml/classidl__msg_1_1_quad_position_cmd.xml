@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
-  <compounddef id="classidl__msg_1_1_quad_position_cmd" kind="class" language="C++" prot="public">
+  <compounddef id="classidl__msg_1_1_quad_position_cmd" kind="struct" language="C++" prot="public">
     <compoundname>idl_msg::QuadPositionCmd</compoundname>
-    <includes refid="_quad_position_cmd_8h" local="no">QuadPositionCmd.h</includes>
+    <includes refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_quad_position_cmd_8h" local="no">QuadPositionCmd.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classidl__msg_1_1_quad_position_cmd_1aa1f5e47683aad02853e32cde3ba152b3" prot="private" static="no" mutable="no">
         <type><ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref></type>
@@ -42,6 +42,116 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.h" line="244" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.h" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classidl__msg_1_1_quad_position_cmd_1ade2ddb62c160f38be45a0947667a3156" prot="public" static="no" mutable="no">
+        <type><ref refid="classidl__msg_1_1_header" kindref="compound">Header</ref></type>
+        <definition>idl_msg::Header &amp; idl_msg::QuadPositionCmd::header</definition>
+        <argsstring></argsstring>
+        <name>header</name>
+        <briefdescription>
+<para>This function copies the value in member header. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns a reference to member header.</para>
+<para>This function returns a constant reference to member header.</para>
+<para>This function moves the value in member header.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_header</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member header</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_header</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member header</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Constant reference to member header</para>
+</simplesect>
+<simplesect kind="return"><para>Reference to member header </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/QuadPositionCmd.idl" line="10" column="10" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/QuadPositionCmd.idl" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classidl__msg_1_1_quad_position_cmd_1a7c88a48daa9559d80cc36f4fbc203bb3" prot="public" static="no" mutable="no">
+        <type><ref refid="classidl__msg_1_1_position" kindref="compound">Position</ref></type>
+        <definition>idl_msg::Position &amp; idl_msg::QuadPositionCmd::position</definition>
+        <argsstring></argsstring>
+        <name>position</name>
+        <briefdescription>
+<para>This function copies the value in member position. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns a reference to member position.</para>
+<para>This function returns a constant reference to member position.</para>
+<para>This function moves the value in member position.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_position</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member position</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_position</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member position</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Constant reference to member position</para>
+</simplesect>
+<simplesect kind="return"><para>Reference to member position </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/QuadPositionCmd.idl" line="12" column="12" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/QuadPositionCmd.idl" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classidl__msg_1_1_quad_position_cmd_1acda129763b3af85c57864dbf993a13d1" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float &amp; idl_msg::QuadPositionCmd::yaw_angle</definition>
+        <argsstring></argsstring>
+        <name>yaw_angle</name>
+        <briefdescription>
+<para>This function sets a value in member yaw_angle. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns a reference to member yaw_angle.</para>
+<para>This function returns the value of member yaw_angle.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_yaw_angle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member yaw_angle</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Value of member yaw_angle</para>
+</simplesect>
+<simplesect kind="return"><para>Reference to member yaw_angle </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/QuadPositionCmd.idl" line="14" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/QuadPositionCmd.idl" bodystart="14" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -185,9 +295,9 @@
         </inbodydescription>
         <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.h" line="110" column="49" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.cxx" bodystart="82" bodyend="91"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quad_position_cmd_1a046d0373cfae8a3f85dafa84c22b2780" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quad_position_cmd_1a6c1c90c2a04431077ecbab1506515a72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::QuadPositionCmd::header</definition>
+        <definition>eProsima_user_DllExport void idl_msg::QuadPositionCmd::header</definition>
         <argsstring>(const idl_msg::Header &amp;_header)</argsstring>
         <name>header</name>
         <param>
@@ -211,11 +321,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.h" line="117" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.cxx" bodystart="148" bodyend="152"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.h" line="117" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quad_position_cmd_1ad55c911b7b5d67cb70f36246e39b058e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quad_position_cmd_1ac8acd46c1952f351c6a379c82d68185c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::QuadPositionCmd::header</definition>
+        <definition>eProsima_user_DllExport void idl_msg::QuadPositionCmd::header</definition>
         <argsstring>(idl_msg::Header &amp;&amp;_header)</argsstring>
         <name>header</name>
         <param>
@@ -239,11 +349,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.h" line="124" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.cxx" bodystart="158" bodyend="162"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.h" line="124" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quad_position_cmd_1ad469d0d6ef1388214ba6431146badea9" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quad_position_cmd_1a524cb583024eb9b05d28015ebc3456ed" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport const <ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref> &amp;</type>
-        <definition>const idl_msg::Header &amp; idl_msg::QuadPositionCmd::header</definition>
+        <definition>eProsima_user_DllExport const idl_msg::Header &amp; idl_msg::QuadPositionCmd::header</definition>
         <argsstring>() const</argsstring>
         <name>header</name>
         <briefdescription>
@@ -256,11 +366,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.h" line="131" column="55" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.cxx" bodystart="168" bodyend="171"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.h" line="131" column="55"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quad_position_cmd_1a413aa1e3aa5428ae4ce6825b1132c0c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quad_position_cmd_1a78e56eed4b4f98ce54b6b75d6cd21ce3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport <ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref> &amp;</type>
-        <definition>idl_msg::Header &amp; idl_msg::QuadPositionCmd::header</definition>
+        <definition>eProsima_user_DllExport idl_msg::Header &amp; idl_msg::QuadPositionCmd::header</definition>
         <argsstring>()</argsstring>
         <name>header</name>
         <briefdescription>
@@ -273,11 +383,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.h" line="137" column="49" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.cxx" bodystart="177" bodyend="180"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.h" line="137" column="49"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quad_position_cmd_1a2d685da138ba981d0f9802333d028177" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quad_position_cmd_1aed313653e401fdc532c7fad0cc0ffd53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::QuadPositionCmd::position</definition>
+        <definition>eProsima_user_DllExport void idl_msg::QuadPositionCmd::position</definition>
         <argsstring>(const idl_msg::Position &amp;_position)</argsstring>
         <name>position</name>
         <param>
@@ -301,11 +411,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.h" line="142" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.cxx" bodystart="185" bodyend="189"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.h" line="142" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quad_position_cmd_1a2fd6206fa135ff6c094402b727f7a87b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quad_position_cmd_1aed5dd32aedd76a8f9791514da38de980" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::QuadPositionCmd::position</definition>
+        <definition>eProsima_user_DllExport void idl_msg::QuadPositionCmd::position</definition>
         <argsstring>(idl_msg::Position &amp;&amp;_position)</argsstring>
         <name>position</name>
         <param>
@@ -329,11 +439,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.h" line="149" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.cxx" bodystart="195" bodyend="199"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.h" line="149" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quad_position_cmd_1a172196647d6bc34f0227610cf0782033" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quad_position_cmd_1a8da794e045383f7acbd3b12707d28600" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport const <ref refid="classidl__msg_1_1_position" kindref="compound">idl_msg::Position</ref> &amp;</type>
-        <definition>const idl_msg::Position &amp; idl_msg::QuadPositionCmd::position</definition>
+        <definition>eProsima_user_DllExport const idl_msg::Position &amp; idl_msg::QuadPositionCmd::position</definition>
         <argsstring>() const</argsstring>
         <name>position</name>
         <briefdescription>
@@ -346,11 +456,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.h" line="156" column="57" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.cxx" bodystart="205" bodyend="208"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.h" line="156" column="57"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quad_position_cmd_1a6c558318f52be469c234283c4994cb39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quad_position_cmd_1ab60ccce39d1a484d19c65e1a8f76790c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport <ref refid="classidl__msg_1_1_position" kindref="compound">idl_msg::Position</ref> &amp;</type>
-        <definition>idl_msg::Position &amp; idl_msg::QuadPositionCmd::position</definition>
+        <definition>eProsima_user_DllExport idl_msg::Position &amp; idl_msg::QuadPositionCmd::position</definition>
         <argsstring>()</argsstring>
         <name>position</name>
         <briefdescription>
@@ -363,11 +473,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.h" line="162" column="51" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.cxx" bodystart="214" bodyend="217"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.h" line="162" column="51"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quad_position_cmd_1a6415c15d5a1c9e57bc5bfb19cfd57c53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quad_position_cmd_1a805e34edc54ff7ce841cfb1eafed12b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::QuadPositionCmd::yaw_angle</definition>
+        <definition>eProsima_user_DllExport void idl_msg::QuadPositionCmd::yaw_angle</definition>
         <argsstring>(float _yaw_angle)</argsstring>
         <name>yaw_angle</name>
         <param>
@@ -391,11 +501,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.h" line="167" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.cxx" bodystart="222" bodyend="226"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.h" line="167" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quad_position_cmd_1a3283fa63bc90fa527adc876c605629af" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quad_position_cmd_1a8263d3a2c140d3266b42a4ead79e1426" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float</type>
-        <definition>float idl_msg::QuadPositionCmd::yaw_angle</definition>
+        <definition>eProsima_user_DllExport float idl_msg::QuadPositionCmd::yaw_angle</definition>
         <argsstring>() const</argsstring>
         <name>yaw_angle</name>
         <briefdescription>
@@ -408,11 +518,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.h" line="174" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.cxx" bodystart="232" bodyend="235"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.h" line="174" column="39"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quad_position_cmd_1a98a665992ac4a1c9138de0fc264b7e92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quad_position_cmd_1a550d6ac7a7a011a99aa7ea4258eb8a0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float &amp;</type>
-        <definition>float &amp; idl_msg::QuadPositionCmd::yaw_angle</definition>
+        <definition>eProsima_user_DllExport float &amp; idl_msg::QuadPositionCmd::yaw_angle</definition>
         <argsstring>()</argsstring>
         <name>yaw_angle</name>
         <briefdescription>
@@ -425,7 +535,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.h" line="180" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.cxx" bodystart="241" bodyend="244"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.h" line="180" column="39"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quad_position_cmd_1ac776c93dd27a70fb5317b3471379e659" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
@@ -638,34 +748,57 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>idl_msg::Header</label>
+        <link refid="classidl__msg_1_1_header"/>
+      </node>
+      <node id="3">
+        <label>idl_msg::Position</label>
+        <link refid="classidl__msg_1_1_position"/>
+      </node>
+      <node id="1">
+        <label>idl_msg::QuadPositionCmd</label>
+        <link refid="classidl__msg_1_1_quad_position_cmd"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>header</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>position</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
     <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.h" line="71" column="5" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadPositionCmd.h" bodystart="72" bodyend="245"/>
     <listofallmembers>
       <member refid="classidl__msg_1_1_quad_position_cmd_1abf94b6a9e5f952382a1c27b5720eb2ca" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>deserialize</name></member>
       <member refid="classidl__msg_1_1_quad_position_cmd_1a72d07b7c37d94d8bb1cf8349bd491a27" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>getCdrSerializedSize</name></member>
       <member refid="classidl__msg_1_1_quad_position_cmd_1adcb84976dfdadaa48404b2c84c3d3b96" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>getKeyMaxCdrSerializedSize</name></member>
       <member refid="classidl__msg_1_1_quad_position_cmd_1a9c6832bd73b68624fadc2101e79d1dd0" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>getMaxCdrSerializedSize</name></member>
-      <member refid="classidl__msg_1_1_quad_position_cmd_1a046d0373cfae8a3f85dafa84c22b2780" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>header</name></member>
-      <member refid="classidl__msg_1_1_quad_position_cmd_1ad55c911b7b5d67cb70f36246e39b058e" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>header</name></member>
-      <member refid="classidl__msg_1_1_quad_position_cmd_1ad469d0d6ef1388214ba6431146badea9" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>header</name></member>
-      <member refid="classidl__msg_1_1_quad_position_cmd_1a413aa1e3aa5428ae4ce6825b1132c0c5" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>header</name></member>
+      <member refid="classidl__msg_1_1_quad_position_cmd_1ade2ddb62c160f38be45a0947667a3156" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>header</name></member>
+      <member refid="classidl__msg_1_1_quad_position_cmd_1a6c1c90c2a04431077ecbab1506515a72" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>header</name></member>
+      <member refid="classidl__msg_1_1_quad_position_cmd_1ac8acd46c1952f351c6a379c82d68185c" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>header</name></member>
+      <member refid="classidl__msg_1_1_quad_position_cmd_1a524cb583024eb9b05d28015ebc3456ed" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>header</name></member>
+      <member refid="classidl__msg_1_1_quad_position_cmd_1a78e56eed4b4f98ce54b6b75d6cd21ce3" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>header</name></member>
       <member refid="classidl__msg_1_1_quad_position_cmd_1a3af8c76187c2b1e6d63eed791828adf2" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>isKeyDefined</name></member>
       <member refid="classidl__msg_1_1_quad_position_cmd_1aa1f5e47683aad02853e32cde3ba152b3" prot="private" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>m_header</name></member>
       <member refid="classidl__msg_1_1_quad_position_cmd_1a49bf664c72708445277a56e75e7137c6" prot="private" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>m_position</name></member>
       <member refid="classidl__msg_1_1_quad_position_cmd_1af65cf970c444c05033fa62480f09e597" prot="private" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>m_yaw_angle</name></member>
       <member refid="classidl__msg_1_1_quad_position_cmd_1a6ba29fd375f5e61b07d532067780c76d" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>operator=</name></member>
       <member refid="classidl__msg_1_1_quad_position_cmd_1aeac0399182e6d32a430af3447c00daa3" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>operator=</name></member>
-      <member refid="classidl__msg_1_1_quad_position_cmd_1a2d685da138ba981d0f9802333d028177" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>position</name></member>
-      <member refid="classidl__msg_1_1_quad_position_cmd_1a2fd6206fa135ff6c094402b727f7a87b" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>position</name></member>
-      <member refid="classidl__msg_1_1_quad_position_cmd_1a172196647d6bc34f0227610cf0782033" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>position</name></member>
-      <member refid="classidl__msg_1_1_quad_position_cmd_1a6c558318f52be469c234283c4994cb39" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>position</name></member>
+      <member refid="classidl__msg_1_1_quad_position_cmd_1a7c88a48daa9559d80cc36f4fbc203bb3" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>position</name></member>
+      <member refid="classidl__msg_1_1_quad_position_cmd_1aed313653e401fdc532c7fad0cc0ffd53" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>position</name></member>
+      <member refid="classidl__msg_1_1_quad_position_cmd_1aed5dd32aedd76a8f9791514da38de980" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>position</name></member>
+      <member refid="classidl__msg_1_1_quad_position_cmd_1a8da794e045383f7acbd3b12707d28600" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>position</name></member>
+      <member refid="classidl__msg_1_1_quad_position_cmd_1ab60ccce39d1a484d19c65e1a8f76790c" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>position</name></member>
       <member refid="classidl__msg_1_1_quad_position_cmd_1af850f65ffeca7972f8e159c37f2243f4" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>QuadPositionCmd</name></member>
       <member refid="classidl__msg_1_1_quad_position_cmd_1af2ed575e03e13d20962a983c51ede3d3" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>QuadPositionCmd</name></member>
       <member refid="classidl__msg_1_1_quad_position_cmd_1a425280eb54371f4231421a086c5b6eb2" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>QuadPositionCmd</name></member>
       <member refid="classidl__msg_1_1_quad_position_cmd_1ac776c93dd27a70fb5317b3471379e659" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>serialize</name></member>
       <member refid="classidl__msg_1_1_quad_position_cmd_1a23707345bc677bc09d62b27a96cf5de9" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>serializeKey</name></member>
-      <member refid="classidl__msg_1_1_quad_position_cmd_1a6415c15d5a1c9e57bc5bfb19cfd57c53" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>yaw_angle</name></member>
-      <member refid="classidl__msg_1_1_quad_position_cmd_1a3283fa63bc90fa527adc876c605629af" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>yaw_angle</name></member>
-      <member refid="classidl__msg_1_1_quad_position_cmd_1a98a665992ac4a1c9138de0fc264b7e92" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>yaw_angle</name></member>
+      <member refid="classidl__msg_1_1_quad_position_cmd_1acda129763b3af85c57864dbf993a13d1" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>yaw_angle</name></member>
+      <member refid="classidl__msg_1_1_quad_position_cmd_1a805e34edc54ff7ce841cfb1eafed12b0" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>yaw_angle</name></member>
+      <member refid="classidl__msg_1_1_quad_position_cmd_1a8263d3a2c140d3266b42a4ead79e1426" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>yaw_angle</name></member>
+      <member refid="classidl__msg_1_1_quad_position_cmd_1a550d6ac7a7a011a99aa7ea4258eb8a0e" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>yaw_angle</name></member>
       <member refid="classidl__msg_1_1_quad_position_cmd_1a36d9e1f129fd778202770e72460aa3f3" prot="public" virt="non-virtual"><scope>idl_msg::QuadPositionCmd</scope><name>~QuadPositionCmd</name></member>
     </listofallmembers>
   </compounddef>

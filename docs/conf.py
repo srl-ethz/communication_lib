@@ -85,7 +85,7 @@ html_static_path = ['_static']
 # -- Breathe configuration -------------------------------------------------
 
 breathe_projects = {
-    "C++ Sphinx Doxygen Breathe": "_build/xml/"
+    "srl_communication_lib": "_build/xml/"
 }
-breathe_default_project = "C++ Sphinx Doxygen Breathe"
+breathe_default_project = "srl_communication_lib"
 breathe_default_members = ('members', 'undoc-members')

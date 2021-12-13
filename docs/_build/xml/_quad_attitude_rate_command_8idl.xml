@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_quad_attitude_rate_command_8idl" kind="file" language="IDL">
+    <compoundname>QuadAttitudeRateCommand.idl</compoundname>
+    <includes refid="_header_8idl" local="yes">Header.idl</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>Header.idl</label>
+        <link refid="_header_8idl_source"/>
+      </node>
+      <node id="1">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/QuadAttitudeRateCommand.idl</label>
+        <link refid="_quad_attitude_rate_command_8idl"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classidl__msg_1_1_quad_attitude_rate_command" prot="public">idl_msg::QuadAttitudeRateCommand</innerclass>
+    <innernamespace refid="namespaceidl__msg">idl_msg</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Header.idl&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">module<sp/>idl_msg{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">QuadAttitudeRateCommand<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="classidl__msg_1_1_quad_attitude_rate_command_1a464f465e24fdbc7fc7c4e2134b2e6652" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="classidl__msg_1_1_header" kindref="compound">Header</ref><sp/><ref refid="classidl__msg_1_1_quad_attitude_rate_command_1a464f465e24fdbc7fc7c4e2134b2e6652" kindref="member">header</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="classidl__msg_1_1_quad_attitude_rate_command_1a226ce71f5c76e34ad3d563840bba484e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_quad_attitude_rate_command_1a226ce71f5c76e34ad3d563840bba484e" kindref="member">thrust</ref>;</highlight></codeline>
+<codeline lineno="12" refid="classidl__msg_1_1_quad_attitude_rate_command_1a9253d515332ddcf31845328f35311c11" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_quad_attitude_rate_command_1a9253d515332ddcf31845328f35311c11" kindref="member">roll_rate</ref>;</highlight></codeline>
+<codeline lineno="13" refid="classidl__msg_1_1_quad_attitude_rate_command_1a69547c410c12c59fc885f3ba2df3f68a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_quad_attitude_rate_command_1a69547c410c12c59fc885f3ba2df3f68a" kindref="member">pitch_rate</ref>;</highlight></codeline>
+<codeline lineno="14" refid="classidl__msg_1_1_quad_attitude_rate_command_1afba1411034a107349a0f262a2bac9be0" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_quad_attitude_rate_command_1afba1411034a107349a0f262a2bac9be0" kindref="member">yaw_rate</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/QuadAttitudeRateCommand.idl"/>
+  </compounddef>
+</doxygen>

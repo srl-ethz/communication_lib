@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_header_8idl" kind="file" language="IDL">
+    <compoundname>Header.idl</compoundname>
+    <includedby refid="_image1080p_8idl" local="yes">/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Image1080p.idl</includedby>
+    <includedby refid="_image720p_8idl" local="yes">/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Image720p.idl</includedby>
+    <includedby refid="_mocap_8idl" local="yes">/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Mocap.idl</includedby>
+    <includedby refid="_pose_8idl" local="yes">/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Pose.idl</includedby>
+    <includedby refid="_quad_action_cmd_8idl" local="yes">/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/QuadActionCmd.idl</includedby>
+    <includedby refid="_quad_attitude_command_8idl" local="yes">/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/QuadAttitudeCommand.idl</includedby>
+    <includedby refid="_quad_attitude_rate_command_8idl" local="yes">/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/QuadAttitudeRateCommand.idl</includedby>
+    <includedby refid="_quad_motor_command_8idl" local="yes">/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/QuadMotorCommand.idl</includedby>
+    <includedby refid="_quad_position_cmd_8idl" local="yes">/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/QuadPositionCmd.idl</includedby>
+    <includedby refid="_quad_velocity_cmd_8idl" local="yes">/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/QuadVelocityCmd.idl</includedby>
+    <includedby refid="_thrust_torque_command_8idl" local="yes">/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/ThrustTorqueCommand.idl</includedby>
+    <invincdepgraph>
+      <node id="1">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Header.idl</label>
+        <link refid="_header_8idl"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Image1080p.idl</label>
+        <link refid="_image1080p_8idl_source"/>
+      </node>
+      <node id="3">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Image720p.idl</label>
+        <link refid="_image720p_8idl_source"/>
+      </node>
+      <node id="4">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Mocap.idl</label>
+        <link refid="_mocap_8idl_source"/>
+      </node>
+      <node id="5">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Pose.idl</label>
+        <link refid="_pose_8idl_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/QuadActionCmd.idl</label>
+        <link refid="_quad_action_cmd_8idl_source"/>
+      </node>
+      <node id="7">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/QuadAttitudeCommand.idl</label>
+        <link refid="_quad_attitude_command_8idl_source"/>
+      </node>
+      <node id="8">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/QuadAttitudeRateCommand.idl</label>
+        <link refid="_quad_attitude_rate_command_8idl_source"/>
+      </node>
+      <node id="9">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/QuadMotorCommand.idl</label>
+        <link refid="_quad_motor_command_8idl_source"/>
+      </node>
+      <node id="10">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/QuadPositionCmd.idl</label>
+        <link refid="_quad_position_cmd_8idl_source"/>
+      </node>
+      <node id="11">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/QuadVelocityCmd.idl</label>
+        <link refid="_quad_velocity_cmd_8idl_source"/>
+      </node>
+      <node id="12">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/ThrustTorqueCommand.idl</label>
+        <link refid="_thrust_torque_command_8idl_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classidl__msg_1_1_header" prot="public">idl_msg::Header</innerclass>
+    <innernamespace refid="namespaceidl__msg">idl_msg</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">module<sp/>idl_msg{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">Header<sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="classidl__msg_1_1_header_1a009ddcc9bc84254d3134eb1258446d67" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_header_1a009ddcc9bc84254d3134eb1258446d67" kindref="member">timestamp</ref>;</highlight></codeline>
+<codeline lineno="8" refid="classidl__msg_1_1_header_1a87a1c14f73f33198d29cb17b2a4db9c9" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_header_1a87a1c14f73f33198d29cb17b2a4db9c9" kindref="member">id</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Header.idl"/>
+  </compounddef>
+</doxygen>

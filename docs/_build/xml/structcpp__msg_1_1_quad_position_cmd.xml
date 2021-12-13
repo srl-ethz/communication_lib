@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structcpp__msg_1_1_quad_position_cmd" kind="struct" language="C++" prot="public">
+    <compoundname>cpp_msg::QuadPositionCmd</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcpp__msg_1_1_quad_position_cmd_1a86d7556e2095d6dc6e1d674eca51c1ec" prot="public" static="no" mutable="no">
+        <type><ref refid="structcpp__msg_1_1_header" kindref="compound">Header</ref></type>
+        <definition>Header cpp_msg::QuadPositionCmd::header</definition>
+        <argsstring></argsstring>
+        <name>header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadPositionCmd.h" line="9" column="10" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadPositionCmd.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcpp__msg_1_1_quad_position_cmd_1a06f8d856735d74513f399bc221b23a1d" prot="public" static="no" mutable="no">
+        <type><ref refid="structcpp__msg_1_1_position" kindref="compound">Position</ref></type>
+        <definition>Position cpp_msg::QuadPositionCmd::position</definition>
+        <argsstring></argsstring>
+        <name>position</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadPositionCmd.h" line="11" column="12" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadPositionCmd.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcpp__msg_1_1_quad_position_cmd_1a2cae8a80744c6d5bf8f302e7b652f054" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float cpp_msg::QuadPositionCmd::yaw_angle</definition>
+        <argsstring></argsstring>
+        <name>yaw_angle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadPositionCmd.h" line="13" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadPositionCmd.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>cpp_msg::Header</label>
+        <link refid="structcpp__msg_1_1_header"/>
+      </node>
+      <node id="3">
+        <label>cpp_msg::Position</label>
+        <link refid="structcpp__msg_1_1_position"/>
+      </node>
+      <node id="1">
+        <label>cpp_msg::QuadPositionCmd</label>
+        <link refid="structcpp__msg_1_1_quad_position_cmd"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>header</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>position</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadPositionCmd.h" line="7" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadPositionCmd.h" bodystart="7" bodyend="14"/>
+    <listofallmembers>
+      <member refid="structcpp__msg_1_1_quad_position_cmd_1a86d7556e2095d6dc6e1d674eca51c1ec" prot="public" virt="non-virtual"><scope>cpp_msg::QuadPositionCmd</scope><name>header</name></member>
+      <member refid="structcpp__msg_1_1_quad_position_cmd_1a06f8d856735d74513f399bc221b23a1d" prot="public" virt="non-virtual"><scope>cpp_msg::QuadPositionCmd</scope><name>position</name></member>
+      <member refid="structcpp__msg_1_1_quad_position_cmd_1a2cae8a80744c6d5bf8f302e7b652f054" prot="public" virt="non-virtual"><scope>cpp_msg::QuadPositionCmd</scope><name>yaw_angle</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

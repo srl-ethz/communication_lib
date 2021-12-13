@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_velocity_8idl" kind="file" language="IDL">
+    <compoundname>Velocity.idl</compoundname>
+    <includedby refid="_quad_velocity_cmd_8idl" local="yes">/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/QuadVelocityCmd.idl</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/QuadVelocityCmd.idl</label>
+        <link refid="_quad_velocity_cmd_8idl_source"/>
+      </node>
+      <node id="1">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Velocity.idl</label>
+        <link refid="_velocity_8idl"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classidl__msg_1_1_velocity" prot="public">idl_msg::Velocity</innerclass>
+    <innernamespace refid="namespaceidl__msg">idl_msg</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">module<sp/>idl_msg{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">Velocity<sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="classidl__msg_1_1_velocity_1ada507ecb6bf2b2f1546cb4628b13d234" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_velocity_1ada507ecb6bf2b2f1546cb4628b13d234" kindref="member">x</ref>;</highlight></codeline>
+<codeline lineno="8" refid="classidl__msg_1_1_velocity_1a3d57fbebe2b83e745aa07409883d846d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_velocity_1a3d57fbebe2b83e745aa07409883d846d" kindref="member">y</ref>;</highlight></codeline>
+<codeline lineno="9" refid="classidl__msg_1_1_velocity_1a29e4ca251465b9995a82cd48438b9bb3" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_velocity_1a29e4ca251465b9995a82cd48438b9bb3" kindref="member">z</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Velocity.idl"/>
+  </compounddef>
+</doxygen>

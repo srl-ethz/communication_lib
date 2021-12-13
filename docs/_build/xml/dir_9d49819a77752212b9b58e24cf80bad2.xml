@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_9d49819a77752212b9b58e24cf80bad2" kind="dir">
+    <compoundname>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs/msgs</compoundname>
+    <innerfile refid="msgs__lib_2cpp__msgs_2basic__msgs_2geometry__msgs_2msgs_2_euler_angle_z_y_x_8h">EulerAngleZYX.h</innerfile>
+    <innerfile refid="msgs__lib_2cpp__msgs_2basic__msgs_2geometry__msgs_2msgs_2_pose_8h">Pose.h</innerfile>
+    <innerfile refid="msgs__lib_2cpp__msgs_2basic__msgs_2geometry__msgs_2msgs_2_position_8h">Position.h</innerfile>
+    <innerfile refid="msgs__lib_2cpp__msgs_2basic__msgs_2geometry__msgs_2msgs_2_quaternion_8h">Quaternion.h</innerfile>
+    <innerfile refid="msgs__lib_2cpp__msgs_2basic__msgs_2geometry__msgs_2msgs_2_velocity_8h">Velocity.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs/msgs/"/>
+  </compounddef>
+</doxygen>

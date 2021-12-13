@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structcpp__msg_1_1_image720p" kind="struct" language="C++" prot="public">
+    <compoundname>cpp_msg::Image720p</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcpp__msg_1_1_image720p_1adc8c112645eec312968387ad22a707b6" prot="public" static="no" mutable="no">
+        <type><ref refid="structcpp__msg_1_1_header" kindref="compound">Header</ref></type>
+        <definition>Header cpp_msg::Image720p::header</definition>
+        <argsstring></argsstring>
+        <name>header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/sensor_msgs/msgs/Image720p.h" line="8" column="10" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/sensor_msgs/msgs/Image720p.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcpp__msg_1_1_image720p_1abf6b0cd21e88eab22dcfc01ff8c266b1" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t cpp_msg::Image720p::frame[1920 *1080 *3]</definition>
+        <argsstring>[1920 *1080 *3]</argsstring>
+        <name>frame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/sensor_msgs/msgs/Image720p.h" line="10" column="11" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/sensor_msgs/msgs/Image720p.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>cpp_msg::Header</label>
+        <link refid="structcpp__msg_1_1_header"/>
+      </node>
+      <node id="1">
+        <label>cpp_msg::Image720p</label>
+        <link refid="structcpp__msg_1_1_image720p"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>header</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/sensor_msgs/msgs/Image720p.h" line="6" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/sensor_msgs/msgs/Image720p.h" bodystart="6" bodyend="13"/>
+    <listofallmembers>
+      <member refid="structcpp__msg_1_1_image720p_1abf6b0cd21e88eab22dcfc01ff8c266b1" prot="public" virt="non-virtual"><scope>cpp_msg::Image720p</scope><name>frame</name></member>
+      <member refid="structcpp__msg_1_1_image720p_1adc8c112645eec312968387ad22a707b6" prot="public" virt="non-virtual"><scope>cpp_msg::Image720p</scope><name>header</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_mocap_8idl" kind="file" language="IDL">
+    <compoundname>Mocap.idl</compoundname>
+    <includes refid="_header_8idl" local="yes">Header.idl</includes>
+    <includes refid="_pose_8idl" local="yes">Pose.idl</includes>
+    <incdepgraph>
+      <node id="4">
+        <label>EulerAngleZYX.idl</label>
+        <link refid="_euler_angle_z_y_x_8idl_source"/>
+      </node>
+      <node id="2">
+        <label>Header.idl</label>
+        <link refid="_header_8idl_source"/>
+      </node>
+      <node id="1">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Mocap.idl</label>
+        <link refid="_mocap_8idl"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Pose.idl</label>
+        <link refid="_pose_8idl_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Position.idl</label>
+        <link refid="_position_8idl_source"/>
+      </node>
+      <node id="6">
+        <label>Quaternion.idl</label>
+        <link refid="_quaternion_8idl_source"/>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classidl__msg_1_1_mocap" prot="public">idl_msg::Mocap</innerclass>
+    <innernamespace refid="namespaceidl__msg">idl_msg</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Header.idl&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Pose.idl&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">module<sp/>idl_msg{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">Mocap<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="classidl__msg_1_1_mocap_1adec07a63f3a3463ba09ffe60347e94fe" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="classidl__msg_1_1_header" kindref="compound">Header</ref><sp/><ref refid="classidl__msg_1_1_mocap_1adec07a63f3a3463ba09ffe60347e94fe" kindref="member">header</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="classidl__msg_1_1_mocap_1a9d124c1b3cb19a3fa69689d168ad6817" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="classidl__msg_1_1_pose" kindref="compound">Pose</ref><sp/><ref refid="classidl__msg_1_1_mocap_1a9d124c1b3cb19a3fa69689d168ad6817" kindref="member">pose</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="classidl__msg_1_1_mocap_1ab848426ea36b9ca89fa3e64f3176325d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_mocap_1ab848426ea36b9ca89fa3e64f3176325d" kindref="member">latency</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Mocap.idl"/>
+  </compounddef>
+</doxygen>

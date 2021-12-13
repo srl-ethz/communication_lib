@@ -1,0 +1,157 @@
+\hypertarget{fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_thrust_torque_command_8h_source}{}\doxysection{Thrust\+Torque\+Command.\+h}
+\label{fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_thrust_torque_command_8h_source}\index{/Users/sarathmenon/Desktop/eth\_raptor/code/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/msg\_definitions/ThrustTorqueCommand.h@{/Users/sarathmenon/Desktop/eth\_raptor/code/communication\_lib/fastdds\_lib/fastddsgen\_generated\_files/msg\_definitions/ThrustTorqueCommand.h}}
+\mbox{\hyperlink{fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_thrust_torque_command_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{comment}{// Copyright 2016 Proyectos y Sistemas de Mantenimiento SL (eProsima).}}
+\DoxyCodeLine{2 \textcolor{comment}{//}}
+\DoxyCodeLine{3 \textcolor{comment}{// Licensed under the Apache License, Version 2.0 (the "{}License"{});}}
+\DoxyCodeLine{4 \textcolor{comment}{// you may not use this file except in compliance with the License.}}
+\DoxyCodeLine{5 \textcolor{comment}{// You may obtain a copy of the License at}}
+\DoxyCodeLine{6 \textcolor{comment}{//}}
+\DoxyCodeLine{7 \textcolor{comment}{//     http://www.apache.org/licenses/LICENSE-\/2.0}}
+\DoxyCodeLine{8 \textcolor{comment}{//}}
+\DoxyCodeLine{9 \textcolor{comment}{// Unless required by applicable law or agreed to in writing, software}}
+\DoxyCodeLine{10 \textcolor{comment}{// distributed under the License is distributed on an "{}AS IS"{} BASIS,}}
+\DoxyCodeLine{11 \textcolor{comment}{// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.}}
+\DoxyCodeLine{12 \textcolor{comment}{// See the License for the specific language governing permissions and}}
+\DoxyCodeLine{13 \textcolor{comment}{// limitations under the License.}}
+\DoxyCodeLine{14 }
+\DoxyCodeLine{22 \textcolor{preprocessor}{\#ifndef \_IDL\_MSG\_THRUSTTORQUECOMMAND\_H\_}}
+\DoxyCodeLine{23 \textcolor{preprocessor}{\#define \_IDL\_MSG\_THRUSTTORQUECOMMAND\_H\_}}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25 \textcolor{preprocessor}{\#include "{}Header.h"{}}}
+\DoxyCodeLine{26 }
+\DoxyCodeLine{27 \textcolor{preprocessor}{\#include <stdint.h>}}
+\DoxyCodeLine{28 \textcolor{preprocessor}{\#include <array>}}
+\DoxyCodeLine{29 \textcolor{preprocessor}{\#include <string>}}
+\DoxyCodeLine{30 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{31 \textcolor{preprocessor}{\#include <map>}}
+\DoxyCodeLine{32 \textcolor{preprocessor}{\#include <bitset>}}
+\DoxyCodeLine{33 }
+\DoxyCodeLine{34 \textcolor{preprocessor}{\#if defined(\_WIN32)}}
+\DoxyCodeLine{35 \textcolor{preprocessor}{\#if defined(EPROSIMA\_USER\_DLL\_EXPORT)}}
+\DoxyCodeLine{36 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport \_\_declspec( dllexport )}}
+\DoxyCodeLine{37 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{38 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport}}
+\DoxyCodeLine{39 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// EPROSIMA\_USER\_DLL\_EXPORT}}
+\DoxyCodeLine{40 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{41 \textcolor{preprocessor}{\#define eProsima\_user\_DllExport}}
+\DoxyCodeLine{42 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// \_WIN32}}
+\DoxyCodeLine{43 }
+\DoxyCodeLine{44 \textcolor{preprocessor}{\#if defined(\_WIN32)}}
+\DoxyCodeLine{45 \textcolor{preprocessor}{\#if defined(EPROSIMA\_USER\_DLL\_EXPORT)}}
+\DoxyCodeLine{46 \textcolor{preprocessor}{\#if defined(ThrustTorqueCommand\_SOURCE)}}
+\DoxyCodeLine{47 \textcolor{preprocessor}{\#define ThrustTorqueCommand\_DllAPI \_\_declspec( dllexport )}}
+\DoxyCodeLine{48 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{49 \textcolor{preprocessor}{\#define ThrustTorqueCommand\_DllAPI \_\_declspec( dllimport )}}
+\DoxyCodeLine{50 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// ThrustTorqueCommand\_SOURCE}}
+\DoxyCodeLine{51 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{52 \textcolor{preprocessor}{\#define ThrustTorqueCommand\_DllAPI}}
+\DoxyCodeLine{53 \textcolor{preprocessor}{\#endif  }\textcolor{comment}{// EPROSIMA\_USER\_DLL\_EXPORT}}
+\DoxyCodeLine{54 \textcolor{preprocessor}{\#else}}
+\DoxyCodeLine{55 \textcolor{preprocessor}{\#define ThrustTorqueCommand\_DllAPI}}
+\DoxyCodeLine{56 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_WIN32}}
+\DoxyCodeLine{57 }
+\DoxyCodeLine{58 \textcolor{keyword}{namespace }eprosima \{}
+\DoxyCodeLine{59 \textcolor{keyword}{namespace }fastcdr \{}
+\DoxyCodeLine{60 \textcolor{keyword}{class }Cdr;}
+\DoxyCodeLine{61 \} \textcolor{comment}{// namespace fastcdr}}
+\DoxyCodeLine{62 \} \textcolor{comment}{// namespace eprosima}}
+\DoxyCodeLine{63 }
+\DoxyCodeLine{64 }
+\DoxyCodeLine{65 \textcolor{keyword}{namespace }idl\_msg \{}
+\DoxyCodeLine{70     \textcolor{keyword}{class }\mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command}{ThrustTorqueCommand}}}
+\DoxyCodeLine{71     \{}
+\DoxyCodeLine{72     \textcolor{keyword}{public}:}
+\DoxyCodeLine{73 }
+\DoxyCodeLine{77         eProsima\_user\_DllExport \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command_a1168ae0edeabffda9c3a98c117f4e2ba}{ThrustTorqueCommand}}();}
+\DoxyCodeLine{78 }
+\DoxyCodeLine{82         eProsima\_user\_DllExport \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command_a3eae41e3c8bdbf115ab46ff5de26d92e}{\string~ThrustTorqueCommand}}();}
+\DoxyCodeLine{83 }
+\DoxyCodeLine{88         eProsima\_user\_DllExport \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command_a1168ae0edeabffda9c3a98c117f4e2ba}{ThrustTorqueCommand}}(}
+\DoxyCodeLine{89                 \textcolor{keyword}{const} \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command}{ThrustTorqueCommand}}\& x);}
+\DoxyCodeLine{90 }
+\DoxyCodeLine{95         eProsima\_user\_DllExport \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command_a1168ae0edeabffda9c3a98c117f4e2ba}{ThrustTorqueCommand}}(}
+\DoxyCodeLine{96                 \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command}{ThrustTorqueCommand}}\&\& x);}
+\DoxyCodeLine{97 }
+\DoxyCodeLine{102         eProsima\_user\_DllExport \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command}{ThrustTorqueCommand}}\& \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command_a83c2d627118e30d8e45200cdb408e0bc}{operator =}}(}
+\DoxyCodeLine{103                 \textcolor{keyword}{const} \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command}{ThrustTorqueCommand}}\& x);}
+\DoxyCodeLine{104 }
+\DoxyCodeLine{109         eProsima\_user\_DllExport \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command}{ThrustTorqueCommand}}\& \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command_a83c2d627118e30d8e45200cdb408e0bc}{operator =}}(}
+\DoxyCodeLine{110                 \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command}{ThrustTorqueCommand}}\&\& x);}
+\DoxyCodeLine{111 }
+\DoxyCodeLine{116         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command_a3dd0ea22b364bd03f863448441fd0d14}{header}}(}
+\DoxyCodeLine{117                 \textcolor{keyword}{const} \mbox{\hyperlink{classidl__msg_1_1_header}{idl\_msg::Header}}\& \_header);}
+\DoxyCodeLine{118 }
+\DoxyCodeLine{123         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command_a3dd0ea22b364bd03f863448441fd0d14}{header}}(}
+\DoxyCodeLine{124                 \mbox{\hyperlink{classidl__msg_1_1_header}{idl\_msg::Header}}\&\& \_header);}
+\DoxyCodeLine{125 }
+\DoxyCodeLine{130         eProsima\_user\_DllExport \textcolor{keyword}{const} \mbox{\hyperlink{classidl__msg_1_1_header}{idl\_msg::Header}}\& \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command_a3dd0ea22b364bd03f863448441fd0d14}{header}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{131 }
+\DoxyCodeLine{136         eProsima\_user\_DllExport \mbox{\hyperlink{classidl__msg_1_1_header}{idl\_msg::Header}}\& \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command_a3dd0ea22b364bd03f863448441fd0d14}{header}}();}
+\DoxyCodeLine{141         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command_af72d7db4228347977f0d63884c92e4d4}{thrust}}(}
+\DoxyCodeLine{142                 \textcolor{keywordtype}{float} \_thrust);}
+\DoxyCodeLine{143 }
+\DoxyCodeLine{148         eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command_af72d7db4228347977f0d63884c92e4d4}{thrust}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{149 }
+\DoxyCodeLine{154         eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command_af72d7db4228347977f0d63884c92e4d4}{thrust}}();}
+\DoxyCodeLine{155 }
+\DoxyCodeLine{160         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command_a33d13c0104604e2eb7b32ee6ccf73206}{roll\_torque}}(}
+\DoxyCodeLine{161                 \textcolor{keywordtype}{float} \_roll\_torque);}
+\DoxyCodeLine{162 }
+\DoxyCodeLine{167         eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command_a33d13c0104604e2eb7b32ee6ccf73206}{roll\_torque}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{168 }
+\DoxyCodeLine{173         eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command_a33d13c0104604e2eb7b32ee6ccf73206}{roll\_torque}}();}
+\DoxyCodeLine{174 }
+\DoxyCodeLine{179         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command_af95b42052c305d5022e6aef953966dbd}{pitch\_torque}}(}
+\DoxyCodeLine{180                 \textcolor{keywordtype}{float} \_pitch\_torque);}
+\DoxyCodeLine{181 }
+\DoxyCodeLine{186         eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command_af95b42052c305d5022e6aef953966dbd}{pitch\_torque}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{187 }
+\DoxyCodeLine{192         eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command_af95b42052c305d5022e6aef953966dbd}{pitch\_torque}}();}
+\DoxyCodeLine{193 }
+\DoxyCodeLine{198         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command_a89810243c244e521d0e2721fba7c6c84}{yaw\_torque}}(}
+\DoxyCodeLine{199                 \textcolor{keywordtype}{float} \_yaw\_torque);}
+\DoxyCodeLine{200 }
+\DoxyCodeLine{205         eProsima\_user\_DllExport \textcolor{keywordtype}{float} \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command_a89810243c244e521d0e2721fba7c6c84}{yaw\_torque}}() \textcolor{keyword}{const};}
+\DoxyCodeLine{206 }
+\DoxyCodeLine{211         eProsima\_user\_DllExport \textcolor{keywordtype}{float}\& \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command_a89810243c244e521d0e2721fba7c6c84}{yaw\_torque}}();}
+\DoxyCodeLine{212 }
+\DoxyCodeLine{213 }
+\DoxyCodeLine{220         eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command_a39574134348a8cd749ff24b69c029755}{getMaxCdrSerializedSize}}(}
+\DoxyCodeLine{221                 \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{222 }
+\DoxyCodeLine{229         eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command_ab9da48317c7c87be4238ee6297f7f7e6}{getCdrSerializedSize}}(}
+\DoxyCodeLine{230                 \textcolor{keyword}{const} \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command}{idl\_msg::ThrustTorqueCommand}}\& data,}
+\DoxyCodeLine{231                 \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{232 }
+\DoxyCodeLine{233 }
+\DoxyCodeLine{238         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command_ac3d15e321c6d4f57a9aab086e903dd45}{serialize}}(}
+\DoxyCodeLine{239                 eprosima::fastcdr::Cdr\& cdr) \textcolor{keyword}{const};}
+\DoxyCodeLine{240 }
+\DoxyCodeLine{245         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command_a2d52e2bebd4df132e3130610c8a614e7}{deserialize}}(}
+\DoxyCodeLine{246                 eprosima::fastcdr::Cdr\& cdr);}
+\DoxyCodeLine{247 }
+\DoxyCodeLine{248 }
+\DoxyCodeLine{249 }
+\DoxyCodeLine{256         eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{size\_t} \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command_af0a1c35deb7c91d7c8b4f85cb0894c1b}{getKeyMaxCdrSerializedSize}}(}
+\DoxyCodeLine{257                 \textcolor{keywordtype}{size\_t} current\_alignment = 0);}
+\DoxyCodeLine{258 }
+\DoxyCodeLine{262         eProsima\_user\_DllExport \textcolor{keyword}{static} \textcolor{keywordtype}{bool} \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command_a15449c331525747b2d8fd58921f1bb15}{isKeyDefined}}();}
+\DoxyCodeLine{263 }
+\DoxyCodeLine{268         eProsima\_user\_DllExport \textcolor{keywordtype}{void} \mbox{\hyperlink{classidl__msg_1_1_thrust_torque_command_a50f49057df9fbe5685f52e24d7333731}{serializeKey}}(}
+\DoxyCodeLine{269                 eprosima::fastcdr::Cdr\& cdr) \textcolor{keyword}{const};}
+\DoxyCodeLine{270 }
+\DoxyCodeLine{271     \textcolor{keyword}{private}:}
+\DoxyCodeLine{272 }
+\DoxyCodeLine{273         \mbox{\hyperlink{classidl__msg_1_1_header}{idl\_msg::Header}} m\_header;}
+\DoxyCodeLine{274         \textcolor{keywordtype}{float} m\_thrust;}
+\DoxyCodeLine{275         \textcolor{keywordtype}{float} m\_roll\_torque;}
+\DoxyCodeLine{276         \textcolor{keywordtype}{float} m\_pitch\_torque;}
+\DoxyCodeLine{277         \textcolor{keywordtype}{float} m\_yaw\_torque;}
+\DoxyCodeLine{278     \};}
+\DoxyCodeLine{279 \} \textcolor{comment}{// namespace idl\_msg}}
+\DoxyCodeLine{280 }
+\DoxyCodeLine{281 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// \_IDL\_MSG\_THRUSTTORQUECOMMAND\_H\_}}
+
+\end{DoxyCode}

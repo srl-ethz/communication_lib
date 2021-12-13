@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structcpp__msg_1_1_velocity" kind="struct" language="C++" prot="public">
+    <compoundname>cpp_msg::Velocity</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcpp__msg_1_1_velocity_1a0353da591d0b1868bdcf93cbc89807fa" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float cpp_msg::Velocity::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs/msgs/Velocity.h" line="7" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs/msgs/Velocity.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcpp__msg_1_1_velocity_1aae75972e7eba1aae6d35a68f7a97b0d5" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float cpp_msg::Velocity::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs/msgs/Velocity.h" line="8" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs/msgs/Velocity.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcpp__msg_1_1_velocity_1a46340273fc5022dae6331717c45e1f94" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float cpp_msg::Velocity::z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs/msgs/Velocity.h" line="9" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs/msgs/Velocity.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs/msgs/Velocity.h" line="5" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs/msgs/Velocity.h" bodystart="5" bodyend="10"/>
+    <listofallmembers>
+      <member refid="structcpp__msg_1_1_velocity_1a0353da591d0b1868bdcf93cbc89807fa" prot="public" virt="non-virtual"><scope>cpp_msg::Velocity</scope><name>x</name></member>
+      <member refid="structcpp__msg_1_1_velocity_1aae75972e7eba1aae6d35a68f7a97b0d5" prot="public" virt="non-virtual"><scope>cpp_msg::Velocity</scope><name>y</name></member>
+      <member refid="structcpp__msg_1_1_velocity_1a46340273fc5022dae6331717c45e1f94" prot="public" virt="non-virtual"><scope>cpp_msg::Velocity</scope><name>z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

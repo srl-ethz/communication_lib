@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
-  <compounddef id="classidl__msg_1_1_quad_velocity_cmd" kind="class" language="C++" prot="public">
+  <compounddef id="classidl__msg_1_1_quad_velocity_cmd" kind="struct" language="C++" prot="public">
     <compoundname>idl_msg::QuadVelocityCmd</compoundname>
-    <includes refid="_quad_velocity_cmd_8h" local="no">QuadVelocityCmd.h</includes>
+    <includes refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_quad_velocity_cmd_8h" local="no">QuadVelocityCmd.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classidl__msg_1_1_quad_velocity_cmd_1a2454220a96fb1f448884f7b2aacbc9a8" prot="private" static="no" mutable="no">
         <type><ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref></type>
@@ -42,6 +42,116 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.h" line="244" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.h" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classidl__msg_1_1_quad_velocity_cmd_1a7e64968fffd3f7490fb0d47f9cb969ba" prot="public" static="no" mutable="no">
+        <type><ref refid="classidl__msg_1_1_header" kindref="compound">Header</ref></type>
+        <definition>idl_msg::Header &amp; idl_msg::QuadVelocityCmd::header</definition>
+        <argsstring></argsstring>
+        <name>header</name>
+        <briefdescription>
+<para>This function copies the value in member header. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns a reference to member header.</para>
+<para>This function returns a constant reference to member header.</para>
+<para>This function moves the value in member header.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_header</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member header</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_header</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member header</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Constant reference to member header</para>
+</simplesect>
+<simplesect kind="return"><para>Reference to member header </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/QuadVelocityCmd.idl" line="10" column="10" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/QuadVelocityCmd.idl" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classidl__msg_1_1_quad_velocity_cmd_1a0a3620590732901604a41585b46b1d50" prot="public" static="no" mutable="no">
+        <type><ref refid="classidl__msg_1_1_velocity" kindref="compound">Velocity</ref></type>
+        <definition>idl_msg::Velocity &amp; idl_msg::QuadVelocityCmd::velocity</definition>
+        <argsstring></argsstring>
+        <name>velocity</name>
+        <briefdescription>
+<para>This function copies the value in member velocity. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns a reference to member velocity.</para>
+<para>This function returns a constant reference to member velocity.</para>
+<para>This function moves the value in member velocity.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_velocity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member velocity</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_velocity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member velocity</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Constant reference to member velocity</para>
+</simplesect>
+<simplesect kind="return"><para>Reference to member velocity </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/QuadVelocityCmd.idl" line="12" column="12" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/QuadVelocityCmd.idl" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classidl__msg_1_1_quad_velocity_cmd_1aade77b54ef1c5bd38809fe62bc0a8d36" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float &amp; idl_msg::QuadVelocityCmd::yaw_rate</definition>
+        <argsstring></argsstring>
+        <name>yaw_rate</name>
+        <briefdescription>
+<para>This function sets a value in member yaw_rate. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns a reference to member yaw_rate.</para>
+<para>This function returns the value of member yaw_rate.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_yaw_rate</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member yaw_rate</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Value of member yaw_rate</para>
+</simplesect>
+<simplesect kind="return"><para>Reference to member yaw_rate </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/QuadVelocityCmd.idl" line="14" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/QuadVelocityCmd.idl" bodystart="14" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -185,9 +295,9 @@
         </inbodydescription>
         <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.h" line="110" column="49" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.cxx" bodystart="82" bodyend="91"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quad_velocity_cmd_1adf9c63a4d02c09f894317503e61bb220" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quad_velocity_cmd_1a631399d8eca33ab567e9817342a7d35d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::QuadVelocityCmd::header</definition>
+        <definition>eProsima_user_DllExport void idl_msg::QuadVelocityCmd::header</definition>
         <argsstring>(const idl_msg::Header &amp;_header)</argsstring>
         <name>header</name>
         <param>
@@ -211,11 +321,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.h" line="117" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.cxx" bodystart="148" bodyend="152"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.h" line="117" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quad_velocity_cmd_1af72a1f0b3f8ff26138fd3a68a5d5052d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quad_velocity_cmd_1a957955027d0c9b46b8b5ae39616d9a98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::QuadVelocityCmd::header</definition>
+        <definition>eProsima_user_DllExport void idl_msg::QuadVelocityCmd::header</definition>
         <argsstring>(idl_msg::Header &amp;&amp;_header)</argsstring>
         <name>header</name>
         <param>
@@ -239,11 +349,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.h" line="124" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.cxx" bodystart="158" bodyend="162"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.h" line="124" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quad_velocity_cmd_1a2466d039488529580db38153298e1b34" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quad_velocity_cmd_1aa196815e3fc59eb3df296d99a2aa549f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport const <ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref> &amp;</type>
-        <definition>const idl_msg::Header &amp; idl_msg::QuadVelocityCmd::header</definition>
+        <definition>eProsima_user_DllExport const idl_msg::Header &amp; idl_msg::QuadVelocityCmd::header</definition>
         <argsstring>() const</argsstring>
         <name>header</name>
         <briefdescription>
@@ -256,11 +366,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.h" line="131" column="55" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.cxx" bodystart="168" bodyend="171"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.h" line="131" column="55"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quad_velocity_cmd_1a83565385737f2e4bffc4e6807afb6079" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quad_velocity_cmd_1aeaf61b3119a68da701c77f9b18801137" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport <ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref> &amp;</type>
-        <definition>idl_msg::Header &amp; idl_msg::QuadVelocityCmd::header</definition>
+        <definition>eProsima_user_DllExport idl_msg::Header &amp; idl_msg::QuadVelocityCmd::header</definition>
         <argsstring>()</argsstring>
         <name>header</name>
         <briefdescription>
@@ -273,11 +383,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.h" line="137" column="49" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.cxx" bodystart="177" bodyend="180"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.h" line="137" column="49"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quad_velocity_cmd_1a9665a5954f2c7a05b2f594d178da8586" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quad_velocity_cmd_1adb337b7d7020abec29318a7d5df73e71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::QuadVelocityCmd::velocity</definition>
+        <definition>eProsima_user_DllExport void idl_msg::QuadVelocityCmd::velocity</definition>
         <argsstring>(const idl_msg::Velocity &amp;_velocity)</argsstring>
         <name>velocity</name>
         <param>
@@ -301,11 +411,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.h" line="142" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.cxx" bodystart="185" bodyend="189"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.h" line="142" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quad_velocity_cmd_1aa4acd30683eb5056c5b73c091324b578" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quad_velocity_cmd_1ad3a323644c66a2725b7ed32ed3e20773" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::QuadVelocityCmd::velocity</definition>
+        <definition>eProsima_user_DllExport void idl_msg::QuadVelocityCmd::velocity</definition>
         <argsstring>(idl_msg::Velocity &amp;&amp;_velocity)</argsstring>
         <name>velocity</name>
         <param>
@@ -329,11 +439,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.h" line="149" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.cxx" bodystart="195" bodyend="199"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.h" line="149" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quad_velocity_cmd_1aa65148dbecd419e7a4446422789feb4e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quad_velocity_cmd_1ad61ef56be0bfc05272de2e193d81c140" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport const <ref refid="classidl__msg_1_1_velocity" kindref="compound">idl_msg::Velocity</ref> &amp;</type>
-        <definition>const idl_msg::Velocity &amp; idl_msg::QuadVelocityCmd::velocity</definition>
+        <definition>eProsima_user_DllExport const idl_msg::Velocity &amp; idl_msg::QuadVelocityCmd::velocity</definition>
         <argsstring>() const</argsstring>
         <name>velocity</name>
         <briefdescription>
@@ -346,11 +456,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.h" line="156" column="57" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.cxx" bodystart="205" bodyend="208"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.h" line="156" column="57"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quad_velocity_cmd_1a7e7640236824373fbbba523bd95a1836" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quad_velocity_cmd_1ad01eef4d75419d2bfdcfc71bb4c05e97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport <ref refid="classidl__msg_1_1_velocity" kindref="compound">idl_msg::Velocity</ref> &amp;</type>
-        <definition>idl_msg::Velocity &amp; idl_msg::QuadVelocityCmd::velocity</definition>
+        <definition>eProsima_user_DllExport idl_msg::Velocity &amp; idl_msg::QuadVelocityCmd::velocity</definition>
         <argsstring>()</argsstring>
         <name>velocity</name>
         <briefdescription>
@@ -363,11 +473,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.h" line="162" column="51" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.cxx" bodystart="214" bodyend="217"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.h" line="162" column="51"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quad_velocity_cmd_1a6648d2dc1fb31498f3d7ee39a02b16be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quad_velocity_cmd_1a143dacc94d3991e5531f3accac402653" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::QuadVelocityCmd::yaw_rate</definition>
+        <definition>eProsima_user_DllExport void idl_msg::QuadVelocityCmd::yaw_rate</definition>
         <argsstring>(float _yaw_rate)</argsstring>
         <name>yaw_rate</name>
         <param>
@@ -391,11 +501,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.h" line="167" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.cxx" bodystart="222" bodyend="226"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.h" line="167" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quad_velocity_cmd_1a37297014ccbd6a26e560599b7ef141b5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quad_velocity_cmd_1ab7c46cdf5c168dc805d1401dc403e2fd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float</type>
-        <definition>float idl_msg::QuadVelocityCmd::yaw_rate</definition>
+        <definition>eProsima_user_DllExport float idl_msg::QuadVelocityCmd::yaw_rate</definition>
         <argsstring>() const</argsstring>
         <name>yaw_rate</name>
         <briefdescription>
@@ -408,11 +518,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.h" line="174" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.cxx" bodystart="232" bodyend="235"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.h" line="174" column="39"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quad_velocity_cmd_1abd24168b8fcc783280f6b8cfd9ec7cba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quad_velocity_cmd_1a963a48b8a24f1d3c2159be0a75e6611d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float &amp;</type>
-        <definition>float &amp; idl_msg::QuadVelocityCmd::yaw_rate</definition>
+        <definition>eProsima_user_DllExport float &amp; idl_msg::QuadVelocityCmd::yaw_rate</definition>
         <argsstring>()</argsstring>
         <name>yaw_rate</name>
         <briefdescription>
@@ -425,7 +535,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.h" line="180" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.cxx" bodystart="241" bodyend="244"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.h" line="180" column="39"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quad_velocity_cmd_1aee733554be5185fe63b66333ff6dd465" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
@@ -638,16 +748,37 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>idl_msg::Header</label>
+        <link refid="classidl__msg_1_1_header"/>
+      </node>
+      <node id="1">
+        <label>idl_msg::QuadVelocityCmd</label>
+        <link refid="classidl__msg_1_1_quad_velocity_cmd"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>header</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>velocity</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>idl_msg::Velocity</label>
+        <link refid="classidl__msg_1_1_velocity"/>
+      </node>
+    </collaborationgraph>
     <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.h" line="71" column="5" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadVelocityCmd.h" bodystart="72" bodyend="245"/>
     <listofallmembers>
       <member refid="classidl__msg_1_1_quad_velocity_cmd_1a0ec0acd9feac75b9d11db4e4d1ebbb1d" prot="public" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>deserialize</name></member>
       <member refid="classidl__msg_1_1_quad_velocity_cmd_1a787f39bcb00a602d15e46f9c8d741768" prot="public" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>getCdrSerializedSize</name></member>
       <member refid="classidl__msg_1_1_quad_velocity_cmd_1ac4a5afb82ebfe704b4a63bdea113d461" prot="public" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>getKeyMaxCdrSerializedSize</name></member>
       <member refid="classidl__msg_1_1_quad_velocity_cmd_1a33719137540e116f312f0e3cb49bc5be" prot="public" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>getMaxCdrSerializedSize</name></member>
-      <member refid="classidl__msg_1_1_quad_velocity_cmd_1adf9c63a4d02c09f894317503e61bb220" prot="public" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>header</name></member>
-      <member refid="classidl__msg_1_1_quad_velocity_cmd_1af72a1f0b3f8ff26138fd3a68a5d5052d" prot="public" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>header</name></member>
-      <member refid="classidl__msg_1_1_quad_velocity_cmd_1a2466d039488529580db38153298e1b34" prot="public" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>header</name></member>
-      <member refid="classidl__msg_1_1_quad_velocity_cmd_1a83565385737f2e4bffc4e6807afb6079" prot="public" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>header</name></member>
+      <member refid="classidl__msg_1_1_quad_velocity_cmd_1a7e64968fffd3f7490fb0d47f9cb969ba" prot="public" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>header</name></member>
+      <member refid="classidl__msg_1_1_quad_velocity_cmd_1a631399d8eca33ab567e9817342a7d35d" prot="public" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>header</name></member>
+      <member refid="classidl__msg_1_1_quad_velocity_cmd_1a957955027d0c9b46b8b5ae39616d9a98" prot="public" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>header</name></member>
+      <member refid="classidl__msg_1_1_quad_velocity_cmd_1aa196815e3fc59eb3df296d99a2aa549f" prot="public" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>header</name></member>
+      <member refid="classidl__msg_1_1_quad_velocity_cmd_1aeaf61b3119a68da701c77f9b18801137" prot="public" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>header</name></member>
       <member refid="classidl__msg_1_1_quad_velocity_cmd_1a320ba124a6fb22783a6589b200bbe0c2" prot="public" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>isKeyDefined</name></member>
       <member refid="classidl__msg_1_1_quad_velocity_cmd_1a2454220a96fb1f448884f7b2aacbc9a8" prot="private" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>m_header</name></member>
       <member refid="classidl__msg_1_1_quad_velocity_cmd_1a3bf612333c26459fb4bca27958189802" prot="private" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>m_velocity</name></member>
@@ -659,13 +790,15 @@
       <member refid="classidl__msg_1_1_quad_velocity_cmd_1adbbd7b309ac41e8082cd51746a2f9b05" prot="public" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>QuadVelocityCmd</name></member>
       <member refid="classidl__msg_1_1_quad_velocity_cmd_1aee733554be5185fe63b66333ff6dd465" prot="public" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>serialize</name></member>
       <member refid="classidl__msg_1_1_quad_velocity_cmd_1a9a68e46937768590c35a7f300ec78054" prot="public" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>serializeKey</name></member>
-      <member refid="classidl__msg_1_1_quad_velocity_cmd_1a9665a5954f2c7a05b2f594d178da8586" prot="public" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>velocity</name></member>
-      <member refid="classidl__msg_1_1_quad_velocity_cmd_1aa4acd30683eb5056c5b73c091324b578" prot="public" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>velocity</name></member>
-      <member refid="classidl__msg_1_1_quad_velocity_cmd_1aa65148dbecd419e7a4446422789feb4e" prot="public" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>velocity</name></member>
-      <member refid="classidl__msg_1_1_quad_velocity_cmd_1a7e7640236824373fbbba523bd95a1836" prot="public" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>velocity</name></member>
-      <member refid="classidl__msg_1_1_quad_velocity_cmd_1a6648d2dc1fb31498f3d7ee39a02b16be" prot="public" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>yaw_rate</name></member>
-      <member refid="classidl__msg_1_1_quad_velocity_cmd_1a37297014ccbd6a26e560599b7ef141b5" prot="public" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>yaw_rate</name></member>
-      <member refid="classidl__msg_1_1_quad_velocity_cmd_1abd24168b8fcc783280f6b8cfd9ec7cba" prot="public" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>yaw_rate</name></member>
+      <member refid="classidl__msg_1_1_quad_velocity_cmd_1a0a3620590732901604a41585b46b1d50" prot="public" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>velocity</name></member>
+      <member refid="classidl__msg_1_1_quad_velocity_cmd_1adb337b7d7020abec29318a7d5df73e71" prot="public" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>velocity</name></member>
+      <member refid="classidl__msg_1_1_quad_velocity_cmd_1ad3a323644c66a2725b7ed32ed3e20773" prot="public" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>velocity</name></member>
+      <member refid="classidl__msg_1_1_quad_velocity_cmd_1ad61ef56be0bfc05272de2e193d81c140" prot="public" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>velocity</name></member>
+      <member refid="classidl__msg_1_1_quad_velocity_cmd_1ad01eef4d75419d2bfdcfc71bb4c05e97" prot="public" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>velocity</name></member>
+      <member refid="classidl__msg_1_1_quad_velocity_cmd_1aade77b54ef1c5bd38809fe62bc0a8d36" prot="public" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>yaw_rate</name></member>
+      <member refid="classidl__msg_1_1_quad_velocity_cmd_1a143dacc94d3991e5531f3accac402653" prot="public" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>yaw_rate</name></member>
+      <member refid="classidl__msg_1_1_quad_velocity_cmd_1ab7c46cdf5c168dc805d1401dc403e2fd" prot="public" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>yaw_rate</name></member>
+      <member refid="classidl__msg_1_1_quad_velocity_cmd_1a963a48b8a24f1d3c2159be0a75e6611d" prot="public" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>yaw_rate</name></member>
       <member refid="classidl__msg_1_1_quad_velocity_cmd_1aaedcfe1bb576cc01b83ef71a6aef5afa" prot="public" virt="non-virtual"><scope>idl_msg::QuadVelocityCmd</scope><name>~QuadVelocityCmd</name></member>
     </listofallmembers>
   </compounddef>

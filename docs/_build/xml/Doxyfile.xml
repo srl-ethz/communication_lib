@@ -117,6 +117,7 @@
   <option  id='WARN_LOGFILE' default='yes' type='string'><value><![CDATA[]]></value></option>
   <option  id='INPUT' default='no' type='stringlist'>
     <value><![CDATA[/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib]]></value>
+    <value><![CDATA[/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib]]></value>
   </option>
   <option  id='INPUT_ENCODING' default='yes' type='string'><value><![CDATA[UTF-8]]></value></option>
   <option  id='FILE_PATTERNS' default='yes' type='stringlist'>

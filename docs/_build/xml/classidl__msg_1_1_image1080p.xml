@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
-  <compounddef id="classidl__msg_1_1_image1080p" kind="class" language="C++" prot="public">
+  <compounddef id="classidl__msg_1_1_image1080p" kind="struct" language="C++" prot="public">
     <compoundname>idl_msg::Image1080p</compoundname>
-    <includes refid="_image1080p_8h" local="no">Image1080p.h</includes>
+    <includes refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_image1080p_8h" local="no">Image1080p.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classidl__msg_1_1_image1080p_1a07dc05a8cf5e88d26339092d751911ef" prot="private" static="no" mutable="no">
         <type><ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref></type>
@@ -29,6 +29,86 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image1080p.h" line="223" column="20" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image1080p.h" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classidl__msg_1_1_image1080p_1a8f7edb97ed7f9293487f149029a66827" prot="public" static="no" mutable="no">
+        <type><ref refid="classidl__msg_1_1_header" kindref="compound">Header</ref></type>
+        <definition>idl_msg::Header &amp; idl_msg::Image1080p::header</definition>
+        <argsstring></argsstring>
+        <name>header</name>
+        <briefdescription>
+<para>This function copies the value in member header. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns a reference to member header.</para>
+<para>This function returns a constant reference to member header.</para>
+<para>This function moves the value in member header.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_header</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member header</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_header</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member header</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Constant reference to member header</para>
+</simplesect>
+<simplesect kind="return"><para>Reference to member header </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Image1080p.idl" line="9" column="10" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Image1080p.idl" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classidl__msg_1_1_image1080p_1a2c354e08bb4261f9693bde3aed565d6f" prot="public" static="no" mutable="no">
+        <type>octet</type>
+        <definition>std::array&lt; uint8_t, 1920 *1080 *3 &gt; &amp; idl_msg::Image1080p::frame</definition>
+        <argsstring>[1920 *1080 *3]</argsstring>
+        <name>frame</name>
+        <briefdescription>
+<para>This function copies the value in member frame. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns a reference to member frame.</para>
+<para>This function returns a constant reference to member frame.</para>
+<para>This function moves the value in member frame.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_frame</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member frame</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_frame</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member frame</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Constant reference to member frame</para>
+</simplesect>
+<simplesect kind="return"><para>Reference to member frame </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Image1080p.idl" line="11" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Image1080p.idl" bodystart="11" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -172,9 +252,9 @@
         </inbodydescription>
         <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image1080p.h" line="109" column="44" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image1080p.cxx" bodystart="76" bodyend="84"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_image1080p_1a20cb5635d38012abf68af01c2982a70e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_image1080p_1a986c7adc2302fdd5538cd68c6e731846" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::Image1080p::header</definition>
+        <definition>eProsima_user_DllExport void idl_msg::Image1080p::header</definition>
         <argsstring>(const idl_msg::Header &amp;_header)</argsstring>
         <name>header</name>
         <param>
@@ -198,11 +278,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image1080p.h" line="116" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image1080p.cxx" bodystart="141" bodyend="145"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image1080p.h" line="116" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_image1080p_1a8a49b7f2ac6e259569747e65db119782" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_image1080p_1ab01bdc74b4616ef01fb8b111ffb01dc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::Image1080p::header</definition>
+        <definition>eProsima_user_DllExport void idl_msg::Image1080p::header</definition>
         <argsstring>(idl_msg::Header &amp;&amp;_header)</argsstring>
         <name>header</name>
         <param>
@@ -226,11 +306,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image1080p.h" line="123" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image1080p.cxx" bodystart="151" bodyend="155"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image1080p.h" line="123" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_image1080p_1a6c77e12a9b480132b6912d01cef88aa3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_image1080p_1a15065556604a587252c6ef648226cbe0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport const <ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref> &amp;</type>
-        <definition>const idl_msg::Header &amp; idl_msg::Image1080p::header</definition>
+        <definition>eProsima_user_DllExport const idl_msg::Header &amp; idl_msg::Image1080p::header</definition>
         <argsstring>() const</argsstring>
         <name>header</name>
         <briefdescription>
@@ -243,11 +323,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image1080p.h" line="130" column="55" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image1080p.cxx" bodystart="161" bodyend="164"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image1080p.h" line="130" column="55"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_image1080p_1a07b0c911fa53719c14794c8965cac5ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_image1080p_1a3aeb7ecaee870557700989e4498b8ebb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport <ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref> &amp;</type>
-        <definition>idl_msg::Header &amp; idl_msg::Image1080p::header</definition>
+        <definition>eProsima_user_DllExport idl_msg::Header &amp; idl_msg::Image1080p::header</definition>
         <argsstring>()</argsstring>
         <name>header</name>
         <briefdescription>
@@ -260,11 +340,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image1080p.h" line="136" column="49" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image1080p.cxx" bodystart="170" bodyend="173"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image1080p.h" line="136" column="49"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_image1080p_1ae23bca8bbe290957f1e7b19ac6e30491" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_image1080p_1af9ca2466a7192ae2bce34b74065fb772" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::Image1080p::frame</definition>
+        <definition>eProsima_user_DllExport void idl_msg::Image1080p::frame</definition>
         <argsstring>(const std::array&lt; uint8_t, 1920 *1080 *3 &gt; &amp;_frame)</argsstring>
         <name>frame</name>
         <param>
@@ -288,11 +368,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image1080p.h" line="141" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image1080p.cxx" bodystart="178" bodyend="182"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image1080p.h" line="141" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_image1080p_1a4d9c35a6e5b2bfdeaaa0db501b68f713" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_image1080p_1a50bf112deae93b053adacbfba2d0bbce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::Image1080p::frame</definition>
+        <definition>eProsima_user_DllExport void idl_msg::Image1080p::frame</definition>
         <argsstring>(std::array&lt; uint8_t, 1920 *1080 *3 &gt; &amp;&amp;_frame)</argsstring>
         <name>frame</name>
         <param>
@@ -316,11 +396,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image1080p.h" line="148" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image1080p.cxx" bodystart="188" bodyend="192"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image1080p.h" line="148" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_image1080p_1a780396b59c33a4e3d9b22d6e8766496b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_image1080p_1a2324637532073912a8ff27818c7025a7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport const std::array&lt; uint8_t, 1920 *1080 *3 &gt; &amp;</type>
-        <definition>const std::array&lt; uint8_t, 1920 *1080 *3 &gt; &amp; idl_msg::Image1080p::frame</definition>
+        <definition>eProsima_user_DllExport const std::array&lt; uint8_t, 1920 *1080 *3 &gt; &amp; idl_msg::Image1080p::frame</definition>
         <argsstring>() const</argsstring>
         <name>frame</name>
         <briefdescription>
@@ -333,11 +413,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image1080p.h" line="155" column="50" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image1080p.cxx" bodystart="198" bodyend="201"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image1080p.h" line="155" column="50"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_image1080p_1a8c56ff1a1fb8b55a5ff2f5ad9465fbcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_image1080p_1a19526d5d08d3a7f191f1fe3716c75bb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport std::array&lt; uint8_t, 1920 *1080 *3 &gt; &amp;</type>
-        <definition>std::array&lt; uint8_t, 1920 *1080 *3 &gt; &amp; idl_msg::Image1080p::frame</definition>
+        <definition>eProsima_user_DllExport std::array&lt; uint8_t, 1920 *1080 *3 &gt; &amp; idl_msg::Image1080p::frame</definition>
         <argsstring>()</argsstring>
         <name>frame</name>
         <briefdescription>
@@ -350,7 +430,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image1080p.h" line="161" column="44" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image1080p.cxx" bodystart="207" bodyend="210"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image1080p.h" line="161" column="44"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_image1080p_1ac86fe90b6b0e0bc64cc5679353352824" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
@@ -563,20 +643,35 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>idl_msg::Header</label>
+        <link refid="classidl__msg_1_1_header"/>
+      </node>
+      <node id="1">
+        <label>idl_msg::Image1080p</label>
+        <link refid="classidl__msg_1_1_image1080p"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>header</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
     <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image1080p.h" line="70" column="5" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Image1080p.h" bodystart="71" bodyend="224"/>
     <listofallmembers>
       <member refid="classidl__msg_1_1_image1080p_1a0b94e7472cb23f2f79aed379105e0598" prot="public" virt="non-virtual"><scope>idl_msg::Image1080p</scope><name>deserialize</name></member>
-      <member refid="classidl__msg_1_1_image1080p_1ae23bca8bbe290957f1e7b19ac6e30491" prot="public" virt="non-virtual"><scope>idl_msg::Image1080p</scope><name>frame</name></member>
-      <member refid="classidl__msg_1_1_image1080p_1a4d9c35a6e5b2bfdeaaa0db501b68f713" prot="public" virt="non-virtual"><scope>idl_msg::Image1080p</scope><name>frame</name></member>
-      <member refid="classidl__msg_1_1_image1080p_1a780396b59c33a4e3d9b22d6e8766496b" prot="public" virt="non-virtual"><scope>idl_msg::Image1080p</scope><name>frame</name></member>
-      <member refid="classidl__msg_1_1_image1080p_1a8c56ff1a1fb8b55a5ff2f5ad9465fbcb" prot="public" virt="non-virtual"><scope>idl_msg::Image1080p</scope><name>frame</name></member>
+      <member refid="classidl__msg_1_1_image1080p_1a2c354e08bb4261f9693bde3aed565d6f" prot="public" virt="non-virtual"><scope>idl_msg::Image1080p</scope><name>frame</name></member>
+      <member refid="classidl__msg_1_1_image1080p_1af9ca2466a7192ae2bce34b74065fb772" prot="public" virt="non-virtual"><scope>idl_msg::Image1080p</scope><name>frame</name></member>
+      <member refid="classidl__msg_1_1_image1080p_1a50bf112deae93b053adacbfba2d0bbce" prot="public" virt="non-virtual"><scope>idl_msg::Image1080p</scope><name>frame</name></member>
+      <member refid="classidl__msg_1_1_image1080p_1a2324637532073912a8ff27818c7025a7" prot="public" virt="non-virtual"><scope>idl_msg::Image1080p</scope><name>frame</name></member>
+      <member refid="classidl__msg_1_1_image1080p_1a19526d5d08d3a7f191f1fe3716c75bb5" prot="public" virt="non-virtual"><scope>idl_msg::Image1080p</scope><name>frame</name></member>
       <member refid="classidl__msg_1_1_image1080p_1a600bd4863d0c68bc1452f124849cf6f9" prot="public" virt="non-virtual"><scope>idl_msg::Image1080p</scope><name>getCdrSerializedSize</name></member>
       <member refid="classidl__msg_1_1_image1080p_1a348128ca6a8dc499d8ab77302b2aa59e" prot="public" virt="non-virtual"><scope>idl_msg::Image1080p</scope><name>getKeyMaxCdrSerializedSize</name></member>
       <member refid="classidl__msg_1_1_image1080p_1aee9130204465d504cfd72c4a2cc21770" prot="public" virt="non-virtual"><scope>idl_msg::Image1080p</scope><name>getMaxCdrSerializedSize</name></member>
-      <member refid="classidl__msg_1_1_image1080p_1a20cb5635d38012abf68af01c2982a70e" prot="public" virt="non-virtual"><scope>idl_msg::Image1080p</scope><name>header</name></member>
-      <member refid="classidl__msg_1_1_image1080p_1a8a49b7f2ac6e259569747e65db119782" prot="public" virt="non-virtual"><scope>idl_msg::Image1080p</scope><name>header</name></member>
-      <member refid="classidl__msg_1_1_image1080p_1a6c77e12a9b480132b6912d01cef88aa3" prot="public" virt="non-virtual"><scope>idl_msg::Image1080p</scope><name>header</name></member>
-      <member refid="classidl__msg_1_1_image1080p_1a07b0c911fa53719c14794c8965cac5ae" prot="public" virt="non-virtual"><scope>idl_msg::Image1080p</scope><name>header</name></member>
+      <member refid="classidl__msg_1_1_image1080p_1a8f7edb97ed7f9293487f149029a66827" prot="public" virt="non-virtual"><scope>idl_msg::Image1080p</scope><name>header</name></member>
+      <member refid="classidl__msg_1_1_image1080p_1a986c7adc2302fdd5538cd68c6e731846" prot="public" virt="non-virtual"><scope>idl_msg::Image1080p</scope><name>header</name></member>
+      <member refid="classidl__msg_1_1_image1080p_1ab01bdc74b4616ef01fb8b111ffb01dc6" prot="public" virt="non-virtual"><scope>idl_msg::Image1080p</scope><name>header</name></member>
+      <member refid="classidl__msg_1_1_image1080p_1a15065556604a587252c6ef648226cbe0" prot="public" virt="non-virtual"><scope>idl_msg::Image1080p</scope><name>header</name></member>
+      <member refid="classidl__msg_1_1_image1080p_1a3aeb7ecaee870557700989e4498b8ebb" prot="public" virt="non-virtual"><scope>idl_msg::Image1080p</scope><name>header</name></member>
       <member refid="classidl__msg_1_1_image1080p_1aeae53057468d0c0bd33a70b3336e9690" prot="public" virt="non-virtual"><scope>idl_msg::Image1080p</scope><name>Image1080p</name></member>
       <member refid="classidl__msg_1_1_image1080p_1ab79345cf7b894981816a63ea57083b42" prot="public" virt="non-virtual"><scope>idl_msg::Image1080p</scope><name>Image1080p</name></member>
       <member refid="classidl__msg_1_1_image1080p_1ac5064f6a57b6d85547b9f3f238c4cd8b" prot="public" virt="non-virtual"><scope>idl_msg::Image1080p</scope><name>Image1080p</name></member>

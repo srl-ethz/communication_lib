@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_203823a8e538456e0702d54030061ec3" kind="dir">
+    <compoundname>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/sensor_msgs/msgs</compoundname>
+    <innerfile refid="msgs__lib_2cpp__msgs_2basic__msgs_2sensor__msgs_2msgs_2_image1080p_8h">Image1080p.h</innerfile>
+    <innerfile refid="msgs__lib_2cpp__msgs_2basic__msgs_2sensor__msgs_2msgs_2_image720p_8h">Image720p.h</innerfile>
+    <innerfile refid="msgs__lib_2cpp__msgs_2basic__msgs_2sensor__msgs_2msgs_2_mocap_8h">Mocap.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/sensor_msgs/msgs/"/>
+  </compounddef>
+</doxygen>

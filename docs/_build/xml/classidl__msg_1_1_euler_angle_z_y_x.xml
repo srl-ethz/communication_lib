@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
-  <compounddef id="classidl__msg_1_1_euler_angle_z_y_x" kind="class" language="C++" prot="public">
+  <compounddef id="classidl__msg_1_1_euler_angle_z_y_x" kind="struct" language="C++" prot="public">
     <compoundname>idl_msg::EulerAngleZYX</compoundname>
-    <includes refid="_euler_angle_z_y_x_8h" local="no">EulerAngleZYX.h</includes>
+    <includes refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_euler_angle_z_y_x_8h" local="no">EulerAngleZYX.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classidl__msg_1_1_euler_angle_z_y_x_1a88f474d6b8ccb8e56ae9ec9b48b26e7f" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -42,6 +42,98 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/EulerAngleZYX.h" line="230" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/EulerAngleZYX.h" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classidl__msg_1_1_euler_angle_z_y_x_1ad734ad48d945f264a8d064c6480c81eb" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float &amp; idl_msg::EulerAngleZYX::roll</definition>
+        <argsstring></argsstring>
+        <name>roll</name>
+        <briefdescription>
+<para>This function sets a value in member roll. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns a reference to member roll.</para>
+<para>This function returns the value of member roll.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_roll</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member roll</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Value of member roll</para>
+</simplesect>
+<simplesect kind="return"><para>Reference to member roll </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/EulerAngleZYX.idl" line="7" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/EulerAngleZYX.idl" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classidl__msg_1_1_euler_angle_z_y_x_1a082d4575c2e6fd4974e59077c42d80bb" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float &amp; idl_msg::EulerAngleZYX::pitch</definition>
+        <argsstring></argsstring>
+        <name>pitch</name>
+        <briefdescription>
+<para>This function sets a value in member pitch. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns a reference to member pitch.</para>
+<para>This function returns the value of member pitch.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_pitch</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member pitch</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Value of member pitch</para>
+</simplesect>
+<simplesect kind="return"><para>Reference to member pitch </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/EulerAngleZYX.idl" line="8" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/EulerAngleZYX.idl" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classidl__msg_1_1_euler_angle_z_y_x_1a7ab43f2dc5934dfe73a93d5eba40c3eb" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float &amp; idl_msg::EulerAngleZYX::yaw</definition>
+        <argsstring></argsstring>
+        <name>yaw</name>
+        <briefdescription>
+<para>This function sets a value in member yaw. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns a reference to member yaw.</para>
+<para>This function returns the value of member yaw.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_yaw</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member yaw</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Value of member yaw</para>
+</simplesect>
+<simplesect kind="return"><para>Reference to member yaw </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/EulerAngleZYX.idl" line="9" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/EulerAngleZYX.idl" bodystart="9" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -185,9 +277,9 @@
         </inbodydescription>
         <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/EulerAngleZYX.h" line="108" column="47" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/EulerAngleZYX.cxx" bodystart="82" bodyend="91"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_euler_angle_z_y_x_1a0296460cba6ff4c7464fcb86cfe1742d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_euler_angle_z_y_x_1aa3d1d4f6de3fd5abc82fc2d5987d9613" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::EulerAngleZYX::roll</definition>
+        <definition>eProsima_user_DllExport void idl_msg::EulerAngleZYX::roll</definition>
         <argsstring>(float _roll)</argsstring>
         <name>roll</name>
         <param>
@@ -211,11 +303,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/EulerAngleZYX.h" line="115" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/EulerAngleZYX.cxx" bodystart="156" bodyend="160"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/EulerAngleZYX.h" line="115" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_euler_angle_z_y_x_1a802e0cbd73ef4a562cbf86a26ca9c886" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_euler_angle_z_y_x_1abc8e126f703f8e55f01c228c42a197ad" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float</type>
-        <definition>float idl_msg::EulerAngleZYX::roll</definition>
+        <definition>eProsima_user_DllExport float idl_msg::EulerAngleZYX::roll</definition>
         <argsstring>() const</argsstring>
         <name>roll</name>
         <briefdescription>
@@ -228,11 +320,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/EulerAngleZYX.h" line="122" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/EulerAngleZYX.cxx" bodystart="166" bodyend="169"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/EulerAngleZYX.h" line="122" column="39"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_euler_angle_z_y_x_1a7d5ae499ea7d50eaea0a6718de2f6b93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_euler_angle_z_y_x_1a8f9d9cb720feb45f02d4b965d52a5dab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float &amp;</type>
-        <definition>float &amp; idl_msg::EulerAngleZYX::roll</definition>
+        <definition>eProsima_user_DllExport float &amp; idl_msg::EulerAngleZYX::roll</definition>
         <argsstring>()</argsstring>
         <name>roll</name>
         <briefdescription>
@@ -245,11 +337,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/EulerAngleZYX.h" line="128" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/EulerAngleZYX.cxx" bodystart="175" bodyend="178"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/EulerAngleZYX.h" line="128" column="39"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_euler_angle_z_y_x_1a3df58f1b4bbdc983ac7990ea5bb8f3e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_euler_angle_z_y_x_1ad85fc39fe3beea3e08a3c56a7d87b5f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::EulerAngleZYX::pitch</definition>
+        <definition>eProsima_user_DllExport void idl_msg::EulerAngleZYX::pitch</definition>
         <argsstring>(float _pitch)</argsstring>
         <name>pitch</name>
         <param>
@@ -273,11 +365,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/EulerAngleZYX.h" line="134" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/EulerAngleZYX.cxx" bodystart="184" bodyend="188"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/EulerAngleZYX.h" line="134" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_euler_angle_z_y_x_1a9238d2cd23ad6da403d829d8dd99614b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_euler_angle_z_y_x_1af03f0d32337d3121dc15a1853c4cc351" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float</type>
-        <definition>float idl_msg::EulerAngleZYX::pitch</definition>
+        <definition>eProsima_user_DllExport float idl_msg::EulerAngleZYX::pitch</definition>
         <argsstring>() const</argsstring>
         <name>pitch</name>
         <briefdescription>
@@ -290,11 +382,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/EulerAngleZYX.h" line="141" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/EulerAngleZYX.cxx" bodystart="194" bodyend="197"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/EulerAngleZYX.h" line="141" column="39"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_euler_angle_z_y_x_1a1edb6c817f71f43293cd093c816fd8f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_euler_angle_z_y_x_1a215291044bd5880f0183a262d9ba3b00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float &amp;</type>
-        <definition>float &amp; idl_msg::EulerAngleZYX::pitch</definition>
+        <definition>eProsima_user_DllExport float &amp; idl_msg::EulerAngleZYX::pitch</definition>
         <argsstring>()</argsstring>
         <name>pitch</name>
         <briefdescription>
@@ -307,11 +399,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/EulerAngleZYX.h" line="147" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/EulerAngleZYX.cxx" bodystart="203" bodyend="206"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/EulerAngleZYX.h" line="147" column="39"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_euler_angle_z_y_x_1ab36174989968a02abeae0f25f4539104" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_euler_angle_z_y_x_1af605384f1418293698c0c15c0cdbaf61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::EulerAngleZYX::yaw</definition>
+        <definition>eProsima_user_DllExport void idl_msg::EulerAngleZYX::yaw</definition>
         <argsstring>(float _yaw)</argsstring>
         <name>yaw</name>
         <param>
@@ -335,11 +427,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/EulerAngleZYX.h" line="153" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/EulerAngleZYX.cxx" bodystart="212" bodyend="216"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/EulerAngleZYX.h" line="153" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_euler_angle_z_y_x_1a2bc740f4f0ed8bf67d100e040289fca6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_euler_angle_z_y_x_1a3cd205f7e1aff107bde591efee69ca98" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float</type>
-        <definition>float idl_msg::EulerAngleZYX::yaw</definition>
+        <definition>eProsima_user_DllExport float idl_msg::EulerAngleZYX::yaw</definition>
         <argsstring>() const</argsstring>
         <name>yaw</name>
         <briefdescription>
@@ -352,11 +444,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/EulerAngleZYX.h" line="160" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/EulerAngleZYX.cxx" bodystart="222" bodyend="225"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/EulerAngleZYX.h" line="160" column="39"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_euler_angle_z_y_x_1a23b8aff66f0cc011746622c28ac5e721" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_euler_angle_z_y_x_1ae21d06452f88ffa9ba27ea3a9339b8e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float &amp;</type>
-        <definition>float &amp; idl_msg::EulerAngleZYX::yaw</definition>
+        <definition>eProsima_user_DllExport float &amp; idl_msg::EulerAngleZYX::yaw</definition>
         <argsstring>()</argsstring>
         <name>yaw</name>
         <briefdescription>
@@ -369,7 +461,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/EulerAngleZYX.h" line="166" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/EulerAngleZYX.cxx" bodystart="231" bodyend="234"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/EulerAngleZYX.h" line="166" column="39"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_euler_angle_z_y_x_1ab34f8e8904f7cf8f3cf75da1626414ba" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
@@ -597,17 +689,20 @@
       <member refid="classidl__msg_1_1_euler_angle_z_y_x_1aa0edead45e55194a7ea885b0da0f739b" prot="private" virt="non-virtual"><scope>idl_msg::EulerAngleZYX</scope><name>m_yaw</name></member>
       <member refid="classidl__msg_1_1_euler_angle_z_y_x_1a945692c29ade0ced02504c9427680c0e" prot="public" virt="non-virtual"><scope>idl_msg::EulerAngleZYX</scope><name>operator=</name></member>
       <member refid="classidl__msg_1_1_euler_angle_z_y_x_1a9dc97b52b655aa156583f5a0be1b56c9" prot="public" virt="non-virtual"><scope>idl_msg::EulerAngleZYX</scope><name>operator=</name></member>
-      <member refid="classidl__msg_1_1_euler_angle_z_y_x_1a3df58f1b4bbdc983ac7990ea5bb8f3e5" prot="public" virt="non-virtual"><scope>idl_msg::EulerAngleZYX</scope><name>pitch</name></member>
-      <member refid="classidl__msg_1_1_euler_angle_z_y_x_1a9238d2cd23ad6da403d829d8dd99614b" prot="public" virt="non-virtual"><scope>idl_msg::EulerAngleZYX</scope><name>pitch</name></member>
-      <member refid="classidl__msg_1_1_euler_angle_z_y_x_1a1edb6c817f71f43293cd093c816fd8f5" prot="public" virt="non-virtual"><scope>idl_msg::EulerAngleZYX</scope><name>pitch</name></member>
-      <member refid="classidl__msg_1_1_euler_angle_z_y_x_1a0296460cba6ff4c7464fcb86cfe1742d" prot="public" virt="non-virtual"><scope>idl_msg::EulerAngleZYX</scope><name>roll</name></member>
-      <member refid="classidl__msg_1_1_euler_angle_z_y_x_1a802e0cbd73ef4a562cbf86a26ca9c886" prot="public" virt="non-virtual"><scope>idl_msg::EulerAngleZYX</scope><name>roll</name></member>
-      <member refid="classidl__msg_1_1_euler_angle_z_y_x_1a7d5ae499ea7d50eaea0a6718de2f6b93" prot="public" virt="non-virtual"><scope>idl_msg::EulerAngleZYX</scope><name>roll</name></member>
+      <member refid="classidl__msg_1_1_euler_angle_z_y_x_1a082d4575c2e6fd4974e59077c42d80bb" prot="public" virt="non-virtual"><scope>idl_msg::EulerAngleZYX</scope><name>pitch</name></member>
+      <member refid="classidl__msg_1_1_euler_angle_z_y_x_1ad85fc39fe3beea3e08a3c56a7d87b5f2" prot="public" virt="non-virtual"><scope>idl_msg::EulerAngleZYX</scope><name>pitch</name></member>
+      <member refid="classidl__msg_1_1_euler_angle_z_y_x_1af03f0d32337d3121dc15a1853c4cc351" prot="public" virt="non-virtual"><scope>idl_msg::EulerAngleZYX</scope><name>pitch</name></member>
+      <member refid="classidl__msg_1_1_euler_angle_z_y_x_1a215291044bd5880f0183a262d9ba3b00" prot="public" virt="non-virtual"><scope>idl_msg::EulerAngleZYX</scope><name>pitch</name></member>
+      <member refid="classidl__msg_1_1_euler_angle_z_y_x_1ad734ad48d945f264a8d064c6480c81eb" prot="public" virt="non-virtual"><scope>idl_msg::EulerAngleZYX</scope><name>roll</name></member>
+      <member refid="classidl__msg_1_1_euler_angle_z_y_x_1aa3d1d4f6de3fd5abc82fc2d5987d9613" prot="public" virt="non-virtual"><scope>idl_msg::EulerAngleZYX</scope><name>roll</name></member>
+      <member refid="classidl__msg_1_1_euler_angle_z_y_x_1abc8e126f703f8e55f01c228c42a197ad" prot="public" virt="non-virtual"><scope>idl_msg::EulerAngleZYX</scope><name>roll</name></member>
+      <member refid="classidl__msg_1_1_euler_angle_z_y_x_1a8f9d9cb720feb45f02d4b965d52a5dab" prot="public" virt="non-virtual"><scope>idl_msg::EulerAngleZYX</scope><name>roll</name></member>
       <member refid="classidl__msg_1_1_euler_angle_z_y_x_1ab34f8e8904f7cf8f3cf75da1626414ba" prot="public" virt="non-virtual"><scope>idl_msg::EulerAngleZYX</scope><name>serialize</name></member>
       <member refid="classidl__msg_1_1_euler_angle_z_y_x_1aeb14d8ed8e48019e712e089a47aa7915" prot="public" virt="non-virtual"><scope>idl_msg::EulerAngleZYX</scope><name>serializeKey</name></member>
-      <member refid="classidl__msg_1_1_euler_angle_z_y_x_1ab36174989968a02abeae0f25f4539104" prot="public" virt="non-virtual"><scope>idl_msg::EulerAngleZYX</scope><name>yaw</name></member>
-      <member refid="classidl__msg_1_1_euler_angle_z_y_x_1a2bc740f4f0ed8bf67d100e040289fca6" prot="public" virt="non-virtual"><scope>idl_msg::EulerAngleZYX</scope><name>yaw</name></member>
-      <member refid="classidl__msg_1_1_euler_angle_z_y_x_1a23b8aff66f0cc011746622c28ac5e721" prot="public" virt="non-virtual"><scope>idl_msg::EulerAngleZYX</scope><name>yaw</name></member>
+      <member refid="classidl__msg_1_1_euler_angle_z_y_x_1a7ab43f2dc5934dfe73a93d5eba40c3eb" prot="public" virt="non-virtual"><scope>idl_msg::EulerAngleZYX</scope><name>yaw</name></member>
+      <member refid="classidl__msg_1_1_euler_angle_z_y_x_1af605384f1418293698c0c15c0cdbaf61" prot="public" virt="non-virtual"><scope>idl_msg::EulerAngleZYX</scope><name>yaw</name></member>
+      <member refid="classidl__msg_1_1_euler_angle_z_y_x_1a3cd205f7e1aff107bde591efee69ca98" prot="public" virt="non-virtual"><scope>idl_msg::EulerAngleZYX</scope><name>yaw</name></member>
+      <member refid="classidl__msg_1_1_euler_angle_z_y_x_1ae21d06452f88ffa9ba27ea3a9339b8e9" prot="public" virt="non-virtual"><scope>idl_msg::EulerAngleZYX</scope><name>yaw</name></member>
       <member refid="classidl__msg_1_1_euler_angle_z_y_x_1aee91f150cdd7cb0bc4827a0690875391" prot="public" virt="non-virtual"><scope>idl_msg::EulerAngleZYX</scope><name>~EulerAngleZYX</name></member>
     </listofallmembers>
   </compounddef>

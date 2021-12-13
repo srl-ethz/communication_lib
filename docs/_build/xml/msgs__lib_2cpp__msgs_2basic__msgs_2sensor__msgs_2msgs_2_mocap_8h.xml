@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="msgs__lib_2cpp__msgs_2basic__msgs_2sensor__msgs_2msgs_2_mocap_8h" kind="file" language="C++">
+    <compoundname>Mocap.h</compoundname>
+    <includes refid="msgs__lib_2cpp__msgs_2basic__msgs_2geometry__msgs_2msgs_2_pose_8h" local="yes">geometry_msgs/msgs/Pose.h</includes>
+    <includes refid="msgs__lib_2cpp__msgs_2basic__msgs_2std__msgs_2msgs_2_header_8h" local="yes">std_msgs/msgs/Header.h</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>EulerAngleZYX.h</label>
+        <link refid="msgs__lib_2cpp__msgs_2basic__msgs_2geometry__msgs_2msgs_2_euler_angle_z_y_x_8h_source"/>
+      </node>
+      <node id="2">
+        <label>geometry_msgs/msgs/Pose.h</label>
+        <link refid="msgs__lib_2cpp__msgs_2basic__msgs_2geometry__msgs_2msgs_2_pose_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Position.h</label>
+        <link refid="msgs__lib_2cpp__msgs_2basic__msgs_2geometry__msgs_2msgs_2_position_8h_source"/>
+      </node>
+      <node id="5">
+        <label>Quaternion.h</label>
+        <link refid="msgs__lib_2cpp__msgs_2basic__msgs_2geometry__msgs_2msgs_2_quaternion_8h_source"/>
+      </node>
+      <node id="1">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/sensor_msgs/msgs/Mocap.h</label>
+        <link refid="msgs__lib_2cpp__msgs_2basic__msgs_2sensor__msgs_2msgs_2_mocap_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>std_msgs/msgs/Header.h</label>
+        <link refid="msgs__lib_2cpp__msgs_2basic__msgs_2std__msgs_2msgs_2_header_8h_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>string</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structcpp__msg_1_1_mocap" prot="public">cpp_msg::Mocap</innerclass>
+    <innernamespace refid="namespacecpp__msg">cpp_msg</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;geometry_msgs/msgs/Pose.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;std_msgs/msgs/Header.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">cpp_msg<sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="structcpp__msg_1_1_mocap" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structcpp__msg_1_1_mocap" kindref="compound">Mocap</ref><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><ref refid="structcpp__msg_1_1_header" kindref="compound">Header</ref><sp/>header;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><ref refid="structcpp__msg_1_1_pose" kindref="compound">Pose</ref><sp/>pose;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>latency;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>cpp_msg</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/sensor_msgs/msgs/Mocap.h"/>
+  </compounddef>
+</doxygen>

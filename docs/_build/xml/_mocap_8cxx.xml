@@ -2,14 +2,14 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="_mocap_8cxx" kind="file" language="C++">
     <compoundname>Mocap.cxx</compoundname>
-    <includes refid="_mocap_8h" local="yes">Mocap.h</includes>
+    <includes refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_mocap_8h" local="yes">Mocap.h</includes>
     <includes local="no">fastcdr/Cdr.h</includes>
     <includes local="no">fastcdr/exceptions/BadParamException.h</includes>
     <includes local="no">utility</includes>
     <incdepgraph>
       <node id="11">
         <label>EulerAngleZYX.h</label>
-        <link refid="_euler_angle_z_y_x_8h"/>
+        <link refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_euler_angle_z_y_x_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
@@ -25,7 +25,7 @@
       </node>
       <node id="3">
         <label>Header.h</label>
-        <link refid="_header_8h"/>
+        <link refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_header_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
@@ -53,7 +53,7 @@
       </node>
       <node id="2">
         <label>Mocap.h</label>
-        <link refid="_mocap_8h"/>
+        <link refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_mocap_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
@@ -73,7 +73,7 @@
       </node>
       <node id="10">
         <label>Pose.h</label>
-        <link refid="_pose_8h"/>
+        <link refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_pose_8h"/>
         <childnode refid="11" relation="include">
         </childnode>
         <childnode refid="3" relation="include">
@@ -97,7 +97,7 @@
       </node>
       <node id="12">
         <label>Position.h</label>
-        <link refid="_position_8h"/>
+        <link refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_position_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
@@ -113,7 +113,7 @@
       </node>
       <node id="13">
         <label>Quaternion.h</label>
-        <link refid="_quaternion_8h"/>
+        <link refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_quaternion_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
@@ -181,7 +181,7 @@
 <codeline lineno="26"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>_WIN32</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_mocap_8h" kindref="compound">Mocap.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Mocap.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fastcdr/Cdr.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fastcdr/exceptions/BadParamException.h&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -268,8 +268,8 @@
 <codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>initial_alignment<sp/>=<sp/>current_alignment;</highlight></codeline>
 <codeline lineno="114"><highlight class="normal"></highlight></codeline>
 <codeline lineno="115"><highlight class="normal"></highlight></codeline>
-<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>current_alignment<sp/>+=<sp/><ref refid="classidl__msg_1_1_header_1a32ec7d95fc4157731f6bc9ea537a7be7" kindref="member">idl_msg::Header::getCdrSerializedSize</ref>(data.<ref refid="classidl__msg_1_1_mocap_1a8884866d924830db9fd64813448d8aa6" kindref="member">header</ref>(),<sp/>current_alignment);</highlight></codeline>
-<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>current_alignment<sp/>+=<sp/><ref refid="classidl__msg_1_1_pose_1a4650486a05a2b818e8086ec9ebc7f689" kindref="member">idl_msg::Pose::getCdrSerializedSize</ref>(data.<ref refid="classidl__msg_1_1_mocap_1a01c43c5e0440d0b4fb22c240777a98ed" kindref="member">pose</ref>(),<sp/>current_alignment);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>current_alignment<sp/>+=<sp/><ref refid="classidl__msg_1_1_header_1a32ec7d95fc4157731f6bc9ea537a7be7" kindref="member">idl_msg::Header::getCdrSerializedSize</ref>(data.<ref refid="classidl__msg_1_1_mocap_1adec07a63f3a3463ba09ffe60347e94fe" kindref="member">header</ref>(),<sp/>current_alignment);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>current_alignment<sp/>+=<sp/><ref refid="classidl__msg_1_1_pose_1a4650486a05a2b818e8086ec9ebc7f689" kindref="member">idl_msg::Pose::getCdrSerializedSize</ref>(data.<ref refid="classidl__msg_1_1_mocap_1a9d124c1b3cb19a3fa69689d168ad6817" kindref="member">pose</ref>(),<sp/>current_alignment);</highlight></codeline>
 <codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>current_alignment<sp/>+=<sp/>4<sp/>+<sp/>eprosima::fastcdr::Cdr::alignment(current_alignment,<sp/>4);</highlight></codeline>
 <codeline lineno="119"><highlight class="normal"></highlight></codeline>
 <codeline lineno="120"><highlight class="normal"></highlight></codeline>
@@ -296,60 +296,60 @@
 <codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>dcdr<sp/>&gt;&gt;<sp/>m_latency;</highlight></codeline>
 <codeline lineno="142"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="143"><highlight class="normal"></highlight></codeline>
-<codeline lineno="148"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_mocap_1a3eaa04429464b673d4e7c3a0fdb267d1" kindref="member">idl_msg::Mocap::header</ref>(</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_mocap_1adec07a63f3a3463ba09ffe60347e94fe" kindref="member">idl_msg::Mocap::header</ref>(</highlight></codeline>
 <codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref>&amp;<sp/>_header)</highlight></codeline>
 <codeline lineno="150"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>m_header<sp/>=<sp/>_header;</highlight></codeline>
 <codeline lineno="152"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="153"><highlight class="normal"></highlight></codeline>
-<codeline lineno="158"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_mocap_1a3eaa04429464b673d4e7c3a0fdb267d1" kindref="member">idl_msg::Mocap::header</ref>(</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_mocap_1adec07a63f3a3463ba09ffe60347e94fe" kindref="member">idl_msg::Mocap::header</ref>(</highlight></codeline>
 <codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref>&amp;&amp;<sp/>_header)</highlight></codeline>
 <codeline lineno="160"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>m_header<sp/>=<sp/>std::move(_header);</highlight></codeline>
 <codeline lineno="162"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="163"><highlight class="normal"></highlight></codeline>
-<codeline lineno="168"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref>&amp;<sp/><ref refid="classidl__msg_1_1_mocap_1a3eaa04429464b673d4e7c3a0fdb267d1" kindref="member">idl_msg::Mocap::header</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref>&amp;<sp/><ref refid="classidl__msg_1_1_mocap_1adec07a63f3a3463ba09ffe60347e94fe" kindref="member">idl_msg::Mocap::header</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="169"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_header;</highlight></codeline>
 <codeline lineno="171"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="172"><highlight class="normal"></highlight></codeline>
-<codeline lineno="177"><highlight class="normal"><ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref>&amp;<sp/><ref refid="classidl__msg_1_1_mocap_1a3eaa04429464b673d4e7c3a0fdb267d1" kindref="member">idl_msg::Mocap::header</ref>()</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref>&amp;<sp/><ref refid="classidl__msg_1_1_mocap_1adec07a63f3a3463ba09ffe60347e94fe" kindref="member">idl_msg::Mocap::header</ref>()</highlight></codeline>
 <codeline lineno="178"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_header;</highlight></codeline>
 <codeline lineno="180"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="185"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_mocap_1a946d87730dbe2b32341159fbfdd8e613" kindref="member">idl_msg::Mocap::pose</ref>(</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_mocap_1a9d124c1b3cb19a3fa69689d168ad6817" kindref="member">idl_msg::Mocap::pose</ref>(</highlight></codeline>
 <codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_pose" kindref="compound">idl_msg::Pose</ref>&amp;<sp/>_pose)</highlight></codeline>
 <codeline lineno="187"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pose<sp/>=<sp/>_pose;</highlight></codeline>
 <codeline lineno="189"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="190"><highlight class="normal"></highlight></codeline>
-<codeline lineno="195"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_mocap_1a946d87730dbe2b32341159fbfdd8e613" kindref="member">idl_msg::Mocap::pose</ref>(</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_mocap_1a9d124c1b3cb19a3fa69689d168ad6817" kindref="member">idl_msg::Mocap::pose</ref>(</highlight></codeline>
 <codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classidl__msg_1_1_pose" kindref="compound">idl_msg::Pose</ref>&amp;&amp;<sp/>_pose)</highlight></codeline>
 <codeline lineno="197"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pose<sp/>=<sp/>std::move(_pose);</highlight></codeline>
 <codeline lineno="199"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="200"><highlight class="normal"></highlight></codeline>
-<codeline lineno="205"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_pose" kindref="compound">idl_msg::Pose</ref>&amp;<sp/><ref refid="classidl__msg_1_1_mocap_1a946d87730dbe2b32341159fbfdd8e613" kindref="member">idl_msg::Mocap::pose</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_pose" kindref="compound">idl_msg::Pose</ref>&amp;<sp/><ref refid="classidl__msg_1_1_mocap_1a9d124c1b3cb19a3fa69689d168ad6817" kindref="member">idl_msg::Mocap::pose</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="206"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_pose;</highlight></codeline>
 <codeline lineno="208"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="209"><highlight class="normal"></highlight></codeline>
-<codeline lineno="214"><highlight class="normal"><ref refid="classidl__msg_1_1_pose" kindref="compound">idl_msg::Pose</ref>&amp;<sp/><ref refid="classidl__msg_1_1_mocap_1a946d87730dbe2b32341159fbfdd8e613" kindref="member">idl_msg::Mocap::pose</ref>()</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><ref refid="classidl__msg_1_1_pose" kindref="compound">idl_msg::Pose</ref>&amp;<sp/><ref refid="classidl__msg_1_1_mocap_1a9d124c1b3cb19a3fa69689d168ad6817" kindref="member">idl_msg::Mocap::pose</ref>()</highlight></codeline>
 <codeline lineno="215"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_pose;</highlight></codeline>
 <codeline lineno="217"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="222"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_mocap_1ad56712a38ae24dd64f35ef7fa6d6cb47" kindref="member">idl_msg::Mocap::latency</ref>(</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_mocap_1ab848426ea36b9ca89fa3e64f3176325d" kindref="member">idl_msg::Mocap::latency</ref>(</highlight></codeline>
 <codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_latency)</highlight></codeline>
 <codeline lineno="224"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/>m_latency<sp/>=<sp/>_latency;</highlight></codeline>
 <codeline lineno="226"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="227"><highlight class="normal"></highlight></codeline>
-<codeline lineno="232"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_mocap_1ad56712a38ae24dd64f35ef7fa6d6cb47" kindref="member">idl_msg::Mocap::latency</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_mocap_1ab848426ea36b9ca89fa3e64f3176325d" kindref="member">idl_msg::Mocap::latency</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="233"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_latency;</highlight></codeline>
 <codeline lineno="235"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="236"><highlight class="normal"></highlight></codeline>
-<codeline lineno="241"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&amp;<sp/><ref refid="classidl__msg_1_1_mocap_1ad56712a38ae24dd64f35ef7fa6d6cb47" kindref="member">idl_msg::Mocap::latency</ref>()</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&amp;<sp/><ref refid="classidl__msg_1_1_mocap_1ab848426ea36b9ca89fa3e64f3176325d" kindref="member">idl_msg::Mocap::latency</ref>()</highlight></codeline>
 <codeline lineno="242"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_latency;</highlight></codeline>
 <codeline lineno="244"><highlight class="normal">}</highlight></codeline>

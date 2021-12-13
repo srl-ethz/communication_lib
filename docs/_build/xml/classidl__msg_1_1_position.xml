@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
-  <compounddef id="classidl__msg_1_1_position" kind="class" language="C++" prot="public">
+  <compounddef id="classidl__msg_1_1_position" kind="struct" language="C++" prot="public">
     <compoundname>idl_msg::Position</compoundname>
-    <includes refid="_position_8h" local="no">Position.h</includes>
+    <includes refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_position_8h" local="no">Position.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classidl__msg_1_1_position_1aa8f2db8b5646674cb7236453cabf6d87" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -42,6 +42,98 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="230" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classidl__msg_1_1_position_1a53249d8c3e7c76c7059411dd109e3d2f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float &amp; idl_msg::Position::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+<para>This function sets a value in member x. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns a reference to member x.</para>
+<para>This function returns the value of member x.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member x</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Value of member x</para>
+</simplesect>
+<simplesect kind="return"><para>Reference to member x </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Position.idl" line="7" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Position.idl" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classidl__msg_1_1_position_1ae06de56d3463cdee74aca5726ae82162" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float &amp; idl_msg::Position::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+<para>This function sets a value in member y. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns a reference to member y.</para>
+<para>This function returns the value of member y.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member y</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Value of member y</para>
+</simplesect>
+<simplesect kind="return"><para>Reference to member y </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Position.idl" line="8" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Position.idl" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classidl__msg_1_1_position_1ad03aae46e6e86c5d053ca498948d5ccd" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float &amp; idl_msg::Position::z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <briefdescription>
+<para>This function sets a value in member z. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns a reference to member z.</para>
+<para>This function returns the value of member z.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_z</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member z</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Value of member z</para>
+</simplesect>
+<simplesect kind="return"><para>Reference to member z </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Position.idl" line="9" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Position.idl" bodystart="9" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -185,9 +277,9 @@
         </inbodydescription>
         <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="108" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.cxx" bodystart="82" bodyend="91"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_position_1ad53e1f3e806984b2568676d8823ccf2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_position_1adaf19e331609724b8065b31bacb76fb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::Position::x</definition>
+        <definition>eProsima_user_DllExport void idl_msg::Position::x</definition>
         <argsstring>(float _x)</argsstring>
         <name>x</name>
         <param>
@@ -211,11 +303,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="115" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.cxx" bodystart="156" bodyend="160"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="115" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_position_1a6721fdb7690aafdc059957d4837f91b3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_position_1a7ca3a71eb82fc129a5f508c9b1948f9f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float</type>
-        <definition>float idl_msg::Position::x</definition>
+        <definition>eProsima_user_DllExport float idl_msg::Position::x</definition>
         <argsstring>() const</argsstring>
         <name>x</name>
         <briefdescription>
@@ -228,11 +320,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="122" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.cxx" bodystart="166" bodyend="169"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="122" column="39"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_position_1a56bbd0d230b42811cfe4e1659f18bbfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_position_1a08575b9ea1e01ad7ff1318ffa098ec06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float &amp;</type>
-        <definition>float &amp; idl_msg::Position::x</definition>
+        <definition>eProsima_user_DllExport float &amp; idl_msg::Position::x</definition>
         <argsstring>()</argsstring>
         <name>x</name>
         <briefdescription>
@@ -245,11 +337,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="128" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.cxx" bodystart="175" bodyend="178"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="128" column="39"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_position_1afb3bfe6ffe704669acd3e034183f88b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_position_1a3db4c2c1f30ab8f50931d61508b4529f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::Position::y</definition>
+        <definition>eProsima_user_DllExport void idl_msg::Position::y</definition>
         <argsstring>(float _y)</argsstring>
         <name>y</name>
         <param>
@@ -273,11 +365,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="134" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.cxx" bodystart="184" bodyend="188"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="134" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_position_1acf23ab296f2ba54568312ca81a79c929" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_position_1a153241cf8db6228be51a918fb6237961" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float</type>
-        <definition>float idl_msg::Position::y</definition>
+        <definition>eProsima_user_DllExport float idl_msg::Position::y</definition>
         <argsstring>() const</argsstring>
         <name>y</name>
         <briefdescription>
@@ -290,11 +382,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="141" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.cxx" bodystart="194" bodyend="197"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="141" column="39"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_position_1a2a22d6b1272449b92b2b307ef142c395" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_position_1aa9c029edaf73ede00ff175cb7c3744e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float &amp;</type>
-        <definition>float &amp; idl_msg::Position::y</definition>
+        <definition>eProsima_user_DllExport float &amp; idl_msg::Position::y</definition>
         <argsstring>()</argsstring>
         <name>y</name>
         <briefdescription>
@@ -307,11 +399,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="147" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.cxx" bodystart="203" bodyend="206"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="147" column="39"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_position_1adecff8bb9c42d586a6aca8459f079709" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_position_1a5d8489a56d3a5a274c3a9674fda08198" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::Position::z</definition>
+        <definition>eProsima_user_DllExport void idl_msg::Position::z</definition>
         <argsstring>(float _z)</argsstring>
         <name>z</name>
         <param>
@@ -335,11 +427,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="153" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.cxx" bodystart="212" bodyend="216"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="153" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_position_1a70a1f3f5723b097bdc4f874915b837f4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_position_1a8d4117a5bd36542b2c185ca66a56d42a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float</type>
-        <definition>float idl_msg::Position::z</definition>
+        <definition>eProsima_user_DllExport float idl_msg::Position::z</definition>
         <argsstring>() const</argsstring>
         <name>z</name>
         <briefdescription>
@@ -352,11 +444,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="160" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.cxx" bodystart="222" bodyend="225"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="160" column="39"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_position_1ab8678ed5c07e937b246e92a9fadd1606" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_position_1a806b98104ce124c0743e047066732d33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float &amp;</type>
-        <definition>float &amp; idl_msg::Position::z</definition>
+        <definition>eProsima_user_DllExport float &amp; idl_msg::Position::z</definition>
         <argsstring>()</argsstring>
         <name>z</name>
         <briefdescription>
@@ -369,7 +461,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="166" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.cxx" bodystart="231" bodyend="234"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Position.h" line="166" column="39"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_position_1a5443d088ea714b20634b384cb3e1ab36" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
@@ -599,15 +691,18 @@
       <member refid="classidl__msg_1_1_position_1acd0fdb5b886e8833d0cf6a8a053acf10" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>Position</name></member>
       <member refid="classidl__msg_1_1_position_1a5443d088ea714b20634b384cb3e1ab36" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>serialize</name></member>
       <member refid="classidl__msg_1_1_position_1aa306054a130b866bfe36b7348464dd6c" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>serializeKey</name></member>
-      <member refid="classidl__msg_1_1_position_1ad53e1f3e806984b2568676d8823ccf2c" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>x</name></member>
-      <member refid="classidl__msg_1_1_position_1a6721fdb7690aafdc059957d4837f91b3" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>x</name></member>
-      <member refid="classidl__msg_1_1_position_1a56bbd0d230b42811cfe4e1659f18bbfc" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>x</name></member>
-      <member refid="classidl__msg_1_1_position_1afb3bfe6ffe704669acd3e034183f88b1" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>y</name></member>
-      <member refid="classidl__msg_1_1_position_1acf23ab296f2ba54568312ca81a79c929" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>y</name></member>
-      <member refid="classidl__msg_1_1_position_1a2a22d6b1272449b92b2b307ef142c395" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>y</name></member>
-      <member refid="classidl__msg_1_1_position_1adecff8bb9c42d586a6aca8459f079709" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>z</name></member>
-      <member refid="classidl__msg_1_1_position_1a70a1f3f5723b097bdc4f874915b837f4" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>z</name></member>
-      <member refid="classidl__msg_1_1_position_1ab8678ed5c07e937b246e92a9fadd1606" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>z</name></member>
+      <member refid="classidl__msg_1_1_position_1a53249d8c3e7c76c7059411dd109e3d2f" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>x</name></member>
+      <member refid="classidl__msg_1_1_position_1adaf19e331609724b8065b31bacb76fb9" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>x</name></member>
+      <member refid="classidl__msg_1_1_position_1a7ca3a71eb82fc129a5f508c9b1948f9f" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>x</name></member>
+      <member refid="classidl__msg_1_1_position_1a08575b9ea1e01ad7ff1318ffa098ec06" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>x</name></member>
+      <member refid="classidl__msg_1_1_position_1ae06de56d3463cdee74aca5726ae82162" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>y</name></member>
+      <member refid="classidl__msg_1_1_position_1a3db4c2c1f30ab8f50931d61508b4529f" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>y</name></member>
+      <member refid="classidl__msg_1_1_position_1a153241cf8db6228be51a918fb6237961" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>y</name></member>
+      <member refid="classidl__msg_1_1_position_1aa9c029edaf73ede00ff175cb7c3744e1" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>y</name></member>
+      <member refid="classidl__msg_1_1_position_1ad03aae46e6e86c5d053ca498948d5ccd" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>z</name></member>
+      <member refid="classidl__msg_1_1_position_1a5d8489a56d3a5a274c3a9674fda08198" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>z</name></member>
+      <member refid="classidl__msg_1_1_position_1a8d4117a5bd36542b2c185ca66a56d42a" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>z</name></member>
+      <member refid="classidl__msg_1_1_position_1a806b98104ce124c0743e047066732d33" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>z</name></member>
       <member refid="classidl__msg_1_1_position_1a4004546a9ccff3574595f44fd17d4a89" prot="public" virt="non-virtual"><scope>idl_msg::Position</scope><name>~Position</name></member>
     </listofallmembers>
   </compounddef>

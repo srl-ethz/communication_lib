@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="_header_8cxx" kind="file" language="C++">
     <compoundname>Header.cxx</compoundname>
-    <includes refid="_header_8h" local="yes">Header.h</includes>
+    <includes refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_header_8h" local="yes">Header.h</includes>
     <includes local="no">fastcdr/Cdr.h</includes>
     <includes local="no">fastcdr/exceptions/BadParamException.h</includes>
     <includes local="no">utility</includes>
@@ -21,7 +21,7 @@
       </node>
       <node id="2">
         <label>Header.h</label>
-        <link refid="_header_8h"/>
+        <link refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_header_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
@@ -89,7 +89,7 @@
 <codeline lineno="26"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>_WIN32</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_header_8h" kindref="compound">Header.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Header.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fastcdr/Cdr.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fastcdr/exceptions/BadParamException.h&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -172,7 +172,7 @@
 <codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>current_alignment<sp/>+=<sp/>4<sp/>+<sp/>eprosima::fastcdr::Cdr::alignment(current_alignment,<sp/>4);</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"></highlight></codeline>
 <codeline lineno="111"><highlight class="normal"></highlight></codeline>
-<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>current_alignment<sp/>+=<sp/>4<sp/>+<sp/>eprosima::fastcdr::Cdr::alignment(current_alignment,<sp/>4)<sp/>+<sp/>data.<ref refid="classidl__msg_1_1_header_1a756adf0883e010c8908b703b93787341" kindref="member">id</ref>().size()<sp/>+<sp/>1;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>current_alignment<sp/>+=<sp/>4<sp/>+<sp/>eprosima::fastcdr::Cdr::alignment(current_alignment,<sp/>4)<sp/>+<sp/>data.<ref refid="classidl__msg_1_1_header_1a87a1c14f73f33198d29cb17b2a4db9c9" kindref="member">id</ref>().size()<sp/>+<sp/>1;</highlight></codeline>
 <codeline lineno="113"><highlight class="normal"></highlight></codeline>
 <codeline lineno="114"><highlight class="normal"></highlight></codeline>
 <codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>current_alignment<sp/>-<sp/>initial_alignment;</highlight></codeline>
@@ -195,40 +195,40 @@
 <codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>dcdr<sp/>&gt;&gt;<sp/>m_id;</highlight></codeline>
 <codeline lineno="133"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="134"><highlight class="normal"></highlight></codeline>
-<codeline lineno="139"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_header_1a2caaa20abb70e7f18b0b2c2b746c1e76" kindref="member">idl_msg::Header::timestamp</ref>(</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_header_1a009ddcc9bc84254d3134eb1258446d67" kindref="member">idl_msg::Header::timestamp</ref>(</highlight></codeline>
 <codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int32_t<sp/>_timestamp)</highlight></codeline>
 <codeline lineno="141"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>m_timestamp<sp/>=<sp/>_timestamp;</highlight></codeline>
 <codeline lineno="143"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="144"><highlight class="normal"></highlight></codeline>
-<codeline lineno="149"><highlight class="normal">int32_t<sp/><ref refid="classidl__msg_1_1_header_1a2caaa20abb70e7f18b0b2c2b746c1e76" kindref="member">idl_msg::Header::timestamp</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="149"><highlight class="normal">int32_t<sp/><ref refid="classidl__msg_1_1_header_1a009ddcc9bc84254d3134eb1258446d67" kindref="member">idl_msg::Header::timestamp</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="150"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_timestamp;</highlight></codeline>
 <codeline lineno="152"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="153"><highlight class="normal"></highlight></codeline>
-<codeline lineno="158"><highlight class="normal">int32_t&amp;<sp/><ref refid="classidl__msg_1_1_header_1a2caaa20abb70e7f18b0b2c2b746c1e76" kindref="member">idl_msg::Header::timestamp</ref>()</highlight></codeline>
+<codeline lineno="158"><highlight class="normal">int32_t&amp;<sp/><ref refid="classidl__msg_1_1_header_1a009ddcc9bc84254d3134eb1258446d67" kindref="member">idl_msg::Header::timestamp</ref>()</highlight></codeline>
 <codeline lineno="159"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_timestamp;</highlight></codeline>
 <codeline lineno="161"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="162"><highlight class="normal"></highlight></codeline>
-<codeline lineno="167"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_header_1aedbf6e817a770a40ccc08f1d8b2c08e7" kindref="member">idl_msg::Header::id</ref>(</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_header_1a87a1c14f73f33198d29cb17b2a4db9c9" kindref="member">idl_msg::Header::id</ref>(</highlight></codeline>
 <codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>_id)</highlight></codeline>
 <codeline lineno="169"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/>m_id<sp/>=<sp/>_id;</highlight></codeline>
 <codeline lineno="171"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="172"><highlight class="normal"></highlight></codeline>
-<codeline lineno="177"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_header_1aedbf6e817a770a40ccc08f1d8b2c08e7" kindref="member">idl_msg::Header::id</ref>(</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_header_1a87a1c14f73f33198d29cb17b2a4db9c9" kindref="member">idl_msg::Header::id</ref>(</highlight></codeline>
 <codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string&amp;&amp;<sp/>_id)</highlight></codeline>
 <codeline lineno="179"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>m_id<sp/>=<sp/>std::move(_id);</highlight></codeline>
 <codeline lineno="181"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="182"><highlight class="normal"></highlight></codeline>
-<codeline lineno="187"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="classidl__msg_1_1_header_1aedbf6e817a770a40ccc08f1d8b2c08e7" kindref="member">idl_msg::Header::id</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="classidl__msg_1_1_header_1a87a1c14f73f33198d29cb17b2a4db9c9" kindref="member">idl_msg::Header::id</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="188"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_id;</highlight></codeline>
 <codeline lineno="190"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="191"><highlight class="normal"></highlight></codeline>
-<codeline lineno="196"><highlight class="normal">std::string&amp;<sp/><ref refid="classidl__msg_1_1_header_1aedbf6e817a770a40ccc08f1d8b2c08e7" kindref="member">idl_msg::Header::id</ref>()</highlight></codeline>
+<codeline lineno="196"><highlight class="normal">std::string&amp;<sp/><ref refid="classidl__msg_1_1_header_1a87a1c14f73f33198d29cb17b2a4db9c9" kindref="member">idl_msg::Header::id</ref>()</highlight></codeline>
 <codeline lineno="197"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_id;</highlight></codeline>
 <codeline lineno="199"><highlight class="normal">}</highlight></codeline>

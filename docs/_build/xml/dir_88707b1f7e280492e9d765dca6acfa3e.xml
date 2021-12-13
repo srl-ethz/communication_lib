@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_88707b1f7e280492e9d765dca6acfa3e" kind="dir">
+    <compoundname>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs</compoundname>
+    <innerfile refid="msgs__lib_2cpp__msgs_2robot__msgs_2quadcopter__msgs_2msgs_2_quad_attitude_command_8h">QuadAttitudeCommand.h</innerfile>
+    <innerfile refid="msgs__lib_2cpp__msgs_2robot__msgs_2quadcopter__msgs_2msgs_2_quad_attitude_rate_command_8h">QuadAttitudeRateCommand.h</innerfile>
+    <innerfile refid="msgs__lib_2cpp__msgs_2robot__msgs_2quadcopter__msgs_2msgs_2_quad_motor_command_8h">QuadMotorCommand.h</innerfile>
+    <innerfile refid="msgs__lib_2cpp__msgs_2robot__msgs_2quadcopter__msgs_2msgs_2_quad_position_cmd_8h">QuadPositionCmd.h</innerfile>
+    <innerfile refid="msgs__lib_2cpp__msgs_2robot__msgs_2quadcopter__msgs_2msgs_2_quad_velocity_cmd_8h">QuadVelocityCmd.h</innerfile>
+    <innerfile refid="msgs__lib_2cpp__msgs_2robot__msgs_2quadcopter__msgs_2msgs_2_thrust_torque_command_8h">ThrustTorqueCommand.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/"/>
+  </compounddef>
+</doxygen>

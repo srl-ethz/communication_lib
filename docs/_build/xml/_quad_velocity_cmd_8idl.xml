@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_quad_velocity_cmd_8idl" kind="file" language="IDL">
+    <compoundname>QuadVelocityCmd.idl</compoundname>
+    <includes refid="_velocity_8idl" local="yes">Velocity.idl</includes>
+    <includes refid="_header_8idl" local="yes">Header.idl</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>Header.idl</label>
+        <link refid="_header_8idl_source"/>
+      </node>
+      <node id="1">
+        <label>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/QuadVelocityCmd.idl</label>
+        <link refid="_quad_velocity_cmd_8idl"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Velocity.idl</label>
+        <link refid="_velocity_8idl_source"/>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classidl__msg_1_1_quad_velocity_cmd" prot="public">idl_msg::QuadVelocityCmd</innerclass>
+    <innernamespace refid="namespaceidl__msg">idl_msg</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Velocity.idl&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Header.idl&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">module<sp/>idl_msg{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">QuadVelocityCmd<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="classidl__msg_1_1_quad_velocity_cmd_1a7e64968fffd3f7490fb0d47f9cb969ba" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="classidl__msg_1_1_header" kindref="compound">Header</ref><sp/><ref refid="classidl__msg_1_1_quad_velocity_cmd_1a7e64968fffd3f7490fb0d47f9cb969ba" kindref="member">header</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="classidl__msg_1_1_quad_velocity_cmd_1a0a3620590732901604a41585b46b1d50" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="classidl__msg_1_1_velocity" kindref="compound">Velocity</ref><sp/><ref refid="classidl__msg_1_1_quad_velocity_cmd_1a0a3620590732901604a41585b46b1d50" kindref="member">velocity</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="classidl__msg_1_1_quad_velocity_cmd_1aade77b54ef1c5bd38809fe62bc0a8d36" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_quad_velocity_cmd_1aade77b54ef1c5bd38809fe62bc0a8d36" kindref="member">yaw_rate</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/QuadVelocityCmd.idl"/>
+  </compounddef>
+</doxygen>

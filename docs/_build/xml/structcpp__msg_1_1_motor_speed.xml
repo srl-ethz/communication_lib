@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structcpp__msg_1_1_motor_speed" kind="struct" language="C++" prot="public">
+    <compoundname>cpp_msg::MotorSpeed</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcpp__msg_1_1_motor_speed_1a08068b33f9e03794c5274f818fe9ebbb" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float cpp_msg::MotorSpeed::motor_speed</definition>
+        <argsstring></argsstring>
+        <name>motor_speed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/actuator_msgs/msgs/MotorSpeed.h" line="7" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/actuator_msgs/msgs/MotorSpeed.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/actuator_msgs/msgs/MotorSpeed.h" line="5" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/actuator_msgs/msgs/MotorSpeed.h" bodystart="5" bodyend="8"/>
+    <listofallmembers>
+      <member refid="structcpp__msg_1_1_motor_speed_1a08068b33f9e03794c5274f818fe9ebbb" prot="public" virt="non-virtual"><scope>cpp_msg::MotorSpeed</scope><name>motor_speed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

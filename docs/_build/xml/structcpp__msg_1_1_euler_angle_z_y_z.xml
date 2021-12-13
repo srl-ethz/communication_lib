@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structcpp__msg_1_1_euler_angle_z_y_z" kind="struct" language="C++" prot="public">
+    <compoundname>cpp_msg::EulerAngleZYZ</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcpp__msg_1_1_euler_angle_z_y_z_1a47ee7e792808041c8df8161039dcd161" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float cpp_msg::EulerAngleZYZ::roll</definition>
+        <argsstring></argsstring>
+        <name>roll</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs/msgs/EulerAngleZYX.h" line="7" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs/msgs/EulerAngleZYX.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcpp__msg_1_1_euler_angle_z_y_z_1a1648c2030e36e999eb843225e0aa9c6b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float cpp_msg::EulerAngleZYZ::pitch</definition>
+        <argsstring></argsstring>
+        <name>pitch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs/msgs/EulerAngleZYX.h" line="8" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs/msgs/EulerAngleZYX.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcpp__msg_1_1_euler_angle_z_y_z_1a233baa39e237128377d513b22c37442d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float cpp_msg::EulerAngleZYZ::yaw</definition>
+        <argsstring></argsstring>
+        <name>yaw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs/msgs/EulerAngleZYX.h" line="9" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs/msgs/EulerAngleZYX.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs/msgs/EulerAngleZYX.h" line="5" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs/msgs/EulerAngleZYX.h" bodystart="5" bodyend="10"/>
+    <listofallmembers>
+      <member refid="structcpp__msg_1_1_euler_angle_z_y_z_1a1648c2030e36e999eb843225e0aa9c6b" prot="public" virt="non-virtual"><scope>cpp_msg::EulerAngleZYZ</scope><name>pitch</name></member>
+      <member refid="structcpp__msg_1_1_euler_angle_z_y_z_1a47ee7e792808041c8df8161039dcd161" prot="public" virt="non-virtual"><scope>cpp_msg::EulerAngleZYZ</scope><name>roll</name></member>
+      <member refid="structcpp__msg_1_1_euler_angle_z_y_z_1a233baa39e237128377d513b22c37442d" prot="public" virt="non-virtual"><scope>cpp_msg::EulerAngleZYZ</scope><name>yaw</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

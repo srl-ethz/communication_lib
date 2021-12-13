@@ -38,25 +38,28 @@
     <member refid="class_default_participant_1af366d662fa43261ca19476690d6e8a27" kind="function"><name>participant_name</name></member>
     <member refid="class_default_participant_1a2b05270345c68420ecd520a11e9c25c1" kind="function"><name>participant</name></member>
   </compound>
-  <compound refid="classidl__msg_1_1_euler_angle_z_y_x" kind="class"><name>idl_msg::EulerAngleZYX</name>
+  <compound refid="classidl__msg_1_1_euler_angle_z_y_x" kind="struct"><name>idl_msg::EulerAngleZYX</name>
     <member refid="classidl__msg_1_1_euler_angle_z_y_x_1a88f474d6b8ccb8e56ae9ec9b48b26e7f" kind="variable"><name>m_roll</name></member>
     <member refid="classidl__msg_1_1_euler_angle_z_y_x_1a8a81d38ac510313f1a083665d35777df" kind="variable"><name>m_pitch</name></member>
     <member refid="classidl__msg_1_1_euler_angle_z_y_x_1aa0edead45e55194a7ea885b0da0f739b" kind="variable"><name>m_yaw</name></member>
+    <member refid="classidl__msg_1_1_euler_angle_z_y_x_1ad734ad48d945f264a8d064c6480c81eb" kind="variable"><name>roll</name></member>
+    <member refid="classidl__msg_1_1_euler_angle_z_y_x_1a082d4575c2e6fd4974e59077c42d80bb" kind="variable"><name>pitch</name></member>
+    <member refid="classidl__msg_1_1_euler_angle_z_y_x_1a7ab43f2dc5934dfe73a93d5eba40c3eb" kind="variable"><name>yaw</name></member>
     <member refid="classidl__msg_1_1_euler_angle_z_y_x_1aa8d6f0793abf9c0b6284adfc849973ac" kind="function"><name>EulerAngleZYX</name></member>
     <member refid="classidl__msg_1_1_euler_angle_z_y_x_1aee91f150cdd7cb0bc4827a0690875391" kind="function"><name>~EulerAngleZYX</name></member>
     <member refid="classidl__msg_1_1_euler_angle_z_y_x_1a7fc9ea3b94a914e10cbd0cd7a7b74dab" kind="function"><name>EulerAngleZYX</name></member>
     <member refid="classidl__msg_1_1_euler_angle_z_y_x_1a9b64da0a5a1c62be0a5f2b4d1e65acf1" kind="function"><name>EulerAngleZYX</name></member>
     <member refid="classidl__msg_1_1_euler_angle_z_y_x_1a945692c29ade0ced02504c9427680c0e" kind="function"><name>operator=</name></member>
     <member refid="classidl__msg_1_1_euler_angle_z_y_x_1a9dc97b52b655aa156583f5a0be1b56c9" kind="function"><name>operator=</name></member>
-    <member refid="classidl__msg_1_1_euler_angle_z_y_x_1a0296460cba6ff4c7464fcb86cfe1742d" kind="function"><name>roll</name></member>
-    <member refid="classidl__msg_1_1_euler_angle_z_y_x_1a802e0cbd73ef4a562cbf86a26ca9c886" kind="function"><name>roll</name></member>
-    <member refid="classidl__msg_1_1_euler_angle_z_y_x_1a7d5ae499ea7d50eaea0a6718de2f6b93" kind="function"><name>roll</name></member>
-    <member refid="classidl__msg_1_1_euler_angle_z_y_x_1a3df58f1b4bbdc983ac7990ea5bb8f3e5" kind="function"><name>pitch</name></member>
-    <member refid="classidl__msg_1_1_euler_angle_z_y_x_1a9238d2cd23ad6da403d829d8dd99614b" kind="function"><name>pitch</name></member>
-    <member refid="classidl__msg_1_1_euler_angle_z_y_x_1a1edb6c817f71f43293cd093c816fd8f5" kind="function"><name>pitch</name></member>
-    <member refid="classidl__msg_1_1_euler_angle_z_y_x_1ab36174989968a02abeae0f25f4539104" kind="function"><name>yaw</name></member>
-    <member refid="classidl__msg_1_1_euler_angle_z_y_x_1a2bc740f4f0ed8bf67d100e040289fca6" kind="function"><name>yaw</name></member>
-    <member refid="classidl__msg_1_1_euler_angle_z_y_x_1a23b8aff66f0cc011746622c28ac5e721" kind="function"><name>yaw</name></member>
+    <member refid="classidl__msg_1_1_euler_angle_z_y_x_1aa3d1d4f6de3fd5abc82fc2d5987d9613" kind="function"><name>roll</name></member>
+    <member refid="classidl__msg_1_1_euler_angle_z_y_x_1abc8e126f703f8e55f01c228c42a197ad" kind="function"><name>roll</name></member>
+    <member refid="classidl__msg_1_1_euler_angle_z_y_x_1a8f9d9cb720feb45f02d4b965d52a5dab" kind="function"><name>roll</name></member>
+    <member refid="classidl__msg_1_1_euler_angle_z_y_x_1ad85fc39fe3beea3e08a3c56a7d87b5f2" kind="function"><name>pitch</name></member>
+    <member refid="classidl__msg_1_1_euler_angle_z_y_x_1af03f0d32337d3121dc15a1853c4cc351" kind="function"><name>pitch</name></member>
+    <member refid="classidl__msg_1_1_euler_angle_z_y_x_1a215291044bd5880f0183a262d9ba3b00" kind="function"><name>pitch</name></member>
+    <member refid="classidl__msg_1_1_euler_angle_z_y_x_1af605384f1418293698c0c15c0cdbaf61" kind="function"><name>yaw</name></member>
+    <member refid="classidl__msg_1_1_euler_angle_z_y_x_1a3cd205f7e1aff107bde591efee69ca98" kind="function"><name>yaw</name></member>
+    <member refid="classidl__msg_1_1_euler_angle_z_y_x_1ae21d06452f88ffa9ba27ea3a9339b8e9" kind="function"><name>yaw</name></member>
     <member refid="classidl__msg_1_1_euler_angle_z_y_x_1ab34f8e8904f7cf8f3cf75da1626414ba" kind="function"><name>serialize</name></member>
     <member refid="classidl__msg_1_1_euler_angle_z_y_x_1a514646c19ff52eb54b8cf318c49d78ed" kind="function"><name>deserialize</name></member>
     <member refid="classidl__msg_1_1_euler_angle_z_y_x_1aeb14d8ed8e48019e712e089a47aa7915" kind="function"><name>serializeKey</name></member>
@@ -78,22 +81,33 @@
     <member refid="classidl__msg_1_1_euler_angle_z_y_x_pub_sub_type_1ac5e3c905e183d96856d624ca27295d63" kind="function"><name>createData</name></member>
     <member refid="classidl__msg_1_1_euler_angle_z_y_x_pub_sub_type_1ab42528e873946c189e21b984c69be54c" kind="function"><name>deleteData</name></member>
   </compound>
-  <compound refid="classidl__msg_1_1_header" kind="class"><name>idl_msg::Header</name>
+  <compound refid="structcpp__msg_1_1_euler_angle_z_y_z" kind="struct"><name>cpp_msg::EulerAngleZYZ</name>
+    <member refid="structcpp__msg_1_1_euler_angle_z_y_z_1a47ee7e792808041c8df8161039dcd161" kind="variable"><name>roll</name></member>
+    <member refid="structcpp__msg_1_1_euler_angle_z_y_z_1a1648c2030e36e999eb843225e0aa9c6b" kind="variable"><name>pitch</name></member>
+    <member refid="structcpp__msg_1_1_euler_angle_z_y_z_1a233baa39e237128377d513b22c37442d" kind="variable"><name>yaw</name></member>
+  </compound>
+  <compound refid="structcpp__msg_1_1_header" kind="struct"><name>cpp_msg::Header</name>
+    <member refid="structcpp__msg_1_1_header_1aac16e45ab99611fccbfa98bcff6c4679" kind="variable"><name>timestamp</name></member>
+    <member refid="structcpp__msg_1_1_header_1a61b56abaafa3f5cb6203eb204e9a24e3" kind="variable"><name>id</name></member>
+  </compound>
+  <compound refid="classidl__msg_1_1_header" kind="struct"><name>idl_msg::Header</name>
     <member refid="classidl__msg_1_1_header_1a3bc32179eab230cb4bd97df827af323f" kind="variable"><name>m_timestamp</name></member>
     <member refid="classidl__msg_1_1_header_1a89e87d65b138a79a62a91905976ffda9" kind="variable"><name>m_id</name></member>
+    <member refid="classidl__msg_1_1_header_1a009ddcc9bc84254d3134eb1258446d67" kind="variable"><name>timestamp</name></member>
+    <member refid="classidl__msg_1_1_header_1a87a1c14f73f33198d29cb17b2a4db9c9" kind="variable"><name>id</name></member>
     <member refid="classidl__msg_1_1_header_1aa91de33443cea6e976898090422c1699" kind="function"><name>Header</name></member>
     <member refid="classidl__msg_1_1_header_1a3fd026c9323a4deb8eea0ed71d531f68" kind="function"><name>~Header</name></member>
     <member refid="classidl__msg_1_1_header_1a8078f082c9b526044e607c71d7676a78" kind="function"><name>Header</name></member>
     <member refid="classidl__msg_1_1_header_1a650925b6c850a158b763752a6fcae998" kind="function"><name>Header</name></member>
     <member refid="classidl__msg_1_1_header_1ac3e99356fa99832675edbe8ecf7ccbd2" kind="function"><name>operator=</name></member>
     <member refid="classidl__msg_1_1_header_1add47e52bc3d82b3693f3a109785b8f5c" kind="function"><name>operator=</name></member>
-    <member refid="classidl__msg_1_1_header_1afc6f29bd4fb3f77774c6af96a91a39d5" kind="function"><name>timestamp</name></member>
-    <member refid="classidl__msg_1_1_header_1a2caaa20abb70e7f18b0b2c2b746c1e76" kind="function"><name>timestamp</name></member>
-    <member refid="classidl__msg_1_1_header_1ac9ee0c19512d3cf9e0b878ef44e4f8c1" kind="function"><name>timestamp</name></member>
-    <member refid="classidl__msg_1_1_header_1a756adf0883e010c8908b703b93787341" kind="function"><name>id</name></member>
-    <member refid="classidl__msg_1_1_header_1aed5ce8757922b7c439ad6e7fd403ef17" kind="function"><name>id</name></member>
-    <member refid="classidl__msg_1_1_header_1aedbf6e817a770a40ccc08f1d8b2c08e7" kind="function"><name>id</name></member>
-    <member refid="classidl__msg_1_1_header_1a83feaf89cc4814998de8408d9100fd7c" kind="function"><name>id</name></member>
+    <member refid="classidl__msg_1_1_header_1ae806f3ce977dd295bc3c9ccb323ba309" kind="function"><name>timestamp</name></member>
+    <member refid="classidl__msg_1_1_header_1a3351dad1721b70babf1e4d88008ff351" kind="function"><name>timestamp</name></member>
+    <member refid="classidl__msg_1_1_header_1ad45767f3f08a6160bb9fd2cdd7d4cbd0" kind="function"><name>timestamp</name></member>
+    <member refid="classidl__msg_1_1_header_1ad810a6df80db7add0461da4ee5cd96bb" kind="function"><name>id</name></member>
+    <member refid="classidl__msg_1_1_header_1a059eaf826a800ed0c4ec36d96474bab7" kind="function"><name>id</name></member>
+    <member refid="classidl__msg_1_1_header_1a76a8fb24259d80f6dcc4a916e2b90681" kind="function"><name>id</name></member>
+    <member refid="classidl__msg_1_1_header_1a03a6b312f523b378d84c0e2d6cefae1c" kind="function"><name>id</name></member>
     <member refid="classidl__msg_1_1_header_1a1abe92dbc61a1a430e13f2116511f9dd" kind="function"><name>serialize</name></member>
     <member refid="classidl__msg_1_1_header_1acef1a5bde1527a5b65faa6e5157a4b56" kind="function"><name>deserialize</name></member>
     <member refid="classidl__msg_1_1_header_1aa90f2c1ea973de3e56a0a957c2c14aa8" kind="function"><name>serializeKey</name></member>
@@ -115,23 +129,29 @@
     <member refid="classidl__msg_1_1_header_pub_sub_type_1a3d70596c7511b978ed7527921d610dbf" kind="function"><name>createData</name></member>
     <member refid="classidl__msg_1_1_header_pub_sub_type_1a824447cd57b62eae86a78ab9af1d2cf9" kind="function"><name>deleteData</name></member>
   </compound>
-  <compound refid="classidl__msg_1_1_image1080p" kind="class"><name>idl_msg::Image1080p</name>
+  <compound refid="structcpp__msg_1_1_image1080p" kind="struct"><name>cpp_msg::Image1080p</name>
+    <member refid="structcpp__msg_1_1_image1080p_1ac7282e0a6bdc3525bc978a931dd3fb81" kind="variable"><name>header</name></member>
+    <member refid="structcpp__msg_1_1_image1080p_1aabbe7ab2571b8b9809b5f17bd187b8c6" kind="variable"><name>frame</name></member>
+  </compound>
+  <compound refid="classidl__msg_1_1_image1080p" kind="struct"><name>idl_msg::Image1080p</name>
     <member refid="classidl__msg_1_1_image1080p_1a07dc05a8cf5e88d26339092d751911ef" kind="variable"><name>m_header</name></member>
     <member refid="classidl__msg_1_1_image1080p_1a14a0b3fb7d2e7897f403bdb0b59ffbca" kind="variable"><name>m_frame</name></member>
+    <member refid="classidl__msg_1_1_image1080p_1a8f7edb97ed7f9293487f149029a66827" kind="variable"><name>header</name></member>
+    <member refid="classidl__msg_1_1_image1080p_1a2c354e08bb4261f9693bde3aed565d6f" kind="variable"><name>frame</name></member>
     <member refid="classidl__msg_1_1_image1080p_1aeae53057468d0c0bd33a70b3336e9690" kind="function"><name>Image1080p</name></member>
     <member refid="classidl__msg_1_1_image1080p_1a4047d0db51d2f656029cb3942b438912" kind="function"><name>~Image1080p</name></member>
     <member refid="classidl__msg_1_1_image1080p_1ab79345cf7b894981816a63ea57083b42" kind="function"><name>Image1080p</name></member>
     <member refid="classidl__msg_1_1_image1080p_1ac5064f6a57b6d85547b9f3f238c4cd8b" kind="function"><name>Image1080p</name></member>
     <member refid="classidl__msg_1_1_image1080p_1ad4756b7c74b3585ea139bb81b06b111f" kind="function"><name>operator=</name></member>
     <member refid="classidl__msg_1_1_image1080p_1a3f29af8e253452e4156a6f810495c696" kind="function"><name>operator=</name></member>
-    <member refid="classidl__msg_1_1_image1080p_1a20cb5635d38012abf68af01c2982a70e" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_image1080p_1a8a49b7f2ac6e259569747e65db119782" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_image1080p_1a6c77e12a9b480132b6912d01cef88aa3" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_image1080p_1a07b0c911fa53719c14794c8965cac5ae" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_image1080p_1ae23bca8bbe290957f1e7b19ac6e30491" kind="function"><name>frame</name></member>
-    <member refid="classidl__msg_1_1_image1080p_1a4d9c35a6e5b2bfdeaaa0db501b68f713" kind="function"><name>frame</name></member>
-    <member refid="classidl__msg_1_1_image1080p_1a780396b59c33a4e3d9b22d6e8766496b" kind="function"><name>frame</name></member>
-    <member refid="classidl__msg_1_1_image1080p_1a8c56ff1a1fb8b55a5ff2f5ad9465fbcb" kind="function"><name>frame</name></member>
+    <member refid="classidl__msg_1_1_image1080p_1a986c7adc2302fdd5538cd68c6e731846" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_image1080p_1ab01bdc74b4616ef01fb8b111ffb01dc6" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_image1080p_1a15065556604a587252c6ef648226cbe0" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_image1080p_1a3aeb7ecaee870557700989e4498b8ebb" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_image1080p_1af9ca2466a7192ae2bce34b74065fb772" kind="function"><name>frame</name></member>
+    <member refid="classidl__msg_1_1_image1080p_1a50bf112deae93b053adacbfba2d0bbce" kind="function"><name>frame</name></member>
+    <member refid="classidl__msg_1_1_image1080p_1a2324637532073912a8ff27818c7025a7" kind="function"><name>frame</name></member>
+    <member refid="classidl__msg_1_1_image1080p_1a19526d5d08d3a7f191f1fe3716c75bb5" kind="function"><name>frame</name></member>
     <member refid="classidl__msg_1_1_image1080p_1ac86fe90b6b0e0bc64cc5679353352824" kind="function"><name>serialize</name></member>
     <member refid="classidl__msg_1_1_image1080p_1a0b94e7472cb23f2f79aed379105e0598" kind="function"><name>deserialize</name></member>
     <member refid="classidl__msg_1_1_image1080p_1acead5bb817570f195bc56b8c09dfc0b1" kind="function"><name>serializeKey</name></member>
@@ -153,23 +173,29 @@
     <member refid="classidl__msg_1_1_image1080p_pub_sub_type_1a6b3146e6baf02e972e29699f58b5ba3f" kind="function"><name>createData</name></member>
     <member refid="classidl__msg_1_1_image1080p_pub_sub_type_1a6701f89e6d8f0e844ae3e3b92c95b3d0" kind="function"><name>deleteData</name></member>
   </compound>
-  <compound refid="classidl__msg_1_1_image720p" kind="class"><name>idl_msg::Image720p</name>
+  <compound refid="structcpp__msg_1_1_image720p" kind="struct"><name>cpp_msg::Image720p</name>
+    <member refid="structcpp__msg_1_1_image720p_1adc8c112645eec312968387ad22a707b6" kind="variable"><name>header</name></member>
+    <member refid="structcpp__msg_1_1_image720p_1abf6b0cd21e88eab22dcfc01ff8c266b1" kind="variable"><name>frame</name></member>
+  </compound>
+  <compound refid="classidl__msg_1_1_image720p" kind="struct"><name>idl_msg::Image720p</name>
     <member refid="classidl__msg_1_1_image720p_1aef5920a07d651cecf1a36bf8e4dd7b0f" kind="variable"><name>m_header</name></member>
     <member refid="classidl__msg_1_1_image720p_1afcadec555a00c7fbcb63791c97cfb1ee" kind="variable"><name>m_frame</name></member>
+    <member refid="classidl__msg_1_1_image720p_1a066b2de38bc83aa1fe2e3483dde0c979" kind="variable"><name>header</name></member>
+    <member refid="classidl__msg_1_1_image720p_1a7c6747706e43bda6c9904e46600d762b" kind="variable"><name>frame</name></member>
     <member refid="classidl__msg_1_1_image720p_1addf124b51ead149b0653c7a415c03bc4" kind="function"><name>Image720p</name></member>
     <member refid="classidl__msg_1_1_image720p_1a3fbfdb18af97917a2e850651ee734577" kind="function"><name>~Image720p</name></member>
     <member refid="classidl__msg_1_1_image720p_1a71297f60e241fc3f9e5ecb08489851ca" kind="function"><name>Image720p</name></member>
     <member refid="classidl__msg_1_1_image720p_1af46dfa3e9dca2c374eadb819d2787b12" kind="function"><name>Image720p</name></member>
     <member refid="classidl__msg_1_1_image720p_1a70011777965a53ed46aade46e1d37915" kind="function"><name>operator=</name></member>
     <member refid="classidl__msg_1_1_image720p_1a976b21f92cc4ba36f2976e77c6bdb73e" kind="function"><name>operator=</name></member>
-    <member refid="classidl__msg_1_1_image720p_1aa1d673f95817c2c792c0f317bf179397" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_image720p_1a53b3f34d9126336ee7270639a2050e86" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_image720p_1a33682062e9a9ef4ec8b97e36e0542179" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_image720p_1a7cb11448281ec8fa5db910e21e3f432a" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_image720p_1ae7fe703d72ea4b49fda41be2fc521f24" kind="function"><name>frame</name></member>
-    <member refid="classidl__msg_1_1_image720p_1ad6085d38b8eb34de85adcbf6c8cbe156" kind="function"><name>frame</name></member>
-    <member refid="classidl__msg_1_1_image720p_1a65650b896a06e18afd88262ffa9fe727" kind="function"><name>frame</name></member>
-    <member refid="classidl__msg_1_1_image720p_1a7fcc10e148ba70dada6252aef9d5db6e" kind="function"><name>frame</name></member>
+    <member refid="classidl__msg_1_1_image720p_1ab816183770a49f5114935a55c8279629" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_image720p_1a810c5bf321b3672f56342603d47f696c" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_image720p_1ad47750c856ef40d6519fd6a1544e82e3" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_image720p_1a4007d9440ec307418d31bc6b0fe835fc" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_image720p_1abca8011ea5c1f72209c92b7ccbd2c303" kind="function"><name>frame</name></member>
+    <member refid="classidl__msg_1_1_image720p_1a06c058090cac0a7a45ce8a593556ee5d" kind="function"><name>frame</name></member>
+    <member refid="classidl__msg_1_1_image720p_1a3b4a73c03b1fd9bac50258fcd8b5bfb7" kind="function"><name>frame</name></member>
+    <member refid="classidl__msg_1_1_image720p_1ad19211ff9dd0531c9987b115f04dc023" kind="function"><name>frame</name></member>
     <member refid="classidl__msg_1_1_image720p_1a2e7e011711d7f65cf0f3334eab7c14b7" kind="function"><name>serialize</name></member>
     <member refid="classidl__msg_1_1_image720p_1ac1122bc455e33f8a7ef67874639d8121" kind="function"><name>deserialize</name></member>
     <member refid="classidl__msg_1_1_image720p_1a143f0b711a27b531ea9db0668814316c" kind="function"><name>serializeKey</name></member>
@@ -198,27 +224,35 @@
     <member refid="class_logger_1a5cc0a4315c481496bff82f1e4054e9ed" kind="function"><name>safe_print</name></member>
     <member refid="class_logger_1af615574672b61a3962fd69c81c0c7fcd" kind="function"><name>operator&lt;&lt;</name></member>
   </compound>
-  <compound refid="classidl__msg_1_1_mocap" kind="class"><name>idl_msg::Mocap</name>
+  <compound refid="structcpp__msg_1_1_mocap" kind="struct"><name>cpp_msg::Mocap</name>
+    <member refid="structcpp__msg_1_1_mocap_1ad2a7519555c6fb9940d755f23571e0ef" kind="variable"><name>header</name></member>
+    <member refid="structcpp__msg_1_1_mocap_1abb817836d6ffacfed4e52be9678ca260" kind="variable"><name>pose</name></member>
+    <member refid="structcpp__msg_1_1_mocap_1a4cb0bce09a811ae56150fc6b78ed964c" kind="variable"><name>latency</name></member>
+  </compound>
+  <compound refid="classidl__msg_1_1_mocap" kind="struct"><name>idl_msg::Mocap</name>
     <member refid="classidl__msg_1_1_mocap_1ae0a6d36c37b09964a66034395720a94c" kind="variable"><name>m_header</name></member>
     <member refid="classidl__msg_1_1_mocap_1a700b759ff2847f91070d8cc1da69cb6f" kind="variable"><name>m_pose</name></member>
     <member refid="classidl__msg_1_1_mocap_1a31202c93f2c1651b8fb2645d3bc7626e" kind="variable"><name>m_latency</name></member>
+    <member refid="classidl__msg_1_1_mocap_1adec07a63f3a3463ba09ffe60347e94fe" kind="variable"><name>header</name></member>
+    <member refid="classidl__msg_1_1_mocap_1a9d124c1b3cb19a3fa69689d168ad6817" kind="variable"><name>pose</name></member>
+    <member refid="classidl__msg_1_1_mocap_1ab848426ea36b9ca89fa3e64f3176325d" kind="variable"><name>latency</name></member>
     <member refid="classidl__msg_1_1_mocap_1a7017ce92e159b6f88f808bef70410b9d" kind="function"><name>Mocap</name></member>
     <member refid="classidl__msg_1_1_mocap_1ab329928f700fbb43a8c6a5126ab4124c" kind="function"><name>~Mocap</name></member>
     <member refid="classidl__msg_1_1_mocap_1ab5f5ee75a1b869173e2a83cb99516e0d" kind="function"><name>Mocap</name></member>
     <member refid="classidl__msg_1_1_mocap_1a6b96b8e9a8ddb440ca3b9b1e72dff0f4" kind="function"><name>Mocap</name></member>
     <member refid="classidl__msg_1_1_mocap_1a0f4802b27bbe44e30dab454cd257108f" kind="function"><name>operator=</name></member>
     <member refid="classidl__msg_1_1_mocap_1a97e9049249cb7b9ec536d367a7a8f757" kind="function"><name>operator=</name></member>
-    <member refid="classidl__msg_1_1_mocap_1a8884866d924830db9fd64813448d8aa6" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_mocap_1a2884c1d1aae2d50a3d98c16d1ceec81c" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_mocap_1a3eaa04429464b673d4e7c3a0fdb267d1" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_mocap_1a4fff8c669b81bb457b202de17f6dc658" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_mocap_1a01c43c5e0440d0b4fb22c240777a98ed" kind="function"><name>pose</name></member>
-    <member refid="classidl__msg_1_1_mocap_1a8278d952b48c29da3a78b84db2e1c55d" kind="function"><name>pose</name></member>
-    <member refid="classidl__msg_1_1_mocap_1a946d87730dbe2b32341159fbfdd8e613" kind="function"><name>pose</name></member>
-    <member refid="classidl__msg_1_1_mocap_1af64e9c9023cb3b6cd256012ef3777e88" kind="function"><name>pose</name></member>
-    <member refid="classidl__msg_1_1_mocap_1af67cad17ef77d9f493ae05b9847bbe50" kind="function"><name>latency</name></member>
-    <member refid="classidl__msg_1_1_mocap_1ad56712a38ae24dd64f35ef7fa6d6cb47" kind="function"><name>latency</name></member>
-    <member refid="classidl__msg_1_1_mocap_1a0e16d2e84a6e6f5c3be12a02153448a3" kind="function"><name>latency</name></member>
+    <member refid="classidl__msg_1_1_mocap_1adf223a601a8e96949f7257efe032b850" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_mocap_1aeffe14fb5d1cfc416b4462ca6f22eadd" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_mocap_1a50f23afbdfcf74d5da7b806b65084c8c" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_mocap_1a3c044553bab9dd408590bba779e8ce59" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_mocap_1afdbb9ecc3de4d4daf8fd08a01b5f0834" kind="function"><name>pose</name></member>
+    <member refid="classidl__msg_1_1_mocap_1a119f2c14adceca31952913861ccdcb4f" kind="function"><name>pose</name></member>
+    <member refid="classidl__msg_1_1_mocap_1a0e4b370908871266864d118e427b471a" kind="function"><name>pose</name></member>
+    <member refid="classidl__msg_1_1_mocap_1a7b13f3d2af85afc8de602b6cadc053a5" kind="function"><name>pose</name></member>
+    <member refid="classidl__msg_1_1_mocap_1ac477dd4017516674a61319ae2648bbbb" kind="function"><name>latency</name></member>
+    <member refid="classidl__msg_1_1_mocap_1a5b447766df3d1f534d410041f09d30c1" kind="function"><name>latency</name></member>
+    <member refid="classidl__msg_1_1_mocap_1a599ce2649dd4653e2f2b8d106e0b1d7d" kind="function"><name>latency</name></member>
     <member refid="classidl__msg_1_1_mocap_1ad02cfa02bdedeae88e8abf2490ac2aad" kind="function"><name>serialize</name></member>
     <member refid="classidl__msg_1_1_mocap_1ad5d13f2b90a8d3c81eb00625f6678d41" kind="function"><name>deserialize</name></member>
     <member refid="classidl__msg_1_1_mocap_1ab7e3bcf80b3fafabeefeebf55443d87d" kind="function"><name>serializeKey</name></member>
@@ -240,17 +274,21 @@
     <member refid="classidl__msg_1_1_mocap_pub_sub_type_1a8e74c1e3400035b1ac271ce9d3c4a2bb" kind="function"><name>createData</name></member>
     <member refid="classidl__msg_1_1_mocap_pub_sub_type_1a2d50c451a694692d9b1425f7639f4a52" kind="function"><name>deleteData</name></member>
   </compound>
-  <compound refid="classidl__msg_1_1_motor_speed" kind="class"><name>idl_msg::MotorSpeed</name>
+  <compound refid="structcpp__msg_1_1_motor_speed" kind="struct"><name>cpp_msg::MotorSpeed</name>
+    <member refid="structcpp__msg_1_1_motor_speed_1a08068b33f9e03794c5274f818fe9ebbb" kind="variable"><name>motor_speed</name></member>
+  </compound>
+  <compound refid="classidl__msg_1_1_motor_speed" kind="struct"><name>idl_msg::MotorSpeed</name>
     <member refid="classidl__msg_1_1_motor_speed_1ae2e13382d4b04b99f260cc123af6c3b3" kind="variable"><name>m_motor_speed</name></member>
+    <member refid="classidl__msg_1_1_motor_speed_1a19f3e1874c658ea522ae17e946096424" kind="variable"><name>motor_speed</name></member>
     <member refid="classidl__msg_1_1_motor_speed_1a2d9879435db2155f3eafb459f5199f12" kind="function"><name>MotorSpeed</name></member>
     <member refid="classidl__msg_1_1_motor_speed_1a4dab2f266b265c31d7224e7dd12a8e8b" kind="function"><name>~MotorSpeed</name></member>
     <member refid="classidl__msg_1_1_motor_speed_1a56d2868d85906456eafb641929c98a8f" kind="function"><name>MotorSpeed</name></member>
     <member refid="classidl__msg_1_1_motor_speed_1a42aa3252d26398990526b84c04a1fd5a" kind="function"><name>MotorSpeed</name></member>
     <member refid="classidl__msg_1_1_motor_speed_1a68ac56d2bb8da7039c73017ac03de868" kind="function"><name>operator=</name></member>
     <member refid="classidl__msg_1_1_motor_speed_1a7f5a4e227c6ad77465bcfbd3f8e4f8b8" kind="function"><name>operator=</name></member>
-    <member refid="classidl__msg_1_1_motor_speed_1a038d3f25d42241c8c61aa6a4b9e612ca" kind="function"><name>motor_speed</name></member>
-    <member refid="classidl__msg_1_1_motor_speed_1a0ff870242750e23a10973d2ae3564c3e" kind="function"><name>motor_speed</name></member>
-    <member refid="classidl__msg_1_1_motor_speed_1ab800b1390ff3dbd6ffaf917dc03803a5" kind="function"><name>motor_speed</name></member>
+    <member refid="classidl__msg_1_1_motor_speed_1acb8e9e5e599793d631a94cdd30076d52" kind="function"><name>motor_speed</name></member>
+    <member refid="classidl__msg_1_1_motor_speed_1ae9cec00057b4b65fb8868d6dd2b39c95" kind="function"><name>motor_speed</name></member>
+    <member refid="classidl__msg_1_1_motor_speed_1a6ea58819b95443d13a3c40d58c1a306e" kind="function"><name>motor_speed</name></member>
     <member refid="classidl__msg_1_1_motor_speed_1a1cc55ec3835cdf9df7ca9f1c7c041f26" kind="function"><name>serialize</name></member>
     <member refid="classidl__msg_1_1_motor_speed_1a9050420f8199569ceb770ca76759a068" kind="function"><name>deserialize</name></member>
     <member refid="classidl__msg_1_1_motor_speed_1ab9b7d86e63ff28dfc915b27bc5f1aef5" kind="function"><name>serializeKey</name></member>
@@ -272,33 +310,43 @@
     <member refid="classidl__msg_1_1_motor_speed_pub_sub_type_1ab881b329a37fee49e4d8b152553c65e1" kind="function"><name>createData</name></member>
     <member refid="classidl__msg_1_1_motor_speed_pub_sub_type_1afd57e82dee62bab5de0f03a3fc817102" kind="function"><name>deleteData</name></member>
   </compound>
-  <compound refid="classidl__msg_1_1_pose" kind="class"><name>idl_msg::Pose</name>
+  <compound refid="structcpp__msg_1_1_pose" kind="struct"><name>cpp_msg::Pose</name>
+    <member refid="structcpp__msg_1_1_pose_1a07e47b6cdab3b57a901a7a90d9abe067" kind="variable"><name>header</name></member>
+    <member refid="structcpp__msg_1_1_pose_1afd12c5fdb9cf08d99353a73625a63207" kind="variable"><name>position</name></member>
+    <member refid="structcpp__msg_1_1_pose_1a6a4f8b34edf7fd94698b904daa7a82d4" kind="variable"><name>orientation_euler</name></member>
+    <member refid="structcpp__msg_1_1_pose_1a69467b8f443734b02788937b0ab79e5e" kind="variable"><name>orientation_quat</name></member>
+  </compound>
+  <compound refid="classidl__msg_1_1_pose" kind="struct"><name>idl_msg::Pose</name>
     <member refid="classidl__msg_1_1_pose_1ae84a136b120169107c0d540ec9891795" kind="variable"><name>m_header</name></member>
     <member refid="classidl__msg_1_1_pose_1afdece9348079d922030d6f8344128b1d" kind="variable"><name>m_position</name></member>
     <member refid="classidl__msg_1_1_pose_1af3fc4eba84271cbd952cfe792cee22a9" kind="variable"><name>m_orientation_euler</name></member>
     <member refid="classidl__msg_1_1_pose_1a3f033c37eda5d66cd0646b2b69369454" kind="variable"><name>m_orientation_quat</name></member>
+    <member refid="classidl__msg_1_1_pose_1a15fbdead8ee013eb2ff9d6aa37cb7f7e" kind="variable"><name>header</name></member>
+    <member refid="classidl__msg_1_1_pose_1ab599d467ba815d888549516b0d7a4a8f" kind="variable"><name>position</name></member>
+    <member refid="classidl__msg_1_1_pose_1a7162f30d8a38af97f98cee55d9939b86" kind="variable"><name>orientation_euler</name></member>
+    <member refid="classidl__msg_1_1_pose_1afeaead3bfde01aba1a48ff848c1f7927" kind="variable"><name>orientation_quat</name></member>
     <member refid="classidl__msg_1_1_pose_1a4fe855206f4caa9dd234ceb40362d1a3" kind="function"><name>Pose</name></member>
     <member refid="classidl__msg_1_1_pose_1ac8f7a9d1e19d0cb2ac790af9e023a0ba" kind="function"><name>~Pose</name></member>
     <member refid="classidl__msg_1_1_pose_1ae727c2cb28eb6b35ca4821004c60a027" kind="function"><name>Pose</name></member>
     <member refid="classidl__msg_1_1_pose_1aedaa69a3e016da1a738a18da43200366" kind="function"><name>Pose</name></member>
     <member refid="classidl__msg_1_1_pose_1ac02cbc56a04fb529639abcc64d7e2847" kind="function"><name>operator=</name></member>
     <member refid="classidl__msg_1_1_pose_1a924aa5c65814e9a1e67c8fd6a040819c" kind="function"><name>operator=</name></member>
-    <member refid="classidl__msg_1_1_pose_1af11c9f1a26963fd1294d58774512c942" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_pose_1a81e2ed51f091da7f5876350b2045d6ad" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_pose_1a8a524f5c4ae5dbeaa88f03258deffc3d" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_pose_1aac0b5063fda586a3bd8edc02de4ce372" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_pose_1a5d01322ebc80c53927745cb932f11d42" kind="function"><name>position</name></member>
-    <member refid="classidl__msg_1_1_pose_1ab9e8dce9d7956aa3adc7b102a3ff0898" kind="function"><name>position</name></member>
-    <member refid="classidl__msg_1_1_pose_1ae4a940e69d174a6968d90c4ebfeda495" kind="function"><name>position</name></member>
-    <member refid="classidl__msg_1_1_pose_1a748d8ef049beafc7f0f13f11a95c6eb2" kind="function"><name>position</name></member>
-    <member refid="classidl__msg_1_1_pose_1ab69e267cacb8dbac658ed14e8d1f33ad" kind="function"><name>orientation_euler</name></member>
-    <member refid="classidl__msg_1_1_pose_1a26d2fa5907b9a29cb396bd3e6c0bbac8" kind="function"><name>orientation_euler</name></member>
-    <member refid="classidl__msg_1_1_pose_1a5561bfb46980504a6bec48917a565ad4" kind="function"><name>orientation_euler</name></member>
-    <member refid="classidl__msg_1_1_pose_1ac8764641679ca299d198f8f0fdd4b0ff" kind="function"><name>orientation_euler</name></member>
-    <member refid="classidl__msg_1_1_pose_1a08cd263f12e8aca02c5c66dec20f373d" kind="function"><name>orientation_quat</name></member>
-    <member refid="classidl__msg_1_1_pose_1ab12d32c62b9c8d56f69698809f632dab" kind="function"><name>orientation_quat</name></member>
-    <member refid="classidl__msg_1_1_pose_1a70a786ecc7099681d6771ee14015b6d2" kind="function"><name>orientation_quat</name></member>
-    <member refid="classidl__msg_1_1_pose_1a12ac9366a44f389baf1ead08b143089b" kind="function"><name>orientation_quat</name></member>
+    <member refid="classidl__msg_1_1_pose_1aff9b4d87d051b7140e7e92a4feb68725" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_pose_1a7a8cde8a74113bf6989d22e8dc97d2dc" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_pose_1acc081da6184866ba66f33a5a27674796" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_pose_1a256892845f0bd96b7af475c5db8685a1" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_pose_1addc938d0eb0308d2ed61c3c9795a2b32" kind="function"><name>position</name></member>
+    <member refid="classidl__msg_1_1_pose_1a72dfe0c43f920005fa214d8a120f7bb5" kind="function"><name>position</name></member>
+    <member refid="classidl__msg_1_1_pose_1a9115c705d34ca471b71ab326e497c129" kind="function"><name>position</name></member>
+    <member refid="classidl__msg_1_1_pose_1a3c5173d31a3934361211afdf8e6a590e" kind="function"><name>position</name></member>
+    <member refid="classidl__msg_1_1_pose_1af1f0aec7449ad24dfa36ad766380530f" kind="function"><name>orientation_euler</name></member>
+    <member refid="classidl__msg_1_1_pose_1afd524bfe5a37cab861be6bf3a129709b" kind="function"><name>orientation_euler</name></member>
+    <member refid="classidl__msg_1_1_pose_1aee1579a607b1eccaeb039971715801ef" kind="function"><name>orientation_euler</name></member>
+    <member refid="classidl__msg_1_1_pose_1a49f471298c1ea3803026393fee87a6a0" kind="function"><name>orientation_euler</name></member>
+    <member refid="classidl__msg_1_1_pose_1aa988aed91db06b5ada97b9e4076ace81" kind="function"><name>orientation_quat</name></member>
+    <member refid="classidl__msg_1_1_pose_1ada04ee0841bf4359439b3f273eaea6c0" kind="function"><name>orientation_quat</name></member>
+    <member refid="classidl__msg_1_1_pose_1a0c082b47e45638262b5c34eb5c90aeab" kind="function"><name>orientation_quat</name></member>
+    <member refid="classidl__msg_1_1_pose_1acbecbedd522d9ae39a06a3780cbd25a5" kind="function"><name>orientation_quat</name></member>
     <member refid="classidl__msg_1_1_pose_1ae8fd88d3a21b703ab5c1d6d4695c33db" kind="function"><name>serialize</name></member>
     <member refid="classidl__msg_1_1_pose_1aa5cd29d760a4bdb31979ba7143f5fbba" kind="function"><name>deserialize</name></member>
     <member refid="classidl__msg_1_1_pose_1a1ad3ac55e89a2ef594b2efd7b2c0e40a" kind="function"><name>serializeKey</name></member>
@@ -320,25 +368,33 @@
     <member refid="classidl__msg_1_1_pose_pub_sub_type_1a8c038dc05b372b72e2da990e11915c07" kind="function"><name>createData</name></member>
     <member refid="classidl__msg_1_1_pose_pub_sub_type_1a8da915ff08f7ed1feecec3496b608b6e" kind="function"><name>deleteData</name></member>
   </compound>
-  <compound refid="classidl__msg_1_1_position" kind="class"><name>idl_msg::Position</name>
+  <compound refid="structcpp__msg_1_1_position" kind="struct"><name>cpp_msg::Position</name>
+    <member refid="structcpp__msg_1_1_position_1a6bfb79bfc51a591b281f1db2b8805d2d" kind="variable"><name>x</name></member>
+    <member refid="structcpp__msg_1_1_position_1ad183e54933e15c4967306aee201c3dda" kind="variable"><name>y</name></member>
+    <member refid="structcpp__msg_1_1_position_1a67f3e06a74b5eb174276bb9d01529f16" kind="variable"><name>z</name></member>
+  </compound>
+  <compound refid="classidl__msg_1_1_position" kind="struct"><name>idl_msg::Position</name>
     <member refid="classidl__msg_1_1_position_1aa8f2db8b5646674cb7236453cabf6d87" kind="variable"><name>m_x</name></member>
     <member refid="classidl__msg_1_1_position_1a7eab4cc9d271d5c8be8993b940cbd5ae" kind="variable"><name>m_y</name></member>
     <member refid="classidl__msg_1_1_position_1ab4786ac5236fdf6105c1645f1a4c476b" kind="variable"><name>m_z</name></member>
+    <member refid="classidl__msg_1_1_position_1a53249d8c3e7c76c7059411dd109e3d2f" kind="variable"><name>x</name></member>
+    <member refid="classidl__msg_1_1_position_1ae06de56d3463cdee74aca5726ae82162" kind="variable"><name>y</name></member>
+    <member refid="classidl__msg_1_1_position_1ad03aae46e6e86c5d053ca498948d5ccd" kind="variable"><name>z</name></member>
     <member refid="classidl__msg_1_1_position_1ae8e0b184cae84d15539c5aae4d5fe6f1" kind="function"><name>Position</name></member>
     <member refid="classidl__msg_1_1_position_1a4004546a9ccff3574595f44fd17d4a89" kind="function"><name>~Position</name></member>
     <member refid="classidl__msg_1_1_position_1acb4ef471cb8e30aa48d3df8d6b5b1da7" kind="function"><name>Position</name></member>
     <member refid="classidl__msg_1_1_position_1acd0fdb5b886e8833d0cf6a8a053acf10" kind="function"><name>Position</name></member>
     <member refid="classidl__msg_1_1_position_1a443caa0a223d4b11f03b7d9f40e33024" kind="function"><name>operator=</name></member>
     <member refid="classidl__msg_1_1_position_1a9160367161a2f1bc907bf3f89ee06957" kind="function"><name>operator=</name></member>
-    <member refid="classidl__msg_1_1_position_1ad53e1f3e806984b2568676d8823ccf2c" kind="function"><name>x</name></member>
-    <member refid="classidl__msg_1_1_position_1a6721fdb7690aafdc059957d4837f91b3" kind="function"><name>x</name></member>
-    <member refid="classidl__msg_1_1_position_1a56bbd0d230b42811cfe4e1659f18bbfc" kind="function"><name>x</name></member>
-    <member refid="classidl__msg_1_1_position_1afb3bfe6ffe704669acd3e034183f88b1" kind="function"><name>y</name></member>
-    <member refid="classidl__msg_1_1_position_1acf23ab296f2ba54568312ca81a79c929" kind="function"><name>y</name></member>
-    <member refid="classidl__msg_1_1_position_1a2a22d6b1272449b92b2b307ef142c395" kind="function"><name>y</name></member>
-    <member refid="classidl__msg_1_1_position_1adecff8bb9c42d586a6aca8459f079709" kind="function"><name>z</name></member>
-    <member refid="classidl__msg_1_1_position_1a70a1f3f5723b097bdc4f874915b837f4" kind="function"><name>z</name></member>
-    <member refid="classidl__msg_1_1_position_1ab8678ed5c07e937b246e92a9fadd1606" kind="function"><name>z</name></member>
+    <member refid="classidl__msg_1_1_position_1adaf19e331609724b8065b31bacb76fb9" kind="function"><name>x</name></member>
+    <member refid="classidl__msg_1_1_position_1a7ca3a71eb82fc129a5f508c9b1948f9f" kind="function"><name>x</name></member>
+    <member refid="classidl__msg_1_1_position_1a08575b9ea1e01ad7ff1318ffa098ec06" kind="function"><name>x</name></member>
+    <member refid="classidl__msg_1_1_position_1a3db4c2c1f30ab8f50931d61508b4529f" kind="function"><name>y</name></member>
+    <member refid="classidl__msg_1_1_position_1a153241cf8db6228be51a918fb6237961" kind="function"><name>y</name></member>
+    <member refid="classidl__msg_1_1_position_1aa9c029edaf73ede00ff175cb7c3744e1" kind="function"><name>y</name></member>
+    <member refid="classidl__msg_1_1_position_1a5d8489a56d3a5a274c3a9674fda08198" kind="function"><name>z</name></member>
+    <member refid="classidl__msg_1_1_position_1a8d4117a5bd36542b2c185ca66a56d42a" kind="function"><name>z</name></member>
+    <member refid="classidl__msg_1_1_position_1a806b98104ce124c0743e047066732d33" kind="function"><name>z</name></member>
     <member refid="classidl__msg_1_1_position_1a5443d088ea714b20634b384cb3e1ab36" kind="function"><name>serialize</name></member>
     <member refid="classidl__msg_1_1_position_1a99a5b77f81419cfe3138a42e1161ba6a" kind="function"><name>deserialize</name></member>
     <member refid="classidl__msg_1_1_position_1aa306054a130b866bfe36b7348464dd6c" kind="function"><name>serializeKey</name></member>
@@ -367,22 +423,24 @@
     <member refid="class_d_d_s_publisher_1_1_pub_listener_1aad6c5bd8a013b374dea6f597252148b1" kind="function"><name>matched</name></member>
     <member refid="class_d_d_s_publisher_1_1_pub_listener_1a6a13b01f8ffc3a10c126621609c1358f" kind="function"><name>on_publication_matched</name></member>
   </compound>
-  <compound refid="classidl__msg_1_1_quad_action_cmd" kind="class"><name>idl_msg::QuadActionCmd</name>
+  <compound refid="classidl__msg_1_1_quad_action_cmd" kind="struct"><name>idl_msg::QuadActionCmd</name>
     <member refid="classidl__msg_1_1_quad_action_cmd_1ad5350dc5fc75d8c2b8b250089c7920ac" kind="variable"><name>m_header</name></member>
     <member refid="classidl__msg_1_1_quad_action_cmd_1a84dc04aae2ebe79ffeb0dbe8fe6acdbb" kind="variable"><name>m_cmd</name></member>
+    <member refid="classidl__msg_1_1_quad_action_cmd_1a035caedacc08093e35d5313d382942b0" kind="variable"><name>header</name></member>
+    <member refid="classidl__msg_1_1_quad_action_cmd_1ab15a4f3fb78181256de935aaa58045e6" kind="variable"><name>cmd</name></member>
     <member refid="classidl__msg_1_1_quad_action_cmd_1ac8eda28e9b4bb15bc1bf392fc13ebfda" kind="function"><name>QuadActionCmd</name></member>
     <member refid="classidl__msg_1_1_quad_action_cmd_1ab1452bd41898ea2665e69c3a5cbcca25" kind="function"><name>~QuadActionCmd</name></member>
     <member refid="classidl__msg_1_1_quad_action_cmd_1ad4ce7f39dbff75b69c2424e8e807a15b" kind="function"><name>QuadActionCmd</name></member>
     <member refid="classidl__msg_1_1_quad_action_cmd_1a64171a0fc4b446c8816d28aa18ac151c" kind="function"><name>QuadActionCmd</name></member>
     <member refid="classidl__msg_1_1_quad_action_cmd_1ab2d131c3abaf9f6517a1fbeb2839f345" kind="function"><name>operator=</name></member>
     <member refid="classidl__msg_1_1_quad_action_cmd_1a6d5418ce84fc6e8592cc49fe4e2f5614" kind="function"><name>operator=</name></member>
-    <member refid="classidl__msg_1_1_quad_action_cmd_1a6e3d1db26b6fe3b61847b1ac96999193" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_quad_action_cmd_1a3ef28c676c879319e97205da3eb90b77" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_quad_action_cmd_1a2206a8ae674d2a95ec0ed4a5e5d519fc" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_quad_action_cmd_1a3cb672fc36a9dbc1c5ba4a383879c481" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_quad_action_cmd_1a176ae1ef6b9a3fc86a38570dc34db581" kind="function"><name>cmd</name></member>
-    <member refid="classidl__msg_1_1_quad_action_cmd_1a36228133d235643df574045a3fbd513f" kind="function"><name>cmd</name></member>
-    <member refid="classidl__msg_1_1_quad_action_cmd_1a35742d60d4782eccc97b7bff2019491f" kind="function"><name>cmd</name></member>
+    <member refid="classidl__msg_1_1_quad_action_cmd_1aa79a87e1555c6e8cfc293b01822e31d7" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_quad_action_cmd_1ae3636bb1c5e5f82d1137f50444623b90" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_quad_action_cmd_1afd36ccbd76b45b63f7df2a278653783e" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_quad_action_cmd_1af7910ab939a0a7de998ae3effe356180" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_quad_action_cmd_1a55f3d1f4d8ac72f0af078228bcf96110" kind="function"><name>cmd</name></member>
+    <member refid="classidl__msg_1_1_quad_action_cmd_1a734da6869ff91e13472923ae1e1dd908" kind="function"><name>cmd</name></member>
+    <member refid="classidl__msg_1_1_quad_action_cmd_1a6c0f8d9e77c6605e7b5072344e759add" kind="function"><name>cmd</name></member>
     <member refid="classidl__msg_1_1_quad_action_cmd_1aa1675e77d626e498ef3c250be8b44229" kind="function"><name>serialize</name></member>
     <member refid="classidl__msg_1_1_quad_action_cmd_1a8e45cfa70678c4444ca972ea1315478a" kind="function"><name>deserialize</name></member>
     <member refid="classidl__msg_1_1_quad_action_cmd_1a8a69112d04ae44aeb0a81c2c6b9b0ec8" kind="function"><name>serializeKey</name></member>
@@ -404,34 +462,46 @@
     <member refid="classidl__msg_1_1_quad_action_cmd_pub_sub_type_1ae2095a88620c237a476d5e7a5d9090c0" kind="function"><name>createData</name></member>
     <member refid="classidl__msg_1_1_quad_action_cmd_pub_sub_type_1ad897f0a7f73ddbc8a31cd22f7887d47c" kind="function"><name>deleteData</name></member>
   </compound>
-  <compound refid="classidl__msg_1_1_quad_attitude_command" kind="class"><name>idl_msg::QuadAttitudeCommand</name>
+  <compound refid="structcpp__msg_1_1_quad_attitude_command" kind="struct"><name>cpp_msg::QuadAttitudeCommand</name>
+    <member refid="structcpp__msg_1_1_quad_attitude_command_1a00a6863ccce914115df44392b473db13" kind="variable"><name>header</name></member>
+    <member refid="structcpp__msg_1_1_quad_attitude_command_1a5e2ea6e8eaeba73a8a8ca13f24c4aba4" kind="variable"><name>thrust</name></member>
+    <member refid="structcpp__msg_1_1_quad_attitude_command_1a74235c136619d7a572bd198e5eaad87e" kind="variable"><name>roll</name></member>
+    <member refid="structcpp__msg_1_1_quad_attitude_command_1a8e48128508e44f649cdf3d021b6e81f2" kind="variable"><name>pitch</name></member>
+    <member refid="structcpp__msg_1_1_quad_attitude_command_1a9eddc52267c64a2286d3c8d0927ea541" kind="variable"><name>yaw</name></member>
+  </compound>
+  <compound refid="classidl__msg_1_1_quad_attitude_command" kind="struct"><name>idl_msg::QuadAttitudeCommand</name>
     <member refid="classidl__msg_1_1_quad_attitude_command_1a66fc85331a823c9fa8e4aead967e3ae6" kind="variable"><name>m_header</name></member>
     <member refid="classidl__msg_1_1_quad_attitude_command_1a8209ca154c12173baa4de77da0107068" kind="variable"><name>m_thrust</name></member>
     <member refid="classidl__msg_1_1_quad_attitude_command_1a2b6c485dfb3e42f509c6e1444b5ac5dd" kind="variable"><name>m_roll</name></member>
     <member refid="classidl__msg_1_1_quad_attitude_command_1af4163c1f5b952b51bb154b7ed952a0f2" kind="variable"><name>m_pitch</name></member>
     <member refid="classidl__msg_1_1_quad_attitude_command_1ad7af7e69c7aa8c6cf94706366af6cd7d" kind="variable"><name>m_yaw</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_command_1abf985e23dc0556f12462c49190e14df2" kind="variable"><name>header</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_command_1a3cdb9e5739d6de9cbc08814af721fb9a" kind="variable"><name>thrust</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_command_1ad99e221c908f26e95fa49718f5d9bf1e" kind="variable"><name>roll</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_command_1ae9ef9a5216ca1daa9b1b8082b714409c" kind="variable"><name>pitch</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_command_1a72340d7a142fbd1b98ee00233e4d2d34" kind="variable"><name>yaw</name></member>
     <member refid="classidl__msg_1_1_quad_attitude_command_1a0ba9de6fa5358ef72919494570bdfc74" kind="function"><name>QuadAttitudeCommand</name></member>
     <member refid="classidl__msg_1_1_quad_attitude_command_1a9b9ba4c02f81b29d83d23be27c9f8229" kind="function"><name>~QuadAttitudeCommand</name></member>
     <member refid="classidl__msg_1_1_quad_attitude_command_1a4af8d024352ad6213a76c9ccdee2e06e" kind="function"><name>QuadAttitudeCommand</name></member>
     <member refid="classidl__msg_1_1_quad_attitude_command_1aff0fcfecc90da657f882f5331eb5dd17" kind="function"><name>QuadAttitudeCommand</name></member>
     <member refid="classidl__msg_1_1_quad_attitude_command_1ac0bd7a2f8e7bd9eb641feb962aad959d" kind="function"><name>operator=</name></member>
     <member refid="classidl__msg_1_1_quad_attitude_command_1a1d791aac262fa7fb03ed69fb42c4a705" kind="function"><name>operator=</name></member>
-    <member refid="classidl__msg_1_1_quad_attitude_command_1abedf42c4752c72c5d66a4106e3b2f2a6" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_quad_attitude_command_1abe108cdf4352fabcfd08da0d4a57b567" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_quad_attitude_command_1a182f366218bc20ac952e71a603003711" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_quad_attitude_command_1a5deeb4a0ef73b1371ee62ef8526f252e" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_quad_attitude_command_1a80c260bf6537f91dc8569c7fc6d5e113" kind="function"><name>thrust</name></member>
-    <member refid="classidl__msg_1_1_quad_attitude_command_1a5e29bcbfc564afa4e5ce7f1851886c3c" kind="function"><name>thrust</name></member>
-    <member refid="classidl__msg_1_1_quad_attitude_command_1a627d94a8b6d345165ea71721f28f4667" kind="function"><name>thrust</name></member>
-    <member refid="classidl__msg_1_1_quad_attitude_command_1ac0eb6337d42288e2d08da0ad947af2e2" kind="function"><name>roll</name></member>
-    <member refid="classidl__msg_1_1_quad_attitude_command_1ae51d49bc98234697ad2d5acbd3eb26ef" kind="function"><name>roll</name></member>
-    <member refid="classidl__msg_1_1_quad_attitude_command_1acf7dd4e8bc37535fef40b226391fb624" kind="function"><name>roll</name></member>
-    <member refid="classidl__msg_1_1_quad_attitude_command_1a3f13d1f920b70ec6a1791a77f6337402" kind="function"><name>pitch</name></member>
-    <member refid="classidl__msg_1_1_quad_attitude_command_1a06a0e1c5b8822b2be9964b908467a68d" kind="function"><name>pitch</name></member>
-    <member refid="classidl__msg_1_1_quad_attitude_command_1a06528cd6f68dd1f3138cf7b6c5826a8a" kind="function"><name>pitch</name></member>
-    <member refid="classidl__msg_1_1_quad_attitude_command_1ac2ea15c71e042a54cd1e99aac432f397" kind="function"><name>yaw</name></member>
-    <member refid="classidl__msg_1_1_quad_attitude_command_1ac164f65155cc02e6645cd268c7399321" kind="function"><name>yaw</name></member>
-    <member refid="classidl__msg_1_1_quad_attitude_command_1a4ebd5f052606deea356e486d75cf74b0" kind="function"><name>yaw</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_command_1ad52715592ca45a12520dc54fe0f5b625" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_command_1ad1a851a50fd309f99be9b422b1f7ef50" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_command_1a95450341a21df54a1dda487c6200ff16" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_command_1add678bfcb8bbf8d87f1a18446acc7d34" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_command_1a8a9ed5949cf7d2c82a9377c6103cf5e7" kind="function"><name>thrust</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_command_1a0b65eb246367c45ca6c63cae96038be8" kind="function"><name>thrust</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_command_1a784b1e066b02768fa998d9f7fc63c612" kind="function"><name>thrust</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_command_1ace1b79e02ac9282582115ad59584780a" kind="function"><name>roll</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_command_1a9e43dadc62480aa5425f48f1d78d8d90" kind="function"><name>roll</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_command_1a9c9323826ae317082a8138ea47e7fd07" kind="function"><name>roll</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_command_1a91b109dbf49515bccd9fbe2be159c9ce" kind="function"><name>pitch</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_command_1a14d592aaf1690b1a95bffe7ef6002ed1" kind="function"><name>pitch</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_command_1a30404e80e5789f0116bd8acf4fd31caa" kind="function"><name>pitch</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_command_1ab2583f5e3619b7948796d2e074213148" kind="function"><name>yaw</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_command_1a92b4e1d3bb70c699b61ba49561a5083a" kind="function"><name>yaw</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_command_1a025b4794b69caaf41716deb63e11287f" kind="function"><name>yaw</name></member>
     <member refid="classidl__msg_1_1_quad_attitude_command_1a424a507c1508d1c149ac1b89269341fd" kind="function"><name>serialize</name></member>
     <member refid="classidl__msg_1_1_quad_attitude_command_1a8d4bd355fb4a6253e96373d0ad63e848" kind="function"><name>deserialize</name></member>
     <member refid="classidl__msg_1_1_quad_attitude_command_1a856ffa0d1bf81084d45a78c4c8108d9d" kind="function"><name>serializeKey</name></member>
@@ -453,34 +523,46 @@
     <member refid="classidl__msg_1_1_quad_attitude_command_pub_sub_type_1ab45d944d10d3b63a0de0810346b1137f" kind="function"><name>createData</name></member>
     <member refid="classidl__msg_1_1_quad_attitude_command_pub_sub_type_1a4d7bff71c036037b1b35f2280b191104" kind="function"><name>deleteData</name></member>
   </compound>
-  <compound refid="classidl__msg_1_1_quad_attitude_rate_command" kind="class"><name>idl_msg::QuadAttitudeRateCommand</name>
+  <compound refid="structcpp__msg_1_1_quad_attitude_rate_command" kind="struct"><name>cpp_msg::QuadAttitudeRateCommand</name>
+    <member refid="structcpp__msg_1_1_quad_attitude_rate_command_1a06111036553e1977a3b468966c2bbf45" kind="variable"><name>header</name></member>
+    <member refid="structcpp__msg_1_1_quad_attitude_rate_command_1a1dd0e18efa182ab92468f1de56de724f" kind="variable"><name>thrust</name></member>
+    <member refid="structcpp__msg_1_1_quad_attitude_rate_command_1a1f002fedc7c4ed21ca1c5302fd9dc2b2" kind="variable"><name>roll_rate</name></member>
+    <member refid="structcpp__msg_1_1_quad_attitude_rate_command_1aae1ee8fda3cbb3bcd90fedb131eedbb7" kind="variable"><name>pitch_rate</name></member>
+    <member refid="structcpp__msg_1_1_quad_attitude_rate_command_1a8acee7be8de03342759324043bb5613b" kind="variable"><name>yaw_rate</name></member>
+  </compound>
+  <compound refid="classidl__msg_1_1_quad_attitude_rate_command" kind="struct"><name>idl_msg::QuadAttitudeRateCommand</name>
     <member refid="classidl__msg_1_1_quad_attitude_rate_command_1adf01b4ed7995c1a1cdf571446d54b7a6" kind="variable"><name>m_header</name></member>
     <member refid="classidl__msg_1_1_quad_attitude_rate_command_1a8087864968b012b8a568972533c45121" kind="variable"><name>m_thrust</name></member>
     <member refid="classidl__msg_1_1_quad_attitude_rate_command_1a1be63a5b53020204bcd09270e28fcba1" kind="variable"><name>m_roll_rate</name></member>
     <member refid="classidl__msg_1_1_quad_attitude_rate_command_1aa7ed71058f9e6164aa966dd2d082d637" kind="variable"><name>m_pitch_rate</name></member>
     <member refid="classidl__msg_1_1_quad_attitude_rate_command_1a073c4ae82c47a0a32feaf3fe74b72ce6" kind="variable"><name>m_yaw_rate</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1a464f465e24fdbc7fc7c4e2134b2e6652" kind="variable"><name>header</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1a226ce71f5c76e34ad3d563840bba484e" kind="variable"><name>thrust</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1a9253d515332ddcf31845328f35311c11" kind="variable"><name>roll_rate</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1a69547c410c12c59fc885f3ba2df3f68a" kind="variable"><name>pitch_rate</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1afba1411034a107349a0f262a2bac9be0" kind="variable"><name>yaw_rate</name></member>
     <member refid="classidl__msg_1_1_quad_attitude_rate_command_1aa23ccc431a5b23546aa24e01778f9672" kind="function"><name>QuadAttitudeRateCommand</name></member>
     <member refid="classidl__msg_1_1_quad_attitude_rate_command_1afb60597c64d9d0227a485670306c2c08" kind="function"><name>~QuadAttitudeRateCommand</name></member>
     <member refid="classidl__msg_1_1_quad_attitude_rate_command_1a8ed94986b5d47cb7e9211fa2c38067b5" kind="function"><name>QuadAttitudeRateCommand</name></member>
     <member refid="classidl__msg_1_1_quad_attitude_rate_command_1ae2905c9a0b552c4e84a3f45a5f0beff3" kind="function"><name>QuadAttitudeRateCommand</name></member>
     <member refid="classidl__msg_1_1_quad_attitude_rate_command_1a96ad5bd20c67970820add0960c73a926" kind="function"><name>operator=</name></member>
     <member refid="classidl__msg_1_1_quad_attitude_rate_command_1a028c13d77ec24904630efc6a68680e17" kind="function"><name>operator=</name></member>
-    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1a0cf9c3a44fc4553d96cd6605df7414e8" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1a39a2946b36bda0961272929af23065c1" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1abb792d6c7dc86ef38818b7fd7ad0dbda" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1ac29432bc2c633d97fff63632a8ae94aa" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1a5788a0eeb64398fc904942d748c50a89" kind="function"><name>thrust</name></member>
-    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1ab3452b046dfd2d40b0f9b869bc0c16bf" kind="function"><name>thrust</name></member>
-    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1a7a15f4289aef6b08299c8ddf7e41fef9" kind="function"><name>thrust</name></member>
-    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1a135b51e025d68dd9921e91a9533039a9" kind="function"><name>roll_rate</name></member>
-    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1a9686a6572c2e650cc6734e60c580be0b" kind="function"><name>roll_rate</name></member>
-    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1acd0a096614468a03c00847696cdcd1a5" kind="function"><name>roll_rate</name></member>
-    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1a4131514ae038c9d5a694edc7abf27b4f" kind="function"><name>pitch_rate</name></member>
-    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1aae5b1b166667edd73fca44a9325c2ee8" kind="function"><name>pitch_rate</name></member>
-    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1a8684ec3de7b19d464600c4caaf4ce035" kind="function"><name>pitch_rate</name></member>
-    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1a91c31cb1221393276b5308c1047d6ce5" kind="function"><name>yaw_rate</name></member>
-    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1a45abfe44170acb8f77cc628f0905cbac" kind="function"><name>yaw_rate</name></member>
-    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1a884f8c09b0c8cda2eb181b06cab88314" kind="function"><name>yaw_rate</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1ae2d9a4d79a2704274aae1069bfb2612c" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1ac10ec0d23517066edc94c4f06a2a69ae" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1a1db010c7b60c149fe14b2bb6c2968f31" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1a385a28445bb2138ac6c55f7b0e7d8e48" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1a7cac5514399c04a92739d1130525ccca" kind="function"><name>thrust</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1aab458c108d9a85278a0cfb99b6726904" kind="function"><name>thrust</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1a965f498c0c1817d433fe0b57b823b21b" kind="function"><name>thrust</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1ac09ebd504ac8c8564397732746ae0343" kind="function"><name>roll_rate</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1a20967b2fbcf715559ca4afe57c65d0f7" kind="function"><name>roll_rate</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1a7203ec8dfa2015400661b46a6df97001" kind="function"><name>roll_rate</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1a2da59b5db66e6d26522b6d7d56599262" kind="function"><name>pitch_rate</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1a6ff61c439c533cd0cad1798a0dfdd219" kind="function"><name>pitch_rate</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1a7245e551a6ebfb917322dbb8d6320d50" kind="function"><name>pitch_rate</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1ad78f237e65a7178cca5806ff87efef05" kind="function"><name>yaw_rate</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1ae3bacfc6123e411c3005e0096a1f952d" kind="function"><name>yaw_rate</name></member>
+    <member refid="classidl__msg_1_1_quad_attitude_rate_command_1ae659c1927c8346ea6c22bedd571aee79" kind="function"><name>yaw_rate</name></member>
     <member refid="classidl__msg_1_1_quad_attitude_rate_command_1abd72203e85a5ad748f4256f1e4dc7db2" kind="function"><name>serialize</name></member>
     <member refid="classidl__msg_1_1_quad_attitude_rate_command_1a3e4076d995456bd5c2009f5883be36ac" kind="function"><name>deserialize</name></member>
     <member refid="classidl__msg_1_1_quad_attitude_rate_command_1adf195dbef5641e3c26f33e5b15d1e8bf" kind="function"><name>serializeKey</name></member>
@@ -502,23 +584,29 @@
     <member refid="classidl__msg_1_1_quad_attitude_rate_command_pub_sub_type_1ac1de916076de1a293f424bb78afd00d3" kind="function"><name>createData</name></member>
     <member refid="classidl__msg_1_1_quad_attitude_rate_command_pub_sub_type_1a59332489949858db648ef534bb38f506" kind="function"><name>deleteData</name></member>
   </compound>
-  <compound refid="classidl__msg_1_1_quad_motor_command" kind="class"><name>idl_msg::QuadMotorCommand</name>
+  <compound refid="structcpp__msg_1_1_quad_motor_command" kind="struct"><name>cpp_msg::QuadMotorCommand</name>
+    <member refid="structcpp__msg_1_1_quad_motor_command_1a82b29c0f566141acf8d8abcc4520a48a" kind="variable"><name>header</name></member>
+    <member refid="structcpp__msg_1_1_quad_motor_command_1ad563a141a54ebfeab9c99a3c44ccedeb" kind="variable"><name>motorspeed</name></member>
+  </compound>
+  <compound refid="classidl__msg_1_1_quad_motor_command" kind="struct"><name>idl_msg::QuadMotorCommand</name>
     <member refid="classidl__msg_1_1_quad_motor_command_1a9cca2ec7384a4353c4803d66495ca939" kind="variable"><name>m_header</name></member>
     <member refid="classidl__msg_1_1_quad_motor_command_1a62bf4539e2f6c92634fb1dc2b7ff5873" kind="variable"><name>m_motorspeed</name></member>
+    <member refid="classidl__msg_1_1_quad_motor_command_1ab327b08ad258aabb48d44e71875bfac0" kind="variable"><name>header</name></member>
+    <member refid="classidl__msg_1_1_quad_motor_command_1a7d6a0daea1657b1a4738e2058c4b1059" kind="variable"><name>motorspeed</name></member>
     <member refid="classidl__msg_1_1_quad_motor_command_1a59ea3fbadbf79910804b482a447d9935" kind="function"><name>QuadMotorCommand</name></member>
     <member refid="classidl__msg_1_1_quad_motor_command_1a1681f377110d400ae986f7a450ef7b57" kind="function"><name>~QuadMotorCommand</name></member>
     <member refid="classidl__msg_1_1_quad_motor_command_1aa1e02cb01b5395978a5e7bf78101bf39" kind="function"><name>QuadMotorCommand</name></member>
     <member refid="classidl__msg_1_1_quad_motor_command_1ad4048b126488eafae3bce69e1bbd72c8" kind="function"><name>QuadMotorCommand</name></member>
     <member refid="classidl__msg_1_1_quad_motor_command_1a017c3eff5340c838a0e542b38a1e5fe0" kind="function"><name>operator=</name></member>
     <member refid="classidl__msg_1_1_quad_motor_command_1a370427584ec7267f018c455eb371907a" kind="function"><name>operator=</name></member>
-    <member refid="classidl__msg_1_1_quad_motor_command_1a144b62896ab2e64676fadeb1ab7cbf0d" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_quad_motor_command_1a382d6067a4358ccea9a857c63a125458" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_quad_motor_command_1a9fe64418e1bb45bcf3887aa82a4a6af2" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_quad_motor_command_1af2058633c82abf39414385c3474c5319" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_quad_motor_command_1a306f78cd506c8dd40fd5fa4474329749" kind="function"><name>motorspeed</name></member>
-    <member refid="classidl__msg_1_1_quad_motor_command_1a861251cf1eb22e5695ab59c8ef43aa35" kind="function"><name>motorspeed</name></member>
-    <member refid="classidl__msg_1_1_quad_motor_command_1acf9e88e01a6d6f99351669457fed554f" kind="function"><name>motorspeed</name></member>
-    <member refid="classidl__msg_1_1_quad_motor_command_1a664b075c59025d49dfc6f168375fcff5" kind="function"><name>motorspeed</name></member>
+    <member refid="classidl__msg_1_1_quad_motor_command_1a20cf78ad1f1b9595968701375917ffc9" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_quad_motor_command_1a8931170291f3c63f58c7d99b7254ca3e" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_quad_motor_command_1a0040540d718135e62372a7e3b6e9aeea" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_quad_motor_command_1aee0dfa996669795b8b11c1d2d1199b5c" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_quad_motor_command_1ab80d104a209108abe83ae77d08d0d084" kind="function"><name>motorspeed</name></member>
+    <member refid="classidl__msg_1_1_quad_motor_command_1afc64bdd5985d8a9a32bc1e15e09241fb" kind="function"><name>motorspeed</name></member>
+    <member refid="classidl__msg_1_1_quad_motor_command_1a8598b318589884f887e7bf7aebe31bf4" kind="function"><name>motorspeed</name></member>
+    <member refid="classidl__msg_1_1_quad_motor_command_1a6ffe043b1ec5a26b0cff47a8b9b03ff6" kind="function"><name>motorspeed</name></member>
     <member refid="classidl__msg_1_1_quad_motor_command_1af13098717c70baae8223d7d6e5bf3134" kind="function"><name>serialize</name></member>
     <member refid="classidl__msg_1_1_quad_motor_command_1a3c55d85ebfdcef824b2b505b95f0029f" kind="function"><name>deserialize</name></member>
     <member refid="classidl__msg_1_1_quad_motor_command_1ae79bd94c54e8196c1f062738a43c75da" kind="function"><name>serializeKey</name></member>
@@ -540,27 +628,35 @@
     <member refid="classidl__msg_1_1_quad_motor_command_pub_sub_type_1a036ed7468679a83ef00a713c63b3fd7d" kind="function"><name>createData</name></member>
     <member refid="classidl__msg_1_1_quad_motor_command_pub_sub_type_1aa5d77d198ede97ab82a661c856dc8638" kind="function"><name>deleteData</name></member>
   </compound>
-  <compound refid="classidl__msg_1_1_quad_position_cmd" kind="class"><name>idl_msg::QuadPositionCmd</name>
+  <compound refid="structcpp__msg_1_1_quad_position_cmd" kind="struct"><name>cpp_msg::QuadPositionCmd</name>
+    <member refid="structcpp__msg_1_1_quad_position_cmd_1a86d7556e2095d6dc6e1d674eca51c1ec" kind="variable"><name>header</name></member>
+    <member refid="structcpp__msg_1_1_quad_position_cmd_1a06f8d856735d74513f399bc221b23a1d" kind="variable"><name>position</name></member>
+    <member refid="structcpp__msg_1_1_quad_position_cmd_1a2cae8a80744c6d5bf8f302e7b652f054" kind="variable"><name>yaw_angle</name></member>
+  </compound>
+  <compound refid="classidl__msg_1_1_quad_position_cmd" kind="struct"><name>idl_msg::QuadPositionCmd</name>
     <member refid="classidl__msg_1_1_quad_position_cmd_1aa1f5e47683aad02853e32cde3ba152b3" kind="variable"><name>m_header</name></member>
     <member refid="classidl__msg_1_1_quad_position_cmd_1a49bf664c72708445277a56e75e7137c6" kind="variable"><name>m_position</name></member>
     <member refid="classidl__msg_1_1_quad_position_cmd_1af65cf970c444c05033fa62480f09e597" kind="variable"><name>m_yaw_angle</name></member>
+    <member refid="classidl__msg_1_1_quad_position_cmd_1ade2ddb62c160f38be45a0947667a3156" kind="variable"><name>header</name></member>
+    <member refid="classidl__msg_1_1_quad_position_cmd_1a7c88a48daa9559d80cc36f4fbc203bb3" kind="variable"><name>position</name></member>
+    <member refid="classidl__msg_1_1_quad_position_cmd_1acda129763b3af85c57864dbf993a13d1" kind="variable"><name>yaw_angle</name></member>
     <member refid="classidl__msg_1_1_quad_position_cmd_1af850f65ffeca7972f8e159c37f2243f4" kind="function"><name>QuadPositionCmd</name></member>
     <member refid="classidl__msg_1_1_quad_position_cmd_1a36d9e1f129fd778202770e72460aa3f3" kind="function"><name>~QuadPositionCmd</name></member>
     <member refid="classidl__msg_1_1_quad_position_cmd_1af2ed575e03e13d20962a983c51ede3d3" kind="function"><name>QuadPositionCmd</name></member>
     <member refid="classidl__msg_1_1_quad_position_cmd_1a425280eb54371f4231421a086c5b6eb2" kind="function"><name>QuadPositionCmd</name></member>
     <member refid="classidl__msg_1_1_quad_position_cmd_1a6ba29fd375f5e61b07d532067780c76d" kind="function"><name>operator=</name></member>
     <member refid="classidl__msg_1_1_quad_position_cmd_1aeac0399182e6d32a430af3447c00daa3" kind="function"><name>operator=</name></member>
-    <member refid="classidl__msg_1_1_quad_position_cmd_1a046d0373cfae8a3f85dafa84c22b2780" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_quad_position_cmd_1ad55c911b7b5d67cb70f36246e39b058e" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_quad_position_cmd_1ad469d0d6ef1388214ba6431146badea9" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_quad_position_cmd_1a413aa1e3aa5428ae4ce6825b1132c0c5" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_quad_position_cmd_1a2d685da138ba981d0f9802333d028177" kind="function"><name>position</name></member>
-    <member refid="classidl__msg_1_1_quad_position_cmd_1a2fd6206fa135ff6c094402b727f7a87b" kind="function"><name>position</name></member>
-    <member refid="classidl__msg_1_1_quad_position_cmd_1a172196647d6bc34f0227610cf0782033" kind="function"><name>position</name></member>
-    <member refid="classidl__msg_1_1_quad_position_cmd_1a6c558318f52be469c234283c4994cb39" kind="function"><name>position</name></member>
-    <member refid="classidl__msg_1_1_quad_position_cmd_1a6415c15d5a1c9e57bc5bfb19cfd57c53" kind="function"><name>yaw_angle</name></member>
-    <member refid="classidl__msg_1_1_quad_position_cmd_1a3283fa63bc90fa527adc876c605629af" kind="function"><name>yaw_angle</name></member>
-    <member refid="classidl__msg_1_1_quad_position_cmd_1a98a665992ac4a1c9138de0fc264b7e92" kind="function"><name>yaw_angle</name></member>
+    <member refid="classidl__msg_1_1_quad_position_cmd_1a6c1c90c2a04431077ecbab1506515a72" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_quad_position_cmd_1ac8acd46c1952f351c6a379c82d68185c" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_quad_position_cmd_1a524cb583024eb9b05d28015ebc3456ed" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_quad_position_cmd_1a78e56eed4b4f98ce54b6b75d6cd21ce3" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_quad_position_cmd_1aed313653e401fdc532c7fad0cc0ffd53" kind="function"><name>position</name></member>
+    <member refid="classidl__msg_1_1_quad_position_cmd_1aed5dd32aedd76a8f9791514da38de980" kind="function"><name>position</name></member>
+    <member refid="classidl__msg_1_1_quad_position_cmd_1a8da794e045383f7acbd3b12707d28600" kind="function"><name>position</name></member>
+    <member refid="classidl__msg_1_1_quad_position_cmd_1ab60ccce39d1a484d19c65e1a8f76790c" kind="function"><name>position</name></member>
+    <member refid="classidl__msg_1_1_quad_position_cmd_1a805e34edc54ff7ce841cfb1eafed12b0" kind="function"><name>yaw_angle</name></member>
+    <member refid="classidl__msg_1_1_quad_position_cmd_1a8263d3a2c140d3266b42a4ead79e1426" kind="function"><name>yaw_angle</name></member>
+    <member refid="classidl__msg_1_1_quad_position_cmd_1a550d6ac7a7a011a99aa7ea4258eb8a0e" kind="function"><name>yaw_angle</name></member>
     <member refid="classidl__msg_1_1_quad_position_cmd_1ac776c93dd27a70fb5317b3471379e659" kind="function"><name>serialize</name></member>
     <member refid="classidl__msg_1_1_quad_position_cmd_1abf94b6a9e5f952382a1c27b5720eb2ca" kind="function"><name>deserialize</name></member>
     <member refid="classidl__msg_1_1_quad_position_cmd_1a23707345bc677bc09d62b27a96cf5de9" kind="function"><name>serializeKey</name></member>
@@ -582,27 +678,35 @@
     <member refid="classidl__msg_1_1_quad_position_cmd_pub_sub_type_1a68d8d1b01cddb1719b7c32ea0df11aad" kind="function"><name>createData</name></member>
     <member refid="classidl__msg_1_1_quad_position_cmd_pub_sub_type_1aad1713b8ba882656a3076ca235dbdb9b" kind="function"><name>deleteData</name></member>
   </compound>
-  <compound refid="classidl__msg_1_1_quad_velocity_cmd" kind="class"><name>idl_msg::QuadVelocityCmd</name>
+  <compound refid="structcpp__msg_1_1_quad_velocity_cmd" kind="struct"><name>cpp_msg::QuadVelocityCmd</name>
+    <member refid="structcpp__msg_1_1_quad_velocity_cmd_1acb4eac75247a462706207e9adac62895" kind="variable"><name>header</name></member>
+    <member refid="structcpp__msg_1_1_quad_velocity_cmd_1a5b63bbe2ad74400b7ac2c8768c415e2f" kind="variable"><name>velocity</name></member>
+    <member refid="structcpp__msg_1_1_quad_velocity_cmd_1a6096efa9eaf74b7c27e0a9c520c970f3" kind="variable"><name>yaw_angle</name></member>
+  </compound>
+  <compound refid="classidl__msg_1_1_quad_velocity_cmd" kind="struct"><name>idl_msg::QuadVelocityCmd</name>
     <member refid="classidl__msg_1_1_quad_velocity_cmd_1a2454220a96fb1f448884f7b2aacbc9a8" kind="variable"><name>m_header</name></member>
     <member refid="classidl__msg_1_1_quad_velocity_cmd_1a3bf612333c26459fb4bca27958189802" kind="variable"><name>m_velocity</name></member>
     <member refid="classidl__msg_1_1_quad_velocity_cmd_1a63d377354969fd4ceb5394d9374a7655" kind="variable"><name>m_yaw_rate</name></member>
+    <member refid="classidl__msg_1_1_quad_velocity_cmd_1a7e64968fffd3f7490fb0d47f9cb969ba" kind="variable"><name>header</name></member>
+    <member refid="classidl__msg_1_1_quad_velocity_cmd_1a0a3620590732901604a41585b46b1d50" kind="variable"><name>velocity</name></member>
+    <member refid="classidl__msg_1_1_quad_velocity_cmd_1aade77b54ef1c5bd38809fe62bc0a8d36" kind="variable"><name>yaw_rate</name></member>
     <member refid="classidl__msg_1_1_quad_velocity_cmd_1aaf624e478c72acb7f9a30356f0e48f31" kind="function"><name>QuadVelocityCmd</name></member>
     <member refid="classidl__msg_1_1_quad_velocity_cmd_1aaedcfe1bb576cc01b83ef71a6aef5afa" kind="function"><name>~QuadVelocityCmd</name></member>
     <member refid="classidl__msg_1_1_quad_velocity_cmd_1a4049bfe1b10ba742611d95f8b7c2a4d1" kind="function"><name>QuadVelocityCmd</name></member>
     <member refid="classidl__msg_1_1_quad_velocity_cmd_1adbbd7b309ac41e8082cd51746a2f9b05" kind="function"><name>QuadVelocityCmd</name></member>
     <member refid="classidl__msg_1_1_quad_velocity_cmd_1a55d8bfe64b1beeade18bbf77e387d9d3" kind="function"><name>operator=</name></member>
     <member refid="classidl__msg_1_1_quad_velocity_cmd_1a64929d7322e408abd7e7d0f717af1a9b" kind="function"><name>operator=</name></member>
-    <member refid="classidl__msg_1_1_quad_velocity_cmd_1adf9c63a4d02c09f894317503e61bb220" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_quad_velocity_cmd_1af72a1f0b3f8ff26138fd3a68a5d5052d" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_quad_velocity_cmd_1a2466d039488529580db38153298e1b34" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_quad_velocity_cmd_1a83565385737f2e4bffc4e6807afb6079" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_quad_velocity_cmd_1a9665a5954f2c7a05b2f594d178da8586" kind="function"><name>velocity</name></member>
-    <member refid="classidl__msg_1_1_quad_velocity_cmd_1aa4acd30683eb5056c5b73c091324b578" kind="function"><name>velocity</name></member>
-    <member refid="classidl__msg_1_1_quad_velocity_cmd_1aa65148dbecd419e7a4446422789feb4e" kind="function"><name>velocity</name></member>
-    <member refid="classidl__msg_1_1_quad_velocity_cmd_1a7e7640236824373fbbba523bd95a1836" kind="function"><name>velocity</name></member>
-    <member refid="classidl__msg_1_1_quad_velocity_cmd_1a6648d2dc1fb31498f3d7ee39a02b16be" kind="function"><name>yaw_rate</name></member>
-    <member refid="classidl__msg_1_1_quad_velocity_cmd_1a37297014ccbd6a26e560599b7ef141b5" kind="function"><name>yaw_rate</name></member>
-    <member refid="classidl__msg_1_1_quad_velocity_cmd_1abd24168b8fcc783280f6b8cfd9ec7cba" kind="function"><name>yaw_rate</name></member>
+    <member refid="classidl__msg_1_1_quad_velocity_cmd_1a631399d8eca33ab567e9817342a7d35d" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_quad_velocity_cmd_1a957955027d0c9b46b8b5ae39616d9a98" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_quad_velocity_cmd_1aa196815e3fc59eb3df296d99a2aa549f" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_quad_velocity_cmd_1aeaf61b3119a68da701c77f9b18801137" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_quad_velocity_cmd_1adb337b7d7020abec29318a7d5df73e71" kind="function"><name>velocity</name></member>
+    <member refid="classidl__msg_1_1_quad_velocity_cmd_1ad3a323644c66a2725b7ed32ed3e20773" kind="function"><name>velocity</name></member>
+    <member refid="classidl__msg_1_1_quad_velocity_cmd_1ad61ef56be0bfc05272de2e193d81c140" kind="function"><name>velocity</name></member>
+    <member refid="classidl__msg_1_1_quad_velocity_cmd_1ad01eef4d75419d2bfdcfc71bb4c05e97" kind="function"><name>velocity</name></member>
+    <member refid="classidl__msg_1_1_quad_velocity_cmd_1a143dacc94d3991e5531f3accac402653" kind="function"><name>yaw_rate</name></member>
+    <member refid="classidl__msg_1_1_quad_velocity_cmd_1ab7c46cdf5c168dc805d1401dc403e2fd" kind="function"><name>yaw_rate</name></member>
+    <member refid="classidl__msg_1_1_quad_velocity_cmd_1a963a48b8a24f1d3c2159be0a75e6611d" kind="function"><name>yaw_rate</name></member>
     <member refid="classidl__msg_1_1_quad_velocity_cmd_1aee733554be5185fe63b66333ff6dd465" kind="function"><name>serialize</name></member>
     <member refid="classidl__msg_1_1_quad_velocity_cmd_1a0ec0acd9feac75b9d11db4e4d1ebbb1d" kind="function"><name>deserialize</name></member>
     <member refid="classidl__msg_1_1_quad_velocity_cmd_1a9a68e46937768590c35a7f300ec78054" kind="function"><name>serializeKey</name></member>
@@ -624,29 +728,39 @@
     <member refid="classidl__msg_1_1_quad_velocity_cmd_pub_sub_type_1ab2b5beaa0f027cc09834e17a6a583645" kind="function"><name>createData</name></member>
     <member refid="classidl__msg_1_1_quad_velocity_cmd_pub_sub_type_1af5b6783919cab4ec3a85c9a58bff501a" kind="function"><name>deleteData</name></member>
   </compound>
-  <compound refid="classidl__msg_1_1_quaternion" kind="class"><name>idl_msg::Quaternion</name>
+  <compound refid="structcpp__msg_1_1_quaternion" kind="struct"><name>cpp_msg::Quaternion</name>
+    <member refid="structcpp__msg_1_1_quaternion_1a7b91c75600954317bae69c3f84dba37b" kind="variable"><name>x</name></member>
+    <member refid="structcpp__msg_1_1_quaternion_1a902b5d4630df69167b625b1782a6a477" kind="variable"><name>y</name></member>
+    <member refid="structcpp__msg_1_1_quaternion_1adb1f8b05d387e1ff984bd2a3710580e5" kind="variable"><name>z</name></member>
+    <member refid="structcpp__msg_1_1_quaternion_1ad5b44ffdf8037c62b4251eeee411755c" kind="variable"><name>w</name></member>
+  </compound>
+  <compound refid="classidl__msg_1_1_quaternion" kind="struct"><name>idl_msg::Quaternion</name>
     <member refid="classidl__msg_1_1_quaternion_1af0623261f2d689cd57ee65b1e0ef7428" kind="variable"><name>m_x</name></member>
     <member refid="classidl__msg_1_1_quaternion_1a54cfb34fa75f63f6f2de5176a6660134" kind="variable"><name>m_y</name></member>
     <member refid="classidl__msg_1_1_quaternion_1a8e46477d105bb5a29e1348fd331d5df7" kind="variable"><name>m_z</name></member>
     <member refid="classidl__msg_1_1_quaternion_1ae69e861b690ce3e20ebfe50f6741045b" kind="variable"><name>m_w</name></member>
+    <member refid="classidl__msg_1_1_quaternion_1a576be0f5df6116a720f40fa35b1f1dd9" kind="variable"><name>x</name></member>
+    <member refid="classidl__msg_1_1_quaternion_1a3ddc4c86f24f8d9d4337ece8d55f632a" kind="variable"><name>y</name></member>
+    <member refid="classidl__msg_1_1_quaternion_1a3c8ab8fd387638f885e574fbec47f64c" kind="variable"><name>z</name></member>
+    <member refid="classidl__msg_1_1_quaternion_1aadf5fcf67768b80e98073caa0b33c346" kind="variable"><name>w</name></member>
     <member refid="classidl__msg_1_1_quaternion_1afc009699556217ff73884a5ad46f263b" kind="function"><name>Quaternion</name></member>
     <member refid="classidl__msg_1_1_quaternion_1a02f76ca4940469690b83c40cd9868ede" kind="function"><name>~Quaternion</name></member>
     <member refid="classidl__msg_1_1_quaternion_1a9f9413131c6d88ac96c47083b04f89b0" kind="function"><name>Quaternion</name></member>
     <member refid="classidl__msg_1_1_quaternion_1a1cb022c1312c278435bbf23551dc4ebb" kind="function"><name>Quaternion</name></member>
     <member refid="classidl__msg_1_1_quaternion_1acbf3a17fb697ce650d93f8ce91a6df2a" kind="function"><name>operator=</name></member>
     <member refid="classidl__msg_1_1_quaternion_1af4925ef8f92f268610f012431eb407f2" kind="function"><name>operator=</name></member>
-    <member refid="classidl__msg_1_1_quaternion_1a12ee5aa4ebe3126c1d0077942008e272" kind="function"><name>x</name></member>
-    <member refid="classidl__msg_1_1_quaternion_1a0504c689b74a784b00239e006da33d7c" kind="function"><name>x</name></member>
-    <member refid="classidl__msg_1_1_quaternion_1a8ebc5b7c1dab8c7d65d6a6a1ec766004" kind="function"><name>x</name></member>
-    <member refid="classidl__msg_1_1_quaternion_1acd6e3122b41b519d056d4ab500a992b5" kind="function"><name>y</name></member>
-    <member refid="classidl__msg_1_1_quaternion_1a418e867bb7e26a4b647fb38f699ffce6" kind="function"><name>y</name></member>
-    <member refid="classidl__msg_1_1_quaternion_1a04c7e5ddd3b7db6f82db57930fff5c92" kind="function"><name>y</name></member>
-    <member refid="classidl__msg_1_1_quaternion_1a31d46e37c5bc940dacf08a6f6ac15aeb" kind="function"><name>z</name></member>
-    <member refid="classidl__msg_1_1_quaternion_1a504eab1446d6851ef583fb8bd481e2f7" kind="function"><name>z</name></member>
-    <member refid="classidl__msg_1_1_quaternion_1a6a8d62aad15a11cf050a521cc46e724f" kind="function"><name>z</name></member>
-    <member refid="classidl__msg_1_1_quaternion_1ae5c7f0026b0ab020fd7b4c3847e800f2" kind="function"><name>w</name></member>
-    <member refid="classidl__msg_1_1_quaternion_1a975b70d48e1be29fd5b00d64387ba1f1" kind="function"><name>w</name></member>
-    <member refid="classidl__msg_1_1_quaternion_1ac4a469822304bbf51abbb344ce6d089f" kind="function"><name>w</name></member>
+    <member refid="classidl__msg_1_1_quaternion_1a5fea44d19610af8527590d63ca59e6b0" kind="function"><name>x</name></member>
+    <member refid="classidl__msg_1_1_quaternion_1a4e2ca5742311ccef45fb8c05b176a2ac" kind="function"><name>x</name></member>
+    <member refid="classidl__msg_1_1_quaternion_1ad907a32780d0ba37ed19c6efd40f88e2" kind="function"><name>x</name></member>
+    <member refid="classidl__msg_1_1_quaternion_1aa609637c2c2e7bb8e835a0193ecd6cce" kind="function"><name>y</name></member>
+    <member refid="classidl__msg_1_1_quaternion_1a0e98cca79003cc5f2c59c944a22a29cf" kind="function"><name>y</name></member>
+    <member refid="classidl__msg_1_1_quaternion_1aa9f8fb9511b38997b2ed186dd381bbc8" kind="function"><name>y</name></member>
+    <member refid="classidl__msg_1_1_quaternion_1a6d0da89cbca9f03ee6a36963b94b878e" kind="function"><name>z</name></member>
+    <member refid="classidl__msg_1_1_quaternion_1a673d85156148287e24e2f86320739f68" kind="function"><name>z</name></member>
+    <member refid="classidl__msg_1_1_quaternion_1ae7f702671e97b44da11894165cca15c8" kind="function"><name>z</name></member>
+    <member refid="classidl__msg_1_1_quaternion_1adf08a0b3e744a90dfe972cd0d2186e26" kind="function"><name>w</name></member>
+    <member refid="classidl__msg_1_1_quaternion_1a81eb1935f657f0894655eb9b22600322" kind="function"><name>w</name></member>
+    <member refid="classidl__msg_1_1_quaternion_1a3812bccb842512f5b6a50d57a34e6cff" kind="function"><name>w</name></member>
     <member refid="classidl__msg_1_1_quaternion_1ae5a48fac6437fa9619310b708631a66d" kind="function"><name>serialize</name></member>
     <member refid="classidl__msg_1_1_quaternion_1a57d238102c9b191b10d78b83f29c32d5" kind="function"><name>deserialize</name></member>
     <member refid="classidl__msg_1_1_quaternion_1a559577b5d1677e43a8018d7814011fd9" kind="function"><name>serializeKey</name></member>
@@ -682,34 +796,46 @@
     <member refid="class_sub_listener_1a6ab7ff87fa9386ffcb7f9c4f3795d049" kind="function"><name>on_data_available</name></member>
     <member refid="class_sub_listener_1a09bbac7df4e34c801eef00203d0cdf5c" kind="function"><name>on_subscription_matched</name></member>
   </compound>
-  <compound refid="classidl__msg_1_1_thrust_torque_command" kind="class"><name>idl_msg::ThrustTorqueCommand</name>
+  <compound refid="structcpp__msg_1_1_thrust_torque_command" kind="struct"><name>cpp_msg::ThrustTorqueCommand</name>
+    <member refid="structcpp__msg_1_1_thrust_torque_command_1a67991adf1c5b1057210ed31a63088933" kind="variable"><name>header</name></member>
+    <member refid="structcpp__msg_1_1_thrust_torque_command_1a3a8e4e054f67bbf5f3b85d226a92d443" kind="variable"><name>thrust</name></member>
+    <member refid="structcpp__msg_1_1_thrust_torque_command_1a9784a0a503383f584db539382c303524" kind="variable"><name>roll_torque</name></member>
+    <member refid="structcpp__msg_1_1_thrust_torque_command_1ad281cb03710785d29202e44a663d51e9" kind="variable"><name>pitch_torque</name></member>
+    <member refid="structcpp__msg_1_1_thrust_torque_command_1aee78d266dfc871aa94096ffa78122607" kind="variable"><name>yaw_torque</name></member>
+  </compound>
+  <compound refid="classidl__msg_1_1_thrust_torque_command" kind="struct"><name>idl_msg::ThrustTorqueCommand</name>
     <member refid="classidl__msg_1_1_thrust_torque_command_1a5d46b38ae5528355e6a19295ba1e58a4" kind="variable"><name>m_header</name></member>
     <member refid="classidl__msg_1_1_thrust_torque_command_1a2c6a32b86027ebdd89132210d4b3fbc4" kind="variable"><name>m_thrust</name></member>
     <member refid="classidl__msg_1_1_thrust_torque_command_1ad8e80ebabe8680c82e831e5eec96a372" kind="variable"><name>m_roll_torque</name></member>
     <member refid="classidl__msg_1_1_thrust_torque_command_1aa7e1c524abd6f860e9bbb08fe315a86d" kind="variable"><name>m_pitch_torque</name></member>
     <member refid="classidl__msg_1_1_thrust_torque_command_1a8bc367b4c9aa17bfe8bf6fc14f4bf8b4" kind="variable"><name>m_yaw_torque</name></member>
+    <member refid="classidl__msg_1_1_thrust_torque_command_1a3dd0ea22b364bd03f863448441fd0d14" kind="variable"><name>header</name></member>
+    <member refid="classidl__msg_1_1_thrust_torque_command_1af72d7db4228347977f0d63884c92e4d4" kind="variable"><name>thrust</name></member>
+    <member refid="classidl__msg_1_1_thrust_torque_command_1a33d13c0104604e2eb7b32ee6ccf73206" kind="variable"><name>roll_torque</name></member>
+    <member refid="classidl__msg_1_1_thrust_torque_command_1af95b42052c305d5022e6aef953966dbd" kind="variable"><name>pitch_torque</name></member>
+    <member refid="classidl__msg_1_1_thrust_torque_command_1a89810243c244e521d0e2721fba7c6c84" kind="variable"><name>yaw_torque</name></member>
     <member refid="classidl__msg_1_1_thrust_torque_command_1a1168ae0edeabffda9c3a98c117f4e2ba" kind="function"><name>ThrustTorqueCommand</name></member>
     <member refid="classidl__msg_1_1_thrust_torque_command_1a3eae41e3c8bdbf115ab46ff5de26d92e" kind="function"><name>~ThrustTorqueCommand</name></member>
     <member refid="classidl__msg_1_1_thrust_torque_command_1a513e80576c01aea60cef09f1de06f59e" kind="function"><name>ThrustTorqueCommand</name></member>
     <member refid="classidl__msg_1_1_thrust_torque_command_1a76d8db44440edafd1064dc0e301ce4ab" kind="function"><name>ThrustTorqueCommand</name></member>
     <member refid="classidl__msg_1_1_thrust_torque_command_1a83c2d627118e30d8e45200cdb408e0bc" kind="function"><name>operator=</name></member>
     <member refid="classidl__msg_1_1_thrust_torque_command_1ad9f2c593711f511d96871f5b02892d10" kind="function"><name>operator=</name></member>
-    <member refid="classidl__msg_1_1_thrust_torque_command_1ad2443100fb1ed5488339c5cc3ffe87d0" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_thrust_torque_command_1a9040ebc54f4682158eacb656527c0839" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_thrust_torque_command_1a34c1f50464a08e27a974effdb5107ad9" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_thrust_torque_command_1a2dd79b42972a1c97fef6cc590860c57c" kind="function"><name>header</name></member>
-    <member refid="classidl__msg_1_1_thrust_torque_command_1a59c416a7b7e88f66713e7bbc4b07a3cc" kind="function"><name>thrust</name></member>
-    <member refid="classidl__msg_1_1_thrust_torque_command_1a7b7a1c32c062b1042ac924fe54d5fb26" kind="function"><name>thrust</name></member>
-    <member refid="classidl__msg_1_1_thrust_torque_command_1afd1277bd67853ad55c9167fb35e386de" kind="function"><name>thrust</name></member>
-    <member refid="classidl__msg_1_1_thrust_torque_command_1a8d1cc1222eae723e838a84dcd98cc87b" kind="function"><name>roll_torque</name></member>
-    <member refid="classidl__msg_1_1_thrust_torque_command_1a3304d30c19d528be6b864e3607c8e730" kind="function"><name>roll_torque</name></member>
-    <member refid="classidl__msg_1_1_thrust_torque_command_1a66217fad0fd3a3b6e860c8ea67acd5dd" kind="function"><name>roll_torque</name></member>
-    <member refid="classidl__msg_1_1_thrust_torque_command_1a1087ff756bfd6ee2523a57f9cae6db11" kind="function"><name>pitch_torque</name></member>
-    <member refid="classidl__msg_1_1_thrust_torque_command_1a2e4e53eaad1c3b8b54f227b1cd152c4b" kind="function"><name>pitch_torque</name></member>
-    <member refid="classidl__msg_1_1_thrust_torque_command_1ac35f539372fb284363dc9c2509d712e8" kind="function"><name>pitch_torque</name></member>
-    <member refid="classidl__msg_1_1_thrust_torque_command_1a5cd2087bcd7e507de8f607cf251a3aa8" kind="function"><name>yaw_torque</name></member>
-    <member refid="classidl__msg_1_1_thrust_torque_command_1ae312971bb6f7dfdc667bfc4775cd8c74" kind="function"><name>yaw_torque</name></member>
-    <member refid="classidl__msg_1_1_thrust_torque_command_1aaef045dd243ba28d1ce71e8591f4d43a" kind="function"><name>yaw_torque</name></member>
+    <member refid="classidl__msg_1_1_thrust_torque_command_1a8171fa29e0b00a4204aa810b1603ce87" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_thrust_torque_command_1ab2f9ee8f2f87f69df1599cb57855520e" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_thrust_torque_command_1a6b4e53e12365c42e2cc15379c62053df" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_thrust_torque_command_1a93ea2beec95c99d1fa2558d9b6aeffef" kind="function"><name>header</name></member>
+    <member refid="classidl__msg_1_1_thrust_torque_command_1a45b4fb68281918deae13e51762c71036" kind="function"><name>thrust</name></member>
+    <member refid="classidl__msg_1_1_thrust_torque_command_1aaf77caf2ea226299918a8935dda9d9a0" kind="function"><name>thrust</name></member>
+    <member refid="classidl__msg_1_1_thrust_torque_command_1aefb26ca2b1c8417724107e6bd6df3923" kind="function"><name>thrust</name></member>
+    <member refid="classidl__msg_1_1_thrust_torque_command_1a63e428b8d5a306c0594ec58fbf5e63f5" kind="function"><name>roll_torque</name></member>
+    <member refid="classidl__msg_1_1_thrust_torque_command_1af2b3e97f70d29cc9813046b2698363ed" kind="function"><name>roll_torque</name></member>
+    <member refid="classidl__msg_1_1_thrust_torque_command_1a976d0b0524509ffaaecc0037fe6605a7" kind="function"><name>roll_torque</name></member>
+    <member refid="classidl__msg_1_1_thrust_torque_command_1a693afd1ffc10bb515eccb05f83aaf519" kind="function"><name>pitch_torque</name></member>
+    <member refid="classidl__msg_1_1_thrust_torque_command_1acce49a8384dd0171610edf5e26eefb10" kind="function"><name>pitch_torque</name></member>
+    <member refid="classidl__msg_1_1_thrust_torque_command_1a55f7fd126f4d4e81cded82c9ddd93be7" kind="function"><name>pitch_torque</name></member>
+    <member refid="classidl__msg_1_1_thrust_torque_command_1ab7c7ea872444f88e4cca32e9b97663c5" kind="function"><name>yaw_torque</name></member>
+    <member refid="classidl__msg_1_1_thrust_torque_command_1acd01a92d3a675e4e6e849a4da4222aa5" kind="function"><name>yaw_torque</name></member>
+    <member refid="classidl__msg_1_1_thrust_torque_command_1a21ead273e3568d89290ee314785decf3" kind="function"><name>yaw_torque</name></member>
     <member refid="classidl__msg_1_1_thrust_torque_command_1ac3d15e321c6d4f57a9aab086e903dd45" kind="function"><name>serialize</name></member>
     <member refid="classidl__msg_1_1_thrust_torque_command_1a2d52e2bebd4df132e3130610c8a614e7" kind="function"><name>deserialize</name></member>
     <member refid="classidl__msg_1_1_thrust_torque_command_1a50f49057df9fbe5685f52e24d7333731" kind="function"><name>serializeKey</name></member>
@@ -731,25 +857,33 @@
     <member refid="classidl__msg_1_1_thrust_torque_command_pub_sub_type_1ac1b10b1a13b5b9a3474e45f5de010bb5" kind="function"><name>createData</name></member>
     <member refid="classidl__msg_1_1_thrust_torque_command_pub_sub_type_1a8edba01349b8f3db58c93dd224f5d7c3" kind="function"><name>deleteData</name></member>
   </compound>
-  <compound refid="classidl__msg_1_1_velocity" kind="class"><name>idl_msg::Velocity</name>
+  <compound refid="structcpp__msg_1_1_velocity" kind="struct"><name>cpp_msg::Velocity</name>
+    <member refid="structcpp__msg_1_1_velocity_1a0353da591d0b1868bdcf93cbc89807fa" kind="variable"><name>x</name></member>
+    <member refid="structcpp__msg_1_1_velocity_1aae75972e7eba1aae6d35a68f7a97b0d5" kind="variable"><name>y</name></member>
+    <member refid="structcpp__msg_1_1_velocity_1a46340273fc5022dae6331717c45e1f94" kind="variable"><name>z</name></member>
+  </compound>
+  <compound refid="classidl__msg_1_1_velocity" kind="struct"><name>idl_msg::Velocity</name>
     <member refid="classidl__msg_1_1_velocity_1a2654f6322e1a1ec7324064069a26f869" kind="variable"><name>m_x</name></member>
     <member refid="classidl__msg_1_1_velocity_1aa699be4fa67e1cd3b6147b357c86af9b" kind="variable"><name>m_y</name></member>
     <member refid="classidl__msg_1_1_velocity_1ad56c11c0b3d9c27242d1002f9dd91332" kind="variable"><name>m_z</name></member>
+    <member refid="classidl__msg_1_1_velocity_1ada507ecb6bf2b2f1546cb4628b13d234" kind="variable"><name>x</name></member>
+    <member refid="classidl__msg_1_1_velocity_1a3d57fbebe2b83e745aa07409883d846d" kind="variable"><name>y</name></member>
+    <member refid="classidl__msg_1_1_velocity_1a29e4ca251465b9995a82cd48438b9bb3" kind="variable"><name>z</name></member>
     <member refid="classidl__msg_1_1_velocity_1a5f234a967b775e7c31e35bec4fc9d999" kind="function"><name>Velocity</name></member>
     <member refid="classidl__msg_1_1_velocity_1a5e189eada4608650df1e2fd13a7826f6" kind="function"><name>~Velocity</name></member>
     <member refid="classidl__msg_1_1_velocity_1a72a9380ea1de89a74de5d065b7cb973c" kind="function"><name>Velocity</name></member>
     <member refid="classidl__msg_1_1_velocity_1a74e89ba9e0b4c905ab451d77a81a6aef" kind="function"><name>Velocity</name></member>
     <member refid="classidl__msg_1_1_velocity_1ad6c01bb290f53c33f45dac58fe710136" kind="function"><name>operator=</name></member>
     <member refid="classidl__msg_1_1_velocity_1abdc7eb54ac4f113e224b76f1128933f1" kind="function"><name>operator=</name></member>
-    <member refid="classidl__msg_1_1_velocity_1a0c872c9b085c51ae0acda2dcacd09c9f" kind="function"><name>x</name></member>
-    <member refid="classidl__msg_1_1_velocity_1acbd0dc3ee9877d42b6d83120bf95afb2" kind="function"><name>x</name></member>
-    <member refid="classidl__msg_1_1_velocity_1a0f855645a318e8913e808de5c7d92cf0" kind="function"><name>x</name></member>
-    <member refid="classidl__msg_1_1_velocity_1a750ee99f7f575baefd2761d4b0a9a6c7" kind="function"><name>y</name></member>
-    <member refid="classidl__msg_1_1_velocity_1a259c5d10dbe54917e733a650700e35b3" kind="function"><name>y</name></member>
-    <member refid="classidl__msg_1_1_velocity_1a4abac5a0e841a5c1e296b2efc717816b" kind="function"><name>y</name></member>
-    <member refid="classidl__msg_1_1_velocity_1a3b28fde1a83879d999e438038a0f6e63" kind="function"><name>z</name></member>
-    <member refid="classidl__msg_1_1_velocity_1a1f5a0f6655f78aa97efc9c10b31c491f" kind="function"><name>z</name></member>
-    <member refid="classidl__msg_1_1_velocity_1aeea0f94b2ba60eeb7b2829b43b18d117" kind="function"><name>z</name></member>
+    <member refid="classidl__msg_1_1_velocity_1a5df8a6f03cecb162961ee99541f6d902" kind="function"><name>x</name></member>
+    <member refid="classidl__msg_1_1_velocity_1ab94881571a237b2074b896218bd7c715" kind="function"><name>x</name></member>
+    <member refid="classidl__msg_1_1_velocity_1a03d986fff2a3e767b42d0eb094cf0db0" kind="function"><name>x</name></member>
+    <member refid="classidl__msg_1_1_velocity_1a74c5ef6ef86dd578209feb5166d7240c" kind="function"><name>y</name></member>
+    <member refid="classidl__msg_1_1_velocity_1a0f225dd0f26d8da61f8d91b1fac61263" kind="function"><name>y</name></member>
+    <member refid="classidl__msg_1_1_velocity_1a8974df39ae36efe02f53df13a3105505" kind="function"><name>y</name></member>
+    <member refid="classidl__msg_1_1_velocity_1a0b8abcead9aea9517cf82e3064e7bf56" kind="function"><name>z</name></member>
+    <member refid="classidl__msg_1_1_velocity_1a5ef6e041c3149c44ff5e7e636f61a8f7" kind="function"><name>z</name></member>
+    <member refid="classidl__msg_1_1_velocity_1af7b0a2ac07971596863e6943a6402e22" kind="function"><name>z</name></member>
     <member refid="classidl__msg_1_1_velocity_1a52b9d1e348d88ca5c6c01a590762d33a" kind="function"><name>serialize</name></member>
     <member refid="classidl__msg_1_1_velocity_1a317e4a98585194fe474224f7566818cb" kind="function"><name>deserialize</name></member>
     <member refid="classidl__msg_1_1_velocity_1a293b44989059d0fbce815224148088ce" kind="function"><name>serializeKey</name></member>
@@ -771,6 +905,8 @@
     <member refid="classidl__msg_1_1_velocity_pub_sub_type_1a31b363e418a4eae6422e65b36cb177ae" kind="function"><name>createData</name></member>
     <member refid="classidl__msg_1_1_velocity_pub_sub_type_1a1340b780bee062c188ed463b1fdb74ae" kind="function"><name>deleteData</name></member>
   </compound>
+  <compound refid="namespacecpp__msg" kind="namespace"><name>cpp_msg</name>
+  </compound>
   <compound refid="namespaceeprosima" kind="namespace"><name>eprosima</name>
   </compound>
   <compound refid="namespaceeprosima_1_1fastcdr" kind="namespace"><name>eprosima::fastcdr</name>
@@ -789,9 +925,11 @@
   </compound>
   <compound refid="_euler_angle_z_y_x_8cxx" kind="file"><name>EulerAngleZYX.cxx</name>
   </compound>
-  <compound refid="_euler_angle_z_y_x_8h" kind="file"><name>EulerAngleZYX.h</name>
-    <member refid="_euler_angle_z_y_x_8h_1abd19d82e50737e50241fe1723b1c6066" kind="define"><name>eProsima_user_DllExport</name></member>
-    <member refid="_euler_angle_z_y_x_8h_1af9dd8f6916f298b0654fe5898325d3e5" kind="define"><name>EulerAngleZYX_DllAPI</name></member>
+  <compound refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_euler_angle_z_y_x_8h" kind="file"><name>EulerAngleZYX.h</name>
+    <member refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_euler_angle_z_y_x_8h_1abd19d82e50737e50241fe1723b1c6066" kind="define"><name>eProsima_user_DllExport</name></member>
+    <member refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_euler_angle_z_y_x_8h_1af9dd8f6916f298b0654fe5898325d3e5" kind="define"><name>EulerAngleZYX_DllAPI</name></member>
+  </compound>
+  <compound refid="msgs__lib_2cpp__msgs_2basic__msgs_2geometry__msgs_2msgs_2_euler_angle_z_y_x_8h" kind="file"><name>EulerAngleZYX.h</name>
   </compound>
   <compound refid="_euler_angle_z_y_x_pub_sub_types_8cxx" kind="file"><name>EulerAngleZYXPubSubTypes.cxx</name>
     <member refid="_euler_angle_z_y_x_pub_sub_types_8cxx_1ae7818c4670abc053fbadaed455b07b1f" kind="typedef"><name>SerializedPayload_t</name></member>
@@ -801,9 +939,11 @@
   </compound>
   <compound refid="_header_8cxx" kind="file"><name>Header.cxx</name>
   </compound>
-  <compound refid="_header_8h" kind="file"><name>Header.h</name>
-    <member refid="_header_8h_1abd19d82e50737e50241fe1723b1c6066" kind="define"><name>eProsima_user_DllExport</name></member>
-    <member refid="_header_8h_1a79fe72af93f63d0f671530519b396add" kind="define"><name>Header_DllAPI</name></member>
+  <compound refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_header_8h" kind="file"><name>Header.h</name>
+    <member refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_header_8h_1abd19d82e50737e50241fe1723b1c6066" kind="define"><name>eProsima_user_DllExport</name></member>
+    <member refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_header_8h_1a79fe72af93f63d0f671530519b396add" kind="define"><name>Header_DllAPI</name></member>
+  </compound>
+  <compound refid="msgs__lib_2cpp__msgs_2basic__msgs_2std__msgs_2msgs_2_header_8h" kind="file"><name>Header.h</name>
   </compound>
   <compound refid="_header_pub_sub_types_8cxx" kind="file"><name>HeaderPubSubTypes.cxx</name>
     <member refid="_header_pub_sub_types_8cxx_1ae7818c4670abc053fbadaed455b07b1f" kind="typedef"><name>SerializedPayload_t</name></member>
@@ -813,9 +953,11 @@
   </compound>
   <compound refid="_image1080p_8cxx" kind="file"><name>Image1080p.cxx</name>
   </compound>
-  <compound refid="_image1080p_8h" kind="file"><name>Image1080p.h</name>
-    <member refid="_image1080p_8h_1abd19d82e50737e50241fe1723b1c6066" kind="define"><name>eProsima_user_DllExport</name></member>
-    <member refid="_image1080p_8h_1aeba964d64c157f50068a9ca249f715d2" kind="define"><name>Image1080p_DllAPI</name></member>
+  <compound refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_image1080p_8h" kind="file"><name>Image1080p.h</name>
+    <member refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_image1080p_8h_1abd19d82e50737e50241fe1723b1c6066" kind="define"><name>eProsima_user_DllExport</name></member>
+    <member refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_image1080p_8h_1aeba964d64c157f50068a9ca249f715d2" kind="define"><name>Image1080p_DllAPI</name></member>
+  </compound>
+  <compound refid="msgs__lib_2cpp__msgs_2basic__msgs_2sensor__msgs_2msgs_2_image1080p_8h" kind="file"><name>Image1080p.h</name>
   </compound>
   <compound refid="_image1080p_pub_sub_types_8cxx" kind="file"><name>Image1080pPubSubTypes.cxx</name>
     <member refid="_image1080p_pub_sub_types_8cxx_1ae7818c4670abc053fbadaed455b07b1f" kind="typedef"><name>SerializedPayload_t</name></member>
@@ -825,9 +967,11 @@
   </compound>
   <compound refid="_image720p_8cxx" kind="file"><name>Image720p.cxx</name>
   </compound>
-  <compound refid="_image720p_8h" kind="file"><name>Image720p.h</name>
-    <member refid="_image720p_8h_1abd19d82e50737e50241fe1723b1c6066" kind="define"><name>eProsima_user_DllExport</name></member>
-    <member refid="_image720p_8h_1a1491d07cdf0ec85d609cf73e01882e29" kind="define"><name>Image720p_DllAPI</name></member>
+  <compound refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_image720p_8h" kind="file"><name>Image720p.h</name>
+    <member refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_image720p_8h_1abd19d82e50737e50241fe1723b1c6066" kind="define"><name>eProsima_user_DllExport</name></member>
+    <member refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_image720p_8h_1a1491d07cdf0ec85d609cf73e01882e29" kind="define"><name>Image720p_DllAPI</name></member>
+  </compound>
+  <compound refid="msgs__lib_2cpp__msgs_2basic__msgs_2sensor__msgs_2msgs_2_image720p_8h" kind="file"><name>Image720p.h</name>
   </compound>
   <compound refid="_image720p_pub_sub_types_8cxx" kind="file"><name>Image720pPubSubTypes.cxx</name>
     <member refid="_image720p_pub_sub_types_8cxx_1ae7818c4670abc053fbadaed455b07b1f" kind="typedef"><name>SerializedPayload_t</name></member>
@@ -837,9 +981,11 @@
   </compound>
   <compound refid="_mocap_8cxx" kind="file"><name>Mocap.cxx</name>
   </compound>
-  <compound refid="_mocap_8h" kind="file"><name>Mocap.h</name>
-    <member refid="_mocap_8h_1abd19d82e50737e50241fe1723b1c6066" kind="define"><name>eProsima_user_DllExport</name></member>
-    <member refid="_mocap_8h_1adfd2f045f78ce8ae711fe48a7a7984c2" kind="define"><name>Mocap_DllAPI</name></member>
+  <compound refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_mocap_8h" kind="file"><name>Mocap.h</name>
+    <member refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_mocap_8h_1abd19d82e50737e50241fe1723b1c6066" kind="define"><name>eProsima_user_DllExport</name></member>
+    <member refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_mocap_8h_1adfd2f045f78ce8ae711fe48a7a7984c2" kind="define"><name>Mocap_DllAPI</name></member>
+  </compound>
+  <compound refid="msgs__lib_2cpp__msgs_2basic__msgs_2sensor__msgs_2msgs_2_mocap_8h" kind="file"><name>Mocap.h</name>
   </compound>
   <compound refid="_mocap_pub_sub_types_8cxx" kind="file"><name>MocapPubSubTypes.cxx</name>
     <member refid="_mocap_pub_sub_types_8cxx_1ae7818c4670abc053fbadaed455b07b1f" kind="typedef"><name>SerializedPayload_t</name></member>
@@ -849,9 +995,11 @@
   </compound>
   <compound refid="_motor_speed_8cxx" kind="file"><name>MotorSpeed.cxx</name>
   </compound>
-  <compound refid="_motor_speed_8h" kind="file"><name>MotorSpeed.h</name>
-    <member refid="_motor_speed_8h_1abd19d82e50737e50241fe1723b1c6066" kind="define"><name>eProsima_user_DllExport</name></member>
-    <member refid="_motor_speed_8h_1a533a8d290b8f92b3e58f6da72bf22d84" kind="define"><name>MotorSpeed_DllAPI</name></member>
+  <compound refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_motor_speed_8h" kind="file"><name>MotorSpeed.h</name>
+    <member refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_motor_speed_8h_1abd19d82e50737e50241fe1723b1c6066" kind="define"><name>eProsima_user_DllExport</name></member>
+    <member refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_motor_speed_8h_1a533a8d290b8f92b3e58f6da72bf22d84" kind="define"><name>MotorSpeed_DllAPI</name></member>
+  </compound>
+  <compound refid="msgs__lib_2cpp__msgs_2basic__msgs_2actuator__msgs_2msgs_2_motor_speed_8h" kind="file"><name>MotorSpeed.h</name>
   </compound>
   <compound refid="_motor_speed_pub_sub_types_8cxx" kind="file"><name>MotorSpeedPubSubTypes.cxx</name>
     <member refid="_motor_speed_pub_sub_types_8cxx_1ae7818c4670abc053fbadaed455b07b1f" kind="typedef"><name>SerializedPayload_t</name></member>
@@ -861,9 +1009,11 @@
   </compound>
   <compound refid="_pose_8cxx" kind="file"><name>Pose.cxx</name>
   </compound>
-  <compound refid="_pose_8h" kind="file"><name>Pose.h</name>
-    <member refid="_pose_8h_1abd19d82e50737e50241fe1723b1c6066" kind="define"><name>eProsima_user_DllExport</name></member>
-    <member refid="_pose_8h_1aa9a33c619c4c33f7c637f9957d4725c4" kind="define"><name>Pose_DllAPI</name></member>
+  <compound refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_pose_8h" kind="file"><name>Pose.h</name>
+    <member refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_pose_8h_1abd19d82e50737e50241fe1723b1c6066" kind="define"><name>eProsima_user_DllExport</name></member>
+    <member refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_pose_8h_1aa9a33c619c4c33f7c637f9957d4725c4" kind="define"><name>Pose_DllAPI</name></member>
+  </compound>
+  <compound refid="msgs__lib_2cpp__msgs_2basic__msgs_2geometry__msgs_2msgs_2_pose_8h" kind="file"><name>Pose.h</name>
   </compound>
   <compound refid="_pose_pub_sub_types_8cxx" kind="file"><name>PosePubSubTypes.cxx</name>
     <member refid="_pose_pub_sub_types_8cxx_1ae7818c4670abc053fbadaed455b07b1f" kind="typedef"><name>SerializedPayload_t</name></member>
@@ -873,9 +1023,11 @@
   </compound>
   <compound refid="_position_8cxx" kind="file"><name>Position.cxx</name>
   </compound>
-  <compound refid="_position_8h" kind="file"><name>Position.h</name>
-    <member refid="_position_8h_1abd19d82e50737e50241fe1723b1c6066" kind="define"><name>eProsima_user_DllExport</name></member>
-    <member refid="_position_8h_1a118d148ad8e7ecc89b03ac5ee6db5786" kind="define"><name>Position_DllAPI</name></member>
+  <compound refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_position_8h" kind="file"><name>Position.h</name>
+    <member refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_position_8h_1abd19d82e50737e50241fe1723b1c6066" kind="define"><name>eProsima_user_DllExport</name></member>
+    <member refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_position_8h_1a118d148ad8e7ecc89b03ac5ee6db5786" kind="define"><name>Position_DllAPI</name></member>
+  </compound>
+  <compound refid="msgs__lib_2cpp__msgs_2basic__msgs_2geometry__msgs_2msgs_2_position_8h" kind="file"><name>Position.h</name>
   </compound>
   <compound refid="_position_pub_sub_types_8cxx" kind="file"><name>PositionPubSubTypes.cxx</name>
     <member refid="_position_pub_sub_types_8cxx_1ae7818c4670abc053fbadaed455b07b1f" kind="typedef"><name>SerializedPayload_t</name></member>
@@ -897,9 +1049,11 @@
   </compound>
   <compound refid="_quad_attitude_command_8cxx" kind="file"><name>QuadAttitudeCommand.cxx</name>
   </compound>
-  <compound refid="_quad_attitude_command_8h" kind="file"><name>QuadAttitudeCommand.h</name>
-    <member refid="_quad_attitude_command_8h_1abd19d82e50737e50241fe1723b1c6066" kind="define"><name>eProsima_user_DllExport</name></member>
-    <member refid="_quad_attitude_command_8h_1a5b174a72adbc78bb31e60f7066696f8f" kind="define"><name>QuadAttitudeCommand_DllAPI</name></member>
+  <compound refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_quad_attitude_command_8h" kind="file"><name>QuadAttitudeCommand.h</name>
+    <member refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_quad_attitude_command_8h_1abd19d82e50737e50241fe1723b1c6066" kind="define"><name>eProsima_user_DllExport</name></member>
+    <member refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_quad_attitude_command_8h_1a5b174a72adbc78bb31e60f7066696f8f" kind="define"><name>QuadAttitudeCommand_DllAPI</name></member>
+  </compound>
+  <compound refid="msgs__lib_2cpp__msgs_2robot__msgs_2quadcopter__msgs_2msgs_2_quad_attitude_command_8h" kind="file"><name>QuadAttitudeCommand.h</name>
   </compound>
   <compound refid="_quad_attitude_command_pub_sub_types_8cxx" kind="file"><name>QuadAttitudeCommandPubSubTypes.cxx</name>
     <member refid="_quad_attitude_command_pub_sub_types_8cxx_1ae7818c4670abc053fbadaed455b07b1f" kind="typedef"><name>SerializedPayload_t</name></member>
@@ -909,9 +1063,11 @@
   </compound>
   <compound refid="_quad_attitude_rate_command_8cxx" kind="file"><name>QuadAttitudeRateCommand.cxx</name>
   </compound>
-  <compound refid="_quad_attitude_rate_command_8h" kind="file"><name>QuadAttitudeRateCommand.h</name>
-    <member refid="_quad_attitude_rate_command_8h_1abd19d82e50737e50241fe1723b1c6066" kind="define"><name>eProsima_user_DllExport</name></member>
-    <member refid="_quad_attitude_rate_command_8h_1a79abf753dba0cc71cf79c86df7f6586f" kind="define"><name>QuadAttitudeRateCommand_DllAPI</name></member>
+  <compound refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_quad_attitude_rate_command_8h" kind="file"><name>QuadAttitudeRateCommand.h</name>
+    <member refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_quad_attitude_rate_command_8h_1abd19d82e50737e50241fe1723b1c6066" kind="define"><name>eProsima_user_DllExport</name></member>
+    <member refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_quad_attitude_rate_command_8h_1a79abf753dba0cc71cf79c86df7f6586f" kind="define"><name>QuadAttitudeRateCommand_DllAPI</name></member>
+  </compound>
+  <compound refid="msgs__lib_2cpp__msgs_2robot__msgs_2quadcopter__msgs_2msgs_2_quad_attitude_rate_command_8h" kind="file"><name>QuadAttitudeRateCommand.h</name>
   </compound>
   <compound refid="_quad_attitude_rate_command_pub_sub_types_8cxx" kind="file"><name>QuadAttitudeRateCommandPubSubTypes.cxx</name>
     <member refid="_quad_attitude_rate_command_pub_sub_types_8cxx_1ae7818c4670abc053fbadaed455b07b1f" kind="typedef"><name>SerializedPayload_t</name></member>
@@ -921,9 +1077,11 @@
   </compound>
   <compound refid="_quad_motor_command_8cxx" kind="file"><name>QuadMotorCommand.cxx</name>
   </compound>
-  <compound refid="_quad_motor_command_8h" kind="file"><name>QuadMotorCommand.h</name>
-    <member refid="_quad_motor_command_8h_1abd19d82e50737e50241fe1723b1c6066" kind="define"><name>eProsima_user_DllExport</name></member>
-    <member refid="_quad_motor_command_8h_1a5dd378ccfd17302f49d1b8c9d55b71f7" kind="define"><name>QuadMotorCommand_DllAPI</name></member>
+  <compound refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_quad_motor_command_8h" kind="file"><name>QuadMotorCommand.h</name>
+    <member refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_quad_motor_command_8h_1abd19d82e50737e50241fe1723b1c6066" kind="define"><name>eProsima_user_DllExport</name></member>
+    <member refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_quad_motor_command_8h_1a5dd378ccfd17302f49d1b8c9d55b71f7" kind="define"><name>QuadMotorCommand_DllAPI</name></member>
+  </compound>
+  <compound refid="msgs__lib_2cpp__msgs_2robot__msgs_2quadcopter__msgs_2msgs_2_quad_motor_command_8h" kind="file"><name>QuadMotorCommand.h</name>
   </compound>
   <compound refid="_quad_motor_command_pub_sub_types_8cxx" kind="file"><name>QuadMotorCommandPubSubTypes.cxx</name>
     <member refid="_quad_motor_command_pub_sub_types_8cxx_1ae7818c4670abc053fbadaed455b07b1f" kind="typedef"><name>SerializedPayload_t</name></member>
@@ -933,9 +1091,11 @@
   </compound>
   <compound refid="_quad_position_cmd_8cxx" kind="file"><name>QuadPositionCmd.cxx</name>
   </compound>
-  <compound refid="_quad_position_cmd_8h" kind="file"><name>QuadPositionCmd.h</name>
-    <member refid="_quad_position_cmd_8h_1abd19d82e50737e50241fe1723b1c6066" kind="define"><name>eProsima_user_DllExport</name></member>
-    <member refid="_quad_position_cmd_8h_1a7154edf4defeb8a699f6360a7e186dcb" kind="define"><name>QuadPositionCmd_DllAPI</name></member>
+  <compound refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_quad_position_cmd_8h" kind="file"><name>QuadPositionCmd.h</name>
+    <member refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_quad_position_cmd_8h_1abd19d82e50737e50241fe1723b1c6066" kind="define"><name>eProsima_user_DllExport</name></member>
+    <member refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_quad_position_cmd_8h_1a7154edf4defeb8a699f6360a7e186dcb" kind="define"><name>QuadPositionCmd_DllAPI</name></member>
+  </compound>
+  <compound refid="msgs__lib_2cpp__msgs_2robot__msgs_2quadcopter__msgs_2msgs_2_quad_position_cmd_8h" kind="file"><name>QuadPositionCmd.h</name>
   </compound>
   <compound refid="_quad_position_cmd_pub_sub_types_8cxx" kind="file"><name>QuadPositionCmdPubSubTypes.cxx</name>
     <member refid="_quad_position_cmd_pub_sub_types_8cxx_1ae7818c4670abc053fbadaed455b07b1f" kind="typedef"><name>SerializedPayload_t</name></member>
@@ -945,9 +1105,11 @@
   </compound>
   <compound refid="_quad_velocity_cmd_8cxx" kind="file"><name>QuadVelocityCmd.cxx</name>
   </compound>
-  <compound refid="_quad_velocity_cmd_8h" kind="file"><name>QuadVelocityCmd.h</name>
-    <member refid="_quad_velocity_cmd_8h_1abd19d82e50737e50241fe1723b1c6066" kind="define"><name>eProsima_user_DllExport</name></member>
-    <member refid="_quad_velocity_cmd_8h_1a7d745bdc898d50f63cdd8eb5440fd492" kind="define"><name>QuadVelocityCmd_DllAPI</name></member>
+  <compound refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_quad_velocity_cmd_8h" kind="file"><name>QuadVelocityCmd.h</name>
+    <member refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_quad_velocity_cmd_8h_1abd19d82e50737e50241fe1723b1c6066" kind="define"><name>eProsima_user_DllExport</name></member>
+    <member refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_quad_velocity_cmd_8h_1a7d745bdc898d50f63cdd8eb5440fd492" kind="define"><name>QuadVelocityCmd_DllAPI</name></member>
+  </compound>
+  <compound refid="msgs__lib_2cpp__msgs_2robot__msgs_2quadcopter__msgs_2msgs_2_quad_velocity_cmd_8h" kind="file"><name>QuadVelocityCmd.h</name>
   </compound>
   <compound refid="_quad_velocity_cmd_pub_sub_types_8cxx" kind="file"><name>QuadVelocityCmdPubSubTypes.cxx</name>
     <member refid="_quad_velocity_cmd_pub_sub_types_8cxx_1ae7818c4670abc053fbadaed455b07b1f" kind="typedef"><name>SerializedPayload_t</name></member>
@@ -957,9 +1119,11 @@
   </compound>
   <compound refid="_quaternion_8cxx" kind="file"><name>Quaternion.cxx</name>
   </compound>
-  <compound refid="_quaternion_8h" kind="file"><name>Quaternion.h</name>
-    <member refid="_quaternion_8h_1abd19d82e50737e50241fe1723b1c6066" kind="define"><name>eProsima_user_DllExport</name></member>
-    <member refid="_quaternion_8h_1abe51bf391e412a993770659236492049" kind="define"><name>Quaternion_DllAPI</name></member>
+  <compound refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_quaternion_8h" kind="file"><name>Quaternion.h</name>
+    <member refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_quaternion_8h_1abd19d82e50737e50241fe1723b1c6066" kind="define"><name>eProsima_user_DllExport</name></member>
+    <member refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_quaternion_8h_1abe51bf391e412a993770659236492049" kind="define"><name>Quaternion_DllAPI</name></member>
+  </compound>
+  <compound refid="msgs__lib_2cpp__msgs_2basic__msgs_2geometry__msgs_2msgs_2_quaternion_8h" kind="file"><name>Quaternion.h</name>
   </compound>
   <compound refid="_quaternion_pub_sub_types_8cxx" kind="file"><name>QuaternionPubSubTypes.cxx</name>
     <member refid="_quaternion_pub_sub_types_8cxx_1ae7818c4670abc053fbadaed455b07b1f" kind="typedef"><name>SerializedPayload_t</name></member>
@@ -969,9 +1133,11 @@
   </compound>
   <compound refid="_thrust_torque_command_8cxx" kind="file"><name>ThrustTorqueCommand.cxx</name>
   </compound>
-  <compound refid="_thrust_torque_command_8h" kind="file"><name>ThrustTorqueCommand.h</name>
-    <member refid="_thrust_torque_command_8h_1abd19d82e50737e50241fe1723b1c6066" kind="define"><name>eProsima_user_DllExport</name></member>
-    <member refid="_thrust_torque_command_8h_1a3bb666d3a3ec12fc812caf16dea45096" kind="define"><name>ThrustTorqueCommand_DllAPI</name></member>
+  <compound refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_thrust_torque_command_8h" kind="file"><name>ThrustTorqueCommand.h</name>
+    <member refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_thrust_torque_command_8h_1abd19d82e50737e50241fe1723b1c6066" kind="define"><name>eProsima_user_DllExport</name></member>
+    <member refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_thrust_torque_command_8h_1a3bb666d3a3ec12fc812caf16dea45096" kind="define"><name>ThrustTorqueCommand_DllAPI</name></member>
+  </compound>
+  <compound refid="msgs__lib_2cpp__msgs_2robot__msgs_2quadcopter__msgs_2msgs_2_thrust_torque_command_8h" kind="file"><name>ThrustTorqueCommand.h</name>
   </compound>
   <compound refid="_thrust_torque_command_pub_sub_types_8cxx" kind="file"><name>ThrustTorqueCommandPubSubTypes.cxx</name>
     <member refid="_thrust_torque_command_pub_sub_types_8cxx_1ae7818c4670abc053fbadaed455b07b1f" kind="typedef"><name>SerializedPayload_t</name></member>
@@ -981,9 +1147,11 @@
   </compound>
   <compound refid="_velocity_8cxx" kind="file"><name>Velocity.cxx</name>
   </compound>
-  <compound refid="_velocity_8h" kind="file"><name>Velocity.h</name>
-    <member refid="_velocity_8h_1abd19d82e50737e50241fe1723b1c6066" kind="define"><name>eProsima_user_DllExport</name></member>
-    <member refid="_velocity_8h_1a967dd2edb413e264d40cfca86077d0ad" kind="define"><name>Velocity_DllAPI</name></member>
+  <compound refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_velocity_8h" kind="file"><name>Velocity.h</name>
+    <member refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_velocity_8h_1abd19d82e50737e50241fe1723b1c6066" kind="define"><name>eProsima_user_DllExport</name></member>
+    <member refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_velocity_8h_1a967dd2edb413e264d40cfca86077d0ad" kind="define"><name>Velocity_DllAPI</name></member>
+  </compound>
+  <compound refid="msgs__lib_2cpp__msgs_2basic__msgs_2geometry__msgs_2msgs_2_velocity_8h" kind="file"><name>Velocity.h</name>
   </compound>
   <compound refid="_velocity_pub_sub_types_8cxx" kind="file"><name>VelocityPubSubTypes.cxx</name>
     <member refid="_velocity_pub_sub_types_8cxx_1ae7818c4670abc053fbadaed455b07b1f" kind="typedef"><name>SerializedPayload_t</name></member>
@@ -1008,11 +1176,55 @@
   </compound>
   <compound refid="logger_8cpp" kind="file"><name>logger.cpp</name>
   </compound>
+  <compound refid="_euler_angle_z_y_x_8idl" kind="file"><name>EulerAngleZYX.idl</name>
+  </compound>
+  <compound refid="_header_8idl" kind="file"><name>Header.idl</name>
+  </compound>
+  <compound refid="_image1080p_8idl" kind="file"><name>Image1080p.idl</name>
+  </compound>
+  <compound refid="_image720p_8idl" kind="file"><name>Image720p.idl</name>
+  </compound>
+  <compound refid="_mocap_8idl" kind="file"><name>Mocap.idl</name>
+  </compound>
+  <compound refid="_motor_speed_8idl" kind="file"><name>MotorSpeed.idl</name>
+  </compound>
+  <compound refid="_pose_8idl" kind="file"><name>Pose.idl</name>
+  </compound>
+  <compound refid="_position_8idl" kind="file"><name>Position.idl</name>
+  </compound>
+  <compound refid="_quad_action_cmd_8idl" kind="file"><name>QuadActionCmd.idl</name>
+  </compound>
+  <compound refid="_quad_attitude_command_8idl" kind="file"><name>QuadAttitudeCommand.idl</name>
+  </compound>
+  <compound refid="_quad_attitude_rate_command_8idl" kind="file"><name>QuadAttitudeRateCommand.idl</name>
+  </compound>
+  <compound refid="_quad_motor_command_8idl" kind="file"><name>QuadMotorCommand.idl</name>
+  </compound>
+  <compound refid="_quad_position_cmd_8idl" kind="file"><name>QuadPositionCmd.idl</name>
+  </compound>
+  <compound refid="_quad_velocity_cmd_8idl" kind="file"><name>QuadVelocityCmd.idl</name>
+  </compound>
+  <compound refid="_quaternion_8idl" kind="file"><name>Quaternion.idl</name>
+  </compound>
+  <compound refid="_thrust_torque_command_8idl" kind="file"><name>ThrustTorqueCommand.idl</name>
+  </compound>
+  <compound refid="_velocity_8idl" kind="file"><name>Velocity.idl</name>
+  </compound>
+  <compound refid="dir_8fb99055a664a6883e7249c79b80fdd7" kind="dir"><name>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/actuator_msgs</name>
+  </compound>
+  <compound refid="dir_0b3af3905bda63c38408dc431c7b9ad1" kind="dir"><name>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs</name>
+  </compound>
+  <compound refid="dir_640329516e0b7faa4b78303bc9a6b5a2" kind="dir"><name>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs</name>
+  </compound>
+  <compound refid="dir_9f37636919940b5cd6744e4fa357816c" kind="dir"><name>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs</name>
+  </compound>
   <compound refid="dir_1d534988716f71a02d7b595dc5523b7e" kind="dir"><name>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/domain_participant</name>
   </compound>
   <compound refid="dir_ca5a8f122b6aa3e59a4b052d27ed1437" kind="dir"><name>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib</name>
   </compound>
   <compound refid="dir_78cf9a832492dd7b2f5f8fd9e3639e99" kind="dir"><name>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files</name>
+  </compound>
+  <compound refid="dir_b69186ad431fcbd5faffe609b17efbd8" kind="dir"><name>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs</name>
   </compound>
   <compound refid="dir_124e746c47792aff51a715273ff98ca7" kind="dir"><name>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/publisher/include</name>
   </compound>
@@ -1026,13 +1238,33 @@
   </compound>
   <compound refid="dir_d72524645a43255f80455cd5cb0a8760" kind="dir"><name>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions</name>
   </compound>
+  <compound refid="dir_203823a8e538456e0702d54030061ec3" kind="dir"><name>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/sensor_msgs/msgs</name>
+  </compound>
+  <compound refid="dir_01a8569e570dd4545cf5a24c288d784b" kind="dir"><name>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/std_msgs/msgs</name>
+  </compound>
+  <compound refid="dir_70968b14f33bfdbbb4aa9a9da867d9ef" kind="dir"><name>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/actuator_msgs/msgs</name>
+  </compound>
+  <compound refid="dir_9d49819a77752212b9b58e24cf80bad2" kind="dir"><name>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/geometry_msgs/msgs</name>
+  </compound>
+  <compound refid="dir_88707b1f7e280492e9d765dca6acfa3e" kind="dir"><name>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs</name>
+  </compound>
+  <compound refid="dir_524aad38a55b36558e30a3af9b3a66e7" kind="dir"><name>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib</name>
+  </compound>
   <compound refid="dir_76aa9aa0a1c23c3aa439a9a1c3603a6b" kind="dir"><name>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/publisher</name>
+  </compound>
+  <compound refid="dir_ed0aab0f0ea37e9af2c5f32f702cd2ae" kind="dir"><name>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs</name>
+  </compound>
+  <compound refid="dir_d93ea64f62128e636714e72887bef0a0" kind="dir"><name>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs</name>
+  </compound>
+  <compound refid="dir_62a561fb4f32495c252230ce2db4fa23" kind="dir"><name>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/sensor_msgs</name>
+  </compound>
+  <compound refid="dir_4e9b93e5c2c4feca06d2aac590ca3a6c" kind="dir"><name>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/domain_participant/src</name>
   </compound>
   <compound refid="dir_2f7a346772d2b16527421eb8fade77e1" kind="dir"><name>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/utilities/logger/src</name>
   </compound>
   <compound refid="dir_4f05c64b6e69937df267ef0787b2c741" kind="dir"><name>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/publisher/src</name>
   </compound>
-  <compound refid="dir_4e9b93e5c2c4feca06d2aac590ca3a6c" kind="dir"><name>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/domain_participant/src</name>
+  <compound refid="dir_8253cf162ec821ef3112e63c02e404ca" kind="dir"><name>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/std_msgs</name>
   </compound>
   <compound refid="dir_60c55d4462de5bf349d291f85e9133e0" kind="dir"><name>/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/subscriber</name>
   </compound>

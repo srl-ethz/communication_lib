@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structcpp__msg_1_1_mocap" kind="struct" language="C++" prot="public">
+    <compoundname>cpp_msg::Mocap</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcpp__msg_1_1_mocap_1ad2a7519555c6fb9940d755f23571e0ef" prot="public" static="no" mutable="no">
+        <type><ref refid="structcpp__msg_1_1_header" kindref="compound">Header</ref></type>
+        <definition>Header cpp_msg::Mocap::header</definition>
+        <argsstring></argsstring>
+        <name>header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/sensor_msgs/msgs/Mocap.h" line="9" column="10" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/sensor_msgs/msgs/Mocap.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcpp__msg_1_1_mocap_1abb817836d6ffacfed4e52be9678ca260" prot="public" static="no" mutable="no">
+        <type><ref refid="structcpp__msg_1_1_pose" kindref="compound">Pose</ref></type>
+        <definition>Pose cpp_msg::Mocap::pose</definition>
+        <argsstring></argsstring>
+        <name>pose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/sensor_msgs/msgs/Mocap.h" line="11" column="8" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/sensor_msgs/msgs/Mocap.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcpp__msg_1_1_mocap_1a4cb0bce09a811ae56150fc6b78ed964c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float cpp_msg::Mocap::latency</definition>
+        <argsstring></argsstring>
+        <name>latency</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/sensor_msgs/msgs/Mocap.h" line="13" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/sensor_msgs/msgs/Mocap.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="5">
+        <label>cpp_msg::EulerAngleZYZ</label>
+        <link refid="structcpp__msg_1_1_euler_angle_z_y_z"/>
+      </node>
+      <node id="2">
+        <label>cpp_msg::Header</label>
+        <link refid="structcpp__msg_1_1_header"/>
+      </node>
+      <node id="1">
+        <label>cpp_msg::Mocap</label>
+        <link refid="structcpp__msg_1_1_mocap"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>header</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>pose</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>cpp_msg::Pose</label>
+        <link refid="structcpp__msg_1_1_pose"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>header</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>position</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>orientation_euler</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>orientation_quat</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>cpp_msg::Position</label>
+        <link refid="structcpp__msg_1_1_position"/>
+      </node>
+      <node id="6">
+        <label>cpp_msg::Quaternion</label>
+        <link refid="structcpp__msg_1_1_quaternion"/>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/sensor_msgs/msgs/Mocap.h" line="7" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/sensor_msgs/msgs/Mocap.h" bodystart="7" bodyend="14"/>
+    <listofallmembers>
+      <member refid="structcpp__msg_1_1_mocap_1ad2a7519555c6fb9940d755f23571e0ef" prot="public" virt="non-virtual"><scope>cpp_msg::Mocap</scope><name>header</name></member>
+      <member refid="structcpp__msg_1_1_mocap_1a4cb0bce09a811ae56150fc6b78ed964c" prot="public" virt="non-virtual"><scope>cpp_msg::Mocap</scope><name>latency</name></member>
+      <member refid="structcpp__msg_1_1_mocap_1abb817836d6ffacfed4e52be9678ca260" prot="public" virt="non-virtual"><scope>cpp_msg::Mocap</scope><name>pose</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

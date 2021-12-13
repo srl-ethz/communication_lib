@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
-  <compounddef id="classidl__msg_1_1_motor_speed" kind="class" language="C++" prot="public">
+  <compounddef id="classidl__msg_1_1_motor_speed" kind="struct" language="C++" prot="public">
     <compoundname>idl_msg::MotorSpeed</compoundname>
-    <includes refid="_motor_speed_8h" local="no">MotorSpeed.h</includes>
+    <includes refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_motor_speed_8h" local="no">MotorSpeed.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classidl__msg_1_1_motor_speed_1ae2e13382d4b04b99f260cc123af6c3b3" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -16,6 +16,38 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.h" line="190" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.h" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classidl__msg_1_1_motor_speed_1a19f3e1874c658ea522ae17e946096424" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float &amp; idl_msg::MotorSpeed::motor_speed</definition>
+        <argsstring></argsstring>
+        <name>motor_speed</name>
+        <briefdescription>
+<para>This function sets a value in member motor_speed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns a reference to member motor_speed.</para>
+<para>This function returns the value of member motor_speed.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_motor_speed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member motor_speed</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Value of member motor_speed</para>
+</simplesect>
+<simplesect kind="return"><para>Reference to member motor_speed </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/MotorSpeed.idl" line="7" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/MotorSpeed.idl" bodystart="7" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -159,9 +191,9 @@
         </inbodydescription>
         <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.h" line="108" column="44" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.cxx" bodystart="69" bodyend="76"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_motor_speed_1a038d3f25d42241c8c61aa6a4b9e612ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_motor_speed_1acb8e9e5e599793d631a94cdd30076d52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::MotorSpeed::motor_speed</definition>
+        <definition>eProsima_user_DllExport void idl_msg::MotorSpeed::motor_speed</definition>
         <argsstring>(float _motor_speed)</argsstring>
         <name>motor_speed</name>
         <param>
@@ -185,11 +217,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.h" line="115" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.cxx" bodystart="123" bodyend="127"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.h" line="115" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_motor_speed_1a0ff870242750e23a10973d2ae3564c3e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_motor_speed_1ae9cec00057b4b65fb8868d6dd2b39c95" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float</type>
-        <definition>float idl_msg::MotorSpeed::motor_speed</definition>
+        <definition>eProsima_user_DllExport float idl_msg::MotorSpeed::motor_speed</definition>
         <argsstring>() const</argsstring>
         <name>motor_speed</name>
         <briefdescription>
@@ -202,11 +234,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.h" line="122" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.cxx" bodystart="133" bodyend="136"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.h" line="122" column="39"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_motor_speed_1ab800b1390ff3dbd6ffaf917dc03803a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_motor_speed_1a6ea58819b95443d13a3c40d58c1a306e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float &amp;</type>
-        <definition>float &amp; idl_msg::MotorSpeed::motor_speed</definition>
+        <definition>eProsima_user_DllExport float &amp; idl_msg::MotorSpeed::motor_speed</definition>
         <argsstring>()</argsstring>
         <name>motor_speed</name>
         <briefdescription>
@@ -219,7 +251,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.h" line="128" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.cxx" bodystart="142" bodyend="145"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/MotorSpeed.h" line="128" column="39"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_motor_speed_1a1cc55ec3835cdf9df7ca9f1c7c041f26" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
@@ -440,9 +472,10 @@
       <member refid="classidl__msg_1_1_motor_speed_1a2f0905487fce96247eea11b1d449357e" prot="public" virt="non-virtual"><scope>idl_msg::MotorSpeed</scope><name>getMaxCdrSerializedSize</name></member>
       <member refid="classidl__msg_1_1_motor_speed_1a3868b8403d84428bff5804cc1b90d716" prot="public" virt="non-virtual"><scope>idl_msg::MotorSpeed</scope><name>isKeyDefined</name></member>
       <member refid="classidl__msg_1_1_motor_speed_1ae2e13382d4b04b99f260cc123af6c3b3" prot="private" virt="non-virtual"><scope>idl_msg::MotorSpeed</scope><name>m_motor_speed</name></member>
-      <member refid="classidl__msg_1_1_motor_speed_1a038d3f25d42241c8c61aa6a4b9e612ca" prot="public" virt="non-virtual"><scope>idl_msg::MotorSpeed</scope><name>motor_speed</name></member>
-      <member refid="classidl__msg_1_1_motor_speed_1a0ff870242750e23a10973d2ae3564c3e" prot="public" virt="non-virtual"><scope>idl_msg::MotorSpeed</scope><name>motor_speed</name></member>
-      <member refid="classidl__msg_1_1_motor_speed_1ab800b1390ff3dbd6ffaf917dc03803a5" prot="public" virt="non-virtual"><scope>idl_msg::MotorSpeed</scope><name>motor_speed</name></member>
+      <member refid="classidl__msg_1_1_motor_speed_1a19f3e1874c658ea522ae17e946096424" prot="public" virt="non-virtual"><scope>idl_msg::MotorSpeed</scope><name>motor_speed</name></member>
+      <member refid="classidl__msg_1_1_motor_speed_1acb8e9e5e599793d631a94cdd30076d52" prot="public" virt="non-virtual"><scope>idl_msg::MotorSpeed</scope><name>motor_speed</name></member>
+      <member refid="classidl__msg_1_1_motor_speed_1ae9cec00057b4b65fb8868d6dd2b39c95" prot="public" virt="non-virtual"><scope>idl_msg::MotorSpeed</scope><name>motor_speed</name></member>
+      <member refid="classidl__msg_1_1_motor_speed_1a6ea58819b95443d13a3c40d58c1a306e" prot="public" virt="non-virtual"><scope>idl_msg::MotorSpeed</scope><name>motor_speed</name></member>
       <member refid="classidl__msg_1_1_motor_speed_1a2d9879435db2155f3eafb459f5199f12" prot="public" virt="non-virtual"><scope>idl_msg::MotorSpeed</scope><name>MotorSpeed</name></member>
       <member refid="classidl__msg_1_1_motor_speed_1a56d2868d85906456eafb641929c98a8f" prot="public" virt="non-virtual"><scope>idl_msg::MotorSpeed</scope><name>MotorSpeed</name></member>
       <member refid="classidl__msg_1_1_motor_speed_1a42aa3252d26398990526b84c04a1fd5a" prot="public" virt="non-virtual"><scope>idl_msg::MotorSpeed</scope><name>MotorSpeed</name></member>

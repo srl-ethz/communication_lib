@@ -9,7 +9,7 @@
     <incdepgraph>
       <node id="3">
         <label>Header.h</label>
-        <link refid="_header_8h"/>
+        <link refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_header_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
@@ -186,7 +186,7 @@
 <codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>initial_alignment<sp/>=<sp/>current_alignment;</highlight></codeline>
 <codeline lineno="106"><highlight class="normal"></highlight></codeline>
 <codeline lineno="107"><highlight class="normal"></highlight></codeline>
-<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>current_alignment<sp/>+=<sp/><ref refid="classidl__msg_1_1_header_1a32ec7d95fc4157731f6bc9ea537a7be7" kindref="member">idl_msg::Header::getCdrSerializedSize</ref>(data.<ref refid="classidl__msg_1_1_quad_action_cmd_1a6e3d1db26b6fe3b61847b1ac96999193" kindref="member">header</ref>(),<sp/>current_alignment);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>current_alignment<sp/>+=<sp/><ref refid="classidl__msg_1_1_header_1a32ec7d95fc4157731f6bc9ea537a7be7" kindref="member">idl_msg::Header::getCdrSerializedSize</ref>(data.<ref refid="classidl__msg_1_1_quad_action_cmd_1a035caedacc08093e35d5313d382942b0" kindref="member">header</ref>(),<sp/>current_alignment);</highlight></codeline>
 <codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>current_alignment<sp/>+=<sp/>1<sp/>+<sp/>eprosima::fastcdr::Cdr::alignment(current_alignment,<sp/>1);</highlight></codeline>
 <codeline lineno="110"><highlight class="normal"></highlight></codeline>
 <codeline lineno="111"><highlight class="normal"></highlight></codeline>
@@ -211,39 +211,39 @@
 <codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>dcdr<sp/>&gt;&gt;<sp/>m_cmd;</highlight></codeline>
 <codeline lineno="131"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="132"><highlight class="normal"></highlight></codeline>
-<codeline lineno="137"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_quad_action_cmd_1a2206a8ae674d2a95ec0ed4a5e5d519fc" kindref="member">idl_msg::QuadActionCmd::header</ref>(</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_quad_action_cmd_1a035caedacc08093e35d5313d382942b0" kindref="member">idl_msg::QuadActionCmd::header</ref>(</highlight></codeline>
 <codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref>&amp;<sp/>_header)</highlight></codeline>
 <codeline lineno="139"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>m_header<sp/>=<sp/>_header;</highlight></codeline>
 <codeline lineno="141"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="142"><highlight class="normal"></highlight></codeline>
-<codeline lineno="147"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_quad_action_cmd_1a2206a8ae674d2a95ec0ed4a5e5d519fc" kindref="member">idl_msg::QuadActionCmd::header</ref>(</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_quad_action_cmd_1a035caedacc08093e35d5313d382942b0" kindref="member">idl_msg::QuadActionCmd::header</ref>(</highlight></codeline>
 <codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref>&amp;&amp;<sp/>_header)</highlight></codeline>
 <codeline lineno="149"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>m_header<sp/>=<sp/>std::move(_header);</highlight></codeline>
 <codeline lineno="151"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="152"><highlight class="normal"></highlight></codeline>
-<codeline lineno="157"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref>&amp;<sp/><ref refid="classidl__msg_1_1_quad_action_cmd_1a2206a8ae674d2a95ec0ed4a5e5d519fc" kindref="member">idl_msg::QuadActionCmd::header</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref>&amp;<sp/><ref refid="classidl__msg_1_1_quad_action_cmd_1a035caedacc08093e35d5313d382942b0" kindref="member">idl_msg::QuadActionCmd::header</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="158"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_header;</highlight></codeline>
 <codeline lineno="160"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="161"><highlight class="normal"></highlight></codeline>
-<codeline lineno="166"><highlight class="normal"><ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref>&amp;<sp/><ref refid="classidl__msg_1_1_quad_action_cmd_1a2206a8ae674d2a95ec0ed4a5e5d519fc" kindref="member">idl_msg::QuadActionCmd::header</ref>()</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref>&amp;<sp/><ref refid="classidl__msg_1_1_quad_action_cmd_1a035caedacc08093e35d5313d382942b0" kindref="member">idl_msg::QuadActionCmd::header</ref>()</highlight></codeline>
 <codeline lineno="167"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_header;</highlight></codeline>
 <codeline lineno="169"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="174"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_quad_action_cmd_1a36228133d235643df574045a3fbd513f" kindref="member">idl_msg::QuadActionCmd::cmd</ref>(</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_quad_action_cmd_1ab15a4f3fb78181256de935aaa58045e6" kindref="member">idl_msg::QuadActionCmd::cmd</ref>(</highlight></codeline>
 <codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>_cmd)</highlight></codeline>
 <codeline lineno="176"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/>m_cmd<sp/>=<sp/>_cmd;</highlight></codeline>
 <codeline lineno="178"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="179"><highlight class="normal"></highlight></codeline>
-<codeline lineno="184"><highlight class="normal">uint8_t<sp/><ref refid="classidl__msg_1_1_quad_action_cmd_1a36228133d235643df574045a3fbd513f" kindref="member">idl_msg::QuadActionCmd::cmd</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="184"><highlight class="normal">uint8_t<sp/><ref refid="classidl__msg_1_1_quad_action_cmd_1ab15a4f3fb78181256de935aaa58045e6" kindref="member">idl_msg::QuadActionCmd::cmd</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="185"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_cmd;</highlight></codeline>
 <codeline lineno="187"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="188"><highlight class="normal"></highlight></codeline>
-<codeline lineno="193"><highlight class="normal">uint8_t&amp;<sp/><ref refid="classidl__msg_1_1_quad_action_cmd_1a36228133d235643df574045a3fbd513f" kindref="member">idl_msg::QuadActionCmd::cmd</ref>()</highlight></codeline>
+<codeline lineno="193"><highlight class="normal">uint8_t&amp;<sp/><ref refid="classidl__msg_1_1_quad_action_cmd_1ab15a4f3fb78181256de935aaa58045e6" kindref="member">idl_msg::QuadActionCmd::cmd</ref>()</highlight></codeline>
 <codeline lineno="194"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_cmd;</highlight></codeline>
 <codeline lineno="196"><highlight class="normal">}</highlight></codeline>

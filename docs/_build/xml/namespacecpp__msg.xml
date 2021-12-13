@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="namespacecpp__msg" kind="namespace" language="C++">
+    <compoundname>cpp_msg</compoundname>
+    <innerclass refid="structcpp__msg_1_1_euler_angle_z_y_z" prot="public">cpp_msg::EulerAngleZYZ</innerclass>
+    <innerclass refid="structcpp__msg_1_1_header" prot="public">cpp_msg::Header</innerclass>
+    <innerclass refid="structcpp__msg_1_1_image1080p" prot="public">cpp_msg::Image1080p</innerclass>
+    <innerclass refid="structcpp__msg_1_1_image720p" prot="public">cpp_msg::Image720p</innerclass>
+    <innerclass refid="structcpp__msg_1_1_mocap" prot="public">cpp_msg::Mocap</innerclass>
+    <innerclass refid="structcpp__msg_1_1_motor_speed" prot="public">cpp_msg::MotorSpeed</innerclass>
+    <innerclass refid="structcpp__msg_1_1_pose" prot="public">cpp_msg::Pose</innerclass>
+    <innerclass refid="structcpp__msg_1_1_position" prot="public">cpp_msg::Position</innerclass>
+    <innerclass refid="structcpp__msg_1_1_quad_attitude_command" prot="public">cpp_msg::QuadAttitudeCommand</innerclass>
+    <innerclass refid="structcpp__msg_1_1_quad_attitude_rate_command" prot="public">cpp_msg::QuadAttitudeRateCommand</innerclass>
+    <innerclass refid="structcpp__msg_1_1_quad_motor_command" prot="public">cpp_msg::QuadMotorCommand</innerclass>
+    <innerclass refid="structcpp__msg_1_1_quad_position_cmd" prot="public">cpp_msg::QuadPositionCmd</innerclass>
+    <innerclass refid="structcpp__msg_1_1_quad_velocity_cmd" prot="public">cpp_msg::QuadVelocityCmd</innerclass>
+    <innerclass refid="structcpp__msg_1_1_quaternion" prot="public">cpp_msg::Quaternion</innerclass>
+    <innerclass refid="structcpp__msg_1_1_thrust_torque_command" prot="public">cpp_msg::ThrustTorqueCommand</innerclass>
+    <innerclass refid="structcpp__msg_1_1_velocity" prot="public">cpp_msg::Velocity</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/basic_msgs/actuator_msgs/msgs/MotorSpeed.h" line="3" column="1"/>
+  </compounddef>
+</doxygen>

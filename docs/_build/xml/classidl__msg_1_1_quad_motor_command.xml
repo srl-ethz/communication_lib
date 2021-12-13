@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
-  <compounddef id="classidl__msg_1_1_quad_motor_command" kind="class" language="C++" prot="public">
+  <compounddef id="classidl__msg_1_1_quad_motor_command" kind="struct" language="C++" prot="public">
     <compoundname>idl_msg::QuadMotorCommand</compoundname>
-    <includes refid="_quad_motor_command_8h" local="no">QuadMotorCommand.h</includes>
+    <includes refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_quad_motor_command_8h" local="no">QuadMotorCommand.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classidl__msg_1_1_quad_motor_command_1a9cca2ec7384a4353c4803d66495ca939" prot="private" static="no" mutable="no">
         <type><ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref></type>
@@ -29,6 +29,86 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadMotorCommand.h" line="223" column="20" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadMotorCommand.h" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classidl__msg_1_1_quad_motor_command_1ab327b08ad258aabb48d44e71875bfac0" prot="public" static="no" mutable="no">
+        <type><ref refid="classidl__msg_1_1_header" kindref="compound">Header</ref></type>
+        <definition>idl_msg::Header &amp; idl_msg::QuadMotorCommand::header</definition>
+        <argsstring></argsstring>
+        <name>header</name>
+        <briefdescription>
+<para>This function copies the value in member header. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns a reference to member header.</para>
+<para>This function returns a constant reference to member header.</para>
+<para>This function moves the value in member header.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_header</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member header</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_header</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member header</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Constant reference to member header</para>
+</simplesect>
+<simplesect kind="return"><para>Reference to member header </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/QuadMotorCommand.idl" line="8" column="10" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/QuadMotorCommand.idl" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classidl__msg_1_1_quad_motor_command_1a7d6a0daea1657b1a4738e2058c4b1059" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>std::array&lt; float, 4 &gt; &amp; idl_msg::QuadMotorCommand::motorspeed</definition>
+        <argsstring>[4]</argsstring>
+        <name>motorspeed</name>
+        <briefdescription>
+<para>This function copies the value in member motorspeed. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns a reference to member motorspeed.</para>
+<para>This function returns a constant reference to member motorspeed.</para>
+<para>This function moves the value in member motorspeed.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_motorspeed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member motorspeed</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_motorspeed</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member motorspeed</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Constant reference to member motorspeed</para>
+</simplesect>
+<simplesect kind="return"><para>Reference to member motorspeed </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/QuadMotorCommand.idl" line="10" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/QuadMotorCommand.idl" bodystart="10" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -172,9 +252,9 @@
         </inbodydescription>
         <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadMotorCommand.h" line="109" column="50" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadMotorCommand.cxx" bodystart="76" bodyend="84"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quad_motor_command_1a144b62896ab2e64676fadeb1ab7cbf0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quad_motor_command_1a20cf78ad1f1b9595968701375917ffc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::QuadMotorCommand::header</definition>
+        <definition>eProsima_user_DllExport void idl_msg::QuadMotorCommand::header</definition>
         <argsstring>(const idl_msg::Header &amp;_header)</argsstring>
         <name>header</name>
         <param>
@@ -198,11 +278,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadMotorCommand.h" line="116" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadMotorCommand.cxx" bodystart="141" bodyend="145"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadMotorCommand.h" line="116" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quad_motor_command_1a382d6067a4358ccea9a857c63a125458" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quad_motor_command_1a8931170291f3c63f58c7d99b7254ca3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::QuadMotorCommand::header</definition>
+        <definition>eProsima_user_DllExport void idl_msg::QuadMotorCommand::header</definition>
         <argsstring>(idl_msg::Header &amp;&amp;_header)</argsstring>
         <name>header</name>
         <param>
@@ -226,11 +306,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadMotorCommand.h" line="123" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadMotorCommand.cxx" bodystart="151" bodyend="155"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadMotorCommand.h" line="123" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quad_motor_command_1a9fe64418e1bb45bcf3887aa82a4a6af2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quad_motor_command_1a0040540d718135e62372a7e3b6e9aeea" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport const <ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref> &amp;</type>
-        <definition>const idl_msg::Header &amp; idl_msg::QuadMotorCommand::header</definition>
+        <definition>eProsima_user_DllExport const idl_msg::Header &amp; idl_msg::QuadMotorCommand::header</definition>
         <argsstring>() const</argsstring>
         <name>header</name>
         <briefdescription>
@@ -243,11 +323,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadMotorCommand.h" line="130" column="55" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadMotorCommand.cxx" bodystart="161" bodyend="164"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadMotorCommand.h" line="130" column="55"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quad_motor_command_1af2058633c82abf39414385c3474c5319" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quad_motor_command_1aee0dfa996669795b8b11c1d2d1199b5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport <ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref> &amp;</type>
-        <definition>idl_msg::Header &amp; idl_msg::QuadMotorCommand::header</definition>
+        <definition>eProsima_user_DllExport idl_msg::Header &amp; idl_msg::QuadMotorCommand::header</definition>
         <argsstring>()</argsstring>
         <name>header</name>
         <briefdescription>
@@ -260,11 +340,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadMotorCommand.h" line="136" column="49" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadMotorCommand.cxx" bodystart="170" bodyend="173"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadMotorCommand.h" line="136" column="49"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quad_motor_command_1a306f78cd506c8dd40fd5fa4474329749" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quad_motor_command_1ab80d104a209108abe83ae77d08d0d084" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::QuadMotorCommand::motorspeed</definition>
+        <definition>eProsima_user_DllExport void idl_msg::QuadMotorCommand::motorspeed</definition>
         <argsstring>(const std::array&lt; float, 4 &gt; &amp;_motorspeed)</argsstring>
         <name>motorspeed</name>
         <param>
@@ -288,11 +368,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadMotorCommand.h" line="141" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadMotorCommand.cxx" bodystart="178" bodyend="182"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadMotorCommand.h" line="141" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quad_motor_command_1a861251cf1eb22e5695ab59c8ef43aa35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quad_motor_command_1afc64bdd5985d8a9a32bc1e15e09241fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::QuadMotorCommand::motorspeed</definition>
+        <definition>eProsima_user_DllExport void idl_msg::QuadMotorCommand::motorspeed</definition>
         <argsstring>(std::array&lt; float, 4 &gt; &amp;&amp;_motorspeed)</argsstring>
         <name>motorspeed</name>
         <param>
@@ -316,11 +396,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadMotorCommand.h" line="148" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadMotorCommand.cxx" bodystart="188" bodyend="192"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadMotorCommand.h" line="148" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quad_motor_command_1acf9e88e01a6d6f99351669457fed554f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quad_motor_command_1a8598b318589884f887e7bf7aebe31bf4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport const std::array&lt; float, 4 &gt; &amp;</type>
-        <definition>const std::array&lt; float, 4 &gt; &amp; idl_msg::QuadMotorCommand::motorspeed</definition>
+        <definition>eProsima_user_DllExport const std::array&lt; float, 4 &gt; &amp; idl_msg::QuadMotorCommand::motorspeed</definition>
         <argsstring>() const</argsstring>
         <name>motorspeed</name>
         <briefdescription>
@@ -333,11 +413,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadMotorCommand.h" line="155" column="50" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadMotorCommand.cxx" bodystart="198" bodyend="201"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadMotorCommand.h" line="155" column="50"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_quad_motor_command_1a664b075c59025d49dfc6f168375fcff5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_quad_motor_command_1a6ffe043b1ec5a26b0cff47a8b9b03ff6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport std::array&lt; float, 4 &gt; &amp;</type>
-        <definition>std::array&lt; float, 4 &gt; &amp; idl_msg::QuadMotorCommand::motorspeed</definition>
+        <definition>eProsima_user_DllExport std::array&lt; float, 4 &gt; &amp; idl_msg::QuadMotorCommand::motorspeed</definition>
         <argsstring>()</argsstring>
         <name>motorspeed</name>
         <briefdescription>
@@ -350,7 +430,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadMotorCommand.h" line="161" column="44" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadMotorCommand.cxx" bodystart="207" bodyend="210"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadMotorCommand.h" line="161" column="44"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_quad_motor_command_1af13098717c70baae8223d7d6e5bf3134" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
@@ -563,23 +643,38 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>idl_msg::Header</label>
+        <link refid="classidl__msg_1_1_header"/>
+      </node>
+      <node id="1">
+        <label>idl_msg::QuadMotorCommand</label>
+        <link refid="classidl__msg_1_1_quad_motor_command"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>header</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
     <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadMotorCommand.h" line="70" column="5" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/QuadMotorCommand.h" bodystart="71" bodyend="224"/>
     <listofallmembers>
       <member refid="classidl__msg_1_1_quad_motor_command_1a3c55d85ebfdcef824b2b505b95f0029f" prot="public" virt="non-virtual"><scope>idl_msg::QuadMotorCommand</scope><name>deserialize</name></member>
       <member refid="classidl__msg_1_1_quad_motor_command_1a60b75b4d54b24b20479e1ca8a859dbf3" prot="public" virt="non-virtual"><scope>idl_msg::QuadMotorCommand</scope><name>getCdrSerializedSize</name></member>
       <member refid="classidl__msg_1_1_quad_motor_command_1ad4dce6d9678e87ffc72b10f2725d8166" prot="public" virt="non-virtual"><scope>idl_msg::QuadMotorCommand</scope><name>getKeyMaxCdrSerializedSize</name></member>
       <member refid="classidl__msg_1_1_quad_motor_command_1a4adbbc08a6518498b739af03f626cd92" prot="public" virt="non-virtual"><scope>idl_msg::QuadMotorCommand</scope><name>getMaxCdrSerializedSize</name></member>
-      <member refid="classidl__msg_1_1_quad_motor_command_1a144b62896ab2e64676fadeb1ab7cbf0d" prot="public" virt="non-virtual"><scope>idl_msg::QuadMotorCommand</scope><name>header</name></member>
-      <member refid="classidl__msg_1_1_quad_motor_command_1a382d6067a4358ccea9a857c63a125458" prot="public" virt="non-virtual"><scope>idl_msg::QuadMotorCommand</scope><name>header</name></member>
-      <member refid="classidl__msg_1_1_quad_motor_command_1a9fe64418e1bb45bcf3887aa82a4a6af2" prot="public" virt="non-virtual"><scope>idl_msg::QuadMotorCommand</scope><name>header</name></member>
-      <member refid="classidl__msg_1_1_quad_motor_command_1af2058633c82abf39414385c3474c5319" prot="public" virt="non-virtual"><scope>idl_msg::QuadMotorCommand</scope><name>header</name></member>
+      <member refid="classidl__msg_1_1_quad_motor_command_1ab327b08ad258aabb48d44e71875bfac0" prot="public" virt="non-virtual"><scope>idl_msg::QuadMotorCommand</scope><name>header</name></member>
+      <member refid="classidl__msg_1_1_quad_motor_command_1a20cf78ad1f1b9595968701375917ffc9" prot="public" virt="non-virtual"><scope>idl_msg::QuadMotorCommand</scope><name>header</name></member>
+      <member refid="classidl__msg_1_1_quad_motor_command_1a8931170291f3c63f58c7d99b7254ca3e" prot="public" virt="non-virtual"><scope>idl_msg::QuadMotorCommand</scope><name>header</name></member>
+      <member refid="classidl__msg_1_1_quad_motor_command_1a0040540d718135e62372a7e3b6e9aeea" prot="public" virt="non-virtual"><scope>idl_msg::QuadMotorCommand</scope><name>header</name></member>
+      <member refid="classidl__msg_1_1_quad_motor_command_1aee0dfa996669795b8b11c1d2d1199b5c" prot="public" virt="non-virtual"><scope>idl_msg::QuadMotorCommand</scope><name>header</name></member>
       <member refid="classidl__msg_1_1_quad_motor_command_1a43203ee27e1731d465d54576aa809220" prot="public" virt="non-virtual"><scope>idl_msg::QuadMotorCommand</scope><name>isKeyDefined</name></member>
       <member refid="classidl__msg_1_1_quad_motor_command_1a9cca2ec7384a4353c4803d66495ca939" prot="private" virt="non-virtual"><scope>idl_msg::QuadMotorCommand</scope><name>m_header</name></member>
       <member refid="classidl__msg_1_1_quad_motor_command_1a62bf4539e2f6c92634fb1dc2b7ff5873" prot="private" virt="non-virtual"><scope>idl_msg::QuadMotorCommand</scope><name>m_motorspeed</name></member>
-      <member refid="classidl__msg_1_1_quad_motor_command_1a306f78cd506c8dd40fd5fa4474329749" prot="public" virt="non-virtual"><scope>idl_msg::QuadMotorCommand</scope><name>motorspeed</name></member>
-      <member refid="classidl__msg_1_1_quad_motor_command_1a861251cf1eb22e5695ab59c8ef43aa35" prot="public" virt="non-virtual"><scope>idl_msg::QuadMotorCommand</scope><name>motorspeed</name></member>
-      <member refid="classidl__msg_1_1_quad_motor_command_1acf9e88e01a6d6f99351669457fed554f" prot="public" virt="non-virtual"><scope>idl_msg::QuadMotorCommand</scope><name>motorspeed</name></member>
-      <member refid="classidl__msg_1_1_quad_motor_command_1a664b075c59025d49dfc6f168375fcff5" prot="public" virt="non-virtual"><scope>idl_msg::QuadMotorCommand</scope><name>motorspeed</name></member>
+      <member refid="classidl__msg_1_1_quad_motor_command_1a7d6a0daea1657b1a4738e2058c4b1059" prot="public" virt="non-virtual"><scope>idl_msg::QuadMotorCommand</scope><name>motorspeed</name></member>
+      <member refid="classidl__msg_1_1_quad_motor_command_1ab80d104a209108abe83ae77d08d0d084" prot="public" virt="non-virtual"><scope>idl_msg::QuadMotorCommand</scope><name>motorspeed</name></member>
+      <member refid="classidl__msg_1_1_quad_motor_command_1afc64bdd5985d8a9a32bc1e15e09241fb" prot="public" virt="non-virtual"><scope>idl_msg::QuadMotorCommand</scope><name>motorspeed</name></member>
+      <member refid="classidl__msg_1_1_quad_motor_command_1a8598b318589884f887e7bf7aebe31bf4" prot="public" virt="non-virtual"><scope>idl_msg::QuadMotorCommand</scope><name>motorspeed</name></member>
+      <member refid="classidl__msg_1_1_quad_motor_command_1a6ffe043b1ec5a26b0cff47a8b9b03ff6" prot="public" virt="non-virtual"><scope>idl_msg::QuadMotorCommand</scope><name>motorspeed</name></member>
       <member refid="classidl__msg_1_1_quad_motor_command_1a017c3eff5340c838a0e542b38a1e5fe0" prot="public" virt="non-virtual"><scope>idl_msg::QuadMotorCommand</scope><name>operator=</name></member>
       <member refid="classidl__msg_1_1_quad_motor_command_1a370427584ec7267f018c455eb371907a" prot="public" virt="non-virtual"><scope>idl_msg::QuadMotorCommand</scope><name>operator=</name></member>
       <member refid="classidl__msg_1_1_quad_motor_command_1a59ea3fbadbf79910804b482a447d9935" prot="public" virt="non-virtual"><scope>idl_msg::QuadMotorCommand</scope><name>QuadMotorCommand</name></member>

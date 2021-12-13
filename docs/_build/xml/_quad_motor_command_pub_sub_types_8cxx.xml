@@ -8,7 +8,7 @@
     <incdepgraph>
       <node id="8">
         <label>Header.h</label>
-        <link refid="_header_8h"/>
+        <link refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_header_8h"/>
         <childnode refid="9" relation="include">
         </childnode>
         <childnode refid="10" relation="include">
@@ -24,7 +24,7 @@
       </node>
       <node id="7">
         <label>QuadMotorCommand.h</label>
-        <link refid="_quad_motor_command_8h"/>
+        <link refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_quad_motor_command_8h"/>
         <childnode refid="8" relation="include">
         </childnode>
         <childnode refid="9" relation="include">

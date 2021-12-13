@@ -4,12 +4,12 @@
     <compoundname>VelocityPubSubTypes.h</compoundname>
     <includes local="no">fastdds/dds/topic/TopicDataType.hpp</includes>
     <includes local="no">fastrtps/utils/md5.h</includes>
-    <includes refid="_velocity_8h" local="yes">Velocity.h</includes>
+    <includes refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_velocity_8h" local="yes">Velocity.h</includes>
     <includedby refid="_velocity_pub_sub_types_8cxx" local="yes">/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/VelocityPubSubTypes.cxx</includedby>
     <incdepgraph>
       <node id="4">
         <label>Velocity.h</label>
-        <link refid="_velocity_8h"/>
+        <link refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_velocity_8h"/>
         <childnode refid="5" relation="include">
         </childnode>
         <childnode refid="6" relation="include">
@@ -87,7 +87,7 @@
 <codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fastdds/dds/topic/TopicDataType.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fastrtps/utils/md5.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_velocity_8h" kindref="compound">Velocity.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Velocity.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(GEN_API_VER)<sp/>||<sp/>(GEN_API_VER<sp/>!=<sp/>1)</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#error<sp/>Generated<sp/>Velocity<sp/>is<sp/>not<sp/>compatible<sp/>with<sp/>current<sp/>installed<sp/>Fast<sp/>DDS.<sp/>Please,<sp/>regenerate<sp/>it<sp/>with<sp/>fastddsgen.</highlight><highlight class="normal"></highlight></codeline>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
-  <compounddef id="classidl__msg_1_1_mocap" kind="class" language="C++" prot="public">
+  <compounddef id="classidl__msg_1_1_mocap" kind="struct" language="C++" prot="public">
     <compoundname>idl_msg::Mocap</compoundname>
-    <includes refid="_mocap_8h" local="no">Mocap.h</includes>
+    <includes refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_mocap_8h" local="no">Mocap.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classidl__msg_1_1_mocap_1ae0a6d36c37b09964a66034395720a94c" prot="private" static="no" mutable="no">
         <type><ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref></type>
@@ -42,6 +42,116 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="244" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classidl__msg_1_1_mocap_1adec07a63f3a3463ba09ffe60347e94fe" prot="public" static="no" mutable="no">
+        <type><ref refid="classidl__msg_1_1_header" kindref="compound">Header</ref></type>
+        <definition>idl_msg::Header &amp; idl_msg::Mocap::header</definition>
+        <argsstring></argsstring>
+        <name>header</name>
+        <briefdescription>
+<para>This function copies the value in member header. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns a reference to member header.</para>
+<para>This function returns a constant reference to member header.</para>
+<para>This function moves the value in member header.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_header</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member header</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_header</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member header</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Constant reference to member header</para>
+</simplesect>
+<simplesect kind="return"><para>Reference to member header </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Mocap.idl" line="10" column="10" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Mocap.idl" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classidl__msg_1_1_mocap_1a9d124c1b3cb19a3fa69689d168ad6817" prot="public" static="no" mutable="no">
+        <type><ref refid="classidl__msg_1_1_pose" kindref="compound">Pose</ref></type>
+        <definition>idl_msg::Pose &amp; idl_msg::Mocap::pose</definition>
+        <argsstring></argsstring>
+        <name>pose</name>
+        <briefdescription>
+<para>This function copies the value in member pose. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns a reference to member pose.</para>
+<para>This function returns a constant reference to member pose.</para>
+<para>This function moves the value in member pose.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_pose</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be copied in member pose</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_pose</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value to be moved in member pose</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Constant reference to member pose</para>
+</simplesect>
+<simplesect kind="return"><para>Reference to member pose </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Mocap.idl" line="12" column="8" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Mocap.idl" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classidl__msg_1_1_mocap_1ab848426ea36b9ca89fa3e64f3176325d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float &amp; idl_msg::Mocap::latency</definition>
+        <argsstring></argsstring>
+        <name>latency</name>
+        <briefdescription>
+<para>This function sets a value in member latency. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns a reference to member latency.</para>
+<para>This function returns the value of member latency.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_latency</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member latency</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Value of member latency</para>
+</simplesect>
+<simplesect kind="return"><para>Reference to member latency </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Mocap.idl" line="14" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Mocap.idl" bodystart="14" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -185,9 +295,9 @@
         </inbodydescription>
         <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="110" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="82" bodyend="91"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_mocap_1a8884866d924830db9fd64813448d8aa6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_mocap_1adf223a601a8e96949f7257efe032b850" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::Mocap::header</definition>
+        <definition>eProsima_user_DllExport void idl_msg::Mocap::header</definition>
         <argsstring>(const idl_msg::Header &amp;_header)</argsstring>
         <name>header</name>
         <param>
@@ -211,11 +321,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="117" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="148" bodyend="152"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="117" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_mocap_1a2884c1d1aae2d50a3d98c16d1ceec81c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_mocap_1aeffe14fb5d1cfc416b4462ca6f22eadd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::Mocap::header</definition>
+        <definition>eProsima_user_DllExport void idl_msg::Mocap::header</definition>
         <argsstring>(idl_msg::Header &amp;&amp;_header)</argsstring>
         <name>header</name>
         <param>
@@ -239,11 +349,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="124" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="158" bodyend="162"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="124" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_mocap_1a3eaa04429464b673d4e7c3a0fdb267d1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_mocap_1a50f23afbdfcf74d5da7b806b65084c8c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport const <ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref> &amp;</type>
-        <definition>const idl_msg::Header &amp; idl_msg::Mocap::header</definition>
+        <definition>eProsima_user_DllExport const idl_msg::Header &amp; idl_msg::Mocap::header</definition>
         <argsstring>() const</argsstring>
         <name>header</name>
         <briefdescription>
@@ -256,11 +366,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="131" column="55" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="168" bodyend="171"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="131" column="55"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_mocap_1a4fff8c669b81bb457b202de17f6dc658" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_mocap_1a3c044553bab9dd408590bba779e8ce59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport <ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref> &amp;</type>
-        <definition>idl_msg::Header &amp; idl_msg::Mocap::header</definition>
+        <definition>eProsima_user_DllExport idl_msg::Header &amp; idl_msg::Mocap::header</definition>
         <argsstring>()</argsstring>
         <name>header</name>
         <briefdescription>
@@ -273,11 +383,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="137" column="49" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="177" bodyend="180"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="137" column="49"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_mocap_1a01c43c5e0440d0b4fb22c240777a98ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_mocap_1afdbb9ecc3de4d4daf8fd08a01b5f0834" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::Mocap::pose</definition>
+        <definition>eProsima_user_DllExport void idl_msg::Mocap::pose</definition>
         <argsstring>(const idl_msg::Pose &amp;_pose)</argsstring>
         <name>pose</name>
         <param>
@@ -301,11 +411,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="142" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="185" bodyend="189"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="142" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_mocap_1a8278d952b48c29da3a78b84db2e1c55d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_mocap_1a119f2c14adceca31952913861ccdcb4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::Mocap::pose</definition>
+        <definition>eProsima_user_DllExport void idl_msg::Mocap::pose</definition>
         <argsstring>(idl_msg::Pose &amp;&amp;_pose)</argsstring>
         <name>pose</name>
         <param>
@@ -329,11 +439,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="149" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="195" bodyend="199"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="149" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_mocap_1a946d87730dbe2b32341159fbfdd8e613" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_mocap_1a0e4b370908871266864d118e427b471a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport const <ref refid="classidl__msg_1_1_pose" kindref="compound">idl_msg::Pose</ref> &amp;</type>
-        <definition>const idl_msg::Pose &amp; idl_msg::Mocap::pose</definition>
+        <definition>eProsima_user_DllExport const idl_msg::Pose &amp; idl_msg::Mocap::pose</definition>
         <argsstring>() const</argsstring>
         <name>pose</name>
         <briefdescription>
@@ -346,11 +456,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="156" column="53" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="205" bodyend="208"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="156" column="53"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_mocap_1af64e9c9023cb3b6cd256012ef3777e88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_mocap_1a7b13f3d2af85afc8de602b6cadc053a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport <ref refid="classidl__msg_1_1_pose" kindref="compound">idl_msg::Pose</ref> &amp;</type>
-        <definition>idl_msg::Pose &amp; idl_msg::Mocap::pose</definition>
+        <definition>eProsima_user_DllExport idl_msg::Pose &amp; idl_msg::Mocap::pose</definition>
         <argsstring>()</argsstring>
         <name>pose</name>
         <briefdescription>
@@ -363,11 +473,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="162" column="47" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="214" bodyend="217"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="162" column="47"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_mocap_1af67cad17ef77d9f493ae05b9847bbe50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_mocap_1ac477dd4017516674a61319ae2648bbbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::Mocap::latency</definition>
+        <definition>eProsima_user_DllExport void idl_msg::Mocap::latency</definition>
         <argsstring>(float _latency)</argsstring>
         <name>latency</name>
         <param>
@@ -391,11 +501,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="167" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="222" bodyend="226"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="167" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_mocap_1ad56712a38ae24dd64f35ef7fa6d6cb47" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_mocap_1a5b447766df3d1f534d410041f09d30c1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float</type>
-        <definition>float idl_msg::Mocap::latency</definition>
+        <definition>eProsima_user_DllExport float idl_msg::Mocap::latency</definition>
         <argsstring>() const</argsstring>
         <name>latency</name>
         <briefdescription>
@@ -408,11 +518,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="174" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="232" bodyend="235"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="174" column="39"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_mocap_1a0e16d2e84a6e6f5c3be12a02153448a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_mocap_1a599ce2649dd4653e2f2b8d106e0b1d7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float &amp;</type>
-        <definition>float &amp; idl_msg::Mocap::latency</definition>
+        <definition>eProsima_user_DllExport float &amp; idl_msg::Mocap::latency</definition>
         <argsstring>()</argsstring>
         <name>latency</name>
         <briefdescription>
@@ -425,7 +535,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="180" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.cxx" bodystart="241" bodyend="244"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="180" column="39"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_mocap_1ad02cfa02bdedeae88e8abf2490ac2aad" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
@@ -638,20 +748,66 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
+    <collaborationgraph>
+      <node id="5">
+        <label>idl_msg::EulerAngleZYX</label>
+        <link refid="classidl__msg_1_1_euler_angle_z_y_x"/>
+      </node>
+      <node id="2">
+        <label>idl_msg::Header</label>
+        <link refid="classidl__msg_1_1_header"/>
+      </node>
+      <node id="1">
+        <label>idl_msg::Mocap</label>
+        <link refid="classidl__msg_1_1_mocap"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>header</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>pose</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>idl_msg::Pose</label>
+        <link refid="classidl__msg_1_1_pose"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>header</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>position</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>orientation_euler</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>orientation_quat</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>idl_msg::Position</label>
+        <link refid="classidl__msg_1_1_position"/>
+      </node>
+      <node id="6">
+        <label>idl_msg::Quaternion</label>
+        <link refid="classidl__msg_1_1_quaternion"/>
+      </node>
+    </collaborationgraph>
     <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" line="71" column="5" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Mocap.h" bodystart="72" bodyend="245"/>
     <listofallmembers>
       <member refid="classidl__msg_1_1_mocap_1ad5d13f2b90a8d3c81eb00625f6678d41" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>deserialize</name></member>
       <member refid="classidl__msg_1_1_mocap_1a368fd5bbb39871d5d56f61d714f6307b" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>getCdrSerializedSize</name></member>
       <member refid="classidl__msg_1_1_mocap_1aac565f7fb7e69e45ea5758aa814c242a" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>getKeyMaxCdrSerializedSize</name></member>
       <member refid="classidl__msg_1_1_mocap_1a815b62c9a4f1d2fbd13671fea5c7d485" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>getMaxCdrSerializedSize</name></member>
-      <member refid="classidl__msg_1_1_mocap_1a8884866d924830db9fd64813448d8aa6" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>header</name></member>
-      <member refid="classidl__msg_1_1_mocap_1a2884c1d1aae2d50a3d98c16d1ceec81c" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>header</name></member>
-      <member refid="classidl__msg_1_1_mocap_1a3eaa04429464b673d4e7c3a0fdb267d1" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>header</name></member>
-      <member refid="classidl__msg_1_1_mocap_1a4fff8c669b81bb457b202de17f6dc658" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>header</name></member>
+      <member refid="classidl__msg_1_1_mocap_1adec07a63f3a3463ba09ffe60347e94fe" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>header</name></member>
+      <member refid="classidl__msg_1_1_mocap_1adf223a601a8e96949f7257efe032b850" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>header</name></member>
+      <member refid="classidl__msg_1_1_mocap_1aeffe14fb5d1cfc416b4462ca6f22eadd" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>header</name></member>
+      <member refid="classidl__msg_1_1_mocap_1a50f23afbdfcf74d5da7b806b65084c8c" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>header</name></member>
+      <member refid="classidl__msg_1_1_mocap_1a3c044553bab9dd408590bba779e8ce59" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>header</name></member>
       <member refid="classidl__msg_1_1_mocap_1aced397b3277a6c7a6ad3d05ccf81f1eb" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>isKeyDefined</name></member>
-      <member refid="classidl__msg_1_1_mocap_1af67cad17ef77d9f493ae05b9847bbe50" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>latency</name></member>
-      <member refid="classidl__msg_1_1_mocap_1ad56712a38ae24dd64f35ef7fa6d6cb47" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>latency</name></member>
-      <member refid="classidl__msg_1_1_mocap_1a0e16d2e84a6e6f5c3be12a02153448a3" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>latency</name></member>
+      <member refid="classidl__msg_1_1_mocap_1ab848426ea36b9ca89fa3e64f3176325d" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>latency</name></member>
+      <member refid="classidl__msg_1_1_mocap_1ac477dd4017516674a61319ae2648bbbb" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>latency</name></member>
+      <member refid="classidl__msg_1_1_mocap_1a5b447766df3d1f534d410041f09d30c1" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>latency</name></member>
+      <member refid="classidl__msg_1_1_mocap_1a599ce2649dd4653e2f2b8d106e0b1d7d" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>latency</name></member>
       <member refid="classidl__msg_1_1_mocap_1ae0a6d36c37b09964a66034395720a94c" prot="private" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>m_header</name></member>
       <member refid="classidl__msg_1_1_mocap_1a31202c93f2c1651b8fb2645d3bc7626e" prot="private" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>m_latency</name></member>
       <member refid="classidl__msg_1_1_mocap_1a700b759ff2847f91070d8cc1da69cb6f" prot="private" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>m_pose</name></member>
@@ -660,10 +816,11 @@
       <member refid="classidl__msg_1_1_mocap_1a6b96b8e9a8ddb440ca3b9b1e72dff0f4" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>Mocap</name></member>
       <member refid="classidl__msg_1_1_mocap_1a0f4802b27bbe44e30dab454cd257108f" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>operator=</name></member>
       <member refid="classidl__msg_1_1_mocap_1a97e9049249cb7b9ec536d367a7a8f757" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>operator=</name></member>
-      <member refid="classidl__msg_1_1_mocap_1a01c43c5e0440d0b4fb22c240777a98ed" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>pose</name></member>
-      <member refid="classidl__msg_1_1_mocap_1a8278d952b48c29da3a78b84db2e1c55d" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>pose</name></member>
-      <member refid="classidl__msg_1_1_mocap_1a946d87730dbe2b32341159fbfdd8e613" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>pose</name></member>
-      <member refid="classidl__msg_1_1_mocap_1af64e9c9023cb3b6cd256012ef3777e88" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>pose</name></member>
+      <member refid="classidl__msg_1_1_mocap_1a9d124c1b3cb19a3fa69689d168ad6817" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>pose</name></member>
+      <member refid="classidl__msg_1_1_mocap_1afdbb9ecc3de4d4daf8fd08a01b5f0834" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>pose</name></member>
+      <member refid="classidl__msg_1_1_mocap_1a119f2c14adceca31952913861ccdcb4f" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>pose</name></member>
+      <member refid="classidl__msg_1_1_mocap_1a0e4b370908871266864d118e427b471a" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>pose</name></member>
+      <member refid="classidl__msg_1_1_mocap_1a7b13f3d2af85afc8de602b6cadc053a5" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>pose</name></member>
       <member refid="classidl__msg_1_1_mocap_1ad02cfa02bdedeae88e8abf2490ac2aad" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>serialize</name></member>
       <member refid="classidl__msg_1_1_mocap_1ab7e3bcf80b3fafabeefeebf55443d87d" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>serializeKey</name></member>
       <member refid="classidl__msg_1_1_mocap_1ab329928f700fbb43a8c6a5126ab4124c" prot="public" virt="non-virtual"><scope>idl_msg::Mocap</scope><name>~Mocap</name></member>

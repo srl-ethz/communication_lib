@@ -2,14 +2,14 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
   <compounddef id="_thrust_torque_command_8cxx" kind="file" language="C++">
     <compoundname>ThrustTorqueCommand.cxx</compoundname>
-    <includes refid="_thrust_torque_command_8h" local="yes">ThrustTorqueCommand.h</includes>
+    <includes refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_thrust_torque_command_8h" local="yes">ThrustTorqueCommand.h</includes>
     <includes local="no">fastcdr/Cdr.h</includes>
     <includes local="no">fastcdr/exceptions/BadParamException.h</includes>
     <includes local="no">utility</includes>
     <incdepgraph>
       <node id="3">
         <label>Header.h</label>
-        <link refid="_header_8h"/>
+        <link refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_header_8h"/>
         <childnode refid="4" relation="include">
         </childnode>
         <childnode refid="5" relation="include">
@@ -37,7 +37,7 @@
       </node>
       <node id="2">
         <label>ThrustTorqueCommand.h</label>
-        <link refid="_thrust_torque_command_8h"/>
+        <link refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_thrust_torque_command_8h"/>
         <childnode refid="3" relation="include">
         </childnode>
         <childnode refid="4" relation="include">
@@ -107,7 +107,7 @@
 <codeline lineno="26"><highlight class="normal">}<sp/><sp/></highlight><highlight class="comment">//<sp/>namespace</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">//<sp/>_WIN32</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="normal"></highlight></codeline>
-<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_thrust_torque_command_8h" kindref="compound">ThrustTorqueCommand.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ThrustTorqueCommand.h&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fastcdr/Cdr.h&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="31"><highlight class="normal"></highlight></codeline>
 <codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fastcdr/exceptions/BadParamException.h&gt;</highlight><highlight class="normal"></highlight></codeline>
@@ -216,7 +216,7 @@
 <codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>initial_alignment<sp/>=<sp/>current_alignment;</highlight></codeline>
 <codeline lineno="136"><highlight class="normal"></highlight></codeline>
 <codeline lineno="137"><highlight class="normal"></highlight></codeline>
-<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>current_alignment<sp/>+=<sp/><ref refid="classidl__msg_1_1_header_1a32ec7d95fc4157731f6bc9ea537a7be7" kindref="member">idl_msg::Header::getCdrSerializedSize</ref>(data.<ref refid="classidl__msg_1_1_thrust_torque_command_1ad2443100fb1ed5488339c5cc3ffe87d0" kindref="member">header</ref>(),<sp/>current_alignment);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>current_alignment<sp/>+=<sp/><ref refid="classidl__msg_1_1_header_1a32ec7d95fc4157731f6bc9ea537a7be7" kindref="member">idl_msg::Header::getCdrSerializedSize</ref>(data.<ref refid="classidl__msg_1_1_thrust_torque_command_1a3dd0ea22b364bd03f863448441fd0d14" kindref="member">header</ref>(),<sp/>current_alignment);</highlight></codeline>
 <codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>current_alignment<sp/>+=<sp/>4<sp/>+<sp/>eprosima::fastcdr::Cdr::alignment(current_alignment,<sp/>4);</highlight></codeline>
 <codeline lineno="140"><highlight class="normal"></highlight></codeline>
 <codeline lineno="141"><highlight class="normal"></highlight></codeline>
@@ -256,87 +256,87 @@
 <codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/>dcdr<sp/>&gt;&gt;<sp/>m_yaw_torque;</highlight></codeline>
 <codeline lineno="176"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="177"><highlight class="normal"></highlight></codeline>
-<codeline lineno="182"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1a34c1f50464a08e27a974effdb5107ad9" kindref="member">idl_msg::ThrustTorqueCommand::header</ref>(</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1a3dd0ea22b364bd03f863448441fd0d14" kindref="member">idl_msg::ThrustTorqueCommand::header</ref>(</highlight></codeline>
 <codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref>&amp;<sp/>_header)</highlight></codeline>
 <codeline lineno="184"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/>m_header<sp/>=<sp/>_header;</highlight></codeline>
 <codeline lineno="186"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="187"><highlight class="normal"></highlight></codeline>
-<codeline lineno="192"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1a34c1f50464a08e27a974effdb5107ad9" kindref="member">idl_msg::ThrustTorqueCommand::header</ref>(</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1a3dd0ea22b364bd03f863448441fd0d14" kindref="member">idl_msg::ThrustTorqueCommand::header</ref>(</highlight></codeline>
 <codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref>&amp;&amp;<sp/>_header)</highlight></codeline>
 <codeline lineno="194"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>m_header<sp/>=<sp/>std::move(_header);</highlight></codeline>
 <codeline lineno="196"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="197"><highlight class="normal"></highlight></codeline>
-<codeline lineno="202"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref>&amp;<sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1a34c1f50464a08e27a974effdb5107ad9" kindref="member">idl_msg::ThrustTorqueCommand::header</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref>&amp;<sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1a3dd0ea22b364bd03f863448441fd0d14" kindref="member">idl_msg::ThrustTorqueCommand::header</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="203"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_header;</highlight></codeline>
 <codeline lineno="205"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="206"><highlight class="normal"></highlight></codeline>
-<codeline lineno="211"><highlight class="normal"><ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref>&amp;<sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1a34c1f50464a08e27a974effdb5107ad9" kindref="member">idl_msg::ThrustTorqueCommand::header</ref>()</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><ref refid="classidl__msg_1_1_header" kindref="compound">idl_msg::Header</ref>&amp;<sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1a3dd0ea22b364bd03f863448441fd0d14" kindref="member">idl_msg::ThrustTorqueCommand::header</ref>()</highlight></codeline>
 <codeline lineno="212"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_header;</highlight></codeline>
 <codeline lineno="214"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="219"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1a7b7a1c32c062b1042ac924fe54d5fb26" kindref="member">idl_msg::ThrustTorqueCommand::thrust</ref>(</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1af72d7db4228347977f0d63884c92e4d4" kindref="member">idl_msg::ThrustTorqueCommand::thrust</ref>(</highlight></codeline>
 <codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_thrust)</highlight></codeline>
 <codeline lineno="221"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/>m_thrust<sp/>=<sp/>_thrust;</highlight></codeline>
 <codeline lineno="223"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="224"><highlight class="normal"></highlight></codeline>
-<codeline lineno="229"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1a7b7a1c32c062b1042ac924fe54d5fb26" kindref="member">idl_msg::ThrustTorqueCommand::thrust</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1af72d7db4228347977f0d63884c92e4d4" kindref="member">idl_msg::ThrustTorqueCommand::thrust</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="230"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_thrust;</highlight></codeline>
 <codeline lineno="232"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="233"><highlight class="normal"></highlight></codeline>
-<codeline lineno="238"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&amp;<sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1a7b7a1c32c062b1042ac924fe54d5fb26" kindref="member">idl_msg::ThrustTorqueCommand::thrust</ref>()</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&amp;<sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1af72d7db4228347977f0d63884c92e4d4" kindref="member">idl_msg::ThrustTorqueCommand::thrust</ref>()</highlight></codeline>
 <codeline lineno="239"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_thrust;</highlight></codeline>
 <codeline lineno="241"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="242"><highlight class="normal"></highlight></codeline>
-<codeline lineno="247"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1a3304d30c19d528be6b864e3607c8e730" kindref="member">idl_msg::ThrustTorqueCommand::roll_torque</ref>(</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1a33d13c0104604e2eb7b32ee6ccf73206" kindref="member">idl_msg::ThrustTorqueCommand::roll_torque</ref>(</highlight></codeline>
 <codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_roll_torque)</highlight></codeline>
 <codeline lineno="249"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/>m_roll_torque<sp/>=<sp/>_roll_torque;</highlight></codeline>
 <codeline lineno="251"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="252"><highlight class="normal"></highlight></codeline>
-<codeline lineno="257"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1a3304d30c19d528be6b864e3607c8e730" kindref="member">idl_msg::ThrustTorqueCommand::roll_torque</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1a33d13c0104604e2eb7b32ee6ccf73206" kindref="member">idl_msg::ThrustTorqueCommand::roll_torque</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="258"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_roll_torque;</highlight></codeline>
 <codeline lineno="260"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="261"><highlight class="normal"></highlight></codeline>
-<codeline lineno="266"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&amp;<sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1a3304d30c19d528be6b864e3607c8e730" kindref="member">idl_msg::ThrustTorqueCommand::roll_torque</ref>()</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&amp;<sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1a33d13c0104604e2eb7b32ee6ccf73206" kindref="member">idl_msg::ThrustTorqueCommand::roll_torque</ref>()</highlight></codeline>
 <codeline lineno="267"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_roll_torque;</highlight></codeline>
 <codeline lineno="269"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="270"><highlight class="normal"></highlight></codeline>
-<codeline lineno="275"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1a2e4e53eaad1c3b8b54f227b1cd152c4b" kindref="member">idl_msg::ThrustTorqueCommand::pitch_torque</ref>(</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1af95b42052c305d5022e6aef953966dbd" kindref="member">idl_msg::ThrustTorqueCommand::pitch_torque</ref>(</highlight></codeline>
 <codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_pitch_torque)</highlight></codeline>
 <codeline lineno="277"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/>m_pitch_torque<sp/>=<sp/>_pitch_torque;</highlight></codeline>
 <codeline lineno="279"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="280"><highlight class="normal"></highlight></codeline>
-<codeline lineno="285"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1a2e4e53eaad1c3b8b54f227b1cd152c4b" kindref="member">idl_msg::ThrustTorqueCommand::pitch_torque</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1af95b42052c305d5022e6aef953966dbd" kindref="member">idl_msg::ThrustTorqueCommand::pitch_torque</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="286"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_pitch_torque;</highlight></codeline>
 <codeline lineno="288"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="289"><highlight class="normal"></highlight></codeline>
-<codeline lineno="294"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&amp;<sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1a2e4e53eaad1c3b8b54f227b1cd152c4b" kindref="member">idl_msg::ThrustTorqueCommand::pitch_torque</ref>()</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&amp;<sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1af95b42052c305d5022e6aef953966dbd" kindref="member">idl_msg::ThrustTorqueCommand::pitch_torque</ref>()</highlight></codeline>
 <codeline lineno="295"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_pitch_torque;</highlight></codeline>
 <codeline lineno="297"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="298"><highlight class="normal"></highlight></codeline>
-<codeline lineno="303"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1ae312971bb6f7dfdc667bfc4775cd8c74" kindref="member">idl_msg::ThrustTorqueCommand::yaw_torque</ref>(</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1a89810243c244e521d0e2721fba7c6c84" kindref="member">idl_msg::ThrustTorqueCommand::yaw_torque</ref>(</highlight></codeline>
 <codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>_yaw_torque)</highlight></codeline>
 <codeline lineno="305"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/>m_yaw_torque<sp/>=<sp/>_yaw_torque;</highlight></codeline>
 <codeline lineno="307"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="308"><highlight class="normal"></highlight></codeline>
-<codeline lineno="313"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1ae312971bb6f7dfdc667bfc4775cd8c74" kindref="member">idl_msg::ThrustTorqueCommand::yaw_torque</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1a89810243c244e521d0e2721fba7c6c84" kindref="member">idl_msg::ThrustTorqueCommand::yaw_torque</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
 <codeline lineno="314"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
 <codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_yaw_torque;</highlight></codeline>
 <codeline lineno="316"><highlight class="normal">}</highlight></codeline>
 <codeline lineno="317"><highlight class="normal"></highlight></codeline>
-<codeline lineno="322"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&amp;<sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1ae312971bb6f7dfdc667bfc4775cd8c74" kindref="member">idl_msg::ThrustTorqueCommand::yaw_torque</ref>()</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal">&amp;<sp/><ref refid="classidl__msg_1_1_thrust_torque_command_1a89810243c244e521d0e2721fba7c6c84" kindref="member">idl_msg::ThrustTorqueCommand::yaw_torque</ref>()</highlight></codeline>
 <codeline lineno="323"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m_yaw_torque;</highlight></codeline>
 <codeline lineno="325"><highlight class="normal">}</highlight></codeline>

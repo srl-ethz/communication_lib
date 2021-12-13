@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structcpp__msg_1_1_quad_motor_command" kind="struct" language="C++" prot="public">
+    <compoundname>cpp_msg::QuadMotorCommand</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcpp__msg_1_1_quad_motor_command_1a82b29c0f566141acf8d8abcc4520a48a" prot="public" static="no" mutable="no">
+        <type><ref refid="structcpp__msg_1_1_header" kindref="compound">Header</ref></type>
+        <definition>Header cpp_msg::QuadMotorCommand::header</definition>
+        <argsstring></argsstring>
+        <name>header</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadMotorCommand.h" line="8" column="10" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadMotorCommand.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcpp__msg_1_1_quad_motor_command_1ad563a141a54ebfeab9c99a3c44ccedeb" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float cpp_msg::QuadMotorCommand::motorspeed[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>motorspeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadMotorCommand.h" line="10" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadMotorCommand.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>cpp_msg::Header</label>
+        <link refid="structcpp__msg_1_1_header"/>
+      </node>
+      <node id="1">
+        <label>cpp_msg::QuadMotorCommand</label>
+        <link refid="structcpp__msg_1_1_quad_motor_command"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>header</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadMotorCommand.h" line="6" column="1" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/cpp_msgs/robot_msgs/quadcopter_msgs/msgs/QuadMotorCommand.h" bodystart="6" bodyend="11"/>
+    <listofallmembers>
+      <member refid="structcpp__msg_1_1_quad_motor_command_1a82b29c0f566141acf8d8abcc4520a48a" prot="public" virt="non-virtual"><scope>cpp_msg::QuadMotorCommand</scope><name>header</name></member>
+      <member refid="structcpp__msg_1_1_quad_motor_command_1ad563a141a54ebfeab9c99a3c44ccedeb" prot="public" virt="non-virtual"><scope>cpp_msg::QuadMotorCommand</scope><name>motorspeed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

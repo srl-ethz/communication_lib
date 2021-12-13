@@ -2,7 +2,7 @@ PROJECT_NAME           = "Communication_lib"
 
 OUTPUT_DIRECTORY       = /Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/docs/_build
 
-INPUT                  = /Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib
+INPUT                  = /Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib /Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib
 
 GENERATE_XML = YES
 

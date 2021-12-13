@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
-  <compounddef id="classidl__msg_1_1_velocity" kind="class" language="C++" prot="public">
+  <compounddef id="classidl__msg_1_1_velocity" kind="struct" language="C++" prot="public">
     <compoundname>idl_msg::Velocity</compoundname>
-    <includes refid="_velocity_8h" local="no">Velocity.h</includes>
+    <includes refid="fastdds__lib_2fastddsgen__generated__files_2msg__definitions_2_velocity_8h" local="no">Velocity.h</includes>
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classidl__msg_1_1_velocity_1a2654f6322e1a1ec7324064069a26f869" prot="private" static="no" mutable="no">
         <type>float</type>
@@ -42,6 +42,98 @@
         <inbodydescription>
         </inbodydescription>
         <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Velocity.h" line="230" column="15" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Velocity.h" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classidl__msg_1_1_velocity_1ada507ecb6bf2b2f1546cb4628b13d234" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float &amp; idl_msg::Velocity::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+<para>This function sets a value in member x. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns a reference to member x.</para>
+<para>This function returns the value of member x.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member x</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Value of member x</para>
+</simplesect>
+<simplesect kind="return"><para>Reference to member x </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Velocity.idl" line="7" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Velocity.idl" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classidl__msg_1_1_velocity_1a3d57fbebe2b83e745aa07409883d846d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float &amp; idl_msg::Velocity::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+<para>This function sets a value in member y. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns a reference to member y.</para>
+<para>This function returns the value of member y.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member y</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Value of member y</para>
+</simplesect>
+<simplesect kind="return"><para>Reference to member y </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Velocity.idl" line="8" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Velocity.idl" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classidl__msg_1_1_velocity_1a29e4ca251465b9995a82cd48438b9bb3" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float &amp; idl_msg::Velocity::z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <briefdescription>
+<para>This function sets a value in member z. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function returns a reference to member z.</para>
+<para>This function returns the value of member z.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_z</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New value for member z</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Value of member z</para>
+</simplesect>
+<simplesect kind="return"><para>Reference to member z </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Velocity.idl" line="9" column="9" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/msgs_lib/dds_msgs/Velocity.idl" bodystart="9" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -185,9 +277,9 @@
         </inbodydescription>
         <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Velocity.h" line="108" column="42" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Velocity.cxx" bodystart="82" bodyend="91"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_velocity_1a0c872c9b085c51ae0acda2dcacd09c9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_velocity_1a5df8a6f03cecb162961ee99541f6d902" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::Velocity::x</definition>
+        <definition>eProsima_user_DllExport void idl_msg::Velocity::x</definition>
         <argsstring>(float _x)</argsstring>
         <name>x</name>
         <param>
@@ -211,11 +303,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Velocity.h" line="115" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Velocity.cxx" bodystart="156" bodyend="160"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Velocity.h" line="115" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_velocity_1acbd0dc3ee9877d42b6d83120bf95afb2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_velocity_1ab94881571a237b2074b896218bd7c715" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float</type>
-        <definition>float idl_msg::Velocity::x</definition>
+        <definition>eProsima_user_DllExport float idl_msg::Velocity::x</definition>
         <argsstring>() const</argsstring>
         <name>x</name>
         <briefdescription>
@@ -228,11 +320,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Velocity.h" line="122" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Velocity.cxx" bodystart="166" bodyend="169"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Velocity.h" line="122" column="39"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_velocity_1a0f855645a318e8913e808de5c7d92cf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_velocity_1a03d986fff2a3e767b42d0eb094cf0db0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float &amp;</type>
-        <definition>float &amp; idl_msg::Velocity::x</definition>
+        <definition>eProsima_user_DllExport float &amp; idl_msg::Velocity::x</definition>
         <argsstring>()</argsstring>
         <name>x</name>
         <briefdescription>
@@ -245,11 +337,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Velocity.h" line="128" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Velocity.cxx" bodystart="175" bodyend="178"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Velocity.h" line="128" column="39"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_velocity_1a750ee99f7f575baefd2761d4b0a9a6c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_velocity_1a74c5ef6ef86dd578209feb5166d7240c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::Velocity::y</definition>
+        <definition>eProsima_user_DllExport void idl_msg::Velocity::y</definition>
         <argsstring>(float _y)</argsstring>
         <name>y</name>
         <param>
@@ -273,11 +365,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Velocity.h" line="134" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Velocity.cxx" bodystart="184" bodyend="188"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Velocity.h" line="134" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_velocity_1a259c5d10dbe54917e733a650700e35b3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_velocity_1a0f225dd0f26d8da61f8d91b1fac61263" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float</type>
-        <definition>float idl_msg::Velocity::y</definition>
+        <definition>eProsima_user_DllExport float idl_msg::Velocity::y</definition>
         <argsstring>() const</argsstring>
         <name>y</name>
         <briefdescription>
@@ -290,11 +382,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Velocity.h" line="141" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Velocity.cxx" bodystart="194" bodyend="197"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Velocity.h" line="141" column="39"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_velocity_1a4abac5a0e841a5c1e296b2efc717816b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_velocity_1a8974df39ae36efe02f53df13a3105505" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float &amp;</type>
-        <definition>float &amp; idl_msg::Velocity::y</definition>
+        <definition>eProsima_user_DllExport float &amp; idl_msg::Velocity::y</definition>
         <argsstring>()</argsstring>
         <name>y</name>
         <briefdescription>
@@ -307,11 +399,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Velocity.h" line="147" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Velocity.cxx" bodystart="203" bodyend="206"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Velocity.h" line="147" column="39"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_velocity_1a3b28fde1a83879d999e438038a0f6e63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_velocity_1a0b8abcead9aea9517cf82e3064e7bf56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
-        <definition>void idl_msg::Velocity::z</definition>
+        <definition>eProsima_user_DllExport void idl_msg::Velocity::z</definition>
         <argsstring>(float _z)</argsstring>
         <name>z</name>
         <param>
@@ -335,11 +427,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Velocity.h" line="153" column="38" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Velocity.cxx" bodystart="212" bodyend="216"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Velocity.h" line="153" column="38"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_velocity_1a1f5a0f6655f78aa97efc9c10b31c491f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_velocity_1a5ef6e041c3149c44ff5e7e636f61a8f7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float</type>
-        <definition>float idl_msg::Velocity::z</definition>
+        <definition>eProsima_user_DllExport float idl_msg::Velocity::z</definition>
         <argsstring>() const</argsstring>
         <name>z</name>
         <briefdescription>
@@ -352,11 +444,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Velocity.h" line="160" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Velocity.cxx" bodystart="222" bodyend="225"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Velocity.h" line="160" column="39"/>
       </memberdef>
-      <memberdef kind="function" id="classidl__msg_1_1_velocity_1aeea0f94b2ba60eeb7b2829b43b18d117" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="classidl__msg_1_1_velocity_1af7b0a2ac07971596863e6943a6402e22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport float &amp;</type>
-        <definition>float &amp; idl_msg::Velocity::z</definition>
+        <definition>eProsima_user_DllExport float &amp; idl_msg::Velocity::z</definition>
         <argsstring>()</argsstring>
         <name>z</name>
         <briefdescription>
@@ -369,7 +461,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Velocity.h" line="166" column="39" bodyfile="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Velocity.cxx" bodystart="231" bodyend="234"/>
+        <location file="/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib/fastdds_lib/fastddsgen_generated_files/msg_definitions/Velocity.h" line="166" column="39"/>
       </memberdef>
       <memberdef kind="function" id="classidl__msg_1_1_velocity_1a52b9d1e348d88ca5c6c01a590762d33a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>eProsima_user_DllExport void</type>
@@ -599,15 +691,18 @@
       <member refid="classidl__msg_1_1_velocity_1a5f234a967b775e7c31e35bec4fc9d999" prot="public" virt="non-virtual"><scope>idl_msg::Velocity</scope><name>Velocity</name></member>
       <member refid="classidl__msg_1_1_velocity_1a72a9380ea1de89a74de5d065b7cb973c" prot="public" virt="non-virtual"><scope>idl_msg::Velocity</scope><name>Velocity</name></member>
       <member refid="classidl__msg_1_1_velocity_1a74e89ba9e0b4c905ab451d77a81a6aef" prot="public" virt="non-virtual"><scope>idl_msg::Velocity</scope><name>Velocity</name></member>
-      <member refid="classidl__msg_1_1_velocity_1a0c872c9b085c51ae0acda2dcacd09c9f" prot="public" virt="non-virtual"><scope>idl_msg::Velocity</scope><name>x</name></member>
-      <member refid="classidl__msg_1_1_velocity_1acbd0dc3ee9877d42b6d83120bf95afb2" prot="public" virt="non-virtual"><scope>idl_msg::Velocity</scope><name>x</name></member>
-      <member refid="classidl__msg_1_1_velocity_1a0f855645a318e8913e808de5c7d92cf0" prot="public" virt="non-virtual"><scope>idl_msg::Velocity</scope><name>x</name></member>
-      <member refid="classidl__msg_1_1_velocity_1a750ee99f7f575baefd2761d4b0a9a6c7" prot="public" virt="non-virtual"><scope>idl_msg::Velocity</scope><name>y</name></member>
-      <member refid="classidl__msg_1_1_velocity_1a259c5d10dbe54917e733a650700e35b3" prot="public" virt="non-virtual"><scope>idl_msg::Velocity</scope><name>y</name></member>
-      <member refid="classidl__msg_1_1_velocity_1a4abac5a0e841a5c1e296b2efc717816b" prot="public" virt="non-virtual"><scope>idl_msg::Velocity</scope><name>y</name></member>
-      <member refid="classidl__msg_1_1_velocity_1a3b28fde1a83879d999e438038a0f6e63" prot="public" virt="non-virtual"><scope>idl_msg::Velocity</scope><name>z</name></member>
-      <member refid="classidl__msg_1_1_velocity_1a1f5a0f6655f78aa97efc9c10b31c491f" prot="public" virt="non-virtual"><scope>idl_msg::Velocity</scope><name>z</name></member>
-      <member refid="classidl__msg_1_1_velocity_1aeea0f94b2ba60eeb7b2829b43b18d117" prot="public" virt="non-virtual"><scope>idl_msg::Velocity</scope><name>z</name></member>
+      <member refid="classidl__msg_1_1_velocity_1ada507ecb6bf2b2f1546cb4628b13d234" prot="public" virt="non-virtual"><scope>idl_msg::Velocity</scope><name>x</name></member>
+      <member refid="classidl__msg_1_1_velocity_1a5df8a6f03cecb162961ee99541f6d902" prot="public" virt="non-virtual"><scope>idl_msg::Velocity</scope><name>x</name></member>
+      <member refid="classidl__msg_1_1_velocity_1ab94881571a237b2074b896218bd7c715" prot="public" virt="non-virtual"><scope>idl_msg::Velocity</scope><name>x</name></member>
+      <member refid="classidl__msg_1_1_velocity_1a03d986fff2a3e767b42d0eb094cf0db0" prot="public" virt="non-virtual"><scope>idl_msg::Velocity</scope><name>x</name></member>
+      <member refid="classidl__msg_1_1_velocity_1a3d57fbebe2b83e745aa07409883d846d" prot="public" virt="non-virtual"><scope>idl_msg::Velocity</scope><name>y</name></member>
+      <member refid="classidl__msg_1_1_velocity_1a74c5ef6ef86dd578209feb5166d7240c" prot="public" virt="non-virtual"><scope>idl_msg::Velocity</scope><name>y</name></member>
+      <member refid="classidl__msg_1_1_velocity_1a0f225dd0f26d8da61f8d91b1fac61263" prot="public" virt="non-virtual"><scope>idl_msg::Velocity</scope><name>y</name></member>
+      <member refid="classidl__msg_1_1_velocity_1a8974df39ae36efe02f53df13a3105505" prot="public" virt="non-virtual"><scope>idl_msg::Velocity</scope><name>y</name></member>
+      <member refid="classidl__msg_1_1_velocity_1a29e4ca251465b9995a82cd48438b9bb3" prot="public" virt="non-virtual"><scope>idl_msg::Velocity</scope><name>z</name></member>
+      <member refid="classidl__msg_1_1_velocity_1a0b8abcead9aea9517cf82e3064e7bf56" prot="public" virt="non-virtual"><scope>idl_msg::Velocity</scope><name>z</name></member>
+      <member refid="classidl__msg_1_1_velocity_1a5ef6e041c3149c44ff5e7e636f61a8f7" prot="public" virt="non-virtual"><scope>idl_msg::Velocity</scope><name>z</name></member>
+      <member refid="classidl__msg_1_1_velocity_1af7b0a2ac07971596863e6943a6402e22" prot="public" virt="non-virtual"><scope>idl_msg::Velocity</scope><name>z</name></member>
       <member refid="classidl__msg_1_1_velocity_1a5e189eada4608650df1e2fd13a7826f6" prot="public" virt="non-virtual"><scope>idl_msg::Velocity</scope><name>~Velocity</name></member>
     </listofallmembers>
   </compounddef>
