@@ -12,9 +12,3 @@ Middleware package for robotics based. It is based on DDS (Data Distribution Ser
  2) Plug and play: No network configuration required
  3) Low latency, high bandwidth communication
 
-## A simple example 
-
- ```python
-from nn_class_version_1 import nn
-from helper_functions import *
-```
