@@ -9,6 +9,23 @@ and topic name. Subscribers initialized with the same message type and topic nam
 can receive the data. All publishers and subscribers in an application must register to
 the domain participant  
 
+Running the demo
+---------------------------
+
+Open the publisher in one terminal tab ::
+
+./build/demo/simple_publisher/simple_publisher
+
+Open the subscriber in one terminal tab ::
+
+./build/demo/simple_subscriber/simple_subscriber
+
+.. figure:: images/tutorial_output.png
+   :align: center
+
+   Subscriber recevies 10 data samples of type position from the publisher
+
+
 Writing a simple publisher
 ---------------------------
 

@@ -50,6 +50,7 @@
 <p class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
 <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Simple publisher and subscriber</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#running-the-demo">Running the demo</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#writing-a-simple-publisher">Writing a simple publisher</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#writing-a-simple-subscriber">Writing a simple subscriber</a></li>
 </ul>
@@ -102,6 +103,23 @@ to the netwrok, finfing other nodes, etc. Publisher transmit data of a given mes
 and topic name. Subscribers initialized with the same message type and topic name
 can receive the data. All publishers and subscribers in an application must register to
 the domain participant</p>
+<section id="running-the-demo">
+<h2>Running the demo<a class="headerlink" href="#running-the-demo" title="Permalink to this headline"></a></h2>
+<p>Open the publisher in one terminal tab</p>
+<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="p">.</span><span class="o">/</span><span class="n">build</span><span class="o">/</span><span class="n">demo</span><span class="o">/</span><span class="n">simple_publisher</span><span class="o">/</span><span class="n">simple_publisher</span><span class="w"></span>
+</pre></div>
+</div>
+<p>Open the subscriber in one terminal tab</p>
+<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="p">.</span><span class="o">/</span><span class="n">build</span><span class="o">/</span><span class="n">demo</span><span class="o">/</span><span class="n">simple_subscriber</span><span class="o">/</span><span class="n">simple_subscriber</span><span class="w"></span>
+</pre></div>
+</div>
+<figure class="align-center" id="id1">
+<img alt="../../_images/tutorial_output.png" src="../../_images/tutorial_output.png" />
+<figcaption>
+<p><span class="caption-text">Subscriber recevies 10 data samples of type position from the publisher</span><a class="headerlink" href="#id1" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
 <section id="writing-a-simple-publisher">
 <h2>Writing a simple publisher<a class="headerlink" href="#writing-a-simple-publisher" title="Permalink to this headline"></a></h2>
 <p>Let us create a publisher that sends messages of type position.</p>
