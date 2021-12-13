@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Message List &mdash; SRL Communication library  documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="prev" title="Subscriber" href="subscriber.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> SRL Communication library
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Concepts</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../concepts/fastdds_intro.html">Introduction</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Installation</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../installation/install_linux_mac.html">Installing on mac and linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../installation/install_win.html">Installing on windows</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/simple_demo.html">Simple publisher and subscriber</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tutorials/async_pub.html">Asynchronous publisher</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Tools</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../tools/realtime_plotter.html">Realtime Plotter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tools/visualizer.html">Visualizer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tools/logger.html">Logger</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Full API Reference</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="domain_participant.html">Domain Participant</a></li>
+<li class="toctree-l1"><a class="reference internal" href="publisher.html">Publisher</a></li>
+<li class="toctree-l1"><a class="reference internal" href="subscriber.html">Subscriber</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Messages</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">SRL Communication library</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Message List</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/contents/full_reference/messages_list.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="message-list">
+<h1>Message List<a class="headerlink" href="#message-list" title="Permalink to this headline"></a></h1>
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg13EulerAngleZYZE">
+<span id="_CPPv3N7cpp_msg7cpp_msg13EulerAngleZYZE"></span><span id="_CPPv2N7cpp_msg7cpp_msg13EulerAngleZYZE"></span><span id="cpp_msg::cpp_msg::EulerAngleZYZ"></span><span class="target" id="structcpp__msg_1_1_euler_angle_z_y_z"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><span class="n"><span class="pre">cpp_msg</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">cpp_msg</span></span><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">EulerAngleZYZ</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg13EulerAngleZYZE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg13EulerAngleZYZ4rollE">
+<span id="_CPPv3N7cpp_msg7cpp_msg13EulerAngleZYZ4rollE"></span><span id="_CPPv2N7cpp_msg7cpp_msg13EulerAngleZYZ4rollE"></span><span id="cpp_msg::cpp_msg::EulerAngleZYZ::roll__float"></span><span class="target" id="structcpp__msg_1_1_euler_angle_z_y_z_1a47ee7e792808041c8df8161039dcd161"></span><span class="kt"><span class="pre">float</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">roll</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg13EulerAngleZYZ4rollE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg13EulerAngleZYZ5pitchE">
+<span id="_CPPv3N7cpp_msg7cpp_msg13EulerAngleZYZ5pitchE"></span><span id="_CPPv2N7cpp_msg7cpp_msg13EulerAngleZYZ5pitchE"></span><span id="cpp_msg::cpp_msg::EulerAngleZYZ::pitch__float"></span><span class="target" id="structcpp__msg_1_1_euler_angle_z_y_z_1a1648c2030e36e999eb843225e0aa9c6b"></span><span class="kt"><span class="pre">float</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">pitch</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg13EulerAngleZYZ5pitchE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg13EulerAngleZYZ3yawE">
+<span id="_CPPv3N7cpp_msg7cpp_msg13EulerAngleZYZ3yawE"></span><span id="_CPPv2N7cpp_msg7cpp_msg13EulerAngleZYZ3yawE"></span><span id="cpp_msg::cpp_msg::EulerAngleZYZ::yaw__float"></span><span class="target" id="structcpp__msg_1_1_euler_angle_z_y_z_1a233baa39e237128377d513b22c37442d"></span><span class="kt"><span class="pre">float</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">yaw</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg13EulerAngleZYZ3yawE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg6HeaderE">
+<span id="_CPPv3N7cpp_msg7cpp_msg6HeaderE"></span><span id="_CPPv2N7cpp_msg7cpp_msg6HeaderE"></span><span id="cpp_msg::cpp_msg::Header"></span><span class="target" id="structcpp__msg_1_1_header"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><span class="n"><span class="pre">cpp_msg</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">cpp_msg</span></span><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">Header</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg6HeaderE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg6Header9timestampE">
+<span id="_CPPv3N7cpp_msg7cpp_msg6Header9timestampE"></span><span id="_CPPv2N7cpp_msg7cpp_msg6Header9timestampE"></span><span id="cpp_msg::cpp_msg::Header::timestamp__l"></span><span class="target" id="structcpp__msg_1_1_header_1aac16e45ab99611fccbfa98bcff6c4679"></span><span class="kt"><span class="pre">long</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">timestamp</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg6Header9timestampE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg6Header2idE">
+<span id="_CPPv3N7cpp_msg7cpp_msg6Header2idE"></span><span id="_CPPv2N7cpp_msg7cpp_msg6Header2idE"></span><span id="cpp_msg::cpp_msg::Header::id__ss"></span><span class="target" id="structcpp__msg_1_1_header_1a61b56abaafa3f5cb6203eb204e9a24e3"></span><span class="n"><span class="pre">std</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">string</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">id</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg6Header2idE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg10Image1080pE">
+<span id="_CPPv3N7cpp_msg7cpp_msg10Image1080pE"></span><span id="_CPPv2N7cpp_msg7cpp_msg10Image1080pE"></span><span id="cpp_msg::cpp_msg::Image1080p"></span><span class="target" id="structcpp__msg_1_1_image1080p"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><span class="n"><span class="pre">cpp_msg</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">cpp_msg</span></span><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">Image1080p</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg10Image1080pE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg10Image1080p6headerE">
+<span id="_CPPv3N7cpp_msg7cpp_msg10Image1080p6headerE"></span><span id="_CPPv2N7cpp_msg7cpp_msg10Image1080p6headerE"></span><span id="cpp_msg::cpp_msg::Image1080p::header__Header"></span><span class="target" id="structcpp__msg_1_1_image1080p_1ac7282e0a6bdc3525bc978a931dd3fb81"></span><a class="reference internal" href="#_CPPv4N7cpp_msg7cpp_msg6HeaderE" title="cpp_msg::cpp_msg::Header"><span class="n"><span class="pre">Header</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">header</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg10Image1080p6headerE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg10Image1080p5frameE">
+<span id="_CPPv3N7cpp_msg7cpp_msg10Image1080p5frameE"></span><span id="_CPPv2N7cpp_msg7cpp_msg10Image1080p5frameE"></span><span id="cpp_msg::cpp_msg::Image1080p::frame__uint8_tA"></span><span class="target" id="structcpp__msg_1_1_image1080p_1aabbe7ab2571b8b9809b5f17bd187b8c6"></span><span class="n"><span class="pre">uint8_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">frame</span></span></span><span class="p"><span class="pre">[</span></span><span class="m"><span class="pre">1920</span></span><span class="w"> </span><span class="o"><span class="pre">*</span></span><span class="w"> </span><span class="m"><span class="pre">1080</span></span><span class="w"> </span><span class="o"><span class="pre">*</span></span><span class="w"> </span><span class="m"><span class="pre">3</span></span><span class="p"><span class="pre">]</span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg10Image1080p5frameE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg9Image720pE">
+<span id="_CPPv3N7cpp_msg7cpp_msg9Image720pE"></span><span id="_CPPv2N7cpp_msg7cpp_msg9Image720pE"></span><span id="cpp_msg::cpp_msg::Image720p"></span><span class="target" id="structcpp__msg_1_1_image720p"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><span class="n"><span class="pre">cpp_msg</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">cpp_msg</span></span><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">Image720p</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg9Image720pE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg9Image720p6headerE">
+<span id="_CPPv3N7cpp_msg7cpp_msg9Image720p6headerE"></span><span id="_CPPv2N7cpp_msg7cpp_msg9Image720p6headerE"></span><span id="cpp_msg::cpp_msg::Image720p::header__Header"></span><span class="target" id="structcpp__msg_1_1_image720p_1adc8c112645eec312968387ad22a707b6"></span><a class="reference internal" href="#_CPPv4N7cpp_msg7cpp_msg6HeaderE" title="cpp_msg::cpp_msg::Header"><span class="n"><span class="pre">Header</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">header</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg9Image720p6headerE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg9Image720p5frameE">
+<span id="_CPPv3N7cpp_msg7cpp_msg9Image720p5frameE"></span><span id="_CPPv2N7cpp_msg7cpp_msg9Image720p5frameE"></span><span id="cpp_msg::cpp_msg::Image720p::frame__uint8_tA"></span><span class="target" id="structcpp__msg_1_1_image720p_1abf6b0cd21e88eab22dcfc01ff8c266b1"></span><span class="n"><span class="pre">uint8_t</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">frame</span></span></span><span class="p"><span class="pre">[</span></span><span class="m"><span class="pre">1920</span></span><span class="w"> </span><span class="o"><span class="pre">*</span></span><span class="w"> </span><span class="m"><span class="pre">1080</span></span><span class="w"> </span><span class="o"><span class="pre">*</span></span><span class="w"> </span><span class="m"><span class="pre">3</span></span><span class="p"><span class="pre">]</span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg9Image720p5frameE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg5MocapE">
+<span id="_CPPv3N7cpp_msg7cpp_msg5MocapE"></span><span id="_CPPv2N7cpp_msg7cpp_msg5MocapE"></span><span id="cpp_msg::cpp_msg::Mocap"></span><span class="target" id="structcpp__msg_1_1_mocap"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><span class="n"><span class="pre">cpp_msg</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">cpp_msg</span></span><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">Mocap</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg5MocapE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg5Mocap6headerE">
+<span id="_CPPv3N7cpp_msg7cpp_msg5Mocap6headerE"></span><span id="_CPPv2N7cpp_msg7cpp_msg5Mocap6headerE"></span><span id="cpp_msg::cpp_msg::Mocap::header__Header"></span><span class="target" id="structcpp__msg_1_1_mocap_1ad2a7519555c6fb9940d755f23571e0ef"></span><a class="reference internal" href="#_CPPv4N7cpp_msg7cpp_msg6HeaderE" title="cpp_msg::cpp_msg::Header"><span class="n"><span class="pre">Header</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">header</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg5Mocap6headerE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg5Mocap4poseE">
+<span id="_CPPv3N7cpp_msg7cpp_msg5Mocap4poseE"></span><span id="_CPPv2N7cpp_msg7cpp_msg5Mocap4poseE"></span><span id="cpp_msg::cpp_msg::Mocap::pose__Pose"></span><span class="target" id="structcpp__msg_1_1_mocap_1abb817836d6ffacfed4e52be9678ca260"></span><a class="reference internal" href="#_CPPv4N7cpp_msg7cpp_msg4PoseE" title="cpp_msg::cpp_msg::Pose"><span class="n"><span class="pre">Pose</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">pose</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg5Mocap4poseE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg5Mocap7latencyE">
+<span id="_CPPv3N7cpp_msg7cpp_msg5Mocap7latencyE"></span><span id="_CPPv2N7cpp_msg7cpp_msg5Mocap7latencyE"></span><span id="cpp_msg::cpp_msg::Mocap::latency__float"></span><span class="target" id="structcpp__msg_1_1_mocap_1a4cb0bce09a811ae56150fc6b78ed964c"></span><span class="kt"><span class="pre">float</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">latency</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg5Mocap7latencyE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg10MotorSpeedE">
+<span id="_CPPv3N7cpp_msg7cpp_msg10MotorSpeedE"></span><span id="_CPPv2N7cpp_msg7cpp_msg10MotorSpeedE"></span><span id="cpp_msg::cpp_msg::MotorSpeed"></span><span class="target" id="structcpp__msg_1_1_motor_speed"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><span class="n"><span class="pre">cpp_msg</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">cpp_msg</span></span><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">MotorSpeed</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg10MotorSpeedE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg10MotorSpeed11motor_speedE">
+<span id="_CPPv3N7cpp_msg7cpp_msg10MotorSpeed11motor_speedE"></span><span id="_CPPv2N7cpp_msg7cpp_msg10MotorSpeed11motor_speedE"></span><span id="cpp_msg::cpp_msg::MotorSpeed::motor_speed__float"></span><span class="target" id="structcpp__msg_1_1_motor_speed_1a08068b33f9e03794c5274f818fe9ebbb"></span><span class="kt"><span class="pre">float</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">motor_speed</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg10MotorSpeed11motor_speedE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg4PoseE">
+<span id="_CPPv3N7cpp_msg7cpp_msg4PoseE"></span><span id="_CPPv2N7cpp_msg7cpp_msg4PoseE"></span><span id="cpp_msg::cpp_msg::Pose"></span><span class="target" id="structcpp__msg_1_1_pose"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><span class="n"><span class="pre">cpp_msg</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">cpp_msg</span></span><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">Pose</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg4PoseE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg4Pose6headerE">
+<span id="_CPPv3N7cpp_msg7cpp_msg4Pose6headerE"></span><span id="_CPPv2N7cpp_msg7cpp_msg4Pose6headerE"></span><span id="cpp_msg::cpp_msg::Pose::header__Header"></span><span class="target" id="structcpp__msg_1_1_pose_1a07e47b6cdab3b57a901a7a90d9abe067"></span><a class="reference internal" href="#_CPPv4N7cpp_msg7cpp_msg6HeaderE" title="cpp_msg::cpp_msg::Header"><span class="n"><span class="pre">Header</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">header</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg4Pose6headerE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg4Pose8positionE">
+<span id="_CPPv3N7cpp_msg7cpp_msg4Pose8positionE"></span><span id="_CPPv2N7cpp_msg7cpp_msg4Pose8positionE"></span><span id="cpp_msg::cpp_msg::Pose::position__Position"></span><span class="target" id="structcpp__msg_1_1_pose_1afd12c5fdb9cf08d99353a73625a63207"></span><a class="reference internal" href="#_CPPv4N7cpp_msg7cpp_msg8PositionE" title="cpp_msg::cpp_msg::Position"><span class="n"><span class="pre">Position</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">position</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg4Pose8positionE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg4Pose17orientation_eulerE">
+<span id="_CPPv3N7cpp_msg7cpp_msg4Pose17orientation_eulerE"></span><span id="_CPPv2N7cpp_msg7cpp_msg4Pose17orientation_eulerE"></span><span id="cpp_msg::cpp_msg::Pose::orientation_euler__EulerAngleZYZ"></span><span class="target" id="structcpp__msg_1_1_pose_1a6a4f8b34edf7fd94698b904daa7a82d4"></span><a class="reference internal" href="#_CPPv4N7cpp_msg7cpp_msg13EulerAngleZYZE" title="cpp_msg::cpp_msg::EulerAngleZYZ"><span class="n"><span class="pre">EulerAngleZYZ</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">orientation_euler</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg4Pose17orientation_eulerE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg4Pose16orientation_quatE">
+<span id="_CPPv3N7cpp_msg7cpp_msg4Pose16orientation_quatE"></span><span id="_CPPv2N7cpp_msg7cpp_msg4Pose16orientation_quatE"></span><span id="cpp_msg::cpp_msg::Pose::orientation_quat__Quaternion"></span><span class="target" id="structcpp__msg_1_1_pose_1a69467b8f443734b02788937b0ab79e5e"></span><a class="reference internal" href="#_CPPv4N7cpp_msg7cpp_msg10QuaternionE" title="cpp_msg::cpp_msg::Quaternion"><span class="n"><span class="pre">Quaternion</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">orientation_quat</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg4Pose16orientation_quatE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg8PositionE">
+<span id="_CPPv3N7cpp_msg7cpp_msg8PositionE"></span><span id="_CPPv2N7cpp_msg7cpp_msg8PositionE"></span><span id="cpp_msg::cpp_msg::Position"></span><span class="target" id="structcpp__msg_1_1_position"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><span class="n"><span class="pre">cpp_msg</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">cpp_msg</span></span><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">Position</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg8PositionE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg8Position1xE">
+<span id="_CPPv3N7cpp_msg7cpp_msg8Position1xE"></span><span id="_CPPv2N7cpp_msg7cpp_msg8Position1xE"></span><span id="cpp_msg::cpp_msg::Position::x__float"></span><span class="target" id="structcpp__msg_1_1_position_1a6bfb79bfc51a591b281f1db2b8805d2d"></span><span class="kt"><span class="pre">float</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">x</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg8Position1xE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg8Position1yE">
+<span id="_CPPv3N7cpp_msg7cpp_msg8Position1yE"></span><span id="_CPPv2N7cpp_msg7cpp_msg8Position1yE"></span><span id="cpp_msg::cpp_msg::Position::y__float"></span><span class="target" id="structcpp__msg_1_1_position_1ad183e54933e15c4967306aee201c3dda"></span><span class="kt"><span class="pre">float</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">y</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg8Position1yE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg8Position1zE">
+<span id="_CPPv3N7cpp_msg7cpp_msg8Position1zE"></span><span id="_CPPv2N7cpp_msg7cpp_msg8Position1zE"></span><span id="cpp_msg::cpp_msg::Position::z__float"></span><span class="target" id="structcpp__msg_1_1_position_1a67f3e06a74b5eb174276bb9d01529f16"></span><span class="kt"><span class="pre">float</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">z</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg8Position1zE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg19QuadAttitudeCommandE">
+<span id="_CPPv3N7cpp_msg7cpp_msg19QuadAttitudeCommandE"></span><span id="_CPPv2N7cpp_msg7cpp_msg19QuadAttitudeCommandE"></span><span id="cpp_msg::cpp_msg::QuadAttitudeCommand"></span><span class="target" id="structcpp__msg_1_1_quad_attitude_command"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><span class="n"><span class="pre">cpp_msg</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">cpp_msg</span></span><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">QuadAttitudeCommand</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg19QuadAttitudeCommandE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg19QuadAttitudeCommand6headerE">
+<span id="_CPPv3N7cpp_msg7cpp_msg19QuadAttitudeCommand6headerE"></span><span id="_CPPv2N7cpp_msg7cpp_msg19QuadAttitudeCommand6headerE"></span><span id="cpp_msg::cpp_msg::QuadAttitudeCommand::header__Header"></span><span class="target" id="structcpp__msg_1_1_quad_attitude_command_1a00a6863ccce914115df44392b473db13"></span><a class="reference internal" href="#_CPPv4N7cpp_msg7cpp_msg6HeaderE" title="cpp_msg::cpp_msg::Header"><span class="n"><span class="pre">Header</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">header</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg19QuadAttitudeCommand6headerE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg19QuadAttitudeCommand6thrustE">
+<span id="_CPPv3N7cpp_msg7cpp_msg19QuadAttitudeCommand6thrustE"></span><span id="_CPPv2N7cpp_msg7cpp_msg19QuadAttitudeCommand6thrustE"></span><span id="cpp_msg::cpp_msg::QuadAttitudeCommand::thrust__float"></span><span class="target" id="structcpp__msg_1_1_quad_attitude_command_1a5e2ea6e8eaeba73a8a8ca13f24c4aba4"></span><span class="kt"><span class="pre">float</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">thrust</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg19QuadAttitudeCommand6thrustE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg19QuadAttitudeCommand4rollE">
+<span id="_CPPv3N7cpp_msg7cpp_msg19QuadAttitudeCommand4rollE"></span><span id="_CPPv2N7cpp_msg7cpp_msg19QuadAttitudeCommand4rollE"></span><span id="cpp_msg::cpp_msg::QuadAttitudeCommand::roll__float"></span><span class="target" id="structcpp__msg_1_1_quad_attitude_command_1a74235c136619d7a572bd198e5eaad87e"></span><span class="kt"><span class="pre">float</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">roll</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg19QuadAttitudeCommand4rollE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg19QuadAttitudeCommand5pitchE">
+<span id="_CPPv3N7cpp_msg7cpp_msg19QuadAttitudeCommand5pitchE"></span><span id="_CPPv2N7cpp_msg7cpp_msg19QuadAttitudeCommand5pitchE"></span><span id="cpp_msg::cpp_msg::QuadAttitudeCommand::pitch__float"></span><span class="target" id="structcpp__msg_1_1_quad_attitude_command_1a8e48128508e44f649cdf3d021b6e81f2"></span><span class="kt"><span class="pre">float</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">pitch</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg19QuadAttitudeCommand5pitchE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg19QuadAttitudeCommand3yawE">
+<span id="_CPPv3N7cpp_msg7cpp_msg19QuadAttitudeCommand3yawE"></span><span id="_CPPv2N7cpp_msg7cpp_msg19QuadAttitudeCommand3yawE"></span><span id="cpp_msg::cpp_msg::QuadAttitudeCommand::yaw__float"></span><span class="target" id="structcpp__msg_1_1_quad_attitude_command_1a9eddc52267c64a2286d3c8d0927ea541"></span><span class="kt"><span class="pre">float</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">yaw</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg19QuadAttitudeCommand3yawE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg23QuadAttitudeRateCommandE">
+<span id="_CPPv3N7cpp_msg7cpp_msg23QuadAttitudeRateCommandE"></span><span id="_CPPv2N7cpp_msg7cpp_msg23QuadAttitudeRateCommandE"></span><span id="cpp_msg::cpp_msg::QuadAttitudeRateCommand"></span><span class="target" id="structcpp__msg_1_1_quad_attitude_rate_command"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><span class="n"><span class="pre">cpp_msg</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">cpp_msg</span></span><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">QuadAttitudeRateCommand</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg23QuadAttitudeRateCommandE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg23QuadAttitudeRateCommand6headerE">
+<span id="_CPPv3N7cpp_msg7cpp_msg23QuadAttitudeRateCommand6headerE"></span><span id="_CPPv2N7cpp_msg7cpp_msg23QuadAttitudeRateCommand6headerE"></span><span id="cpp_msg::cpp_msg::QuadAttitudeRateCommand::header__Header"></span><span class="target" id="structcpp__msg_1_1_quad_attitude_rate_command_1a06111036553e1977a3b468966c2bbf45"></span><a class="reference internal" href="#_CPPv4N7cpp_msg7cpp_msg6HeaderE" title="cpp_msg::cpp_msg::Header"><span class="n"><span class="pre">Header</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">header</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg23QuadAttitudeRateCommand6headerE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg23QuadAttitudeRateCommand6thrustE">
+<span id="_CPPv3N7cpp_msg7cpp_msg23QuadAttitudeRateCommand6thrustE"></span><span id="_CPPv2N7cpp_msg7cpp_msg23QuadAttitudeRateCommand6thrustE"></span><span id="cpp_msg::cpp_msg::QuadAttitudeRateCommand::thrust__float"></span><span class="target" id="structcpp__msg_1_1_quad_attitude_rate_command_1a1dd0e18efa182ab92468f1de56de724f"></span><span class="kt"><span class="pre">float</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">thrust</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg23QuadAttitudeRateCommand6thrustE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg23QuadAttitudeRateCommand9roll_rateE">
+<span id="_CPPv3N7cpp_msg7cpp_msg23QuadAttitudeRateCommand9roll_rateE"></span><span id="_CPPv2N7cpp_msg7cpp_msg23QuadAttitudeRateCommand9roll_rateE"></span><span id="cpp_msg::cpp_msg::QuadAttitudeRateCommand::roll_rate__float"></span><span class="target" id="structcpp__msg_1_1_quad_attitude_rate_command_1a1f002fedc7c4ed21ca1c5302fd9dc2b2"></span><span class="kt"><span class="pre">float</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">roll_rate</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg23QuadAttitudeRateCommand9roll_rateE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg23QuadAttitudeRateCommand10pitch_rateE">
+<span id="_CPPv3N7cpp_msg7cpp_msg23QuadAttitudeRateCommand10pitch_rateE"></span><span id="_CPPv2N7cpp_msg7cpp_msg23QuadAttitudeRateCommand10pitch_rateE"></span><span id="cpp_msg::cpp_msg::QuadAttitudeRateCommand::pitch_rate__float"></span><span class="target" id="structcpp__msg_1_1_quad_attitude_rate_command_1aae1ee8fda3cbb3bcd90fedb131eedbb7"></span><span class="kt"><span class="pre">float</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">pitch_rate</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg23QuadAttitudeRateCommand10pitch_rateE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg23QuadAttitudeRateCommand8yaw_rateE">
+<span id="_CPPv3N7cpp_msg7cpp_msg23QuadAttitudeRateCommand8yaw_rateE"></span><span id="_CPPv2N7cpp_msg7cpp_msg23QuadAttitudeRateCommand8yaw_rateE"></span><span id="cpp_msg::cpp_msg::QuadAttitudeRateCommand::yaw_rate__float"></span><span class="target" id="structcpp__msg_1_1_quad_attitude_rate_command_1a8acee7be8de03342759324043bb5613b"></span><span class="kt"><span class="pre">float</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">yaw_rate</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg23QuadAttitudeRateCommand8yaw_rateE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg16QuadMotorCommandE">
+<span id="_CPPv3N7cpp_msg7cpp_msg16QuadMotorCommandE"></span><span id="_CPPv2N7cpp_msg7cpp_msg16QuadMotorCommandE"></span><span id="cpp_msg::cpp_msg::QuadMotorCommand"></span><span class="target" id="structcpp__msg_1_1_quad_motor_command"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><span class="n"><span class="pre">cpp_msg</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">cpp_msg</span></span><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">QuadMotorCommand</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg16QuadMotorCommandE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg16QuadMotorCommand6headerE">
+<span id="_CPPv3N7cpp_msg7cpp_msg16QuadMotorCommand6headerE"></span><span id="_CPPv2N7cpp_msg7cpp_msg16QuadMotorCommand6headerE"></span><span id="cpp_msg::cpp_msg::QuadMotorCommand::header__Header"></span><span class="target" id="structcpp__msg_1_1_quad_motor_command_1a82b29c0f566141acf8d8abcc4520a48a"></span><a class="reference internal" href="#_CPPv4N7cpp_msg7cpp_msg6HeaderE" title="cpp_msg::cpp_msg::Header"><span class="n"><span class="pre">Header</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">header</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg16QuadMotorCommand6headerE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg16QuadMotorCommand10motorspeedE">
+<span id="_CPPv3N7cpp_msg7cpp_msg16QuadMotorCommand10motorspeedE"></span><span id="_CPPv2N7cpp_msg7cpp_msg16QuadMotorCommand10motorspeedE"></span><span id="cpp_msg::cpp_msg::QuadMotorCommand::motorspeed__floatA"></span><span class="target" id="structcpp__msg_1_1_quad_motor_command_1ad563a141a54ebfeab9c99a3c44ccedeb"></span><span class="kt"><span class="pre">float</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">motorspeed</span></span></span><span class="p"><span class="pre">[</span></span><span class="m"><span class="pre">4</span></span><span class="p"><span class="pre">]</span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg16QuadMotorCommand10motorspeedE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg15QuadPositionCmdE">
+<span id="_CPPv3N7cpp_msg7cpp_msg15QuadPositionCmdE"></span><span id="_CPPv2N7cpp_msg7cpp_msg15QuadPositionCmdE"></span><span id="cpp_msg::cpp_msg::QuadPositionCmd"></span><span class="target" id="structcpp__msg_1_1_quad_position_cmd"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><span class="n"><span class="pre">cpp_msg</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">cpp_msg</span></span><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">QuadPositionCmd</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg15QuadPositionCmdE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg15QuadPositionCmd6headerE">
+<span id="_CPPv3N7cpp_msg7cpp_msg15QuadPositionCmd6headerE"></span><span id="_CPPv2N7cpp_msg7cpp_msg15QuadPositionCmd6headerE"></span><span id="cpp_msg::cpp_msg::QuadPositionCmd::header__Header"></span><span class="target" id="structcpp__msg_1_1_quad_position_cmd_1a86d7556e2095d6dc6e1d674eca51c1ec"></span><a class="reference internal" href="#_CPPv4N7cpp_msg7cpp_msg6HeaderE" title="cpp_msg::cpp_msg::Header"><span class="n"><span class="pre">Header</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">header</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg15QuadPositionCmd6headerE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg15QuadPositionCmd8positionE">
+<span id="_CPPv3N7cpp_msg7cpp_msg15QuadPositionCmd8positionE"></span><span id="_CPPv2N7cpp_msg7cpp_msg15QuadPositionCmd8positionE"></span><span id="cpp_msg::cpp_msg::QuadPositionCmd::position__Position"></span><span class="target" id="structcpp__msg_1_1_quad_position_cmd_1a06f8d856735d74513f399bc221b23a1d"></span><a class="reference internal" href="#_CPPv4N7cpp_msg7cpp_msg8PositionE" title="cpp_msg::cpp_msg::Position"><span class="n"><span class="pre">Position</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">position</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg15QuadPositionCmd8positionE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg15QuadPositionCmd9yaw_angleE">
+<span id="_CPPv3N7cpp_msg7cpp_msg15QuadPositionCmd9yaw_angleE"></span><span id="_CPPv2N7cpp_msg7cpp_msg15QuadPositionCmd9yaw_angleE"></span><span id="cpp_msg::cpp_msg::QuadPositionCmd::yaw_angle__float"></span><span class="target" id="structcpp__msg_1_1_quad_position_cmd_1a2cae8a80744c6d5bf8f302e7b652f054"></span><span class="kt"><span class="pre">float</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">yaw_angle</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg15QuadPositionCmd9yaw_angleE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg15QuadVelocityCmdE">
+<span id="_CPPv3N7cpp_msg7cpp_msg15QuadVelocityCmdE"></span><span id="_CPPv2N7cpp_msg7cpp_msg15QuadVelocityCmdE"></span><span id="cpp_msg::cpp_msg::QuadVelocityCmd"></span><span class="target" id="structcpp__msg_1_1_quad_velocity_cmd"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><span class="n"><span class="pre">cpp_msg</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">cpp_msg</span></span><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">QuadVelocityCmd</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg15QuadVelocityCmdE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg15QuadVelocityCmd6headerE">
+<span id="_CPPv3N7cpp_msg7cpp_msg15QuadVelocityCmd6headerE"></span><span id="_CPPv2N7cpp_msg7cpp_msg15QuadVelocityCmd6headerE"></span><span id="cpp_msg::cpp_msg::QuadVelocityCmd::header__Header"></span><span class="target" id="structcpp__msg_1_1_quad_velocity_cmd_1acb4eac75247a462706207e9adac62895"></span><a class="reference internal" href="#_CPPv4N7cpp_msg7cpp_msg6HeaderE" title="cpp_msg::cpp_msg::Header"><span class="n"><span class="pre">Header</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">header</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg15QuadVelocityCmd6headerE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg15QuadVelocityCmd8velocityE">
+<span id="_CPPv3N7cpp_msg7cpp_msg15QuadVelocityCmd8velocityE"></span><span id="_CPPv2N7cpp_msg7cpp_msg15QuadVelocityCmd8velocityE"></span><span id="cpp_msg::cpp_msg::QuadVelocityCmd::velocity__Velocity"></span><span class="target" id="structcpp__msg_1_1_quad_velocity_cmd_1a5b63bbe2ad74400b7ac2c8768c415e2f"></span><a class="reference internal" href="#_CPPv4N7cpp_msg7cpp_msg8VelocityE" title="cpp_msg::cpp_msg::Velocity"><span class="n"><span class="pre">Velocity</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">velocity</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg15QuadVelocityCmd8velocityE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg15QuadVelocityCmd9yaw_angleE">
+<span id="_CPPv3N7cpp_msg7cpp_msg15QuadVelocityCmd9yaw_angleE"></span><span id="_CPPv2N7cpp_msg7cpp_msg15QuadVelocityCmd9yaw_angleE"></span><span id="cpp_msg::cpp_msg::QuadVelocityCmd::yaw_angle__float"></span><span class="target" id="structcpp__msg_1_1_quad_velocity_cmd_1a6096efa9eaf74b7c27e0a9c520c970f3"></span><span class="kt"><span class="pre">float</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">yaw_angle</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg15QuadVelocityCmd9yaw_angleE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg10QuaternionE">
+<span id="_CPPv3N7cpp_msg7cpp_msg10QuaternionE"></span><span id="_CPPv2N7cpp_msg7cpp_msg10QuaternionE"></span><span id="cpp_msg::cpp_msg::Quaternion"></span><span class="target" id="structcpp__msg_1_1_quaternion"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><span class="n"><span class="pre">cpp_msg</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">cpp_msg</span></span><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">Quaternion</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg10QuaternionE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg10Quaternion1xE">
+<span id="_CPPv3N7cpp_msg7cpp_msg10Quaternion1xE"></span><span id="_CPPv2N7cpp_msg7cpp_msg10Quaternion1xE"></span><span id="cpp_msg::cpp_msg::Quaternion::x__float"></span><span class="target" id="structcpp__msg_1_1_quaternion_1a7b91c75600954317bae69c3f84dba37b"></span><span class="kt"><span class="pre">float</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">x</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg10Quaternion1xE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg10Quaternion1yE">
+<span id="_CPPv3N7cpp_msg7cpp_msg10Quaternion1yE"></span><span id="_CPPv2N7cpp_msg7cpp_msg10Quaternion1yE"></span><span id="cpp_msg::cpp_msg::Quaternion::y__float"></span><span class="target" id="structcpp__msg_1_1_quaternion_1a902b5d4630df69167b625b1782a6a477"></span><span class="kt"><span class="pre">float</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">y</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg10Quaternion1yE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg10Quaternion1zE">
+<span id="_CPPv3N7cpp_msg7cpp_msg10Quaternion1zE"></span><span id="_CPPv2N7cpp_msg7cpp_msg10Quaternion1zE"></span><span id="cpp_msg::cpp_msg::Quaternion::z__float"></span><span class="target" id="structcpp__msg_1_1_quaternion_1adb1f8b05d387e1ff984bd2a3710580e5"></span><span class="kt"><span class="pre">float</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">z</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg10Quaternion1zE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg10Quaternion1wE">
+<span id="_CPPv3N7cpp_msg7cpp_msg10Quaternion1wE"></span><span id="_CPPv2N7cpp_msg7cpp_msg10Quaternion1wE"></span><span id="cpp_msg::cpp_msg::Quaternion::w__float"></span><span class="target" id="structcpp__msg_1_1_quaternion_1ad5b44ffdf8037c62b4251eeee411755c"></span><span class="kt"><span class="pre">float</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">w</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg10Quaternion1wE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg19ThrustTorqueCommandE">
+<span id="_CPPv3N7cpp_msg7cpp_msg19ThrustTorqueCommandE"></span><span id="_CPPv2N7cpp_msg7cpp_msg19ThrustTorqueCommandE"></span><span id="cpp_msg::cpp_msg::ThrustTorqueCommand"></span><span class="target" id="structcpp__msg_1_1_thrust_torque_command"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><span class="n"><span class="pre">cpp_msg</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">cpp_msg</span></span><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">ThrustTorqueCommand</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg19ThrustTorqueCommandE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg19ThrustTorqueCommand6headerE">
+<span id="_CPPv3N7cpp_msg7cpp_msg19ThrustTorqueCommand6headerE"></span><span id="_CPPv2N7cpp_msg7cpp_msg19ThrustTorqueCommand6headerE"></span><span id="cpp_msg::cpp_msg::ThrustTorqueCommand::header__Header"></span><span class="target" id="structcpp__msg_1_1_thrust_torque_command_1a67991adf1c5b1057210ed31a63088933"></span><a class="reference internal" href="#_CPPv4N7cpp_msg7cpp_msg6HeaderE" title="cpp_msg::cpp_msg::Header"><span class="n"><span class="pre">Header</span></span></a><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">header</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg19ThrustTorqueCommand6headerE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg19ThrustTorqueCommand6thrustE">
+<span id="_CPPv3N7cpp_msg7cpp_msg19ThrustTorqueCommand6thrustE"></span><span id="_CPPv2N7cpp_msg7cpp_msg19ThrustTorqueCommand6thrustE"></span><span id="cpp_msg::cpp_msg::ThrustTorqueCommand::thrust__float"></span><span class="target" id="structcpp__msg_1_1_thrust_torque_command_1a3a8e4e054f67bbf5f3b85d226a92d443"></span><span class="kt"><span class="pre">float</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">thrust</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg19ThrustTorqueCommand6thrustE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg19ThrustTorqueCommand11roll_torqueE">
+<span id="_CPPv3N7cpp_msg7cpp_msg19ThrustTorqueCommand11roll_torqueE"></span><span id="_CPPv2N7cpp_msg7cpp_msg19ThrustTorqueCommand11roll_torqueE"></span><span id="cpp_msg::cpp_msg::ThrustTorqueCommand::roll_torque__float"></span><span class="target" id="structcpp__msg_1_1_thrust_torque_command_1a9784a0a503383f584db539382c303524"></span><span class="kt"><span class="pre">float</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">roll_torque</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg19ThrustTorqueCommand11roll_torqueE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg19ThrustTorqueCommand12pitch_torqueE">
+<span id="_CPPv3N7cpp_msg7cpp_msg19ThrustTorqueCommand12pitch_torqueE"></span><span id="_CPPv2N7cpp_msg7cpp_msg19ThrustTorqueCommand12pitch_torqueE"></span><span id="cpp_msg::cpp_msg::ThrustTorqueCommand::pitch_torque__float"></span><span class="target" id="structcpp__msg_1_1_thrust_torque_command_1ad281cb03710785d29202e44a663d51e9"></span><span class="kt"><span class="pre">float</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">pitch_torque</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg19ThrustTorqueCommand12pitch_torqueE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg19ThrustTorqueCommand10yaw_torqueE">
+<span id="_CPPv3N7cpp_msg7cpp_msg19ThrustTorqueCommand10yaw_torqueE"></span><span id="_CPPv2N7cpp_msg7cpp_msg19ThrustTorqueCommand10yaw_torqueE"></span><span id="cpp_msg::cpp_msg::ThrustTorqueCommand::yaw_torque__float"></span><span class="target" id="structcpp__msg_1_1_thrust_torque_command_1aee78d266dfc871aa94096ffa78122607"></span><span class="kt"><span class="pre">float</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">yaw_torque</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg19ThrustTorqueCommand10yaw_torqueE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+<dl class="cpp struct">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg8VelocityE">
+<span id="_CPPv3N7cpp_msg7cpp_msg8VelocityE"></span><span id="_CPPv2N7cpp_msg7cpp_msg8VelocityE"></span><span id="cpp_msg::cpp_msg::Velocity"></span><span class="target" id="structcpp__msg_1_1_velocity"></span><span class="k"><span class="pre">struct</span></span><span class="w"> </span><span class="sig-prename descclassname"><span class="n"><span class="pre">cpp_msg</span></span><span class="p"><span class="pre">::</span></span><span class="n"><span class="pre">cpp_msg</span></span><span class="p"><span class="pre">::</span></span></span><span class="sig-name descname"><span class="n"><span class="pre">Velocity</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg8VelocityE" title="Permalink to this definition"></a><br /></dt>
+<dd><div class="breathe-sectiondef docutils container">
+<p class="breathe-sectiondef-title rubric" id="breathe-section-title-public-members">Public Members</p>
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg8Velocity1xE">
+<span id="_CPPv3N7cpp_msg7cpp_msg8Velocity1xE"></span><span id="_CPPv2N7cpp_msg7cpp_msg8Velocity1xE"></span><span id="cpp_msg::cpp_msg::Velocity::x__float"></span><span class="target" id="structcpp__msg_1_1_velocity_1a0353da591d0b1868bdcf93cbc89807fa"></span><span class="kt"><span class="pre">float</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">x</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg8Velocity1xE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg8Velocity1yE">
+<span id="_CPPv3N7cpp_msg7cpp_msg8Velocity1yE"></span><span id="_CPPv2N7cpp_msg7cpp_msg8Velocity1yE"></span><span id="cpp_msg::cpp_msg::Velocity::y__float"></span><span class="target" id="structcpp__msg_1_1_velocity_1aae75972e7eba1aae6d35a68f7a97b0d5"></span><span class="kt"><span class="pre">float</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">y</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg8Velocity1yE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+<dl class="cpp var">
+<dt class="sig sig-object cpp" id="_CPPv4N7cpp_msg7cpp_msg8Velocity1zE">
+<span id="_CPPv3N7cpp_msg7cpp_msg8Velocity1zE"></span><span id="_CPPv2N7cpp_msg7cpp_msg8Velocity1zE"></span><span id="cpp_msg::cpp_msg::Velocity::z__float"></span><span class="target" id="structcpp__msg_1_1_velocity_1a46340273fc5022dae6331717c45e1f94"></span><span class="kt"><span class="pre">float</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">z</span></span></span><a class="headerlink" href="#_CPPv4N7cpp_msg7cpp_msg8Velocity1zE" title="Permalink to this definition"></a><br /></dt>
+<dd></dd></dl>
+
+</div>
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="subscriber.html" class="btn btn-neutral float-left" title="Subscriber" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, sarath_suresh.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

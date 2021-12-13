@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DDS (Data Distribuion Services) &mdash; comm_lib  documentation</title>
+  <title>SRL Communication library &mdash; SRL Communication library  documentation</title>
       <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../../_static/graphviz.css" type="text/css" />
@@ -19,8 +19,8 @@
     <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Writing a simple publisher and subscriber" href="../tutorials/simple_demo.html" />
-    <link rel="prev" title="Installing on Windows" href="../installation/install_win.html" /> 
+    <link rel="next" title="Installing on Linux and MacOS" href="../installation/install_linux_mac.html" />
+    <link rel="prev" title="A DDS based middleware for Robotics" href="../../index.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -28,7 +28,7 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-            <a href="../../index.html" class="icon icon-home"> comm_lib
+            <a href="../../index.html" class="icon icon-home"> SRL Communication library
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
@@ -38,17 +38,19 @@
   </form>
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <p class="caption" role="heading"><span class="caption-text">Installation</span></p>
+              <p class="caption" role="heading"><span class="caption-text">Concepts</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Introduction</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#supported-devices">Supported devices</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#but-what-is-dds">But what is DDS ?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#why-not-just-use-ros1-of-ros2">Why not just use ROS1 of ROS2?</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Installation</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../installation/install_linux_mac.html">Installing on mac and linux</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../installation/install_win.html">Installing on windows</a></li>
-</ul>
-<p class="caption" role="heading"><span class="caption-text">Concepts</span></p>
-<ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Introduction</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#why-not-just-use-ros">Why not just use ROS?</a></li>
-</ul>
-</li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Tutorials</span></p>
 <ul>
@@ -66,6 +68,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../full_reference/domain_participant.html">Domain Participant</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../full_reference/publisher.html">Publisher</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../full_reference/subscriber.html">Subscriber</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../full_reference/messages_list.html">Messages</a></li>
 </ul>
 
         </div>
@@ -74,7 +77,7 @@
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="../../index.html">comm_lib</a>
+          <a href="../../index.html">SRL Communication library</a>
       </nav>
 
       <div class="wy-nav-content">
@@ -82,7 +85,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
-      <li>DDS (Data Distribuion Services)</li>
+      <li>SRL Communication library</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../../_sources/contents/concepts/fastdds_intro.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -92,9 +95,29 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="dds-data-distribuion-services">
-<h1>DDS (Data Distribuion Services)<a class="headerlink" href="#dds-data-distribuion-services" title="Permalink to this headline"></a></h1>
-<p>The DDS (Data Distribuion Standard) is an open source standard for distributed and real
+  <section id="srl-communication-library">
+<h1>SRL Communication library<a class="headerlink" href="#srl-communication-library" title="Permalink to this headline"></a></h1>
+<p>SRL Communication library is a middleware solution for realtime communication based on the
+DDS Standard. The features include:</p>
+<ul class="simple">
+<li><p><strong>Cross platorm compatible:</strong> Supports windows, mac os, linux and raspbian. Forget being forced to install Ubuntu !.</p></li>
+<li><p><strong>High Performance:</strong>  Doesn’t sacrifice performance for ease of use unlike ROS2.</p></li>
+<li><p><strong>Plug and Play:</strong> No need for any network configuration. Everything just works !.</p></li>
+<li><p><strong>Ease of use:</strong> An easy-to-use API and message library similar to ROS1. Can be easily integrated into third party software such as game engines and GUI frameworks.</p></li>
+<li><p><strong>Low footprint:</strong> Light package size and minimal set of dependencies</p></li>
+</ul>
+<section id="supported-devices">
+<h2>Supported devices<a class="headerlink" href="#supported-devices" title="Permalink to this headline"></a></h2>
+<figure class="align-center" id="id1">
+<img alt="../../_images/data_types.pdf" src="../../_images/data_types.pdf" />
+<figcaption>
+<p><span class="caption-text">Range of supported devices and transport mechanisms</span><a class="headerlink" href="#id1" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="but-what-is-dds">
+<h2>But what is DDS ?<a class="headerlink" href="#but-what-is-dds" title="Permalink to this headline"></a></h2>
+<p>DDS (Data Distribuion Services) is an open source standard for distributed and real
 time systems. Smart Grids, Smart Cities, Defense, SCADA, Financial Trading, Air Traffic
 Control and Management, High Performance Telemetry and Large Scale Supervisory System.</p>
 <p>The core concept is the illusion of a Global Data Space (GDS) to which all connected devices have
@@ -105,14 +128,15 @@ opposed to abrupt failure. This ensures resilience and predictability under stre
 is critical for  autonomous systems operating in the real world.</p>
 <p>DDS offers dynamic discovery, which means that all devices connected to the local network
 are automatically discovered. No network configuration is required.</p>
-<figure class="align-center" id="id1">
+<figure class="align-center" id="id2">
 <img alt="../../_images/dds_brochure.pdf" src="../../_images/dds_brochure.pdf" />
 <figcaption>
-<p><span class="caption-text">Benefits of using the DDS Standard</span><a class="headerlink" href="#id1" title="Permalink to this image"></a></p>
+<p><span class="caption-text">Benefits of using the DDS Standard</span><a class="headerlink" href="#id2" title="Permalink to this image"></a></p>
 </figcaption>
 </figure>
-<section id="why-not-just-use-ros">
-<h2>Why not just use ROS?<a class="headerlink" href="#why-not-just-use-ros" title="Permalink to this headline"></a></h2>
+</section>
+<section id="why-not-just-use-ros1-of-ros2">
+<h2>Why not just use ROS1 of ROS2?<a class="headerlink" href="#why-not-just-use-ros1-of-ros2" title="Permalink to this headline"></a></h2>
 <p>Robotics projects typically use the ROS as the software framework. ROS is a set of excellent
 tools for visuaization, simulation, SLAM etc and middleware for communication between these
 tools. However, the ROS1 middleware does not satisfy time temporal deadlines and fault tolerances required for real
@@ -126,10 +150,10 @@ time: ROS2 to DDS while sending and DDS to ROS2 while receiving. [1][2] show tha
 conversion adds significant communication latency. Clearly, native DDS implementations are
 more suitable for time critical communication channels.In addition, there is an increasing
 need to communicate with software outside the ROS ecosystem, especially for simulation.</p>
-<figure class="align-center" id="id2">
+<figure class="align-center" id="id3">
 <img alt="../../_images/ros2_dataflow.pdf" src="../../_images/ros2_dataflow.pdf" />
 <figcaption>
-<p><span class="caption-text">Comparison of dataflow in ROS2 vs native dds implementation</span><a class="headerlink" href="#id2" title="Permalink to this image"></a></p>
+<p><span class="caption-text">Comparison of dataflow in ROS2 vs native dds implementation</span><a class="headerlink" href="#id3" title="Permalink to this image"></a></p>
 </figcaption>
 </figure>
 <p>Another issue is hardware and software compatibility. ROS2 supports Windows,  Mac OS and
@@ -140,12 +164,6 @@ minimal supporting software. Also, it is desirable to quickly incorporate new fe
 offered by the latest standards of C++.  In particular, more efficient methods are
 expected for asynchronous and concurrent programming. Such features can drastically
 improve processing speed and minimise communication latency.</p>
-<figure class="align-center" id="id3">
-<img alt="../../_images/data_types.pdf" src="../../_images/data_types.pdf" />
-<figcaption>
-<p><span class="caption-text">Range of supported devices and transport mechanisms</span><a class="headerlink" href="#id3" title="Permalink to this image"></a></p>
-</figcaption>
-</figure>
 </section>
 </section>
 
@@ -153,8 +171,8 @@ improve processing speed and minimise communication latency.</p>
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="../installation/install_win.html" class="btn btn-neutral float-left" title="Installing on Windows" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="../tutorials/simple_demo.html" class="btn btn-neutral float-right" title="Writing a simple publisher and subscriber" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../../index.html" class="btn btn-neutral float-left" title="A DDS based middleware for Robotics" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../installation/install_linux_mac.html" class="btn btn-neutral float-right" title="Installing on Linux and MacOS" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

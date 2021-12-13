@@ -7,14 +7,11 @@
 A DDS based middleware for Robotics
 ####################################
 
-Introduction
-====================================
+.. toctree::
+   :maxdepth: 2
+   :caption: Concepts
 
-1. A minimalist and intuitive API similar to pytorch and keras
-2. Doesn't confuse the beginner by providing a long list of hyperparameter choices
-
-Contents
-====================================
+   Introduction <contents/concepts/fastdds_intro>
 
 .. toctree::
    :maxdepth: 2
@@ -22,12 +19,6 @@ Contents
 
    Installing on mac and linux <contents/installation/install_linux_mac>
    Installing on windows <contents/installation/install_win>
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Concepts
-
-   Introduction <contents/concepts/fastdds_intro>
 
 .. toctree::
    :maxdepth: 2
@@ -51,4 +42,5 @@ Contents
    Domain Participant <contents/full_reference/domain_participant>
    Publisher <contents/full_reference/publisher>
    Subscriber <contents/full_reference/subscriber>
+   Messages <contents/full_reference/messages_list>
    
