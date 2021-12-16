@@ -1,5 +1,5 @@
-Installing on Linux and MacOS
-=============================
+Installing on Linux and Raspbian 
+=================================
 
 First, download the latest version of fastdds for linux from this link. Note that the linux 
 version works for macos as well. Extract the contents to your desired directory. To 
