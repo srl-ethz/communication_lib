@@ -5,15 +5,22 @@ SRL Communication library
 SRL Communication library is a middleware solution for realtime communication based on the 
 DDS Standard. The features include:
 
-* **Cross platorm compatible:** Supports windows, mac os, linux and raspbian. Forget being forced to install Ubuntu !.
+* **High Performance:**  Designed for low latency, high bandwidth communication. Doesn't sacrifice performance for ease of use unlike ROS2 (ROS2 uses DDS as middleware).
 
-* **High Performance:**  Doesn't sacrifice performance for ease of use unlike ROS2.
+* **Cross platorm compatible:** Supports windows, mac os, linux and raspbian.
 
 * **Plug and Play:** No need for any network configuration. Everything just works !.
 
-* **Ease of use:** An easy-to-use API and message library similar to ROS1. Can be easily integrated into third party software such as game engines and GUI frameworks.
+* **Ease of use:** An easy-to-use API and message library similar to ROS1. Can be easilyintegrated into third party software such as game engines and GUI frameworks.
 
-* **Low footprint:** Light package size and minimal set of dependencies 
+* **Low footprint:** Light package size and minimal set of dependencies.
+
+.. figure:: images/architecture_eg.png
+   :scale: 60 %
+   :align: center
+
+   Range of supported devices and transport mechanisms
+
 
 Supported devices
 =====================

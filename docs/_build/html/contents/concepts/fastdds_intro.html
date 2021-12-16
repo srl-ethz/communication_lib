@@ -100,18 +100,24 @@
 <p>SRL Communication library is a middleware solution for realtime communication based on the
 DDS Standard. The features include:</p>
 <ul class="simple">
-<li><p><strong>Cross platorm compatible:</strong> Supports windows, mac os, linux and raspbian. Forget being forced to install Ubuntu !.</p></li>
-<li><p><strong>High Performance:</strong>  Doesn’t sacrifice performance for ease of use unlike ROS2.</p></li>
+<li><p><strong>High Performance:</strong>  Designed for low latency, high bandwidth communication. Doesn’t sacrifice performance for ease of use unlike ROS2 (ROS2 uses DDS as middleware).</p></li>
+<li><p><strong>Cross platorm compatible:</strong> Supports windows, mac os, linux and raspbian.</p></li>
 <li><p><strong>Plug and Play:</strong> No need for any network configuration. Everything just works !.</p></li>
-<li><p><strong>Ease of use:</strong> An easy-to-use API and message library similar to ROS1. Can be easily integrated into third party software such as game engines and GUI frameworks.</p></li>
-<li><p><strong>Low footprint:</strong> Light package size and minimal set of dependencies</p></li>
+<li><p><strong>Ease of use:</strong> An easy-to-use API and message library similar to ROS1. Can be easilyintegrated into third party software such as game engines and GUI frameworks.</p></li>
+<li><p><strong>Low footprint:</strong> Light package size and minimal set of dependencies.</p></li>
 </ul>
-<section id="supported-devices">
-<h2>Supported devices<a class="headerlink" href="#supported-devices" title="Permalink to this headline"></a></h2>
 <figure class="align-center" id="id1">
-<a class="reference internal image-reference" href="../../_images/data_types.png"><img alt="../../_images/data_types.png" src="../../_images/data_types.png" style="width: 481.5px; height: 417.0px;" /></a>
+<a class="reference internal image-reference" href="../../_images/architecture_eg.png"><img alt="../../_images/architecture_eg.png" src="../../_images/architecture_eg.png" style="width: 703.1999999999999px; height: 297.59999999999997px;" /></a>
 <figcaption>
 <p><span class="caption-text">Range of supported devices and transport mechanisms</span><a class="headerlink" href="#id1" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<section id="supported-devices">
+<h2>Supported devices<a class="headerlink" href="#supported-devices" title="Permalink to this headline"></a></h2>
+<figure class="align-center" id="id2">
+<a class="reference internal image-reference" href="../../_images/data_types.png"><img alt="../../_images/data_types.png" src="../../_images/data_types.png" style="width: 481.5px; height: 417.0px;" /></a>
+<figcaption>
+<p><span class="caption-text">Range of supported devices and transport mechanisms</span><a class="headerlink" href="#id2" title="Permalink to this image"></a></p>
 </figcaption>
 </figure>
 </section>
@@ -144,10 +150,10 @@ time: ROS2 to DDS while sending and DDS to ROS2 while receiving. [1][2] show tha
 conversion adds significant communication latency. Clearly, native DDS implementations are
 more suitable for time critical communication channels.In addition, there is an increasing
 need to communicate with software outside the ROS ecosystem, especially for simulation.</p>
-<figure class="align-center" id="id2">
+<figure class="align-center" id="id3">
 <img alt="../../_images/ros2_dataflow.png" src="../../_images/ros2_dataflow.png" />
 <figcaption>
-<p><span class="caption-text">Comparison of dataflow in ROS2 vs native dds implementation</span><a class="headerlink" href="#id2" title="Permalink to this image"></a></p>
+<p><span class="caption-text">Comparison of dataflow in ROS2 vs native dds implementation</span><a class="headerlink" href="#id3" title="Permalink to this image"></a></p>
 </figcaption>
 </figure>
 <p>Another issue is hardware and software compatibility. ROS2 supports Windows,  Mac OS and
