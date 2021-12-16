@@ -17,7 +17,8 @@ A DDS based middleware for Robotics
    :maxdepth: 2
    :caption: Installation
 
-   Installing on mac and linux <contents/installation/install_linux_mac>
+   Installing on linux and raspbian <contents/installation/install_linux>
+   Installing on mac os <contents/installation/install_mac>
    Installing on windows <contents/installation/install_win>
 
 .. toctree::
