@@ -93,14 +93,9 @@
              
   <section id="installing-on-windows">
 <h1>Installing on Windows<a class="headerlink" href="#installing-on-windows" title="Permalink to this headline"></a></h1>
-<p>Fastdds requires visual studio to be installed on windows. After installing visual studio,
-download the latest stable release of fastdds from this link.</p>
-<p>Execute the installer and follow the on-screen instructions</p>
-<p>To install fastdds, run</p>
-<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span><span class="w"> </span><span class="o">&lt;</span><span class="n">extraction_directory</span><span class="o">&gt;</span><span class="w"></span>
-<span class="n">sudo</span><span class="w"> </span><span class="p">.</span><span class="o">/</span><span class="n">install</span><span class="p">.</span><span class="n">sh</span><span class="w"></span>
-</pre></div>
-</div>
+<p>Fastdds requires visual studio to be installed on windows. Download the latest version
+of fastdds for linux from this <a class="reference external" href="https://www.eprosima.com/index.php/component/ars/repository/eprosima-fast-dds">link</a>.
+Extract the contents to your desired directory. Execute the installer and follow the on-screen instructions</p>
 <p>Then, download and install communication_lib:</p>
 <div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="n">git</span><span class="w"> </span><span class="n">clone</span><span class="w"> </span><span class="o">--</span><span class="w"> </span><span class="n">recursive</span><span class="w"> </span><span class="nl">https</span><span class="p">:</span><span class="c1">//github.com/sarath-menon/communication_lib.git</span>
 <span class="n">cd</span><span class="w"> </span><span class="n">communication_lib</span><span class="w"></span>
@@ -110,7 +105,7 @@ download the latest stable release of fastdds from this link.</p>
 <span class="n">make</span><span class="w"></span>
 </pre></div>
 </div>
-<p>If you want to install the library systemwide, run:</p>
+<p>If you want to install the library systemwide (not recommended for first-time users), run:</p>
 <div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span><span class="w"> </span><span class="n">make</span><span class="w"> </span><span class="n">install</span><span class="w"></span>
 </pre></div>
 </div>
