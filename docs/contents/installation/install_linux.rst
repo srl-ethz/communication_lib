@@ -1,7 +1,7 @@
 Installing on Linux and Raspbian 
 =================================
 
-First, download the latest version of fastdds for linux from this link. Note that the linux 
+First, download the latest version of fastdds for linux from this `link <https://www.eprosima.com/index.php/component/ars/repository/eprosima-fast-dds>`_. Note that the linux 
 version works for macos as well. Extract the contents to your desired directory. To 
 install fastdds, run ::
 
@@ -17,7 +17,7 @@ Then, download and install communication_lib ::
   cmake ..
   make
 
-If you want to install the library systemwide, run ::
+If you want to install the library systemwide (not recommended for first-time users), run ::
 
   sudo make install
 

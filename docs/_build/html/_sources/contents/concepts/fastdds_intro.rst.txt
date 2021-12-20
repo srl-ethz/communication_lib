@@ -48,7 +48,7 @@ is critical for  autonomous systems operating in the real world.
 DDS offers dynamic discovery, which means that all devices connected to the local network 
 are automatically discovered. No network configuration is required. 
 
-Why not just use ROS1 of ROS2?
+Why not just use ROS1 or ROS2?
 ===============================
 
 Robotics projects typically use the ROS as the software framework. ROS is a set of excellent
@@ -58,12 +58,12 @@ time systems. This is is especially relevant for safety critical systems like fl
 and autonomous vehicles. Also, it is not a suitable choice for embedded onboard computer
 due to its resource intensive nature. ROS2 addresses these issues by replacing the transport
 system with DDS, an industry standard for real time communication between computers and
-embedded devices. ROS2 offers  an API similar to ROS1 as it is already popular in the
+embedded devices. ROS2 offers an API similar to ROS1 as it is already popular in the
 Robotics community. Unfortunately, this lease that messages must undergo conversion 2
-time: ROS2 to DDS while sending and DDS to ROS2 while receiving. [1][2] show that this 
-conversion adds significant communication latency. Clearly, native DDS implementations are 
-more suitable for time critical communication channels.In addition, there is an increasing 
-need to communicate with software outside the ROS ecosystem, especially for simulation. 
+time: ROS2 to DDS while sending and DDS to ROS2 while receiving. This conversion and the 
+subsequent internal notification adds considerable latency, sometimes doubling the original delay.
+Clearly, native DDS implementations are more suitable for time critical communication channels.In addition,
+there is an increasing need to communicate with software outside the ROS ecosystem, especially for simulation. 
 
 .. figure:: images/ros2_dataflow.png
    :align: center

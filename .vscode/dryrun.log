@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib'
+make: Leaving directory `/Users/sarathmenon/Desktop/eth_raptor/code/communication_lib'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+ 
