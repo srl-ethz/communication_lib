@@ -2,7 +2,7 @@ Middleware package for robotics based. It is based on DDS (Data Distribution Ser
 
  It is a zero runtime overhead abstraction over native Fastdds
  
- Documentation - https://sarath-menon.github.io/communication_lib/
+ Documentation - https://srl-ethz.github.io/communication_lib/
  
  # Features
 
